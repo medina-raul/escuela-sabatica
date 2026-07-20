@@ -15,6 +15,9 @@ const isFriday = activeDay?.id === "viernes";
 const hasViernes = reavivadosData.resources?.some((r: any) => r.id === `viernes-${lesson.number}`);
 const viernesFile = isFriday && hasViernes ? `/material/viernes${lesson.number}.html` : null;
 
+const hasMaestros = reavivadosData.resources?.some((r: any) => r.id === `maestros-${lesson.number}`);
+const maestrosFile = hasMaestros ? `/recursos/2026-q3/Maestros${lesson.number}.html` : null;
+
 const todayReading = activeDay?.date
   ? reavivadosData.reavivados?.find((r: { date: string }) => r.date === activeDay.date)
   : null;
@@ -82,11 +85,24 @@ const dayAbbr: Record<string, string> = {
   {viernesFile && (
     <section class="study-widget">
       <h3>Complemento del Viernes</h3>
-       <button type="button" class="sidebar-ppt-card" data-article-url={viernesFile} data-article-title="Comentario de la semana">
+       <button type="button" class="sidebar-ppt-card" data-article-url={viernesFile} data-article-title={`Comentario de la semana — Lección ${lesson.number}`}>
         <span class="sidebar-ppt-cover">
           <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
         </span>
         <strong class="sidebar-ppt-title">Lectura complementaria</strong>
+        <span class="sidebar-ppt-action">Leer →</span>
+      </button>
+    </section>
+  )}
+
+  {maestrosFile && (
+    <section class="study-widget">
+      <h3>Material para Maestros</h3>
+       <button type="button" class="sidebar-ppt-card" data-article-url={maestrosFile} data-article-title={`Material para Maestros — Lección ${lesson.number}`}>
+        <span class="sidebar-ppt-cover">
+          <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
+        </span>
+        <strong class="sidebar-ppt-title">Guía de estudio</strong>
         <span class="sidebar-ppt-action">Leer →</span>
       </button>
     </section>
