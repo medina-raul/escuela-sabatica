@@ -16,7 +16,8 @@ const hasViernes = reavivadosData.resources?.some((r: any) => r.id === `viernes-
 const viernesFile = isFriday && hasViernes ? `/material/viernes${lesson.number}.html` : null;
 
 const hasMaestros = reavivadosData.resources?.some((r: any) => r.id === `maestros-${lesson.number}`);
-const maestrosFile = hasMaestros ? `/recursos/2026-q3/Maestros${lesson.number}.html` : null;
+const maestrosNum = String(lesson.number).padStart(2, '0');
+const maestrosFile = hasMaestros ? `/recursos/2026-q3/semana_${maestrosNum}_teacher_comments.html` : null;
 
 const todayReading = activeDay?.date
   ? reavivadosData.reavivados?.find((r: { date: string }) => r.date === activeDay.date)

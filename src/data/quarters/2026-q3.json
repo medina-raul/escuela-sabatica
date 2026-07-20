@@ -2537,7 +2537,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 1",
       "description": "Guía de estudio para maestros de la lección 1",
-      "url": "/recursos/2026-q3/Maestros1.html",
+      "url": "/recursos/2026-q3/semana_01_teacher_comments.html",
       "external": false
     },
     {
@@ -2545,7 +2545,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 2",
       "description": "Guía de estudio para maestros de la lección 2",
-      "url": "/recursos/2026-q3/Maestros2.html",
+      "url": "/recursos/2026-q3/semana_02_teacher_comments.html",
       "external": false
     },
     {
@@ -2553,7 +2553,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 3",
       "description": "Guía de estudio para maestros de la lección 3",
-      "url": "/recursos/2026-q3/Maestros3.html",
+      "url": "/recursos/2026-q3/semana_03_teacher_comments.html",
       "external": false
     },
     {
@@ -2561,7 +2561,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 4",
       "description": "Guía de estudio para maestros de la lección 4",
-      "url": "/recursos/2026-q3/Maestros4.html",
+      "url": "/recursos/2026-q3/semana_04_teacher_comments.html",
       "external": false
     },
     {
@@ -2569,7 +2569,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 5",
       "description": "Guía de estudio para maestros de la lección 5",
-      "url": "/recursos/2026-q3/Maestros5.html",
+      "url": "/recursos/2026-q3/semana_05_teacher_comments.html",
       "external": false
     },
     {
@@ -2577,7 +2577,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 6",
       "description": "Guía de estudio para maestros de la lección 6",
-      "url": "/recursos/2026-q3/Maestros6.html",
+      "url": "/recursos/2026-q3/semana_06_teacher_comments.html",
       "external": false
     },
     {
@@ -2585,7 +2585,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 7",
       "description": "Guía de estudio para maestros de la lección 7",
-      "url": "/recursos/2026-q3/Maestros7.html",
+      "url": "/recursos/2026-q3/semana_07_teacher_comments.html",
       "external": false
     },
     {
@@ -2593,7 +2593,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 8",
       "description": "Guía de estudio para maestros de la lección 8",
-      "url": "/recursos/2026-q3/Maestros8.html",
+      "url": "/recursos/2026-q3/semana_08_teacher_comments.html",
       "external": false
     },
     {
@@ -2601,7 +2601,7 @@
       "type": "article",
       "title": "Material para Maestros — Lección 9",
       "description": "Guía de estudio para maestros de la lección 9",
-      "url": "/recursos/2026-q3/Maestros9.html",
+      "url": "/recursos/2026-q3/semana_09_teacher_comments.html",
       "external": false
     },
     {
@@ -2609,7 +2609,31 @@
       "type": "article",
       "title": "Material para Maestros — Lección 10",
       "description": "Guía de estudio para maestros de la lección 10",
-      "url": "/recursos/2026-q3/Maestros10.html",
+      "url": "/recursos/2026-q3/semana_10_teacher_comments.html",
+      "external": false
+    },
+    {
+      "id": "maestros-11",
+      "type": "article",
+      "title": "Material para Maestros — Lección 11",
+      "description": "Guía de estudio para maestros de la lección 11",
+      "url": "/recursos/2026-q3/semana_11_teacher_comments.html",
+      "external": false
+    },
+    {
+      "id": "maestros-12",
+      "type": "article",
+      "title": "Material para Maestros — Lección 12",
+      "description": "Guía de estudio para maestros de la lección 12",
+      "url": "/recursos/2026-q3/semana_12_teacher_comments.html",
+      "external": false
+    },
+    {
+      "id": "maestros-13",
+      "type": "article",
+      "title": "Material para Maestros — Lección 13",
+      "description": "Guía de estudio para maestros de la lección 13",
+      "url": "/recursos/2026-q3/semana_13_teacher_comments.html",
       "external": false
     }
   ],
