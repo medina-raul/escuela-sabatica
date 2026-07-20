@@ -2451,6 +2451,110 @@
       "title": "Complemento — Lección 2",
       "description": "Recurso adicional para el estudio del Viernes",
       "url": "/material/viernes2.html"
+    },
+    {
+      "id": "viernes-1",
+      "type": "article",
+      "title": "Complemento — Lección 1",
+      "description": "Material de estudio para el viernes de la lección 1",
+      "url": "/material/viernes1.html",
+      "external": false
+    },
+    {
+      "id": "viernes-2",
+      "type": "article",
+      "title": "Complemento — Lección 2",
+      "description": "Material de estudio para el viernes de la lección 2",
+      "url": "/material/viernes2.html",
+      "external": false
+    },
+    {
+      "id": "viernes-3",
+      "type": "article",
+      "title": "Complemento — Lección 3",
+      "description": "Material de estudio para el viernes de la lección 3",
+      "url": "/material/viernes3.html",
+      "external": false
+    },
+    {
+      "id": "viernes-4",
+      "type": "article",
+      "title": "Complemento — Lección 4",
+      "description": "Material de estudio para el viernes de la lección 4",
+      "url": "/material/viernes4.html",
+      "external": false
+    },
+    {
+      "id": "viernes-5",
+      "type": "article",
+      "title": "Complemento — Lección 5",
+      "description": "Material de estudio para el viernes de la lección 5",
+      "url": "/material/viernes5.html",
+      "external": false
+    },
+    {
+      "id": "viernes-6",
+      "type": "article",
+      "title": "Complemento — Lección 6",
+      "description": "Material de estudio para el viernes de la lección 6",
+      "url": "/material/viernes6.html",
+      "external": false
+    },
+    {
+      "id": "viernes-7",
+      "type": "article",
+      "title": "Complemento — Lección 7",
+      "description": "Material de estudio para el viernes de la lección 7",
+      "url": "/material/viernes7.html",
+      "external": false
+    },
+    {
+      "id": "viernes-8",
+      "type": "article",
+      "title": "Complemento — Lección 8",
+      "description": "Material de estudio para el viernes de la lección 8",
+      "url": "/material/viernes8.html",
+      "external": false
+    },
+    {
+      "id": "viernes-9",
+      "type": "article",
+      "title": "Complemento — Lección 9",
+      "description": "Material de estudio para el viernes de la lección 9",
+      "url": "/material/viernes9.html",
+      "external": false
+    },
+    {
+      "id": "viernes-10",
+      "type": "article",
+      "title": "Complemento — Lección 10",
+      "description": "Material de estudio para el viernes de la lección 10",
+      "url": "/material/viernes10.html",
+      "external": false
+    },
+    {
+      "id": "viernes-11",
+      "type": "article",
+      "title": "Complemento — Lección 11",
+      "description": "Material de estudio para el viernes de la lección 11",
+      "url": "/material/viernes11.html",
+      "external": false
+    },
+    {
+      "id": "viernes-12",
+      "type": "article",
+      "title": "Complemento — Lección 12",
+      "description": "Material de estudio para el viernes de la lección 12",
+      "url": "/material/viernes12.html",
+      "external": false
+    },
+    {
+      "id": "viernes-13",
+      "type": "article",
+      "title": "Complemento — Lección 13",
+      "description": "Material de estudio para el viernes de la lección 13",
+      "url": "/material/viernes13.html",
+      "external": false
     }
   ],
   "keyVerse": {

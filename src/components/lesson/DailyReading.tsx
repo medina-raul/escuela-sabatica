@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { BibleStudyModal } from "@components/bible/BibleStudyModal";
 import type { Lesson, LessonDay } from "@app-types/lesson";
 import type { BibleReference } from "@app-types/bible";
+import quarterData from "@data/quarters/2026-q3.json";
 
 type Props = {
   lesson: Lesson;
@@ -221,6 +222,7 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
   const [activeReference, setActiveReference] = useState<BibleReference | null>(null);
   const references = day.studyReferences ?? [];
   const lines = useMemo(() => (day.contentMarkdown ?? "").split("\n").filter(Boolean), [day.contentMarkdown]);
+  const hasViernes = (quarterData as any).resources?.some((r: any) => r.id === `viernes-${lesson.number}`);
 
   return (
     <>
@@ -313,7 +315,7 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
         {day.id === "viernes" && (
           <div className="viernes-complement">
             <div className="section-separator" style={{ margin: "var(--space-4) 0" }}></div>
-            {lesson.number <= 2 ? (
+            {hasViernes ? (
               <button
                 type="button"
                 className="viernes-complement-link"

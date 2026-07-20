@@ -12,7 +12,8 @@ const lessonResources = lesson.resources ?? [];
 const pptResources = lessonResources.filter(r => r.type === "ppt");
 
 const isFriday = activeDay?.id === "viernes";
-const viernesFile = isFriday && lesson.number <= 2 ? `/material/viernes${lesson.number}.html` : null;
+const hasViernes = reavivadosData.resources?.some((r: any) => r.id === `viernes-${lesson.number}`);
+const viernesFile = isFriday && hasViernes ? `/material/viernes${lesson.number}.html` : null;
 
 const todayReading = activeDay?.date
   ? reavivadosData.reavivados?.find((r: { date: string }) => r.date === activeDay.date)
