@@ -62,6 +62,19 @@ const dayAbbr: Record<string, string> = {
     )}
   </section>
 
+  {maestrosFile && (
+    <section class="study-widget">
+      <h3>Material para Maestros</h3>
+       <button type="button" class="sidebar-ppt-card" data-article-url={maestrosFile} data-article-title={`Material para Maestros — Lección ${lesson.number}`}>
+        <span class="sidebar-ppt-cover">
+          <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
+        </span>
+        <strong class="sidebar-ppt-title">Guía de estudio</strong>
+        <span class="sidebar-ppt-action">Leer →</span>
+      </button>
+    </section>
+  )}
+
   <!-- Reavivados por su Palabra -->
   <section class="study-widget">
     <h3>Reavivados por su Palabra</h3>
@@ -90,19 +103,6 @@ const dayAbbr: Record<string, string> = {
           <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
         </span>
         <strong class="sidebar-ppt-title">Lectura complementaria</strong>
-        <span class="sidebar-ppt-action">Leer →</span>
-      </button>
-    </section>
-  )}
-
-  {maestrosFile && (
-    <section class="study-widget">
-      <h3>Material para Maestros</h3>
-       <button type="button" class="sidebar-ppt-card" data-article-url={maestrosFile} data-article-title={`Material para Maestros — Lección ${lesson.number}`}>
-        <span class="sidebar-ppt-cover">
-          <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
-        </span>
-        <strong class="sidebar-ppt-title">Guía de estudio</strong>
         <span class="sidebar-ppt-action">Leer →</span>
       </button>
     </section>
