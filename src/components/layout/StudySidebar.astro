@@ -62,9 +62,9 @@ const dayAbbr: Record<string, string> = {
     )}
   </section>
 
-  {maestrosFile && (
-    <section class="study-widget">
-      <h3>Material para Maestros</h3>
+  <section class="study-widget">
+    <h3>Material para Maestros</h3>
+    {maestrosFile ? (
        <button type="button" class="sidebar-ppt-card" data-article-url={maestrosFile} data-article-title={`Material para Maestros — Lección ${lesson.number}`}>
         <span class="sidebar-ppt-cover">
           <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
@@ -72,8 +72,16 @@ const dayAbbr: Record<string, string> = {
         <strong class="sidebar-ppt-title">Guía de estudio</strong>
         <span class="sidebar-ppt-action">Leer →</span>
       </button>
-    </section>
-  )}
+    ) : (
+      <div class="sidebar-ppt-card ppt-unavailable">
+        <span class="sidebar-ppt-cover">
+          <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" style="opacity: 0.35" />
+        </span>
+        <strong class="sidebar-ppt-title">Guía de estudio</strong>
+        <span class="sidebar-ppt-action">Próximamente</span>
+      </div>
+    )}
+  </section>
 
   <!-- Reavivados por su Palabra -->
   <section class="study-widget">
@@ -95,16 +103,26 @@ const dayAbbr: Record<string, string> = {
     )}
   </section>
 
-  {viernesFile && (
+  {isFriday && (
     <section class="study-widget">
       <h3>Complemento del Viernes</h3>
-       <button type="button" class="sidebar-ppt-card" data-article-url={viernesFile} data-article-title={`Comentario de la semana — Lección ${lesson.number}`}>
-        <span class="sidebar-ppt-cover">
-          <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
-        </span>
-        <strong class="sidebar-ppt-title">Lectura complementaria</strong>
-        <span class="sidebar-ppt-action">Leer →</span>
-      </button>
+      {viernesFile ? (
+         <button type="button" class="sidebar-ppt-card" data-article-url={viernesFile} data-article-title={`Comentario de la semana — Lección ${lesson.number}`}>
+          <span class="sidebar-ppt-cover">
+            <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
+          </span>
+          <strong class="sidebar-ppt-title">Lectura complementaria</strong>
+          <span class="sidebar-ppt-action">Leer →</span>
+        </button>
+      ) : (
+        <div class="sidebar-ppt-card ppt-unavailable">
+          <span class="sidebar-ppt-cover">
+            <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" style="opacity: 0.35" />
+          </span>
+          <strong class="sidebar-ppt-title">Lectura complementaria</strong>
+          <span class="sidebar-ppt-action">Próximamente</span>
+        </div>
+      )}
     </section>
   )}
 
