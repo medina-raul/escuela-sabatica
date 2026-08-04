@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Safely update, publish, deploy, and verify the complete site resource cycle."""
 
-from __future__ import annotations
+from _future_ import annotations
 
 import argparse
 import json
@@ -39,6 +39,73 @@ class CommandResult:
     output: str
 
 
+def _windows_npm_command(command: list[str]) -> list[str]:
+    """Resolve npm.cmd to node.exe + npm-cli.js on Windows.
+
+    Windows exposes npm primarily through a CMD shim. Passing that shim directly
+    to subprocess.Popen with shell=False can raise WinError 2. Executing the
+    JavaScript entry point through Node avoids CMD quoting, shell, and PATH
+    parsing problems.
+    """
+    node_path = shutil.which("node.exe") or shutil.which("node")
+    npm_path = shutil.which("npm.cmd") or shutil.which("npm")
+
+    if not node_path:
+        raise MaintenanceError(
+            "Node.js no está disponible en PATH; no es posible ejecutar npm."
+        )
+
+    candidate_directories: list[Path] = []
+    for executable in (node_path, npm_path):
+        if executable:
+            directory = Path(executable).resolve().parent
+            if directory not in candidate_directories:
+                candidate_directories.append(directory)
+
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        roaming_npm = Path(appdata) / "npm"
+        if roaming_npm not in candidate_directories:
+            candidate_directories.append(roaming_npm)
+
+    candidates = [
+        directory / "node_modules" / "npm" / "bin" / "npm-cli.js"
+        for directory in candidate_directories
+    ]
+
+    npm_cli = next((candidate for candidate in candidates if candidate.is_file()), None)
+    if npm_cli is None:
+        checked = "; ".join(str(candidate) for candidate in candidates)
+        raise MaintenanceError(
+            "Se encontró Node.js, pero no npm-cli.js. "
+            f"Rutas revisadas: {checked or 'ninguna'}"
+        )
+
+    return [node_path, str(npm_cli), *command[1:]]
+
+
+def _resolve_command(command: list[str]) -> list[str]:
+    """Return a subprocess-safe command for the current operating system."""
+    if not command:
+        raise MaintenanceError("Se intentó ejecutar un comando vacío.")
+
+    executable_name = Path(str(command[0])).name.lower()
+    if os.name == "nt" and executable_name in {"npm", "npm.cmd", "npm.exe"}:
+        return _windows_npm_command(command)
+
+    executable = shutil.which(str(command[0]))
+    if executable:
+        return [executable, *command[1:]]
+
+    explicit_path = Path(str(command[0]))
+    if explicit_path.is_file():
+        return [str(explicit_path), *command[1:]]
+
+    raise MaintenanceError(
+        f"No se encontró el ejecutable del comando: {command[0]}"
+    )
+
+
 class CommandRunner:
     def run(
         self,
@@ -48,39 +115,61 @@ class CommandRunner:
         quiet: bool = False,
         env: dict[str, str] | None = None,
     ) -> CommandResult:
-        printable = " ".join(command)
+        printable = " ".join(str(part) for part in command)
+        resolved_command = _resolve_command(command)
+        resolved_printable = " ".join(str(part) for part in resolved_command)
+
         if not quiet:
             print(f"\n> {printable}", flush=True)
+
         merged_env = os.environ.copy()
         if env:
             merged_env.update(env)
-        process = subprocess.Popen(
-            command,
-            cwd=PROJECT_ROOT,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-            env=merged_env,
-        )
+
+        try:
+            process = subprocess.Popen(
+                resolved_command,
+                cwd=PROJECT_ROOT,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                env=merged_env,
+            )
+        except OSError as exc:
+            raise MaintenanceError(
+                f"No se pudo iniciar el comando {printable}. "
+                f"Ejecutable resuelto: {resolved_command[0]}. Detalle: {exc}"
+            ) from exc
+
         lines: list[str] = []
         assert process.stdout is not None
         for line in process.stdout:
             lines.append(line)
             if not quiet:
                 print(line, end="", flush=True)
+
         returncode = process.wait()
         result = CommandResult(command, returncode, "".join(lines))
+
         if check and returncode:
-            detail = result.output.strip().splitlines()
-            summary = detail[-1] if detail else f"código {returncode}"
-            raise MaintenanceError(f"Falló `{printable}`: {summary}")
+            detail = [line.strip() for line in result.output.splitlines() if line.strip()]
+            summary = " | ".join(detail[-3:]) if detail else f"código {returncode}"
+            resolution = (
+                f" Ejecutado como: {resolved_printable}."
+                if resolved_command != command
+                else ""
+            )
+            raise MaintenanceError(
+                f"Falló el comando {printable}.{resolution} Detalle: {summary}"
+            )
+
         return result
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=_doc_)
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     parser.add_argument(
@@ -159,14 +248,14 @@ def discover_official_remote(runner: CommandRunner, official_repository: str) ->
     existing = set(_git_lines(runner, "remote"))
     if remote in existing:
         raise MaintenanceError(
-            f"El remoto `{remote}` existe pero no apunta a {official_repository}; debe revisarlo un administrador"
+            f"El remoto {remote} existe pero no apunta a {official_repository}; debe revisarlo un administrador"
         )
     runner.run(["git", "remote", "add", remote, f"https://github.com/{official_repository}.git"])
     return remote
 
 
 def ensure_prerequisites(runner: CommandRunner, *, require_github: bool) -> dict[str, str]:
-    required = ["git", "npm"] + (["gh"] if require_github else [])
+    required = ["git", "node", "npm"] + (["gh"] if require_github else [])
     missing = [name for name in required if shutil.which(name) is None]
     if missing:
         raise MaintenanceError(f"Faltan herramientas del sistema: {', '.join(missing)}")
@@ -195,7 +284,7 @@ def ensure_repository_ready(
     base_branch = str(config["baseBranch"])
     if branch != base_branch:
         raise MaintenanceError(
-            f"La copia local está en la rama `{branch}`, pero el actualizador integral sólo opera desde `{base_branch}`."
+            f"La copia local está en la rama {branch}, pero el actualizador integral sólo opera desde {base_branch}."
         )
     if not tracked_worktree_is_clean(runner):
         raise MaintenanceError(
@@ -645,5 +734,5 @@ def main() -> int:
     return exit_code
 
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     raise SystemExit(main())
