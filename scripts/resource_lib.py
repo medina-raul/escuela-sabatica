@@ -12,6 +12,7 @@ import urllib.parse
 import urllib.request
 import zipfile
 from dataclasses import asdict, dataclass
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -41,6 +42,19 @@ class RemoteMetadata:
 
 class ResourceError(RuntimeError):
     """Raised when a resource violates a pipeline safeguard."""
+
+
+class _LinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.hrefs: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "a":
+            return
+        href = dict(attrs).get("href")
+        if href:
+            self.hrefs.append(href)
 
 
 def load_catalog(path: Path = DEFAULT_CATALOG) -> dict[str, Any]:
@@ -102,6 +116,44 @@ def validate_source_url(url: str, allowed_hosts: set[str]) -> None:
         raise ResourceError(f"Host de fuente no autorizado: {parsed.hostname or '(vacío)'}")
     if parsed.username or parsed.password:
         raise ResourceError(f"No se permiten credenciales embebidas en la URL: {url}")
+
+
+def extract_links(base_url: str, html: str) -> list[str]:
+    parser = _LinkParser()
+    parser.feed(html)
+    return sorted({urllib.parse.urljoin(base_url, href) for href in parser.hrefs})
+
+
+def fetch_html_links(
+    url: str,
+    *,
+    allowed_hosts: set[str],
+    max_bytes: int,
+    timeout: float,
+) -> list[str]:
+    validate_source_url(url, allowed_hosts)
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"},
+    )
+    try:
+        response = urllib.request.urlopen(request, timeout=timeout)
+    except urllib.error.HTTPError as exc:
+        raise ResourceError(f"Índice de recursos respondió HTTP {exc.code}: {url}") from exc
+    except urllib.error.URLError as exc:
+        raise ResourceError(f"No se pudo consultar el índice {url}: {exc.reason}") from exc
+
+    with response:
+        final_url = response.geturl()
+        validate_source_url(final_url, allowed_hosts)
+        content_type = response.headers.get("Content-Type", "")
+        if "text/html" not in content_type.lower() and "application/xhtml+xml" not in content_type.lower():
+            raise ResourceError(f"El índice no devolvió HTML ({content_type!r}): {final_url}")
+        payload = response.read(max_bytes + 1)
+        if len(payload) > max_bytes:
+            raise ResourceError(f"El índice excede {max_bytes} bytes: {final_url}")
+        encoding = response.headers.get_content_charset() or "utf-8"
+    return extract_links(final_url, payload.decode(encoding, errors="replace"))
 
 
 def validate_file(path: Path, resource_type: str, max_bytes: int | None = None) -> None:
@@ -191,6 +243,7 @@ def probe_url(
 
     assert response is not None
     with response:
+        validate_source_url(response.geturl(), allowed_hosts)
         content_type = response.headers.get("Content-Type")
         raw_length = response.headers.get("Content-Length")
         content_length = int(raw_length) if raw_length and raw_length.isdigit() else None
@@ -230,6 +283,7 @@ def download_to(
     total = 0
     destination.parent.mkdir(parents=True, exist_ok=True)
     with response, destination.open("wb") as handle:
+        validate_source_url(response.geturl(), allowed_hosts)
         content_type = response.headers.get("Content-Type")
         if not _content_type_allowed(content_type, allowed_content_types):
             raise ResourceError(f"Content-Type inesperado {content_type!r}: {url}")

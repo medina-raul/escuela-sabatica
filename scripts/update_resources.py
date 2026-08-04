@@ -8,9 +8,11 @@ import concurrent.futures
 import copy
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -24,6 +26,7 @@ from resource_lib import (
     atomic_write_json,
     audit_catalog,
     download_to,
+    fetch_html_links,
     issue_dicts,
     load_catalog,
     local_path_for_url,
@@ -31,6 +34,7 @@ from resource_lib import (
     probe_url,
     refresh_local_metadata,
     sha256_path,
+    validate_source_url,
     write_manifest,
 )
 
@@ -182,6 +186,152 @@ def _discover_audio(
             changes.append(f"source-size:{existing['id']}")
 
 
+def _remote_copy_is_current(resource: dict[str, Any], source: dict[str, Any], metadata: Any) -> bool:
+    target = local_path_for_url(resource["url"])
+    if not target.is_file() or not resource.get("checksum"):
+        return False
+    if sha256_path(target) != resource["checksum"]:
+        return False
+    if metadata.content_length is not None and resource.get("sizeBytes") != metadata.content_length:
+        return False
+    if source.get("etag") and metadata.etag:
+        return source["etag"] == metadata.etag
+    if source.get("lastModified") and metadata.last_modified:
+        return source["lastModified"] == metadata.last_modified
+    return False
+
+
+def _discover_presentations(
+    catalog: dict[str, Any],
+    *,
+    allowed_hosts: set[str],
+    timeout: float,
+    changes: list[str],
+    warnings: list[str],
+) -> set[str]:
+    config = catalog.get("resourceAutomation", {}).get("presentationDiscovery")
+    if not config:
+        return set()
+
+    try:
+        file_pattern = re.compile(config["fileNamePattern"])
+    except re.error as exc:
+        raise ResourceError(f"fileNamePattern inválido para presentaciones: {exc}") from exc
+
+    links = fetch_html_links(
+        config["indexUrl"],
+        allowed_hosts=allowed_hosts,
+        max_bytes=config["indexMaxBytes"],
+        timeout=timeout,
+    )
+    published: dict[int, str] = {}
+    for url in links:
+        parsed = urllib.parse.urlparse(url)
+        filename = urllib.parse.unquote(parsed.path.rsplit("/", 1)[-1])
+        match = file_pattern.fullmatch(filename)
+        if not match:
+            continue
+        try:
+            year = int(match.group("year"))
+            quarter_number = int(match.group("quarter"))
+            lesson_number = int(match.group("lesson"))
+        except (IndexError, ValueError) as exc:
+            raise ResourceError("fileNamePattern debe definir year, quarter y lesson") from exc
+        if year != config["year"] or quarter_number != config["quarter"]:
+            continue
+        if not config["lessonStart"] <= lesson_number <= config["lessonEnd"]:
+            continue
+        validate_source_url(url, allowed_hosts)
+        if lesson_number in published and published[lesson_number] != url:
+            raise ResourceError(f"Fustero publicó dos PPT distintos para la lección {lesson_number}")
+        published[lesson_number] = url
+
+    if not published:
+        raise ResourceError(f"No se encontraron PPT del trimestre en {config['indexUrl']}")
+
+    lessons = {lesson["number"]: lesson for lesson in catalog.get("lessons", [])}
+    presentations: dict[int, dict[str, Any]] = {}
+    for resource in all_resources(catalog):
+        if resource.get("role") != "weekly-presentation":
+            continue
+        lesson_number = resource.get("lessonNumber")
+        if lesson_number in presentations:
+            raise ResourceError(f"Hay más de un PPT catalogado para la lección {lesson_number}")
+        presentations[lesson_number] = resource
+
+    def probe(item: tuple[int, str]) -> tuple[int, str, Any]:
+        lesson_number, url = item
+        return lesson_number, url, probe_url(
+            url,
+            allowed_hosts=allowed_hosts,
+            allowed_content_types=config.get("allowedContentTypes"),
+            max_bytes=config["maxBytes"],
+            timeout=timeout,
+        )
+
+    probed: list[tuple[int, str, Any]] = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        futures = [executor.submit(probe, item) for item in published.items()]
+        for future in concurrent.futures.as_completed(futures):
+            probed.append(future.result())
+
+    verified_unchanged: set[str] = set()
+    for lesson_number, source_url, metadata in sorted(probed):
+        lesson = lessons.get(lesson_number)
+        if lesson is None:
+            warnings.append(f"Fustero publicó la lección {lesson_number}, pero no existe en el catálogo")
+            continue
+        resource = presentations.get(lesson_number)
+        if resource is None:
+            local_url = config["localUrlTemplate"].format(
+                quarterId=catalog["id"],
+                lesson=lesson_number,
+            )
+            resource = {
+                "id": f"ppt-{lesson_number:02d}",
+                "type": "ppt",
+                "role": "weekly-presentation",
+                "lessonNumber": lesson_number,
+                "title": f"Presentación PPT — Lección {lesson_number}",
+                "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+                "url": local_url,
+                "storage": "local",
+                "source": {},
+            }
+            lesson.setdefault("resources", []).append(resource)
+            presentations[lesson_number] = resource
+            changes.append(f"presentation-discovered:{resource['id']}")
+
+        previous_source = resource.get("source", {})
+        same_source = previous_source.get("kind") == "url" and previous_source.get("url") == source_url
+        copy_is_current = same_source and _remote_copy_is_current(resource, previous_source, metadata)
+        desired_source = {
+            "kind": "url",
+            "url": source_url,
+            "allowedContentTypes": config.get("allowedContentTypes", []),
+            "maxBytes": config["maxBytes"],
+            "provider": config["provider"],
+            "providerUrl": config["providerUrl"],
+        }
+        for key in ("etag", "lastModified"):
+            if key in previous_source:
+                desired_source[key] = previous_source[key]
+        if previous_source != desired_source:
+            resource["source"] = desired_source
+            changes.append(f"source-config:{resource['id']}")
+        source = resource["source"]
+        if metadata_to_source(source, metadata):
+            changes.append(f"source-metadata:{resource['id']}")
+        expected_description = "Presentación preparada por Sergio Fustero y Eunice Laveda"
+        if resource.get("description") != expected_description:
+            resource["description"] = expected_description
+            changes.append(f"source-attribution:{resource['id']}")
+        if copy_is_current:
+            verified_unchanged.add(resource["id"])
+
+    return verified_unchanged
+
+
 def _stage_local_url_sources(
     catalog: dict[str, Any],
     staging_root: Path,
@@ -190,11 +340,15 @@ def _stage_local_url_sources(
     default_max_bytes: int,
     timeout: float,
     changes: list[str],
+    skip_resource_ids: set[str] | None = None,
 ) -> list[dict[str, Any]]:
     planned: list[dict[str, Any]] = []
+    skip_resource_ids = skip_resource_ids or set()
     for resource in all_resources(catalog):
         source = resource.get("source", {})
         if resource.get("storage") != "local" or source.get("kind") != "url":
+            continue
+        if resource["id"] in skip_resource_ids:
             continue
         target = local_path_for_url(resource["url"])
         staged = staging_root / "downloads" / resource["id"] / target.name
@@ -315,6 +469,13 @@ def main() -> int:
                     changes=changes,
                     warnings=warnings,
                 )
+                unchanged_presentations = _discover_presentations(
+                    catalog,
+                    allowed_hosts=allowed_hosts,
+                    timeout=args.timeout,
+                    changes=changes,
+                    warnings=warnings,
+                )
                 planned = _stage_local_url_sources(
                     catalog,
                     transaction_root,
@@ -322,6 +483,7 @@ def main() -> int:
                     default_max_bytes=default_max_bytes,
                     timeout=args.timeout,
                     changes=changes,
+                    skip_resource_ids=unchanged_presentations,
                 )
             changes.extend(refresh_local_metadata(catalog))
             pre_apply_issues = audit_catalog(catalog)

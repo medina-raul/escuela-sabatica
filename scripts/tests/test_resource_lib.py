@@ -16,6 +16,7 @@ from resource_lib import (  # noqa: E402
     ResourceError,
     atomic_write_json,
     audit_catalog,
+    extract_links,
     load_catalog,
     manifest_payload,
     validate_file,
@@ -33,8 +34,8 @@ class ResourceLibraryTests(unittest.TestCase):
         first = manifest_payload(catalog)
         second = manifest_payload(json.loads(json.dumps(catalog)))
         self.assertEqual(first, second)
-        self.assertEqual(100, first["resourceCount"])
-        self.assertEqual(51, first["localResourceCount"])
+        self.assertEqual(101, first["resourceCount"])
+        self.assertEqual(52, first["localResourceCount"])
 
     def test_html_error_page_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -55,6 +56,13 @@ class ResourceLibraryTests(unittest.TestCase):
         validate_source_url("https://www.audioescuelasabatica.com/audio.mp3", {"www.audioescuelasabatica.com"})
         with self.assertRaises(ResourceError):
             validate_source_url("https://example.com/audio.mp3", {"www.audioescuelasabatica.com"})
+
+    def test_extract_links_resolves_relative_urls_without_duplicates(self) -> None:
+        html = '<a href="2026t311.pptx">PPT</a><a href="2026t311.pptx">PPT</a>'
+        self.assertEqual(
+            ["https://www.fustero.es/2026t311.pptx"],
+            extract_links("https://www.fustero.es/", html),
+        )
 
     def test_atomic_json_write_produces_valid_file(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

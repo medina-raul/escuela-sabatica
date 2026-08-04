@@ -181,14 +181,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 1,
           "title": "Presentación PPT — Lección 1",
-          "description": "Diapositivas para la lección 1",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-01.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t301.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"e95cdf-653670c249d2a\"",
+            "lastModified": "Thu, 04 Jun 2026 05:45:10 GMT"
           },
-          "sizeBytes": 15293845,
-          "checksum": "sha256:29573fed41da2ee2002ad06e5b01827dd051a9ac07aeb3d928ff45bf17d6b11e"
+          "sizeBytes": 15293663,
+          "checksum": "sha256:f13b14b92d54121bb67be94e1bf871675ecf98df81e74842f4bf8f414f5b7be7"
         },
         {
           "id": "audio-01-sabado",
@@ -545,14 +555,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 2,
           "title": "Presentación PPT — Lección 2",
-          "description": "Diapositivas para la lección 2",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-02.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t302.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"bc5282-6536e29e5ffa9\"",
+            "lastModified": "Thu, 04 Jun 2026 14:14:34 GMT"
           },
-          "sizeBytes": 12342066,
-          "checksum": "sha256:335a6575c1e1995eecc91777952751fb806e11d5dc2cc198e3353b8b1b6d4b6f"
+          "sizeBytes": 12341890,
+          "checksum": "sha256:73e8b8d2ae41de3634841760f1fa4ae10e459ec247fda001dffa62e0d4d9d471"
         },
         {
           "id": "audio-02-sabado",
@@ -923,14 +943,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 3,
           "title": "Presentación PPT — Lección 3",
-          "description": "Diapositivas para la lección 3",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-03.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t303.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"d238de-653eb20af561a\"",
+            "lastModified": "Wed, 10 Jun 2026 19:19:51 GMT"
           },
-          "sizeBytes": 13777150,
-          "checksum": "sha256:d9b4e18bd3b09e4629925fa3e4b06aafa1e3f0bb671079a8ec4653245156fc91"
+          "sizeBytes": 13777118,
+          "checksum": "sha256:faffb64f1e0ea939b1aa05dd1991d77b36813d4eacc75281d4f5a9a562e9a180"
         },
         {
           "id": "audio-03-sabado",
@@ -1292,14 +1322,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 4,
           "title": "Presentación PPT — Lección 4",
-          "description": "Diapositivas para la lección 4",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-04.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t304.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"e5f556-654dae5ab8441\"",
+            "lastModified": "Mon, 22 Jun 2026 17:23:13 GMT"
           },
-          "sizeBytes": 15070582,
-          "checksum": "sha256:47594ee7f5b75fca64b4b728c58d232af09a8e2a962d41083db59b175003448f"
+          "sizeBytes": 15070550,
+          "checksum": "sha256:263a12684d8e1ed73eeab7567f999b08780cc01b2f9949bb047e2ca2a115c5b6"
         },
         {
           "id": "audio-04-sabado",
@@ -1662,14 +1702,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 5,
           "title": "Presentación PPT — Lección 5",
-          "description": "Diapositivas para la lección 5",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-05.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t305.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"d278b6-655e1296833eb\"",
+            "lastModified": "Sun, 05 Jul 2026 18:16:50 GMT"
           },
-          "sizeBytes": 13794226,
-          "checksum": "sha256:ccdbdf6dccb1e49e091d130a55a26f2cded7ff4e09380b98877d3eec854f2baf"
+          "sizeBytes": 13793462,
+          "checksum": "sha256:ef81049df49d959270d96b4776fce1b9d79536e34313ecb39725b41bb973fa27"
         },
         {
           "id": "audio-05-sabado",
@@ -2031,14 +2081,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 6,
           "title": "Presentación PPT — Lección 6",
-          "description": "Diapositivas para la lección 6",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-06.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t306.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"e08709-656426f54909a\"",
+            "lastModified": "Fri, 10 Jul 2026 14:19:55 GMT"
           },
-          "sizeBytes": 14743381,
-          "checksum": "sha256:41545df1c69c864a3c6f01775c51c4937d2efca84f1b219062f0659749b63782"
+          "sizeBytes": 14714633,
+          "checksum": "sha256:424d8198adce49157a9bca541a26f45bca5894211174c0e394db7e4b6fa9f4d0"
         },
         {
           "id": "audio-06-sabado",
@@ -2394,14 +2454,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 7,
           "title": "Presentación PPT — Lección 7",
-          "description": "Diapositivas para la lección 7",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-07.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t307.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"5ab035-6567b8398aba6\"",
+            "lastModified": "Mon, 13 Jul 2026 10:25:49 GMT"
           },
-          "sizeBytes": 5943382,
-          "checksum": "sha256:447c64faa734cc6d486349bef6a84b862b3825cdbfd4088eadc55e9869013fc8"
+          "sizeBytes": 5943349,
+          "checksum": "sha256:63907617e58cb8fd5b9cba48213ca175c53223ed60cf0d23b822d1ed3d292e39"
         },
         {
           "id": "audio-07-sabado",
@@ -2729,14 +2799,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 8,
           "title": "Presentación PPT — Lección 8",
-          "description": "Diapositivas para la lección 8",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-08.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t308.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"bfcd83-6570c7c287a6f\"",
+            "lastModified": "Mon, 20 Jul 2026 15:23:14 GMT"
           },
-          "sizeBytes": 12571380,
-          "checksum": "sha256:d43f55da0791057ccd9553f4ea0126436cfc8449e0ccfbea1600bf313af75feb"
+          "sizeBytes": 12569987,
+          "checksum": "sha256:4961539c035d23b031c111b71a2c60cd64e54bb9903811fa5e2d6ab392e3c29e"
         }
       ],
       "keyVerse": {
@@ -2890,14 +2970,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 9,
           "title": "Presentación PPT — Lección 9",
-          "description": "Diapositivas para la lección 9",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-09.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t309.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"f7cb60-657709e0b3f11\"",
+            "lastModified": "Sat, 25 Jul 2026 14:50:59 GMT"
           },
-          "sizeBytes": 16240234,
-          "checksum": "sha256:290dcc9accc3df487ad3abc3b74d656055f13b6cfd47c7a23b08800adc565360"
+          "sizeBytes": 16239456,
+          "checksum": "sha256:f649858904f89f3414c24840cfff6f2bf5509806d8cc7fc3545b195141d21233"
         }
       ],
       "keyVerse": {
@@ -3051,14 +3141,24 @@
           "role": "weekly-presentation",
           "lessonNumber": 10,
           "title": "Presentación PPT — Lección 10",
-          "description": "Diapositivas para la lección 10",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
           "url": "/recursos/2026-q3/ppt/leccion-10.pptx",
           "storage": "local",
           "source": {
-            "kind": "manual"
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t310.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"1309e71-657b14b706409\"",
+            "lastModified": "Tue, 28 Jul 2026 20:00:46 GMT"
           },
-          "sizeBytes": 19963006,
-          "checksum": "sha256:6434b73d2407a0c7aaa307ec3de26f89a3dfe221f1a22eb1f23475d2d4555c72"
+          "sizeBytes": 19963505,
+          "checksum": "sha256:7350abecbfadd2b26fdf26d590408cf55d1b8af3eea948e72651e8a22e9026cc"
         }
       ],
       "keyVerse": {
@@ -3217,7 +3317,33 @@
           "audio": null
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-11",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 11,
+          "title": "Presentación PPT — Lección 11",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q3/ppt/leccion-11.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t311.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"132f003-65826a0fe78c8\"",
+            "lastModified": "Mon, 03 Aug 2026 15:59:53 GMT"
+          },
+          "checksum": "sha256:e56e2e621329c59ae7644f72bec2cbbb408991c2f1d0d6f6836e1a1eb14a256f",
+          "sizeBytes": 20115459
+        }
+      ],
       "keyVerse": {
         "reference": {
           "book": "",
@@ -4751,7 +4877,8 @@
     "schemaVersion": 1,
     "manifestPath": "/resource-manifest.json",
     "allowedSourceHosts": [
-      "www.audioescuelasabatica.com"
+      "www.audioescuelasabatica.com",
+      "www.fustero.es"
     ],
     "maxDownloadBytes": 50000000,
     "audioDiscovery": {
@@ -4773,6 +4900,23 @@
         "application/octet-stream"
       ],
       "maxBytes": 50000000
+    },
+    "presentationDiscovery": {
+      "indexUrl": "https://www.fustero.es/",
+      "fileNamePattern": "^(?P<year>\\d{4})t(?P<quarter>[1-4])(?P<lesson>\\d{2})\\.pptx$",
+      "year": 2026,
+      "quarter": 3,
+      "lessonStart": 1,
+      "lessonEnd": 13,
+      "localUrlTemplate": "/recursos/{quarterId}/ppt/leccion-{lesson:02d}.pptx",
+      "allowedContentTypes": [
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "application/octet-stream"
+      ],
+      "maxBytes": 80000000,
+      "indexMaxBytes": 2000000,
+      "provider": "Fustero",
+      "providerUrl": "https://www.fustero.es/"
     }
   }
 }

@@ -1193,6 +1193,18 @@ button.sidebar-ppt-card {
   font-size: 0.8rem;
 }
 
+.resource-source {
+  width: fit-content;
+  color: var(--color-slate-500);
+  font-size: 0.72rem;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.resource-source:hover {
+  color: var(--color-blue-700);
+}
+
 .resource-link {
   margin-top: auto;
   padding-top: var(--space-2);

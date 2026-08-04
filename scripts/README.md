@@ -16,4 +16,6 @@ Los recursos locales con `source.kind: "url"` se descargan primero a un director
 
 Los recursos con `source.kind: "manual"` se auditan y reciben checksum, pero no pueden descargarse hasta registrar su URL de origen. Las fuentes permitidas deben estar declaradas en `resourceAutomation.allowedSourceHosts`.
 
+Las presentaciones se descubren en `https://www.fustero.es/`, se descargan primero a una zona temporal y se publican como copias locales únicamente después de validar el contenedor PPTX y su checksum. La aplicación nunca usa Fustero como proxy en tiempo real: el usuario descarga una copia estable servida por Escuela Sabática y el catálogo conserva la atribución de Sergio Fustero y Eunice Laveda.
+
 `adventech_to_json.py` y `audit_content.py` se conservan para importar y comparar el contenido de las lecciones. No crean ni modifican el catálogo de recursos.

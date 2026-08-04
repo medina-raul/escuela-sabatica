@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q3",
-  "catalogChecksum": "sha256:cbca9282cebef4b832bbf68e8c5ab65202fbe71223b55487e2f6e77a46ca5269",
-  "resourceCount": 100,
-  "localResourceCount": 51,
+  "catalogChecksum": "sha256:228cd39caa4ed0595d4c3b7945923975ca4a2a8ddf9bbf1720103d590e26145b",
+  "resourceCount": 101,
+  "localResourceCount": 52,
   "resources": [
     {
       "id": "audio-01-domingo",
@@ -502,8 +502,8 @@
       "lessonNumber": 1,
       "url": "/recursos/2026-q3/ppt/leccion-01.pptx",
       "storage": "local",
-      "checksum": "sha256:29573fed41da2ee2002ad06e5b01827dd051a9ac07aeb3d928ff45bf17d6b11e",
-      "sizeBytes": 15293845
+      "checksum": "sha256:f13b14b92d54121bb67be94e1bf871675ecf98df81e74842f4bf8f414f5b7be7",
+      "sizeBytes": 15293663
     },
     {
       "id": "ppt-02",
@@ -512,8 +512,8 @@
       "lessonNumber": 2,
       "url": "/recursos/2026-q3/ppt/leccion-02.pptx",
       "storage": "local",
-      "checksum": "sha256:335a6575c1e1995eecc91777952751fb806e11d5dc2cc198e3353b8b1b6d4b6f",
-      "sizeBytes": 12342066
+      "checksum": "sha256:73e8b8d2ae41de3634841760f1fa4ae10e459ec247fda001dffa62e0d4d9d471",
+      "sizeBytes": 12341890
     },
     {
       "id": "ppt-03",
@@ -522,8 +522,8 @@
       "lessonNumber": 3,
       "url": "/recursos/2026-q3/ppt/leccion-03.pptx",
       "storage": "local",
-      "checksum": "sha256:d9b4e18bd3b09e4629925fa3e4b06aafa1e3f0bb671079a8ec4653245156fc91",
-      "sizeBytes": 13777150
+      "checksum": "sha256:faffb64f1e0ea939b1aa05dd1991d77b36813d4eacc75281d4f5a9a562e9a180",
+      "sizeBytes": 13777118
     },
     {
       "id": "ppt-04",
@@ -532,8 +532,8 @@
       "lessonNumber": 4,
       "url": "/recursos/2026-q3/ppt/leccion-04.pptx",
       "storage": "local",
-      "checksum": "sha256:47594ee7f5b75fca64b4b728c58d232af09a8e2a962d41083db59b175003448f",
-      "sizeBytes": 15070582
+      "checksum": "sha256:263a12684d8e1ed73eeab7567f999b08780cc01b2f9949bb047e2ca2a115c5b6",
+      "sizeBytes": 15070550
     },
     {
       "id": "ppt-05",
@@ -542,8 +542,8 @@
       "lessonNumber": 5,
       "url": "/recursos/2026-q3/ppt/leccion-05.pptx",
       "storage": "local",
-      "checksum": "sha256:ccdbdf6dccb1e49e091d130a55a26f2cded7ff4e09380b98877d3eec854f2baf",
-      "sizeBytes": 13794226
+      "checksum": "sha256:ef81049df49d959270d96b4776fce1b9d79536e34313ecb39725b41bb973fa27",
+      "sizeBytes": 13793462
     },
     {
       "id": "ppt-06",
@@ -552,8 +552,8 @@
       "lessonNumber": 6,
       "url": "/recursos/2026-q3/ppt/leccion-06.pptx",
       "storage": "local",
-      "checksum": "sha256:41545df1c69c864a3c6f01775c51c4937d2efca84f1b219062f0659749b63782",
-      "sizeBytes": 14743381
+      "checksum": "sha256:424d8198adce49157a9bca541a26f45bca5894211174c0e394db7e4b6fa9f4d0",
+      "sizeBytes": 14714633
     },
     {
       "id": "ppt-07",
@@ -562,8 +562,8 @@
       "lessonNumber": 7,
       "url": "/recursos/2026-q3/ppt/leccion-07.pptx",
       "storage": "local",
-      "checksum": "sha256:447c64faa734cc6d486349bef6a84b862b3825cdbfd4088eadc55e9869013fc8",
-      "sizeBytes": 5943382
+      "checksum": "sha256:63907617e58cb8fd5b9cba48213ca175c53223ed60cf0d23b822d1ed3d292e39",
+      "sizeBytes": 5943349
     },
     {
       "id": "ppt-08",
@@ -572,8 +572,8 @@
       "lessonNumber": 8,
       "url": "/recursos/2026-q3/ppt/leccion-08.pptx",
       "storage": "local",
-      "checksum": "sha256:d43f55da0791057ccd9553f4ea0126436cfc8449e0ccfbea1600bf313af75feb",
-      "sizeBytes": 12571380
+      "checksum": "sha256:4961539c035d23b031c111b71a2c60cd64e54bb9903811fa5e2d6ab392e3c29e",
+      "sizeBytes": 12569987
     },
     {
       "id": "ppt-09",
@@ -582,8 +582,8 @@
       "lessonNumber": 9,
       "url": "/recursos/2026-q3/ppt/leccion-09.pptx",
       "storage": "local",
-      "checksum": "sha256:290dcc9accc3df487ad3abc3b74d656055f13b6cfd47c7a23b08800adc565360",
-      "sizeBytes": 16240234
+      "checksum": "sha256:f649858904f89f3414c24840cfff6f2bf5509806d8cc7fc3545b195141d21233",
+      "sizeBytes": 16239456
     },
     {
       "id": "ppt-10",
@@ -592,8 +592,18 @@
       "lessonNumber": 10,
       "url": "/recursos/2026-q3/ppt/leccion-10.pptx",
       "storage": "local",
-      "checksum": "sha256:6434b73d2407a0c7aaa307ec3de26f89a3dfe221f1a22eb1f23475d2d4555c72",
-      "sizeBytes": 19963006
+      "checksum": "sha256:7350abecbfadd2b26fdf26d590408cf55d1b8af3eea948e72651e8a22e9026cc",
+      "sizeBytes": 19963505
+    },
+    {
+      "id": "ppt-11",
+      "type": "ppt",
+      "role": "weekly-presentation",
+      "lessonNumber": 11,
+      "url": "/recursos/2026-q3/ppt/leccion-11.pptx",
+      "storage": "local",
+      "checksum": "sha256:e56e2e621329c59ae7644f72bec2cbbb408991c2f1d0d6f6836e1a1eb14a256f",
+      "sizeBytes": 20115459
     },
     {
       "id": "reading-friday-01",

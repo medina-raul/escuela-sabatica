@@ -22,6 +22,8 @@ export type ResourceSource =
       maxBytes?: number;
       etag?: string;
       lastModified?: string;
+      provider?: string;
+      providerUrl?: string;
     }
   | { kind: "manual" };
 
@@ -53,12 +55,28 @@ export type AudioDiscoveryConfig = {
   maxBytes: number;
 };
 
+export type PresentationDiscoveryConfig = {
+  indexUrl: string;
+  fileNamePattern: string;
+  year: number;
+  quarter: number;
+  lessonStart: number;
+  lessonEnd: number;
+  localUrlTemplate: string;
+  allowedContentTypes: string[];
+  maxBytes: number;
+  indexMaxBytes: number;
+  provider: string;
+  providerUrl: string;
+};
+
 export type ResourceAutomationConfig = {
   schemaVersion: number;
   manifestPath: string;
   allowedSourceHosts: string[];
   maxDownloadBytes: number;
   audioDiscovery?: AudioDiscoveryConfig;
+  presentationDiscovery?: PresentationDiscoveryConfig;
 };
 
 export type AudioResource = {

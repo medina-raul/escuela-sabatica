@@ -6,6 +6,7 @@ type Props = {
 };
 
 const { resource } = Astro.props;
+const source = resource.source.kind === "url" ? resource.source : undefined;
 
 const labels: Record<string, string> = {
   pdf: "PDF",
@@ -35,6 +36,11 @@ const typeColors: Record<string, string> = {
   <div class="resource-body">
     <h3>{resource.title}</h3>
     <p>{resource.description ?? "Material descargable"}</p>
+    {source?.provider && source.providerUrl && (
+      <a class="resource-source" href={source.providerUrl} target="_blank" rel="noopener noreferrer">
+        Fuente: {source.provider}
+      </a>
+    )}
     {resource.type === "article" ? (
       <button class="resource-link" type="button" data-article-url={resource.url} data-article-title={resource.title}>Leer artículo →</button>
     ) : resource.external ? (
