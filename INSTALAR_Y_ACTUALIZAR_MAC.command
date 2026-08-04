@@ -40,6 +40,30 @@ if [ ! -d "$PROJECT_DIR/.git" ]; then
   fi
 fi
 
+CURRENT_BRANCH="$(git -C "$PROJECT_DIR" branch --show-current)"
+if [ "$CURRENT_BRANCH" != "main" ]; then
+  printf 'La copia local está en la rama %s; el instalador sólo actualiza main.\n' "$CURRENT_BRANCH"
+  printf '\nPresiona Enter para cerrar...'
+  read -r _answer
+  exit 1
+fi
+
+if ! git -C "$PROJECT_DIR" diff --quiet || ! git -C "$PROJECT_DIR" diff --cached --quiet; then
+  printf '%s\n' 'Hay cambios locales versionados. No se modificó nada.'
+  printf '\nPresiona Enter para cerrar...'
+  read -r _answer
+  exit 1
+fi
+
+printf '%s\n' 'Comprobando la versión más reciente del instalador...'
+if ! git -C "$PROJECT_DIR" fetch "$OFFICIAL_REPO" main || \
+   ! git -C "$PROJECT_DIR" merge --ff-only FETCH_HEAD; then
+  printf '%s\n' 'La copia local no admite una actualización segura por fast-forward.'
+  printf '\nPresiona Enter para cerrar...'
+  read -r _answer
+  exit 1
+fi
+
 if [ ! -f "$PROJECT_DIR/ACTUALIZAR_SITIO_MAC.command" ]; then
   printf '%s\n' 'La copia local no contiene el actualizador esperado. Contacta al administrador.'
   printf '\nPresiona Enter para cerrar...'

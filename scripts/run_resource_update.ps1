@@ -10,6 +10,20 @@ function Refresh-Path {
     $env:Path = "$machine;$user"
 }
 
+function Test-Python3 {
+    if (Get-Command py -ErrorAction SilentlyContinue) {
+        & py -3 --version *> $null
+        if ($LASTEXITCODE -eq 0) { return $true }
+    }
+    foreach ($command in @("python3", "python")) {
+        if (Get-Command $command -ErrorAction SilentlyContinue) {
+            & $command --version *> $null
+            if ($LASTEXITCODE -eq 0) { return $true }
+        }
+    }
+    return $false
+}
+
 function Install-ToolIfMissing {
     param(
         [Parameter(Mandatory = $true)][string]$Command,
@@ -36,7 +50,18 @@ New-Item -ItemType Directory -Force -Path $ReportDir | Out-Null
 Install-ToolIfMissing -Command git -WingetId "Git.Git"
 Install-ToolIfMissing -Command node -WingetId "OpenJS.NodeJS.LTS"
 Install-ToolIfMissing -Command npm -WingetId "OpenJS.NodeJS.LTS"
-Install-ToolIfMissing -Command python -WingetId "Python.Python.3.12"
+if (-not (Test-Python3)) {
+    if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
+        throw "Falta Python 3 y este Windows no dispone de winget. El administrador debe instalar Python.Python.3.12 una sola vez."
+    }
+    Write-Host "Instalando requisito Python 3..."
+    winget install --id "Python.Python.3.12" --exact --accept-package-agreements --accept-source-agreements
+    if ($LASTEXITCODE -ne 0) { throw "No se pudo instalar Python.Python.3.12" }
+    Refresh-Path
+    if (-not (Test-Python3)) {
+        throw "Python 3 fue instalado, pero Windows aun no lo reconoce. Cierre esta ventana y ejecute nuevamente el instalador."
+    }
+}
 Install-ToolIfMissing -Command gh -WingetId "GitHub.cli"
 
 gh auth status -h github.com *> $null
