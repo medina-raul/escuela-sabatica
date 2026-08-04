@@ -3674,8 +3674,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 5235,
-      "checksum": "sha256:f2022453bd78ce20614d0c5f1d301e3e5db7852f1a073e66f551518625eb26c9"
+      "sizeBytes": 5330,
+      "checksum": "sha256:cc6c09f71404556fe9aa528c48b84478a50ff2a3574c55ad53956a8473011a07"
     },
     {
       "id": "reading-general-1-corintios-02",
@@ -3688,8 +3688,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 6489,
-      "checksum": "sha256:94007e0297343db9aadd250f65cd91aac7a94b0ab4c0bf9910bd087f2cbbec83"
+      "sizeBytes": 6590,
+      "checksum": "sha256:7d547bd14272b7c43359bebe05e4c18c7521cd46fef555449fffc289e0a3976c"
     },
     {
       "id": "reading-general-1-corintios-03",
@@ -3702,8 +3702,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 6356,
-      "checksum": "sha256:0f73e51157a019dac877a5a8d9dc487442d6c3f4f30e445e948e816dff89a3d1"
+      "sizeBytes": 6457,
+      "checksum": "sha256:3391da5f8d857678ac7e669318ccce3ba1e87b112ad898ca9e721ea8a668e88c"
     },
     {
       "id": "reading-general-1-corintios-04",
@@ -3716,8 +3716,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 6658,
-      "checksum": "sha256:b660be204fbc82c25f5a835594f123c5621df9a24a435ff17b23a0d438734262"
+      "sizeBytes": 6759,
+      "checksum": "sha256:764382d91ee32282e08c32bb28ec33819703080b9fb9447c15ca990d03c3304c"
     },
     {
       "id": "reading-general-1-corintios-05",
@@ -3901,8 +3901,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 14766,
-      "checksum": "sha256:6784f6595d73692201491c6b858a1ec3c85fa1095c755ce137447789db9cece7"
+      "sizeBytes": 14905,
+      "checksum": "sha256:8ece88129f6b144583de2028f9e53dbf68470dcfb2daf3f625edbbbe83cc4c84"
     },
     {
       "id": "reading-friday-04",
@@ -3916,8 +3916,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 19168,
-      "checksum": "sha256:98f52fb2fe76ff9da6f453e5e10e553b9d5f78444e55d4f2755d0dc1b7857fa7"
+      "sizeBytes": 19313,
+      "checksum": "sha256:defb9c7bb84ad194914f987eb5049bf648e80370e34e3cde63c19246db2fe3ce"
     },
     {
       "id": "reading-friday-05",
@@ -3931,8 +3931,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 20274,
-      "checksum": "sha256:7a5b001dcdfc0e231813230825ba88930e4dff5a0a8b1e05053815cca8a62b8a"
+      "sizeBytes": 20423,
+      "checksum": "sha256:223dd3f38fc18bfc5d838d2cc5b54f49c5333ec40ceea8bd73ded8ddb39cc105"
     },
     {
       "id": "reading-friday-06",
@@ -3946,8 +3946,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 24454,
-      "checksum": "sha256:92ce2ac2cad51fad68b52ad91f09aa2245310900ab74aee31c24eda054e2d603"
+      "sizeBytes": 24626,
+      "checksum": "sha256:5b97bda49d5bbc9503c680781a61d596a144609841346bf10686fb1009b606f5"
     },
     {
       "id": "reading-friday-07",
@@ -3961,8 +3961,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 16450,
-      "checksum": "sha256:1fdecf375fff4c2a6d81d202f70ef01d408631ad1461d7aa60f38a271c1cf77e"
+      "sizeBytes": 16569,
+      "checksum": "sha256:b4ec022ffc896fc66a947ab710e9ea50540308b889da16b449b436fa997efb89"
     },
     {
       "id": "reading-friday-08",
@@ -3976,8 +3976,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 7012,
-      "checksum": "sha256:0fb83a7071676c225236a761f3793937e1bde58b6ab46973f00195bd3048c31e"
+      "sizeBytes": 7107,
+      "checksum": "sha256:e3bcd14811c719f5f1c03ccfddfe3c2b60e27f8fbe93768c3d1a9e44995a8de8"
     },
     {
       "id": "reading-friday-09",
@@ -3991,8 +3991,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 4498,
-      "checksum": "sha256:4dd47bcc3ee53afb15d1d863837337b3474b95764a71a325929c6cf6656afc6d"
+      "sizeBytes": 4585,
+      "checksum": "sha256:b579f32cad1f6c21324c0889c39626fd3cc825191ae42f9a8e4d711f71638123"
     },
     {
       "id": "reading-friday-10",
@@ -4006,8 +4006,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 4498,
-      "checksum": "sha256:4dd47bcc3ee53afb15d1d863837337b3474b95764a71a325929c6cf6656afc6d"
+      "sizeBytes": 4585,
+      "checksum": "sha256:b579f32cad1f6c21324c0889c39626fd3cc825191ae42f9a8e4d711f71638123"
     },
     {
       "id": "reading-friday-11",
@@ -4021,8 +4021,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 5641,
-      "checksum": "sha256:90de39288004d4b02443e342c005504280b6b57f2960165c31e6a9676917e73f"
+      "sizeBytes": 5757,
+      "checksum": "sha256:4c4ec78de7dfcbab8cf3d1c49cfd8a88abe2e61643dbf0fc48110adf3453235d"
     },
     {
       "id": "reading-friday-12",
@@ -4036,8 +4036,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 24642,
-      "checksum": "sha256:1cfc8c39e477002dbc2a84edbe117b1cc54e94ab2ac2a6005d4212077e03d45d"
+      "sizeBytes": 24801,
+      "checksum": "sha256:6fd838d8f742930786ca7289eeaece632757f6e27aff7ccbea630895d43fdf41"
     },
     {
       "id": "reading-friday-13",
@@ -4051,8 +4051,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 46677,
-      "checksum": "sha256:90e5f9ca49690d108bb7d23d3884638fe6c141e47529bea623f9233f9923dc87"
+      "sizeBytes": 46918,
+      "checksum": "sha256:4091f5a451ffb83d39779dc81f4f3e4968c8319ff80426ca60d16d483706a705"
     },
     {
       "id": "reading-teacher-01",
@@ -4078,8 +4078,8 @@
         "currentChecksum": "sha256:8033a7993f5286f858b47e967c2c892c076d9ea2ac626a6bbb284c231fb8e48c",
         "etag": "\"82df876e6cf33a84b6ae6706c5679aa643847959cb1802214aee144a501e99a0\""
       },
-      "sizeBytes": 13727,
-      "checksum": "sha256:aefc68234625e63c4650c066a644d8128971ae29398d583a0eb9f0527496e016",
+      "sizeBytes": 13852,
+      "checksum": "sha256:6d0db900a794c3ceda139d57a0db7615ed5427606ed66c88f83a807f4db91d54",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4112,8 +4112,8 @@
         "currentChecksum": "sha256:2772b37ecda9b7b653764b2de437026ac07fc4cf4f5e06cea265bd2875ce27bc",
         "etag": "\"8f7d0d784056cbc1776ea8204cc5443a90ba8076ad6e7781bb9d8ce20a946732\""
       },
-      "sizeBytes": 13899,
-      "checksum": "sha256:98af2dfa73287c0abcda41169921f03a60e428be64c3337adda2676b9e447013",
+      "sizeBytes": 14017,
+      "checksum": "sha256:ad7f7d91da75c93afe79bedad3ee2dcb7f8c7ec191ac5cea234d35b400f61876",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4146,8 +4146,8 @@
         "currentChecksum": "sha256:fae558659d1c176374a95ca1a1b2adadf500a6659266d7dfb7b14c40e1ddd0f4",
         "etag": "\"7b8f9e6ab0032e9435299bdced7a248edbdb57c4cba6ed0f12c7adf9b37e69b6\""
       },
-      "sizeBytes": 14791,
-      "checksum": "sha256:6c8d49830c020dae43d6e49337e4fe0afbcab6a83c7c332b84146c81316afc88",
+      "sizeBytes": 14912,
+      "checksum": "sha256:cba93b144e48245c0713541983cd0874518d005e139adc8b83a2228d1378bde7",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4180,8 +4180,8 @@
         "currentChecksum": "sha256:adb792ea272c5b8b1f87ceef6f0a3422fe2733b58b33fcf2bfdd928eed389430",
         "etag": "\"ff90eda90410b4d660c8ebc902c0b06c452d00a1b5c44a75ec0f77d34bfd42ba\""
       },
-      "sizeBytes": 9359,
-      "checksum": "sha256:0bfddf5627b2ae908cd730444fdc2639dc7659d9b71fb77e494586b83358fe1e",
+      "sizeBytes": 9425,
+      "checksum": "sha256:c4115ab74ce6e3a3d9a99fa2dcad45c411163caf916c2b8eca5ed751b17fa28a",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4214,8 +4214,8 @@
         "currentChecksum": "sha256:86e0e678746510c1e008571cb44cad7d7cd6ad69056709c3cf9ede3a362be8aa",
         "etag": "\"e0e2126c6a10d7c6972bcc9f5430b812391bab5183882e9f7189ccf41860dfd2\""
       },
-      "sizeBytes": 7975,
-      "checksum": "sha256:ad5f78aec1e843b581029fa2285b4303103f2ac0fe159c0177d33bc710b52744",
+      "sizeBytes": 8038,
+      "checksum": "sha256:610010bb511159db9f1be833eda61847031eeee41e125b263ad1622ac6559278",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4248,8 +4248,8 @@
         "currentChecksum": "sha256:42e98b395a563951338cab3faa962dca2d620a3a4d2fb70980fa1f5f05802d67",
         "etag": "\"7ff373428c23285f59dfcc01a4dd89946c3b55705b3d0e0c42d3ad4efea19b5a\""
       },
-      "sizeBytes": 8697,
-      "checksum": "sha256:67ba9b65b4141650064914996e988df81deba7683f3d7750ef3836167d9bd3f6",
+      "sizeBytes": 8763,
+      "checksum": "sha256:44f5c2f6ec046ea545bd05eb6315d508759ee77b34098ce71260cf304a79c640",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4282,8 +4282,8 @@
         "currentChecksum": "sha256:4fbc9a120c73b7f61103d668a9cd49af18c4e9cca216974b5ad93e4e7aeae5e1",
         "etag": "\"23cebf1368ee59784e358c66a9e666a32cf6d8b0ac75788f767644b694f15175\""
       },
-      "sizeBytes": 6031,
-      "checksum": "sha256:74efb592f68cf2d65d0fe6f7e461835c0a4a34718edc0c26667f3cac02ed35bc",
+      "sizeBytes": 6096,
+      "checksum": "sha256:e726069ffab4e722a7006e32279c1a775e8a581daa068a88a8cbcf86572c08ad",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4316,8 +4316,8 @@
         "currentChecksum": "sha256:dd9104ad8732ef12bd34846e4008ae0a6e4b6c19c9da0e22fccfbf7c0b10c524",
         "etag": "\"3f4b2a6afd2aaad1422e878ffa14a44a28b9946bc6bdac459c638454ddfe9d54\""
       },
-      "sizeBytes": 6063,
-      "checksum": "sha256:80b46203be175a6d808c55f8eae8b28cc2f2f932c31f33a7406b9e0e998b2e88",
+      "sizeBytes": 6126,
+      "checksum": "sha256:630fbfe48b9cfc69e358fdc7789d9096199f61baf6cb67eb16d3057417711712",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4350,8 +4350,8 @@
         "currentChecksum": "sha256:16469d226aa07aee717dc60ca6aaff86dc4422a495a355969a537b68587309ee",
         "etag": "\"cf326c17ea053319c9ffdb0618f67d50d3ac5e952f5234314b70c6025d79a8b7\""
       },
-      "sizeBytes": 6926,
-      "checksum": "sha256:af2e95dad5951aedaaf62baf2bc431e6da45eeb9e2efe549c3dd8c27ddcb840c",
+      "sizeBytes": 6995,
+      "checksum": "sha256:0025bcd01f9a216dfefecb9e28154299105fb7048a270d02d1b77ae4f39979ba",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4384,8 +4384,8 @@
         "currentChecksum": "sha256:3b96b20e4000a7ac5acc7509ae81e59d10f0eb8ad8e644fa8b9c0d5135263c94",
         "etag": "\"ccdd79727cc68d9f8fdc6aa6c7f8890b9675b5c2d0f21229f444204c0759eb93\""
       },
-      "sizeBytes": 5918,
-      "checksum": "sha256:1dbc483f05869ed1d25aee3f93670d56ee3816ea274aa0302d571b47a4e29f95",
+      "sizeBytes": 6006,
+      "checksum": "sha256:70c588b2b92dabde076fd141c122e2cbeeb1f835a8f19c41658809c01be7b71a",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4418,8 +4418,8 @@
         "currentChecksum": "sha256:b9765b40213684e523c18301b08c6e23f186596c7f875609377ae306cadc55ca",
         "etag": "\"82f9f78130a98d4c95290b4d556625fff7f94e6b8d6f453ca732a39945a59153\""
       },
-      "sizeBytes": 4963,
-      "checksum": "sha256:5054869ce3338225e1850fca129f7799ef34fca817e0b8e585515f60e49d3ff8",
+      "sizeBytes": 5023,
+      "checksum": "sha256:44e10058a80d2e73ea054beb04ed958115d8a7e740c09d7fa2fb66d436ddfc45",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4452,8 +4452,8 @@
         "currentChecksum": "sha256:2c73ab487eeebbeea56b9259da421c75255bcbd955cc77efc26fbca313fedb03",
         "etag": "\"86a8357a0ccbd4ca2092d567faf5b6d74e32a63a115172f5ab66f17db61bbc49\""
       },
-      "sizeBytes": 4961,
-      "checksum": "sha256:2f4be35136de5a34ea43574e2715c2d000db0e41717bbd933257602105d0e623",
+      "sizeBytes": 5020,
+      "checksum": "sha256:943dda746ea4b922ef8ef0c595e90f771a6ecae7ecfc21fa0fa87c8f41e21a3e",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
@@ -4486,8 +4486,8 @@
         "currentChecksum": "sha256:ad4f39cbb0938f5d5819cc35d5970b5967ec783b479aebeb7faa555e995a0df7",
         "etag": "\"0aa914baf901edc921136e0588e69ecd55f217db00c695b636b71b55df7a63d6\""
       },
-      "sizeBytes": 5281,
-      "checksum": "sha256:5fa5f45af30d147c6a10db12a6595ebca66a9d86267a6008473a6c01d9e99e49",
+      "sizeBytes": 5341,
+      "checksum": "sha256:8cc6c26cab3f0057591102bd971582ab69756a0c1e611e4b9cdafd4b22e4da5e",
       "translation": {
         "sourceLanguage": "en",
         "targetLanguage": "es",
