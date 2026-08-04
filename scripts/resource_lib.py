@@ -7,6 +7,7 @@ import hashlib
 import json
 import os
 import re
+import ssl
 import tempfile
 import urllib.error
 import urllib.parse
@@ -281,6 +282,34 @@ def _content_type_allowed(actual: str | None, allowed: list[str] | None) -> bool
     return normalized in {item.lower() for item in allowed}
 
 
+def _urlopen_with_tls_fallback(
+    request: urllib.request.Request,
+    *,
+    timeout: float,
+    insecure_tls_hosts: set[str] | None,
+) -> tuple[Any, bool]:
+    try:
+        return urllib.request.urlopen(request, timeout=timeout), False
+    except urllib.error.URLError as exc:
+        host = (urllib.parse.urlparse(request.full_url).hostname or "").lower()
+        reason = exc.reason
+        reason_text = str(reason)
+        certificate_error = (
+            isinstance(reason, ssl.SSLCertVerificationError)
+            or "CERTIFICATE_VERIFY_FAILED" in reason_text
+            or "certificate has expired" in reason_text.lower()
+        )
+        trusted_hosts = {item.lower() for item in (insecure_tls_hosts or set())}
+        if not certificate_error or host not in trusted_hosts:
+            raise
+        context = ssl._create_unverified_context()
+        return urllib.request.urlopen(
+            request,
+            timeout=timeout,
+            context=context,
+        ), True
+
+
 def probe_url(
     url: str,
     *,
@@ -289,13 +318,19 @@ def probe_url(
     max_bytes: int,
     timeout: float,
     missing_ok: bool = False,
+    insecure_tls_hosts: set[str] | None = None,
 ) -> RemoteMetadata | None:
     validate_source_url(url, allowed_hosts)
     headers = {"User-Agent": USER_AGENT, "Accept": "*/*"}
     request = urllib.request.Request(url, headers=headers, method="HEAD")
     response = None
+    insecure_tls = False
     try:
-        response = urllib.request.urlopen(request, timeout=timeout)
+        response, insecure_tls = _urlopen_with_tls_fallback(
+            request,
+            timeout=timeout,
+            insecure_tls_hosts=insecure_tls_hosts,
+        )
     except urllib.error.HTTPError as exc:
         if missing_ok and exc.code in {403, 404, 410}:
             return None
@@ -307,7 +342,11 @@ def probe_url(
             method="GET",
         )
         try:
-            response = urllib.request.urlopen(range_request, timeout=timeout)
+            response, insecure_tls = _urlopen_with_tls_fallback(
+                range_request,
+                timeout=timeout,
+                insecure_tls_hosts=insecure_tls_hosts,
+            )
         except urllib.error.HTTPError as range_exc:
             if missing_ok and range_exc.code in {403, 404, 410}:
                 return None
@@ -317,7 +356,17 @@ def probe_url(
 
     assert response is not None
     with response:
-        validate_source_url(response.geturl(), allowed_hosts)
+        final_url = response.geturl()
+        validate_source_url(final_url, allowed_hosts)
+        if insecure_tls:
+            trusted_hosts = {
+                item.lower() for item in (insecure_tls_hosts or set())
+            }
+            final_host = (urllib.parse.urlparse(final_url).hostname or "").lower()
+            if final_host not in trusted_hosts:
+                raise ResourceError(
+                    f"La fuente con TLS tolerante redirigio a otro host: {final_url}"
+                )
         content_type = response.headers.get("Content-Type")
         raw_length = response.headers.get("Content-Length")
         content_length = int(raw_length) if raw_length and raw_length.isdigit() else None

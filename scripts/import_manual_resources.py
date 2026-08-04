@@ -47,7 +47,7 @@ DESCRIPTOR_FIELDS = {
 
 
 def _relative_project(path: Path) -> str:
-    return str(path.resolve().relative_to(PROJECT_ROOT.resolve()))
+    return path.resolve().relative_to(PROJECT_ROOT.resolve()).as_posix()
 
 
 def parse_args() -> argparse.Namespace:
