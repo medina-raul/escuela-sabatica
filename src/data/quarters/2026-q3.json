@@ -5123,6 +5123,25 @@
   "resourceAutomation": {
     "schemaVersion": 1,
     "manifestPath": "/resource-manifest.json",
+    "canonicalLayout": {
+      "roleTemplates": {
+        "weekly-presentation": "/recursos/{quarterId}/ppt/leccion-{lesson:02d}.pptx",
+        "daily-audio": "/recursos/{quarterId}/audio/leccion-{lesson:02d}/{day}.mp3",
+        "friday-reading": "/recursos/{quarterId}/lecturas/viernes/leccion-{lesson:02d}.html",
+        "teacher-reading": "/recursos/{quarterId}/lecturas/maestros/leccion-{lesson:02d}.html",
+        "general-reading": "/recursos/{quarterId}/lecturas/generales/{filename}"
+      },
+      "legacySearchRoots": [
+        "public",
+        "recursos",
+        "resources"
+      ]
+    },
+    "manualInbox": {
+      "path": "resource-inbox",
+      "descriptorSuffix": ".resource.json",
+      "requireDescriptorForNew": true
+    },
     "allowedSourceHosts": [
       "www.audioescuelasabatica.com",
       "www.fustero.es",

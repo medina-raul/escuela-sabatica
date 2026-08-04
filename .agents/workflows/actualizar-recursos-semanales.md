@@ -1,13 +1,13 @@
 # Actualizar recursos semanales
 
-Ejecuta este workflow con el Gemini Pro más reciente disponible en Antigravity. Está diseñado para Windows, macOS y Linux y no requiere una API de traducción.
+Este archivo adapta el contrato portátil de `RESOURCE_AUTOMATION.md` a Antigravity. El mismo trabajo puede realizarlo cualquier otro agente o una persona y no requiere una API de traducción.
 
 ## 1. Preparación segura
 
-1. Lee `AGENTS.md`, `.agents/rules/resource-automation.md` y `scripts/README.md`.
+1. Lee `AGENTS.md`, `RESOURCE_AUTOMATION.md`, `.agents/rules/resource-automation.md` y `scripts/README.md`.
 2. Ejecuta `git status --short --branch`. Conserva cualquier cambio no relacionado y no cambies de rama si eso pudiera sobrescribir trabajo local.
 3. Este workflow se ejecuta después del validador de GitHub. Si existe `origin/automation/weekly-resources` y el árbol está limpio, cambia a esa rama y actualízala exclusivamente con avance rápido. Si no existe, crea `automation/weekly-resources` desde `main`. Nunca uses `reset --hard` ni descartes cambios.
-4. Confirma el identificador del modelo Gemini Pro activo. Regístralo para los comandos `apply`; si la interfaz no expone una versión exacta, usa `gemini-pro-latest`.
+4. Confirma el productor y el identificador del modelo activo. Si la interfaz no expone el modelo, usa `unspecified`.
 5. Ejecuta `npm ci` solamente si faltan dependencias; luego ejecuta `npm run resources:test`.
 
 ## 2. Validación y detección
@@ -16,16 +16,16 @@ Ejecuta este workflow con el Gemini Pro más reciente disponible en Antigravity.
 2. Ejecuta:
 
    ```text
-   npm run resources:update -- --report artifacts/resource-update-report.json
+   npm run resources:sync -- --skip-build --report artifacts/resource-sync-report.json
    ```
 
-3. Lee completamente `artifacts/resource-update-report.json`.
+3. Lee completamente `artifacts/resource-sync-report.json`.
 4. Si `errors` no está vacío, detente sin traducir ni reemplazar archivos y comunica cada error.
-5. Las entradas de `teacherTranslationTasks` son las únicas lecturas para maestros autorizadas para esta ejecución.
+5. Las entradas de `tasks` con `kind: "teacher-translation"` son las únicas lecturas para maestros autorizadas para esta ejecución.
 
-## 3. Traducción con Gemini Pro
+## 3. Traducción asistida
 
-Para cada entrada de `teacherTranslationTasks`, en orden de `lessonNumber`:
+Para cada tarea `teacher-translation`, en orden de `lessonNumber`:
 
 1. Copia exactamente `lessonNumber` y `sourceChecksum` desde el informe.
 2. Obtén nuevamente el original validado:
@@ -45,7 +45,7 @@ Para cada entrada de `teacherTranslationTasks`, en orden de `lessonNumber`:
 6. Aplica la traducción mediante el generador seguro, sustituyendo `MODELO` por el identificador confirmado:
 
    ```text
-   npm run resources:teacher -- apply --lesson LECCION --source artifacts/teacher-sources/leccion-NN.md --input artifacts/teacher-translations/leccion-NN.md --source-checksum CHECKSUM --model MODELO
+   npm run resources:teacher -- apply --lesson LECCION --source artifacts/teacher-sources/leccion-NN.md --input artifacts/teacher-translations/leccion-NN.md --source-checksum CHECKSUM --producer "Google Antigravity" --model MODELO
    ```
 
 7. Si cualquier validación falla, detente. No edites el HTML para evadir la salvaguarda.
@@ -65,7 +65,7 @@ git status --short
 Comprueba además que:
 
 - ningún archivo de `artifacts/` esté preparado para commit;
-- cada traducción nueva tenga `method: "antigravity-agent"` y `reviewStatus: "pending-review"`;
+- cada traducción nueva tenga `method: "assisted-translation"` y `reviewStatus: "pending-review"`;
 - el checksum de la traducción apunte al `sourceChecksum` validado;
 - los recursos que no cambiaron permanezcan intactos.
 

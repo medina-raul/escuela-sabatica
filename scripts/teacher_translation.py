@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare and atomically apply teacher translations produced by an IDE agent."""
+"""Prepare and atomically apply teacher translations from any human or agent."""
 
 from __future__ import annotations
 
@@ -31,7 +31,7 @@ from resource_lib import (
 from teacher_readings import RENDERER_VERSION, render_teacher_html, validate_teacher_markdown, validate_translation_pair
 
 
-WORKFLOW_VERSION = "antigravity-teacher-v1"
+WORKFLOW_VERSION = "portable-teacher-translation-v1"
 CHECKSUM_RE = re.compile(r"sha256:[0-9a-f]{64}")
 
 
@@ -52,8 +52,8 @@ def parse_args() -> argparse.Namespace:
     apply_parser.add_argument("--source", type=Path, required=True)
     apply_parser.add_argument("--input", type=Path, required=True)
     apply_parser.add_argument("--source-checksum", required=True)
-    apply_parser.add_argument("--model", default="gemini-pro-latest")
-    apply_parser.add_argument("--agent", default="Google Antigravity")
+    apply_parser.add_argument("--model", default="unspecified")
+    apply_parser.add_argument("--producer", "--agent", dest="producer", default="human-or-agent")
     return parser.parse_args()
 
 
@@ -193,6 +193,10 @@ def _new_resource(
 def apply_translation(args: argparse.Namespace) -> dict[str, Any]:
     if not CHECKSUM_RE.fullmatch(args.source_checksum):
         raise ResourceError("--source-checksum no es un SHA-256 válido")
+    if not str(args.producer).strip() or any(character in str(args.producer) for character in "\r\n\x00"):
+        raise ResourceError("--producer contiene un valor inválido")
+    if not str(args.model).strip() or any(character in str(args.model) for character in "\r\n\x00"):
+        raise ResourceError("--model contiene un valor inválido")
     catalog_path = args.catalog.resolve()
     manifest_path = args.manifest.resolve()
     catalog = load_catalog(catalog_path)
@@ -238,8 +242,8 @@ def apply_translation(args: argparse.Namespace) -> dict[str, Any]:
         resource["translation"] = {
             "sourceLanguage": "en",
             "targetLanguage": "es",
-            "method": "antigravity-agent",
-            "agent": args.agent,
+            "method": "assisted-translation",
+            "producer": args.producer,
             "model": args.model,
             "workflowVersion": WORKFLOW_VERSION,
             "rendererVersion": RENDERER_VERSION,
@@ -278,6 +282,7 @@ def apply_translation(args: argparse.Namespace) -> dict[str, Any]:
         "resourceId": resource["id"],
         "sourceChecksum": args.source_checksum,
         "htmlChecksum": resource["checksum"],
+        "producer": args.producer,
         "model": args.model,
         "target": expected_local_url,
     }

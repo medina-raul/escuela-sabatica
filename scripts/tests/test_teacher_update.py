@@ -89,6 +89,7 @@ class TeacherUpdateTests(unittest.TestCase):
         self.assertEqual("source-changed", resource["translation"]["reviewStatus"])
         self.assertEqual(new_checksum, resource["translation"]["detectedSourceChecksum"])
         self.assertTrue(warnings)
+        self.assertEqual("teacher-translation", tasks[0]["kind"])
         self.assertEqual("source-changed", tasks[0]["reason"])
         self.assertEqual(new_checksum, tasks[0]["sourceChecksum"])
 

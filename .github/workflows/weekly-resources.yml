@@ -40,14 +40,8 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Comprobar y actualizar fuentes
-        run: npm run resources:update -- --report "$RESOURCE_REPORT"
-
-      - name: Auditar catálogo y generar manifiesto
-        run: npm run resources:audit
-
-      - name: Build obligatorio
-        run: npm run build
+      - name: Reestructurar, importar, actualizar, auditar y compilar
+        run: npm run resources:sync -- --report "$RESOURCE_REPORT" --no-install
 
       - name: Guardar informe de ejecución
         if: always()
@@ -93,7 +87,8 @@ jobs:
             'Actualización generada por el verificador semanal de recursos.' \
             '' \
             '- Descargas validadas por tipo, tamaño y checksum.' \
-            '- Las fuentes de maestros modificadas quedan en cola para el workflow de Antigravity.' \
+            '- Las tareas no deterministas quedan en cola para una persona o cualquier agente compatible.' \
+            '- Se procesó la bandeja manual y se comprobó la estructura canónica.' \
             '- Catálogo y manifiesto auditados.' \
             '- `npm run build` completado antes de abrir este PR.' \
             '' \

@@ -148,8 +148,8 @@ class TeacherTranslationTests(unittest.TestCase):
                 source=source_path,
                 input=input_path,
                 source_checksum=source_checksum,
-                model="gemini-pro-latest",
-                agent="Google Antigravity",
+                model="test-model",
+                producer="test-agent",
             )
             with patch("teacher_translation.PROJECT_ROOT", root), patch.object(
                 resource_lib, "PROJECT_ROOT", root
@@ -158,8 +158,9 @@ class TeacherTranslationTests(unittest.TestCase):
 
             updated = json.loads(catalog_path.read_text(encoding="utf-8"))["resources"][0]
             self.assertEqual("applied-pending-review", result["status"])
-            self.assertEqual("antigravity-agent", updated["translation"]["method"])
-            self.assertEqual("gemini-pro-latest", updated["translation"]["model"])
+            self.assertEqual("assisted-translation", updated["translation"]["method"])
+            self.assertEqual("test-model", updated["translation"]["model"])
+            self.assertEqual("test-agent", updated["translation"]["producer"])
             self.assertEqual("pending-review", updated["translation"]["reviewStatus"])
             self.assertEqual(source_checksum, updated["translation"]["sourceChecksum"])
             self.assertIn("Parte I: Visión General", target.read_text(encoding="utf-8"))

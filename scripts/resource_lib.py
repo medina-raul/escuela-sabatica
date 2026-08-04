@@ -20,7 +20,26 @@ from typing import Any, Iterable
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_ROOT = PROJECT_ROOT / "public"
-DEFAULT_CATALOG = PROJECT_ROOT / "src/data/quarters/2026-q3.json"
+AUTOMATION_CONFIG = PROJECT_ROOT / "resource-automation.json"
+
+
+def _default_catalog_path() -> Path:
+    if not AUTOMATION_CONFIG.is_file():
+        return PROJECT_ROOT / "src/data/quarters/2026-q3.json"
+    try:
+        config = json.loads(AUTOMATION_CONFIG.read_text(encoding="utf-8"))
+        relative = Path(config["activeCatalog"])
+    except (json.JSONDecodeError, KeyError, TypeError) as exc:
+        raise RuntimeError(f"Configuración inválida: {AUTOMATION_CONFIG}") from exc
+    if relative.is_absolute():
+        raise RuntimeError("activeCatalog debe ser una ruta relativa al proyecto")
+    resolved = (PROJECT_ROOT / relative).resolve()
+    if PROJECT_ROOT.resolve() not in resolved.parents:
+        raise RuntimeError("activeCatalog intenta salir del proyecto")
+    return resolved
+
+
+DEFAULT_CATALOG = _default_catalog_path()
 DEFAULT_MANIFEST = PUBLIC_ROOT / "resource-manifest.json"
 USER_AGENT = "EscuelaSabaticaResourceBot/1.0 (+https://escuelasabatica.cl)"
 
@@ -111,6 +130,47 @@ def local_path_for_url(url: str) -> Path:
     if candidate != public_root and public_root not in candidate.parents:
         raise ResourceError(f"La URL intenta salir de public/: {url}")
     return candidate
+
+
+def project_path(relative_path: str | Path) -> Path:
+    """Resolve a configured project-relative path without allowing traversal."""
+
+    relative = Path(relative_path)
+    if relative.is_absolute():
+        raise ResourceError(f"La ruta debe ser relativa al proyecto: {relative_path}")
+    candidate = (PROJECT_ROOT / relative).resolve()
+    project_root = PROJECT_ROOT.resolve()
+    if candidate != project_root and project_root not in candidate.parents:
+        raise ResourceError(f"La ruta intenta salir del proyecto: {relative_path}")
+    return candidate
+
+
+def canonical_url_for_resource(catalog: dict[str, Any], resource: dict[str, Any]) -> str:
+    """Return the catalog-defined canonical URL for one local resource."""
+
+    layout = catalog.get("resourceAutomation", {}).get("canonicalLayout", {})
+    templates = layout.get("roleTemplates", {})
+    role = resource.get("role")
+    template = templates.get(role)
+    if not template:
+        raise ResourceError(f"No hay plantilla canónica para el rol {role!r} ({resource.get('id', '?')})")
+    current_url = resource.get("url", "")
+    filename = Path(urllib.parse.unquote(urllib.parse.urlparse(current_url).path)).name
+    if not filename or filename in {".", ".."}:
+        raise ResourceError(f"No se puede determinar el nombre de archivo de {resource.get('id', '?')}")
+    values = {
+        "quarterId": catalog.get("id"),
+        "lesson": resource.get("lessonNumber"),
+        "day": resource.get("dayId"),
+        "filename": filename,
+        "id": resource.get("id"),
+    }
+    try:
+        url = template.format(**values)
+    except (KeyError, TypeError, ValueError) as exc:
+        raise ResourceError(f"No se pudo construir la ruta canónica de {resource.get('id', '?')}: {exc}") from exc
+    local_path_for_url(url)
+    return url
 
 
 def validate_source_url(url: str, allowed_hosts: set[str]) -> None:
@@ -465,6 +525,9 @@ def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
         if storage == "local":
             try:
                 path = local_path_for_url(url)
+                canonical_layout = automation.get("canonicalLayout")
+                if canonical_layout and url != canonical_url_for_resource(catalog, resource):
+                    issues.append(Issue("error", "noncanonical-url", f"Ruta no canónica en {resource_id}: {url}"))
                 catalog_local_paths.add(path)
                 if resource_root.resolve() not in path.parents:
                     issues.append(Issue("error", "outside-quarter", f"Archivo fuera del trimestre: {url}"))

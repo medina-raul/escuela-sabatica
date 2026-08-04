@@ -27,7 +27,15 @@ export type ResourceSource =
       credit?: string;
       currentChecksum?: string;
     }
-  | { kind: "manual" };
+  | {
+      kind: "manual";
+      inboxPath?: string;
+      lastImportedChecksum?: string;
+      maxBytes?: number;
+      provider?: string;
+      providerUrl?: string;
+      credit?: string;
+    };
 
 export type Resource = {
   id: string;
@@ -49,10 +57,10 @@ export type Resource = {
   translation?: {
     sourceLanguage: "en";
     targetLanguage: "es";
-    method: "manual" | "antigravity-agent";
+    method: "manual" | "assisted-translation";
     sourceChecksum: string;
     detectedSourceChecksum?: string;
-    agent?: string;
+    producer?: string;
     model?: string;
     workflowVersion?: string;
     rendererVersion?: string;
@@ -105,6 +113,15 @@ export type ResourceAutomationConfig = {
   manifestPath: string;
   allowedSourceHosts: string[];
   maxDownloadBytes: number;
+  canonicalLayout?: {
+    roleTemplates: Partial<Record<ResourceRole, string>>;
+    legacySearchRoots: string[];
+  };
+  manualInbox?: {
+    path: string;
+    descriptorSuffix: string;
+    requireDescriptorForNew: boolean;
+  };
   audioDiscovery?: AudioDiscoveryConfig;
   presentationDiscovery?: PresentationDiscoveryConfig;
   teacherReadingDiscovery?: TeacherReadingDiscoveryConfig;

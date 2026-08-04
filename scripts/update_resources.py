@@ -379,10 +379,11 @@ def _discover_teacher_readings(
         target = local_path_for_url(local_url)
         if resource is None:
             warnings.append(
-                f"teacher-reading-{lesson_number:02d}: fuente validada; Antigravity debe crear la traducción"
+                f"teacher-reading-{lesson_number:02d}: fuente validada; requiere traducción asistida"
             )
             tasks.append(
                 {
+                    "kind": "teacher-translation",
                     "lessonNumber": lesson_number,
                     "resourceId": f"reading-teacher-{lesson_number:02d}",
                     "reason": "missing-translation",
@@ -446,6 +447,7 @@ def _discover_teacher_readings(
         reason = "source-changed" if target.is_file() else "missing-output"
         tasks.append(
             {
+                "kind": "teacher-translation",
                 "lessonNumber": lesson_number,
                 "resourceId": resource["id"],
                 "reason": reason,
@@ -456,7 +458,7 @@ def _discover_teacher_readings(
                 "reviewRequired": config.get("reviewRequired", True),
             }
         )
-        warnings.append(f"{resource['id']}: fuente validada; traducción pendiente en Antigravity")
+        warnings.append(f"{resource['id']}: fuente validada; traducción asistida pendiente")
 
     return handled_ids
 
@@ -654,6 +656,7 @@ def main() -> int:
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "changed": bool(changes),
         "requiresReview": bool(teacher_tasks),
+        "tasks": teacher_tasks,
         "teacherTranslationTasks": teacher_tasks,
         "changes": sorted(set(changes)),
         "warnings": warnings,

@@ -10,6 +10,8 @@ AGENTS.md
 PROMPT_MAESTRO.md
 docs/
 artifacts/
-.resource-update-*/
+.resource-*/
+resource-inbox/*
+!resource-inbox/README.md
 __pycache__/
 *.py[cod]
