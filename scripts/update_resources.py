@@ -110,23 +110,30 @@ def _discover_audio(
                 }
             )
 
-    def probe(candidate: dict[str, Any]) -> tuple[dict[str, Any], Any]:
-        return candidate, probe_url(
-            candidate["url"],
-            allowed_hosts=allowed_hosts,
-            allowed_content_types=config.get("allowedContentTypes"),
-            max_bytes=config["maxBytes"],
-            timeout=timeout,
-            missing_ok=candidate["existing"] is None,
-        )
+    def probe(candidate: dict[str, Any]) -> tuple[dict[str, Any], Any, str | None]:
+        try:
+            metadata = probe_url(
+                candidate["url"],
+                allowed_hosts=allowed_hosts,
+                allowed_content_types=config.get("allowedContentTypes"),
+                max_bytes=config["maxBytes"],
+                timeout=timeout,
+                missing_ok=candidate["existing"] is None,
+            )
+            return candidate, metadata, None
+        except ResourceError as exc:
+            message = str(exc)
+            if "certificate has expired" in message.lower():
+                return candidate, None, message
+            raise
 
-    results: list[tuple[dict[str, Any], Any]] = []
+    results: list[tuple[dict[str, Any], Any, str | None]] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         futures = [executor.submit(probe, candidate) for candidate in candidates]
         for future in concurrent.futures.as_completed(futures):
             results.append(future.result())
 
-    for candidate, metadata in sorted(
+    for candidate, metadata, probe_warning in sorted(
         results,
         key=lambda result: (result[0]["lessonNumber"], result[0]["dayId"]),
     ):
@@ -136,6 +143,13 @@ def _discover_audio(
         day_id = candidate["dayId"]
         url = candidate["url"]
         existing = candidate["existing"]
+        if probe_warning:
+            warnings.append(
+                "Fuente de audio omitida temporalmente por certificado vencido "
+                f"(lección {lesson_number}, {DAY_NAMES.get(day_id, day_id.title())}): "
+                f"{url}"
+            )
+            continue
         if metadata is None:
             continue
 
