@@ -1,5 +1,5 @@
 @echo off
-setlocal EnableExtensions
+setlocal EnableExtensions EnableDelayedExpansion
 title Instalar y actualizar Escuela Sabatica CL
 
 set "OFFICIAL_REPO=https://github.com/medina-raul/escuela-sabatica.git"
@@ -50,6 +50,36 @@ if not exist "%PROJECT_DIR%\.git\" (
     echo Si esa carpeta contiene otros archivos, no se modificaron.
     goto :failed
   )
+)
+
+set "CURRENT_BRANCH="
+for /f "usebackq delims=" %%B in (`git -C "%PROJECT_DIR%" branch --show-current`) do set "CURRENT_BRANCH=%%B"
+if /I not "!CURRENT_BRANCH!"=="main" (
+  echo ERROR: La copia local esta en la rama !CURRENT_BRANCH! y solo puede actualizarse desde main.
+  goto :failed
+)
+
+git -C "%PROJECT_DIR%" diff --quiet
+if errorlevel 1 (
+  echo ERROR: Hay cambios locales en archivos versionados. No se modifico nada.
+  goto :failed
+)
+git -C "%PROJECT_DIR%" diff --cached --quiet
+if errorlevel 1 (
+  echo ERROR: Hay cambios preparados en Git. No se modifico nada.
+  goto :failed
+)
+
+echo Comprobando la version mas reciente del instalador...
+git -C "%PROJECT_DIR%" fetch "%OFFICIAL_REPO%" main
+if errorlevel 1 (
+  echo ERROR: No se pudo consultar el repositorio oficial.
+  goto :failed
+)
+git -C "%PROJECT_DIR%" merge --ff-only FETCH_HEAD
+if errorlevel 1 (
+  echo ERROR: La copia local no admite una actualizacion segura por fast-forward.
+  goto :failed
 )
 
 if not exist "%PROJECT_DIR%\ACTUALIZAR_SITIO_WINDOWS.cmd" (
