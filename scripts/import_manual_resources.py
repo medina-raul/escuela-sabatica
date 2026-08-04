@@ -25,6 +25,7 @@ from resource_lib import (
     load_catalog,
     local_path_for_url,
     project_path,
+    sha256_bytes,
     sha256_path,
     validate_file,
     write_manifest,
@@ -165,7 +166,10 @@ def build_plan(catalog: dict[str, Any]) -> tuple[list[dict[str, Any]], list[str]
 
             max_bytes = resource.get("source", {}).get("maxBytes") or default_max
             validate_file(payload, resource["type"], max_bytes)
-            payload_checksum = sha256_path(payload)
+            payload_bytes = payload.read_bytes()
+            if resource["type"] == "article":
+                payload_bytes = payload_bytes.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+            payload_checksum = sha256_bytes(payload_bytes)
             inbox_path = _relative_project(payload)
             target_current = sha256_path(target) if target.is_file() else None
             metadata_changed = resource.get("source", {}).get("inboxPath") != inbox_path
@@ -179,7 +183,8 @@ def build_plan(catalog: dict[str, Any]) -> tuple[list[dict[str, Any]], list[str]
                     "target": target,
                     "targetUrl": target_url,
                     "checksum": payload_checksum,
-                    "size": payload.stat().st_size,
+                    "size": len(payload_bytes),
+                    "payloadBytes": payload_bytes,
                     "inboxPath": inbox_path,
                     "isNew": is_new,
                     "contentChanged": payload_checksum != target_current,
@@ -226,9 +231,7 @@ def apply_plan(
                 fd, staged_name = tempfile.mkstemp(prefix=f".{target.name}.", suffix=".manual", dir=target.parent)
                 try:
                     with os.fdopen(fd, "wb") as handle:
-                        with operation["payload"].open("rb") as source:
-                            for chunk in iter(lambda: source.read(1024 * 1024), b""):
-                                handle.write(chunk)
+                        handle.write(operation["payloadBytes"])
                         handle.flush()
                         os.fsync(handle.fileno())
                     os.replace(staged_name, target)

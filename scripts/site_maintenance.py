@@ -206,7 +206,15 @@ def path_is_allowed(path: str, allowed: list[str]) -> bool:
 
 def _git_lines(runner: CommandRunner, *args: str) -> list[str]:
     result = runner.run(["git", *args], quiet=True)
-    return [line.strip() for line in result.output.splitlines() if line.strip()]
+    lines: list[str] = []
+    for raw_line in result.output.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        if line.lower().startswith(("warning:", "hint:")):
+            continue
+        lines.append(line)
+    return lines
 
 
 def changed_paths(runner: CommandRunner) -> set[str]:
