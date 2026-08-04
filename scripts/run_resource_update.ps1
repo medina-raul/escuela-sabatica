@@ -10,17 +10,27 @@ function Refresh-Path {
     $env:Path = "$machine;$user"
 }
 
+function Test-PythonCommand {
+    param(
+        [Parameter(Mandatory = $true)][string]$Command,
+        [Parameter(Mandatory = $true)][string[]]$Arguments
+    )
+    if (-not (Get-Command $Command -ErrorAction SilentlyContinue)) { return $false }
+    try {
+        & $Command @Arguments *> $null
+        return ($LASTEXITCODE -eq 0)
+    }
+    catch {
+        # Windows puede exponer aliases python/python3 de Microsoft Store que
+        # existen como comandos, pero fallan al ejecutarse. No son Python real.
+        return $false
+    }
+}
+
 function Test-Python3 {
-    if (Get-Command py -ErrorAction SilentlyContinue) {
-        & py -3 --version *> $null
-        if ($LASTEXITCODE -eq 0) { return $true }
-    }
-    foreach ($command in @("python3", "python")) {
-        if (Get-Command $command -ErrorAction SilentlyContinue) {
-            & $command --version *> $null
-            if ($LASTEXITCODE -eq 0) { return $true }
-        }
-    }
+    if (Test-PythonCommand -Command "py" -Arguments @("-3", "--version")) { return $true }
+    if (Test-PythonCommand -Command "python" -Arguments @("--version")) { return $true }
+    if (Test-PythonCommand -Command "python3" -Arguments @("--version")) { return $true }
     return $false
 }
 
