@@ -3,10 +3,16 @@ dist/
 .astro/
 .DS_Store
 *.log
+~$*.docx
 .bak
 .vscode/
 Material escuelasabatica.cl/
 AGENTS.md
 PROMPT_MAESTRO.md
 docs/
-scripts/
+artifacts/
+.resource-*/
+resource-inbox/*
+!resource-inbox/README.md
+__pycache__/
+*.py[cod]

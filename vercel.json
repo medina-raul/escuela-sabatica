@@ -1,5 +1,270 @@
 {
   "redirects": [
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.escuelasabatica.cl" }], "destination": "https://escuelasabatica.cl/$1", "permanent": true }
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.escuelasabatica.cl"
+        }
+      ],
+      "destination": "https://escuelasabatica.cl/$1",
+      "permanent": true
+    },
+    {
+      "source": "/material/cb_intro_1cor.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/introduccion-1-corintios.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap1.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap2.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-02.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap3.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-03.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap4.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-04.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap5.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-05.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap6.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap7.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-07.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap8.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-08.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap9.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-09.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap10.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-10.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap11.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-11.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap12.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-12.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap13.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-13.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/res_cap14.html",
+      "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-14.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes1.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes2.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-02.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes3.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-03.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes4.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-04.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes5.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-05.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes6.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes7.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-07.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes8.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-08.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes9.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-09.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes10.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-10.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes11.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-11.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes12.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-12.html",
+      "permanent": true
+    },
+    {
+      "source": "/material/viernes13.html",
+      "destination": "/recursos/2026-q3/lecturas/viernes/leccion-13.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_01_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_02_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-02.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_03_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-03.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_04_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-04.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_05_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-05.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_06_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_07_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-07.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_08_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-08.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_09_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-09.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_10_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-10.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_11_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-11.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_12_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-12.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/semana_13_teacher_comments.html",
+      "destination": "/recursos/2026-q3/lecturas/maestros/leccion-13.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-01.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-01.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-02.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-02.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-03.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-03.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-04.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-04.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-05.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-05.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-06.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-06.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-07.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-07.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-08.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-08.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-09.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-09.pptx",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/2026-q3/leccion-10.pptx",
+      "destination": "/recursos/2026-q3/ppt/leccion-10.pptx",
+      "permanent": true
+    }
   ]
 }

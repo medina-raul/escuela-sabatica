@@ -1,6 +1,7 @@
 ---
 import type { Lesson, LessonDay } from "@app-types/lesson";
 import reavivadosData from "@data/quarters/2026-q3.json";
+import { getFridayResource, getPresentationResource, getTeacherResource } from "@lib/lessonAdapter";
 
 type Props = {
   lesson: Lesson;
@@ -8,16 +9,11 @@ type Props = {
 };
 
 const { lesson, activeDay } = Astro.props;
-const lessonResources = lesson.resources ?? [];
-const pptResources = lessonResources.filter(r => r.type === "ppt");
+const pptResource = getPresentationResource(lesson.number);
+const teacherResource = getTeacherResource(lesson.number);
 
 const isFriday = activeDay?.id === "viernes";
-const hasViernes = reavivadosData.resources?.some((r: any) => r.id === `viernes-${lesson.number}`);
-const viernesFile = isFriday && hasViernes ? `/material/viernes${lesson.number}.html` : null;
-
-const hasMaestros = reavivadosData.resources?.some((r: any) => r.id === `maestros-${lesson.number}`);
-const maestrosNum = String(lesson.number).padStart(2, '0');
-const maestrosFile = hasMaestros ? `/recursos/2026-q3/semana_${maestrosNum}_teacher_comments.html` : null;
+const fridayResource = isFriday ? getFridayResource(lesson.number) : undefined;
 
 const todayReading = activeDay?.date
   ? reavivadosData.reavivados?.find((r: { date: string }) => r.date === activeDay.date)
@@ -30,43 +26,37 @@ const reavivadosUrl = reavivadosBookId && reavivadosChapter
   ? `https://www.santabiblia.cloud/read/${reavivadosBookId}/${reavivadosChapter}`
   : null;
 
-const dayAbbr: Record<string, string> = {
-  Sábado: "Sáb", Domingo: "Dom", Lunes: "Lun", Martes: "Mar",
-  Miércoles: "Mié", Jueves: "Jue", Viernes: "Vie",
-};
 ---
 
 <aside class="right-rail" aria-label="Material complementario">
   <!-- Material de la semana (PPT) -->
   <section class="study-widget">
     <h3>Material de la semana</h3>
-    {pptResources.length > 0 ? (
+    {pptResource ? (
       <div class="resource-sidebar-list">
-        {pptResources.map((resource) => (
-          <a
-            class={resource.url && resource.url !== "#" ? "sidebar-ppt-card" : "sidebar-ppt-card ppt-unavailable"}
-            href={resource.url && resource.url !== "#" ? resource.url : undefined}
-            {...(resource.url && resource.url !== "#" ? { download: true } : {})}
-          >
-            <span class="sidebar-ppt-cover">
-              <img src="/images/covers/ppt-cover.svg" alt="PPT" width="72" height="88" loading="lazy" />
-            </span>
-            <strong class="sidebar-ppt-title">{resource.title}</strong>
-            <span class="sidebar-ppt-action">
-              {resource.url && resource.url !== "#" ? "Descargar ↓" : "Próximamente"}
-            </span>
-          </a>
-        ))}
+        <a class="sidebar-ppt-card" href={pptResource.url} download>
+          <span class="sidebar-ppt-cover">
+            <img src="/images/covers/ppt-cover.svg" alt="PPT" width="72" height="88" loading="lazy" />
+          </span>
+          <strong class="sidebar-ppt-title">{pptResource.title}</strong>
+          <span class="sidebar-ppt-action">Descargar ↓</span>
+        </a>
       </div>
     ) : (
-      <p class="muted">Sin material para esta lección.</p>
+      <div class="sidebar-ppt-card ppt-unavailable">
+        <span class="sidebar-ppt-cover">
+          <img src="/images/covers/ppt-cover.svg" alt="PPT" width="72" height="88" loading="lazy" style="opacity: 0.35" />
+        </span>
+        <strong class="sidebar-ppt-title">Presentación PPT</strong>
+        <span class="sidebar-ppt-action">Próximamente</span>
+      </div>
     )}
   </section>
 
   <section class="study-widget">
     <h3>Material para Maestros</h3>
-    {maestrosFile ? (
-       <button type="button" class="sidebar-ppt-card" data-article-url={maestrosFile} data-article-title={`Material para Maestros — Lección ${lesson.number}`}>
+    {teacherResource ? (
+       <button type="button" class="sidebar-ppt-card" data-article-url={teacherResource.url} data-article-title={teacherResource.title}>
         <span class="sidebar-ppt-cover">
           <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
         </span>
@@ -107,8 +97,8 @@ const dayAbbr: Record<string, string> = {
   {isFriday && (
     <section class="study-widget">
       <h3>Complemento del Viernes</h3>
-      {viernesFile ? (
-         <button type="button" class="sidebar-ppt-card" data-article-url={viernesFile} data-article-title={`Comentario de la semana — Lección ${lesson.number}`}>
+      {fridayResource ? (
+         <button type="button" class="sidebar-ppt-card" data-article-url={fridayResource.url} data-article-title={fridayResource.title}>
           <span class="sidebar-ppt-cover">
             <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
           </span>

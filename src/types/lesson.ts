@@ -1,4 +1,4 @@
-import type { AudioResource, Resource } from "./resource";
+import type { AudioResource, Resource, ResourceAutomationConfig } from "./resource";
 import type { BibleRefContent, BibleReference } from "./bible";
 
 export type ContentBlock =
@@ -66,4 +66,5 @@ export type Quarter = {
   lessons: Lesson[];
   resources?: Resource[];
   reavivados?: { date: string; reading: string }[];
+  resourceAutomation?: ResourceAutomationConfig;
 };

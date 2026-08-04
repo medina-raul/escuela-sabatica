@@ -1,6 +1,6 @@
 import quarterData from "@data/quarters/2026-q3.json";
 import type { Lesson, LessonDay, Quarter } from "@app-types/lesson";
-import type { Resource } from "@app-types/resource";
+import type { Resource, ResourceRole } from "@app-types/resource";
 
 export const quarter = quarterData as unknown as Quarter;
 
@@ -23,6 +23,28 @@ export function getDay(lessonId: string, dayId: string): LessonDay | undefined {
 export function getAllResources(): Resource[] {
   const lessonResources = quarter.lessons.flatMap((lesson) => lesson.resources ?? []);
   return [...(quarter.resources ?? []), ...lessonResources];
+}
+
+export function getResource(resourceId: string): Resource | undefined {
+  return getAllResources().find((resource) => resource.id === resourceId);
+}
+
+export function getLessonResource(lessonNumber: number, role: ResourceRole): Resource | undefined {
+  return getAllResources().find(
+    (resource) => resource.lessonNumber === lessonNumber && resource.role === role,
+  );
+}
+
+export function getFridayResource(lessonNumber: number): Resource | undefined {
+  return getLessonResource(lessonNumber, "friday-reading");
+}
+
+export function getTeacherResource(lessonNumber: number): Resource | undefined {
+  return getLessonResource(lessonNumber, "teacher-reading");
+}
+
+export function getPresentationResource(lessonNumber: number): Resource | undefined {
+  return getLessonResource(lessonNumber, "weekly-presentation");
 }
 
 export function getAdjacentDay(lesson: Lesson, dayId: string, offset: -1 | 1) {

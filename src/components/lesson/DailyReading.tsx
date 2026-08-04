@@ -2,13 +2,14 @@ import { useMemo, useState } from "react";
 import { BibleStudyModal } from "@components/bible/BibleStudyModal";
 import type { Lesson, LessonDay } from "@app-types/lesson";
 import type { BibleReference } from "@app-types/bible";
-import quarterData from "@data/quarters/2026-q3.json";
+import type { Resource } from "@app-types/resource";
 
 type Props = {
   lesson: Lesson;
   day: LessonDay;
   previousDay?: LessonDay;
   nextDay?: LessonDay;
+  fridayResource?: Resource;
 };
 
 // Stricter book pattern: optional digit prefix + capitalized word(s)
@@ -218,11 +219,33 @@ function findReferences(text: string, knownRefs: BibleReference[], onOpen: (ref:
   return parts;
 }
 
-export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
+function renderInlineEmphasis(text: string): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  const emphasis = /(\*\*([^*]+)\*\*|\*([^*]+)\*|_([^_]+)_)/g;
+  let cursor = 0;
+  let match: RegExpExecArray | null;
+  while ((match = emphasis.exec(text)) !== null) {
+    if (match.index > cursor) parts.push(text.slice(cursor, match.index));
+    const content = match[2] ?? match[3] ?? match[4] ?? "";
+    parts.push(
+      match[2]
+        ? <strong key={`${match.index}-${content}`}>{content}</strong>
+        : <em key={`${match.index}-${content}`}>{content}</em>,
+    );
+    cursor = match.index + match[0].length;
+  }
+  if (cursor < text.length) parts.push(text.slice(cursor));
+  return parts;
+}
+
+export function DailyReading({ lesson, day, previousDay, nextDay, fridayResource }: Props) {
   const [activeReference, setActiveReference] = useState<BibleReference | null>(null);
   const references = day.studyReferences ?? [];
   const lines = useMemo(() => (day.contentMarkdown ?? "").split("\n").filter(Boolean), [day.contentMarkdown]);
-  const hasViernes = (quarterData as any).resources?.some((r: any) => r.id === `viernes-${lesson.number}`);
+  const fridayInvitationIndex = useMemo(
+    () => day.id === "viernes" ? lines.findIndex((line) => !line.startsWith("#") && line.trim() !== "---") : -1,
+    [day.id, lines],
+  );
 
   return (
     <>
@@ -239,7 +262,7 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
         )}
 
         <div className="reading-body">
-          {lines.map((line) => {
+          {lines.map((line, lineIndex) => {
             // Horizontal rule
             if (line === "---" || line.trim() === "") return null;
             // ### / #### Heading
@@ -262,28 +285,20 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
             const promptText = line.startsWith("`") && line.endsWith("`") ? line.slice(1, -1).trim() : line;
             const isPrompt = line.startsWith("`") && line.endsWith("`");
             
-            // Viernes EGW reading link: «Chapter», de Book (pp. N-M)
-            const egwMatch = promptText.match(
-              /(Lee (?:el capítulo|los capítulos) )?«([^»]+)», de (.+?) \(pp\. (\d+)[–-](\d+)\)/
-            );
-            if (egwMatch && day.id === "viernes") {
-              const prefix = egwMatch[1] || "";
-              const chapter = egwMatch[2];
-              const book = egwMatch[3];
-              const pp = `${egwMatch[4]}–${egwMatch[5]}`;
-              const suffix = promptText.slice(egwMatch.index! + egwMatch[0].length);
+            // The first complete Friday block always opens that lesson's complementary reading.
+            if (lineIndex === fridayInvitationIndex && fridayResource) {
               return (
                 <p className={isPrompt ? "reading-prompt" : ""} key={line}>
-                  {isPrompt ? <em>{prefix}</em> : prefix}
                   <button
                     type="button"
-                    className="viernes-egw-link"
-                    data-article-url={`/material/viernes${lesson.number}.html`}
-                    data-article-title={`${chapter}, de ${book} (pp. ${pp})`}
+                    className="viernes-reading-link"
+                    data-article-url={fridayResource.url}
+                    data-article-title={fridayResource.title}
+                    data-friday-reading-trigger="true"
+                    aria-haspopup="dialog"
                   >
-                    «{chapter}», de {book} (pp. {pp})
+                    {isPrompt ? <em>{renderInlineEmphasis(promptText)}</em> : renderInlineEmphasis(promptText)}
                   </button>
-                  {isPrompt ? <em>{suffix}</em> : suffix}
                 </p>
               );
             }
@@ -315,11 +330,11 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
         {day.id === "viernes" && (
           <div className="viernes-complement">
             <div className="section-separator" style={{ margin: "var(--space-4) 0" }}></div>
-            {hasViernes ? (
+            {fridayResource ? (
               <button
                 type="button"
                 className="viernes-complement-link"
-                data-article-url={`/material/viernes${lesson.number}.html`}
+                data-article-url={fridayResource.url}
                 data-article-title={`Comentario de la semana — Lección ${lesson.number}`}
               >
                 <span className="viernes-complement-icon">
