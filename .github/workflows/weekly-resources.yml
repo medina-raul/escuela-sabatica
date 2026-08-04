@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      RESOURCE_REPORT: ${{ runner.temp }}/resource-update-report.json
+      RESOURCE_REPORT: /tmp/resource-update-report.json
       AUTOMATION_BRANCH: automation/weekly-resources-${{ github.run_id }}
       GH_TOKEN: ${{ secrets.AUTOMATION_GITHUB_TOKEN || github.token }}
     steps:
