@@ -1,0 +1,46 @@
+name: Validar actualización de recursos
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "public/resource-manifest.json"
+      - "public/recursos/**"
+      - "src/data/quarters/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Auditar catálogo y manifiesto
+        run: npm run resources:audit
+
+      - name: Ejecutar pruebas automatizadas
+        run: npm run resources:test
+
+      - name: Construir sitio
+        run: npm run build
+
+      - name: Auditar rutas del sitio construido
+        run: npm run resources:site-audit

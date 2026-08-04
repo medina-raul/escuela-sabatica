@@ -12,19 +12,22 @@ concurrency:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 60
     env:
       RESOURCE_REPORT: ${{ runner.temp }}/resource-update-report.json
-      AUTOMATION_BRANCH: automation/weekly-resources
+      AUTOMATION_BRANCH: automation/weekly-resources-${{ github.run_id }}
+      GH_TOKEN: ${{ secrets.AUTOMATION_GITHUB_TOKEN || github.token }}
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.AUTOMATION_GITHUB_TOKEN || github.token }}
 
       - name: Preparar Python
         uses: actions/setup-python@v5
@@ -56,6 +59,11 @@ jobs:
         id: changes
         shell: bash
         run: |
+          TASK_COUNT=$(python3 -c 'import json, os; print(len(json.load(open(os.environ["RESOURCE_REPORT"], encoding="utf-8")).get("tasks", [])))')
+          echo "tasks=$TASK_COUNT" >> "$GITHUB_OUTPUT"
+          if [ "$TASK_COUNT" -gt 0 ]; then
+            echo "Hay $TASK_COUNT tarea(s) asistida(s); no se autoriza una publicación desatendida." >> "$GITHUB_STEP_SUMMARY"
+          fi
           if git diff --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No se detectaron cambios de recursos." >> "$GITHUB_STEP_SUMMARY"
@@ -70,19 +78,18 @@ jobs:
         run: |
           git config user.name "escuela-sabatica-bot"
           git config user.email "actions@users.noreply.github.com"
-          git switch -C "$AUTOMATION_BRANCH"
+          git switch -c "$AUTOMATION_BRANCH"
           git add src/data/quarters public/resource-manifest.json public/recursos
           git commit -m "chore(resources): actualización semanal automática"
-          git fetch origin "$AUTOMATION_BRANCH" || true
-          git push --force-with-lease origin "HEAD:refs/heads/$AUTOMATION_BRANCH"
+          git push origin "HEAD:refs/heads/$AUTOMATION_BRANCH"
 
       - name: Crear o actualizar pull request
         if: steps.changes.outputs.changed == 'true'
+        id: pull_request
         env:
-          GH_TOKEN: ${{ github.token }}
+          TASK_COUNT: ${{ steps.changes.outputs.tasks }}
         shell: bash
         run: |
-          PR_NUMBER=$(gh pr list --head "$AUTOMATION_BRANCH" --state open --json number --jq '.[0].number // empty')
           BODY=$(printf '%s\n' \
             'Actualización generada por el verificador semanal de recursos.' \
             '' \
@@ -95,12 +102,76 @@ jobs:
             '- Las rutas locales del sitio construido fueron auditadas.' \
             '' \
             'Revisar el informe adjunto a la ejecución antes de fusionar.')
-          if [ -z "$PR_NUMBER" ]; then
-            gh pr create \
-              --base main \
-              --head "$AUTOMATION_BRANCH" \
-              --title "chore(resources): actualización semanal" \
-              --body "$BODY"
-          else
-            gh pr edit "$PR_NUMBER" --title "chore(resources): actualización semanal" --body "$BODY"
+          DRAFT_ARGS=()
+          if [ "$TASK_COUNT" -gt 0 ]; then
+            DRAFT_ARGS+=(--draft)
           fi
+          PR_URL=$(gh pr create \
+            --base main \
+            --head "$AUTOMATION_BRANCH" \
+            --title "chore(resources): actualización semanal" \
+            --body "$BODY" \
+            "${DRAFT_ARGS[@]}")
+          echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
+          echo "PR creado: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fusionar actualización completamente validada
+        if: steps.changes.outputs.changed == 'true' && steps.changes.outputs.tasks == '0'
+        shell: bash
+        env:
+          PR_URL: ${{ steps.pull_request.outputs.url }}
+        run: |
+          HEAD_SHA=$(git rev-parse HEAD)
+          gh pr merge "$PR_URL" --squash --delete-branch --match-head-commit "$HEAD_SHA"
+          MERGED=false
+          for attempt in $(seq 1 80); do
+            STATE=$(gh pr view "$PR_URL" --json state --jq '.state')
+            if [ "$STATE" = "MERGED" ]; then
+              MERGED=true
+              break
+            fi
+            if [ "$STATE" = "CLOSED" ]; then
+              echo "El PR se cerró sin fusionarse." >> "$GITHUB_STEP_SUMMARY"
+              exit 1
+            fi
+            sleep 15
+          done
+          if [ "$MERGED" != "true" ]; then
+            echo "La fusión no terminó. Configure AUTOMATION_GITHUB_TOKEN y revise las reglas de main." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          echo "PR fusionado automáticamente después de todas las validaciones." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Registrar tareas asistidas para un agente
+        if: steps.changes.outputs.tasks != '0'
+        shell: bash
+        env:
+          TASK_COUNT: ${{ steps.changes.outputs.tasks }}
+          PR_URL: ${{ steps.pull_request.outputs.url }}
+        run: |
+          TITLE="content(resources): tareas asistidas pendientes"
+          EXISTING=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          BODY=$(printf '%s\n' \
+            "El actualizador encontró $TASK_COUNT tarea(s) que requieren un agente compatible." \
+            '' \
+            "PR borrador: ${PR_URL:-sin cambios publicables}" \
+            "Informe: resource-update-report (artefacto de esta ejecución)." \
+            '' \
+            'Seguir `.agents/workflows/actualizar-recursos-semanales.md` y volver a ejecutar el ciclo.')
+          if [ -z "$EXISTING" ]; then
+            gh issue create --title "$TITLE" --body "$BODY"
+          else
+            gh issue edit "$EXISTING" --body "$BODY"
+          fi
+          echo "La publicación se detuvo hasta que un agente complete las tareas asistidas." >> "$GITHUB_STEP_SUMMARY"
+          exit 1
+
+      - name: Esperar Vercel y comprobar producción
+        if: steps.changes.outputs.tasks == '0'
+        run: >-
+          python3 scripts/verify_deployment.py
+          --base-url https://escuelasabatica.cl
+          --attempts 45
+          --interval 20
+          --timeout 20
+          --workers 8

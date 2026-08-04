@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "officialRepository": "medina-raul/escuela-sabatica",
+  "baseBranch": "main",
+  "productionUrl": "https://escuelasabatica.cl",
+  "automationBranchPrefix": "automation/desktop-resources",
+  "commitMessage": "chore(resources): actualización integral automática",
+  "allowedChangePaths": [
+    "src/data/quarters/",
+    "public/resource-manifest.json",
+    "public/recursos/"
+  ],
+  "pullRequest": {
+    "title": "chore(resources): actualización integral automática",
+    "checkDiscoverySeconds": 45,
+    "checkTimeoutSeconds": 1800,
+    "pollSeconds": 15
+  },
+  "deployment": {
+    "attempts": 45,
+    "intervalSeconds": 20,
+    "timeoutSeconds": 20,
+    "workers": 8
+  }
+}

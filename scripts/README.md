@@ -2,6 +2,18 @@
 
 El catálogo indicado por `resource-automation.json` es la única fuente de verdad para la biblioteca, el sidebar y la automatización. La explicación independiente de plataforma está en `RESOURCE_AUTOMATION.md`.
 
+## Operación integral
+
+```bash
+npm run site:update          # sincroniza Git, actualiza, publica, despliega y verifica
+npm run site:update:plan     # ensayo local sin aplicar ni publicar
+npm run site:update:local    # aplica y valida localmente, sin publicar
+```
+
+`site_maintenance.py` exige una rama `main` limpia, hace sólo fast-forward desde el repositorio oficial, instala dependencias reproducibles con `npm ci`, ejecuta el pipeline de recursos y publica exclusivamente las rutas permitidas en `site-maintenance.json`. Si hay cambios crea una rama automática y un PR; tras las comprobaciones lo fusiona, vuelve a sincronizar la copia local y espera que Vercel publique el manifiesto esperado.
+
+El informe para soporte es `artifacts/site-maintenance-report.json`.
+
 ## Comandos
 
 ```bash
@@ -20,7 +32,7 @@ npm run resources:test                              # pruebas de la automatizaci
 
 Los comandos usan `scripts/run_python.mjs`, que selecciona `py -3`/`python` en Windows y `python3`/`python` en macOS o Linux.
 
-En macOS se puede abrir `scripts/run_resource_update.command`. En Windows se puede ejecutar `powershell -ExecutionPolicy Bypass -File scripts/run_resource_update.ps1`. Ambos llaman exactamente al mismo `resources:sync`; los accesos directos no contienen lógica propia.
+El editor no necesita usar estos comandos: abre `ACTUALIZAR_SITIO_WINDOWS.cmd` o `ACTUALIZAR_SITIO_MAC.command` en la raíz. Los adaptadores comprueban herramientas, solicitan la autorización inicial de GitHub y llaman al mismo orquestador integral.
 
 Los recursos locales con `source.kind: "url"` se descargan primero a un directorio temporal, se validan por tipo real, tamaño y SHA-256, y solo entonces reemplazan los archivos actuales. Si cualquier validación falla, no se actualiza el catálogo y se restauran los archivos afectados.
 

@@ -1,15 +1,52 @@
-# Automatización portátil de recursos
+# Automatización integral y portátil del sitio
 
-El motor de actualización pertenece al repositorio. No depende del sistema operativo, del editor ni del agente de programación. Requiere Node.js/npm y Python 3.10 o superior; el mismo comando funciona en Windows, macOS y Linux.
+El motor de actualización pertenece al repositorio. No depende del sistema operativo, del editor ni del agente de programación. La operación cotidiana está pensada para una persona no técnica: un doble clic comprueba la copia local, instala dependencias, actualiza recursos, publica el cambio mediante PR, sincroniza producción y verifica el despliegue.
+
+## Operación para el editor
+
+- Windows: doble clic en `ACTUALIZAR_SITIO_WINDOWS.cmd`.
+- macOS: doble clic en `ACTUALIZAR_SITIO_MAC.command`.
+- Sin intervención: GitHub Actions ejecuta el mismo ciclo cada lunes a las 11:17 UTC.
+
+La primera ejecución puede instalar Git, Node.js, Python y GitHub CLI mediante `winget` en Windows o Homebrew en macOS. También abre una autorización de GitHub en el navegador una sola vez. En ejecuciones posteriores, `npm ci` instala o ajusta automáticamente las librerías exactas declaradas por el proyecto.
+
+El orquestador integral es `scripts/site_maintenance.py` y su configuración estable está en `site-maintenance.json`.
+
+## Ciclo integral
+
+```text
+bloqueo de concurrencia
+  -> diagnóstico de herramientas y autenticación
+  -> repositorio limpio + fast-forward desde medina-raul/main
+  -> npm ci
+  -> planificación remota sin aplicar
+  -> reestructuración + bandeja manual + fuentes
+  -> checksums + auditoría + pruebas + build + rutas
+  -> commit limitado a rutas de recursos
+  -> rama automática + PR
+  -> comprobaciones remotas + squash merge
+  -> fast-forward de la copia local
+  -> espera de Vercel + verificación de producción
+```
+
+El sistema nunca usa `git reset`, `git add -A`, rebase automático ni push forzado a `main`. Si encuentra cambios locales, commits divergentes, rutas inesperadas, tareas no deterministas o comprobaciones fallidas, se detiene sin sobrescribir trabajo y genera `artifacts/site-maintenance-report.json`.
+
+Las tareas asistidas —actualmente traducciones nuevas para maestros— producen un PR borrador y requieren un agente compatible antes de fusionarse. Todo lo determinista es completamente desatendido.
 
 ## Comandos estables
 
 ```text
+npm run site:update
+npm run site:update:plan
+npm run site:update:local
 npm run resources:plan
 npm run resources:sync
 npm run resources:sync:offline
 ```
 
+- `site:update` ejecuta el ciclo completo, incluyendo GitHub, despliegue y resincronización local.
+- `site:update:plan` prueba localmente el descubrimiento sin aplicar ni publicar.
+- `site:update:local` ejecuta el motor completo de recursos sin GitHub ni despliegue.
 - `resources:plan` calcula la reestructuración, los ingresos manuales, las actualizaciones remotas y las tareas asistidas sin modificar archivos.
 - `resources:sync` reestructura, importa, descarga, valida, reemplaza atómicamente, audita y compila.
 - `resources:sync:offline` ejecuta el mantenimiento físico y manual sin consultar Internet.
@@ -28,7 +65,7 @@ catálogo activo
   -> pruebas automatizadas
   -> build
   -> auditoría de rutas del sitio construido
-  -> revisión y PR
+  -> publicación, despliegue y verificación
 ```
 
 Cada fase determinista puede ejecutarse sin un agente. Los archivos se validan por extensión, estructura real, tamaño y SHA-256 antes de reemplazar el destino. Las operaciones físicas y el catálogo se restauran si falla la auditoría posterior. El comando estable ejecuta además toda la batería de pruebas antes del build, tanto desde el acceso directo local como desde GitHub Actions.
@@ -63,6 +100,12 @@ El productor debe:
 
 El script de aplicación vuelve a comprobar el checksum de la fuente, valida ambos idiomas, genera HTML seguro y deja el resultado pendiente de revisión. El agente no debe editar directamente el HTML ni fusionar automáticamente el PR.
 
+## Publicación semanal
+
+`.github/workflows/weekly-resources.yml` ejecuta la actualización en un runner limpio, publica sólo las rutas autorizadas, crea y fusiona el PR cuando no existen tareas asistidas y comprueba `https://escuelasabatica.cl`. Para una ejecución semanal sin aprobaciones manuales se configura una sola vez el secreto `AUTOMATION_GITHUB_TOKEN` con un token de la cuenta administradora y permisos de contenido, PR e incidencias. El token estándar queda como respaldo, pero GitHub puede exigir aprobar manualmente los workflows que ese mismo token genera.
+
+Los PR de recursos ejecutan además `.github/workflows/resource-pr-validation.yml`.
+
 ## Adaptadores
 
-Los accesos directos `.command` y `.ps1`, GitHub Actions y `.agents/workflows/` son sólo adaptadores del comando estable. Pueden sustituirse sin cambiar el motor ni el catálogo.
+Los accesos directos `.cmd`, `.command` y `.ps1`, GitHub Actions y `.agents/workflows/` son adaptadores. Pueden sustituirse sin cambiar el motor, el catálogo ni las reglas de seguridad.

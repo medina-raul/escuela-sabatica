@@ -1,6 +1,6 @@
 # Actualizar recursos semanales
 
-Este archivo adapta el contrato portátil de `RESOURCE_AUTOMATION.md` a Antigravity. El mismo trabajo puede realizarlo cualquier otro agente o una persona y no requiere una API de traducción.
+Este archivo adapta el contrato portátil de `RESOURCE_AUTOMATION.md` a Antigravity. El mismo trabajo puede realizarlo cualquier otro agente o una persona y no requiere una API de traducción. Para el ciclo determinista completo usa primero `npm run site:update`; la secuencia inferior se reserva para diagnosticar una detención o completar tareas asistidas.
 
 ## 1. Preparación segura
 
@@ -72,6 +72,6 @@ Comprueba además que:
 
 ## 5. Entrega
 
-Si existen cambios reales, prepara únicamente los archivos de recursos, catálogo, manifiesto y scripts asociados; actualiza la rama `automation/weekly-resources` y crea o actualiza su PR de revisión. Incluye en el PR las lecciones traducidas, el modelo registrado, los resultados de pruebas y build, y la advertencia de revisión humana. No fusiones automáticamente el PR.
+Si existen cambios reales, prepara únicamente los archivos de recursos, catálogo, manifiesto y scripts asociados; crea una rama bajo `automation/` y su PR. Incluye en el PR las lecciones traducidas, el modelo registrado, los resultados de pruebas y build, y la advertencia de revisión humana. Las tareas asistidas quedan en borrador. Los cambios totalmente deterministas pueden fusionarse por el orquestador después de todas las comprobaciones.
 
 Si no existen cambios, informa que la comprobación semanal terminó sin novedades y no crees commits vacíos.
