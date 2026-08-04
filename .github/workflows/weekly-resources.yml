@@ -1,0 +1,108 @@
+name: Actualización semanal de recursos
+
+on:
+  schedule:
+    - cron: "17 11 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: weekly-resources
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      RESOURCE_REPORT: ${{ runner.temp }}/resource-update-report.json
+      AUTOMATION_BRANCH: automation/weekly-resources
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Comprobar y actualizar fuentes
+        run: python3 scripts/update_resources.py --apply --report "$RESOURCE_REPORT"
+
+      - name: Auditar catálogo y generar manifiesto
+        run: python3 scripts/audit_resources.py --write-manifest
+
+      - name: Build obligatorio
+        run: npm run build
+
+      - name: Guardar informe de ejecución
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-update-report
+          path: ${{ env.RESOURCE_REPORT }}
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Detectar cambios reales
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No se detectaron cambios de recursos." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Crear commit y actualizar rama automática
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "escuela-sabatica-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git switch -C "$AUTOMATION_BRANCH"
+          git add src/data/quarters public/resource-manifest.json public/recursos
+          git commit -m "chore(resources): actualización semanal automática"
+          git fetch origin "$AUTOMATION_BRANCH" || true
+          git push --force-with-lease origin "HEAD:refs/heads/$AUTOMATION_BRANCH"
+
+      - name: Crear o actualizar pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          PR_NUMBER=$(gh pr list --head "$AUTOMATION_BRANCH" --state open --json number --jq '.[0].number // empty')
+          BODY=$(printf '%s\n' \
+            'Actualización generada por el verificador semanal de recursos.' \
+            '' \
+            '- Descargas validadas por tipo, tamaño y checksum.' \
+            '- Catálogo y manifiesto auditados.' \
+            '- `npm run build` completado antes de abrir este PR.' \
+            '' \
+            'Revisar el informe adjunto a la ejecución antes de fusionar.')
+          if [ -z "$PR_NUMBER" ]; then
+            gh pr create \
+              --base main \
+              --head "$AUTOMATION_BRANCH" \
+              --title "chore(resources): actualización semanal" \
+              --body "$BODY"
+          else
+            gh pr edit "$PR_NUMBER" --title "chore(resources): actualización semanal" --body "$BODY"
+          fi

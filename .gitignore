@@ -9,4 +9,7 @@ Material escuelasabatica.cl/
 AGENTS.md
 PROMPT_MAESTRO.md
 docs/
-scripts/
+artifacts/
+.resource-update-*/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,35 @@
+name: Verificar recursos desplegados
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "public/resource-manifest.json"
+      - "public/recursos/**"
+      - "src/data/quarters/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Esperar Vercel y comprobar manifiesto
+        run: >-
+          python3 scripts/verify_deployment.py
+          --base-url https://escuelasabatica.cl
+          --attempts 45
+          --interval 20
+          --timeout 20
+          --workers 8

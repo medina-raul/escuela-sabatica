@@ -176,67 +176,194 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-01",
+          "id": "ppt-01",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 1,
           "title": "Presentación PPT — Lección 1",
           "description": "Diapositivas para la lección 1",
-          "url": "/recursos/2026-q3/leccion-01.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-01.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 15293845,
+          "checksum": "sha256:29573fed41da2ee2002ad06e5b01827dd051a9ac07aeb3d928ff45bf17d6b11e"
         },
         {
-          "id": "audio-lecc-01-sabado",
+          "id": "audio-01-sabado",
           "type": "audio",
           "title": "Lección 1 — Sábado",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-SABADO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 1,
+          "dayId": "sabado",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1a75d2-654c413be75a4\"",
+            "lastModified": "Sun, 21 Jun 2026 14:09:41 GMT"
+          },
+          "sizeBytes": 1734098
         },
         {
-          "id": "audio-lecc-01-domingo",
+          "id": "audio-01-domingo",
           "type": "audio",
           "title": "Lección 1 — Domingo",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-DOMINGO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 1,
+          "dayId": "domingo",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"352952-654c416d4ae7c\"",
+            "lastModified": "Sun, 21 Jun 2026 14:10:33 GMT"
+          },
+          "sizeBytes": 3483986
         },
         {
-          "id": "audio-lecc-01-lunes",
+          "id": "audio-01-lunes",
           "type": "audio",
           "title": "Lección 1 — Lunes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-LUNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 1,
+          "dayId": "lunes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"6288f2-654c4190f557c\"",
+            "lastModified": "Sun, 21 Jun 2026 14:11:11 GMT"
+          },
+          "sizeBytes": 6457586
         },
         {
-          "id": "audio-lecc-01-martes",
+          "id": "audio-01-martes",
           "type": "audio",
           "title": "Lección 1 — Martes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-MARTES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 1,
+          "dayId": "martes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3d8752-654c4173b62f1\"",
+            "lastModified": "Sun, 21 Jun 2026 14:10:40 GMT"
+          },
+          "sizeBytes": 4032338
         },
         {
-          "id": "audio-lecc-01-miercoles",
+          "id": "audio-01-miercoles",
           "type": "audio",
           "title": "Lección 1 — Miércoles",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-MIERCOLES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 1,
+          "dayId": "miercoles",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"35e772-654c416e530f7\"",
+            "lastModified": "Sun, 21 Jun 2026 14:10:34 GMT"
+          },
+          "sizeBytes": 3532658
         },
         {
-          "id": "audio-lecc-01-jueves",
+          "id": "audio-01-jueves",
           "type": "audio",
           "title": "Lección 1 — Jueves",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-JUEVES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 1,
+          "dayId": "jueves",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"530b52-654c418562ff8\"",
+            "lastModified": "Sun, 21 Jun 2026 14:10:58 GMT"
+          },
+          "sizeBytes": 5442386
         },
         {
-          "id": "audio-lecc-01-viernes",
+          "id": "audio-01-viernes",
           "type": "audio",
           "title": "Lección 1 — Viernes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-VIERNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 1,
+          "dayId": "viernes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-1-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2f60d2-654c4167452ff\"",
+            "lastModified": "Sun, 21 Jun 2026 14:10:27 GMT"
+          },
+          "sizeBytes": 3104978
         }
       ],
       "keyVerse": {
@@ -413,67 +540,194 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-02",
+          "id": "ppt-02",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 2,
           "title": "Presentación PPT — Lección 2",
           "description": "Diapositivas para la lección 2",
-          "url": "/recursos/2026-q3/leccion-02.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-02.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 12342066,
+          "checksum": "sha256:335a6575c1e1995eecc91777952751fb806e11d5dc2cc198e3353b8b1b6d4b6f"
         },
         {
-          "id": "audio-lecc-02-sabado",
+          "id": "audio-02-sabado",
           "type": "audio",
           "title": "Lección 2 — Sábado",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-SABADO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 2,
+          "dayId": "sabado",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1e54f2-6552d29d48909\"",
+            "lastModified": "Fri, 26 Jun 2026 19:32:03 GMT"
+          },
+          "sizeBytes": 1987826
         },
         {
-          "id": "audio-lecc-02-domingo",
+          "id": "audio-02-domingo",
           "type": "audio",
           "title": "Lección 2 — Domingo",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-DOMINGO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 2,
+          "dayId": "domingo",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"407372-6552d2ca4b0ba\"",
+            "lastModified": "Fri, 26 Jun 2026 19:32:51 GMT"
+          },
+          "sizeBytes": 4223858
         },
         {
-          "id": "audio-lecc-02-lunes",
+          "id": "audio-02-lunes",
           "type": "audio",
           "title": "Lección 2 — Lunes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-LUNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 2,
+          "dayId": "lunes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"39a3b2-6552d2c7290f2\"",
+            "lastModified": "Fri, 26 Jun 2026 19:32:47 GMT"
+          },
+          "sizeBytes": 3777458
         },
         {
-          "id": "audio-lecc-02-martes",
+          "id": "audio-02-martes",
           "type": "audio",
           "title": "Lección 2 — Martes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-MARTES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 2,
+          "dayId": "martes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3978f2-6552d2c7269e2\"",
+            "lastModified": "Fri, 26 Jun 2026 19:32:47 GMT"
+          },
+          "sizeBytes": 3766514
         },
         {
-          "id": "audio-lecc-02-miercoles",
+          "id": "audio-02-miercoles",
           "type": "audio",
           "title": "Lección 2 — Miércoles",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-MIERCOLES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 2,
+          "dayId": "miercoles",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"69e792-6552d2db93469\"",
+            "lastModified": "Fri, 26 Jun 2026 19:33:09 GMT"
+          },
+          "sizeBytes": 6940562
         },
         {
-          "id": "audio-lecc-02-jueves",
+          "id": "audio-02-jueves",
           "type": "audio",
           "title": "Lección 2 — Jueves",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-JUEVES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 2,
+          "dayId": "jueves",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3db8d2-6552d2c9b6dae\"",
+            "lastModified": "Fri, 26 Jun 2026 19:32:50 GMT"
+          },
+          "sizeBytes": 4045010
         },
         {
-          "id": "audio-lecc-02-viernes",
+          "id": "audio-02-viernes",
           "type": "audio",
           "title": "Lección 2 — Viernes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-VIERNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 2,
+          "dayId": "viernes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-2-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2df7b2-6552d2b467e21\"",
+            "lastModified": "Fri, 26 Jun 2026 19:32:28 GMT"
+          },
+          "sizeBytes": 3012530
         }
       ],
       "keyVerse": {
@@ -664,67 +918,194 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-03",
+          "id": "ppt-03",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 3,
           "title": "Presentación PPT — Lección 3",
           "description": "Diapositivas para la lección 3",
-          "url": "/recursos/2026-q3/leccion-03.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-03.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 13777150,
+          "checksum": "sha256:d9b4e18bd3b09e4629925fa3e4b06aafa1e3f0bb671079a8ec4653245156fc91"
         },
         {
-          "id": "audio-lecc-03-sabado",
+          "id": "audio-03-sabado",
           "type": "audio",
           "title": "Lección 3 — Sábado",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-SABADO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 3,
+          "dayId": "sabado",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"19a7f2-655cdeef6297c\"",
+            "lastModified": "Sat, 04 Jul 2026 19:20:26 GMT"
+          },
+          "sizeBytes": 1681394
         },
         {
-          "id": "audio-lecc-03-domingo",
+          "id": "audio-03-domingo",
           "type": "audio",
           "title": "Lección 3 — Domingo",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-DOMINGO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 3,
+          "dayId": "domingo",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"5a9db2-655cdf3861ba2\"",
+            "lastModified": "Sat, 04 Jul 2026 19:21:42 GMT"
+          },
+          "sizeBytes": 5938610
         },
         {
-          "id": "audio-lecc-03-lunes",
+          "id": "audio-03-lunes",
           "type": "audio",
           "title": "Lección 3 — Lunes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-LUNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 3,
+          "dayId": "lunes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"31e7b2-655cdf1ea5f72\"",
+            "lastModified": "Sat, 04 Jul 2026 19:21:15 GMT"
+          },
+          "sizeBytes": 3270578
         },
         {
-          "id": "audio-lecc-03-martes",
+          "id": "audio-03-martes",
           "type": "audio",
           "title": "Lección 3 — Martes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-MARTES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 3,
+          "dayId": "martes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"387bd2-655cdf293fc79\"",
+            "lastModified": "Sat, 04 Jul 2026 19:21:26 GMT"
+          },
+          "sizeBytes": 3701714
         },
         {
-          "id": "audio-lecc-03-miercoles",
+          "id": "audio-03-miercoles",
           "type": "audio",
           "title": "Lección 3 — Miércoles",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-MIERCOLES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 3,
+          "dayId": "miercoles",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"31c952-655cdf1f2fe6f\"",
+            "lastModified": "Sat, 04 Jul 2026 19:21:16 GMT"
+          },
+          "sizeBytes": 3262802
         },
         {
-          "id": "audio-lecc-03-jueves",
+          "id": "audio-03-jueves",
           "type": "audio",
           "title": "Lección 3 — Jueves",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-JUEVES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 3,
+          "dayId": "jueves",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"406712-655cdf2e6428f\"",
+            "lastModified": "Sat, 04 Jul 2026 19:21:32 GMT"
+          },
+          "sizeBytes": 4220690
         },
         {
-          "id": "audio-lecc-03-viernes",
+          "id": "audio-03-viernes",
           "type": "audio",
           "title": "Lección 3 — Viernes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-VIERNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 3,
+          "dayId": "viernes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-3-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"39d772-655cdf2a73640\"",
+            "lastModified": "Sat, 04 Jul 2026 19:21:27 GMT"
+          },
+          "sizeBytes": 3790706
         }
       ],
       "keyVerse": {
@@ -906,67 +1287,194 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-04",
+          "id": "ppt-04",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 4,
           "title": "Presentación PPT — Lección 4",
           "description": "Diapositivas para la lección 4",
-          "url": "/recursos/2026-q3/leccion-04.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-04.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 15070582,
+          "checksum": "sha256:47594ee7f5b75fca64b4b728c58d232af09a8e2a962d41083db59b175003448f"
         },
         {
-          "id": "audio-lecc-04-sabado",
+          "id": "audio-04-sabado",
           "type": "audio",
           "title": "Lección 4 — Sábado",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-SABADO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 4,
+          "dayId": "sabado",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1e2492-656a5f3ef0ed9\"",
+            "lastModified": "Wed, 15 Jul 2026 13:03:42 GMT"
+          },
+          "sizeBytes": 1975442
         },
         {
-          "id": "audio-lecc-04-domingo",
+          "id": "audio-04-domingo",
           "type": "audio",
           "title": "Lección 4 — Domingo",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-DOMINGO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 4,
+          "dayId": "domingo",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"474b12-656a5f7c9428c\"",
+            "lastModified": "Wed, 15 Jul 2026 13:04:47 GMT"
+          },
+          "sizeBytes": 4672274
         },
         {
-          "id": "audio-lecc-04-lunes",
+          "id": "audio-04-lunes",
           "type": "audio",
           "title": "Lección 4 — Lunes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-LUNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 4,
+          "dayId": "lunes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"4e4fb2-656a5f80dbd74\"",
+            "lastModified": "Wed, 15 Jul 2026 13:04:51 GMT"
+          },
+          "sizeBytes": 5132210
         },
         {
-          "id": "audio-lecc-04-martes",
+          "id": "audio-04-martes",
           "type": "audio",
           "title": "Lección 4 — Martes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-MARTES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 4,
+          "dayId": "martes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"51f8d2-656a5f85c90be\"",
+            "lastModified": "Wed, 15 Jul 2026 13:04:56 GMT"
+          },
+          "sizeBytes": 5372114
         },
         {
-          "id": "audio-lecc-04-miercoles",
+          "id": "audio-04-miercoles",
           "type": "audio",
           "title": "Lección 4 — Miércoles",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-MIERCOLES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 4,
+          "dayId": "miercoles",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"41af92-656a5f743dec7\"",
+            "lastModified": "Wed, 15 Jul 2026 13:04:38 GMT"
+          },
+          "sizeBytes": 4304786
         },
         {
-          "id": "audio-lecc-04-jueves",
+          "id": "audio-04-jueves",
           "type": "audio",
           "title": "Lección 4 — Jueves",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-JUEVES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 4,
+          "dayId": "jueves",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"461d92-656a5f7cc6350\"",
+            "lastModified": "Wed, 15 Jul 2026 13:04:47 GMT"
+          },
+          "sizeBytes": 4595090
         },
         {
-          "id": "audio-lecc-04-viernes",
+          "id": "audio-04-viernes",
           "type": "audio",
           "title": "Lección 4 — Viernes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-VIERNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 4,
+          "dayId": "viernes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-4-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3548d2-656a5f608c465\"",
+            "lastModified": "Wed, 15 Jul 2026 13:04:17 GMT"
+          },
+          "sizeBytes": 3492050
         }
       ],
       "keyVerse": {
@@ -1149,67 +1657,194 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-05",
+          "id": "ppt-05",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 5,
           "title": "Presentación PPT — Lección 5",
           "description": "Diapositivas para la lección 5",
-          "url": "/recursos/2026-q3/leccion-05.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-05.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 13794226,
+          "checksum": "sha256:ccdbdf6dccb1e49e091d130a55a26f2cded7ff4e09380b98877d3eec854f2baf"
         },
         {
-          "id": "audio-lecc-05-sabado",
+          "id": "audio-05-sabado",
           "type": "audio",
           "title": "Lección 5 — Sábado",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-SABADO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "sabado",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1fd912-656ec43e371ef\"",
+            "lastModified": "Sun, 19 Jul 2026 00:56:51 GMT"
+          },
+          "sizeBytes": 2087186
         },
         {
-          "id": "audio-lecc-05-domingo",
+          "id": "audio-05-domingo",
           "type": "audio",
           "title": "Lección 5 — Domingo",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-DOMINGO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "domingo",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"49e872-656ec473fc3be\"",
+            "lastModified": "Sun, 19 Jul 2026 00:57:47 GMT"
+          },
+          "sizeBytes": 4843634
         },
         {
-          "id": "audio-lecc-05-lunes",
+          "id": "audio-05-lunes",
           "type": "audio",
           "title": "Lección 5 — Lunes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-LUNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "lunes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3bc8b2-656ec46c25ae6\"",
+            "lastModified": "Sun, 19 Jul 2026 00:57:39 GMT"
+          },
+          "sizeBytes": 3918002
         },
         {
-          "id": "audio-lecc-05-martes",
+          "id": "audio-05-martes",
           "type": "audio",
           "title": "Lección 5 — Martes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-MARTES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "martes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"336ab2-656ec4607e18c\"",
+            "lastModified": "Sun, 19 Jul 2026 00:57:27 GMT"
+          },
+          "sizeBytes": 3369650
         },
         {
-          "id": "audio-lecc-05-miercoles",
+          "id": "audio-05-miercoles",
           "type": "audio",
           "title": "Lección 5 — Miércoles",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-MIERCOLES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "miercoles",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"4c98f2-656ec474ab478\"",
+            "lastModified": "Sun, 19 Jul 2026 00:57:48 GMT"
+          },
+          "sizeBytes": 5019890
         },
         {
-          "id": "audio-lecc-05-jueves",
+          "id": "audio-05-jueves",
           "type": "audio",
           "title": "Lección 5 — Jueves",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-JUEVES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "jueves",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"41faf2-656ec47037a73\"",
+            "lastModified": "Sun, 19 Jul 2026 00:57:43 GMT"
+          },
+          "sizeBytes": 4324082
         },
         {
-          "id": "audio-lecc-05-viernes",
+          "id": "audio-05-viernes",
           "type": "audio",
           "title": "Lección 5 — Viernes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-VIERNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "viernes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-5-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2c88f2-656ec459c04ce\"",
+            "lastModified": "Sun, 19 Jul 2026 00:57:20 GMT"
+          },
+          "sizeBytes": 2918642
         }
       ],
       "keyVerse": {
@@ -1391,67 +2026,194 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-06",
+          "id": "ppt-06",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 6,
           "title": "Presentación PPT — Lección 6",
           "description": "Diapositivas para la lección 6",
-          "url": "/recursos/2026-q3/leccion-06.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-06.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 14743381,
+          "checksum": "sha256:41545df1c69c864a3c6f01775c51c4937d2efca84f1b219062f0659749b63782"
         },
         {
-          "id": "audio-lecc-06-sabado",
+          "id": "audio-06-sabado",
           "type": "audio",
           "title": "Lección 6 — Sábado",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-SABADO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "sabado",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1cee12-657fadaa4d15d\"",
+            "lastModified": "Sat, 01 Aug 2026 11:46:21 GMT"
+          },
+          "sizeBytes": 1895954
         },
         {
-          "id": "audio-lecc-06-domingo",
+          "id": "audio-06-domingo",
           "type": "audio",
           "title": "Lección 6 — Domingo",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-DOMINGO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "domingo",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"371df2-657fadfb4acfc\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:46 GMT"
+          },
+          "sizeBytes": 3612146
         },
         {
-          "id": "audio-lecc-06-lunes",
+          "id": "audio-06-lunes",
           "type": "audio",
           "title": "Lección 6 — Lunes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-LUNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "lunes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"57c5d2-657fae2213543\"",
+            "lastModified": "Sat, 01 Aug 2026 11:48:27 GMT"
+          },
+          "sizeBytes": 5752274
         },
         {
-          "id": "audio-lecc-06-martes",
+          "id": "audio-06-martes",
           "type": "audio",
           "title": "Lección 6 — Martes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-MARTES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "martes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"44e5f2-657fae13301fc\"",
+            "lastModified": "Sat, 01 Aug 2026 11:48:11 GMT"
+          },
+          "sizeBytes": 4515314
         },
         {
-          "id": "audio-lecc-06-miercoles",
+          "id": "audio-06-miercoles",
           "type": "audio",
           "title": "Lección 6 — Miércoles",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-MIERCOLES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "miercoles",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3fe912-657fae0941eff\"",
+            "lastModified": "Sat, 01 Aug 2026 11:48:01 GMT"
+          },
+          "sizeBytes": 4188434
         },
         {
-          "id": "audio-lecc-06-jueves",
+          "id": "audio-06-jueves",
           "type": "audio",
           "title": "Lección 6 — Jueves",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-JUEVES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "jueves",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3a6772-657fae04a357d\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:56 GMT"
+          },
+          "sizeBytes": 3827570
         },
         {
-          "id": "audio-lecc-06-viernes",
+          "id": "audio-06-viernes",
           "type": "audio",
           "title": "Lección 6 — Viernes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-VIERNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "viernes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-6-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2c7812-657fade776bd2\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:26 GMT"
+          },
+          "sizeBytes": 2914322
         }
       ],
       "keyVerse": {
@@ -1627,67 +2389,194 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-07",
+          "id": "ppt-07",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 7,
           "title": "Presentación PPT — Lección 7",
           "description": "Diapositivas para la lección 7",
-          "url": "/recursos/2026-q3/leccion-07.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-07.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 5943382,
+          "checksum": "sha256:447c64faa734cc6d486349bef6a84b862b3825cdbfd4088eadc55e9869013fc8"
         },
         {
-          "id": "audio-lecc-07-sabado",
+          "id": "audio-07-sabado",
           "type": "audio",
           "title": "Lección 7 — Sábado",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-SABADO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 7,
+          "dayId": "sabado",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1de232-657fadaf77d03\"",
+            "lastModified": "Sat, 01 Aug 2026 11:46:27 GMT"
+          },
+          "sizeBytes": 1958450
         },
         {
-          "id": "audio-lecc-07-domingo",
+          "id": "audio-07-domingo",
           "type": "audio",
           "title": "Lección 7 — Domingo",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-DOMINGO.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 7,
+          "dayId": "domingo",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3c47d2-657fae0663939\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:58 GMT"
+          },
+          "sizeBytes": 3950546
         },
         {
-          "id": "audio-lecc-07-lunes",
+          "id": "audio-07-lunes",
           "type": "audio",
           "title": "Lección 7 — Lunes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-LUNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 7,
+          "dayId": "lunes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3e4572-657fae07abb1f\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:59 GMT"
+          },
+          "sizeBytes": 4081010
         },
         {
-          "id": "audio-lecc-07-martes",
+          "id": "audio-07-martes",
           "type": "audio",
           "title": "Lección 7 — Martes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-MARTES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 7,
+          "dayId": "martes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"378692-657fae014b28a\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:53 GMT"
+          },
+          "sizeBytes": 3638930
         },
         {
-          "id": "audio-lecc-07-miercoles",
+          "id": "audio-07-miercoles",
           "type": "audio",
           "title": "Lección 7 — Miércoles",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-MIERCOLES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 7,
+          "dayId": "miercoles",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"53a7b2-657fae1ff4dbe\"",
+            "lastModified": "Sat, 01 Aug 2026 11:48:25 GMT"
+          },
+          "sizeBytes": 5482418
         },
         {
-          "id": "audio-lecc-07-jueves",
+          "id": "audio-07-jueves",
           "type": "audio",
           "title": "Lección 7 — Jueves",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-JUEVES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 7,
+          "dayId": "jueves",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"322472-657fadf4837e7\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:39 GMT"
+          },
+          "sizeBytes": 3286130
         },
         {
-          "id": "audio-lecc-07-viernes",
+          "id": "audio-07-viernes",
           "type": "audio",
           "title": "Lección 7 — Viernes",
           "description": "Audio resumen · Audio Escuela Sabática",
           "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-VIERNES.mp3",
-          "external": true
+          "external": true,
+          "role": "daily-audio",
+          "lessonNumber": 7,
+          "dayId": "viernes",
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-7-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2c5d12-657fade822dac\"",
+            "lastModified": "Sat, 01 Aug 2026 11:47:26 GMT"
+          },
+          "sizeBytes": 2907410
         }
       ],
       "keyVerse": {
@@ -1835,11 +2724,19 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-08",
+          "id": "ppt-08",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 8,
           "title": "Presentación PPT — Lección 8",
           "description": "Diapositivas para la lección 8",
-          "url": "/recursos/2026-q3/leccion-08.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-08.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 12571380,
+          "checksum": "sha256:d43f55da0791057ccd9553f4ea0126436cfc8449e0ccfbea1600bf313af75feb"
         }
       ],
       "keyVerse": {
@@ -1988,11 +2885,19 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-09",
+          "id": "ppt-09",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 9,
           "title": "Presentación PPT — Lección 9",
           "description": "Diapositivas para la lección 9",
-          "url": "/recursos/2026-q3/leccion-09.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-09.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 16240234,
+          "checksum": "sha256:290dcc9accc3df487ad3abc3b74d656055f13b6cfd47c7a23b08800adc565360"
         }
       ],
       "keyVerse": {
@@ -2141,11 +3046,19 @@
       ],
       "resources": [
         {
-          "id": "ppt-lecc-10",
+          "id": "ppt-10",
           "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 10,
           "title": "Presentación PPT — Lección 10",
           "description": "Diapositivas para la lección 10",
-          "url": "/recursos/2026-q3/leccion-10.pptx"
+          "url": "/recursos/2026-q3/ppt/leccion-10.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "manual"
+          },
+          "sizeBytes": 19963006,
+          "checksum": "sha256:6434b73d2407a0c7aaa307ec3de26f89a3dfe221f1a22eb1f23475d2d4555c72"
         }
       ],
       "keyVerse": {
@@ -2304,15 +3217,7 @@
           "audio": null
         }
       ],
-      "resources": [
-        {
-          "id": "ppt-lecc-11",
-          "type": "ppt",
-          "title": "Presentación PPT — Lección 11",
-          "description": "Próximamente",
-          "url": "#"
-        }
-      ],
+      "resources": [],
       "keyVerse": {
         "reference": {
           "book": "",
@@ -2457,15 +3362,7 @@
           "audio": null
         }
       ],
-      "resources": [
-        {
-          "id": "ppt-lecc-12",
-          "type": "ppt",
-          "title": "Presentación PPT — Lección 12",
-          "description": "Próximamente",
-          "url": "#"
-        }
-      ],
+      "resources": [],
       "keyVerse": {
         "reference": {
           "book": "",
@@ -2610,15 +3507,7 @@
           "audio": null
         }
       ],
-      "resources": [
-        {
-          "id": "ppt-lecc-13",
-          "type": "ppt",
-          "title": "Presentación PPT — Lección 13",
-          "description": "Próximamente",
-          "url": "#"
-        }
-      ],
+      "resources": [],
       "keyVerse": {
         "reference": {
           "book": "",
@@ -2635,279 +3524,604 @@
   ],
   "resources": [
     {
-      "id": "cb-intro-1cor",
+      "id": "reading-general-intro-1-corintios",
       "type": "article",
+      "role": "general-reading",
       "title": "Introducción a 1 Corintios",
       "description": "Contexto histórico y literario de la primera carta a los Corintios",
-      "url": "/material/cb_intro_1cor.html"
+      "url": "/recursos/2026-q3/lecturas/generales/introduccion-1-corintios.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 16721,
+      "checksum": "sha256:fbe62eb56dbdb2caa556a6a175c9c934557535dda635b572db9818f800e0c3f9"
     },
     {
-      "id": "res-cap5",
+      "id": "reading-general-1-corintios-01",
       "type": "article",
+      "role": "general-reading",
+      "title": "Resumen — 1 Corintios 1",
+      "description": "Resumen del capítulo 1 de Primera de Corintios",
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-01.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 5235,
+      "checksum": "sha256:f2022453bd78ce20614d0c5f1d301e3e5db7852f1a073e66f551518625eb26c9"
+    },
+    {
+      "id": "reading-general-1-corintios-02",
+      "type": "article",
+      "role": "general-reading",
+      "title": "Resumen — 1 Corintios 2",
+      "description": "Resumen del capítulo 2 de Primera de Corintios",
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-02.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 6489,
+      "checksum": "sha256:94007e0297343db9aadd250f65cd91aac7a94b0ab4c0bf9910bd087f2cbbec83"
+    },
+    {
+      "id": "reading-general-1-corintios-03",
+      "type": "article",
+      "role": "general-reading",
+      "title": "Resumen — 1 Corintios 3",
+      "description": "Resumen del capítulo 3 de Primera de Corintios",
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-03.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 6356,
+      "checksum": "sha256:0f73e51157a019dac877a5a8d9dc487442d6c3f4f30e445e948e816dff89a3d1"
+    },
+    {
+      "id": "reading-general-1-corintios-04",
+      "type": "article",
+      "role": "general-reading",
+      "title": "Resumen — 1 Corintios 4",
+      "description": "Resumen del capítulo 4 de Primera de Corintios",
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-04.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 6658,
+      "checksum": "sha256:b660be204fbc82c25f5a835594f123c5621df9a24a435ff17b23a0d438734262"
+    },
+    {
+      "id": "reading-general-1-corintios-05",
+      "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 5",
       "description": "Resumen del capítulo 5: Inmoralidad en la iglesia",
-      "url": "/material/res_cap5.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-05.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 7846,
+      "checksum": "sha256:f6a5266a6474f38367eb424c7ada5525af61a8ed2a2005706a3e25a1ecf40e97"
     },
     {
-      "id": "res-cap6",
+      "id": "reading-general-1-corintios-06",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 6",
       "description": "Resumen del capítulo 6: Pleitos y pureza sexual",
-      "url": "/material/res_cap6.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-06.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 8193,
+      "checksum": "sha256:f4226b54d9983a5d42d96ece17d92e1fa43d140ebbb8de5e6e1104ebc5c3321a"
     },
     {
-      "id": "res-cap7",
+      "id": "reading-general-1-corintios-07",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 7",
       "description": "Resumen del capítulo 7: Matrimonio y soltería",
-      "url": "/material/res_cap7.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-07.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4594,
+      "checksum": "sha256:58b6c6aa070a4aaff1528f6212a1f6288e28abe97e65e08d247c221e91658d24"
     },
     {
-      "id": "res-cap8",
+      "id": "reading-general-1-corintios-08",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 8",
       "description": "Resumen del capítulo 8: Lo sacrificado a los ídolos",
-      "url": "/material/res_cap8.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-08.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 7643,
+      "checksum": "sha256:2bd925f0e84c638733d025d4179d221a674900bf35fc81e1e7d95ecb24b12d36"
     },
     {
-      "id": "res-cap9",
+      "id": "reading-general-1-corintios-09",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 9",
       "description": "Resumen del capítulo 9: Los derechos del apóstol",
-      "url": "/material/res_cap9.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-09.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 8606,
+      "checksum": "sha256:3e716c4bf8f3f774666b331790e29bfeee8026407056a40e5ade21081cf15330"
     },
     {
-      "id": "res-cap10",
+      "id": "reading-general-1-corintios-10",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 10",
       "description": "Resumen del capítulo 10: Advertencias contra la idolatría",
-      "url": "/material/res_cap10.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-10.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 9046,
+      "checksum": "sha256:c7098387450830bc55425ac5bdb71198c98705324fe9aa86d3bbd1a5259e1e45"
     },
     {
-      "id": "res-cap11",
+      "id": "reading-general-1-corintios-11",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 11",
       "description": "Resumen del capítulo 11: La Cena del Señor",
-      "url": "/material/res_cap11.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-11.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4582,
+      "checksum": "sha256:0d61c3dec96a2ac6df0037b1ce3df6e7f4fd1774bce2eab3f8c005b7aa174f84"
     },
     {
-      "id": "res-cap12",
+      "id": "reading-general-1-corintios-12",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 12",
       "description": "Resumen del capítulo 12: Dones espirituales",
-      "url": "/material/res_cap12.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-12.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4534,
+      "checksum": "sha256:d6e87b452a2bb95bbe2c4284b182f78d1f4a7540053d3665e4af492f4726c410"
     },
     {
-      "id": "res-cap13",
+      "id": "reading-general-1-corintios-13",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 13",
       "description": "Resumen del capítulo 13: El amor",
-      "url": "/material/res_cap13.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-13.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4809,
+      "checksum": "sha256:674531a1ef6dcbf67effaeabea5fc356c171da79d8fd0b00dab2c8de21740bfb"
     },
     {
-      "id": "res-cap14",
+      "id": "reading-general-1-corintios-14",
       "type": "article",
+      "role": "general-reading",
       "title": "Resumen — 1 Corintios 14",
       "description": "Resumen del capítulo 14: Profecía y lenguas",
-      "url": "/material/res_cap14.html"
+      "url": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-14.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4394,
+      "checksum": "sha256:7713dc3a55c788dc13dad979ab0c9ffb500ebe9e292e37c6d5b6f18555d63b97"
     },
     {
-      "id": "viernes1",
+      "id": "reading-friday-01",
       "type": "article",
-      "title": "Complemento — Lección 1",
-      "description": "Recurso adicional para el estudio del Viernes",
-      "url": "/material/viernes1.html"
-    },
-    {
-      "id": "viernes2",
-      "type": "article",
-      "title": "Complemento — Lección 2",
-      "description": "Recurso adicional para el estudio del Viernes",
-      "url": "/material/viernes2.html"
-    },
-    {
-      "id": "viernes-1",
-      "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 1,
       "title": "Complemento — Lección 1",
       "description": "Material de estudio para el viernes de la lección 1",
-      "url": "/material/viernes1.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-01.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 20757,
+      "checksum": "sha256:264a324dda2e2f1638c9ecca09bef84fe25afe14cc3e88565f688dac34066bc6"
     },
     {
-      "id": "viernes-2",
+      "id": "reading-friday-02",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 2,
       "title": "Complemento — Lección 2",
       "description": "Material de estudio para el viernes de la lección 2",
-      "url": "/material/viernes2.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-02.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 40457,
+      "checksum": "sha256:fa98ce27dca4b99ea41755a3e0ceac0f6865f4850520bdcaa3c93f806930a85a"
     },
     {
-      "id": "viernes-3",
+      "id": "reading-friday-03",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 3,
       "title": "Complemento — Lección 3",
       "description": "Material de estudio para el viernes de la lección 3",
-      "url": "/material/viernes3.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-03.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 14766,
+      "checksum": "sha256:6784f6595d73692201491c6b858a1ec3c85fa1095c755ce137447789db9cece7"
     },
     {
-      "id": "viernes-4",
+      "id": "reading-friday-04",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 4,
       "title": "Complemento — Lección 4",
       "description": "Material de estudio para el viernes de la lección 4",
-      "url": "/material/viernes4.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-04.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 19168,
+      "checksum": "sha256:98f52fb2fe76ff9da6f453e5e10e553b9d5f78444e55d4f2755d0dc1b7857fa7"
     },
     {
-      "id": "viernes-5",
+      "id": "reading-friday-05",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 5,
       "title": "Complemento — Lección 5",
       "description": "Material de estudio para el viernes de la lección 5",
-      "url": "/material/viernes5.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-05.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 20274,
+      "checksum": "sha256:7a5b001dcdfc0e231813230825ba88930e4dff5a0a8b1e05053815cca8a62b8a"
     },
     {
-      "id": "viernes-6",
+      "id": "reading-friday-06",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 6,
       "title": "Complemento — Lección 6",
       "description": "Material de estudio para el viernes de la lección 6",
-      "url": "/material/viernes6.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-06.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 24454,
+      "checksum": "sha256:92ce2ac2cad51fad68b52ad91f09aa2245310900ab74aee31c24eda054e2d603"
     },
     {
-      "id": "viernes-7",
+      "id": "reading-friday-07",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 7,
       "title": "Complemento — Lección 7",
       "description": "Material de estudio para el viernes de la lección 7",
-      "url": "/material/viernes7.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-07.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 16450,
+      "checksum": "sha256:1fdecf375fff4c2a6d81d202f70ef01d408631ad1461d7aa60f38a271c1cf77e"
     },
     {
-      "id": "viernes-8",
+      "id": "reading-friday-08",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 8,
       "title": "Complemento — Lección 8",
       "description": "Material de estudio para el viernes de la lección 8",
-      "url": "/material/viernes8.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-08.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 7012,
+      "checksum": "sha256:0fb83a7071676c225236a761f3793937e1bde58b6ab46973f00195bd3048c31e"
     },
     {
-      "id": "viernes-9",
+      "id": "reading-friday-09",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 9,
       "title": "Complemento — Lección 9",
       "description": "Material de estudio para el viernes de la lección 9",
-      "url": "/material/viernes9.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-09.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4498,
+      "checksum": "sha256:4dd47bcc3ee53afb15d1d863837337b3474b95764a71a325929c6cf6656afc6d"
     },
     {
-      "id": "viernes-10",
+      "id": "reading-friday-10",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 10,
       "title": "Complemento — Lección 10",
       "description": "Material de estudio para el viernes de la lección 10",
-      "url": "/material/viernes10.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-10.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4498,
+      "checksum": "sha256:4dd47bcc3ee53afb15d1d863837337b3474b95764a71a325929c6cf6656afc6d"
     },
     {
-      "id": "maestros-1",
+      "id": "reading-friday-11",
       "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 11,
+      "title": "Complemento — Lección 11",
+      "description": "Material de estudio para el viernes de la lección 11",
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-11.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 5641,
+      "checksum": "sha256:90de39288004d4b02443e342c005504280b6b57f2960165c31e6a9676917e73f"
+    },
+    {
+      "id": "reading-friday-12",
+      "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 12,
+      "title": "Complemento — Lección 12",
+      "description": "Material de estudio para el viernes de la lección 12",
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-12.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 24642,
+      "checksum": "sha256:1cfc8c39e477002dbc2a84edbe117b1cc54e94ab2ac2a6005d4212077e03d45d"
+    },
+    {
+      "id": "reading-friday-13",
+      "type": "article",
+      "role": "friday-reading",
+      "lessonNumber": 13,
+      "title": "Complemento — Lección 13",
+      "description": "Material de estudio para el viernes de la lección 13",
+      "url": "/recursos/2026-q3/lecturas/viernes/leccion-13.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 46677,
+      "checksum": "sha256:90e5f9ca49690d108bb7d23d3884638fe6c141e47529bea623f9233f9923dc87"
+    },
+    {
+      "id": "reading-teacher-01",
+      "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 1,
       "title": "Material para Maestros — Lección 1",
       "description": "Guía de estudio para maestros de la lección 1",
-      "url": "/recursos/2026-q3/semana_01_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-01.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 13727,
+      "checksum": "sha256:aefc68234625e63c4650c066a644d8128971ae29398d583a0eb9f0527496e016"
     },
     {
-      "id": "maestros-2",
+      "id": "reading-teacher-02",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 2,
       "title": "Material para Maestros — Lección 2",
       "description": "Guía de estudio para maestros de la lección 2",
-      "url": "/recursos/2026-q3/semana_02_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-02.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 13899,
+      "checksum": "sha256:98af2dfa73287c0abcda41169921f03a60e428be64c3337adda2676b9e447013"
     },
     {
-      "id": "maestros-3",
+      "id": "reading-teacher-03",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 3,
       "title": "Material para Maestros — Lección 3",
       "description": "Guía de estudio para maestros de la lección 3",
-      "url": "/recursos/2026-q3/semana_03_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-03.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 14791,
+      "checksum": "sha256:6c8d49830c020dae43d6e49337e4fe0afbcab6a83c7c332b84146c81316afc88"
     },
     {
-      "id": "maestros-4",
+      "id": "reading-teacher-04",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 4,
       "title": "Material para Maestros — Lección 4",
       "description": "Guía de estudio para maestros de la lección 4",
-      "url": "/recursos/2026-q3/semana_04_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-04.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 9359,
+      "checksum": "sha256:0bfddf5627b2ae908cd730444fdc2639dc7659d9b71fb77e494586b83358fe1e"
     },
     {
-      "id": "maestros-5",
+      "id": "reading-teacher-05",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 5,
       "title": "Material para Maestros — Lección 5",
       "description": "Guía de estudio para maestros de la lección 5",
-      "url": "/recursos/2026-q3/semana_05_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-05.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 7975,
+      "checksum": "sha256:ad5f78aec1e843b581029fa2285b4303103f2ac0fe159c0177d33bc710b52744"
     },
     {
-      "id": "maestros-6",
+      "id": "reading-teacher-06",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 6,
       "title": "Material para Maestros — Lección 6",
       "description": "Guía de estudio para maestros de la lección 6",
-      "url": "/recursos/2026-q3/semana_06_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-06.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 8697,
+      "checksum": "sha256:67ba9b65b4141650064914996e988df81deba7683f3d7750ef3836167d9bd3f6"
     },
     {
-      "id": "maestros-7",
+      "id": "reading-teacher-07",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 7,
       "title": "Material para Maestros — Lección 7",
       "description": "Guía de estudio para maestros de la lección 7",
-      "url": "/recursos/2026-q3/semana_07_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-07.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 6031,
+      "checksum": "sha256:74efb592f68cf2d65d0fe6f7e461835c0a4a34718edc0c26667f3cac02ed35bc"
     },
     {
-      "id": "maestros-8",
+      "id": "reading-teacher-08",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 8,
       "title": "Material para Maestros — Lección 8",
       "description": "Guía de estudio para maestros de la lección 8",
-      "url": "/recursos/2026-q3/semana_08_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-08.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 6063,
+      "checksum": "sha256:80b46203be175a6d808c55f8eae8b28cc2f2f932c31f33a7406b9e0e998b2e88"
     },
     {
-      "id": "maestros-9",
+      "id": "reading-teacher-09",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 9,
       "title": "Material para Maestros — Lección 9",
       "description": "Guía de estudio para maestros de la lección 9",
-      "url": "/recursos/2026-q3/semana_09_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-09.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 6926,
+      "checksum": "sha256:af2e95dad5951aedaaf62baf2bc431e6da45eeb9e2efe549c3dd8c27ddcb840c"
     },
     {
-      "id": "maestros-10",
+      "id": "reading-teacher-10",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 10,
       "title": "Material para Maestros — Lección 10",
       "description": "Guía de estudio para maestros de la lección 10",
-      "url": "/recursos/2026-q3/semana_10_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-10.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 5918,
+      "checksum": "sha256:1dbc483f05869ed1d25aee3f93670d56ee3816ea274aa0302d571b47a4e29f95"
     },
     {
-      "id": "maestros-11",
+      "id": "reading-teacher-11",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 11,
       "title": "Material para Maestros — Lección 11",
       "description": "Guía de estudio para maestros de la lección 11",
-      "url": "/recursos/2026-q3/semana_11_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-11.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4963,
+      "checksum": "sha256:5054869ce3338225e1850fca129f7799ef34fca817e0b8e585515f60e49d3ff8"
     },
     {
-      "id": "maestros-12",
+      "id": "reading-teacher-12",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 12,
       "title": "Material para Maestros — Lección 12",
       "description": "Guía de estudio para maestros de la lección 12",
-      "url": "/recursos/2026-q3/semana_12_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-12.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 4961,
+      "checksum": "sha256:2f4be35136de5a34ea43574e2715c2d000db0e41717bbd933257602105d0e623"
     },
     {
-      "id": "maestros-13",
+      "id": "reading-teacher-13",
       "type": "article",
+      "role": "teacher-reading",
+      "lessonNumber": 13,
       "title": "Material para Maestros — Lección 13",
       "description": "Guía de estudio para maestros de la lección 13",
-      "url": "/recursos/2026-q3/semana_13_teacher_comments.html",
-      "external": false
+      "url": "/recursos/2026-q3/lecturas/maestros/leccion-13.html",
+      "storage": "local",
+      "source": {
+        "kind": "manual"
+      },
+      "sizeBytes": 5281,
+      "checksum": "sha256:5fa5f45af30d147c6a10db12a6595ebca66a9d86267a6008473a6c01d9e99e49"
     }
   ],
   "keyVerse": {
@@ -3532,5 +4746,33 @@
       "bookId": 19,
       "chapter": 50
     }
-  ]
+  ],
+  "resourceAutomation": {
+    "schemaVersion": 1,
+    "manifestPath": "/resource-manifest.json",
+    "allowedSourceHosts": [
+      "www.audioescuelasabatica.com"
+    ],
+    "maxDownloadBytes": 50000000,
+    "audioDiscovery": {
+      "urlTemplate": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-{lesson}-{day}.mp3",
+      "lessonStart": 1,
+      "lessonEnd": 13,
+      "dayTokens": {
+        "sabado": "SABADO",
+        "domingo": "DOMINGO",
+        "lunes": "LUNES",
+        "martes": "MARTES",
+        "miercoles": "MIERCOLES",
+        "jueves": "JUEVES",
+        "viernes": "VIERNES"
+      },
+      "allowedContentTypes": [
+        "audio/mpeg",
+        "audio/mp3",
+        "application/octet-stream"
+      ],
+      "maxBytes": 50000000
+    }
+  }
 }

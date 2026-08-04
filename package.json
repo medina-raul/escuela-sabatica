@@ -9,7 +9,12 @@
     "preview": "astro preview",
     "check": "astro check",
     "clean": "rm -rf dist/ .astro/",
-    "test": "astro check"
+    "test": "astro check",
+    "resources:update": "python3 scripts/update_resources.py --apply",
+    "resources:update:offline": "python3 scripts/update_resources.py --offline",
+    "resources:audit": "python3 scripts/audit_resources.py --write-manifest",
+    "resources:verify": "python3 scripts/verify_deployment.py",
+    "resources:test": "python3 -m unittest discover -s scripts/tests -p 'test_*.py'"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",

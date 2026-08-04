@@ -2,13 +2,14 @@ import { useMemo, useState } from "react";
 import { BibleStudyModal } from "@components/bible/BibleStudyModal";
 import type { Lesson, LessonDay } from "@app-types/lesson";
 import type { BibleReference } from "@app-types/bible";
-import quarterData from "@data/quarters/2026-q3.json";
+import type { Resource } from "@app-types/resource";
 
 type Props = {
   lesson: Lesson;
   day: LessonDay;
   previousDay?: LessonDay;
   nextDay?: LessonDay;
+  fridayResource?: Resource;
 };
 
 // Stricter book pattern: optional digit prefix + capitalized word(s)
@@ -218,11 +219,10 @@ function findReferences(text: string, knownRefs: BibleReference[], onOpen: (ref:
   return parts;
 }
 
-export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
+export function DailyReading({ lesson, day, previousDay, nextDay, fridayResource }: Props) {
   const [activeReference, setActiveReference] = useState<BibleReference | null>(null);
   const references = day.studyReferences ?? [];
   const lines = useMemo(() => (day.contentMarkdown ?? "").split("\n").filter(Boolean), [day.contentMarkdown]);
-  const hasViernes = (quarterData as any).resources?.some((r: any) => r.id === `viernes-${lesson.number}`);
 
   return (
     <>
@@ -266,7 +266,7 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
             const egwMatch = promptText.match(
               /(Lee (?:el capítulo|los capítulos) )?«([^»]+)», de (.+?) \(pp\. (\d+)[–-](\d+)\)/
             );
-            if (egwMatch && day.id === "viernes") {
+            if (egwMatch && day.id === "viernes" && fridayResource) {
               const prefix = egwMatch[1] || "";
               const chapter = egwMatch[2];
               const book = egwMatch[3];
@@ -278,7 +278,7 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
                   <button
                     type="button"
                     className="viernes-egw-link"
-                    data-article-url={`/material/viernes${lesson.number}.html`}
+                    data-article-url={fridayResource.url}
                     data-article-title={`${chapter}, de ${book} (pp. ${pp})`}
                   >
                     «{chapter}», de {book} (pp. {pp})
@@ -315,11 +315,11 @@ export function DailyReading({ lesson, day, previousDay, nextDay }: Props) {
         {day.id === "viernes" && (
           <div className="viernes-complement">
             <div className="section-separator" style={{ margin: "var(--space-4) 0" }}></div>
-            {hasViernes ? (
+            {fridayResource ? (
               <button
                 type="button"
                 className="viernes-complement-link"
-                data-article-url={`/material/viernes${lesson.number}.html`}
+                data-article-url={fridayResource.url}
                 data-article-title={`Comentario de la semana — Lección ${lesson.number}`}
               >
                 <span className="viernes-complement-icon">
