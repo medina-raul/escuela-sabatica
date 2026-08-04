@@ -74,11 +74,31 @@ if (-not (Test-Python3)) {
 }
 Install-ToolIfMissing -Command gh -WingetId "GitHub.cli"
 
-gh auth status -h github.com *> $null
-if ($LASTEXITCODE -ne 0) {
+$GitHubAuthenticated = $false
+try {
+    & gh auth status -h github.com *> $null
+    $GitHubAuthenticated = ($LASTEXITCODE -eq 0)
+}
+catch {
+    # La primera ejecución devuelve error porque aún no existe una sesión.
+    # Es un estado esperado y debe conducir al login, no abortar el instalador.
+    $GitHubAuthenticated = $false
+}
+if (-not $GitHubAuthenticated) {
     Write-Host "Se abrirá GitHub para autorizar esta computadora. Esto sólo ocurre la primera vez."
-    gh auth login -h github.com -p https --web
-    if ($LASTEXITCODE -ne 0) { throw "No se completó la autorización de GitHub" }
+    $PreviousErrorActionPreference = $ErrorActionPreference
+    $GitHubLoginExitCode = 1
+    try {
+        # gh usa stderr para mensajes interactivos normales; no deben convertirse
+        # en una excepción de PowerShell mientras la persona autoriza el equipo.
+        $ErrorActionPreference = "Continue"
+        & gh auth login -h github.com -p https --web
+        $GitHubLoginExitCode = $LASTEXITCODE
+    }
+    finally {
+        $ErrorActionPreference = $PreviousErrorActionPreference
+    }
+    if ($GitHubLoginExitCode -ne 0) { throw "No se completó la autorización de GitHub" }
 }
 
 node scripts/run_python.mjs scripts/site_maintenance.py --report $ReportPath
