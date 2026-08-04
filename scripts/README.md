@@ -5,12 +5,16 @@ El catálogo `src/data/quarters/2026-q3.json` es la única fuente de verdad para
 ## Comandos
 
 ```bash
-python3 scripts/update_resources.py                 # simulación con fuentes remotas
-python3 scripts/update_resources.py --apply         # actualización atómica
-python3 scripts/update_resources.py --offline       # auditoría sin red
-python3 scripts/audit_resources.py --write-manifest # valida y genera public/resource-manifest.json
-python3 scripts/verify_deployment.py                 # compara el manifiesto con producción
+npm run resources:update                            # valida y aplica cambios deterministas
+npm run resources:update:offline                    # auditoría sin red
+npm run resources:audit                             # valida y genera el manifiesto
+npm run resources:verify                            # compara el manifiesto con producción
+npm run resources:test                              # pruebas de la automatización
 ```
+
+Los comandos usan `scripts/run_python.mjs`, que selecciona `py -3`/`python` en Windows y `python3`/`python` en macOS o Linux.
+
+En macOS se puede abrir `scripts/run_resource_update.command`. En Windows se puede ejecutar `powershell -ExecutionPolicy Bypass -File scripts/run_resource_update.ps1`. Para completar también las traducciones, el administrador debe ejecutar o programar `/actualizar-recursos-semanales` en Antigravity; el workflow versionado vive en `.agents/workflows/`. Conviene programarlo al menos 45 minutos después del cron de GitHub para que continúe sobre `automation/weekly-resources`.
 
 Los recursos locales con `source.kind: "url"` se descargan primero a un directorio temporal, se validan por tipo real, tamaño y SHA-256, y solo entonces reemplazan los archivos actuales. Si cualquier validación falla, no se actualiza el catálogo y se restauran los archivos afectados.
 
@@ -30,19 +34,22 @@ https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/
 El actualizador valida el frontmatter y las secciones `Part I`, `Part II` y `Part III`, calcula el SHA-256 del original y lo compara con el checksum de la fuente que produjo la traducción vigente.
 
 - Los 13 HTML existentes de `2026-q3` se adoptan como traducciones manuales ya revisadas y no se regeneran.
-- Si cambia el Markdown y no hay traductor configurado, el catálogo queda marcado con `reviewStatus: "source-changed"`; el HTML publicado no se sobrescribe.
-- Si el traductor está configurado, se genera HTML desde una plantilla con etiquetas controladas, se valida, se reemplaza atómicamente y queda con `reviewStatus: "pending-review"` dentro del PR semanal.
+- Si cambia el Markdown, el catálogo queda marcado con `reviewStatus: "source-changed"`, el informe agrega una entrada en `teacherTranslationTasks` y el HTML publicado no se sobrescribe.
+- La traducción se realiza después de esa validación mediante el workflow de Antigravity `.agents/workflows/actualizar-recursos-semanales.md` y el Gemini Pro más reciente seleccionado por el administrador.
+- `scripts/teacher_translation.py` vuelve a descargar y verificar el original antes de traducir, y luego valida y aplica atómicamente el Markdown español producido por el agente.
+- El HTML nuevo queda con `reviewStatus: "pending-review"` dentro del PR semanal.
 - El lector del sitio vuelve a sanitizar el HTML antes de insertarlo en el DOM.
 
-La traducción automática usa OpenAI Responses por defecto y también acepta una API compatible con Chat Completions cuando se configura una URL alternativa. GitHub debe contener:
+No se necesita una clave de API de traducción. Antigravity utiliza el modelo disponible en la sesión del administrador y registra el identificador indicado por el agente.
 
-| Configuración | Ubicación | Requerida |
-|---|---|---|
-| `TEACHER_TRANSLATION_API_KEY` | Actions secret | Sí |
-| `TEACHER_TRANSLATION_MODEL` | Actions variable | Sí |
-| `TEACHER_TRANSLATION_API_URL` | Actions variable | No; por defecto usa `https://api.openai.com/v1/responses` |
+Flujo interno por tarea:
 
-También se acepta `OPENAI_API_KEY` al ejecutar el script localmente. El glosario versionado está en `scripts/teacher_glossary.json` y cada traducción registra modelo, versión del prompt, checksum del original y estado de revisión.
+```bash
+npm run resources:teacher -- fetch --lesson 1 --expected-checksum sha256:... --output artifacts/teacher-sources/leccion-01.md
+npm run resources:teacher -- apply --lesson 1 --source artifacts/teacher-sources/leccion-01.md --input artifacts/teacher-translations/leccion-01.md --source-checksum sha256:... --model gemini-pro-latest
+```
+
+El glosario versionado está en `scripts/teacher_glossary.json`. Cada traducción registra agente, modelo, versión del workflow, versión del renderizador, checksum del original y estado de revisión.
 
 ### Política operativa de procedencia
 

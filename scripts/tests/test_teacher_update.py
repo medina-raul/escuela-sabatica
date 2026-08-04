@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import sys
-import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -69,27 +68,29 @@ class TeacherUpdateTests(unittest.TestCase):
         metadata = RemoteMetadata(source_url, "text/plain", 5000, '"etag"', None)
         changes: list[str] = []
         warnings: list[str] = []
-        with tempfile.TemporaryDirectory() as directory, patch(
+        tasks: list[dict] = []
+        with patch(
             "update_resources.fetch_text",
             return_value=(source_markdown(), new_checksum, 5000, metadata),
-        ), patch("update_resources.translator_settings_from_env", return_value=None):
-            planned, handled = _discover_teacher_readings(
+        ):
+            handled = _discover_teacher_readings(
                 catalog,
-                Path(directory),
                 allowed_hosts={"raw.githubusercontent.com"},
                 timeout=1,
                 changes=changes,
                 warnings=warnings,
+                tasks=tasks,
             )
 
         resource = catalog["resources"][0]
-        self.assertEqual([], planned)
         self.assertEqual({"reading-teacher-01"}, handled)
         self.assertEqual(old_checksum, resource["translation"]["sourceChecksum"])
         self.assertEqual(new_checksum, resource["source"]["currentChecksum"])
         self.assertEqual("source-changed", resource["translation"]["reviewStatus"])
         self.assertEqual(new_checksum, resource["translation"]["detectedSourceChecksum"])
         self.assertTrue(warnings)
+        self.assertEqual("source-changed", tasks[0]["reason"])
+        self.assertEqual(new_checksum, tasks[0]["sourceChecksum"])
 
 
 if __name__ == "__main__":

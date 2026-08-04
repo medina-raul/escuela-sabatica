@@ -10,11 +10,12 @@
     "check": "astro check",
     "clean": "rm -rf dist/ .astro/",
     "test": "astro check",
-    "resources:update": "python3 scripts/update_resources.py --apply",
-    "resources:update:offline": "python3 scripts/update_resources.py --offline",
-    "resources:audit": "python3 scripts/audit_resources.py --write-manifest",
-    "resources:verify": "python3 scripts/verify_deployment.py",
-    "resources:test": "python3 -m unittest discover -s scripts/tests -p 'test_*.py'"
+    "resources:update": "node scripts/run_python.mjs scripts/update_resources.py --apply",
+    "resources:update:offline": "node scripts/run_python.mjs scripts/update_resources.py --offline",
+    "resources:audit": "node scripts/run_python.mjs scripts/audit_resources.py --write-manifest",
+    "resources:verify": "node scripts/run_python.mjs scripts/verify_deployment.py",
+    "resources:teacher": "node scripts/run_python.mjs scripts/teacher_translation.py",
+    "resources:test": "node scripts/run_python.mjs -m unittest discover -s scripts/tests -p test_*.py"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",

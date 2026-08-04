@@ -6,7 +6,6 @@ import tempfile
 import unittest
 import zipfile
 from pathlib import Path
-from unittest.mock import patch
 
 
 SCRIPTS_DIR = Path(__file__).resolve().parents[1]
@@ -23,26 +22,7 @@ from resource_lib import (  # noqa: E402
     validate_file,
     validate_source_url,
 )
-from teacher_readings import (  # noqa: E402
-    TranslatorSettings,
-    render_teacher_html,
-    translate_teacher_markdown,
-    validate_teacher_markdown,
-)
-
-
-class FakeResponse:
-    def __init__(self, payload: bytes):
-        self.payload = payload
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, *_args):
-        return False
-
-    def read(self, _size: int) -> bytes:
-        return self.payload
+from teacher_readings import render_teacher_html, validate_teacher_markdown  # noqa: E402
 
 
 class ResourceLibraryTests(unittest.TestCase):
@@ -129,35 +109,6 @@ class ResourceLibraryTests(unittest.TestCase):
         self.assertIn("&lt;img src=x onerror=alert(1)&gt;", rendered)
         self.assertIn("<strong>importante</strong>", rendered)
         self.assertIn("Fuente original", rendered)
-
-    def test_teacher_translation_supports_responses_api(self) -> None:
-        source = (
-            "---\ntitle: Teacher Comments\ndate: 01/01/2027\n---\n\n"
-            "#### Part I: Overview\n\n" + "Overview paragraph. " * 25 + "\n\n"
-            "#### Part II: Commentary\n\n" + "Commentary paragraph. " * 25 + "\n\n"
-            "#### Part III: Life Application\n\n" + "Application paragraph. " * 25
-        )
-        translated = (
-            "---\ntitle: Comentarios para maestros\ndate: 01/01/2027\n---\n\n"
-            "#### Parte I: Visión General\n\n" + "Párrafo de visión general. " * 25 + "\n\n"
-            "#### Parte II: Comentario\n\n" + "Párrafo de comentario. " * 25 + "\n\n"
-            "#### Parte III: Aplicación a la Vida\n\n" + "Párrafo de aplicación. " * 25
-        )
-        response = json.dumps(
-            {
-                "output": [
-                    {"type": "message", "content": [{"type": "output_text", "text": translated}]}
-                ]
-            }
-        ).encode("utf-8")
-        settings = TranslatorSettings("https://api.openai.com/v1/responses", "secret", "configured-model")
-        with patch("teacher_readings.urllib.request.urlopen", return_value=FakeResponse(response)) as mocked:
-            result = translate_teacher_markdown(source, settings, timeout=1)
-        self.assertEqual(translated.strip(), result)
-        request_payload = json.loads(mocked.call_args.args[0].data)
-        self.assertEqual(source, request_payload["input"])
-        self.assertFalse(request_payload["store"])
-
 
 if __name__ == "__main__":
     unittest.main()

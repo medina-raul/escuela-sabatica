@@ -49,11 +49,13 @@ export type Resource = {
   translation?: {
     sourceLanguage: "en";
     targetLanguage: "es";
-    method: "manual" | "openai-compatible-api";
+    method: "manual" | "antigravity-agent";
     sourceChecksum: string;
     detectedSourceChecksum?: string;
+    agent?: string;
     model?: string;
-    promptVersion?: string;
+    workflowVersion?: string;
+    rendererVersion?: string;
     reviewStatus: "reviewed-existing" | "pending-review" | "reviewed" | "source-changed";
     generatedAt?: string;
   };
