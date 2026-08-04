@@ -24,12 +24,20 @@ catálogo activo
   -> bandeja manual
   -> fuentes remotas
   -> tareas asistidas
-  -> auditoría + manifiesto
+  -> auditoría + manifiesto + inventario de estado
   -> build
   -> revisión y PR
 ```
 
 Cada fase determinista puede ejecutarse sin un agente. Los archivos se validan por extensión, estructura real, tamaño y SHA-256 antes de reemplazar el destino. Las operaciones físicas y el catálogo se restauran si falla la auditoría posterior.
+
+Cada ejecución aplicada genera además `artifacts/resource-status.json`, con el estado, almacenamiento y origen de todos los recursos catalogados.
+
+## Asociación automática de los viernes
+
+Cuando existe un recurso con rol `friday-reading`, la primera frase completa del contenido del viernes de esa lección se transforma automáticamente en el disparador del modal. La asociación se realiza por `lessonNumber`, por lo que no depende del título, del libro citado ni de una expresión textual específica.
+
+La auditoría exige que todo recurso de viernes tenga un día viernes y que su primer bloque comience con una invitación completa a leer. Así se evita que una lectura aparezca en la biblioteca o en la barra lateral pero quede desconectada del texto principal.
 
 ## Recursos manuales
 

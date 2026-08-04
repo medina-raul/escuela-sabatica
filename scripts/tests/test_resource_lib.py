@@ -17,12 +17,14 @@ from resource_lib import (  # noqa: E402
     atomic_write_json,
     audit_catalog,
     extract_links,
+    first_friday_invitation,
     load_catalog,
     manifest_payload,
     validate_file,
     validate_source_url,
 )
 from teacher_readings import render_teacher_html, validate_teacher_markdown  # noqa: E402
+from resource_status import build_status  # noqa: E402
 
 
 class ResourceLibraryTests(unittest.TestCase):
@@ -37,6 +39,12 @@ class ResourceLibraryTests(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertEqual(101, first["resourceCount"])
         self.assertEqual(52, first["localResourceCount"])
+
+    def test_resource_status_covers_every_resource_and_friday_link(self) -> None:
+        status = build_status(load_catalog(DEFAULT_CATALOG))
+        self.assertEqual(101, status["resourceCount"])
+        self.assertEqual(0, status["summary"]["requiresAttention"])
+        self.assertEqual(13, status["summary"]["fridayLinked"])
 
     def test_html_error_page_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -72,6 +80,13 @@ class ResourceLibraryTests(unittest.TestCase):
         self.assertEqual(
             ["https://www.fustero.es/2026t311.pptx"],
             extract_links("https://www.fustero.es/", html),
+        )
+
+    def test_friday_invitation_accepts_markdown_emphasis_and_backticks(self) -> None:
+        markdown = "`Lee el capítulo *«El Calvario»*, de *El Deseado* (pp. 703–717).`\n\nTexto siguiente."
+        self.assertEqual(
+            "Lee el capítulo «El Calvario», de El Deseado (pp. 703–717).",
+            first_friday_invitation(markdown),
         )
 
     def test_atomic_json_write_produces_valid_file(self) -> None:

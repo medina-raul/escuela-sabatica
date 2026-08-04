@@ -448,6 +448,20 @@ def refresh_local_metadata(catalog: dict[str, Any]) -> list[str]:
     return changes
 
 
+def first_friday_invitation(markdown: str) -> str | None:
+    """Return the first complete content block used as the Friday modal trigger."""
+
+    for raw_line in markdown.splitlines():
+        line = raw_line.strip()
+        if not line or line == "---" or line.startswith("#"):
+            continue
+        if line.startswith("`") and line.endswith("`"):
+            line = line[1:-1].strip()
+        line = re.sub(r"(?<!\\)[*_]", "", line).strip()
+        return line or None
+    return None
+
+
 def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
     issues: list[Issue] = []
     resources = all_resources(catalog)
@@ -559,6 +573,42 @@ def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
         }
         for orphan in sorted(physical_files - catalog_local_paths):
             issues.append(Issue("error", "orphan-file", f"Archivo no catalogado: {orphan.relative_to(PROJECT_ROOT)}"))
+
+    friday_resources: dict[int, dict[str, Any]] = {}
+    for resource in resources:
+        if resource.get("role") != "friday-reading":
+            continue
+        lesson_number = resource.get("lessonNumber")
+        if lesson_number in friday_resources:
+            issues.append(Issue("error", "duplicate-friday-reading", f"Más de una lectura de viernes: lección {lesson_number}"))
+        else:
+            friday_resources[lesson_number] = resource
+    for lesson_number, lesson in lessons.items():
+        friday_resource = friday_resources.get(lesson_number)
+        if friday_resource is None:
+            issues.append(Issue("warning", "friday-reading-unavailable", f"Sin lectura complementaria: lección {lesson_number}"))
+            continue
+        friday_day = next((day for day in lesson.get("days", []) if day.get("id") == "viernes"), None)
+        if friday_day is None:
+            issues.append(Issue("error", "friday-day-missing", f"No existe el viernes de la lección {lesson_number}"))
+            continue
+        invitation = first_friday_invitation(friday_day.get("contentMarkdown", ""))
+        if not invitation or not re.match(r"^Lee\b", invitation, re.IGNORECASE):
+            issues.append(
+                Issue(
+                    "error",
+                    "friday-invitation-missing",
+                    f"La primera frase del viernes no invita a leer: lección {lesson_number}",
+                )
+            )
+        elif invitation[-1] not in ".!?’\”\"":
+            issues.append(
+                Issue(
+                    "error",
+                    "friday-invitation-incomplete",
+                    f"La invitación del viernes no parece una frase completa: lección {lesson_number}",
+                )
+            )
 
     audio_by_slot = {
         (resource.get("lessonNumber"), resource.get("dayId")): resource

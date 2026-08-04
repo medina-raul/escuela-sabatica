@@ -1879,21 +1879,29 @@ button.sidebar-ppt-card {
   background: var(--color-white-warm);
 }
 
-/* ── EGW reading link inside Viernes text ── */
-.viernes-egw-link {
+/* ── Full Friday invitation opens the complementary reading ── */
+.viernes-reading-link {
   background: none;
   border: none;
   color: #1a5cc7;
   font-family: inherit;
   font-size: inherit;
-  font-style: italic;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: inherit;
   cursor: pointer;
   padding: 0;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-.viernes-egw-link:hover {
+.viernes-reading-link:hover {
   color: var(--color-navy-900);
+}
+.viernes-reading-link:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--color-gold-500) 70%, white);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 .verse-block {

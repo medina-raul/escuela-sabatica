@@ -10,6 +10,7 @@ npm run resources:sync                              # reestructura, importa, act
 npm run resources:sync:offline                      # igual, sin consultar fuentes remotas
 npm run resources:restructure                       # sólo normaliza la estructura física
 npm run resources:manual                            # sólo procesa resource-inbox
+npm run resources:status                            # inventario completo de estado y origen
 npm run resources:update                            # valida y aplica cambios deterministas
 npm run resources:audit                             # valida y genera el manifiesto
 npm run resources:verify                            # compara el manifiesto con producción
@@ -25,6 +26,8 @@ Los recursos locales con `source.kind: "url"` se descargan primero a un director
 Los recursos con `source.kind: "manual"` se reciben en `resource-inbox/<quarterId>/`. La bandeja replica la estructura canónica, valida los archivos y actualiza catálogo y manifiesto de forma atómica. Un recurso nuevo necesita el descriptor `<archivo>.resource.json`.
 
 Antes de importar o descargar, `restructure_resources.py` compara cada recurso local con `resourceAutomation.canonicalLayout`. Puede corregir una URL antigua, mover un archivo legado inequívoco y eliminar un duplicado idéntico. Si encuentra dos candidatos o contenidos distintos, se detiene y no decide por aproximación.
+
+Para toda lección que tenga `friday-reading`, el lector convierte el primer bloque completo del viernes en un enlace al modal. La auditoría comprueba la existencia de esa invitación, y `resource_status.py` registra si la asociación está activa.
 
 Las presentaciones se descubren en `https://www.fustero.es/`, se descargan primero a una zona temporal y se publican como copias locales únicamente después de validar el contenedor PPTX y su checksum. La aplicación nunca usa Fustero como proxy en tiempo real: el usuario descarga una copia estable servida por Escuela Sabática y el catálogo conserva la atribución de Sergio Fustero y Eunice Laveda.
 

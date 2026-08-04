@@ -162,6 +162,20 @@ def main() -> int:
             steps.append({"name": "audit", "returnCode": returncode})
             if returncode:
                 errors.append(f"audit terminó con código {returncode}")
+        if not errors:
+            status_path = report_path.parent / "resource-status.json"
+            status_command = [
+                sys.executable,
+                str(PROJECT_ROOT / "scripts/resource_status.py"),
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(status_path),
+            ]
+            returncode, _output = _run(status_command)
+            steps.append({"name": "status", "returnCode": returncode, "output": str(status_path)})
+            if returncode:
+                errors.append(f"status terminó con código {returncode}")
         if not errors and not args.skip_build:
             returncode, _output = _run([str(npm), "run", "build"])
             steps.append({"name": "build", "returnCode": returncode})

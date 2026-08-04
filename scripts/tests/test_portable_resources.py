@@ -144,6 +144,9 @@ class PortableResourceTests(unittest.TestCase):
             write_html(target, "anterior")
             write_html(payload, "nuevo")
             catalog = base_catalog()
+            catalog["lessons"][0]["days"] = [
+                {"id": "viernes", "contentMarkdown": "Lee el capítulo «Prueba», de Libro (pp. 1-2)."}
+            ]
             catalog["resources"].append(
                 {
                     "id": "reading-friday-01",
