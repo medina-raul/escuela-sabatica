@@ -20,6 +20,9 @@ jobs:
     env:
       RESOURCE_REPORT: ${{ runner.temp }}/resource-update-report.json
       AUTOMATION_BRANCH: automation/weekly-resources
+      TEACHER_TRANSLATION_API_KEY: ${{ secrets.TEACHER_TRANSLATION_API_KEY }}
+      TEACHER_TRANSLATION_MODEL: ${{ vars.TEACHER_TRANSLATION_MODEL }}
+      TEACHER_TRANSLATION_API_URL: ${{ vars.TEACHER_TRANSLATION_API_URL }}
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -93,6 +96,7 @@ jobs:
             'Actualización generada por el verificador semanal de recursos.' \
             '' \
             '- Descargas validadas por tipo, tamaño y checksum.' \
+            '- Las traducciones de maestros quedan marcadas para revisión humana.' \
             '- Catálogo y manifiesto auditados.' \
             '- `npm run build` completado antes de abrir este PR.' \
             '' \

@@ -2,6 +2,45 @@ import { useEffect, useState, useCallback, useRef } from "react";
 
 type Props = {};
 
+const ARTICLE_TAGS = new Set([
+  "ARTICLE", "SECTION", "DIV", "P", "H1", "H2", "H3", "H4", "H5", "H6",
+  "UL", "OL", "LI", "BLOCKQUOTE", "STRONG", "EM", "B", "I", "A", "BR",
+  "HR", "CODE", "SUP", "SUB", "SPAN",
+]);
+
+function sanitizeArticleHtml(rawHtml: string) {
+  const document = new DOMParser().parseFromString(rawHtml, "text/html");
+  document
+    .querySelectorAll("script,style,iframe,object,embed,form,input,button,svg,math,template,link,meta,base")
+    .forEach((element) => element.remove());
+
+  for (const element of Array.from(document.body.querySelectorAll("*"))) {
+    if (!ARTICLE_TAGS.has(element.tagName)) {
+      element.replaceWith(...Array.from(element.childNodes));
+      continue;
+    }
+    for (const attribute of Array.from(element.attributes)) {
+      const keepClass = attribute.name === "class";
+      const keepLanguage = attribute.name === "lang" || attribute.name === "dir";
+      const keepLinkAttribute = element.tagName === "A" && attribute.name === "href";
+      if (!keepClass && !keepLanguage && !keepLinkAttribute) element.removeAttribute(attribute.name);
+    }
+    if (element instanceof HTMLAnchorElement) {
+      const href = element.getAttribute("href")?.trim() ?? "";
+      try {
+        const parsed = new URL(href, location.origin);
+        if (!href || !["http:", "https:"].includes(parsed.protocol)) throw new Error("unsafe URL");
+        element.href = parsed.href;
+        element.target = "_blank";
+        element.rel = "noopener noreferrer";
+      } catch {
+        element.replaceWith(...Array.from(element.childNodes));
+      }
+    }
+  }
+  return document.body.innerHTML;
+}
+
 export function ArticleModal(_props: Props) {
   const [article, setArticle] = useState<{ url: string; title: string } | null>(null);
   const [content, setContent] = useState("");
@@ -14,10 +53,13 @@ export function ArticleModal(_props: Props) {
     setLoading(true);
     const fullUrl = url.startsWith("http") ? url : `${location.origin}${url}`;
     fetch(fullUrl)
-      .then((r) => r.text())
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.text();
+      })
       .then((html) => {
         const body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? html;
-        setContent(body.replace(/<style[\s\S]*?<\/style>/gi, ""));
+        setContent(sanitizeArticleHtml(body));
         setLoading(false);
       })
       .catch(() => {

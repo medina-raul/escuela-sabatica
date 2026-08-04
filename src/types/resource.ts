@@ -24,6 +24,8 @@ export type ResourceSource =
       lastModified?: string;
       provider?: string;
       providerUrl?: string;
+      credit?: string;
+      currentChecksum?: string;
     }
   | { kind: "manual" };
 
@@ -44,6 +46,17 @@ export type Resource = {
   checksum?: string;
   sizeBytes?: number;
   source: ResourceSource;
+  translation?: {
+    sourceLanguage: "en";
+    targetLanguage: "es";
+    method: "manual" | "openai-compatible-api";
+    sourceChecksum: string;
+    detectedSourceChecksum?: string;
+    model?: string;
+    promptVersion?: string;
+    reviewStatus: "reviewed-existing" | "pending-review" | "reviewed" | "source-changed";
+    generatedAt?: string;
+  };
 };
 
 export type AudioDiscoveryConfig = {
@@ -70,6 +83,21 @@ export type PresentationDiscoveryConfig = {
   providerUrl: string;
 };
 
+export type TeacherReadingDiscoveryConfig = {
+  sourceUrlTemplate: string;
+  sourceQuarter: string;
+  lessonStart: number;
+  lessonEnd: number;
+  localUrlTemplate: string;
+  allowedContentTypes: string[];
+  maxBytes: number;
+  maxOutputBytes: number;
+  provider: string;
+  providerUrl: string;
+  credit: string;
+  reviewRequired: boolean;
+};
+
 export type ResourceAutomationConfig = {
   schemaVersion: number;
   manifestPath: string;
@@ -77,6 +105,7 @@ export type ResourceAutomationConfig = {
   maxDownloadBytes: number;
   audioDiscovery?: AudioDiscoveryConfig;
   presentationDiscovery?: PresentationDiscoveryConfig;
+  teacherReadingDiscovery?: TeacherReadingDiscoveryConfig;
 };
 
 export type AudioResource = {

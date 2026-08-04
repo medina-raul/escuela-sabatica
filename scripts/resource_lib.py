@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import tempfile
 import urllib.error
 import urllib.parse
@@ -97,6 +98,10 @@ def sha256_path(path: Path) -> str:
     return f"sha256:{digest.hexdigest()}"
 
 
+def sha256_bytes(payload: bytes) -> str:
+    return f"sha256:{hashlib.sha256(payload).hexdigest()}"
+
+
 def local_path_for_url(url: str) -> Path:
     parsed = urllib.parse.urlparse(url)
     if parsed.scheme or parsed.netloc or parsed.query or parsed.fragment:
@@ -171,11 +176,20 @@ def validate_file(path: Path, resource_type: str, max_bytes: int | None = None) 
             raise ResourceError(f"Un artículo debe terminar en .html: {path}")
         if size < 128:
             raise ResourceError(f"HTML sospechosamente pequeño: {path}")
-        sample = path.read_bytes()[:8192].decode("utf-8", errors="ignore").lower()
+        sample = path.read_text(encoding="utf-8", errors="ignore").lower()
         if "<html" not in sample and "<!doctype html" not in sample:
             raise ResourceError(f"El archivo no parece HTML: {path}")
         if "404 not found" in sample or "access denied" in sample:
             raise ResourceError(f"El HTML parece una página de error: {path}")
+        unsafe_patterns = {
+            "script": r"<\s*script\b",
+            "iframe": r"<\s*iframe\b",
+            "evento inline": r"\son(?:error|load|click|mouseover|focus)\s*=",
+            "URL javascript": r"javascript\s*:",
+        }
+        for label, pattern in unsafe_patterns.items():
+            if re.search(pattern, sample, re.IGNORECASE):
+                raise ResourceError(f"El HTML contiene {label} no permitido: {path}")
     elif resource_type == "ppt":
         if suffix != ".pptx":
             raise ResourceError(f"Una presentación debe terminar en .pptx: {path}")
@@ -306,6 +320,55 @@ def download_to(
     return f"sha256:{digest.hexdigest()}", total, metadata
 
 
+def fetch_text(
+    url: str,
+    *,
+    allowed_hosts: set[str],
+    allowed_content_types: list[str] | None,
+    max_bytes: int,
+    timeout: float,
+) -> tuple[str, str, int, RemoteMetadata]:
+    """Download a small UTF-8 source without persisting it outside staging."""
+
+    validate_source_url(url, allowed_hosts)
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT, "Accept": "text/plain,text/markdown;q=0.9,*/*;q=0.1"},
+    )
+    try:
+        response = urllib.request.urlopen(request, timeout=timeout)
+    except urllib.error.HTTPError as exc:
+        raise ResourceError(f"Fuente de texto respondió HTTP {exc.code}: {url}") from exc
+    except urllib.error.URLError as exc:
+        raise ResourceError(f"No se pudo descargar la fuente de texto {url}: {exc.reason}") from exc
+
+    with response:
+        final_url = response.geturl()
+        validate_source_url(final_url, allowed_hosts)
+        content_type = response.headers.get("Content-Type")
+        if not _content_type_allowed(content_type, allowed_content_types):
+            raise ResourceError(f"Content-Type inesperado {content_type!r}: {url}")
+        payload = response.read(max_bytes + 1)
+        if len(payload) > max_bytes:
+            raise ResourceError(f"La fuente de texto excede {max_bytes} bytes: {url}")
+        metadata = RemoteMetadata(
+            url=url,
+            content_type=content_type,
+            content_length=len(payload),
+            etag=response.headers.get("ETag"),
+            last_modified=response.headers.get("Last-Modified"),
+        )
+    if len(payload) < 128:
+        raise ResourceError(f"La fuente de texto es sospechosamente pequeña: {url}")
+    try:
+        text = payload.decode("utf-8-sig")
+    except UnicodeDecodeError as exc:
+        raise ResourceError(f"La fuente de texto no es UTF-8: {url}") from exc
+    if "\x00" in text:
+        raise ResourceError(f"La fuente de texto contiene bytes nulos: {url}")
+    return text, sha256_bytes(payload), len(payload), metadata
+
+
 def refresh_local_metadata(catalog: dict[str, Any]) -> list[str]:
     changes: list[str] = []
     for resource in iter_resources(catalog):
@@ -372,6 +435,33 @@ def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
                 validate_source_url(source.get("url", ""), allowed_hosts)
             except ResourceError as exc:
                 issues.append(Issue("error", "invalid-source", f"{resource_id}: {exc}"))
+        if role == "teacher-reading" and source_kind == "url":
+            current_source_checksum = source.get("currentChecksum", "")
+            translation = resource.get("translation", {})
+            translated_source_checksum = translation.get("sourceChecksum", "")
+            checksum_pattern = r"sha256:[0-9a-f]{64}"
+            if not re.fullmatch(checksum_pattern, current_source_checksum):
+                issues.append(
+                    Issue("error", "teacher-source-checksum", f"Checksum de fuente inválido: {resource_id}")
+                )
+            if not re.fullmatch(checksum_pattern, translated_source_checksum):
+                issues.append(
+                    Issue("error", "teacher-translation-checksum", f"Traducción sin checksum fuente: {resource_id}")
+                )
+            review_status = translation.get("reviewStatus")
+            allowed_statuses = {"reviewed-existing", "pending-review", "reviewed", "source-changed"}
+            if review_status not in allowed_statuses:
+                issues.append(
+                    Issue("error", "teacher-review-status", f"Estado de revisión inválido: {resource_id}")
+                )
+            if current_source_checksum != translated_source_checksum and review_status != "source-changed":
+                issues.append(
+                    Issue(
+                        "error",
+                        "teacher-source-drift",
+                        f"La traducción no corresponde a la fuente vigente: {resource_id}",
+                    )
+                )
         if storage == "local":
             try:
                 path = local_path_for_url(url)

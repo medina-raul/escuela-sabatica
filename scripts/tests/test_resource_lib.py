@@ -6,6 +6,7 @@ import tempfile
 import unittest
 import zipfile
 from pathlib import Path
+from unittest.mock import patch
 
 
 SCRIPTS_DIR = Path(__file__).resolve().parents[1]
@@ -22,6 +23,26 @@ from resource_lib import (  # noqa: E402
     validate_file,
     validate_source_url,
 )
+from teacher_readings import (  # noqa: E402
+    TranslatorSettings,
+    render_teacher_html,
+    translate_teacher_markdown,
+    validate_teacher_markdown,
+)
+
+
+class FakeResponse:
+    def __init__(self, payload: bytes):
+        self.payload = payload
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_args):
+        return False
+
+    def read(self, _size: int) -> bytes:
+        return self.payload
 
 
 class ResourceLibraryTests(unittest.TestCase):
@@ -41,6 +62,15 @@ class ResourceLibraryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "error.html"
             path.write_text("<!doctype html><html><body>404 not found" + "x" * 200 + "</body></html>")
+            with self.assertRaises(ResourceError):
+                validate_file(path, "article")
+
+    def test_html_with_active_content_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "unsafe.html"
+            path.write_text(
+                "<!doctype html><html><body><p>" + "x" * 200 + "</p><script>alert(1)</script></body></html>"
+            )
             with self.assertRaises(ResourceError):
                 validate_file(path, "article")
 
@@ -69,6 +99,64 @@ class ResourceLibraryTests(unittest.TestCase):
             path = Path(directory) / "state.json"
             atomic_write_json(path, {"ok": True, "texto": "válido"})
             self.assertEqual({"ok": True, "texto": "válido"}, json.loads(path.read_text(encoding="utf-8")))
+
+    def test_teacher_markdown_requires_the_three_sections(self) -> None:
+        markdown = (
+            "---\ntitle: Teacher Comments\ndate: 01/01/2027\n---\n\n"
+            "#### Part I: Overview\n\n" + "Overview paragraph. " * 25 + "\n\n"
+            "#### Part II: Commentary\n\n" + "Commentary paragraph. " * 25 + "\n\n"
+            "#### Part III: Life Application\n\n" + "Application paragraph. " * 25
+        )
+        validate_teacher_markdown(markdown, language="en")
+        with self.assertRaises(ResourceError):
+            validate_teacher_markdown(markdown.replace("Part II: Commentary", "Commentary"), language="en")
+
+    def test_teacher_html_renderer_escapes_raw_markup(self) -> None:
+        markdown = (
+            "---\ntitle: Comentarios para maestros\ndate: 01/01/2027\n---\n\n"
+            "#### Parte I: Visión General\n\n" + "Texto seguro <img src=x onerror=alert(1)>. " * 25 + "\n\n"
+            "#### Parte II: Comentario\n\n" + "Comentario **importante**. " * 25 + "\n\n"
+            "#### Parte III: Aplicación a la Vida\n\n" + "Aplicación práctica. " * 25
+        )
+        validate_teacher_markdown(markdown, language="es")
+        rendered = render_teacher_html(
+            markdown,
+            lesson_number=1,
+            source_url="https://raw.githubusercontent.com/example/source.md",
+            provider_url="https://github.com/Adventech/sabbath-school-lessons",
+        )
+        self.assertNotIn("<img", rendered)
+        self.assertIn("&lt;img src=x onerror=alert(1)&gt;", rendered)
+        self.assertIn("<strong>importante</strong>", rendered)
+        self.assertIn("Fuente original", rendered)
+
+    def test_teacher_translation_supports_responses_api(self) -> None:
+        source = (
+            "---\ntitle: Teacher Comments\ndate: 01/01/2027\n---\n\n"
+            "#### Part I: Overview\n\n" + "Overview paragraph. " * 25 + "\n\n"
+            "#### Part II: Commentary\n\n" + "Commentary paragraph. " * 25 + "\n\n"
+            "#### Part III: Life Application\n\n" + "Application paragraph. " * 25
+        )
+        translated = (
+            "---\ntitle: Comentarios para maestros\ndate: 01/01/2027\n---\n\n"
+            "#### Parte I: Visión General\n\n" + "Párrafo de visión general. " * 25 + "\n\n"
+            "#### Parte II: Comentario\n\n" + "Párrafo de comentario. " * 25 + "\n\n"
+            "#### Parte III: Aplicación a la Vida\n\n" + "Párrafo de aplicación. " * 25
+        )
+        response = json.dumps(
+            {
+                "output": [
+                    {"type": "message", "content": [{"type": "output_text", "text": translated}]}
+                ]
+            }
+        ).encode("utf-8")
+        settings = TranslatorSettings("https://api.openai.com/v1/responses", "secret", "configured-model")
+        with patch("teacher_readings.urllib.request.urlopen", return_value=FakeResponse(response)) as mocked:
+            result = translate_teacher_markdown(source, settings, timeout=1)
+        self.assertEqual(translated.strip(), result)
+        request_payload = json.loads(mocked.call_args.args[0].data)
+        self.assertEqual(source, request_payload["input"])
+        self.assertFalse(request_payload["store"])
 
 
 if __name__ == "__main__":

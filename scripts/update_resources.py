@@ -26,6 +26,7 @@ from resource_lib import (
     atomic_write_json,
     audit_catalog,
     download_to,
+    fetch_text,
     fetch_html_links,
     issue_dicts,
     load_catalog,
@@ -34,8 +35,16 @@ from resource_lib import (
     probe_url,
     refresh_local_metadata,
     sha256_path,
+    validate_file,
     validate_source_url,
     write_manifest,
+)
+from teacher_readings import (
+    PROMPT_VERSION,
+    render_teacher_html,
+    translate_teacher_markdown,
+    translator_settings_from_env,
+    validate_teacher_markdown,
 )
 
 
@@ -332,6 +341,166 @@ def _discover_presentations(
     return verified_unchanged
 
 
+def _discover_teacher_readings(
+    catalog: dict[str, Any],
+    staging_root: Path,
+    *,
+    allowed_hosts: set[str],
+    timeout: float,
+    changes: list[str],
+    warnings: list[str],
+) -> tuple[list[dict[str, Any]], set[str]]:
+    config = catalog.get("resourceAutomation", {}).get("teacherReadingDiscovery")
+    if not config:
+        return [], set()
+
+    translator = translator_settings_from_env()
+    resources_by_lesson: dict[int, dict[str, Any]] = {}
+    for resource in all_resources(catalog):
+        if resource.get("role") != "teacher-reading":
+            continue
+        lesson_number = resource.get("lessonNumber")
+        if lesson_number in resources_by_lesson:
+            raise ResourceError(f"Hay más de una lectura de maestros para la lección {lesson_number}")
+        resources_by_lesson[lesson_number] = resource
+
+    planned: list[dict[str, Any]] = []
+    handled_ids: set[str] = set()
+    for lesson_number in range(config["lessonStart"], config["lessonEnd"] + 1):
+        source_url = config["sourceUrlTemplate"].format(
+            sourceQuarter=config["sourceQuarter"],
+            lesson=lesson_number,
+        )
+        source_markdown, source_checksum, _source_size, metadata = fetch_text(
+            source_url,
+            allowed_hosts=allowed_hosts,
+            allowed_content_types=config.get("allowedContentTypes"),
+            max_bytes=config["maxBytes"],
+            timeout=timeout,
+        )
+        validate_teacher_markdown(source_markdown, language="en")
+
+        resource = resources_by_lesson.get(lesson_number)
+        local_url = config["localUrlTemplate"].format(
+            quarterId=catalog["id"],
+            lesson=lesson_number,
+        )
+        target = local_path_for_url(local_url)
+        if resource is None and translator is None:
+            warnings.append(
+                f"teacher-reading-{lesson_number:02d}: fuente disponible, pero falta configurar el traductor"
+            )
+            continue
+        if resource is None:
+            resource = {
+                "id": f"reading-teacher-{lesson_number:02d}",
+                "type": "article",
+                "role": "teacher-reading",
+                "lessonNumber": lesson_number,
+                "title": f"Material para Maestros — Lección {lesson_number}",
+                "description": f"Guía de estudio para maestros de la lección {lesson_number}",
+                "url": local_url,
+                "storage": "local",
+                "source": {},
+            }
+            catalog.setdefault("resources", []).append(resource)
+            resources_by_lesson[lesson_number] = resource
+            changes.append(f"teacher-discovered:{resource['id']}")
+
+        handled_ids.add(resource["id"])
+        if resource.get("url") != local_url:
+            resource["url"] = local_url
+            changes.append(f"teacher-local-url:{resource['id']}")
+
+        desired_source = {
+            "kind": "url",
+            "url": source_url,
+            "allowedContentTypes": config.get("allowedContentTypes", []),
+            "maxBytes": config["maxBytes"],
+            "provider": config["provider"],
+            "providerUrl": config["providerUrl"],
+            "credit": config["credit"],
+            "currentChecksum": source_checksum,
+        }
+        metadata_to_source(desired_source, metadata)
+        previous_source = resource.get("source", {})
+        translation = resource.get("translation")
+
+        # The current quarter was translated manually. Adopt it as the reviewed
+        # baseline without regenerating or touching the published HTML.
+        if not translation and previous_source.get("kind") == "manual" and target.is_file():
+            resource["source"] = desired_source
+            resource["translation"] = {
+                "sourceLanguage": "en",
+                "targetLanguage": "es",
+                "method": "manual",
+                "sourceChecksum": source_checksum,
+                "reviewStatus": "reviewed-existing",
+            }
+            changes.append(f"teacher-source-adopted:{resource['id']}")
+            continue
+
+        if previous_source != desired_source:
+            resource["source"] = desired_source
+            changes.append(f"teacher-source-metadata:{resource['id']}")
+        translation = dict(translation or {})
+        translated_source_checksum = translation.get("sourceChecksum")
+        if translated_source_checksum == source_checksum and target.is_file():
+            if translation.pop("detectedSourceChecksum", None) is not None:
+                resource["translation"] = translation
+                changes.append(f"teacher-pending-cleared:{resource['id']}")
+            continue
+
+        if translator is None:
+            if translation.get("detectedSourceChecksum") != source_checksum:
+                translation["detectedSourceChecksum"] = source_checksum
+                translation["reviewStatus"] = "source-changed"
+                resource["translation"] = translation
+                changes.append(f"teacher-source-pending:{resource['id']}")
+            warnings.append(
+                f"{resource['id']}: Adventech cambió la fuente; configure el secreto y modelo del traductor"
+            )
+            continue
+
+        translated_markdown = translate_teacher_markdown(source_markdown, translator, timeout=timeout)
+        rendered = render_teacher_html(
+            translated_markdown,
+            lesson_number=lesson_number,
+            source_url=source_url,
+            provider_url=config["providerUrl"],
+        )
+        staged = staging_root / "teacher-readings" / f"leccion-{lesson_number:02d}.html"
+        staged.parent.mkdir(parents=True, exist_ok=True)
+        with staged.open("w", encoding="utf-8") as handle:
+            handle.write(rendered)
+            handle.flush()
+            os.fsync(handle.fileno())
+        validate_file(staged, "article", config["maxOutputBytes"])
+        resource["translation"] = {
+            "sourceLanguage": "en",
+            "targetLanguage": "es",
+            "method": "openai-compatible-api",
+            "model": translator.model,
+            "promptVersion": PROMPT_VERSION,
+            "sourceChecksum": source_checksum,
+            "reviewStatus": "pending-review" if config.get("reviewRequired", True) else "reviewed",
+            "generatedAt": datetime.now(timezone.utc).isoformat(),
+        }
+        planned.append(
+            {
+                "resource": resource,
+                "target": target,
+                "staged": staged,
+                "checksum": sha256_path(staged),
+                "size": staged.stat().st_size,
+                "metadata": metadata,
+            }
+        )
+        changes.append(f"teacher-translation:{resource['id']}")
+
+    return planned, handled_ids
+
+
 def _stage_local_url_sources(
     catalog: dict[str, Any],
     staging_root: Path,
@@ -476,14 +645,22 @@ def main() -> int:
                     changes=changes,
                     warnings=warnings,
                 )
-                planned = _stage_local_url_sources(
+                teacher_planned, teacher_ids = _discover_teacher_readings(
+                    catalog,
+                    transaction_root,
+                    allowed_hosts=allowed_hosts,
+                    timeout=args.timeout,
+                    changes=changes,
+                    warnings=warnings,
+                )
+                planned = teacher_planned + _stage_local_url_sources(
                     catalog,
                     transaction_root,
                     allowed_hosts=allowed_hosts,
                     default_max_bytes=default_max_bytes,
                     timeout=args.timeout,
                     changes=changes,
-                    skip_resource_ids=unchanged_presentations,
+                    skip_resource_ids=unchanged_presentations | teacher_ids,
                 )
             changes.extend(refresh_local_metadata(catalog))
             pre_apply_issues = audit_catalog(catalog)
@@ -515,6 +692,7 @@ def main() -> int:
         "offline": args.offline,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "changed": bool(changes),
+        "requiresReview": any(change.startswith("teacher-translation:") for change in changes),
         "changes": sorted(set(changes)),
         "warnings": warnings,
         "errors": errors,
