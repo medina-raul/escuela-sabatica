@@ -176,11 +176,29 @@ def main() -> int:
             steps.append({"name": "status", "returnCode": returncode, "output": str(status_path)})
             if returncode:
                 errors.append(f"status terminó con código {returncode}")
+        if not errors:
+            returncode, _output = _run([str(npm), "run", "resources:test"])
+            steps.append({"name": "tests", "returnCode": returncode})
+            if returncode:
+                errors.append(f"tests terminó con código {returncode}")
         if not errors and not args.skip_build:
             returncode, _output = _run([str(npm), "run", "build"])
             steps.append({"name": "build", "returnCode": returncode})
             if returncode:
                 errors.append(f"build terminó con código {returncode}")
+        if not errors and not args.skip_build:
+            site_audit_path = report_path.parent / "site-audit-report.json"
+            returncode, _output = _run(
+                [
+                    sys.executable,
+                    str(PROJECT_ROOT / "scripts/audit_site_build.py"),
+                    "--output",
+                    str(site_audit_path),
+                ]
+            )
+            steps.append({"name": "site-audit", "returnCode": returncode, "output": str(site_audit_path)})
+            if returncode:
+                errors.append(f"site-audit terminó con código {returncode}")
 
     report = {
         "schemaVersion": 1,

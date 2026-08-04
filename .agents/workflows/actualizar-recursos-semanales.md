@@ -58,6 +58,7 @@ Ejecuta, en este orden:
 npm run resources:test
 npm run resources:audit
 npm run build
+npm run resources:site-audit
 git diff --check
 git status --short
 ```

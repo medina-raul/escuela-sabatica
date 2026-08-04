@@ -90,7 +90,9 @@ jobs:
             '- Las tareas no deterministas quedan en cola para una persona o cualquier agente compatible.' \
             '- Se procesó la bandeja manual y se comprobó la estructura canónica.' \
             '- Catálogo y manifiesto auditados.' \
+            '- `npm run resources:test` completado dentro del pipeline.' \
             '- `npm run build` completado antes de abrir este PR.' \
+            '- Las rutas locales del sitio construido fueron auditadas.' \
             '' \
             'Revisar el informe adjunto a la ejecución antes de fusionar.')
           if [ -z "$PR_NUMBER" ]; then

@@ -6,11 +6,12 @@ El catálogo indicado por `resource-automation.json` es la única fuente de verd
 
 ```bash
 npm run resources:plan                              # previsualiza todas las fases
-npm run resources:sync                              # reestructura, importa, actualiza, audita y compila
+npm run resources:sync                              # reestructura, actualiza, audita, prueba y compila
 npm run resources:sync:offline                      # igual, sin consultar fuentes remotas
 npm run resources:restructure                       # sólo normaliza la estructura física
 npm run resources:manual                            # sólo procesa resource-inbox
 npm run resources:status                            # inventario completo de estado y origen
+npm run resources:site-audit                        # revisa rutas locales del build estático
 npm run resources:update                            # valida y aplica cambios deterministas
 npm run resources:audit                             # valida y genera el manifiesto
 npm run resources:verify                            # compara el manifiesto con producción

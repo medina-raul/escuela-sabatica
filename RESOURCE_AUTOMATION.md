@@ -25,13 +25,17 @@ catálogo activo
   -> fuentes remotas
   -> tareas asistidas
   -> auditoría + manifiesto + inventario de estado
+  -> pruebas automatizadas
   -> build
+  -> auditoría de rutas del sitio construido
   -> revisión y PR
 ```
 
-Cada fase determinista puede ejecutarse sin un agente. Los archivos se validan por extensión, estructura real, tamaño y SHA-256 antes de reemplazar el destino. Las operaciones físicas y el catálogo se restauran si falla la auditoría posterior.
+Cada fase determinista puede ejecutarse sin un agente. Los archivos se validan por extensión, estructura real, tamaño y SHA-256 antes de reemplazar el destino. Las operaciones físicas y el catálogo se restauran si falla la auditoría posterior. El comando estable ejecuta además toda la batería de pruebas antes del build, tanto desde el acceso directo local como desde GitHub Actions.
 
 Cada ejecución aplicada genera además `artifacts/resource-status.json`, con el estado, almacenamiento y origen de todos los recursos catalogados.
+
+Después del build, `audit_site_build.py` recorre todas las páginas HTML generadas y comprueba sus referencias locales (`href`, `src`, `srcset` y `poster`). Una ruta, imagen, script, hoja de estilo o descarga inexistente detiene la ejecución antes del PR.
 
 ## Asociación automática de los viernes
 
