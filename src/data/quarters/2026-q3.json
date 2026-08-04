@@ -3660,8 +3660,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 16721,
-      "checksum": "sha256:fbe62eb56dbdb2caa556a6a175c9c934557535dda635b572db9818f800e0c3f9"
+      "sizeBytes": 16499,
+      "checksum": "sha256:0fedbfee3680eb2e7c3ee23272081612bd812636fe9f6d7b8e5e788a1ecaa606"
     },
     {
       "id": "reading-general-1-corintios-01",
@@ -3730,8 +3730,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 7846,
-      "checksum": "sha256:f6a5266a6474f38367eb424c7ada5525af61a8ed2a2005706a3e25a1ecf40e97"
+      "sizeBytes": 7636,
+      "checksum": "sha256:c64d488aee0c3921422b464d4695c33318692215982eb6d783d9ef9f4684a7de"
     },
     {
       "id": "reading-general-1-corintios-06",
@@ -3744,8 +3744,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 8193,
-      "checksum": "sha256:f4226b54d9983a5d42d96ece17d92e1fa43d140ebbb8de5e6e1104ebc5c3321a"
+      "sizeBytes": 7979,
+      "checksum": "sha256:55f032a29e1da1e31cea05896e5dd4c323c0ce825d301168e162ab13677cb138"
     },
     {
       "id": "reading-general-1-corintios-07",
@@ -3758,8 +3758,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 4594,
-      "checksum": "sha256:58b6c6aa070a4aaff1528f6212a1f6288e28abe97e65e08d247c221e91658d24"
+      "sizeBytes": 4489,
+      "checksum": "sha256:eee0631cac11206cc6b8bb0d4febada4f55e0259c0a16a43bd1a10bf0fdfb4ac"
     },
     {
       "id": "reading-general-1-corintios-08",
@@ -3772,8 +3772,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 7643,
-      "checksum": "sha256:2bd925f0e84c638733d025d4179d221a674900bf35fc81e1e7d95ecb24b12d36"
+      "sizeBytes": 7437,
+      "checksum": "sha256:e93b5cef1feb2bb86c96b54a7105ea3faa3a3715fe82bc2b3328f962330ed514"
     },
     {
       "id": "reading-general-1-corintios-09",
@@ -3786,8 +3786,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 8606,
-      "checksum": "sha256:3e716c4bf8f3f774666b331790e29bfeee8026407056a40e5ade21081cf15330"
+      "sizeBytes": 8388,
+      "checksum": "sha256:6c845002a5d543cee2c94b61da521c4b4f2b9985e01cb58365532d9715179909"
     },
     {
       "id": "reading-general-1-corintios-10",
@@ -3800,8 +3800,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 9046,
-      "checksum": "sha256:c7098387450830bc55425ac5bdb71198c98705324fe9aa86d3bbd1a5259e1e45"
+      "sizeBytes": 8819,
+      "checksum": "sha256:36ab8b2708d26a5f4aefb0b396c4723a0656b67796f6963ceb8ca6181466e9b7"
     },
     {
       "id": "reading-general-1-corintios-11",
@@ -3814,8 +3814,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 4582,
-      "checksum": "sha256:0d61c3dec96a2ac6df0037b1ce3df6e7f4fd1774bce2eab3f8c005b7aa174f84"
+      "sizeBytes": 4477,
+      "checksum": "sha256:2f719a1b63fb0651ba6c70cf0aaad22fb98a7eac093e16b7c405fc3380c2dbb5"
     },
     {
       "id": "reading-general-1-corintios-12",
@@ -3828,8 +3828,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 4534,
-      "checksum": "sha256:d6e87b452a2bb95bbe2c4284b182f78d1f4a7540053d3665e4af492f4726c410"
+      "sizeBytes": 4430,
+      "checksum": "sha256:1f73c7236671a7986aaf6ec49d89a608abfdf501a3aaa22fb90e356a4a240b8e"
     },
     {
       "id": "reading-general-1-corintios-13",
@@ -3842,8 +3842,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 4809,
-      "checksum": "sha256:674531a1ef6dcbf67effaeabea5fc356c171da79d8fd0b00dab2c8de21740bfb"
+      "sizeBytes": 4698,
+      "checksum": "sha256:8775d3258f8c02f1f24d4633b9ba7dfd6e43b105572c246db25dbab51bda77a6"
     },
     {
       "id": "reading-general-1-corintios-14",
@@ -3856,8 +3856,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 4394,
-      "checksum": "sha256:7713dc3a55c788dc13dad979ab0c9ffb500ebe9e292e37c6d5b6f18555d63b97"
+      "sizeBytes": 4291,
+      "checksum": "sha256:1abb16539c62cc175158ec811b52dee8c7cc9a83135594eb46b45830e459434b"
     },
     {
       "id": "reading-friday-01",
@@ -3871,8 +3871,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 20757,
-      "checksum": "sha256:264a324dda2e2f1638c9ecca09bef84fe25afe14cc3e88565f688dac34066bc6"
+      "sizeBytes": 20609,
+      "checksum": "sha256:95460f04fdaa4dc24f92ca4ea55590601158a8f4a8c38448166b165dbc045275"
     },
     {
       "id": "reading-friday-02",
@@ -3886,8 +3886,8 @@
       "source": {
         "kind": "manual"
       },
-      "sizeBytes": 40457,
-      "checksum": "sha256:fa98ce27dca4b99ea41755a3e0ceac0f6865f4850520bdcaa3c93f806930a85a"
+      "sizeBytes": 40262,
+      "checksum": "sha256:70ed6dd170e383c227e5a8cde8d1d1d9f27ca1665b67cea791f53dc119b3dee8"
     },
     {
       "id": "reading-friday-03",
