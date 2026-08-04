@@ -6,7 +6,7 @@ import { DailyReading } from "@components/lesson/DailyReading";
 import { AudioPlayer } from "@components/audio/AudioPlayer";
 import StudySidebar from "@components/layout/StudySidebar.astro";
 import { ArticleModal } from "@components/resources/ArticleModal";
-import { getAdjacentDay, getDay, getLesson, getLessons, getQuarter } from "@lib/lessonAdapter";
+import { getAdjacentDay, getDay, getFridayResource, getLesson, getLessons, getQuarter } from "@lib/lessonAdapter";
 
 export function getStaticPaths() {
   return getLessons().filter(l => l.days.length > 0).flatMap((lesson) =>
@@ -45,6 +45,7 @@ const dayLabel = `${day.dayName} ${formatDate(day.date ?? "")}`;
 const heroEyebrow = `Lección ${lesson.number}, para el ${formatNextSaturday(lesson.endDate ?? "")}`;
 const previousDay = getAdjacentDay(lesson, day.id, -1);
 const nextDay = getAdjacentDay(lesson, day.id, 1);
+const fridayResource = getFridayResource(lesson.number);
 const pageDesc = `${day.dayName} — ${day.title}. Lección ${lesson.number}: ${lesson.title}.`;
 const pageUrl = `/lecciones/${lesson.id}/${day.id}`;
 ---
@@ -73,7 +74,7 @@ const pageUrl = `/lecciones/${lesson.id}/${day.id}`;
         {day.image && <img class="daily-image" src={day.image} alt={`Imagen de lectura: ${day.title}`} />}
         <DayTabs lesson={lesson} activeDayId={day.id} compact />
         <AudioPlayer client:load audio={day.audio} />
-        <DailyReading client:load lesson={lesson} day={day} previousDay={previousDay} nextDay={nextDay} />
+        <DailyReading client:load lesson={lesson} day={day} previousDay={previousDay} nextDay={nextDay} fridayResource={fridayResource} />
         <ArticleModal client:load />
       </div>
 

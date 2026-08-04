@@ -25,6 +25,14 @@ export function getAllResources(): Resource[] {
   return [...(quarter.resources ?? []), ...lessonResources];
 }
 
+export function getResource(resourceId: string): Resource | undefined {
+  return getAllResources().find((resource) => resource.id === resourceId);
+}
+
+export function getFridayResource(lessonNumber: number): Resource | undefined {
+  return getResource(`viernes${lessonNumber}`);
+}
+
 export function getAdjacentDay(lesson: Lesson, dayId: string, offset: -1 | 1) {
   const index = lesson.days.findIndex((day) => day.id === dayId);
   if (index < 0) return undefined;

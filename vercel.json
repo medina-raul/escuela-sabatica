@@ -1,5 +1,22 @@
 {
   "redirects": [
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.escuelasabatica.cl" }], "destination": "https://escuelasabatica.cl/$1", "permanent": true }
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.escuelasabatica.cl" }], "destination": "https://escuelasabatica.cl/$1", "permanent": true },
+    { "source": "/recursos/2026-q3/leccion-01.pptx", "destination": "/recursos/2026-q3/ppt/leccion-01.pptx", "permanent": true },
+    { "source": "/recursos/2026-q3/leccion-02.pptx", "destination": "/recursos/2026-q3/ppt/leccion-02.pptx", "permanent": true },
+    { "source": "/recursos/2026-q3/leccion-03.pptx", "destination": "/recursos/2026-q3/ppt/leccion-03.pptx", "permanent": true },
+    { "source": "/recursos/2026-q3/leccion-04.pptx", "destination": "/recursos/2026-q3/ppt/leccion-04.pptx", "permanent": true },
+    { "source": "/material/cb_intro_1cor.html", "destination": "/recursos/2026-q3/lecturas/generales/introduccion-1-corintios.html", "permanent": true },
+    { "source": "/material/res_cap5.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-05.html", "permanent": true },
+    { "source": "/material/res_cap6.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-06.html", "permanent": true },
+    { "source": "/material/res_cap7.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-07.html", "permanent": true },
+    { "source": "/material/res_cap8.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-08.html", "permanent": true },
+    { "source": "/material/res_cap9.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-09.html", "permanent": true },
+    { "source": "/material/res_cap10.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-10.html", "permanent": true },
+    { "source": "/material/res_cap11.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-11.html", "permanent": true },
+    { "source": "/material/res_cap12.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-12.html", "permanent": true },
+    { "source": "/material/res_cap13.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-13.html", "permanent": true },
+    { "source": "/material/res_cap14.html", "destination": "/recursos/2026-q3/lecturas/generales/resumen-1-corintios-14.html", "permanent": true },
+    { "source": "/material/viernes1.html", "destination": "/recursos/2026-q3/lecturas/viernes/leccion-01.html", "permanent": true },
+    { "source": "/material/viernes2.html", "destination": "/recursos/2026-q3/lecturas/viernes/leccion-02.html", "permanent": true }
   ]
 }
