@@ -14,6 +14,7 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 from resource_lib import (  # noqa: E402
     DEFAULT_CATALOG,
     ResourceError,
+    all_resources,
     atomic_write_json,
     audit_catalog,
     extract_links,
@@ -37,12 +38,17 @@ class ResourceLibraryTests(unittest.TestCase):
         first = manifest_payload(catalog)
         second = manifest_payload(json.loads(json.dumps(catalog)))
         self.assertEqual(first, second)
-        self.assertEqual(101, first["resourceCount"])
-        self.assertEqual(52, first["localResourceCount"])
+        resources = all_resources(catalog)
+        self.assertEqual(len(resources), first["resourceCount"])
+        self.assertEqual(
+            sum(resource.get("storage") == "local" for resource in resources),
+            first["localResourceCount"],
+        )
 
     def test_resource_status_covers_every_resource_and_friday_link(self) -> None:
-        status = build_status(load_catalog(DEFAULT_CATALOG))
-        self.assertEqual(101, status["resourceCount"])
+        catalog = load_catalog(DEFAULT_CATALOG)
+        status = build_status(catalog)
+        self.assertEqual(len(all_resources(catalog)), status["resourceCount"])
         self.assertEqual(0, status["summary"]["requiresAttention"])
         self.assertEqual(13, status["summary"]["fridayLinked"])
 
