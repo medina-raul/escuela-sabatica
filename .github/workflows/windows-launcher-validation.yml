@@ -1,0 +1,41 @@
+name: Validar instalador Windows
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd"
+      - ".gitattributes"
+      - ".github/workflows/windows-launcher-validation.yml"
+  push:
+    branches: [main]
+    paths:
+      - "INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd"
+      - ".gitattributes"
+      - ".github/workflows/windows-launcher-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v7
+
+      - name: Preparar rama local de prueba
+        shell: cmd
+        run: |
+          git switch -C launcher-smoke-test
+          echo rem WINDOWS_SELF_TEST_LAUNCHER_MARKER>>INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd
+          echo WINDOWS_SELF_TEST_TRACKED_MARKER>>README.md
+
+      - name: Probar respaldo y restauración sin autoalterar el instalador
+        shell: cmd
+        run: |
+          call INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd --self-test-stash || exit /b 1
+          findstr /C:"WINDOWS_SELF_TEST_TRACKED_MARKER" README.md || exit /b 1
+          git diff --quiet -- INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd

@@ -1,14 +1,33 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
+
+if /I "%~1"=="--bootstrap" goto :bootstrap_ready
+
+set "BOOTSTRAP_REQUEST=%~1"
+set "BOOTSTRAP_COPY=%TEMP%\EscuelaSabaticaCL-instalador-%RANDOM%-%RANDOM%.cmd"
+copy /y "%~f0" "!BOOTSTRAP_COPY!" >nul
+if errorlevel 1 (
+  echo ERROR: No se pudo preparar una copia temporal segura del instalador.
+  pause
+  exit /b 1
+)
+call "!BOOTSTRAP_COPY!" --bootstrap "%~dp0." "!BOOTSTRAP_REQUEST!"
+set "BOOTSTRAP_RESULT=!ERRORLEVEL!"
+del /q "!BOOTSTRAP_COPY!" >nul 2>&1
+exit /b !BOOTSTRAP_RESULT!
+
+:bootstrap_ready
 title Instalar y actualizar Escuela Sabatica CL
 
 set "OFFICIAL_REPO=https://github.com/medina-raul/escuela-sabatica.git"
 set "DEFAULT_DIR=%USERPROFILE%\EscuelaSabaticaCL"
+set "SOURCE_DIR=%~f2"
 set "PROJECT_DIR="
 set "LOCAL_STASH="
+set "LOCAL_LAUNCHER_BACKUP="
 set "RESULT=0"
 
-if exist "%~dp0.git\" set "PROJECT_DIR=%~dp0"
+if exist "%SOURCE_DIR%\.git\" set "PROJECT_DIR=%SOURCE_DIR%"
 if not defined PROJECT_DIR if exist "%DEFAULT_DIR%\.git\" set "PROJECT_DIR=%DEFAULT_DIR%"
 if not defined PROJECT_DIR set "PROJECT_DIR=%DEFAULT_DIR%"
 if "!PROJECT_DIR:~-1!"=="\" set "PROJECT_DIR=!PROJECT_DIR:~0,-1!"
@@ -65,10 +84,20 @@ if not defined CURRENT_BRANCH (
   echo Abra CMD en esa carpeta y ejecute: git branch --show-current
   goto :failed
 )
+if /I "%~3"=="--self-test" (
+  echo PRUEBA DEL INSTALADOR WINDOWS COMPLETADA.
+  echo Rama detectada: !CURRENT_BRANCH!
+  echo Ruta detectada: !PROJECT_DIR!
+  exit /b 0
+)
+if /I "%~3"=="--self-test-stash" goto :self_test_stash
 if /I not "!CURRENT_BRANCH!"=="main" (
   echo ERROR: La copia local esta en la rama !CURRENT_BRANCH! y solo puede actualizarse desde main.
   goto :failed
 )
+
+call :preserve_managed_launcher
+if errorlevel 1 goto :failed
 
 call :preserve_local_changes
 if errorlevel 1 goto :failed
@@ -96,6 +125,58 @@ set "RESULT=!ERRORLEVEL!"
 call :restore_local_changes
 if errorlevel 1 set "RESULT=1"
 exit /b !RESULT!
+
+:self_test_stash
+call :preserve_managed_launcher
+if errorlevel 1 goto :failed
+call :preserve_local_changes
+if errorlevel 1 goto :failed
+call :restore_local_changes
+if errorlevel 1 goto :failed
+if not defined LOCAL_LAUNCHER_BACKUP (
+  echo ERROR: La prueba no detecto la modificacion local del instalador.
+  goto :failed
+)
+if not exist "!LOCAL_LAUNCHER_BACKUP!" (
+  echo ERROR: La prueba no encontro el respaldo temporal del instalador.
+  goto :failed
+)
+findstr /C:"WINDOWS_SELF_TEST_LAUNCHER_MARKER" "!LOCAL_LAUNCHER_BACKUP!" >nul
+if errorlevel 1 (
+  echo ERROR: El respaldo del instalador no conserva el contenido local.
+  goto :failed
+)
+findstr /C:"WINDOWS_SELF_TEST_TRACKED_MARKER" "%PROJECT_DIR%\README.md" >nul
+if errorlevel 1 (
+  echo ERROR: La prueba no restauro el segundo archivo versionado.
+  goto :failed
+)
+echo PRUEBA COMPLETA DE RESPALDO WINDOWS SUPERADA.
+echo Respaldo del instalador: !LOCAL_LAUNCHER_BACKUP!
+exit /b 0
+
+:preserve_managed_launcher
+set "LAUNCHER_CHANGED=0"
+git -C "%PROJECT_DIR%" diff --quiet -- INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd
+if errorlevel 1 set "LAUNCHER_CHANGED=1"
+git -C "%PROJECT_DIR%" diff --cached --quiet -- INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd
+if errorlevel 1 set "LAUNCHER_CHANGED=1"
+if "!LAUNCHER_CHANGED!"=="0" exit /b 0
+
+if not exist "%PROJECT_DIR%\artifacts" mkdir "%PROJECT_DIR%\artifacts"
+set "LOCAL_LAUNCHER_BACKUP=%PROJECT_DIR%\artifacts\INSTALAR_Y_ACTUALIZAR_WINDOWS.local-!RANDOM!-!RANDOM!.cmd"
+copy /y "%PROJECT_DIR%\INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd" "!LOCAL_LAUNCHER_BACKUP!" >nul
+if errorlevel 1 (
+  echo ERROR: No se pudo respaldar el instalador local.
+  exit /b 1
+)
+git -C "%PROJECT_DIR%" restore --source=HEAD --staged --worktree -- INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd
+if errorlevel 1 (
+  echo ERROR: No se pudo preparar el instalador versionado.
+  exit /b 1
+)
+echo Copia local del instalador preservada en !LOCAL_LAUNCHER_BACKUP!
+exit /b 0
 
 :preserve_local_changes
 set "HAS_LOCAL_CHANGES=0"
@@ -144,6 +225,7 @@ for /f "usebackq delims=" %%P in (`powershell.exe -NoProfile -Command "[Environm
 exit /b 0
 
 :failed
+if defined LOCAL_LAUNCHER_BACKUP copy /y "!LOCAL_LAUNCHER_BACKUP!" "%PROJECT_DIR%\INSTALAR_Y_ACTUALIZAR_WINDOWS.cmd" >nul
 echo.
 echo LA INSTALACION SE DETUVO DE FORMA SEGURA.
 echo No se sobrescribieron archivos del proyecto.
