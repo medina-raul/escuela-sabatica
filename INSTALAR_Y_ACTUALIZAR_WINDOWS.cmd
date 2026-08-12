@@ -55,7 +55,15 @@ if not exist "%PROJECT_DIR%\.git\" (
 )
 
 set "CURRENT_BRANCH="
-for /f "usebackq delims=" %%B in (`git -C "%PROJECT_DIR%" branch --show-current`) do set "CURRENT_BRANCH=%%B"
+for /f "delims=" %%B in ('git -C "%PROJECT_DIR%" symbolic-ref --quiet --short HEAD') do set "CURRENT_BRANCH=%%B"
+if not defined CURRENT_BRANCH (
+  for /f "delims=" %%B in ('git -C "%PROJECT_DIR%" branch --show-current') do set "CURRENT_BRANCH=%%B"
+)
+if not defined CURRENT_BRANCH (
+  echo ERROR: Git no pudo identificar la rama activa en %PROJECT_DIR%.
+  echo Abra CMD en esa carpeta y ejecute: git branch --show-current
+  goto :failed
+)
 if /I not "!CURRENT_BRANCH!"=="main" (
   echo ERROR: La copia local esta en la rama !CURRENT_BRANCH! y solo puede actualizarse desde main.
   goto :failed
