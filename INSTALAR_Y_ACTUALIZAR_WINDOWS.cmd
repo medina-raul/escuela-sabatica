@@ -11,6 +11,7 @@ set "RESULT=0"
 if exist "%~dp0.git\" set "PROJECT_DIR=%~dp0"
 if not defined PROJECT_DIR if exist "%DEFAULT_DIR%\.git\" set "PROJECT_DIR=%DEFAULT_DIR%"
 if not defined PROJECT_DIR set "PROJECT_DIR=%DEFAULT_DIR%"
+if "!PROJECT_DIR:~-1!"=="\" set "PROJECT_DIR=!PROJECT_DIR:~0,-1!"
 
 echo ================================================================
 echo   ESCUELA SABATICA CL - INSTALACION Y ACTUALIZACION
