@@ -5,6 +5,8 @@ title Instalar y actualizar Escuela Sabatica CL
 set "OFFICIAL_REPO=https://github.com/medina-raul/escuela-sabatica.git"
 set "DEFAULT_DIR=%USERPROFILE%\EscuelaSabaticaCL"
 set "PROJECT_DIR="
+set "LOCAL_STASH="
+set "RESULT=0"
 
 if exist "%~dp0.git\" set "PROJECT_DIR=%~dp0"
 if not defined PROJECT_DIR if exist "%DEFAULT_DIR%\.git\" set "PROJECT_DIR=%DEFAULT_DIR%"
@@ -59,37 +61,74 @@ if /I not "!CURRENT_BRANCH!"=="main" (
   goto :failed
 )
 
-git -C "%PROJECT_DIR%" diff --quiet
-if errorlevel 1 (
-  echo ERROR: Hay cambios locales en archivos versionados. No se modifico nada.
-  goto :failed
-)
-git -C "%PROJECT_DIR%" diff --cached --quiet
-if errorlevel 1 (
-  echo ERROR: Hay cambios preparados en Git. No se modifico nada.
-  goto :failed
-)
+call :preserve_local_changes
+if errorlevel 1 goto :failed
 
 echo Comprobando la version mas reciente del instalador...
 git -C "%PROJECT_DIR%" fetch "%OFFICIAL_REPO%" main
 if errorlevel 1 (
   echo ERROR: No se pudo consultar el repositorio oficial.
-  goto :failed
+  goto :restore_and_fail
 )
 git -C "%PROJECT_DIR%" merge --ff-only FETCH_HEAD
 if errorlevel 1 (
   echo ERROR: La copia local no admite una actualizacion segura por fast-forward.
-  goto :failed
+  goto :restore_and_fail
 )
 
 if not exist "%PROJECT_DIR%\ACTUALIZAR_SITIO_WINDOWS.cmd" (
   echo ERROR: La copia local no contiene el actualizador esperado.
   echo Envie esta pantalla al administrador.
-  goto :failed
+  goto :restore_and_fail
 )
 
 call "%PROJECT_DIR%\ACTUALIZAR_SITIO_WINDOWS.cmd"
-exit /b %ERRORLEVEL%
+set "RESULT=!ERRORLEVEL!"
+call :restore_local_changes
+if errorlevel 1 set "RESULT=1"
+exit /b !RESULT!
+
+:preserve_local_changes
+set "HAS_LOCAL_CHANGES=0"
+git -C "%PROJECT_DIR%" diff --quiet
+if errorlevel 1 set "HAS_LOCAL_CHANGES=1"
+git -C "%PROJECT_DIR%" diff --cached --quiet
+if errorlevel 1 set "HAS_LOCAL_CHANGES=1"
+if "!HAS_LOCAL_CHANGES!"=="0" exit /b 0
+
+echo Se detectaron ediciones locales. Se respaldaran y restauraran al terminar.
+git -C "%PROJECT_DIR%" stash push --message "escuela-sabatica-respaldo-automatico"
+if errorlevel 1 (
+  echo ERROR: No se pudo crear el respaldo local.
+  exit /b 1
+)
+set "LOCAL_STASH="
+for /f "usebackq delims=" %%S in (`git -C "%PROJECT_DIR%" stash list -1 --format^=%%gd`) do set "LOCAL_STASH=%%S"
+if not defined LOCAL_STASH (
+  echo ERROR: Git no informo el respaldo local creado.
+  exit /b 1
+)
+echo Respaldo local creado: !LOCAL_STASH!
+exit /b 0
+
+:restore_local_changes
+if not defined LOCAL_STASH exit /b 0
+echo Restaurando las ediciones locales...
+git -C "%PROJECT_DIR%" stash apply --index "!LOCAL_STASH!"
+if errorlevel 1 (
+  echo AVISO: Git no pudo combinar automaticamente las ediciones locales.
+  echo El sitio ya fue actualizado; el respaldo se conserva en !LOCAL_STASH!.
+  git -C "%PROJECT_DIR%" reset --merge >nul 2>&1
+  exit /b 1
+)
+git -C "%PROJECT_DIR%" stash drop "!LOCAL_STASH!" >nul
+set "LOCAL_STASH="
+echo Ediciones locales restauradas.
+exit /b 0
+
+:restore_and_fail
+call :restore_local_changes
+goto :failed
 
 :refresh_path
 for /f "usebackq delims=" %%P in (`powershell.exe -NoProfile -Command "[Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [Environment]::GetEnvironmentVariable('Path','User')"`) do set "PATH=%%P"
