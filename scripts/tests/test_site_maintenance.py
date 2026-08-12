@@ -12,19 +12,24 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 
 from site_maintenance import (  # noqa: E402
     CommandResult,
+    LocalChangesBackup,
     MaintenanceError,
     ensure_repository_ready,
     load_config,
     path_is_allowed,
+    preserve_tracked_changes,
     repository_from_url,
+    restore_tracked_changes,
 )
 
 
 class FakeRunner:
     def __init__(self, responses: dict[tuple[str, ...], tuple[int, str]]) -> None:
         self.responses = responses
+        self.commands: list[list[str]] = []
 
     def run(self, command: list[str], **_kwargs: object) -> CommandResult:
+        self.commands.append(command)
         returncode, output = self.responses.get(tuple(command), (0, ""))
         return CommandResult(command, returncode, output)
 
@@ -83,6 +88,49 @@ class SiteMaintenanceTests(unittest.TestCase):
         config = {"baseBranch": "main", "officialRepository": "owner/repo", "allowedChangePaths": ["public/"]}
         with self.assertRaisesRegex(MaintenanceError, "Hay cambios locales"):
             ensure_repository_ready(runner, config)
+
+    def test_tracked_changes_are_preserved_in_a_git_stash(self) -> None:
+        runner = FakeRunner(
+            {
+                ("git", "diff", "--quiet"): (1, ""),
+                ("git", "diff", "--cached", "--quiet"): (0, ""),
+                ("git", "diff", "--name-only"): (0, "src/data/quarters/2026-q3.json\n"),
+                ("git", "diff", "--cached", "--name-only"): (0, ""),
+                ("git", "stash", "list", "-1", "--format=%gd"): (0, "stash@{0}\n"),
+            }
+        )
+        backup = preserve_tracked_changes(runner)
+        self.assertIsNotNone(backup)
+        assert backup is not None
+        self.assertEqual("stash@{0}", backup.stash_ref)
+        self.assertEqual(["src/data/quarters/2026-q3.json"], backup.paths)
+        self.assertTrue(
+            any(command[:3] == ["git", "stash", "push"] for command in runner.commands)
+        )
+
+    def test_conflicted_restore_keeps_stash_for_recovery(self) -> None:
+        runner = FakeRunner(
+            {
+                ("git", "stash", "apply", "--index", "stash@{0}"): (1, "conflict\n"),
+            }
+        )
+        restored, detail = restore_tracked_changes(
+            runner,
+            LocalChangesBackup(stash_ref="stash@{0}", paths=["src/example.ts"]),
+        )
+        self.assertFalse(restored)
+        self.assertIn("conflict", detail or "")
+        self.assertIn(["git", "reset", "--merge"], runner.commands)
+
+    def test_successful_restore_drops_temporary_stash(self) -> None:
+        runner = FakeRunner({})
+        restored, detail = restore_tracked_changes(
+            runner,
+            LocalChangesBackup(stash_ref="stash@{0}", paths=["src/example.ts"]),
+        )
+        self.assertTrue(restored)
+        self.assertIsNone(detail)
+        self.assertIn(["git", "stash", "drop", "stash@{0}"], runner.commands)
 
 
 if __name__ == "__main__":

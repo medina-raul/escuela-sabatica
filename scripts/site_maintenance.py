@@ -39,6 +39,14 @@ class CommandResult:
     output: str
 
 
+@dataclass
+class LocalChangesBackup:
+    """A recoverable Git stash created before the updater touches main."""
+
+    stash_ref: str
+    paths: list[str]
+
+
 def _windows_npm_command(command: list[str]) -> list[str]:
     """Execute npm through node.exe + npm-cli.js on Windows."""
     node_path = shutil.which("node.exe") or shutil.which("node")
@@ -228,6 +236,43 @@ def tracked_worktree_is_clean(runner: CommandRunner) -> bool:
     unstaged = runner.run(["git", "diff", "--quiet"], check=False, quiet=True).returncode
     staged = runner.run(["git", "diff", "--cached", "--quiet"], check=False, quiet=True).returncode
     return unstaged == 0 and staged == 0
+
+
+def preserve_tracked_changes(runner: CommandRunner) -> LocalChangesBackup | None:
+    """Temporarily stash editor edits so a fast-forward never overwrites them."""
+    if tracked_worktree_is_clean(runner):
+        return None
+
+    paths = sorted(
+        set(_git_lines(runner, "diff", "--name-only"))
+        | set(_git_lines(runner, "diff", "--cached", "--name-only"))
+    )
+    label = datetime.now(timezone.utc).strftime("escuela-sabatica-respaldo-%Y%m%d-%H%M%S")
+    runner.run(["git", "stash", "push", "--message", label])
+    stash_ref = runner.run(["git", "stash", "list", "-1", "--format=%gd"], quiet=True).output.strip()
+    if not stash_ref:
+        raise MaintenanceError("Git no pudo crear el respaldo de los cambios locales")
+    return LocalChangesBackup(stash_ref=stash_ref, paths=paths)
+
+
+def restore_tracked_changes(
+    runner: CommandRunner,
+    backup: LocalChangesBackup,
+) -> tuple[bool, str | None]:
+    """Restore a temporary stash, retaining it if upstream edits conflict."""
+    restored = runner.run(
+        ["git", "stash", "apply", "--index", backup.stash_ref],
+        check=False,
+    )
+    if restored.returncode == 0:
+        runner.run(["git", "stash", "drop", backup.stash_ref], quiet=True)
+        return True, None
+
+    # Keep production usable if Git cannot combine local edits with new upstream files.
+    runner.run(["git", "reset", "--merge"], check=False, quiet=True)
+    detail = [line.strip() for line in restored.output.splitlines() if line.strip()]
+    summary = " | ".join(detail[-3:]) or "Git informó un conflicto al restaurar"
+    return False, summary
 
 
 def discover_official_remote(runner: CommandRunner, official_repository: str) -> str:
@@ -622,6 +667,7 @@ def main() -> int:
     runner = CommandRunner()
     exit_code = 0
     locked = False
+    local_backup: LocalChangesBackup | None = None
     try:
         config = load_config(args.config.resolve())
         acquire_lock()
@@ -630,8 +676,18 @@ def main() -> int:
         report["steps"].append("doctor")
 
         official_remote: str | None = None
-        before_paths = changed_paths(runner)
         if not args.local_only:
+            local_backup = preserve_tracked_changes(runner)
+            if local_backup:
+                report["localChanges"] = {
+                    "status": "preserved",
+                    "stashRef": local_backup.stash_ref,
+                    "paths": local_backup.paths,
+                }
+                report["warnings"].append(
+                    "Los cambios locales versionados fueron resguardados temporalmente "
+                    f"en {local_backup.stash_ref}."
+                )
             official_remote, existing_untracked = ensure_repository_ready(runner, config)
             report["officialRemote"] = official_remote
             report["warnings"].extend(
@@ -639,6 +695,7 @@ def main() -> int:
             )
             report["steps"].append("fast-forward")
 
+        before_paths = changed_paths(runner)
         plan, sync = run_resource_cycle(runner, report_dir, plan_only=args.plan)
         report["planChanged"] = bool(plan.get("changed"))
         report["steps"].extend(["dependencies", "resource-plan"])
@@ -718,6 +775,24 @@ def main() -> int:
         report["errors"].append("Ejecución cancelada por la persona usuaria")
         report["message"] = "La actualización fue cancelada."
     finally:
+        if local_backup:
+            try:
+                restored, restore_error = restore_tracked_changes(runner, local_backup)
+            except (MaintenanceError, OSError) as exc:
+                restored, restore_error = False, str(exc)
+            local_changes = report.setdefault("localChanges", {})
+            local_changes["restoreStatus"] = "restored" if restored else "requires-review"
+            if not restored:
+                local_changes["restoreError"] = restore_error
+                report["warnings"].append(
+                    "El sitio se actualizó, pero las ediciones locales no pudieron restaurarse "
+                    f"automáticamente. Siguen protegidas en {local_backup.stash_ref}."
+                )
+                if report.get("status") == "success":
+                    report["message"] = (
+                        report["message"]
+                        + " Las ediciones locales requieren restauración asistida; el respaldo fue preservado."
+                    )
         report["finishedAt"] = datetime.now(timezone.utc).isoformat()
         atomic_write_json(report_path, report)
         if locked:

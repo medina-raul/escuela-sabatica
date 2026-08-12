@@ -10,9 +10,9 @@ npm run site:update:plan     # ensayo local sin aplicar ni publicar
 npm run site:update:local    # aplica y valida localmente, sin publicar
 ```
 
-`site_maintenance.py` exige una rama `main` limpia, hace sólo fast-forward desde el repositorio oficial, instala dependencias reproducibles con `npm ci`, ejecuta el pipeline de recursos y publica exclusivamente las rutas permitidas en `site-maintenance.json`. Si hay cambios crea una rama automática y un PR; tras las comprobaciones lo fusiona, vuelve a sincronizar la copia local y espera que Vercel publique el manifiesto esperado.
+`site_maintenance.py` opera únicamente desde la rama `main`, hace sólo fast-forward desde el repositorio oficial, instala dependencias reproducibles con `npm ci`, ejecuta el pipeline de recursos y publica exclusivamente las rutas permitidas en `site-maintenance.json`. Si detecta ediciones locales versionadas, las resguarda temporalmente con Git antes de actualizar y las restaura al terminar. Si Git no puede combinarlas con archivos nuevos de producción, el sitio queda actualizado y el informe conserva la referencia del respaldo para una restauración asistida; nunca las sobrescribe. Si hay cambios crea una rama automática y un PR; tras las comprobaciones lo fusiona, vuelve a sincronizar la copia local y espera que Vercel publique el manifiesto esperado.
 
-El informe para soporte es `artifacts/site-maintenance-report.json`.
+El informe para soporte es `artifacts/site-maintenance-report.json`. En caso de restauración pendiente incluye `localChanges.stashRef`, que identifica el respaldo protegido.
 
 ## Comandos
 
