@@ -1,4 +1,5 @@
 ---
+import Analytics from "@vercel/analytics/astro";
 import AppLayout from "./AppLayout.astro";
 import "@styles/globals.css";
 
@@ -39,6 +40,7 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={pageDesc} />
     <meta name="twitter:image" content={pageImage.startsWith("http") ? pageImage : `${SITE_URL}${pageImage}`} />
+    <Analytics />
   </head>
   <body>
     <AppLayout activeSection={activeSection}>
