@@ -1,7 +1,8 @@
 import type { BiblePassage, BibleReference, BibleVerse } from "@app-types/bible";
 
 type BookMeta = { id: number; name: string; file: string; chapters: number; slug: string };
-type BibleBookData = { version: string; book: number; name: string; chapters: { chapter: number; verses: { verse: number; text: string }[] }[] };
+type BibleVerseData = { verse: number; text: string };
+type BibleChapterData = { verses: BibleVerseData[] };
 
 const BASE = "https://www.santabiblia.cloud/data";
 const normalize = (v: string) => v.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -73,14 +74,59 @@ function getBookMeta(bookName: string, manifest: BookMeta[]): BookMeta | undefin
   return manifest.find(b => normalize(b.name) === normalize(resolved));
 }
 
-// ---- Bible book cache ----
-const bookCache = new Map<string, BibleBookData>();
+// ---- Bible chapter cache ----
+// Santa Biblia publica capítulos independientes. Mantener el consumidor en
+// este contrato evita descargar un libro entero para mostrar una referencia.
+const chapterCache = new Map<string, BibleChapterData>();
+const MAX_CHAPTER_CACHE = 36;
 
-async function loadBook(file: string): Promise<BibleBookData> {
-  if (bookCache.has(file)) return bookCache.get(file)!;
-  const res = await fetch(`${BASE}/rva2015/${file}.json`);
-  const data: BibleBookData = await res.json();
-  bookCache.set(file, data);
+function normalizeVersion(version: string): string {
+  return version.trim().toLowerCase() || "rva2015";
+}
+
+function normalizeVerses(payload: unknown): BibleVerseData[] {
+  const candidate = Array.isArray(payload)
+    ? payload
+    : (payload as { verses?: unknown } | null)?.verses;
+
+  if (!Array.isArray(candidate)) {
+    throw new Error("Formato de capítulo bíblico no reconocido.");
+  }
+
+  const verses = candidate
+    .filter((item): item is BibleVerseData => (
+      Boolean(item)
+      && typeof item === "object"
+      && Number.isInteger((item as BibleVerseData).verse)
+      && typeof (item as BibleVerseData).text === "string"
+    ))
+    .sort((a, b) => a.verse - b.verse);
+
+  if (verses.length === 0) {
+    throw new Error("El capítulo bíblico no contiene versículos válidos.");
+  }
+
+  return verses;
+}
+
+async function loadChapter(version: string, book: BookMeta, chapter: number): Promise<BibleChapterData> {
+  const safeVersion = normalizeVersion(version);
+  const key = `${safeVersion}:${book.id}:${chapter}`;
+  if (chapterCache.has(key)) return chapterCache.get(key)!;
+
+  const res = await fetch(`${BASE}/${safeVersion}/${book.file}/${chapter}.json`);
+  if (!res.ok) {
+    throw new Error(`No fue posible cargar ${book.name} ${chapter}.`);
+  }
+
+  const verses = normalizeVerses(await res.json());
+  const data = { verses };
+  chapterCache.set(key, data);
+  while (chapterCache.size > MAX_CHAPTER_CACHE) {
+    const oldestKey = chapterCache.keys().next().value;
+    if (!oldestKey) break;
+    chapterCache.delete(oldestKey);
+  }
   return data;
 }
 
@@ -96,40 +142,38 @@ export async function getPassage(
     return { reference, version, verses: [{ number: reference.verseStart, text: "Libro no encontrado." }] };
   }
 
-  const book = await loadBook(bookMeta.file);
-  const chapter = book.chapters.find(c => c.chapter === reference.chapter);
+  const safeVersion = normalizeVersion(version);
+  const chapter = await loadChapter(safeVersion, bookMeta, reference.chapter);
   // Chapter-only reference: show all verses
   if (!reference.verseStart || reference.verseStart === 0) {
-    const verses: BibleVerse[] = chapter?.verses.map(v => ({ number: v.verse, text: v.text })) ?? [];
-    return { reference, version, verses: verses.length > 0 ? verses : [{ number: 1, text: "Capítulo no disponible." }] };
+    const verses: BibleVerse[] = chapter.verses.map(v => ({ number: v.verse, text: v.text }));
+    return { reference, version: safeVersion, verses };
   }
   // toEnd: show from verseStart to end of chapter
   // crossChapter: show from verseStart to end of first chapter + start of next chapter to crossChapter.verseEnd
   let verseEnd: number;
   if (reference.toEnd) {
-    verseEnd = chapter?.verses.length ?? reference.verseStart;
+    verseEnd = chapter.verses.at(-1)?.verse ?? reference.verseStart;
   } else {
     verseEnd = reference.verseEnd ?? reference.verseStart;
   }
 
-  let verses: BibleVerse[] = chapter?.verses
+  let verses: BibleVerse[] = chapter.verses
     .filter(v => v.verse >= reference.verseStart && v.verse <= verseEnd)
     .map(v => ({ number: v.verse, text: v.text })) ?? [];
 
   // Append cross-chapter verses if present
   if (reference.crossChapter) {
-    const nextChapter = book.chapters.find(c => c.chapter === reference.crossChapter!.chapter);
-    if (nextChapter) {
-      const crossVerses = nextChapter.verses
-        .filter(v => v.verse <= reference.crossChapter!.verseEnd)
-        .map(v => ({ number: v.verse, text: v.text }));
-      verses = verses.concat(crossVerses);
-    }
+    const nextChapter = await loadChapter(safeVersion, bookMeta, reference.crossChapter.chapter);
+    const crossVerses = nextChapter.verses
+      .filter(v => v.verse <= reference.crossChapter!.verseEnd)
+      .map(v => ({ number: v.verse, text: v.text }));
+    verses = verses.concat(crossVerses);
   }
 
   return {
     reference,
-    version,
+    version: safeVersion,
     verses: verses.length > 0
       ? verses
       : [{ number: reference.verseStart, text: "Versículo no disponible." }],
@@ -145,19 +189,19 @@ export async function getBibleUrl(bookName: string, chapter: number): Promise<st
   return `https://www.santabiblia.cloud/read/${meta.id}/${chapter}`;
 }
 
-export async function searchBible(query: string) {
+export async function searchBible(query: string, version = "rva2015") {
   const value = normalize(query.trim());
   if (!value) return [];
 
   const manifest = await fetchManifest();
   const results: { reference: string; text: string }[] = [];
   for (const bookMeta of manifest.slice(0, 10)) {
-    const book = await loadBook(bookMeta.file);
-    for (const chapter of book.chapters) {
-      for (const verse of chapter.verses) {
+    for (let chapter = 1; chapter <= bookMeta.chapters; chapter += 1) {
+      const chapterData = await loadChapter(version, bookMeta, chapter);
+      for (const verse of chapterData.verses) {
         if (normalize(verse.text).includes(value)) {
           results.push({
-            reference: `${bookMeta.name} ${chapter.chapter}:${verse.verse}`,
+            reference: `${bookMeta.name} ${chapter}:${verse.verse}`,
             text: verse.text.slice(0, 200),
           });
           if (results.length >= 20) return results;
