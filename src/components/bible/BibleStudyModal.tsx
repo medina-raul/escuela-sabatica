@@ -147,6 +147,12 @@ export function BibleStudyModal({ reference, onClose }: Props) {
                   </p>
                 ))}
               </div>
+              <p className="bible-source">
+                Gentileza de{" "}
+                <a href="https://www.santabiblia.cloud" target="_blank" rel="noopener noreferrer">
+                  www.santabiblia.cloud
+                </a>
+              </p>
             </>
           )}
 

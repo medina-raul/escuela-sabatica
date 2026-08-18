@@ -2077,6 +2077,25 @@ button.sidebar-ppt-card {
   font-weight: 900;
 }
 
+.bible-source {
+  margin: var(--space-5) 0 0;
+  color: var(--color-slate-500);
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.bible-source a {
+  color: inherit;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  text-underline-offset: 3px;
+}
+
+.bible-source a:hover {
+  color: var(--color-blue-700);
+}
+
 .commentary-range-header {
   color: var(--color-navy-900);
   font-family: var(--font-reading);
