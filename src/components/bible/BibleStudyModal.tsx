@@ -12,7 +12,8 @@ export function BibleStudyModal({ reference, onClose }: Props) {
   const [activeTab, setActiveTab] = useState<"bible" | "commentary">("bible");
   const [passage, setPassage] = useState<BiblePassage | null>(null);
   const [commentary, setCommentary] = useState<CommentaryEntry[]>([]);
-  const [status, setStatus] = useState("Cargando texto bíblico...");
+  const [passageStatus, setPassageStatus] = useState("Cargando texto bíblico...");
+  const [commentaryStatus, setCommentaryStatus] = useState("Cargando comentario bíblico...");
   const [bibleUrl, setBibleUrl] = useState("https://www.santabiblia.cloud");
   const closeRef = useRef<HTMLButtonElement>(null);
 
@@ -24,21 +25,36 @@ export function BibleStudyModal({ reference, onClose }: Props) {
     setActiveTab("bible");
     setPassage(null);
     setCommentary([]);
-    setStatus("Cargando texto bíblico...");
-    getBibleUrl(reference.book, reference.chapter).then((url: string) => {
-      if (mounted) setBibleUrl(url);
-    });
+    setPassageStatus("Cargando texto bíblico...");
+    setCommentaryStatus("Cargando comentario bíblico...");
+    getBibleUrl(reference.book, reference.chapter)
+      .then((url: string) => {
+        if (mounted) setBibleUrl(url);
+      })
+      .catch(() => {
+        // El enlace externo es accesorio y no debe afectar la lectura local.
+      });
 
-    Promise.all([getPassage(reference), getCommentary(reference)])
-      .then(([nextPassage, nextCommentary]) => {
+    getPassage(reference)
+      .then((nextPassage) => {
         if (!mounted) return;
         setPassage(nextPassage);
-        setCommentary(nextCommentary);
-        setStatus("");
+        setPassageStatus("");
       })
       .catch(() => {
         if (!mounted) return;
-        setStatus("No fue posible cargar el texto bíblico. Intenta nuevamente.");
+        setPassageStatus("No fue posible cargar el texto bíblico. Intenta nuevamente.");
+      });
+
+    getCommentary(reference)
+      .then((nextCommentary) => {
+        if (!mounted) return;
+        setCommentary(nextCommentary);
+        setCommentaryStatus("");
+      })
+      .catch(() => {
+        if (!mounted) return;
+        setCommentaryStatus("No fue posible cargar el comentario bíblico. Intenta nuevamente.");
       });
 
     return () => {
@@ -117,8 +133,8 @@ export function BibleStudyModal({ reference, onClose }: Props) {
         </div>
 
         <div className="modal-body">
-          {status && <p>{status}</p>}
-          {!status && activeTab === "bible" && passage && (
+          {activeTab === "bible" && passageStatus && <p role="status">{passageStatus}</p>}
+          {!passageStatus && activeTab === "bible" && passage && (
             <>
               <select className="version-select" aria-label="Versión bíblica" defaultValue={passage.version}>
                 <option value="rva2015">RVA2015</option>
@@ -134,7 +150,8 @@ export function BibleStudyModal({ reference, onClose }: Props) {
             </>
           )}
 
-          {!status && activeTab === "commentary" && (
+          {activeTab === "commentary" && commentaryStatus && <p role="status">{commentaryStatus}</p>}
+          {!commentaryStatus && activeTab === "commentary" && (
             <div className="passage">
               {commentary.length > 0 ? (
                 <>
@@ -142,11 +159,15 @@ export function BibleStudyModal({ reference, onClose }: Props) {
                     <p className="commentary-range-header">{reference.display}</p>
                   )}
                   {commentary.map((entry, i) => (
-                    <article key={`${reference.display}-${i}`}>
+                    <article className="commentary-entry" key={`${entry.source ?? reference.display}-${i}`}>
                       {commentary.length > 1 && (
-                        <span className="verse-number">{reference.verseStart ? reference.verseStart + i : i + 1}</span>
+                        <span className="verse-number">{entry.verse ?? (reference.verseStart ? reference.verseStart + i : i + 1)}</span>
                       )}
-                      <p>{entry.content}</p>
+                      {entry.blocks?.length ? entry.blocks.map((block, blockIndex) => (
+                        block.type === "heading"
+                          ? <h3 key={`${block.text}-${blockIndex}`}>{block.text}</h3>
+                          : <p key={`${block.text}-${blockIndex}`}>{block.text}</p>
+                      )) : <p>{entry.content}</p>}
                       {commentary.length === 1 && entry.source && (
                         <p className="muted">{entry.source}</p>
                       )}

@@ -25,9 +25,16 @@ export type BiblePassage = {
   verses: BibleVerse[];
 };
 
+export type CommentaryBlock = {
+  type: "heading" | "paragraph";
+  text: string;
+};
+
 export type CommentaryEntry = {
   reference: BibleReference;
   title?: string;
   content: string;
   source?: string;
+  verse?: number;
+  blocks?: CommentaryBlock[];
 };
