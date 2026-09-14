@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q3",
-  "catalogChecksum": "sha256:94a7d6144fcf3e02185be42bd7574463acdf6f2dbeb3fc6c9ba97bac4805b123",
-  "resourceCount": 138,
+  "catalogChecksum": "sha256:e7909ce92cb78ebf52159377522f3b20f094dfa3bbfd7e42bb1782d1b20b6b46",
+  "resourceCount": 145,
   "localResourceCount": 54,
   "resources": [
     {
@@ -844,6 +844,76 @@
       "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-12-VIERNES.mp3",
       "storage": "external",
       "sizeBytes": 2996114
+    },
+    {
+      "id": "audio-13-domingo",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 13,
+      "dayId": "domingo",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-13-DOMINGO.mp3",
+      "storage": "external",
+      "sizeBytes": 3642386
+    },
+    {
+      "id": "audio-13-jueves",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 13,
+      "dayId": "jueves",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-13-JUEVES.mp3",
+      "storage": "external",
+      "sizeBytes": 5013266
+    },
+    {
+      "id": "audio-13-lunes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 13,
+      "dayId": "lunes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-13-LUNES.mp3",
+      "storage": "external",
+      "sizeBytes": 4502354
+    },
+    {
+      "id": "audio-13-martes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 13,
+      "dayId": "martes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-13-MARTES.mp3",
+      "storage": "external",
+      "sizeBytes": 3255890
+    },
+    {
+      "id": "audio-13-miercoles",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 13,
+      "dayId": "miercoles",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-13-MIERCOLES.mp3",
+      "storage": "external",
+      "sizeBytes": 5449586
+    },
+    {
+      "id": "audio-13-sabado",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 13,
+      "dayId": "sabado",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-13-SABADO.mp3",
+      "storage": "external",
+      "sizeBytes": 1987826
+    },
+    {
+      "id": "audio-13-viernes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 13,
+      "dayId": "viernes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/06/LECCION-13-VIERNES.mp3",
+      "storage": "external",
+      "sizeBytes": 3320402
     },
     {
       "id": "ppt-01",
