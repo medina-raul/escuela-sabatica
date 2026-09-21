@@ -1,0 +1,8 @@
+---
+import QuarterResources from "@components/quarter/QuarterResources.astro";
+import { getQuarters } from "@lib/lessonAdapter";
+export function getStaticPaths() {
+  return getQuarters().map(quarter => ({ params: { quarterId: quarter.id }, props: { quarter } }));
+}
+---
+<QuarterResources quarter={Astro.props.quarter} />

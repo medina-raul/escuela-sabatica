@@ -1,0 +1,11 @@
+---
+import { getQuarters } from "@lib/lessonAdapter";
+import { lessonUrl } from "@lib/quarterRoutes";
+export function getStaticPaths() {
+  return getQuarters().flatMap(quarter => quarter.lessons.filter(lesson => lesson.days.length).map(lesson => ({
+    params: { quarterId: quarter.id, lessonId: lesson.id },
+    props: { destination: lessonUrl(quarter.id, lesson.id, lesson.days[0].id) },
+  })));
+}
+return Astro.redirect(Astro.props.destination, 301);
+---

@@ -1,4 +1,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
+import { BibleStudyModal } from "@components/bible/BibleStudyModal";
+import type { BibleReference } from "@app-types/bible";
+import { findBibleReferenceMatches } from "@lib/bibleReferenceParser";
 
 type Props = {};
 
@@ -23,7 +26,11 @@ function sanitizeArticleHtml(rawHtml: string) {
       const keepClass = attribute.name === "class";
       const keepLanguage = attribute.name === "lang" || attribute.name === "dir";
       const keepLinkAttribute = element.tagName === "A" && attribute.name === "href";
-      if (!keepClass && !keepLanguage && !keepLinkAttribute) element.removeAttribute(attribute.name);
+      const keepListNumber = /^\d+$/.test(attribute.value) && (
+        (element.tagName === "LI" && attribute.name === "value") ||
+        (element.tagName === "OL" && attribute.name === "start")
+      );
+      if (!keepClass && !keepLanguage && !keepLinkAttribute && !keepListNumber) element.removeAttribute(attribute.name);
     }
     if (element instanceof HTMLAnchorElement) {
       const href = element.getAttribute("href")?.trim() ?? "";
@@ -41,8 +48,48 @@ function sanitizeArticleHtml(rawHtml: string) {
   return document.body.innerHTML;
 }
 
+function enhanceBibleReferences(root: HTMLElement, onOpen: (reference: BibleReference) => void): void {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const textNodes: Text[] = [];
+  let currentNode: Node | null;
+  while ((currentNode = walker.nextNode())) {
+    const textNode = currentNode as Text;
+    const parent = textNode.parentElement;
+    if (textNode.nodeValue?.trim() && !parent?.closest("a, code, .bible-inline")) textNodes.push(textNode);
+  }
+
+  for (const textNode of textNodes) {
+    const value = textNode.nodeValue ?? "";
+    const matches = findBibleReferenceMatches(value);
+    if (matches.length === 0) continue;
+
+    const fragment = document.createDocumentFragment();
+    let cursor = 0;
+    for (const { index, length, reference } of matches) {
+      if (index > cursor) fragment.append(value.slice(cursor, index));
+      const link = document.createElement("span");
+      link.className = "bible-inline";
+      link.setAttribute("role", "button");
+      link.tabIndex = 0;
+      link.textContent = value.slice(index, index + length);
+      link.addEventListener("click", () => onOpen(reference));
+      link.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          onOpen(reference);
+        }
+      });
+      fragment.append(link);
+      cursor = index + length;
+    }
+    if (cursor < value.length) fragment.append(value.slice(cursor));
+    textNode.replaceWith(fragment);
+  }
+}
+
 export function ArticleModal(_props: Props) {
   const [article, setArticle] = useState<{ url: string; title: string } | null>(null);
+  const [activeReference, setActiveReference] = useState<BibleReference | null>(null);
   const [content, setContent] = useState("");
   const [loading, setLoading] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -50,6 +97,7 @@ export function ArticleModal(_props: Props) {
   const openArticle = useCallback((e: CustomEvent<{ url: string; title: string }>) => {
     const { url, title } = e.detail;
     setArticle({ url, title });
+    setActiveReference(null);
     setLoading(true);
     const fullUrl = url.startsWith("http") ? url : `${location.origin}${url}`;
     fetch(fullUrl)
@@ -59,7 +107,8 @@ export function ArticleModal(_props: Props) {
       })
       .then((html) => {
         const body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? html;
-        setContent(sanitizeArticleHtml(body));
+        const visibleBody = body.replace(/(?:Trimestre en preparación\.\s*)?Extracción pendiente de revisión editorial\.\s*/gi, "");
+        setContent(sanitizeArticleHtml(visibleBody));
         setLoading(false);
       })
       .catch(() => {
@@ -74,7 +123,15 @@ export function ArticleModal(_props: Props) {
     return () => window.removeEventListener("open-article", handler);
   }, [openArticle]);
 
-  const onClose = () => setArticle(null);
+  useEffect(() => {
+    if (!content || !contentRef.current) return;
+    enhanceBibleReferences(contentRef.current, setActiveReference);
+  }, [content]);
+
+  const onClose = () => {
+    setArticle(null);
+    setActiveReference(null);
+  };
 
   const downloadPDF = async () => {
     if (!contentRef.current || !article) return;
@@ -117,6 +174,7 @@ export function ArticleModal(_props: Props) {
           </button>
         </div>
       </div>
+      <BibleStudyModal reference={activeReference} onClose={() => setActiveReference(null)} />
     </div>
   );
 }

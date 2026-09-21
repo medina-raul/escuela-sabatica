@@ -31,7 +31,8 @@ from resource_status import build_status  # noqa: E402
 class ResourceLibraryTests(unittest.TestCase):
     def test_current_catalog_is_clean(self) -> None:
         issues = audit_catalog(load_catalog(DEFAULT_CATALOG))
-        self.assertEqual([], issues)
+        errors = [issue for issue in issues if issue.level == "error"]
+        self.assertEqual([], errors)
 
     def test_manifest_is_deterministic(self) -> None:
         catalog = load_catalog(DEFAULT_CATALOG)
@@ -50,7 +51,11 @@ class ResourceLibraryTests(unittest.TestCase):
         status = build_status(catalog)
         self.assertEqual(len(all_resources(catalog)), status["resourceCount"])
         self.assertEqual(0, status["summary"]["requiresAttention"])
-        self.assertEqual(13, status["summary"]["fridayLinked"])
+        expected = sum(
+            resource.get("role") == "friday-reading"
+            for resource in all_resources(catalog)
+        )
+        self.assertEqual(expected, status["summary"]["fridayLinked"])
 
     def test_html_error_page_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

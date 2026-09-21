@@ -1,0 +1,22 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import { getQuarters, activeQuarterId, isDraft } from "@lib/lessonAdapter";
+import { quarterUrl } from "@lib/quarterRoutes";
+---
+<BaseLayout title="Trimestres | Escuela Sabática" activeSection="archive" url="/trimestres">
+  <div class="content-wrap">
+    <h1>Trimestres de Escuela Sabática</h1>
+    <p>Consulta las lecciones y los recursos de cada trimestre.</p>
+    <div class="lessons-grid">
+      {getQuarters().slice().reverse().map(quarter => (
+        <a class="lesson-card" href={quarterUrl(quarter.id)} style={quarter.coverImage ? `background-image: url(${quarter.coverImage})` : undefined}>
+          <div class="lesson-card-overlay"></div>
+          <div class="lesson-card-body">
+            {quarter.id === activeQuarterId ? <span>Trimestre actual</span> : !isDraft(quarter.id) && <span>Histórico</span>}
+            <h2>{quarter.title}</h2><p>{quarter.dateRange}</p><span class="card-link">Consultar trimestre →</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

@@ -1208,9 +1208,131 @@ button.sidebar-ppt-card {
 .resource-link {
   margin-top: auto;
   padding-top: var(--space-2);
+  border: 0;
+  background: transparent;
   color: var(--color-blue-700);
+  font-family: inherit;
   font-size: 0.82rem;
   font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.resource-groups {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.resource-group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.resource-group summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  min-height: 54px;
+  padding: 0 var(--space-4);
+  color: var(--color-navy-900);
+  cursor: pointer;
+  list-style: none;
+}
+
+.resource-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.resource-group summary::after {
+  content: "⌄";
+  color: var(--color-gold-500);
+  font-size: 1.25rem;
+  font-weight: 800;
+  transition: transform 0.15s ease;
+}
+
+.resource-group[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.resource-group-title {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.resource-group-count {
+  margin-left: auto;
+  color: var(--color-slate-500);
+  font-size: 0.78rem;
+}
+
+.resource-list {
+  display: grid;
+  gap: var(--space-2);
+  padding: 0 var(--space-3) var(--space-3);
+}
+
+.resource-card.compact {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  min-height: 82px;
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+}
+
+.resource-card.compact:hover {
+  transform: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.resource-card.compact .resource-thumb {
+  aspect-ratio: auto;
+  min-height: 82px;
+}
+
+.resource-card.compact .resource-badge-top {
+  top: 6px;
+  left: 6px;
+  padding: 2px 6px;
+  font-size: 0.58rem;
+}
+
+.resource-card.compact .resource-body {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: var(--space-3);
+  row-gap: 2px;
+  padding: var(--space-2) var(--space-3);
+}
+
+.resource-card.compact .resource-body h3,
+.resource-card.compact .resource-body p,
+.resource-card.compact .resource-source {
+  grid-column: 1;
+}
+
+.resource-card.compact .resource-body h3 {
+  font-size: 0.88rem;
+}
+
+.resource-card.compact .resource-body p,
+.resource-card.compact .resource-source {
+  font-size: 0.72rem;
+}
+
+.resource-card.compact .resource-link {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  font-size: 0.78rem;
 }
 
 .featured-grid {
@@ -2432,19 +2554,55 @@ button.sidebar-ppt-card {
   }
 
   .lesson-card {
-    min-height: 170px;
+    min-height: 148px;
   }
 
   .lesson-card-body {
-    padding: var(--space-3);
+    padding: 12px;
+  }
+
+  .lesson-number {
+    margin-bottom: 6px;
+    padding: 3px 9px;
+    font-size: 0.86rem;
   }
 
   .lesson-card h3 {
-    font-size: 1rem;
+    margin-bottom: 4px;
+    font-size: 0.95rem;
+  }
+
+  .lesson-card p {
+    font-size: 0.78rem;
+  }
+
+  .lesson-card .card-link {
+    min-height: 32px;
+    margin-top: 8px;
+    padding: 0 12px;
+    font-size: 0.78rem;
   }
 
   .resources-grid {
     grid-template-columns: 1fr;
+  }
+
+  .resource-card.compact {
+    grid-template-columns: 68px minmax(0, 1fr);
+    min-height: 68px;
+  }
+
+  .resource-card.compact .resource-thumb {
+    min-height: 68px;
+  }
+
+  .resource-card.compact .resource-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .resource-card.compact .resource-link {
+    grid-column: 1;
+    grid-row: auto;
   }
 
   .featured-grid {
@@ -2618,6 +2776,16 @@ button.sidebar-ppt-card {
 
   .section-separator {
     margin: var(--space-4) 0;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 720px) {
+  .lessons-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lesson-card {
+    min-height: 148px;
   }
 }
 

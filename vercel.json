@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/lecciones/:path*",
+      "destination": "/trimestres/2026-q3/lecciones/:path*",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {

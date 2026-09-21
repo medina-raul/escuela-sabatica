@@ -1,12 +1,14 @@
 ---
 import type { Lesson } from "@app-types/lesson";
+import { lessonUrl } from "@lib/quarterRoutes";
 
 type Props = {
   lesson: Lesson;
+  quarterId: string;
   active?: boolean;
 };
 
-const { lesson, active = false } = Astro.props;
+const { lesson, quarterId, active = false } = Astro.props;
 const isUpcoming = lesson.days.length === 0;
 ---
 
@@ -14,7 +16,6 @@ const isUpcoming = lesson.days.length === 0;
   <article
     class:list={["lesson-card", { active, upcoming: isUpcoming }]}
     style={!isUpcoming && lesson.image ? `background-image: url(${lesson.image})` : ""}
-    data-share-url={`/lecciones/${lesson.id}/${lesson.days[0]?.id ?? ""}`}
     data-share-title={lesson.title}
     data-share-text={`Lección ${lesson.number}: ${lesson.title} — ${lesson.dateRange}`}
   >
@@ -29,9 +30,9 @@ const isUpcoming = lesson.days.length === 0;
 ) : (
   <a
     class:list={["lesson-card", { active }]}
-    href={`/lecciones/${lesson.id}/${lesson.days[0].id}`}
+    href={lessonUrl(quarterId, lesson.id, lesson.days[0].id)}
     style={lesson.image ? `background-image: url(${lesson.image})` : ""}
-    data-share-url={`/lecciones/${lesson.id}/${lesson.days[0].id}`}
+    data-share-url={lessonUrl(quarterId, lesson.id, lesson.days[0].id)}
     data-share-title={lesson.title}
     data-share-text={`Lección ${lesson.number}: ${lesson.title} — ${lesson.dateRange}`}
   >

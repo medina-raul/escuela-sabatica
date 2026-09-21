@@ -3,9 +3,10 @@ import type { Resource } from "@app-types/resource";
 
 type Props = {
   resource: Resource;
+  compact?: boolean;
 };
 
-const { resource } = Astro.props;
+const { resource, compact = false } = Astro.props;
 const source = resource.source.kind === "url" ? resource.source : undefined;
 
 const labels: Record<string, string> = {
@@ -23,7 +24,7 @@ const typeColors: Record<string, string> = {
 };
 ---
 
-<article class="resource-card" data-type={resource.type} data-share-url={resource.url} data-share-title={resource.title} {...(resource.type === "article" ? { "data-article-url": resource.url, "data-article-title": resource.title } : {})}>
+<article class:list={["resource-card", { compact }]} data-type={resource.type} data-share-url={resource.url} data-share-title={resource.title} {...(resource.type === "article" ? { "data-article-url": resource.url, "data-article-title": resource.title } : {})}>
   <div class="resource-thumb">
     <img
       class="resource-cover"

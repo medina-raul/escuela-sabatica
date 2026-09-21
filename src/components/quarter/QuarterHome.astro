@@ -1,0 +1,64 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import PageHero from "@components/layout/PageHero.astro";
+import LessonCard from "@components/lesson/LessonCard.astro";
+import { ManuscriptReader } from "@components/lesson/ManuscriptReader";
+import { isDraft } from "@lib/lessonAdapter";
+import { quarterUrl } from "@lib/quarterRoutes";
+import type { Quarter } from "@app-types/lesson";
+
+type Props = { quarter: Quarter; pageUrl?: string };
+const { quarter, pageUrl = quarterUrl(Astro.props.quarter.id) } = Astro.props;
+const intro = quarter.introduction ?? (quarter.id === "2026-q3" ? {
+  subtitle: "Primera y Segunda a los Corintios",
+  videoUrl: "/videos/invitacion-estudio-corintios.mp4",
+  videoCaption: "Adenilton T. de Aguiar presenta los 13 temas del trimestre",
+} : {});
+const pageDesc = quarter.description?.split("\n\n")[0]?.slice(0, 200) ?? undefined;
+---
+
+<BaseLayout title={`${quarter.title} | Escuela Sabática`} quarterId={quarter.id} activeSection="home" description={pageDesc} image={quarter.coverImage} url={pageUrl} noindex={isDraft(quarter.id)}>
+  <div class="content-wrap">
+    <nav class="breadcrumb" aria-label="Trimestre"><a href="/trimestres">Trimestres</a><span>›</span><span>{quarter.dateRange}</span></nav>
+    <PageHero
+      variant="home"
+      quarter={quarter}
+      subtitle={quarter.keyVerse ? `${quarter.keyVerse.text} — ${quarter.keyVerse.reference.display}` : quarter.subtitle}
+    />
+
+    <section class="manuscript" aria-label="Resumen del trimestre">
+      <div class="manuscript-inner">
+        <h2>Introducción</h2>
+        <h3 class="manuscript-subtitle">{intro.subtitle ?? quarter.title}</h3>
+        {(quarter.id === "2026-q3" ? quarter.description.split("\n\n").slice(0, -1) : quarter.description.split("\n\n")).map((paragraph) => (
+          <ManuscriptReader text={paragraph.trim()} client:load />
+        ))}
+        {(intro.author || quarter.id === "2026-q3") && <p class="manuscript-author">{intro.author ?? quarter.description.split("\n\n").pop()?.trim()}</p>}
+      </div>
+    </section>
+
+    <div class="section-separator"></div>
+
+    {intro.videoUrl && <section class="intro-video" aria-label="Video introductorio del autor">
+      <div class="section-heading">
+        <h2 class="lessons-title">Invitación del autor</h2>
+        <span class="muted">{intro.videoCaption}</span>
+      </div>
+      <video controls preload="metadata" playsinline class="intro-video-player"
+        poster={quarter.coverImage}>
+        <source src={intro.videoUrl} type="video/mp4">
+      </video>
+    </section>}
+
+    <div class="section-separator"></div>
+
+    <section aria-labelledby="lessons-heading">
+      <div class="section-heading">
+        <h2 id="lessons-heading" class="lessons-title">Lecciones del trimestre</h2>
+      </div>
+      <div class="lessons-grid">
+        {quarter.lessons.map((lesson) => <LessonCard lesson={lesson} quarterId={quarter.id} active={lesson.number === 1} />)}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

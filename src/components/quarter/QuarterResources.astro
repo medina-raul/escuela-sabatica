@@ -1,0 +1,93 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import PageHero from "@components/layout/PageHero.astro";
+import ResourceCard from "@components/resources/ResourceCard.astro";
+import { ArticleModal } from "@components/resources/ArticleModal";
+import { getAllResources, isDraft } from "@lib/lessonAdapter";
+import { quarterUrl, resourcesUrl } from "@lib/quarterRoutes";
+import type { Quarter } from "@app-types/lesson";
+
+type Props = { quarter: Quarter; pageUrl?: string };
+const { quarter, pageUrl = resourcesUrl(Astro.props.quarter.id) } = Astro.props;
+const allResources = getAllResources(quarter.id);
+
+// La biblioteca reúne sólo recursos consultables; los audios permanecen dentro de cada lección.
+const resources = allResources.filter(r => {
+  if (!r.url || r.url === "#") return false;
+  return r.type !== "audio" && (r.type === "pdf" || r.type === "ppt" || r.type === "article");
+});
+
+type ResourceCategory = "lesson-complement" | "chapter-summary" | "teacher-reading" | "ppt" | "other";
+
+const categoryOrder: ResourceCategory[] = ["lesson-complement", "chapter-summary", "teacher-reading", "ppt", "other"];
+const categoryLabels: Record<ResourceCategory, string> = {
+  "lesson-complement": "Complemento del Viernes",
+  "chapter-summary": "Resumen de capítulos",
+  "teacher-reading": "Material para Maestros",
+  ppt: "PPT",
+  other: "Otros documentos",
+};
+
+const categoryFor = (resource: (typeof resources)[number]): ResourceCategory => {
+  if (resource.type === "ppt" || resource.role === "weekly-presentation") return "ppt";
+  if (resource.role === "teacher-reading") return "teacher-reading";
+  if (resource.role === "friday-reading") return "lesson-complement";
+  if (resource.role === "general-reading") return "chapter-summary";
+  return "other";
+};
+
+const categories = categoryOrder
+  .map(category => ({
+    category,
+    label: categoryLabels[category],
+    resources: resources.filter(resource => categoryFor(resource) === category),
+  }))
+  .filter(category => category.resources.length > 0);
+---
+
+<BaseLayout title={`Recursos | ${quarter.title}`} quarterId={quarter.id} activeSection="resources" description="Guías de estudio y presentaciones de la Escuela Sabática Adventista." image={quarter.coverImage} url={pageUrl} noindex={isDraft(quarter.id)}>
+  <div class="content-wrap">
+    <nav class="breadcrumb" aria-label="Trimestre"><a href="/trimestres">Trimestres</a><span>›</span><a href={quarterUrl(quarter.id)}>{quarter.dateRange}</a></nav>
+    <PageHero
+      variant="page"
+      quarter={quarter}
+      title="Biblioteca de Recursos"
+      eyebrow="Material complementario"
+      subtitle="Accede a guías y presentaciones"
+      image={quarter.id === "2026-q4" ? quarter.coverImage : "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1600&q=80"}
+    />
+
+    <div class="section-heading">
+      <h2>Biblioteca del trimestre</h2>
+      <span class="muted">{resources.length} recursos disponibles</span>
+    </div>
+    <div class="resource-groups" id="resources-list">
+      {categories.length === 0 && <p role="status">Material complementario: Próximamente.</p>}
+      {categories.map((category) => (
+        <details class="resource-group">
+          <summary>
+            <span class="resource-group-title">{category.label}</span>
+            <span class="resource-group-count">{category.resources.length} {category.resources.length === 1 ? "recurso" : "recursos"}</span>
+          </summary>
+          <div class="resource-list">
+            {category.resources.map((resource) => <ResourceCard resource={resource} compact />)}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+  <ArticleModal client:load />
+</BaseLayout>
+
+<script is:inline>
+  // Open article modal on click
+  document.addEventListener("click", function(e) {
+    var btn = e.target.closest("[data-article-url]");
+    if (!btn) return;
+    e.preventDefault();
+    window.dispatchEvent(new CustomEvent("open-article", {
+      detail: { url: btn.dataset.articleUrl, title: btn.dataset.articleTitle }
+    }));
+  });
+
+</script>

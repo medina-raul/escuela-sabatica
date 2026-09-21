@@ -1,22 +1,24 @@
 ---
 import type { Lesson, LessonDay } from "@app-types/lesson";
-import reavivadosData from "@data/quarters/2026-q3.json";
+import { getReavivados } from "@lib/reavivados";
+import { resourcesUrl } from "@lib/quarterRoutes";
 import { getFridayResource, getPresentationResource, getTeacherResource } from "@lib/lessonAdapter";
 
 type Props = {
   lesson: Lesson;
+  quarterId: string;
   activeDay?: LessonDay;
 };
 
-const { lesson, activeDay } = Astro.props;
-const pptResource = getPresentationResource(lesson.number);
-const teacherResource = getTeacherResource(lesson.number);
+const { lesson, quarterId, activeDay } = Astro.props;
+const pptResource = getPresentationResource(lesson.number, quarterId);
+const teacherResource = getTeacherResource(lesson.number, quarterId);
 
 const isFriday = activeDay?.id === "viernes";
-const fridayResource = isFriday ? getFridayResource(lesson.number) : undefined;
+const fridayResource = isFriday ? getFridayResource(lesson.number, quarterId) : undefined;
 
 const todayReading = activeDay?.date
-  ? reavivadosData.reavivados?.find((r: { date: string }) => r.date === activeDay.date)
+  ? getReavivados(activeDay.date)
   : null;
 
 const reavivadosReading = todayReading?.reading ?? null;
@@ -118,7 +120,7 @@ const reavivadosUrl = reavivadosBookId && reavivadosChapter
   )}
 
   <section class="study-widget">
-    <a class="resource-all-link" href="/recursos">
+    <a class="resource-all-link" href={resourcesUrl(quarterId)}>
       Biblioteca de Recursos →
     </a>
   </section>
