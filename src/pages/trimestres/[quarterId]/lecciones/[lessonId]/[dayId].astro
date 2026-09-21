@@ -1,0 +1,11 @@
+---
+import LessonPage from "@components/quarter/LessonPage.astro";
+import { getQuarters } from "@lib/lessonAdapter";
+export function getStaticPaths() {
+  return getQuarters().flatMap(quarter => quarter.lessons.flatMap(lesson => lesson.days.map(day => ({
+    params: { quarterId: quarter.id, lessonId: lesson.id, dayId: day.id },
+    props: { quarter, lesson, day },
+  }))));
+}
+---
+<LessonPage {...Astro.props} />

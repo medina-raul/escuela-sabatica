@@ -1,4 +1,9 @@
 {
-  "schemaVersion": 1,
-  "activeCatalog": "src/data/quarters/2026-q3.json"
+  "schemaVersion": 2,
+  "activeCatalog": "src/data/quarters/2026-q4.json",
+  "legacyQuarterId": "2026-q3",
+  "quarters": [
+    { "id": "2026-q3", "catalog": "src/data/quarters/2026-q3.json", "status": "archived" },
+    { "id": "2026-q4", "catalog": "src/data/quarters/2026-q4.json", "status": "published" }
+  ]
 }

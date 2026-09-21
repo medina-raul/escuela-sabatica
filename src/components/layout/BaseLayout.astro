@@ -5,13 +5,15 @@ import "@styles/globals.css";
 
 type Props = {
   title?: string;
-  activeSection?: "home" | "lessons" | "resources" | "bible";
+  activeSection?: "home" | "lessons" | "resources" | "bible" | "archive";
   description?: string;
   image?: string;
   url?: string;
+  noindex?: boolean;
+  quarterId?: string;
 };
 
-const { title = "Escuela Sabática", activeSection = "home", description, image, url } = Astro.props;
+const { title = "Escuela Sabática", activeSection = "home", description, image, url, noindex = false, quarterId } = Astro.props;
 const SITE_URL = "https://escuelasabatica.cl";
 const defaultDesc = "Plataforma de lectura y estudio bíblico de la Escuela Sabática Adventista.";
 const defaultImage = "/images/og-cover.svg";
@@ -27,11 +29,14 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
     <meta name="description" content={pageDesc} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
+    <link rel="canonical" href={pageUrl} />
+    {noindex && <meta name="robots" content="noindex,nofollow" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={pageDesc} />
     <meta property="og:image" content={pageImage.startsWith("http") ? pageImage : `${SITE_URL}${pageImage}`} />
+    <meta property="og:image:alt" content={title} />
     <meta property="og:url" content={pageUrl} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Escuela Sabática" />
@@ -43,7 +48,7 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
     <Analytics />
   </head>
   <body>
-    <AppLayout activeSection={activeSection}>
+    <AppLayout activeSection={activeSection} quarterId={quarterId}>
       <slot />
     </AppLayout>
     <script is:inline>
@@ -87,9 +92,9 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
             const h = a.getAttribute("href") || "";
             if (a.getAttribute("target")) return;
             let match = false;
-            if (section === "home" && h === "/") match = true;
+            if (section === "home" && (h === "/" || /^\/trimestres\/[^/]+\/?$/.test(h))) match = true;
             if (section === "lessons" && (h.includes("lessons-heading") || h.includes("/lecciones/"))) match = true;
-            if (section === "resources" && (h === "/recursos" || h.includes("resources-heading"))) match = true;
+            if (section === "resources" && (h.endsWith("/recursos") || h.includes("resources-heading"))) match = true;
             if (match) {
               a.setAttribute("aria-current", "page");
             } else {
@@ -106,11 +111,11 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
 
         // Determine section from pathname
         const path = window.location.pathname;
-        if (path === "/recursos") {
+        if (path === "/recursos" || /^\/trimestres\/[^/]+\/recursos\/?$/.test(path)) {
           highlightSection("resources");
-        } else if (path.startsWith("/lecciones/")) {
+        } else if (path.startsWith("/lecciones/") || /^\/trimestres\/[^/]+\/lecciones\//.test(path)) {
           highlightSection("lessons");
-        } else if (path === "/") {
+        } else if (path === "/" || /^\/trimestres\/[^/]+\/?$/.test(path)) {
           updateFromHash();
           window.addEventListener("hashchange", updateFromHash);
 

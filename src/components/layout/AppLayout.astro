@@ -5,20 +5,21 @@ import MobileBottomNav from "./MobileBottomNav.astro";
 import Footer from "./Footer.astro";
 
 type Props = {
-  activeSection?: "home" | "lessons" | "resources" | "bible";
+  activeSection?: "home" | "lessons" | "resources" | "bible" | "archive";
+  quarterId?: string;
 };
 
-const { activeSection = "home" } = Astro.props;
+const { activeSection = "home", quarterId } = Astro.props;
 ---
 
 <div class="app-shell">
   <Header activeSection={activeSection} />
   <div class="layout-frame">
-    <Sidebar activeSection={activeSection} />
+    <Sidebar activeSection={activeSection} quarterId={quarterId} />
     <main class="main-content">
       <slot />
       <Footer />
     </main>
   </div>
-  <MobileBottomNav activeSection={activeSection} />
+  <MobileBottomNav activeSection={activeSection} quarterId={quarterId} />
 </div>

@@ -1,11 +1,13 @@
 ---
-import { navItems } from "@data/navigation";
+import { quarterNavItems } from "@data/navigation";
 
 type Props = {
   activeSection?: string;
+  quarterId?: string;
 };
 
-const { activeSection = "home" } = Astro.props;
+const { activeSection = "home", quarterId } = Astro.props;
+const navItems = quarterNavItems(quarterId);
 const current = (section: string) => (activeSection === section ? "page" : undefined);
 ---
 

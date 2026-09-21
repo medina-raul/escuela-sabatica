@@ -1,0 +1,84 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import PageHero from "@components/layout/PageHero.astro";
+import DayTabs from "@components/lesson/DayTabs.astro";
+import { DailyReading } from "@components/lesson/DailyReading";
+import { AudioPlayer } from "@components/audio/AudioPlayer";
+import StudySidebar from "@components/layout/StudySidebar.astro";
+import { ArticleModal } from "@components/resources/ArticleModal";
+import { getAdjacentDay, getFridayResource, isDraft } from "@lib/lessonAdapter";
+import { quarterUrl, lessonUrl } from "@lib/quarterRoutes";
+import type { Quarter, Lesson, LessonDay } from "@app-types/lesson";
+
+type Props = { quarter: Quarter; lesson: Lesson; day: LessonDay };
+const { quarter, lesson, day } = Astro.props;
+
+const months = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+
+function formatDate(dateStr: string) {
+  if (!dateStr) return "";
+  const [, m, d] = dateStr.split("-");
+  return `${parseInt(d)} de ${months[parseInt(m)]}`;
+}
+
+function formatNextSaturday(dateStr: string) {
+  if (!dateStr) return "";
+  const [y, m, d] = dateStr.split("-").map(Number);
+  const date = new Date(y, m - 1, d);
+  date.setDate(date.getDate() + 1);
+  return `${date.getDate()} de ${months[date.getMonth() + 1]}`;
+}
+
+const dayLabel = `${day.dayName} ${formatDate(day.date ?? "")}`;
+const heroEyebrow = `Lección ${lesson.number}, para el ${formatNextSaturday(lesson.endDate ?? "")}`;
+const previousDay = getAdjacentDay(lesson, day.id, -1);
+const nextDay = getAdjacentDay(lesson, day.id, 1);
+const fridayResource = getFridayResource(lesson.number, quarter.id);
+const pageDesc = `${day.dayName} — ${day.title}. Lección ${lesson.number}: ${lesson.title}.`;
+const pageUrl = lessonUrl(quarter.id, lesson.id, day.id);
+---
+
+<BaseLayout title={`${day.title} | ${lesson.title}`} quarterId={quarter.id} activeSection="lessons" description={pageDesc} image={lesson.image} url={pageUrl} noindex={isDraft(quarter.id)}>
+  <div class="content-wrap">
+    <PageHero
+      variant="lesson"
+      title={lesson.title}
+      image={lesson.image}
+      eyebrow={heroEyebrow}
+      subtitle={lesson.summary}
+    />
+
+    <div class="daily-layout">
+      <div>
+        <nav class="breadcrumb" aria-label="Ruta">
+          <a href={quarterUrl(quarter.id)}>{quarter.dateRange}</a>
+          <span>›</span>
+          <span>{lesson.title}</span>
+          <span>›</span>
+          <span>{dayLabel}</span>
+        </nav>
+
+        <h1 class="daily-title">{day.title}</h1>
+        {day.image && <img class="daily-image" src={day.image} alt={`Imagen de lectura: ${day.title}`} />}
+        <DayTabs lesson={lesson} quarterId={quarter.id} activeDayId={day.id} compact />
+        <AudioPlayer client:load audio={day.audio} />
+        <DailyReading client:load lesson={lesson} quarterId={quarter.id} day={day} previousDay={previousDay} nextDay={nextDay} fridayResource={fridayResource} />
+        <ArticleModal client:load />
+      </div>
+
+      <StudySidebar lesson={lesson} quarterId={quarter.id} activeDay={day} />
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  // Open article modal on click (viernes complement + sidebar)
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest("[data-article-url]");
+    if (!btn) return;
+    e.preventDefault();
+    window.dispatchEvent(new CustomEvent("open-article", {
+      detail: { url: btn.dataset.articleUrl, title: btn.dataset.articleTitle }
+    }));
+  });
+</script>

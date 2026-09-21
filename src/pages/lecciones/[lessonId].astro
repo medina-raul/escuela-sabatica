@@ -1,18 +1,20 @@
 ---
 // Redirect to first day (Sábado)
-import { getLesson, getLessons } from "@lib/lessonAdapter";
+import { getLesson, getLessons, legacyQuarterId } from "@lib/lessonAdapter";
+import { lessonUrl } from "@lib/quarterRoutes";
 
 export function getStaticPaths() {
-  return getLessons().filter(l => l.days.length > 0).map((lesson) => ({
+  return getLessons(legacyQuarterId).filter(l => l.days.length > 0).map((lesson) => ({
     params: { lessonId: lesson.id },
   }));
 }
 
 const { lessonId } = Astro.params;
-const lesson = getLesson(lessonId ?? "");
+const lesson = getLesson(lessonId ?? "", legacyQuarterId);
 
 if (!lesson || lesson.days.length === 0) {
   return Astro.redirect("/");
 }
 
-return Astro.redirect(`/lecciones/${lesson.id}/${lesson.days[0].id}`);
+return Astro.redirect(lessonUrl(legacyQuarterId, lesson.id, lesson.days[0].id), 301);
+---

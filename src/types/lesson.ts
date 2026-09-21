@@ -33,6 +33,7 @@ export type LessonDay = {
   keyVerse?: BibleRefContent;
   studyReferences?: BibleReference[];
   contentMarkdown?: string;
+  fridayReadingAnchor?: string;
   contentBlocks?: ContentBlock[];
   resources?: Resource[];
 };
@@ -62,9 +63,10 @@ export type Quarter = {
   quarterNumber: 1 | 2 | 3 | 4;
   description: string;
   coverImage?: string;
+  introduction?: { subtitle?: string; author?: string; videoUrl?: string; videoCaption?: string };
   keyVerse?: BibleRefContent;
   lessons: Lesson[];
   resources?: Resource[];
-  reavivados?: { date: string; reading: string }[];
+  reavivados?: { date: string; reading: string; bookId?: number; chapter?: number }[];
   resourceAutomation?: ResourceAutomationConfig;
 };

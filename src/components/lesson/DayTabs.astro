@@ -1,21 +1,23 @@
 ---
 import type { Lesson } from "@app-types/lesson";
+import { lessonUrl } from "@lib/quarterRoutes";
 
 type Props = {
   lesson: Lesson;
+  quarterId: string;
   activeDayId?: string;
   compact?: boolean;
 };
 
-const { lesson, activeDayId = lesson.days[0]?.id, compact = false } = Astro.props;
+const { lesson, quarterId, activeDayId = lesson.days[0]?.id, compact = false } = Astro.props;
 ---
 
 <nav class={compact ? "compact-days" : "day-tabs"} aria-label="Días de la lección">
   {
-    lesson.days.map((day, index) => (
+    lesson.days.map((day) => (
       <a
         class:list={[compact ? "compact-day" : "day-tab", { active: day.id === activeDayId }]}
-        href={`/lecciones/${lesson.id}/${day.id}`}
+        href={lessonUrl(quarterId, lesson.id, day.id)}
         aria-current={day.id === activeDayId ? "page" : undefined}
       >
         {compact ? (
@@ -30,9 +32,9 @@ const { lesson, activeDayId = lesson.days[0]?.id, compact = false } = Astro.prop
 
 <select class="day-select" aria-label="Seleccionar día" onchange="location = this.value">
   {
-    lesson.days.map((day, index) => (
+    lesson.days.map((day) => (
       <option
-        value={`/lecciones/${lesson.id}/${day.id}`}
+        value={lessonUrl(quarterId, lesson.id, day.id)}
         selected={day.id === activeDayId}
       >
         {day.dayName}
