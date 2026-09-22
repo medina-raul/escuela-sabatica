@@ -25,6 +25,13 @@ export type BiblePassage = {
   verses: BibleVerse[];
 };
 
+export type BibleVersion = {
+  id: string;
+  name: string;
+  short: string;
+  lang: string;
+};
+
 export type CommentaryBlock = {
   type: "heading" | "paragraph";
   text: string;
