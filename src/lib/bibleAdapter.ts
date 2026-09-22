@@ -1,4 +1,4 @@
-import type { BiblePassage, BibleReference, BibleVerse } from "@app-types/bible";
+import type { BiblePassage, BibleReference, BibleVerse, BibleVersion } from "@app-types/bible";
 
 type BookMeta = { id: number; name: string; file: string; chapters: number; slug: string };
 type BibleVerseData = { verse: number; text: string };
@@ -61,6 +61,8 @@ function resolveBookName(bookName: string): string {
 
 // ---- Manifest cache ----
 let manifestCache: BookMeta[] | null = null;
+let versionsCache: BibleVersion[] | null = null;
+let versionsPromise: Promise<BibleVersion[]> | null = null;
 
 async function fetchManifest(): Promise<BookMeta[]> {
   if (manifestCache) return manifestCache;
@@ -82,6 +84,46 @@ const MAX_CHAPTER_CACHE = 36;
 
 function normalizeVersion(version: string): string {
   return version.trim().toLowerCase() || "rva2015";
+}
+
+export async function getBibleVersions(): Promise<BibleVersion[]> {
+  if (versionsCache) return versionsCache;
+  if (!versionsPromise) {
+    versionsPromise = fetch(`${BASE}/versions.json`)
+      .then(async (res) => {
+        if (!res.ok) throw new Error("No fue posible cargar las versiones bíblicas.");
+        const payload: unknown = await res.json();
+        if (!Array.isArray(payload)) throw new Error("Formato de versiones bíblicas no reconocido.");
+
+        const versions = payload
+          .filter((item) => (
+            Boolean(item)
+            && typeof item === "object"
+            && (item as { available?: unknown }).available === true
+            && typeof (item as { id?: unknown }).id === "string"
+            && /^[a-z0-9_-]+$/i.test((item as { id: string }).id)
+            && typeof (item as { name?: unknown }).name === "string"
+            && typeof (item as { short?: unknown }).short === "string"
+          ))
+          .map((item) => {
+            const version = item as { id: string; name: string; short: string; lang?: unknown };
+            return {
+              id: normalizeVersion(version.id),
+              name: version.name,
+              short: version.short,
+              lang: typeof version.lang === "string" ? version.lang : "",
+            };
+          });
+
+        if (versions.length === 0) throw new Error("No hay versiones bíblicas disponibles.");
+        versionsCache = versions;
+        return versions;
+      })
+      .finally(() => {
+        versionsPromise = null;
+      });
+  }
+  return versionsPromise;
 }
 
 function normalizeVerses(payload: unknown): BibleVerseData[] {

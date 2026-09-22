@@ -2169,6 +2169,7 @@ button.sidebar-ppt-card {
 
 .version-select {
   width: fit-content;
+  max-width: 100%;
   min-height: 40px;
   margin-bottom: var(--space-4);
   border: 0;
@@ -2200,12 +2201,16 @@ button.sidebar-ppt-card {
 }
 
 .bible-source {
-  margin: var(--space-5) 0 0;
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin: var(--space-2) 0 0;
+  padding-top: var(--space-3);
+  border-top: 1px solid color-mix(in srgb, var(--color-border) 72%, transparent);
   color: var(--color-slate-500);
   font-family: var(--font-ui);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .bible-source a {

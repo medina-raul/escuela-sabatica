@@ -1,7 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { getPassage, getBibleUrl } from "@lib/bibleAdapter";
+import { getPassage, getBibleUrl, getBibleVersions } from "@lib/bibleAdapter";
 import { getCommentary } from "@lib/commentaryAdapter";
-import type { BiblePassage, BibleReference, CommentaryEntry } from "@app-types/bible";
+import type { BiblePassage, BibleReference, BibleVersion, CommentaryEntry } from "@app-types/bible";
+
+const DEFAULT_BIBLE_VERSION = "rva2015";
+const FALLBACK_BIBLE_VERSIONS: BibleVersion[] = [
+  { id: DEFAULT_BIBLE_VERSION, name: "Reina Valera Actualizada 2015", short: "RVA2015", lang: "es" },
+];
 
 type Props = {
   reference: BibleReference | null;
@@ -11,6 +16,8 @@ type Props = {
 export function BibleStudyModal({ reference, onClose }: Props) {
   const [activeTab, setActiveTab] = useState<"bible" | "commentary">("bible");
   const [passage, setPassage] = useState<BiblePassage | null>(null);
+  const [selectedVersion, setSelectedVersion] = useState(DEFAULT_BIBLE_VERSION);
+  const [versions, setVersions] = useState<BibleVersion[]>(FALLBACK_BIBLE_VERSIONS);
   const [commentary, setCommentary] = useState<CommentaryEntry[]>([]);
   const [passageStatus, setPassageStatus] = useState("Cargando texto bíblico...");
   const [commentaryStatus, setCommentaryStatus] = useState("Cargando comentario bíblico...");
@@ -27,23 +34,32 @@ export function BibleStudyModal({ reference, onClose }: Props) {
     setCommentary([]);
     setPassageStatus("Cargando texto bíblico...");
     setCommentaryStatus("Cargando comentario bíblico...");
+    getBibleVersions()
+      .then((availableVersions) => {
+        if (!mounted) return;
+        setVersions(availableVersions);
+        setSelectedVersion((current) => (
+          availableVersions.some((version) => version.id === current)
+            ? current
+            : availableVersions[0]?.id ?? DEFAULT_BIBLE_VERSION
+        ));
+      })
+      .catch(() => {
+        if (!mounted) return;
+        setVersions(FALLBACK_BIBLE_VERSIONS);
+        setSelectedVersion((current) => (
+          FALLBACK_BIBLE_VERSIONS.some((version) => version.id === current)
+            ? current
+            : DEFAULT_BIBLE_VERSION
+        ));
+      });
+
     getBibleUrl(reference.book, reference.chapter)
       .then((url: string) => {
         if (mounted) setBibleUrl(url);
       })
       .catch(() => {
         // El enlace externo es accesorio y no debe afectar la lectura local.
-      });
-
-    getPassage(reference)
-      .then((nextPassage) => {
-        if (!mounted) return;
-        setPassage(nextPassage);
-        setPassageStatus("");
-      })
-      .catch(() => {
-        if (!mounted) return;
-        setPassageStatus("No fue posible cargar el texto bíblico. Intenta nuevamente.");
       });
 
     getCommentary(reference)
@@ -62,6 +78,26 @@ export function BibleStudyModal({ reference, onClose }: Props) {
       document.body.classList.remove("modal-open");
     };
   }, [reference]);
+
+  useEffect(() => {
+    if (!reference) return;
+    let mounted = true;
+    setPassage(null);
+    setPassageStatus("Cargando texto bíblico...");
+    getPassage(reference, selectedVersion)
+      .then((nextPassage) => {
+        if (!mounted) return;
+        setPassage(nextPassage);
+        setPassageStatus("");
+      })
+      .catch(() => {
+        if (!mounted) return;
+        setPassageStatus("No fue posible cargar el texto bíblico. Intenta nuevamente.");
+      });
+    return () => {
+      mounted = false;
+    };
+  }, [reference, selectedVersion]);
 
   useEffect(() => {
     if (!reference) return;
@@ -133,26 +169,31 @@ export function BibleStudyModal({ reference, onClose }: Props) {
         </div>
 
         <div className="modal-body">
-          {activeTab === "bible" && passageStatus && <p role="status">{passageStatus}</p>}
-          {!passageStatus && activeTab === "bible" && passage && (
+          {activeTab === "bible" && (
             <>
-              <select className="version-select" aria-label="Versión bíblica" defaultValue={passage.version}>
-                <option value="rva2015">RVA2015</option>
-              </select>
-              <div className="passage">
-                {passage.verses.map((verse) => (
-                  <p key={verse.number}>
-                    <span className="verse-number">{verse.number}</span>
-                    {verse.text}
-                  </p>
+              <select
+                className="version-select"
+                aria-label="Versión bíblica"
+                value={selectedVersion}
+                onChange={(event) => setSelectedVersion(event.target.value)}
+              >
+                {versions.map((version) => (
+                  <option key={version.id} value={version.id} title={version.name}>
+                    {version.short}{version.lang === "en" ? " · English" : ""}
+                  </option>
                 ))}
-              </div>
-              <p className="bible-source">
-                Gentileza de{" "}
-                <a href="https://www.santabiblia.cloud" target="_blank" rel="noopener noreferrer">
-                  www.santabiblia.cloud
-                </a>
-              </p>
+              </select>
+              {passageStatus && <p role="status">{passageStatus}</p>}
+              {!passageStatus && passage && (
+                <div className="passage">
+                  {passage.verses.map((verse) => (
+                    <p key={verse.number}>
+                      <span className="verse-number">{verse.number}</span>
+                      {verse.text}
+                    </p>
+                  ))}
+                </div>
+              )}
             </>
           )}
 
@@ -191,6 +232,14 @@ export function BibleStudyModal({ reference, onClose }: Props) {
           <button type="button" onClick={copyPassage}>Copiar</button>
           <button type="button" onClick={sharePassage}>Compartir</button>
           <a href={bibleUrl} target="_blank" rel="noopener noreferrer">Abrir en Biblia</a>
+          {activeTab === "bible" && (
+            <p className="bible-source">
+              <span>Textos bíblicos: </span>
+              <a href="https://www.santabiblia.cloud" target="_blank" rel="noopener noreferrer">
+                Santa Biblia
+              </a>
+            </p>
+          )}
         </footer>
       </section>
     </div>
