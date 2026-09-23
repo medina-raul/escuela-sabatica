@@ -2203,19 +2203,21 @@ button.sidebar-ppt-card {
 .bible-source {
   grid-column: 1 / -1;
   justify-self: center;
+  align-self: center;
   margin: 0;
   color: var(--color-slate-500);
   font-family: var(--font-reading);
   font-size: 0.82rem;
   font-style: italic;
   font-weight: 400;
+  line-height: 1.25;
   text-align: center;
 }
 
 .bible-source a {
-  color: inherit;
+  color: var(--color-blue-700);
   font: inherit;
-  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  text-decoration-color: color-mix(in srgb, var(--color-blue-700) 45%, transparent);
   text-underline-offset: 3px;
 }
 
@@ -2769,7 +2771,7 @@ button.sidebar-ppt-card {
   }
 
   .modal-actions button,
-  .modal-actions a {
+  .modal-actions > a {
     min-height: 44px;
     font-size: 0.66rem;
   }
