@@ -232,14 +232,12 @@ export function BibleStudyModal({ reference, onClose }: Props) {
           <button type="button" onClick={copyPassage}>Copiar</button>
           <button type="button" onClick={sharePassage}>Compartir</button>
           <a href={bibleUrl} target="_blank" rel="noopener noreferrer">Abrir en Biblia</a>
-          {activeTab === "bible" && (
-            <p className="bible-source">
-              <span>Textos bíblicos: </span>
-              <a href="https://www.santabiblia.cloud" target="_blank" rel="noopener noreferrer">
-                Santa Biblia
-              </a>
-            </p>
-          )}
+          <p className="bible-source">
+            <span>Gentileza de </span>
+            <a href="https://www.santabiblia.cloud" target="_blank" rel="noopener noreferrer">
+              www.santabiblia.cloud
+            </a>
+          </p>
         </footer>
       </section>
     </div>
