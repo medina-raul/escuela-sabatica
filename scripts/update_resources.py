@@ -84,6 +84,12 @@ def _discover_audio(
         return
     lessons = {lesson["number"]: lesson for lesson in catalog.get("lessons", [])}
     by_slot = _resource_index(catalog)
+    templates = config.get("urlTemplates")
+    if templates is None:
+        template = config.get("urlTemplate")
+        templates = [template] if template else []
+    if not templates or not all(isinstance(item, str) for item in templates):
+        raise ResourceError("audioDiscovery debe definir urlTemplate o una lista urlTemplates")
 
     candidates: list[dict[str, Any]] = []
     for lesson_number in range(config["lessonStart"], config["lessonEnd"] + 1):
@@ -97,37 +103,52 @@ def _discover_audio(
             if not day:
                 warnings.append(f"No existe el día {day_id} en la lección {lesson_number}")
                 continue
-            url = config["urlTemplate"].format(lesson=lesson_number, day=token)
+            urls = [
+                template.format(lesson=lesson_number, day=token)
+                for template in templates
+            ]
             existing = by_slot.get((lesson_number, day_id))
+            existing_url = (
+                (existing.get("source") or {}).get("url") or existing.get("url")
+                if existing
+                else None
+            )
+            if existing_url:
+                urls = [existing_url, *(url for url in urls if url != existing_url)]
             candidates.append(
                 {
                     "lesson": lesson,
                     "lessonNumber": lesson_number,
                     "day": day,
                     "dayId": day_id,
-                    "url": url,
+                    "urls": urls,
                     "existing": existing,
                 }
             )
 
-    def probe(candidate: dict[str, Any]) -> tuple[dict[str, Any], Any]:
-        return candidate, probe_url(
-            candidate["url"],
-            allowed_hosts=allowed_hosts,
-            allowed_content_types=config.get("allowedContentTypes"),
-            max_bytes=config["maxBytes"],
-            timeout=timeout,
-            missing_ok=candidate["existing"] is None,
-            insecure_tls_hosts={"audioescuelasabatica.com", "www.audioescuelasabatica.com"},
-        )
+    def probe(candidate: dict[str, Any]) -> tuple[dict[str, Any], str, Any]:
+        for url in candidate["urls"]:
+            metadata = probe_url(
+                url,
+                allowed_hosts=allowed_hosts,
+                allowed_content_types=config.get("allowedContentTypes"),
+                max_bytes=config["maxBytes"],
+                timeout=timeout,
+                missing_ok=True,
+                insecure_tls_hosts={"audioescuelasabatica.com", "www.audioescuelasabatica.com"},
+            )
+            if metadata is not None:
+                return candidate, url, metadata
+        return candidate, candidate["urls"][0], None
 
-    results: list[tuple[dict[str, Any], Any]] = []
+    results: list[tuple[dict[str, Any], str, Any]] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         futures = [executor.submit(probe, candidate) for candidate in candidates]
         for future in concurrent.futures.as_completed(futures):
             results.append(future.result())
 
-    for candidate, metadata in sorted(
+    pending = 0
+    for candidate, url, metadata in sorted(
         results,
         key=lambda result: (result[0]["lessonNumber"], result[0]["dayId"]),
     ):
@@ -135,9 +156,9 @@ def _discover_audio(
         lesson_number = candidate["lessonNumber"]
         day = candidate["day"]
         day_id = candidate["dayId"]
-        url = candidate["url"]
         existing = candidate["existing"]
         if metadata is None:
+            pending += 1
             continue
 
         if existing is None:
@@ -163,30 +184,48 @@ def _discover_audio(
                 resource["sizeBytes"] = metadata.content_length
             metadata_to_source(resource["source"], metadata)
             lesson.setdefault("resources", []).append(resource)
-            day["audio"] = {
-                "title": resource["title"],
-                "url": url,
-                "duration": "",
-                "narrator": "Audio Escuela Sabática",
-            }
             by_slot[(lesson_number, day_id)] = resource
             changes.append(f"audio-discovered:{resource['id']}")
-            continue
+        else:
+            source = existing.setdefault(
+                "source",
+                {
+                    "kind": "url",
+                    "url": url,
+                    "allowedContentTypes": config.get("allowedContentTypes", []),
+                    "maxBytes": config["maxBytes"],
+                },
+            )
+            if existing.get("url") != url or source.get("url") != url:
+                existing["url"] = url
+                source["url"] = url
+                changes.append(f"audio-source-updated:{existing['id']}")
+            if metadata_to_source(source, metadata):
+                changes.append(f"source-metadata:{existing['id']}")
+            if metadata.content_length is not None and existing.get("sizeBytes") != metadata.content_length:
+                existing["sizeBytes"] = metadata.content_length
+                changes.append(f"source-size:{existing['id']}")
 
-        source = existing.setdefault(
-            "source",
-            {
-                "kind": "url",
-                "url": url,
-                "allowedContentTypes": config.get("allowedContentTypes", []),
-                "maxBytes": config["maxBytes"],
-            },
+        audio = day.get("audio")
+        if not isinstance(audio, dict):
+            audio = {}
+            day["audio"] = audio
+        title = f"Lección {lesson_number} — {DAY_NAMES.get(day_id, day_id.title())}"
+        for key, value in {
+            "title": title,
+            "url": url,
+            "duration": audio.get("duration", ""),
+            "narrator": "Audio Escuela Sabática",
+        }.items():
+            if audio.get(key) != value:
+                audio[key] = value
+                changes.append(f"audio-slot-updated:{lesson_number:02d}-{day_id}")
+
+    if pending:
+        warnings.append(
+            f"Audio Escuela Sabática: {pending} de {len(candidates)} audios siguen pendientes; "
+            "se revisarán en la próxima ejecución."
         )
-        if metadata_to_source(source, metadata):
-            changes.append(f"source-metadata:{existing['id']}")
-        if metadata.content_length is not None and existing.get("sizeBytes") != metadata.content_length:
-            existing["sizeBytes"] = metadata.content_length
-            changes.append(f"source-size:{existing['id']}")
 
 
 def _remote_copy_is_current(resource: dict[str, Any], source: dict[str, Any], metadata: Any) -> bool:
@@ -250,7 +289,23 @@ def _discover_presentations(
         published[lesson_number] = url
 
     if not published:
-        raise ResourceError(f"No se encontraron PPT del trimestre en {config['indexUrl']}")
+        warnings.append(
+            f"Fustero aún no publica PPT para {catalog.get('id', 'el trimestre')}; "
+            "las presentaciones quedan pendientes."
+        )
+        return set()
+
+    pending_lessons = [
+        lesson_number
+        for lesson_number in range(config["lessonStart"], config["lessonEnd"] + 1)
+        if lesson_number not in published
+    ]
+    if pending_lessons:
+        warnings.append(
+            "Fustero aún no publica PPT para las lecciones: "
+            + ", ".join(str(number) for number in pending_lessons)
+            + "."
+        )
 
     lessons = {lesson["number"]: lesson for lesson in catalog.get("lessons", [])}
     presentations: dict[int, dict[str, Any]] = {}

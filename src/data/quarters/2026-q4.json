@@ -3232,6 +3232,29 @@
       "raw.githubusercontent.com"
     ],
     "maxDownloadBytes": 80000000,
+    "audioDiscovery": {
+      "urlTemplates": [
+        "https://www.audioescuelasabatica.com/wp-content/uploads/2026/09/LECCION-{lesson}-{day}.mp3",
+        "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-{lesson}-{day}.mp3"
+      ],
+      "lessonStart": 1,
+      "lessonEnd": 13,
+      "dayTokens": {
+        "sabado": "SABADO",
+        "domingo": "DOMINGO",
+        "lunes": "LUNES",
+        "martes": "MARTES",
+        "miercoles": "MIERCOLES",
+        "jueves": "JUEVES",
+        "viernes": "VIERNES"
+      },
+      "allowedContentTypes": [
+        "audio/mpeg",
+        "audio/mp3",
+        "application/octet-stream"
+      ],
+      "maxBytes": 50000000
+    },
     "presentationDiscovery": {
       "indexUrl": "https://www.fustero.es/",
       "fileNamePattern": "^(?P<year>\\d{4})t(?P<quarter>[1-4])(?P<lesson>\\d{2})\\.pptx$",

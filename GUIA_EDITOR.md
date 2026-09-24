@@ -87,4 +87,4 @@ respetando la misma organización de `public/recursos/<trimestre>/`. Después ba
 
 ## Ejecución semanal
 
-GitHub ejecuta el actualizador automáticamente cada lunes. El acceso directo se usa cuando se quiere adelantar una revisión, incorporar archivos manuales o confirmar que la computadora local está sincronizada.
+GitHub revisa las fuentes automáticamente tres noches por semana. El acceso directo se usa cuando se quiere adelantar una revisión, incorporar archivos manuales o confirmar que la computadora local está sincronizada.

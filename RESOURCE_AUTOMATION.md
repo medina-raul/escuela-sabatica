@@ -6,7 +6,7 @@ El motor de actualización pertenece al repositorio. No depende del sistema oper
 
 - Windows: doble clic en `ACTUALIZAR_SITIO_WINDOWS.cmd`.
 - macOS: doble clic en `ACTUALIZAR_SITIO_MAC.command`.
-- Sin intervención: GitHub Actions ejecuta el mismo ciclo cada lunes a las 11:17 UTC.
+- Sin intervención: GitHub Actions comprueba fuentes tres noches por semana, martes, jueves y sábado a las 03:17 UTC (noche en Chile).
 
 La primera ejecución puede instalar Git, Node.js, Python y GitHub CLI mediante `winget` en Windows o Homebrew en macOS. También abre una autorización de GitHub en el navegador una sola vez. En ejecuciones posteriores, `npm ci` instala o ajusta automáticamente las librerías exactas declaradas por el proyecto.
 
@@ -23,7 +23,7 @@ bloqueo de concurrencia
   -> reestructuración + bandeja manual + fuentes
   -> checksums + auditoría + pruebas + build + rutas
   -> commit limitado a rutas de recursos
-  -> rama automática + PR
+  -> rama automática reutilizable + PR
   -> comprobaciones remotas + squash merge
   -> fast-forward de la copia local
   -> espera de Vercel + verificación de producción
@@ -102,7 +102,7 @@ El script de aplicación vuelve a comprobar el checksum de la fuente, valida amb
 
 ## Publicación semanal
 
-`.github/workflows/weekly-resources.yml` ejecuta la actualización en un runner limpio, publica sólo las rutas autorizadas, crea y fusiona el PR cuando no existen tareas asistidas y comprueba `https://escuelasabatica.cl`. Para una ejecución semanal sin aprobaciones manuales se configura una sola vez el secreto `AUTOMATION_GITHUB_TOKEN` con un token de la cuenta administradora y permisos de contenido, PR e incidencias. El token estándar queda como respaldo, pero GitHub puede exigir aprobar manualmente los workflows que ese mismo token genera.
+`.github/workflows/weekly-resources.yml` revisa las fuentes tres noches por semana en un runner limpio, publica sólo las rutas autorizadas y abre un PR de revisión; reutiliza la misma rama temporal mientras el PR esté abierto, la elimina al fusionarlo después de las validaciones y comprueba `https://escuelasabatica.cl`. Para una ejecución semanal sin aprobaciones manuales se configura una sola vez el secreto `AUTOMATION_GITHUB_TOKEN` con un token de la cuenta administradora y permisos de contenido, PR e incidencias. El token estándar queda como respaldo, pero GitHub puede exigir aprobar manualmente los workflows que ese mismo token genera.
 
 Los PR de recursos ejecutan además `.github/workflows/resource-pr-validation.yml`.
 

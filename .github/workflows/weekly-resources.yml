@@ -1,8 +1,9 @@
-name: Actualización semanal de recursos
+name: Revisión nocturna de recursos (3 veces por semana)
 
 on:
   schedule:
-    - cron: "17 11 * * 1"
+    # 03:17 UTC, de noche en Chile (23:17 o 00:17 según horario estacional).
+    - cron: "17 3 * * 2,4,6"
   workflow_dispatch:
 
 concurrency:
@@ -20,7 +21,7 @@ jobs:
     timeout-minutes: 60
     env:
       RESOURCE_REPORT: /tmp/resource-update-report.json
-      AUTOMATION_BRANCH: automation/weekly-resources-${{ github.run_id }}
+      AUTOMATION_BRANCH: automation/weekly-resources
       GH_TOKEN: ${{ secrets.AUTOMATION_GITHUB_TOKEN || github.token }}
     steps:
       - name: Descargar repositorio
@@ -78,9 +79,18 @@ jobs:
         run: |
           git config user.name "escuela-sabatica-bot"
           git config user.email "actions@users.noreply.github.com"
-          git switch -c "$AUTOMATION_BRANCH"
+          git fetch origin main
+          if git ls-remote --exit-code --heads origin "$AUTOMATION_BRANCH" >/dev/null; then
+            git fetch origin "$AUTOMATION_BRANCH"
+            git switch --track -c "$AUTOMATION_BRANCH" "origin/$AUTOMATION_BRANCH"
+            git merge --no-edit origin/main
+          else
+            git switch -c "$AUTOMATION_BRANCH" origin/main
+          fi
           git add src/data/quarters public/resource-manifest.json public/recursos
-          git commit -m "chore(resources): actualización semanal automática"
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(resources): actualización automática de recursos"
+          fi
           git push origin "HEAD:refs/heads/$AUTOMATION_BRANCH"
 
       - name: Crear o actualizar pull request
@@ -102,18 +112,24 @@ jobs:
             '- Las rutas locales del sitio construido fueron auditadas.' \
             '' \
             'Revisar el informe adjunto a la ejecución antes de fusionar.')
-          DRAFT_ARGS=()
-          if [ "$TASK_COUNT" -gt 0 ]; then
-            DRAFT_ARGS+=(--draft)
+          PR_URL=$(gh pr list --base main --head "$AUTOMATION_BRANCH" --state open --json url --jq '.[0].url // ""')
+          if [ -n "$PR_URL" ]; then
+            gh pr edit "$PR_URL" --title "chore(resources): actualización de recursos" --body "$BODY"
+            if [ "$TASK_COUNT" -gt 0 ]; then
+              gh pr ready "$PR_URL" --undo || true
+            else
+              gh pr ready "$PR_URL"
+            fi
+            echo "PR actualizado: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
+          else
+            if [ "$TASK_COUNT" -gt 0 ]; then
+              PR_URL=$(gh pr create --draft --base main --head "$AUTOMATION_BRANCH" --title "chore(resources): actualización de recursos" --body "$BODY")
+            else
+              PR_URL=$(gh pr create --base main --head "$AUTOMATION_BRANCH" --title "chore(resources): actualización de recursos" --body "$BODY")
+            fi
+            echo "PR creado: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
           fi
-          PR_URL=$(gh pr create \
-            --base main \
-            --head "$AUTOMATION_BRANCH" \
-            --title "chore(resources): actualización semanal" \
-            --body "$BODY" \
-            "${DRAFT_ARGS[@]}")
           echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
-          echo "PR creado: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Fusionar actualización completamente validada
         if: steps.changes.outputs.changed == 'true' && steps.changes.outputs.tasks == '0'
