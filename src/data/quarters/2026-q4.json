@@ -193,7 +193,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-01",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 1,
+          "title": "Presentación PPT — Lección 1",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-01.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t401.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"184db2e-65ad60a917c7a\"",
+            "lastModified": "Sun, 06 Sep 2026 20:06:47 GMT"
+          },
+          "checksum": "sha256:0a354a3f11f42684f20d81b124804c56565dcd816294d255931f00bb9faf29ea",
+          "sizeBytes": 25484078
+        }
+      ],
       "title": "El Creador habla",
       "dateRange": "Para el 03/10/2026",
       "startDate": "2026-09-26",
@@ -413,7 +439,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-02",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 2,
+          "title": "Presentación PPT — Lección 2",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-02.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t402.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"17d1984-65b7fba9d5659\"",
+            "lastModified": "Tue, 15 Sep 2026 06:33:30 GMT"
+          },
+          "checksum": "sha256:145cfef83730f072be089e101d8cdba235a74d19461d31e44697768f0e9f76f3",
+          "sizeBytes": 24975748
+        }
+      ],
       "title": "El llamado de un profeta",
       "dateRange": "Para el 10/10/2026",
       "startDate": "2026-10-03",
@@ -632,7 +684,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-03",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 3,
+          "title": "Presentación PPT — Lección 3",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-03.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t403.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"17ad90d-65c0251a297b2\"",
+            "lastModified": "Mon, 21 Sep 2026 18:21:29 GMT"
+          },
+          "checksum": "sha256:c15f108b901c991dd8598581cee193ec59fd348e20f3324a5efac7f465eae07d",
+          "sizeBytes": 24828173
+        }
+      ],
       "title": "Profetas del Antiguo Testamento",
       "dateRange": "Para el 17/10/2026",
       "startDate": "2026-10-10",
@@ -2874,8 +2952,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-01.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/01/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:ac3c885ce9d35c1368753b10b0929dfbd513bdcc1ce098dd2ffdd64362019852",
+        "etag": "\"ed1c2a9ab1065119f655c4d71bb61d89bdb9f0621f21fa60a1a30a15d43d9a76\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -2889,7 +2978,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:ff0032ae8ec9b24dd8c39c072dd7c911b975bc021845fc8f8c8d33f4048a4f14",
-      "sizeBytes": 11913
+      "sizeBytes": 11913,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:ac3c885ce9d35c1368753b10b0929dfbd513bdcc1ce098dd2ffdd64362019852",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-02",
@@ -2900,8 +2996,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-02.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/02/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:6a257ec6df69b21ca3adc6c9d5a8d59aa3c9bdb881c1c1f6e96daf365ea0158a",
+        "etag": "\"1d3ea559c3f67e4e690637715efb32336dd9c336a21dda1d5425d8cc9b9e5b24\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -2915,7 +3022,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:eeea2202510e7f43a07c6f42471cfaa2ee0f52805ef42a586986357c909cbcd1",
-      "sizeBytes": 11821
+      "sizeBytes": 11821,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:6a257ec6df69b21ca3adc6c9d5a8d59aa3c9bdb881c1c1f6e96daf365ea0158a",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-03",
@@ -2926,8 +3040,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-03.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/03/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:b6d499aac3dcec4db9f756460f206b01ff162c550c029ea4c701945d664f6006",
+        "etag": "\"b04586430805b2328d45773806788ac4c3505be51af399ce3cd665384819211e\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -2941,7 +3066,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:389eca7fa03bcda89f0ee77ad19d6f1184bd99328811d7e9bea45ea7b41456a6",
-      "sizeBytes": 12506
+      "sizeBytes": 12506,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:b6d499aac3dcec4db9f756460f206b01ff162c550c029ea4c701945d664f6006",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-04",
@@ -2952,8 +3084,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-04.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/04/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:eef3f447551c17b83087cf57ba440b42a841b7c4c6aa30a7c017fe754400448b",
+        "etag": "\"092353a1725163eb30b3d9ae313c1448ad44d066dbac31c5cbfe2f7ec620f044\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -2967,7 +3110,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:006793c2a5a1921b3e38dc312538ff23fd684fd86bee118937775718fc7b5a4f",
-      "sizeBytes": 12610
+      "sizeBytes": 12610,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:eef3f447551c17b83087cf57ba440b42a841b7c4c6aa30a7c017fe754400448b",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-05",
@@ -2978,8 +3128,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-05.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/05/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:022e79baef62f217c07dda9af1c9f05d5e9f3ffc6c641bd9b0dbdac4ef1b347d",
+        "etag": "\"bd622232f456dbc14061043c9af9b4374c3a51779de04fe0fc25c137d8210a68\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -2993,7 +3154,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:4f56b7f1273b1bd7729982629a0268e05cbe76333b567c29430dbec302c05b03",
-      "sizeBytes": 13985
+      "sizeBytes": 13985,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:022e79baef62f217c07dda9af1c9f05d5e9f3ffc6c641bd9b0dbdac4ef1b347d",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-06",
@@ -3004,8 +3172,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-06.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/06/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:286664d4ae7ada13e4474105ad6c91e6e534eb2b16ef4cfe6ac4ac224cc88dd6",
+        "etag": "\"6a9de2419311e16d01ecd5042ab035898ad7fe6928be1f21c626a8f28c416dc8\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3019,7 +3198,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:43aec1b942a6369990021336640faecbc192013c8a3817f11ed293677e520032",
-      "sizeBytes": 13328
+      "sizeBytes": 13328,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:286664d4ae7ada13e4474105ad6c91e6e534eb2b16ef4cfe6ac4ac224cc88dd6",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-07",
@@ -3030,8 +3216,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-07.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/07/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:faf74f8ead1431813a9571ac019dfd57033a6f439c6131f1ac47628e95b55310",
+        "etag": "\"9f97b709fc4810c0595bc33280dd9abcaf26d5c2a5aefeff5e562a2a809fae9c\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3045,7 +3242,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:2b792f3a287695521f9950215cad366951be0a344562b747995bc723c7a49c5d",
-      "sizeBytes": 12623
+      "sizeBytes": 12623,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:faf74f8ead1431813a9571ac019dfd57033a6f439c6131f1ac47628e95b55310",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-08",
@@ -3056,8 +3260,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-08.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/08/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:13592b93926299be4ac49d64294324257f99c5999297b2eadda9dab4fbd2ff2e",
+        "etag": "\"67e823ed9d7eea8e30ac8579b21eacbbb2ae27ec8eeb23af8a38af5058aa2d0f\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3071,7 +3286,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:c05c0d11c5f4bb9b7fd0fb083b359ca8da061545113f4b2e39d1b0eef99d73c5",
-      "sizeBytes": 14368
+      "sizeBytes": 14368,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:13592b93926299be4ac49d64294324257f99c5999297b2eadda9dab4fbd2ff2e",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-09",
@@ -3082,8 +3304,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-09.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/09/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:2eb0f9f43a5b9cdb7aaf459cd44d2f30d0438f141a1bedde702b25ad31abb227",
+        "etag": "\"a520b623206a7be34f9b63f94c6b7341c02430e600b6687818da17f04799093e\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3097,7 +3330,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:2c9a7165153259df1a80f8ad7fd8daadbfb50d7e31821a9f15e6c9938a3dfa5e",
-      "sizeBytes": 13107
+      "sizeBytes": 13107,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:2eb0f9f43a5b9cdb7aaf459cd44d2f30d0438f141a1bedde702b25ad31abb227",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-10",
@@ -3108,8 +3348,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-10.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/10/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:cab9cde3c0a2e9ae140464f26d092595896099ec6ed27da22452a69c7d911f09",
+        "etag": "\"a5eaa84c8a0abf465ab150474b8e4b20564f8dfdd594d799b542952dd2e16043\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3123,7 +3374,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:4018b26d8c724f848a0c56b575549b065e199527b04312862cee14d618587797",
-      "sizeBytes": 13191
+      "sizeBytes": 13191,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:cab9cde3c0a2e9ae140464f26d092595896099ec6ed27da22452a69c7d911f09",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-11",
@@ -3134,8 +3392,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-11.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/11/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:8e1aaf5564b5179652215eff785fa428272ffd21428c0eb58f720fdac7f5eff5",
+        "etag": "\"64ad2d788c65af3365f4037232c5db5d8c466eb0394b561fa5c52b8a87f16a97\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3149,7 +3418,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:1168b1ebd3e59725360bcfaa8ac0c2d9de5dbbe19407231386413c146bfe1d92",
-      "sizeBytes": 13884
+      "sizeBytes": 13884,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:8e1aaf5564b5179652215eff785fa428272ffd21428c0eb58f720fdac7f5eff5",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-12",
@@ -3160,8 +3436,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-12.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/12/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:2886873a9cc1591be1d65a8ed853391e37b60b5a9cdf9ec539c04b114e7f55e9",
+        "etag": "\"b11e39a9bc5e425b5926956bea34f2a6da79f3551aada526f806bb667759a495\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3175,7 +3462,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:caf548fd82d3492e8164ae86e81a61c8d4fb1c12499edf31831e9592ab39b5b7",
-      "sizeBytes": 13430
+      "sizeBytes": 13430,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:2886873a9cc1591be1d65a8ed853391e37b60b5a9cdf9ec539c04b114e7f55e9",
+        "reviewStatus": "reviewed-existing"
+      }
     },
     {
       "id": "reading-teacher-13",
@@ -3186,8 +3480,19 @@
       "url": "/recursos/2026-q4/lecturas/maestros/leccion-13.html",
       "storage": "local",
       "source": {
-        "kind": "manual",
-        "provider": "Folleto español Q4 2026"
+        "kind": "url",
+        "url": "https://raw.githubusercontent.com/Adventech/sabbath-school-lessons/stage/src/en/2026-04/13/teacher-comments.md",
+        "allowedContentTypes": [
+          "text/plain",
+          "text/markdown",
+          "application/octet-stream"
+        ],
+        "maxBytes": 500000,
+        "provider": "Adventech",
+        "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
+        "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
+        "currentChecksum": "sha256:69fe12b45ed169a9bc6673051053cfd6de902e12cd2b950d35b46eeb6d4d5c48",
+        "etag": "\"fabd54f344959d0f17e1237f72b1491119e3218b284baa86379387d4062ef611\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3201,7 +3506,14 @@
         "reviewStatus": "pending-editorial-review"
       },
       "checksum": "sha256:e19099d31218bc0770908aef1a2d67b1334710c910a8ab97464fe26b2bc4fd3a",
-      "sizeBytes": 13918
+      "sizeBytes": 13918,
+      "translation": {
+        "sourceLanguage": "en",
+        "targetLanguage": "es",
+        "method": "manual",
+        "sourceChecksum": "sha256:69fe12b45ed169a9bc6673051053cfd6de902e12cd2b950d35b46eeb6d4d5c48",
+        "reviewStatus": "reviewed-existing"
+      }
     }
   ],
   "resourceAutomation": {
