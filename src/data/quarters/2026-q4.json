@@ -3359,8 +3359,8 @@
         "provider": "Adventech",
         "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
         "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
-        "currentChecksum": "sha256:cab9cde3c0a2e9ae140464f26d092595896099ec6ed27da22452a69c7d911f09",
-        "etag": "\"a5eaa84c8a0abf465ab150474b8e4b20564f8dfdd594d799b542952dd2e16043\""
+        "currentChecksum": "sha256:27a7a5ad1cd392e056b3f164aaf1b46a175c966f947f97dd4f6bc9182e4a11db",
+        "etag": "\"f0a6f4a04527c3f2a79f214a0542841a6cc85a7d08e08db252d5feb49c518720\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3380,7 +3380,8 @@
         "targetLanguage": "es",
         "method": "manual",
         "sourceChecksum": "sha256:cab9cde3c0a2e9ae140464f26d092595896099ec6ed27da22452a69c7d911f09",
-        "reviewStatus": "reviewed-existing"
+        "reviewStatus": "source-changed",
+        "detectedSourceChecksum": "sha256:27a7a5ad1cd392e056b3f164aaf1b46a175c966f947f97dd4f6bc9182e4a11db"
       }
     },
     {
@@ -3403,8 +3404,8 @@
         "provider": "Adventech",
         "providerUrl": "https://github.com/Adventech/sabbath-school-lessons",
         "credit": "Fuente original de Adventech; uso de versión española o traducción propia revisada.",
-        "currentChecksum": "sha256:8e1aaf5564b5179652215eff785fa428272ffd21428c0eb58f720fdac7f5eff5",
-        "etag": "\"64ad2d788c65af3365f4037232c5db5d8c466eb0394b561fa5c52b8a87f16a97\""
+        "currentChecksum": "sha256:56ea63381651e48aee34618e5065b0687597a037234f5a81dc40e9ec3772bf87",
+        "etag": "\"5f861eb3e0089738f0a405978bdd54a980b31f9766eb59ed8b8938d5c97e10a0\""
       },
       "contentSource": {
         "kind": "local-pdf",
@@ -3424,7 +3425,8 @@
         "targetLanguage": "es",
         "method": "manual",
         "sourceChecksum": "sha256:8e1aaf5564b5179652215eff785fa428272ffd21428c0eb58f720fdac7f5eff5",
-        "reviewStatus": "reviewed-existing"
+        "reviewStatus": "source-changed",
+        "detectedSourceChecksum": "sha256:56ea63381651e48aee34618e5065b0687597a037234f5a81dc40e9ec3772bf87"
       }
     },
     {
