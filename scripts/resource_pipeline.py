@@ -32,6 +32,7 @@ def parse_args() -> argparse.Namespace:
     mode.add_argument("--apply", action="store_true", help="Apply safe changes (default)")
     mode.add_argument("--plan", action="store_true", help="Only calculate changes")
     parser.add_argument("--offline", action="store_true", help="Skip remote sources")
+    parser.add_argument("--defer-assisted", action="store_true", help="Keep assisted updates in the report, outside the publishable catalog")
     parser.add_argument("--skip-build", action="store_true")
     parser.add_argument("--no-install", action="store_true", help="Do not run npm ci when dependencies are missing")
     parser.add_argument("--catalog", type=Path, default=DEFAULT_CATALOG)
@@ -126,8 +127,11 @@ def main() -> int:
             ]
             if apply:
                 command.append("--apply")
-            if name == "remote-update" and args.offline:
-                command.append("--offline")
+            if name == "remote-update":
+                if args.offline:
+                    command.append("--offline")
+                if args.defer_assisted:
+                    command.append("--defer-assisted")
             returncode, _output = _run(command)
             step_report = _read_report(step_report_path)
             step_errors = list(step_report.get("errors", []))
@@ -205,6 +209,7 @@ def main() -> int:
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "mode": "apply" if apply else "plan",
         "offline": args.offline,
+        "deferAssisted": args.defer_assisted,
         "doctor": doctor,
         "changed": changed,
         "requiresReview": bool(tasks),

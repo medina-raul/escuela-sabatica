@@ -27,8 +27,27 @@ jobs:
       - name: Descargar repositorio
         uses: actions/checkout@v7
         with:
+          ref: main
           fetch-depth: 0
           token: ${{ secrets.AUTOMATION_GITHUB_TOKEN || github.token }}
+
+      - name: Preparar rama automática desde main publicado
+        shell: bash
+        run: |
+          git fetch origin main
+          BASE_SHA=$(git rev-parse origin/main)
+          REMOTE_SHA=$(git ls-remote --heads origin "$AUTOMATION_BRANCH" | cut -f1)
+          if [ -n "$REMOTE_SHA" ]; then
+            git fetch origin "$AUTOMATION_BRANCH"
+            # Only replace the bot's reproducible branch, never a human's work.
+            if git log "origin/main..$REMOTE_SHA" --format='%ae' | grep -v -x 'actions@users.noreply.github.com'; then
+              echo "La rama automática contiene trabajo ajeno al bot; requiere revisión." >&2
+              exit 1
+            fi
+          fi
+          echo "AUTOMATION_BASE_SHA=$BASE_SHA" >> "$GITHUB_ENV"
+          echo "AUTOMATION_REMOTE_SHA=$REMOTE_SHA" >> "$GITHUB_ENV"
+          git switch -c "$AUTOMATION_BRANCH" "$BASE_SHA"
 
       - name: Preparar Python
         uses: actions/setup-python@v7
@@ -45,7 +64,7 @@ jobs:
         run: npm ci
 
       - name: Reestructurar, importar, actualizar, auditar y compilar
-        run: npm run resources:sync -- --report "$RESOURCE_REPORT" --no-install
+        run: npm run resources:sync -- --report "$RESOURCE_REPORT" --no-install --defer-assisted
 
       - name: Guardar informe de ejecución
         if: always()
@@ -63,7 +82,7 @@ jobs:
           TASK_COUNT=$(python3 -c 'import json, os; print(len(json.load(open(os.environ["RESOURCE_REPORT"], encoding="utf-8")).get("tasks", [])))')
           echo "tasks=$TASK_COUNT" >> "$GITHUB_OUTPUT"
           if [ "$TASK_COUNT" -gt 0 ]; then
-            echo "Hay $TASK_COUNT tarea(s) asistida(s); no se autoriza una publicación desatendida." >> "$GITHUB_STEP_SUMMARY"
+            echo "Hay $TASK_COUNT tarea(s) asistida(s) en el informe; sus recursos publicados se conservan. Los audios y PPT validados pueden actualizarse." >> "$GITHUB_STEP_SUMMARY"
           fi
           if git diff --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -80,59 +99,51 @@ jobs:
           git config user.name "escuela-sabatica-bot"
           git config user.email "actions@users.noreply.github.com"
           git fetch origin main
-          if git ls-remote --exit-code --heads origin "$AUTOMATION_BRANCH" >/dev/null; then
-            git fetch origin "$AUTOMATION_BRANCH"
-            git switch --track -c "$AUTOMATION_BRANCH" "origin/$AUTOMATION_BRANCH"
-            git merge --no-edit origin/main
-          else
-            git switch -c "$AUTOMATION_BRANCH" origin/main
+          if [ "$(git rev-parse origin/main)" != "$AUTOMATION_BASE_SHA" ]; then
+            echo "main cambió durante la revisión; volver a ejecutar sobre la nueva versión." >&2
+            exit 1
           fi
           git add src/data/quarters public/resource-manifest.json public/recursos
           if ! git diff --cached --quiet; then
             git commit -m "chore(resources): actualización automática de recursos"
           fi
-          git push origin "HEAD:refs/heads/$AUTOMATION_BRANCH"
+          # Rebuild only the bot branch from the published baseline. The explicit
+          # lease rejects concurrent edits; main is updated only through its PR.
+          git push --force-with-lease="refs/heads/$AUTOMATION_BRANCH:$AUTOMATION_REMOTE_SHA" origin "HEAD:refs/heads/$AUTOMATION_BRANCH"
 
       - name: Crear o actualizar pull request
         if: steps.changes.outputs.changed == 'true'
         id: pull_request
-        env:
-          TASK_COUNT: ${{ steps.changes.outputs.tasks }}
         shell: bash
         run: |
-          BODY=$(printf '%s\n' \
+          BODY_FILE=$(mktemp)
+          printf '%s\n' \
             'Actualización generada por el verificador semanal de recursos.' \
             '' \
             '- Descargas validadas por tipo, tamaño y checksum.' \
-            '- Las tareas no deterministas quedan en cola para una persona o cualquier agente compatible.' \
+            '- Las tareas asistidas se conservan en el informe; sus recursos publicados no se modifican.' \
             '- Se procesó la bandeja manual y se comprobó la estructura canónica.' \
             '- Catálogo y manifiesto auditados.' \
             '- `npm run resources:test` completado dentro del pipeline.' \
             '- `npm run build` completado antes de abrir este PR.' \
             '- Las rutas locales del sitio construido fueron auditadas.' \
             '' \
-            'Revisar el informe adjunto a la ejecución antes de fusionar.')
+            "Informe: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" > "$BODY_FILE"
           PR_URL=$(gh pr list --base main --head "$AUTOMATION_BRANCH" --state open --json url --jq '.[0].url // ""')
           if [ -n "$PR_URL" ]; then
-            gh pr edit "$PR_URL" --title "chore(resources): actualización de recursos" --body "$BODY"
-            if [ "$TASK_COUNT" -gt 0 ]; then
-              gh pr ready "$PR_URL" --undo || true
-            else
+            gh pr edit "$PR_URL" --title "chore(resources): actualización de recursos" --body-file "$BODY_FILE"
+            if [ "$(gh pr view "$PR_URL" --json isDraft --jq '.isDraft')" = "true" ]; then
               gh pr ready "$PR_URL"
             fi
             echo "PR actualizado: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
           else
-            if [ "$TASK_COUNT" -gt 0 ]; then
-              PR_URL=$(gh pr create --draft --base main --head "$AUTOMATION_BRANCH" --title "chore(resources): actualización de recursos" --body "$BODY")
-            else
-              PR_URL=$(gh pr create --base main --head "$AUTOMATION_BRANCH" --title "chore(resources): actualización de recursos" --body "$BODY")
-            fi
+            PR_URL=$(gh pr create --base main --head "$AUTOMATION_BRANCH" --title "chore(resources): actualización de recursos" --body-file "$BODY_FILE")
             echo "PR creado: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
           fi
           echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
 
       - name: Fusionar actualización completamente validada
-        if: steps.changes.outputs.changed == 'true' && steps.changes.outputs.tasks == '0'
+        if: steps.changes.outputs.changed == 'true'
         shell: bash
         env:
           PR_URL: ${{ steps.pull_request.outputs.url }}
@@ -159,31 +170,40 @@ jobs:
           echo "PR fusionado automáticamente después de todas las validaciones." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Registrar tareas asistidas para un agente
-        if: steps.changes.outputs.tasks != '0'
+        if: steps.changes.outputs.tasks != '' && steps.changes.outputs.tasks != '0'
         shell: bash
         env:
           TASK_COUNT: ${{ steps.changes.outputs.tasks }}
-          PR_URL: ${{ steps.pull_request.outputs.url }}
         run: |
+          echo "### Tareas asistidas pendientes ($TASK_COUNT)" >> "$GITHUB_STEP_SUMMARY"
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, os
+          with open(os.environ["RESOURCE_REPORT"], encoding="utf-8") as report_file:
+              report = json.load(report_file)
+          for task in report.get("tasks", []):
+              print(f"- Lección {task['lessonNumber']}: {task['kind']} ({task['reason']}). Fuente: {task['sourceUrl']}")
+          print("\nLas lecturas publicadas se mantienen hasta su revisión editorial. El informe completo está en el artefacto resource-update-report.")
+          PY
+          if [ "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.has_issues')" != "true" ]; then
+            echo "Incidencias desactivadas: las tareas quedan registradas en este resumen y en el informe." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
           TITLE="content(resources): tareas asistidas pendientes"
           EXISTING=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
-          BODY=$(printf '%s\n' \
+          BODY_FILE=$(mktemp)
+          printf '%s\n' \
             "El actualizador encontró $TASK_COUNT tarea(s) que requieren un agente compatible." \
             '' \
-            "PR borrador: ${PR_URL:-sin cambios publicables}" \
-            "Informe: resource-update-report (artefacto de esta ejecución)." \
+            "Informe: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID (artefacto resource-update-report)." \
             '' \
-            'Seguir `.agents/workflows/actualizar-recursos-semanales.md` y volver a ejecutar el ciclo.')
+            'Seguir `.agents/workflows/actualizar-recursos-semanales.md` y volver a ejecutar el ciclo.' > "$BODY_FILE"
           if [ -z "$EXISTING" ]; then
-            gh issue create --title "$TITLE" --body "$BODY"
+            gh issue create --title "$TITLE" --body-file "$BODY_FILE"
           else
-            gh issue edit "$EXISTING" --body "$BODY"
+            gh issue edit "$EXISTING" --body-file "$BODY_FILE"
           fi
-          echo "La publicación se detuvo hasta que un agente complete las tareas asistidas." >> "$GITHUB_STEP_SUMMARY"
-          exit 1
 
       - name: Esperar Vercel y comprobar producción
-        if: steps.changes.outputs.tasks == '0'
         run: >-
           python3 scripts/verify_deployment.py
           --base-url https://escuelasabatica.cl

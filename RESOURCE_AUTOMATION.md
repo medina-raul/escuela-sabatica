@@ -31,7 +31,7 @@ bloqueo de concurrencia
 
 El sistema nunca usa `git reset`, `git add -A`, rebase automático ni push forzado a `main`. Si encuentra cambios locales, commits divergentes, rutas inesperadas, tareas no deterministas o comprobaciones fallidas, se detiene sin sobrescribir trabajo y genera `artifacts/site-maintenance-report.json`.
 
-Las tareas asistidas —actualmente traducciones nuevas para maestros— producen un PR borrador y requieren un agente compatible antes de fusionarse. Todo lo determinista es completamente desatendido.
+En el ciclo local, las tareas asistidas —actualmente traducciones nuevas para maestros— producen un PR borrador y requieren un agente compatible antes de fusionarse. En la revisión nocturna, se conservan en el informe y las lecturas publicadas permanecen intactas; los audios y PPT validados se actualizan de forma desatendida.
 
 ## Comandos estables
 
@@ -49,6 +49,7 @@ npm run resources:sync:offline
 - `site:update:local` ejecuta el motor completo de recursos sin GitHub ni despliegue.
 - `resources:plan` calcula la reestructuración, los ingresos manuales, las actualizaciones remotas y las tareas asistidas sin modificar archivos.
 - `resources:sync` reestructura, importa, descarga, valida, reemplaza atómicamente, audita y compila.
+- `resources:sync -- --defer-assisted` conserva en el informe las tareas asistidas sin modificar sus entradas publicadas en el catálogo. Se utiliza en GitHub Actions; las validaciones se ejecutan sobre los cambios que sí se publicarán.
 - `resources:sync:offline` ejecuta el mantenimiento físico y manual sin consultar Internet.
 
 El catálogo activo se define en `resource-automation.json`. El catálogo contiene las fuentes permitidas, las reglas de descubrimiento y la disposición física canónica. Cambiar de trimestre no requiere modificar los scripts.
@@ -102,7 +103,11 @@ El script de aplicación vuelve a comprobar el checksum de la fuente, valida amb
 
 ## Publicación semanal
 
-`.github/workflows/weekly-resources.yml` revisa las fuentes tres noches por semana en un runner limpio, publica sólo las rutas autorizadas y abre un PR de revisión; reutiliza la misma rama temporal mientras el PR esté abierto, la elimina al fusionarlo después de las validaciones y comprueba `https://escuelasabatica.cl`. Para una ejecución semanal sin aprobaciones manuales se configura una sola vez el secreto `AUTOMATION_GITHUB_TOKEN` con un token de la cuenta administradora y permisos de contenido, PR e incidencias. El token estándar queda como respaldo, pero GitHub puede exigir aprobar manualmente los workflows que ese mismo token genera.
+`.github/workflows/weekly-resources.yml` revisa las fuentes tres noches por semana en un runner limpio, siempre desde el `main` oficial. Prepara la rama temporal antes de generar recursos, publica sólo las rutas autorizadas y reutiliza el PR del bot. La rama del bot se reconstruye desde `main` con una comprobación explícita de su SHA remoto (`--force-with-lease`); si contiene commits de otra persona o alguien la modifica durante la ejecución, el proceso se detiene. También se detiene si `main` cambia durante la revisión. Nunca se fuerza `main`.
+
+Después de auditar y compilar, se fusionan los recursos deterministas, se elimina la rama temporal y se comprueba `https://escuelasabatica.cl`. Las traducciones pendientes quedan en el resumen y el artefacto `resource-update-report`, sin modificar sus recursos publicados ni bloquear audios y PPT. Si el repositorio admite incidencias, también se registra la cola allí; tener incidencias desactivadas no es un error.
+
+Para una ejecución semanal sin aprobaciones manuales se configura una sola vez el secreto `AUTOMATION_GITHUB_TOKEN` con un token de la cuenta administradora y permisos de contenido, PR e incidencias. El token estándar queda como respaldo, pero GitHub puede exigir aprobar manualmente los workflows que ese mismo token genera.
 
 Los PR de recursos ejecutan además `.github/workflows/resource-pr-validation.yml`.
 

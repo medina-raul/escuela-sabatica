@@ -58,6 +58,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
     parser.add_argument("--apply", action="store_true", help="Apply changes; otherwise run as dry-run")
     parser.add_argument("--offline", action="store_true", help="Skip all network checks")
+    parser.add_argument("--defer-assisted", action="store_true", help="Report assisted tasks while preserving their published resource entries")
     parser.add_argument("--timeout", type=float, default=20.0)
     parser.add_argument("--report", type=Path)
     return parser.parse_args()
@@ -398,6 +399,7 @@ def _discover_teacher_readings(
     changes: list[str],
     warnings: list[str],
     tasks: list[dict[str, Any]],
+    defer_assisted: bool = False,
 ) -> set[str]:
     config = catalog.get("resourceAutomation", {}).get("teacherReadingDiscovery")
     if not config:
@@ -451,6 +453,8 @@ def _discover_teacher_readings(
             )
             continue
 
+        published_resource = copy.deepcopy(resource) if defer_assisted else None
+        change_start = len(changes)
         handled_ids.add(resource["id"])
         if resource.get("url") != local_url:
             resource["url"] = local_url
@@ -500,6 +504,12 @@ def _discover_teacher_readings(
             translation["reviewStatus"] = "source-changed"
             resource["translation"] = translation
             changes.append(f"teacher-source-pending:{resource['id']}")
+        # Scheduled runs report the changed source without publishing metadata
+        # for a translation that still needs editorial review.
+        if published_resource is not None:
+            resource.clear()
+            resource.update(published_resource)
+            del changes[change_start:]
         reason = "source-changed" if target.is_file() else "missing-output"
         tasks.append(
             {
@@ -671,6 +681,7 @@ def main() -> int:
                     changes=changes,
                     warnings=warnings,
                     tasks=teacher_tasks,
+                    defer_assisted=args.defer_assisted,
                 )
                 planned = _stage_local_url_sources(
                     catalog,
@@ -709,6 +720,7 @@ def main() -> int:
         "schemaVersion": 1,
         "mode": "apply" if args.apply else "dry-run",
         "offline": args.offline,
+        "deferAssisted": args.defer_assisted,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "changed": bool(changes),
         "requiresReview": bool(teacher_tasks),
