@@ -29,7 +29,7 @@ bloqueo de concurrencia
   -> espera de Vercel + verificación de producción
 ```
 
-El sistema nunca usa `git reset`, `git add -A`, rebase automático ni push forzado a `main`. Si encuentra cambios locales, commits divergentes, rutas inesperadas, tareas no deterministas o comprobaciones fallidas, se detiene sin sobrescribir trabajo y genera `artifacts/site-maintenance-report.json`.
+El orquestador local nunca usa `git reset`, `git add -A`, rebase automático ni push forzado a `main`. Si encuentra cambios locales, commits divergentes, rutas inesperadas, tareas no deterministas o comprobaciones fallidas, se detiene sin sobrescribir trabajo y genera `artifacts/site-maintenance-report.json`.
 
 En el ciclo local, las tareas asistidas —actualmente traducciones nuevas para maestros— producen un PR borrador y requieren un agente compatible antes de fusionarse. En la revisión nocturna, se conservan en el informe y las lecturas publicadas permanecen intactas; los audios y PPT validados se actualizan de forma desatendida.
 
@@ -103,11 +103,11 @@ El script de aplicación vuelve a comprobar el checksum de la fuente, valida amb
 
 ## Publicación semanal
 
-`.github/workflows/weekly-resources.yml` revisa las fuentes tres noches por semana en un runner limpio, siempre desde el `main` oficial. Prepara la rama temporal antes de generar recursos, publica sólo las rutas autorizadas y reutiliza el PR del bot. La rama del bot se reconstruye desde `main` con una comprobación explícita de su SHA remoto (`--force-with-lease`); si contiene commits de otra persona o alguien la modifica durante la ejecución, el proceso se detiene. También se detiene si `main` cambia durante la revisión. Nunca se fuerza `main`.
+`.github/workflows/weekly-resources.yml` revisa las fuentes tres noches por semana en un runner limpio, siempre desde el `main` oficial. Después de auditar el catálogo, ejecutar las pruebas, compilar y auditar las rutas, crea un commit limitado a `src/data/quarters`, `public/resource-manifest.json` y `public/recursos`. Lo envía directamente a `main` con un push normal, sin crear ramas ni PR para el ciclo nocturno. Si `main` cambia durante la revisión, el proceso se detiene; el push también rechaza cualquier actualización concurrente. Nunca se fuerza `main`.
 
-Después de auditar y compilar, se fusionan los recursos deterministas, se elimina la rama temporal y se comprueba `https://escuelasabatica.cl`. Las traducciones pendientes quedan en el resumen y el artefacto `resource-update-report`, sin modificar sus recursos publicados ni bloquear audios y PPT. Si el repositorio admite incidencias, también se registra la cola allí; tener incidencias desactivadas no es un error.
+Las traducciones pendientes quedan en el resumen y el artefacto `resource-update-report`, sin modificar sus recursos publicados ni bloquear audios y PPT. Si el repositorio admite incidencias, también se registra la cola allí; tener incidencias desactivadas no es un error.
 
-Para una ejecución semanal sin aprobaciones manuales se configura una sola vez el secreto `AUTOMATION_GITHUB_TOKEN` con un token de la cuenta administradora y permisos de contenido, PR e incidencias. El token estándar queda como respaldo, pero GitHub puede exigir aprobar manualmente los workflows que ese mismo token genera.
+La ejecución nocturna utiliza el token estándar de GitHub Actions con permiso de contenido; `AUTOMATION_GITHUB_TOKEN` se admite como alternativa. La publicación directa evita depender de la aprobación humana que GitHub exige a los workflows de PR creados por su propio bot. Vercel despliega desde `main` y la misma ejecución nocturna espera el despliegue y comprueba `https://escuelasabatica.cl`.
 
 Los PR de recursos ejecutan además `.github/workflows/resource-pr-validation.yml`.
 
