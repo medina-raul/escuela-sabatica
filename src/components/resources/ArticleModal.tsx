@@ -124,9 +124,13 @@ export function ArticleModal(_props: Props) {
   }, [openArticle]);
 
   useEffect(() => {
-    if (!content || !contentRef.current) return;
-    enhanceBibleReferences(contentRef.current, setActiveReference);
-  }, [content]);
+    if (loading || !content || !contentRef.current) return;
+    const root = contentRef.current;
+    // This effect owns the sanitized HTML and its reference links. React must
+    // not replace them when opening or closing the nested Bible modal.
+    root.innerHTML = content;
+    enhanceBibleReferences(root, setActiveReference);
+  }, [content, loading]);
 
   const onClose = () => {
     setArticle(null);
@@ -159,7 +163,7 @@ export function ArticleModal(_props: Props) {
           {loading ? (
             <p className="muted">Cargando...</p>
           ) : (
-            <div className="article-content" ref={contentRef} dangerouslySetInnerHTML={{ __html: content }} />
+            <div className="article-content" ref={contentRef} />
           )}
         </div>
         <div className="modal-actions">
