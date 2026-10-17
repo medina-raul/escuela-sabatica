@@ -1896,6 +1896,12 @@
             "title": "sha256:1c0024b50058f70921242692a5074c7814ee192124e81466647ad9141f158db8",
             "contentMarkdown": "sha256:19c8a59705db378d4f643728b094472822ea48f9bd0acf0e8de0229ed76d44af",
             "keyVerse": "sha256:834cbe400c8f4171b343d2e65260cc9bd4266f1e9e02ddb49024a02d750bb041"
+          },
+          "audio": {
+            "title": "Lección 5 — Sábado",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-SABADO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -1920,6 +1926,12 @@
             "date": "sha256:4f07f33d9abd04addfc2bdacd69810735efb48835d2b4c2b3c38fef983829dae",
             "title": "sha256:44a7706773c4679d737f51f373c67fc6dc5987b0a80de12ccd5f88b9c8869dbf",
             "contentMarkdown": "sha256:580bbe7b761989bfe4624db1d22fce6eb777c3e28fd2d02eea14023245f2a3d5"
+          },
+          "audio": {
+            "title": "Lección 5 — Domingo",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-DOMINGO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -1944,6 +1956,12 @@
             "date": "sha256:dca4a87c4d36555251e4dfe2b41ed01549438ad85ca19d82e9afe5cbfe411dea",
             "title": "sha256:fc4248f167a63235b7a90dc816ffa93d11e66788b210b798f28b6756b73c0663",
             "contentMarkdown": "sha256:73a0873042af43e9d87e9bc330cc6356631e28e6550add0ad8032ff3d78410b9"
+          },
+          "audio": {
+            "title": "Lección 5 — Lunes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-LUNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -1968,6 +1986,12 @@
             "date": "sha256:385ceada9f6cde107bed820a0c01f937118b3f5a6e311a373842d551c925b39f",
             "title": "sha256:b36423ed86530105e39438f1c295c9a44263e3b9909f6167193f2d2c41a2886f",
             "contentMarkdown": "sha256:71827e3696b7c24cb547239b434da298e6d93423b4bfd589bd95cb82276620f4"
+          },
+          "audio": {
+            "title": "Lección 5 — Martes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-MARTES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -1992,6 +2016,12 @@
             "date": "sha256:2a886ee9f697259e2667ea5bdb4f165f2d20a8e7c7fef8f9b954db8fd9c7444f",
             "title": "sha256:1bb14f7c1802bdd44b0eb8d6ed9a6236291e0cb722d0b558aad717c8226ef540",
             "contentMarkdown": "sha256:b6203fdd13ff6dacec1b0bcfdb2406df576cc6e916a5ac6bf5d4d3459a74e7bd"
+          },
+          "audio": {
+            "title": "Lección 5 — Miércoles",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-MIERCOLES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2016,6 +2046,12 @@
             "date": "sha256:e1367037a0810c421521d8e632205e4999e0f2efb694b3212b4c00bd8260ed6d",
             "title": "sha256:be03a86dfc60bedb3e14474a0b80690a0431fc1dc5ba30f0486733541285f2e8",
             "contentMarkdown": "sha256:6c266766c0962ad6b3741e7a6aafa8da6277dc4c870196e15c778d3562e74f8a"
+          },
+          "audio": {
+            "title": "Lección 5 — Jueves",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-JUEVES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2042,6 +2078,12 @@
             "title": "sha256:6050aa6d5613ce89203f326b3963ec0d61b03f560820554cc1601928cb835ecc",
             "contentMarkdown": "sha256:358e2420cacd0408d1e64d1ee60c4f23b671d2a6489867de3d50397a86c3777d",
             "fridayReadingAnchor": "sha256:459658980dbd22bbaaa329f64fa6ec751f77d0b1c0ba1a9a5b23c464ae1b0bc7"
+          },
+          "audio": {
+            "title": "Lección 5 — Viernes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-VIERNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         }
       ],
@@ -2070,6 +2112,181 @@
           },
           "checksum": "sha256:3bc0008c87c9e23bd6b7c6a3f65918c3bec9b6d22c68eca7ae9508ef5475042d",
           "sizeBytes": 24470289
+        },
+        {
+          "id": "audio-05-domingo",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "domingo",
+          "title": "Lección 5 — Domingo",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-DOMINGO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"32d1b2-65dfe2c1406f9\"",
+            "lastModified": "Sat, 17 Oct 2026 00:15:02 GMT"
+          },
+          "sizeBytes": 3330482
+        },
+        {
+          "id": "audio-05-jueves",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "jueves",
+          "title": "Lección 5 — Jueves",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-JUEVES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"492a52-65dfe2caca09c\"",
+            "lastModified": "Sat, 17 Oct 2026 00:15:12 GMT"
+          },
+          "sizeBytes": 4794962
+        },
+        {
+          "id": "audio-05-lunes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "lunes",
+          "title": "Lección 5 — Lunes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-LUNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"34cad2-65dfe2c442323\"",
+            "lastModified": "Sat, 17 Oct 2026 00:15:06 GMT"
+          },
+          "sizeBytes": 3459794
+        },
+        {
+          "id": "audio-05-martes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "martes",
+          "title": "Lección 5 — Martes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-MARTES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"34a7f2-65dfe2c4bc821\"",
+            "lastModified": "Sat, 17 Oct 2026 00:15:06 GMT"
+          },
+          "sizeBytes": 3450866
+        },
+        {
+          "id": "audio-05-miercoles",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "miercoles",
+          "title": "Lección 5 — Miércoles",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-MIERCOLES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3a5692-65dfe46f8d723\"",
+            "lastModified": "Sat, 17 Oct 2026 00:22:34 GMT"
+          },
+          "sizeBytes": 3823250
+        },
+        {
+          "id": "audio-05-sabado",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "sabado",
+          "title": "Lección 5 — Sábado",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-SABADO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2190f2-65dfe2be4b9d6\"",
+            "lastModified": "Sat, 17 Oct 2026 00:14:59 GMT"
+          },
+          "sizeBytes": 2199794
+        },
+        {
+          "id": "audio-05-viernes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 5,
+          "dayId": "viernes",
+          "title": "Lección 5 — Viernes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-VIERNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-5-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"37a972-65dfe2c8882b3\"",
+            "lastModified": "Sat, 17 Oct 2026 00:15:10 GMT"
+          },
+          "sizeBytes": 3647858
         }
       ],
       "title": "Revelación e inspiración",
