@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q4",
-  "catalogChecksum": "sha256:5034c366c0abba0acaff7856e577ff6a4c451e5891c6f2e0baccf4bf0cf293a7",
-  "resourceCount": 53,
-  "localResourceCount": 18,
+  "catalogChecksum": "sha256:5ad262bc9a84d368212d027f649ea0b9ac56efc198ff4e85cadb5a9631fe6432",
+  "resourceCount": 54,
+  "localResourceCount": 19,
   "resources": [
     {
       "id": "audio-01-domingo",
@@ -404,6 +404,16 @@
       "storage": "local",
       "checksum": "sha256:3bc0008c87c9e23bd6b7c6a3f65918c3bec9b6d22c68eca7ae9508ef5475042d",
       "sizeBytes": 24470289
+    },
+    {
+      "id": "ppt-06",
+      "type": "ppt",
+      "role": "weekly-presentation",
+      "lessonNumber": 6,
+      "url": "/recursos/2026-q4/ppt/leccion-06.pptx",
+      "storage": "local",
+      "checksum": "sha256:7cde4820485c7b0865bc92e8fe03dbf54177eb0ca2ca8584cdca8fdc5f764e77",
+      "sizeBytes": 25424117
     },
     {
       "id": "reading-teacher-01",

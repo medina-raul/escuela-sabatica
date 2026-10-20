@@ -2508,7 +2508,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-06",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 6,
+          "title": "Presentación PPT — Lección 6",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-06.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t406.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"183f0f5-65e23d556fe2d\"",
+            "lastModified": "Sun, 18 Oct 2026 21:10:56 GMT"
+          },
+          "checksum": "sha256:7cde4820485c7b0865bc92e8fe03dbf54177eb0ca2ca8584cdca8fdc5f764e77",
+          "sizeBytes": 25424117
+        }
+      ],
       "title": "Los escritos proféticos",
       "dateRange": "Para el 07/11/2026",
       "startDate": "2026-10-31",
