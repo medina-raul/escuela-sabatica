@@ -1,6 +1,7 @@
 ---
 import Analytics from "@vercel/analytics/astro";
 import AppLayout from "./AppLayout.astro";
+import { inject } from "@vercel/analytics";
 import "@styles/globals.css";
 
 type Props = {
@@ -20,6 +21,8 @@ const defaultImage = "/images/og-cover.svg";
 const pageDesc = description || defaultDesc;
 const pageImage = image || defaultImage;
 const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
+
+inject();
 ---
 
 <!doctype html>
