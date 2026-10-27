@@ -2359,6 +2359,12 @@
             "title": "sha256:389a64b0780cb812e01246cf19bbf5e905f248ce277f54a26d8aaa15b8ba75d6",
             "contentMarkdown": "sha256:6ce82fa18684cda418e4d1b45633cd9d036157aba27881ee8bf99b271f9458ac",
             "keyVerse": "sha256:d04cc120b8efcd64c9111e3ba17864617f27e2a872b1569bdb39b21f0cc90c36"
+          },
+          "audio": {
+            "title": "Lección 6 — Sábado",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-SABADO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2383,6 +2389,12 @@
             "date": "sha256:37e17f8cbb204123a1a93ab2ade330ee24a27cc4305b281cd507360510fb7fe1",
             "title": "sha256:34920ebe5ea2863529148b24040ceed8255b287daa7b0dc24ac937296ea5798b",
             "contentMarkdown": "sha256:2b5049a109b3769d7cad8b219883bd116b1591f82d326de2a822a6d3ef359c4f"
+          },
+          "audio": {
+            "title": "Lección 6 — Domingo",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-DOMINGO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2407,6 +2419,12 @@
             "date": "sha256:bb1de3879fc3904da5b8b20834d8d58eac44c618f8305a7357557ae506daf77f",
             "title": "sha256:b30ff06ea3d4d1fb037d4af71688531297c034498c7dd430663ef00c23e68c82",
             "contentMarkdown": "sha256:9f994bac139b97030c3782a1c7c933aa707202e7581f4e997a1694b9fb590995"
+          },
+          "audio": {
+            "title": "Lección 6 — Lunes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-LUNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2431,6 +2449,12 @@
             "date": "sha256:d658e2a3b5597fab6e1c619fb80cdf08d37763c2d403667798cddcf65eeccb97",
             "title": "sha256:c912e017e089357de82a56c14ef43516dcf3300bd8b1f67d2cc6c5b6db803d7f",
             "contentMarkdown": "sha256:cc3eac7d7fa67a0083d46202f3dd8255143b9ccb7c2dadc6e799db1c73eaee67"
+          },
+          "audio": {
+            "title": "Lección 6 — Martes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-MARTES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2455,6 +2479,12 @@
             "date": "sha256:ba9fc93c7ed70a8b525f0a62023d41e1344542f7d58b17385ccc81443bf5421c",
             "title": "sha256:3515f9a9585ec340584bf23efa5d14e40e5e965de5428b2fc33f94ba594ba1f1",
             "contentMarkdown": "sha256:bec8285ae3c21e3b9ce063cc72893100fde2282dc03896b524b9f8ea8af3d69e"
+          },
+          "audio": {
+            "title": "Lección 6 — Miércoles",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-MIERCOLES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2479,6 +2509,12 @@
             "date": "sha256:5fcb572b528519139e2387488eb3b6ebaf08e890f45e59c93ac2161bba96e0e4",
             "title": "sha256:79b033b0188e91d56abb1df4c1cdc0a7a8bdd97d5284a145e67520e0163fedd5",
             "contentMarkdown": "sha256:f0a5395dc1efb4883febcf7c93dad4b5593466b5022e93f114400ef586d2a59c"
+          },
+          "audio": {
+            "title": "Lección 6 — Jueves",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-JUEVES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -2505,6 +2541,12 @@
             "title": "sha256:b9dabdebd4cd8f1465ad79917d0747b7bdf5ad1442c30bc53cb6ef0252bfc1ff",
             "contentMarkdown": "sha256:a17e973be42f8ec108d5a6f31dc722286e050a03373047d388a29e9766d8bcf4",
             "fridayReadingAnchor": "sha256:7279244347642ae030b0beef5aa59f11ecc3e4dce29d6c642945aaabcb37382d"
+          },
+          "audio": {
+            "title": "Lección 6 — Viernes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-VIERNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         }
       ],
@@ -2533,6 +2575,181 @@
           },
           "checksum": "sha256:7cde4820485c7b0865bc92e8fe03dbf54177eb0ca2ca8584cdca8fdc5f764e77",
           "sizeBytes": 25424117
+        },
+        {
+          "id": "audio-06-domingo",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "domingo",
+          "title": "Lección 6 — Domingo",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-DOMINGO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2d0812-65e99c1066ab4\"",
+            "lastModified": "Sat, 24 Oct 2026 17:52:01 GMT"
+          },
+          "sizeBytes": 2951186
+        },
+        {
+          "id": "audio-06-jueves",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "jueves",
+          "title": "Lección 6 — Jueves",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-JUEVES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"2c2832-65e99c132e91b\"",
+            "lastModified": "Sat, 24 Oct 2026 17:52:04 GMT"
+          },
+          "sizeBytes": 2893874
+        },
+        {
+          "id": "audio-06-lunes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "lunes",
+          "title": "Lección 6 — Lunes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-LUNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3122d2-65e99c0f1b21e\"",
+            "lastModified": "Sat, 24 Oct 2026 17:52:00 GMT"
+          },
+          "sizeBytes": 3220178
+        },
+        {
+          "id": "audio-06-martes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "martes",
+          "title": "Lección 6 — Martes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-MARTES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"348872-65e99c1071e63\"",
+            "lastModified": "Sat, 24 Oct 2026 17:52:01 GMT"
+          },
+          "sizeBytes": 3442802
+        },
+        {
+          "id": "audio-06-miercoles",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "miercoles",
+          "title": "Lección 6 — Miércoles",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-MIERCOLES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3c6ab2-65e99c11dd2c6\"",
+            "lastModified": "Sat, 24 Oct 2026 17:52:03 GMT"
+          },
+          "sizeBytes": 3959474
+        },
+        {
+          "id": "audio-06-sabado",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "sabado",
+          "title": "Lección 6 — Sábado",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-SABADO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1dcdf2-65e99c0d6ac49\"",
+            "lastModified": "Sat, 24 Oct 2026 17:51:58 GMT"
+          },
+          "sizeBytes": 1953266
+        },
+        {
+          "id": "audio-06-viernes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 6,
+          "dayId": "viernes",
+          "title": "Lección 6 — Viernes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-VIERNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-6-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3118b2-65e99c136679e\"",
+            "lastModified": "Sat, 24 Oct 2026 17:52:04 GMT"
+          },
+          "sizeBytes": 3217586
         }
       ],
       "title": "Los escritos proféticos",
@@ -2753,7 +2970,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-07",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 7,
+          "title": "Presentación PPT — Lección 7",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-07.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t407.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"169a45d-65ebaa69b6f3a\"",
+            "lastModified": "Mon, 26 Oct 2026 09:06:52 GMT"
+          },
+          "checksum": "sha256:3cda06436daa24f74f60df3e38acab90d2fa56f35bf2230578dcc160aa1bcc77",
+          "sizeBytes": 23700573
+        }
+      ],
       "title": "¡Escuchen esto!",
       "dateRange": "Para el 14/11/2026",
       "startDate": "2026-11-07",
