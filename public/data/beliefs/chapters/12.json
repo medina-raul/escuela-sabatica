@@ -1,0 +1,4231 @@
+{
+  "beliefNumber": 12,
+  "bookChapterTitle": "La iglesia",
+  "groupInBookIndex": "LA DOCTRINA DE LA IGLESIA",
+  "printedPages": [
+    161,
+    179
+  ],
+  "pdfPages": [
+    163,
+    181
+  ],
+  "transcriptionStatus": "automated-draft-needs-editorial-review",
+  "editorialNotes": [],
+  "referenceCorrections": [],
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "text": "LLENO DE IRA, EL ANCIANO GOLPEA con fuerza la roca con el bastón que tiene en su mano. Repite el golpe y exclama: “¡Oíd ahora, rebeldes! ¿Os hemos de hacer salir aguas de esta peña?” (Núm. 20:10). De la roca brota una corriente de agua que satisface la necesidad de Israel. Pero al tomar para sí mismo el crédito por el don del agua, en vez de dirigirlo a la roca, Moisés pecó. Y por ese pecado no habría de entrar a la tierra prometida (ver Núm. 20:7-12). Esa Roca era Cristo, el Fundamento sobre el cual Dios estableció a su pueblo, tanto en lo individual como en el sentido colectivo. A través de toda la Escritura, se halla entretejida esta imagen.",
+      "pdfPage": 163,
+      "citations": [
+        {
+          "start": 183,
+          "end": 195,
+          "referenceIds": [
+            "b4-20-10-20-10"
+          ]
+        },
+        {
+          "start": 437,
+          "end": 455,
+          "referenceIds": [
+            "b4-20-7-20-12"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "En el último sermón que Moisés predicó a Israel, el patriarca, posiblemente recordando este incidente, usó la metáfora de la roca para simbolizar la estabilidad y confiabilidad de Dios:",
+      "pdfPage": 164
+    },
+    {
+      "kind": "paragraph",
+      "text": "“Porque el nombre de Jehová proclamaré. Engrandeced a nuestro Dios. Él es la roca, cuya obra es perfecta, Porque todos sus caminos son rectitud; Dios de verdad y sin ninguna iniquidad en él” (Deut. 32:3,4).",
+      "pdfPage": 164,
+      "citations": [
+        {
+          "start": 191,
+          "end": 205,
+          "referenceIds": [
+            "b5-32-3-32-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Siglos más tarde, David se hizo eco del mismo tema, presentando al Salvador como la roca:",
+      "pdfPage": 164
+    },
+    {
+      "kind": "paragraph",
+      "text": "“En Dios está mi salvación y mi gloria; En Dios está mi roca fuerte, y mi refugio” (Sal. 62:7).",
+      "pdfPage": 164,
+      "citations": [
+        {
+          "start": 83,
+          "end": 94,
+          "referenceIds": [
+            "b19-62-7-62-7"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Isaías usó la misma imagen para referirse al Mesías venidero. “Por fundamento una piedra, piedra probada, angular, preciosa, de cimiento estable” (Isa. 28:16). Pedro testifica en cuanto a que Cristo cumplió esta predicción, no como una piedra común, sino “piedra viva, desechada ciertamente por los hombres, mas para Dios escogida y preciosa” (1 Ped. 2:4). Pablo identificó al Salvador como el único fundamento seguro, diciendo: “Porque nadie puede poner otro fundamento que el que está puesto, el cual es Jesucristo” (1 Cor. 3:11). Refiriéndose a la roca que Moisés golpeó, dijo: “Y todos bebieron la misma bebida espiritual; porque bebían de la roca espiritual que los seguía, y la roca era Cristo” (1 Cor. 10:4). El mismo Jesús usó la imagen en forma directa, al declarar: “Sobre esta roca edificaré mi iglesia; y las puertas del Hades no prevalecerán contra ella” (Mat. 16:18). El Salvador estableció la iglesia cristiana fundándola sobre sí mismo, la Roca viviente. Su propio cuerpo sería sacrificado por los pecados del mundo; la Roca sería herida. Nada puede prevalecer contra una iglesia construida sobre el sólido fundamento que él provee. De esa Roca, fluirían las aguas sanadoras que apagarían la sed de las naciones sedientas (ver Eze. 47:1-12; Juan 7:37,38; Apoc. 22:1-5). ¡Cuan débil y necesitada era la iglesia cuando Cristo hizo esa declaración! Consistía en unos cuantos discípulos cansados, ambiciosos y llenos de duda, un puñado de mujeres, y la variable multitud que se desvaneció cuando la Roca fue golpeada. Sin embargo, la iglesia fue edificada, no sobre un fundamento de ingenio frágil y sabiduría humana, sino sobre la Roca de los siglos. El tiempo demostraría que nada sería capaz de destruir la iglesia ni impedirle cumplir su misión de glorificar a Dios y llevar a los seres humanos a los pies del Salvador (ver Hech. 4:12,13, 20-33).",
+      "pdfPage": 164,
+      "pdfPageEnd": 165,
+      "citations": [
+        {
+          "start": 146,
+          "end": 158,
+          "referenceIds": [
+            "b23-28-16-28-16"
+          ]
+        },
+        {
+          "start": 343,
+          "end": 355,
+          "referenceIds": [
+            "b60-2-4-2-4"
+          ]
+        },
+        {
+          "start": 518,
+          "end": 531,
+          "referenceIds": [
+            "b46-3-11-3-11"
+          ]
+        },
+        {
+          "start": 701,
+          "end": 714,
+          "referenceIds": [
+            "b46-10-4-10-4"
+          ]
+        },
+        {
+          "start": 868,
+          "end": 880,
+          "referenceIds": [
+            "b40-16-18-16-18"
+          ]
+        },
+        {
+          "start": 1238,
+          "end": 1284,
+          "referenceIds": [
+            "b26-47-1-47-12",
+            "b43-7-37-7-38",
+            "b66-22-1-22-5"
+          ]
+        },
+        {
+          "start": 1835,
+          "end": 1861,
+          "referenceIds": [
+            "b44-4-12-4-13",
+            "b44-4-20-4-33"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Significado bíblico del término “iglesia”",
+      "pdfPage": 165
+    },
+    {
+      "kind": "paragraph",
+      "text": "En las Escrituras, la palabra iglesia1 es una traducción del término griego ekklésía, que significa un llamado a reunión. Esta expresión se usaba comúnmente para designar cualquier asamblea reunida como resultado de un llamado o proclamación. La Septuaginta, la versión griega del Antiguo Testamento hebreo que era popular en el tiempo de Jesús, usaba ekklésía como traducción del hebreo qáhál, que significaba “reunión”, “ asamblea” o “ congregación” (Deut. 9:10; 18:16; 1 Sam. 17:47; 1 Rey. 8:14; 1 Crón. 13:2).2 Este uso se amplió en el Nuevo Testamento. Nótese cómo se usa el término iglesia: (1) Creyentes reunidos para adorar en un lugar específico (1 Cor. 11:18; 14:19, 28), (2) creyentes que vivían en cierta localidad (1 Cor. 16:1; Gál. 1:2; 1 Tes. 2:14), (3) un grupo de creyentes en el hogar de un individuo (1 Cor. 16:19; Col. 4:15; Filemón 2), (4) un grupo de congregaciones en una zona geográfica específica (Hech. 9:31),3 (5) todo el cuerpo de creyentes esparcidos por el mundo (Mat. 16:18; 1 Cor. 10:32; 12:28; ver Efe. 4:11-16), (6) toda la creación fiel en el cielo y en la tierra (Efe. 1:20-22; compárese con Fil. 2:9-11).",
+      "pdfPage": 165,
+      "citations": [
+        {
+          "start": 452,
+          "end": 512,
+          "referenceIds": [
+            "b5-9-10-9-10",
+            "b5-18-16-18-16",
+            "b9-17-47-17-47",
+            "b11-8-14-8-14",
+            "b13-13-2-13-2"
+          ]
+        },
+        {
+          "start": 655,
+          "end": 680,
+          "referenceIds": [
+            "b46-11-18-11-18",
+            "b46-14-19-14-19",
+            "b46-14-28-14-28"
+          ]
+        },
+        {
+          "start": 727,
+          "end": 763,
+          "referenceIds": [
+            "b46-16-1-16-1",
+            "b48-1-2-1-2",
+            "b52-2-14-2-14"
+          ]
+        },
+        {
+          "start": 819,
+          "end": 855,
+          "referenceIds": [
+            "b46-16-19-16-19",
+            "b51-4-15-4-15",
+            "b57-1-2-1-2"
+          ]
+        },
+        {
+          "start": 922,
+          "end": 934,
+          "referenceIds": [
+            "b44-9-31-9-31"
+          ]
+        },
+        {
+          "start": 993,
+          "end": 1044,
+          "referenceIds": [
+            "b40-16-18-16-18",
+            "b46-10-32-10-32",
+            "b46-12-28-12-28",
+            "b49-4-11-4-16"
+          ]
+        },
+        {
+          "start": 1099,
+          "end": 1140,
+          "referenceIds": [
+            "b49-1-20-1-22",
+            "b50-2-9-2-11"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La naturaleza de la iglesia",
+      "pdfPage": 165
+    },
+    {
+      "kind": "paragraph",
+      "text": "La Biblia describe a la iglesia como una institución divina, llamándola “la iglesia del Señor” (Hech. 20:28) y “la iglesia de Dios” (1 Cor. 1:2). Jesús invistió a la iglesia con autoridad divina (Mat. 18:17, 18). Podemos comprender la naturaleza de la iglesia cristiana al explorar sus raíces provenientes del Antiguo Testamento y las diversas metáforas que el Nuevo Testamento usa para referirse a ella.",
+      "pdfPage": 165,
+      "citations": [
+        {
+          "start": 95,
+          "end": 108,
+          "referenceIds": [
+            "b44-20-28-20-28"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 144,
+          "referenceIds": [
+            "b46-1-2-1-2"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 211,
+          "referenceIds": [
+            "b40-18-17-18-18"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Las raíces de la iglesia cristiana. El Antiguo Testamento describe a la iglesia como una congregación organizada del pueblo de Dios. Desde los primeros tiempos, las familias temerosas de Dios conectadas con el linaje de Adán, Set, Noé, Sem y Abraham, eran los guardianes de su verdad. Esos hogares, en los cuales el padre funcionaba como el sacerdote, pueden ser considerados como la iglesia en miniatura. Al patriarca Abraham, Dios le concedió las ricas promesas a través de las cuales ese hogar entregado a Dios gradualmente se convirtió en una nación. La misión de Israel era simplemente una extensión de la que se le había encomendado a Abraham: ser una bendición para todas las naciones (Gén. 12:1-3), proclamando el amor de Dios por el mundo.",
+      "pdfPage": 165,
+      "citations": [
+        {
+          "start": 692,
+          "end": 705,
+          "referenceIds": [
+            "b1-12-1-12-3"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La nación que Dios sacó de Egipto fue llamada “la congregación en el desierto” (Hech. 7:38). Sus miembros eran considerados “un reino de sacerdotes, y gente santa” (Exo. 19:6), el “ pueblo santo” de Dios (Deut. 28:9; compárese con Lev. 26:12), su iglesia. Dios los colocó en Palestina, el centro de las grandes civilizaciones del mundo. En Palestina se encuentran tres grandes continentes: Europa, Asia y África. Allí, los judíos habían de estar al servicio de las otras naciones, y extender a otros la invitación de unirse a ellos para integrar el pueblo de Dios. En resumen, Dios los llamó a salir con el fin de llamar a las naciones a entrar (Isa. 56:7). Deseaba establecer, por medio de Israel, la mayor iglesia del mundo, una iglesia a la cual asistieran los representantes de todas las naciones del mundo para adorar, aprender acerca del Dios verdadero y volver a su propio pueblo con el mensaje de salvación. A pesar del continuo cuidado de Dios por su pueblo, Israel se involucró en la idolatría, el aislamiento, el nacionalismo, el orgullo y la exaltación propia. El pueblo de Dios no cumplió su misión. En Jesús, Israel llegó a una encrucijada. El pueblo de Dios esperaba la llegada de un Mesías que libertara la nación, pero no un Mesías que los liberara de sí mismos. En la cruz, la bancarrota espiritual de Israel se hizo evidente. Al crucificar a Cristo, demostraron por sus obras externas, su corrupción interior. Cuando exclamaron: “No tenemos más rey que César” (Juan 19:15), lo que hicieron fue negarse a permitir que Dios gobernara sobre ellos. En la cruz, dos misiones opuestas llegaron a su culminación: la primera, la de una iglesia desviada, tan centrada en sí misma que estuvo ciega a la presencia del mismo Ser que le había concedido existencia; la segunda, la de Cristo, tan centrado en su amor por los demás, que pereció en lugar de ellos, para concederles vida eterna. La cruz señaló el fin de la misión de Israel; la resurrección de Cristo, por su parte, inauguró la iglesia cristiana y su misión: la proclamación del evangelio de salvación por medio de la sangre de Cristo. Cuando los judíos perdieron su misión, se convirtieron en una nación más como el resto, y dejaron de constituir la iglesia de Dios. En su lugar, Dios estableció una nueva nación, una iglesia, la cual continuará su misión ante el mundo (Mat. 21:41,43). La iglesia del Nuevo Testamento, íntimamente vinculada con la comunidad de la fe del antiguo Israel,4 está formada tanto por judíos convertidos como por gentiles que creen en Jesucristo. De este modo, el verdadero Israel está formado por todos los que por fe aceptan a Cristo (ver Gál. 3:26-29). Pablo ilustra la nueva relación orgánica de esos pueblos distintos simbolizándolos por dos árboles: un olivo bueno y cultivado, y un olivo silvestre, los cuales representan, respectivamente, a Israel y a los gentiles. Los judíos que no aceptan a Cristo dejan de ser los hijos de Dios",
+      "pdfPage": 166,
+      "citations": [
+        {
+          "start": 79,
+          "end": 91,
+          "referenceIds": [
+            "b44-7-38-7-38"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 175,
+          "referenceIds": [
+            "b2-19-6-19-6"
+          ]
+        },
+        {
+          "start": 204,
+          "end": 242,
+          "referenceIds": [
+            "b5-28-9-28-9",
+            "b3-26-12-26-12"
+          ]
+        },
+        {
+          "start": 645,
+          "end": 656,
+          "referenceIds": [
+            "b23-56-7-56-7"
+          ]
+        },
+        {
+          "start": 1479,
+          "end": 1491,
+          "referenceIds": [
+            "b43-19-15-19-15"
+          ]
+        },
+        {
+          "start": 2339,
+          "end": 2354,
+          "referenceIds": [
+            "b40-21-41-21-41",
+            "b40-21-43-21-43"
+          ]
+        },
+        {
+          "start": 2632,
+          "end": 2650,
+          "referenceIds": [
+            "b48-3-26-3-29"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "(Rom. 9:6-8), y están representados por ramas cortadas del buen árbol, mientras que los judíos que recibieron a Cristo permanecen unidos al tronco. Pablo expresa que los gentiles que aceptan a Cristo son ramas del olivo silvestre que han sido injertadas en el buen árbol (Rom. 11:17-25). Instruye a esos nuevos cristianos gentiles a respetar la herencia divina de los instrumentos escogidos de Dios: “Si la raíz es santa, también lo son las ramas. Pues si algunas de las ramas fueron desgajadas, y tú, siendo olivo silvestre, has sido injertado en lugar de ellas, y has sido hecho participante de la raíz y de la rica savia del olivo, no te jactes contra las ramas; y si te jactas, sabes que no sustentas tú a la raíz, sino la raíz a ti’’(Rom. 11:16-18). La iglesia del Nuevo Testamento difiere en forma significativa de su contraparte del Antiguo Testamento. La iglesia apostólica llegó a ser una organización independiente separada de la nación de Israel. Los límites nacionales fueron descartados, dándole a la iglesia un carácter universal. En vez de ser una iglesia nacional, se convirtió en una iglesia misionera, la cual existe para cumplir el plan original de Dios, reformulado en el mandato divino de su fundador, Jesucristo: \"Haced discípulos a todas las naciones” (Mat. 28:19).",
+      "pdfPage": 167,
+      "citations": [
+        {
+          "start": 0,
+          "end": 12,
+          "referenceIds": [
+            "b45-9-6-9-8"
+          ]
+        },
+        {
+          "start": 271,
+          "end": 286,
+          "referenceIds": [
+            "b45-11-17-11-25"
+          ]
+        },
+        {
+          "start": 738,
+          "end": 753,
+          "referenceIds": [
+            "b45-11-16-11-18"
+          ]
+        },
+        {
+          "start": 1275,
+          "end": 1287,
+          "referenceIds": [
+            "b40-28-19-28-19"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Descripciones metafóricas de la iglesia. Las descripciones metafóricas de la iglesia del Nuevo Testamento iluminan la naturaleza de la iglesia.",
+      "pdfPage": 167
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. La iglesia como un cuerpo. La metáfora del cuerpo hace énfasis en la unidad de la iglesia y la relación funcional que cada miembro mantiene con el todo. La cruz reconcilia a todos los creyentes con Dios “ en un solo cuerpo” (Efe. 2:16). Por el Espíritu Santo, son “todos bautizados en un solo cuerpo” (1 Cor. 12:13), la iglesia. La iglesia no es otra cosa que el cuerpo de Cristo (Efe. 1:23). Es el organismo a través del cual el Salvador imparte su plenitud. Los creyentes son los miembros de su cuerpo (Efe. 5:30). En consecuencia, le concede a cada creyente vida espiritual por medio de su poder y su gracia. Cristo es “la cabeza del cuerpo” (Col. 1:18), la “ cabeza de la iglesia” (Efe. 5:23). En su amor, Dios le ha concedido a cada miembro de su cuerpo eclesiástico por lo menos un don espiritual que le permite a dicho miembro cumplir una función vital. De la misma forma como la función de cada órgano es vital para el cuerpo humano, el éxito de la iglesia en completar su misión depende de que cada uno de los dones espirituales concedidos a sus miembros funcione como es debido. ¿De que sirve un cuerpo sin el corazón, o cuánto menos eficiente es si se halla desprovisto de ojos, o le falta una pierna? Si los miembros retiran sus dones, la iglesia estará muerta, ciega, o por lo menos impedida. Sin embargo, esos dones especiales que Dios asigna, no son un fin en sí mismos (ver el capítulo 17 de esta obra).",
+      "pdfPage": 167,
+      "citations": [
+        {
+          "start": 227,
+          "end": 238,
+          "referenceIds": [
+            "b49-2-16-2-16"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 318,
+          "referenceIds": [
+            "b46-12-13-12-13"
+          ]
+        },
+        {
+          "start": 383,
+          "end": 394,
+          "referenceIds": [
+            "b49-1-23-1-23"
+          ]
+        },
+        {
+          "start": 507,
+          "end": 518,
+          "referenceIds": [
+            "b49-5-30-5-30"
+          ]
+        },
+        {
+          "start": 648,
+          "end": 659,
+          "referenceIds": [
+            "b51-1-18-1-18"
+          ]
+        },
+        {
+          "start": 688,
+          "end": 699,
+          "referenceIds": [
+            "b49-5-23-5-23"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. La iglesia como templo. La iglesia es “ edificio de Dios”, “ templo de Dios” en el cual mora el Espíritu Santo. Jesucristo es su fundamento y la “principal piedra del ángulo\" (1 Cor. 3:9-16; Efe. 2:20). Este templo no es una estructura muerta; despliega crecimiento dinámico. Así como Cristo es la “ piedra viva”, dice Pedro, de la misma forma los creyentes son “piedra vivas” que sirven para edificar la “ casa espiritual\" (1 Ped. 2:4-6). El edificio todavía no está completo. Constantemente se añaden nuevas piedras vivas al templo que está siendo edificado “para morada de Dios en el Espíritu” (Efe. 2:22). Pablo insta a los creyentes a que usen los mejores materiales de construcción en este templo, con el fin de que soporte la prueba del fuego en el Día del Juicio (1 Cor. 3:12-15). La metáfora del templo hace énfasis en la santidad, tanto de la congregación local como de la iglesia en general. El templo de Dios es santo, dijo Pablo. “Si alguno destruyere el templo de Dios, Dios le destruirá a él” (1 Cor. 3:17). Las alianzas estrechas con los no creyentes son contrarias al carácter santo de la iglesia, hizo notar Pablo, y por lo tanto deben evitarse, “porque, ¿qué compañerismo tiene la justicia con la injusticia?... ¿y qué acuerdo hay entre el templo de Dios y los ídolos?” (2 Cor. 6:14, 16). (Este consejo se aplica tanto a la relación de negocio como al matrimonio.) A la iglesia debe respetársela en sumo grado, porque es el objeto sobre el cual Dios derrama su interés supremo.",
+      "pdfPage": 168,
+      "citations": [
+        {
+          "start": 178,
+          "end": 204,
+          "referenceIds": [
+            "b46-3-9-3-16",
+            "b49-2-20-2-20"
+          ]
+        },
+        {
+          "start": 427,
+          "end": 441,
+          "referenceIds": [
+            "b60-2-4-2-6"
+          ]
+        },
+        {
+          "start": 600,
+          "end": 611,
+          "referenceIds": [
+            "b49-2-22-2-22"
+          ]
+        },
+        {
+          "start": 774,
+          "end": 790,
+          "referenceIds": [
+            "b46-3-12-3-15"
+          ]
+        },
+        {
+          "start": 1011,
+          "end": 1024,
+          "referenceIds": [
+            "b46-3-17-3-17"
+          ]
+        },
+        {
+          "start": 1292,
+          "end": 1309,
+          "referenceIds": [
+            "b47-6-14-6-14",
+            "b47-6-16-6-16"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. La iglesia como la novia. Se representa la iglesia como una novia, y al Señor como el novio. Cristo promete solemnemente: “Te desposaré conmigo para siempre; te desposaré conmigo en justicia, juicio, benignidad y misericordia” (Ose. 2:19). En confirmación de esta idea, dice en otro lugar: “Yo soy vuestro esposo” (Jer. 3:14). Pablo usa la misma imagen: “Os he desposado... como una virgen pura a Cristo\" (2 Cor. 11:2). El amor que Cristo siente por su iglesia es tan profundo y duradero que él “ se entregó a sí mismo por ella” (Efe. 5:25). El Salvador hizo este sacrificio con el fin de “ santificarla, habiéndola purificado en el lavamiento del agua por la palabra” (Efe. 5:26). Por medio de la influencia santificadora de la verdad que contiene la Palabra de Dios (Juan 17:17) y la purificación que provee el bautismo, Cristo puede purificar a los miembros de la iglesia, quitándoles sus vestiduras sucias y revistiéndolos con el manto de justicia perfecta. Así puede preparar a la iglesia para que sea su novia, “una iglesia gloriosa, que no tuviese mancha ni arruga ni cosa semejante, sino que fuese santa y sin mancha” (Efe. 5:27). La gloria plena y el esplendor de la iglesia no serán vistos sino hasta cuando vuelva Cristo.",
+      "pdfPage": 168,
+      "citations": [
+        {
+          "start": 230,
+          "end": 241,
+          "referenceIds": [
+            "b28-2-19-2-19"
+          ]
+        },
+        {
+          "start": 317,
+          "end": 328,
+          "referenceIds": [
+            "b24-3-14-3-14"
+          ]
+        },
+        {
+          "start": 408,
+          "end": 421,
+          "referenceIds": [
+            "b47-11-2-11-2"
+          ]
+        },
+        {
+          "start": 532,
+          "end": 543,
+          "referenceIds": [
+            "b49-5-25-5-25"
+          ]
+        },
+        {
+          "start": 672,
+          "end": 683,
+          "referenceIds": [
+            "b49-5-26-5-26"
+          ]
+        },
+        {
+          "start": 771,
+          "end": 783,
+          "referenceIds": [
+            "b43-17-17-17-17"
+          ]
+        },
+        {
+          "start": 1129,
+          "end": 1140,
+          "referenceIds": [
+            "b49-5-27-5-27"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "4. La iglesia como la “ Jerusalén de arriba”. Las Escrituras llaman Sion a la ciudad de Jerusalén. Allí Dios mora con su pueblo (Sal. 9:11); de Sion sale la salvación (Sal. 14:7; 53:6). Esa ciudad debía llegar a ser “ el gozo de toda la tierra” (Sal. 48:2). El Nuevo Testamento describe a la iglesia como la “Jerusalén de arriba”, la contraparte espiritual de la Jerusalén terrenal (Gál. 4:26). Los ciudadanos de esta Jerusalén tienen su ciudadanía “ en los cielos” (Fil. 3:20). Son los “hijos de la promesa”, los que han \"nacido según el Espíritu”, y que gozan de la libertad por medio de la cual Cristo los ha hecho libres (Gál. 4:28, 29; 5:1). Los ciudadanos de esta ciudad ya no están atados a los esfuerzos de obtener justificación “por la ley” (Gál. 4:22,26, 31; 5:4); \"por el Espíritu” aguardan anhelantes “por fe la esperanza de la justicia”. Se dan cuenta de que en Cristo Jesús, lo que los hace ciudadanos es únicamente “la fe que obra por el amor” (Gál. 5:5, 6). Los que forman parte de esta gloriosa compañía, se han acercado “ al monte de Sion, a la ciudad del Dios vivo, Jerusalén la celestial, a la compañía de mucho millares de ángeles, a la congregación de los primogénitos que están inscritos en los cielos” (Heb. 12:22, 23).",
+      "pdfPage": 169,
+      "citations": [
+        {
+          "start": 128,
+          "end": 139,
+          "referenceIds": [
+            "b19-9-11-9-11"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 184,
+          "referenceIds": [
+            "b19-14-7-14-7",
+            "b19-53-6-53-6"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 256,
+          "referenceIds": [
+            "b19-48-2-48-2"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 393,
+          "referenceIds": [
+            "b48-4-26-4-26"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 477,
+          "referenceIds": [
+            "b50-3-20-3-20"
+          ]
+        },
+        {
+          "start": 625,
+          "end": 645,
+          "referenceIds": [
+            "b48-4-28-4-29",
+            "b48-5-1-5-1"
+          ]
+        },
+        {
+          "start": 750,
+          "end": 773,
+          "referenceIds": [
+            "b48-4-22-4-22",
+            "b48-4-26-4-26",
+            "b48-4-31-4-31",
+            "b48-5-4-5-4"
+          ]
+        },
+        {
+          "start": 959,
+          "end": 972,
+          "referenceIds": [
+            "b48-5-5-5-6"
+          ]
+        },
+        {
+          "start": 1226,
+          "end": 1242,
+          "referenceIds": [
+            "b58-12-22-12-23"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "5. La iglesia como familia. En la Escritura, se considera que la iglesia del cielo y de la tierra constituye una familia (Efe. 3:15). Se usan dos metáforas para describir cómo los individuos se unen a esta familia: La adopción (Rom. 8:14-16; Efe. 1:4-6) y el nuevo nacimiento (Juan 3:8). Por fe en Cristo, los recién bautizados ya no son esclavos, sino hijos del Padre celestial (Gál 3:26-4:7), los cuales viven bajo el nuevo pacto. Ahora forman parte “de la familia de Dios” (Efe. 2:19), “la familia de la fe” (Gál. 6:10). Los miembros de la familia de Dios se refieren a él llamándolo “Padre” (Gál. 4:6) y se relacionan unos con otros en calidad de hermanos y hermanas (Sant. 2:15; 1 Cor. 8:11; Rom. 16:1). Por haber llevado a muchos a integrar la familia de la iglesia, Pablo se considera a sí mismo como un padre espiritual. Dice el apóstol: “En Cristo Jesús yo os engendré por medio del evangelio” (1 Cor. 4:15). Se refiere a los que convirtió, llamándolos “hijos míos amados” (1 Cor. 4:14; compárese con Efe. 5:1). Una característica especial de la iglesia como familia, es la comunión. La comunión cristiana ( koinonia en griego) no es solo sociabilidad, sino “ comunión en el evangelio” (Fil. 1:5). Abarca la comunión genuina con Dios el Padre, su Hijo, y el Espíritu Santo (1 Juan 1:3; 1 Cor. 1:9; 2 Cor. 13:14); además, incluye la comunión con los creyentes (1 Juan 1:3, 7). De este modo, los miembros le extienden \"la diestra en señal de compañerismo” (Gál. 2:9) a todo aquel que pasa a ser parte de la familia.",
+      "pdfPage": 169,
+      "citations": [
+        {
+          "start": 121,
+          "end": 132,
+          "referenceIds": [
+            "b49-3-15-3-15"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 253,
+          "referenceIds": [
+            "b45-8-14-8-16",
+            "b49-1-4-1-6"
+          ]
+        },
+        {
+          "start": 276,
+          "end": 286,
+          "referenceIds": [
+            "b43-3-8-3-8"
+          ]
+        },
+        {
+          "start": 379,
+          "end": 393,
+          "referenceIds": [
+            "b48-3-26-4-7"
+          ]
+        },
+        {
+          "start": 476,
+          "end": 487,
+          "referenceIds": [
+            "b49-2-19-2-19"
+          ]
+        },
+        {
+          "start": 511,
+          "end": 522,
+          "referenceIds": [
+            "b48-6-10-6-10"
+          ]
+        },
+        {
+          "start": 595,
+          "end": 605,
+          "referenceIds": [
+            "b48-4-6-4-6"
+          ]
+        },
+        {
+          "start": 671,
+          "end": 707,
+          "referenceIds": [
+            "b59-2-15-2-15",
+            "b46-8-11-8-11",
+            "b45-16-1-16-1"
+          ]
+        },
+        {
+          "start": 903,
+          "end": 916,
+          "referenceIds": [
+            "b46-4-15-4-15"
+          ]
+        },
+        {
+          "start": 982,
+          "end": 1019,
+          "referenceIds": [
+            "b46-4-14-4-14",
+            "b49-5-1-5-1"
+          ]
+        },
+        {
+          "start": 1195,
+          "end": 1205,
+          "referenceIds": [
+            "b50-1-5-1-5"
+          ]
+        },
+        {
+          "start": 1282,
+          "end": 1320,
+          "referenceIds": [
+            "b62-1-3-1-3",
+            "b46-1-9-1-9",
+            "b47-13-14-13-14"
+          ]
+        },
+        {
+          "start": 1368,
+          "end": 1383,
+          "referenceIds": [
+            "b62-1-3-1-3",
+            "b62-1-7-1-7"
+          ]
+        },
+        {
+          "start": 1463,
+          "end": 1473,
+          "referenceIds": [
+            "b48-2-9-2-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La metáfora de la familia revela una iglesia tierna “ en la cual la gente se siente amada, respetada y reconocida como individuos con una identidad clara. Un lugar cuyos miembros reconocen que se necesitan los unos a los otros, donde se pueden desarrollar los talentos y donde la gente puede crecer y sentirse realizada”.5 También implica responsabilidad, respeto por los padres espirituales, y preocupación por los hermanos y hermanas espirituales. Finalmei re significa que cada miembro siente hacia todos los demás miembros ese amor que engendra una lealtad profunda que fundamenta y fortalece. El ser miembros de una familia eclesiástica les permite a diversos individuos, cuya naturaleza y disposición muestran grandes variaciones, gozar de la compañía mutua y apoyarse unos a otros. Los miembros de la familia de la iglesia aprenden a vivir en unidad sin perder por ello su individualidad.",
+      "pdfPage": 170
+    },
+    {
+      "kind": "paragraph",
+      "text": "6. La iglesia como columna y baluarte de la verdad. La iglesia del Dios viviente es la ‘‘ columna y baluarte de la verdad” (1 Tim. 3:15). Es la depositaría de la verdad y la ciudadela que la protege de los ataques de sus enemigos. La verdad, sin embargo, es dinámica, no estática. Si algún miembro pretende tener nueva luz —una nueva doctrina o nueva interpretación de las Escrituras—, los que tienen experiencia deben probar la nueva enseñanza aplicándole la regla de las Escrituras (ver Isa. 8:20). Si la nueva luz se ajusta a esta regla, entonces la iglesia debe aceptarla; si no, debe rechazarla. Todos los miembros deben ceder ante el veredicto que se basa en la Biblia, porque “ en la multitud de consejeros hay seguridad” (Prov. 11:14). Al esparcir la verdad, es decir, al dar testimonio, la iglesia llega a ser “la luz del mundo”, “una ciudad asentada sobre un monte” que “ no se puede esconder”, y “ sal de la tierra” (Mat. 5:13-15).",
+      "pdfPage": 170,
+      "citations": [
+        {
+          "start": 123,
+          "end": 136,
+          "referenceIds": [
+            "b54-3-15-3-15"
+          ]
+        },
+        {
+          "start": 484,
+          "end": 499,
+          "referenceIds": [
+            "b23-8-20-8-20"
+          ]
+        },
+        {
+          "start": 729,
+          "end": 742,
+          "referenceIds": [
+            "b20-11-14-11-14"
+          ]
+        },
+        {
+          "start": 927,
+          "end": 941,
+          "referenceIds": [
+            "b40-5-13-5-15"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "7. La iglesia como un ejército, militante y triunfante. La iglesia en el mundo es como un ejército empeñado en la batalla. Se la llama a luchar contra la oscuridad espiritual: “Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes” (Efe. 6:12). Los cristianos deben tomar “toda la armadura de Dios”, para que puedan “resistir en el día malo, y habiendo acabado todo, estar firmes” (Efe. 6:13). A través de los siglos, la iglesia ha tenido que luchar contra el enemigo, tanto dentro de ella como fuera (ver Hech. 20:29,30; 1 Tim. 4:1). Ha progresado en forma notable y obtenido victorias, pero no es todavía la iglesia triunfante. Desgraciadamente, todavía adolece de grandes defectos. Por medio de otra metáfora, Jesús explicó las imperfecciones que se hallan en la iglesia: “El reino de los cielos es semejante a un hombre que sembró buena semilla en su campo; pero mientras dormían los hombres, vino su enemigo y sembró cizaña entre el trigo, y se fue” (Mat. 13:24, 25). Cuando los siervos quisieron arrancar las malezas, el hacendado les dijo: \"No, no sea que al arrancar la cizaña, arranquéis con ella el trigo. Dejad crecer juntamente lo uno y lo otro hasta la siega\" (Mat. 13:29,30). Tanto el trigo como la cizaña prosperaron en el campo. Por una parte, Dios trae a la iglesia a los conversos. Satanás, por su parte, trae a los inconversos. Estos dos grupos influyen sobre todo el cuerpo, uno para purificación y el otro para corrupción. El conflicto entre ellos — dentro de la iglesia— continuará hasta el tiempo de la cosecha. La guerra externa de la iglesia tampoco se ha terminado. En el futuro le esperan tribulaciones y conflictos. Sabiendo que le queda poco tiempo, Satanás está airado contra la iglesia de Dios (Apoc. 12:12,17), y causará contra ella un “tiempo de angustia, cual nunca fue desde que hubo gente hasta entonces\". Pero Cristo intervendrá a favor de su pueblo fiel, los cuales serán libertados, “ todos los que se hallen escritos en el libro\" (Dan. 12:1). Jesús dejó la reconfortante seguridad de que “ el que persevere hasta el fin, este será salvo” (Mat. 24:13). Cuando Cristo vuelva, surgirá la iglesia triunfante. Entonces podrá “ presentársela a sí mismo, una iglesia gloriosa”, los fieles de todas las edades, comprados con su sangre, sin “mancha, ni arruga ni cosa semejante” (Efe. 5:27).",
+      "pdfPage": 170,
+      "pdfPageEnd": 171,
+      "citations": [
+        {
+          "start": 388,
+          "end": 399,
+          "referenceIds": [
+            "b49-6-12-6-12"
+          ]
+        },
+        {
+          "start": 537,
+          "end": 548,
+          "referenceIds": [
+            "b49-6-13-6-13"
+          ]
+        },
+        {
+          "start": 657,
+          "end": 689,
+          "referenceIds": [
+            "b44-20-29-20-30",
+            "b54-4-1-4-1"
+          ]
+        },
+        {
+          "start": 1111,
+          "end": 1127,
+          "referenceIds": [
+            "b40-13-24-13-25"
+          ]
+        },
+        {
+          "start": 1329,
+          "end": 1344,
+          "referenceIds": [
+            "b40-13-29-13-30"
+          ]
+        },
+        {
+          "start": 1881,
+          "end": 1897,
+          "referenceIds": [
+            "b66-12-12-12-12",
+            "b66-12-17-12-17"
+          ]
+        },
+        {
+          "start": 2126,
+          "end": 2137,
+          "referenceIds": [
+            "b27-12-1-12-1"
+          ]
+        },
+        {
+          "start": 2234,
+          "end": 2246,
+          "referenceIds": [
+            "b40-24-13-24-13"
+          ]
+        },
+        {
+          "start": 2466,
+          "end": 2477,
+          "referenceIds": [
+            "b49-5-27-5-27"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La iglesia visible e invisible. Los términos visible e invisible se han usado para distinguir dos aspectos de la iglesia en el mundo. Las metáforas que hemos presentado se aplican particularmente a la iglesia visible.",
+      "pdfPage": 171
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. La iglesia visible. La iglesia visible es el pueblo de Dios organizado para el servicio. Cumple la gran comisión dada por Cristo de llevar el evangelio a todo el mundo (Mat. 28:18-20), y preparar un pueblo para su glorioso retorno (1 Tes. 5:23; Efe. 5:27). Como el testigo de Cristo escogido especialmente por el Maestro, ilumina el mundo y ejerce un ministerio semejante al suyo, predicando el evangelio a los pobres, sanando a los quebrantados de corazón, proclamando libertad a los cautivos y apertura de los ojos a los ciegos, dejando en libertad a los oprimidos y predicando el año aceptable del Señor (Luc. 4:18,19).",
+      "pdfPage": 171,
+      "citations": [
+        {
+          "start": 171,
+          "end": 186,
+          "referenceIds": [
+            "b40-28-18-28-20"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 258,
+          "referenceIds": [
+            "b52-5-23-5-23",
+            "b49-5-27-5-27"
+          ]
+        },
+        {
+          "start": 610,
+          "end": 624,
+          "referenceIds": [
+            "b42-4-18-4-19"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. La iglesia invisible. La iglesia invisible, llamada también la iglesia universal, está compuesta de todos los hijos de Dios que hay en el mundo. Incluye los creyentes que componen la iglesia visible, y muchos que, a pesar de no pertenecer a una organización religiosa, han seguido toda la luz que Cristo les ha concedido (Juan 1:9). Este último grupo incluye a los que nunca tuvieron la oportunidad de aprender la verdad acerca de Jesucristo, pero que han respondido positivamente al Espíritu Santo, de modo que \"hacen por naturaleza lo que es de la ley” de Dios (Rom. 2:14). La existencia de la iglesia invisible revela que la adoración a Dios es espiritual en el más elevado sentido del término. “La hora viene, y ahora es —dijo Jesús—, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad; porque también el Padre tales adoradores busca que le adoren” (Juan 4:23). Por cuanto la naturaleza de la verdadera adoración es espiritual, los seres humanos no pueden calcular con precisión quién es y quién no es parte de la iglesia de Dios. Por medio del Espíritu Santo, Dios lleva a su pueblo perteneciente a la iglesia invisible a la unión con su iglesia visible. “También tengo otras ovejas que no son de este redil, aquellas también debo traer y oirán mi voz; y habrá un rebaño, y un pastor” (Juan 10:16). Únicamente en la iglesia visible pueden experimentar plenamente la verdad de Dios, así como su amor y su compañía, porque el Padre le ha concedido a la iglesia visible los dones espirituales que edifican a sus miembros en forma colectiva e individual (Efe. 4:4-16). Cuando Pablo se convirtió, Dios lo puso en contacto con su iglesia visible, y luego lo designó para dirigir la expansión misionera de su iglesia (Hech. 9:10-22). De la misma forma, procura en nuestros días llevar a su pueblo a que forme parte de su iglesia visible, caracterizada por la lealtad a los mandamientos de Dios y la posesión de la fe en Jesús, con el fin de que cada uno participe en la obra de terminar su misión en el mundo (Apoc. 14:12; 18:4; Mat. 24:14; ver el capítulo 13 de esta obra). Además, se ha considerado que el concepto de la iglesia invisible incluye la iglesia unida en el cielo y en la tierra (Efe. 1:22, 23), y la iglesia oculta durante épocas de persecución (Apoc. 12:6,14).",
+      "pdfPage": 171,
+      "pdfPageEnd": 172,
+      "citations": [
+        {
+          "start": 324,
+          "end": 334,
+          "referenceIds": [
+            "b43-1-9-1-9"
+          ]
+        },
+        {
+          "start": 566,
+          "end": 577,
+          "referenceIds": [
+            "b45-2-14-2-14"
+          ]
+        },
+        {
+          "start": 880,
+          "end": 891,
+          "referenceIds": [
+            "b43-4-23-4-23"
+          ]
+        },
+        {
+          "start": 1317,
+          "end": 1329,
+          "referenceIds": [
+            "b43-10-16-10-16"
+          ]
+        },
+        {
+          "start": 1582,
+          "end": 1595,
+          "referenceIds": [
+            "b49-4-4-4-16"
+          ]
+        },
+        {
+          "start": 1742,
+          "end": 1757,
+          "referenceIds": [
+            "b44-9-10-9-22"
+          ]
+        },
+        {
+          "start": 2034,
+          "end": 2098,
+          "referenceIds": [
+            "b66-14-12-14-12",
+            "b66-18-4-18-4",
+            "b40-24-14-24-14"
+          ]
+        },
+        {
+          "start": 2218,
+          "end": 2233,
+          "referenceIds": [
+            "b49-1-22-1-23"
+          ]
+        },
+        {
+          "start": 2285,
+          "end": 2300,
+          "referenceIds": [
+            "b66-12-6-12-6",
+            "b66-12-14-12-14"
+          ]
+        }
+      ],
+      "citationIssues": [
+        {
+          "start": 2034,
+          "end": 2098,
+          "text": "(Apoc. 14:12; 18:4; Mat. 24:14; ver el capítulo 13 de esta obra)",
+          "fragments": [
+            {
+              "sourceGroup": "ver el capítulo 13 de esta obra",
+              "fragment": "ver el capítulo 13 de esta obra",
+              "reason": "Remisión a capítulo sin versículo: requiere revisión de contexto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La organización de la iglesia",
+      "pdfPage": 172
+    },
+    {
+      "kind": "paragraph",
+      "text": "El mandato de Cristo, según el cual el evangelio debe ser llevado a todo el mundo, implica también la tierna enseñanza y protección de los que ya han aceptado las buenas nuevas de salvación. Los nuevos miembros deben ser establecidos en la fe, y se les debe enseñar a usar los talentos y dones que Dios les dio, en beneficio de la misión de la iglesia. Por cuanto “Dios no es Dios de confusión, sino de paz” y desea que todas las cosas sean hechas “decentemente y con orden” (1 Cor. 14:33, 40), la iglesia debe poseer una organización sencilla pero efectiva.",
+      "pdfPage": 172,
+      "citations": [
+        {
+          "start": 475,
+          "end": 493,
+          "referenceIds": [
+            "b46-14-33-14-33",
+            "b46-14-40-14-40"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La naturaleza de la organización. Consideremos lo que se refiere a la feligresía de la iglesia y su organización.",
+      "pdfPage": 172
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. Feligresía de la iglesia. Cuando los nuevos conversos han cumplido ciertos requisitos, se convierten en miembros de la comunidad de fe del nuevo pacto. La feligresía implica la aceptación de nuevas relaciones con el prójimo, el Estado y Dios.",
+      "pdfPage": 172,
+      "pdfPageEnd": 173
+    },
+    {
+      "kind": "paragraph",
+      "text": "a. Requisitos de feligresía. Los individuos que desean llegar a ser miembros de la iglesia de Jesucristo, deben aceptarlo como Señor y Salvador, arrepentirse de sus pecados, y ser bautizados (Hech. 2:36-41; compárese con 4:10-12). Deben haber experimentado el nuevo nacimiento y aceptado la comisión que Cristo dejó, de enseñar a otros que observen todas las cosas que él ha mandado (ver Mat. 28:20).",
+      "pdfPage": 173,
+      "citations": [
+        {
+          "start": 191,
+          "end": 229,
+          "referenceIds": [
+            "b44-2-36-2-41",
+            "b44-4-10-4-12"
+          ]
+        },
+        {
+          "start": 383,
+          "end": 399,
+          "referenceIds": [
+            "b40-28-20-28-20"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "b. Igualdad y servicio. En armonía con la declaración que Cristo hizo, según la cual “todos vosotros sois hermanos” y “ el que es el mayor de vosotros, sea vuestro siervo” (Mat. 23:8,11), los miembros se comprometen a relacionarse unos con otros sobre una base de igualdad. A la vez, deben darse cuenta de que seguir el ejemplo de Cristo significa que han de ministrar a las necesidades de otros, llevándolos al Maestro.",
+      "pdfPage": 173,
+      "citations": [
+        {
+          "start": 172,
+          "end": 186,
+          "referenceIds": [
+            "b40-23-8-23-8",
+            "b40-23-11-23-11"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "c. El sacerdocio de todos los creyentes. Al comenzar el ministerio de Cristo en el Santuario celestial, la eficacia del sacerdocio levítico se terminó. Ahora la iglesia ha llegado a ser un “ sacerdocio santo” (1 Ped. 2:5). Luego agrega el apóstol: “ Mas vosotros sois linaje escogido, real sacerdocio, nación santa, pueblo adquirido por Dios, para que anuncies las virtudes de aquel que os llamó de las tinieblas a su luz admirable” (1 Ped. 2:9). Este nuevo orden, el sacerdocio de todos los creyentes, no autoriza a cada individuo para que piense, crea y enseñe lo que le parezca, sin sentirse responsable ante el cuerpo de la iglesia. Significa que cada miembro de iglesia tiene la responsabilidad de ministrar a otros en el nombre de Dios, y puede comunicarse directamente con el Padre sin ningún intermediario humano. Enfatiza la interdependencia de los miembros de la iglesia, así como su independencia. Este sacerdocio no hace distinciones de rango entre los ministros y los laicos, si bien deja lugar para una diferencia en función entre ambos grupos.",
+      "pdfPage": 173,
+      "citations": [
+        {
+          "start": 209,
+          "end": 221,
+          "referenceIds": [
+            "b60-2-5-2-5"
+          ]
+        },
+        {
+          "start": 433,
+          "end": 445,
+          "referenceIds": [
+            "b60-2-9-2-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "d. Lealtad a Dios y al Estado. La Biblia reconoce la mano de Dios en el establecimiento de los gobiernos y requiere de los creyentes que respeten y obedezcan a las autoridades civiles. El que posee la autoridad civil es “ servidor de Dios, vengador para castigar al que hace lo malo”. Por lo tanto, los miembros de iglesia pagan “ al que tributo, tributo; al que impuesto, impuesto; al que respeto, respeto; al que honra, honra” (Rom. 13:4,7).",
+      "pdfPage": 173,
+      "citations": [
+        {
+          "start": 429,
+          "end": 442,
+          "referenceIds": [
+            "b45-13-4-13-4",
+            "b45-13-7-13-7"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "En sus actitudes frente al Estado, los miembros se deben dejar llevar por el principio de Cristo: “Dad, pues, a César lo que es de César, y a Dios lo que es de Dios” (Mat. 22:21). Pero si el Estado contradijera un mandato divino, su lealtad fundamental se dirige a Dios. Dijeron los apóstoles: “Es necesario obedecer a Dios antes que a los hombres” (Hech. 5:29).",
+      "pdfPage": 174,
+      "citations": [
+        {
+          "start": 166,
+          "end": 178,
+          "referenceIds": [
+            "b40-22-21-22-21"
+          ]
+        },
+        {
+          "start": 349,
+          "end": 361,
+          "referenceIds": [
+            "b44-5-29-5-29"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. La principal función de la organización eclesiástica. La iglesia fue organizada para cumplir el plan que Dios tenía de llenar este planeta con el conocimiento de su gloria. Únicamente la iglesia visible puede proveer la mayor parte de las funciones vitales para cumplir este propósito.",
+      "pdfPage": 174
+    },
+    {
+      "kind": "paragraph",
+      "text": "a. Adoración y exhortación. A través de la historia, la iglesia ha sido la agencia que Dios ha empleado para reunir a los creyentes y enseñarles a adorar al Creador en el día sábado. Cristo y sus apóstoles siguieron esta práctica de culto, y las Escrituras amonestan a los creyentes de hoy en los términos siguientes: “Considerémonos unos a otros... No dejando de congregarnos, como algunos tienen por costumbre, sino exhortándonos; y tanto más, cuando véis que aquel día se acerca\" (Heb. 10:25; compárese con 3:13). El culto de la congregación provee refrigerio, ánimo y gozo para el adorador.",
+      "pdfPage": 174,
+      "citations": [
+        {
+          "start": 483,
+          "end": 515,
+          "referenceIds": [
+            "b58-10-25-10-25",
+            "b58-3-13-3-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "b. La comunión cristiana. Por medio de la iglesia, las necesidades más profundas de sus miembros en relación con la comunión se ven completamente satisfechas. La “ comunión en el evangelio\" (Fil. 1:5) trasciende todas las demás relaciones, por cuanto provee una relación íntima con Dios, así como con los demás que comparten nuestra fe (1 Juan 1:3, 6,7).",
+      "pdfPage": 174,
+      "citations": [
+        {
+          "start": 190,
+          "end": 200,
+          "referenceIds": [
+            "b50-1-5-1-5"
+          ]
+        },
+        {
+          "start": 336,
+          "end": 353,
+          "referenceIds": [
+            "b62-1-3-1-3",
+            "b62-1-6-1-7"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "c. La instrucción en las Escrituras. Cristo le dio a la iglesia “las llaves del reino de los cielos” (Mat. 16:19). Esas llaves son las palabras de Cristo, todas las palabras de la Biblia. Más específicamente, incluyen “la llave de la ciencia” referente a la manera de entrar en el reino (Luc. 11:52). Las palabras de Jesús son espíritu y vida para todos los que las reciben (Juan 6:63). Traen vida eterna (Juan 6:68).6 Cuando la iglesia proclama las verdades bíblicas, estas llaves de la salvación tienen poder para atar y desatar, para abrir y cerrar el cielo, porque declaran las condiciones por cuyo cumplimiento los individuos son recibidos o rechazados, salvados o perdidos. De este modo, la proclamación evangélica de la iglesia exuda “olor de vida para vida” o el “olor de muerte para muerte” (2 Cor. 2:16).",
+      "pdfPage": 174,
+      "citations": [
+        {
+          "start": 101,
+          "end": 113,
+          "referenceIds": [
+            "b40-16-19-16-19"
+          ]
+        },
+        {
+          "start": 287,
+          "end": 299,
+          "referenceIds": [
+            "b42-11-52-11-52"
+          ]
+        },
+        {
+          "start": 374,
+          "end": 385,
+          "referenceIds": [
+            "b43-6-63-6-63"
+          ]
+        },
+        {
+          "start": 405,
+          "end": 416,
+          "referenceIds": [
+            "b43-6-68-6-68"
+          ]
+        },
+        {
+          "start": 800,
+          "end": 813,
+          "referenceIds": [
+            "b47-2-16-2-16"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Jesús conocía la importancia de vivir \"de toda palabra que sale de la boca de Dios” (Mat. 4:4). Únicamente haciendo eso puede la iglesia cumplir el mandato dado por Cristo de enseñar a todas las naciones “ que guarden todas las cosas que os he mandado” (Mat. 28:20).",
+      "pdfPage": 175,
+      "citations": [
+        {
+          "start": 84,
+          "end": 94,
+          "referenceIds": [
+            "b40-4-4-4-4"
+          ]
+        },
+        {
+          "start": 253,
+          "end": 265,
+          "referenceIds": [
+            "b40-28-20-28-20"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "d. La administración de las ordenanzas divinas. La iglesia es el instrumento de Dios para la administración de la ordenanza de bautismo, el rito de entrada a la iglesia (ver el capítulo 15 de esta obra), y las ordenanzas del lavamiento de los pies y la Cena del Señor (ver el capítulo 16 de esta obra).",
+      "pdfPage": 175
+    },
+    {
+      "kind": "paragraph",
+      "text": "e. La proclamación mundial del evangelio. La iglesia está organizada para el servicio misionero, con el fin de cumplir la obra que Israel no realizó. Conforme a lo que revela la vida del Maestro, el mayor servicio que la iglesia provee para el mundo radica en su entrega absoluta a la tarea de completar la predicación del evangelio para “testimonio a todas las naciones” (Mat. 24:14), habilitada para ello por el bautismo del Espíritu Santo. Esta misión incluye la proclamación de un mensaje de preparación para el retorno de Cristo, el cual está dirigido tanto a la iglesia (1 Cor. 1:7, 8; 2 Ped. 3:14; Apoc. 3:14-22; 14:5) como al resto de la humanidad (Apoc. 14:6-12; 18:4).",
+      "pdfPage": 175,
+      "citations": [
+        {
+          "start": 372,
+          "end": 384,
+          "referenceIds": [
+            "b40-24-14-24-14"
+          ]
+        },
+        {
+          "start": 576,
+          "end": 625,
+          "referenceIds": [
+            "b46-1-7-1-8",
+            "b61-3-14-3-14",
+            "b66-3-14-3-22",
+            "b66-14-5-14-5"
+          ]
+        },
+        {
+          "start": 656,
+          "end": 677,
+          "referenceIds": [
+            "b66-14-6-14-12",
+            "b66-18-4-18-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El gobierno de la iglesia",
+      "pdfPage": 175
+    },
+    {
+      "kind": "paragraph",
+      "text": "Después de la ascensión de Jesús, la conducción de la iglesia descansó en las manos de los apóstoles. Su primer acto de organización, en consejo con los demás creyentes, fue elegir otro apóstol para que tomase el lugar de Judas (Hech. 1:15-26). A medida que la iglesia crecía, los apóstoles se fueron dando cuenta de que era imposible predicar el evangelio y al mismo tiempo cuidar de los asuntos temporales de la iglesia. Por esto, delegaron los asuntos prácticos de la iglesia en las manos de siete hombres que la iglesia señaló. Si bien se hizo distinción entre “el ministerio de la palabra” y el acto de “servir a las mesas” (Hech. 6:1-4), no se hizo ningún esfuerzo por separar a los ministros y los laicos en la tarea de cumplir la misión de la iglesia. De hecho, dos de los siete, Esteban y Felipe, se destacaban por su efectividad en la predicación y el evangelismo (Hech. 7,8). La expansión de la iglesia en Asia y Europa requirió medidas adicionales de organización. Al establecerse numerosas iglesias nuevas, se “ constituyeron ancianos en cada iglesia” (Hech. 14:23) con el fin de asegurar una dirección estable. Cuando se desarrolló una crisis de importancia, se les permitió a las partes involucradas que presentaran sus posiciones respectivas ante un concilio general formado por los apóstoles y ancianos representantes de la iglesia. Se consideraba que las decisiones de este concilio debían ser aceptadas por todos los sectores de la iglesia y ser consideradas como la voz de Dios (Hech. 15:1-29). Este incidente ilustra el hecho de que cuando se trata de asuntos que afectan a la iglesia en su totalidad, se necesita obtener consejo y ejercer autoridad en un nivel mucho más amplio que el de la iglesia local. En este caso, la decisión del concilio surgió a partir del consenso desarrollado por los representantes de todos los grupos involucrados (Hech. 15:22, 25). El Nuevo Testamento deja en claro que a medida que surgió la necesidad, Dios guío a los dirigentes de su obra. Con su dirección y en consulta con la iglesia, formaron un gobierno eclesiástico que, si se lo aplica hoy, ayudará a salvaguardar la iglesia de la apostasía, y le permitirá cumplir su gran comisión.",
+      "pdfPage": 175,
+      "pdfPageEnd": 176,
+      "citations": [
+        {
+          "start": 228,
+          "end": 243,
+          "referenceIds": [
+            "b44-1-15-1-26"
+          ]
+        },
+        {
+          "start": 629,
+          "end": 642,
+          "referenceIds": [
+            "b44-6-1-6-4"
+          ]
+        },
+        {
+          "start": 874,
+          "end": 885,
+          "referenceIds": [
+            "b44-7-all-7-all",
+            "b44-8-all-8-all"
+          ]
+        },
+        {
+          "start": 1065,
+          "end": 1078,
+          "referenceIds": [
+            "b44-14-23-14-23"
+          ]
+        },
+        {
+          "start": 1498,
+          "end": 1513,
+          "referenceIds": [
+            "b44-15-1-15-29"
+          ]
+        },
+        {
+          "start": 1865,
+          "end": 1882,
+          "referenceIds": [
+            "b44-15-22-15-22",
+            "b44-15-25-15-25"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Principios bíblicos de gobierno eclesiástico",
+      "pdfPage": 176
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. Cristo es la cabeza de la iglesia. El dominio de Cristo sobre la iglesia se basa primariamente en su obra mediadora. Desde su victoria sobre Satanás en la cruz, Cristo recibió “toda potestad... en el cielo y en la tierra” (Mat. 28:18). Dios “ sometió todas las cosas bajo sus pies, y lo dio por cabeza sobre todas las cosas a la iglesia” (Efe. 1:22; compárese con Fil. 2:10, 11). Por lo tanto, Jesús es “Señor de señores y Rey de reyes” (Apoc. 17:14). Cristo es también la cabeza de la iglesia, porque la iglesia es su cuerpo (Efe. 1:23; Col. 1:18). Los creyentes son “miembros de su cuerpo, de su carne y de sus huesos” (Efe. 5:30). Deben mantener una conexión íntima con él, porque de él la iglesia “nutriéndose por las coyunturas y ligamentos, crece con el crecimiento que da Dios” (Col. 2:19).",
+      "pdfPage": 176,
+      "citations": [
+        {
+          "start": 225,
+          "end": 237,
+          "referenceIds": [
+            "b40-28-18-28-18"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 381,
+          "referenceIds": [
+            "b49-1-22-1-22",
+            "b50-2-10-2-11"
+          ]
+        },
+        {
+          "start": 440,
+          "end": 453,
+          "referenceIds": [
+            "b66-17-14-17-14"
+          ]
+        },
+        {
+          "start": 529,
+          "end": 551,
+          "referenceIds": [
+            "b49-1-23-1-23",
+            "b51-1-18-1-18"
+          ]
+        },
+        {
+          "start": 624,
+          "end": 635,
+          "referenceIds": [
+            "b49-5-30-5-30"
+          ]
+        },
+        {
+          "start": 788,
+          "end": 799,
+          "referenceIds": [
+            "b51-2-19-2-19"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. Cristo es la fuente de toda la autoridad de la iglesia. Cristo demuestra su autoridad (a) en el establecimiento de la iglesia cristiana (Mat. 16:18), (b) en la institución de las ordenanzas que la iglesia debe administrar (Mat. 26:26-30; 28:19, 20; 1 Cor. 11:23-29; Juan 13:1-17), (c) en que invistió a la iglesia con autoridad divina para actuar en su nombre (Mat. 16:19; 18:15-18; Juan 20:21-23), (d) al enviar el Espíritu Santo para guiar a su iglesia bajo su autoridad (Juan 15:26; 16:13-15), (e) al establecer dentro de la iglesia la operación de dones especiales de modo que diversos individuos pudiesen funcionar como apóstoles, profetas, evangelistas, pastores y maestros, con el fin de preparar a sus miembros para el servicio y “para la edificación del cuerpo de Cristo” hasta que todos experimenten la unidad en la fe y reflejen “la plenitud de Cristo” (Efe. 4:7-13).",
+      "pdfPage": 176,
+      "citations": [
+        {
+          "start": 139,
+          "end": 151,
+          "referenceIds": [
+            "b40-16-18-16-18"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 282,
+          "referenceIds": [
+            "b40-26-26-26-30",
+            "b40-28-19-28-20",
+            "b46-11-23-11-29",
+            "b43-13-1-13-17"
+          ]
+        },
+        {
+          "start": 363,
+          "end": 400,
+          "referenceIds": [
+            "b40-16-19-16-19",
+            "b40-18-15-18-18",
+            "b43-20-21-20-23"
+          ]
+        },
+        {
+          "start": 476,
+          "end": 498,
+          "referenceIds": [
+            "b43-15-26-15-26",
+            "b43-16-13-16-15"
+          ]
+        },
+        {
+          "start": 867,
+          "end": 880,
+          "referenceIds": [
+            "b49-4-7-4-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. Las Escrituras poseen la autoridad de Cristo. Si bien es cierto que Cristo guía a su iglesia por medio del Espíritu Santo, igualmente cierto es que la Palabra de Dios constituye la única regla por la cual la iglesia se guía en sus actividades. Todos sus miembros deben obedecer la Palabra, porque es ley en el sentido más absoluto. Todas las tradiciones humanas, costumbres y prácticas culturales están sujetas a la autoridad de las Escrituras (2 Tim. 3:15-17).",
+      "pdfPage": 176,
+      "pdfPageEnd": 177,
+      "citations": [
+        {
+          "start": 447,
+          "end": 463,
+          "referenceIds": [
+            "b55-3-15-3-17"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "4. La autoridad de Cristo y los cargos de la iglesia. Cristo ejerce su autoridad a través de su iglesia y sus siervos especialmente elegidos, pero nunca transfiere su poder. Nadie tiene el derecho de ejercer ninguna autoridad independiente, aparte de Cristo y su Palabra. Las congregaciones adventistas del séptimo día eligen sus oficiales. Pero si bien dichos oficiales funcionan como representantes del pueblo, su autoridad viene de Cristo. Su elección simplemente confirma el llamado que recibieron de Cristo. El deber primordial de los oficiales elegidos consiste en asegurarse de que se aplican las instrucciones bíblicas para el culto, la doctrina, la disciplina y la proclamación del evangelio. Por cuanto la iglesia es el cuerpo de Cristo, deben buscar su consejo en lo que se refiere a sus decisiones y acciones.",
+      "pdfPage": 177
+    },
+    {
+      "kind": "paragraph",
+      "text": "Los oficiales de la iglesia del Nuevo Testamento. El Nuevo Testamento menciona dos cargos eclesiásticos: el de anciano y el de diácono. La importancia de estos cargos se ve subrayada por los elevados requerimientos morales y espirituales que se establecen para los que aspiran a llenarlos. La iglesia reconoció el carácter sagrado del llamado a la dirección, por medio de la ordenación, expresada en la imposición de las manos (Hech. 6:6; 13:2,3; 1 Tim. 4:14; 5:22).",
+      "pdfPage": 177,
+      "citations": [
+        {
+          "start": 427,
+          "end": 465,
+          "referenceIds": [
+            "b44-6-6-6-6",
+            "b44-13-2-13-3",
+            "b54-4-14-4-14",
+            "b54-5-22-5-22"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. Los ancianos a. ¿Qué es un anciano? Los “ancianos\" (del griego, presbúteros)u “ obispos” (epískopos) eran los oficiales más importantes de la iglesia. El término anciano significa una persona mayor, lo cual implica dignidad y respeto. Su posición era similar a la del que supervisaba la sinagoga. El término obispo significa “supervisor”. Pablo usa estos términos en forma intercambiable, igualando a los ancianos con los supervisores u obispos(Hech. 20:17, 28; Tito 1:5, 7). Los que ocupaban esta posición, supervisaban las iglesias recientemente formadas. La palabra anciano se refiere al nivel o rango del cargo, mientras que obispo denota el deber o responsabilidad propios del oficio: “supervisor”.7 Por cuanto los apóstoles también se designaban a sí mismos como ancianos (1 Ped. 5:1; 2 Juan 1; 3 Juan 1), es evidente que había tanto ancianos locales como ancianos itinerantes. Pero ambas clases funcionaban como pastores de las congregaciones.",
+      "pdfPage": 177,
+      "citations": [
+        {
+          "start": 447,
+          "end": 477,
+          "referenceIds": [
+            "b44-20-17-20-17",
+            "b44-20-28-20-28",
+            "b56-1-5-1-5",
+            "b56-1-7-1-7"
+          ]
+        },
+        {
+          "start": 781,
+          "end": 813,
+          "referenceIds": [
+            "b60-5-1-5-1",
+            "b63-1-1-1-1",
+            "b64-1-1-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "b. Las calificaciones. El individuo que deseaba ocupar el cargo de anciano debía ser “irreprensible, marido de una sola mujer, sobrio, prudente, decoroso, hospedador, apto para enseñar; no dado al vino, no pendenciero, no codicioso de ganancias deshonestas, sino amable, apacible, no avaro; que gobierne bien su casa, que tenga a sus hijos en sujeción con toda honestidad (pues el que no sabe gobernar su propia casa, ¿cómo cuidará de la iglesia de Dios?); no un neófito, no sea que envaneciéndose caiga en la condenación del diablo. También es necesario que tenga un buen testimonio de los de afuera, para que no caiga en descrédito y en lazo del diablo” (1 Tim. 3:1-7; compárese con Tito 1:5-9). Antes de ser elegido para el cargo, el candidato debía haber demostrado en su propio hogar su capacidad de dirigente. “Debiera considerarse la familia del individuo sugerido para el cargo. ¿Le están sujetos? ¿Puede el varón gobernar su propio hogar con honor? ¿Qué carácter tienen sus hijos? ¿Honrarán la influencia del padre? Si no tiene tacto, sabiduría o el poder de la piedad en su hogar, en el manejo de su propia familia, es seguro concluir que allí se verá la misma supervisión no santificada”.8 El candidato, si es casado, debe demostrar en el círculo de su propio hogar la capacidad de dirigir, antes de que le sean confiadas las responsabilidades mayores de la dirección de “la casa de Dios” (1 Tim. 3:15). A causa de la importancia del cargo, Pablo aconseja: “No impongas con ligereza las manos a ninguno” (1 Tim. 5:22).",
+      "pdfPage": 178,
+      "citations": [
+        {
+          "start": 656,
+          "end": 696,
+          "referenceIds": [
+            "b54-3-1-3-7",
+            "b56-1-5-1-9"
+          ]
+        },
+        {
+          "start": 1400,
+          "end": 1413,
+          "referenceIds": [
+            "b54-3-15-3-15"
+          ]
+        },
+        {
+          "start": 1515,
+          "end": 1528,
+          "referenceIds": [
+            "b54-5-22-5-22"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "c. La responsabilidad y autoridad del anciano. Antes que nada, un anciano es un dirigente espiritual. Se lo elige “para apacentar la iglesia del Señor” (Hech. 20:28). Sus responsabilidades incluyen apoyar a los miembros débiles (Hech. 20:35), amonestar a los desviados (1 Tes. 5:12), y mantenerse alerta para distinguir cualquier enseñanza que pudiera crear divisiones (Hech. 20:29-31). Los ancianos deben ser modelo del estilo de vida cristiano (Heb. 13:7; 1 Ped. 5:3) y dar ejemplo de liberalidad (Hech. 20:35).",
+      "pdfPage": 178,
+      "citations": [
+        {
+          "start": 152,
+          "end": 165,
+          "referenceIds": [
+            "b44-20-28-20-28"
+          ]
+        },
+        {
+          "start": 228,
+          "end": 241,
+          "referenceIds": [
+            "b44-20-35-20-35"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 282,
+          "referenceIds": [
+            "b52-5-12-5-12"
+          ]
+        },
+        {
+          "start": 369,
+          "end": 385,
+          "referenceIds": [
+            "b44-20-29-20-31"
+          ]
+        },
+        {
+          "start": 446,
+          "end": 469,
+          "referenceIds": [
+            "b58-13-7-13-7",
+            "b60-5-3-5-3"
+          ]
+        },
+        {
+          "start": 499,
+          "end": 512,
+          "referenceIds": [
+            "b44-20-35-20-35"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "d. La actitud hacia los ancianos. En gran medida, la dirección efectiva de la iglesia depende de la lealtad de los miembros. Pablo anima a los creyentes a respetar a sus dirigentes y a tenerlos “en mucha estima y amor por causa de su obra” (1 Tes. 5:13). “Los ancianos que gobiernan bien —agrega el apóstol—, sean tenidos por dignos de doble honor, mayormente los que trabajan en predicar y enseñar” (1 Tim. 5:17). La Escritura deja en claro la necesidad de respetar a los dirigentes de la iglesia: “Obedeced a vuestros pastores, y sujetaos a ellos; porque ellos velan por vuestras almas, como quienes han de dar cuenta” (Heb. 13:17; compárese con 1 Ped. 5:5). Cuando los miembros hacen que a los dirigentes les resulte difícil cumplir sus responsabilidades asignadas por Dios, ambos sufrirán y dejarán de gozar la alegría de la prosperidad de Dios. Se anima a los creyentes a que observen la conducta cristiana de los dirigentes. “ Acordaos de vuestros pastores... considerad cual haya sido el resultado de su conducta, e imitad su fe” (Heb. 13:7). No deben prestar atención a los chismes. Pablo amonesta: “Contra un anciano no admitas acusación sino con dos o tres testigos” (1 Tim. 5:19).",
+      "pdfPage": 178,
+      "pdfPageEnd": 179,
+      "citations": [
+        {
+          "start": 240,
+          "end": 253,
+          "referenceIds": [
+            "b52-5-13-5-13"
+          ]
+        },
+        {
+          "start": 400,
+          "end": 413,
+          "referenceIds": [
+            "b54-5-17-5-17"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 659,
+          "referenceIds": [
+            "b58-13-17-13-17",
+            "b60-5-5-5-5"
+          ]
+        },
+        {
+          "start": 1037,
+          "end": 1048,
+          "referenceIds": [
+            "b58-13-7-13-7"
+          ]
+        },
+        {
+          "start": 1177,
+          "end": 1190,
+          "referenceIds": [
+            "b54-5-19-5-19"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. Los diáconos y diaconisas. El nombre diácono viene del griego diákonos, que significa \"siervo” o “ayudador”. El oficio de diácono se instituyó para permitir que los apóstoles se entregaran completamente a persistir “en la oración y en el ministerio de la palabra” (Hech. 6:4). Los diáconos no debían limitarse a cuidar de los asuntos temporales de la iglesia; además debían estar activamente comprometidos en la obra evangelizadora (Hech. 6:8; 8:5-13, 26-40). La forma femenina del término aparece en Romanos 16:1.9 La palabra y su uso en este texto sugiere que el oficio de diaconisa probablemente ya se hallaba establecido en la iglesia en la época en que Pablo escribió el libro de Romanos”.1 0 Como los ancianos, los diáconos también debían ser elegidos por la iglesia en base a sus cualidades morales y espirituales (1 Tim. 3:8-13).",
+      "pdfPage": 179,
+      "citations": [
+        {
+          "start": 267,
+          "end": 278,
+          "referenceIds": [
+            "b44-6-4-6-4"
+          ]
+        },
+        {
+          "start": 435,
+          "end": 461,
+          "referenceIds": [
+            "b44-6-8-6-8",
+            "b44-8-5-8-13",
+            "b44-8-26-8-40"
+          ]
+        },
+        {
+          "start": 504,
+          "end": 516,
+          "referenceIds": [
+            "b45-16-1-16-1"
+          ]
+        },
+        {
+          "start": 824,
+          "end": 839,
+          "referenceIds": [
+            "b54-3-8-3-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La disciplina de la iglesia. Cristo le concedió a la iglesia la autoridad de disciplinar a sus miembros, y proveyó los principios adecuados para realizar la tarea. Espera que la iglesia implemente dichos principios siempre que sea necesario, con el fin de mantener su elevada vocación de ser un “sacerdocio santo” y “nación santa” (ver Mateo 18:15-18; 1 Ped. 2:5, 9). Junto con esto, la iglesia debía también procurar impresionar el ánimo de los miembros errantes con la necesidad de enmendar sus caminos. Cristo alaba a la iglesia de Efeso, diciendo: “Yo conozco tu obras... que no puedes soportar a los malos” (Apoc. 2:2), y reprende a las iglesias de Pérgamo y Tiatira por tolerar las herejías y la inmoralidad (Apoc. 2:14, 15, 20). Notemos el siguiente consejo bíblico relativo a la disciplina:",
+      "pdfPage": 179,
+      "citations": [
+        {
+          "start": 331,
+          "end": 366,
+          "referenceIds": [
+            "b40-18-15-18-18",
+            "b60-2-5-2-5",
+            "b60-2-9-2-9"
+          ]
+        },
+        {
+          "start": 612,
+          "end": 623,
+          "referenceIds": [
+            "b66-2-2-2-2"
+          ]
+        },
+        {
+          "start": 714,
+          "end": 734,
+          "referenceIds": [
+            "b66-2-14-2-15",
+            "b66-2-20-2-20"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. Las ofensas privadas. Cuando un miembro ofende a otro (Mat. 18:15-17), Cristo aconseja que la persona ofendida se acerque al ofensor —la oveja que se desvió del camino— y lo persuada a cambiar de conducta. Si no logra su objetivo, debería probar por segunda vez, acompañado de uno o dos testigos neutrales. Si este intento falla, el asunto debiera ser llevado ante la iglesia en pleno.",
+      "pdfPage": 179,
+      "citations": [
+        {
+          "start": 57,
+          "end": 72,
+          "referenceIds": [
+            "b40-18-15-18-17"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Si el miembro errante rechaza la sabiduría y autoridad de la iglesia de Cristo, se separa de su comunión por iniciativa propia. Al desfraternizar a la persona culpable, la iglesia simplemente confirma su condición. Si bajo la conducción del Espíritu Santo la iglesia ha seguido cuidadosamente el consejo bíblico, sus decisiones son reconocidas en el cielo. Dijo Cristo: “Todo lo que atéis en la tierra, será atado en el cielo; y todo lo que desatéis en a tierra, será desatado en el cielo” (Mat. 18:18).",
+      "pdfPage": 180,
+      "citations": [
+        {
+          "start": 490,
+          "end": 502,
+          "referenceIds": [
+            "b40-18-18-18-18"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. Las ofensas públicas. Si bien es cierto que “todos pecaron, y están destituidos de la gloria de Dios” (Rom. 3:23), las ofensas flagrantes y rebeldes que arrojan reproche sobre la iglesia deberían ser enfrentadas inmediatamente, desfraternizando al ofensor. La desfraternización quita el mal —que de otro modo actuaría como levadura—, restaurando la pureza de la iglesia, y actúa como un remedio redentor para el ofensor. Al saber de cierto caso de inmoralidad sexual que había ocurrido en la iglesia de Corinto, Pablo instó a la acción inmediata. “En el nombre de nuestro Señor Jesucristo, reunidos vosotros y mi espíritu, con el poder de nuestro Señor Jesucristo, el tal sea entregado a Satanás para destrucción de la carne, a fin de que el espíritu sea salvo en el día del Señor Jesús... Limpiaos, pues, de la vieja levadura, para que seáis nueva masa” (1 Cor. 5:4, 5, 7). “No os juntéis con ninguno que llamándose hermano, fuere fornicario, o avaro, o idólatra, o maldiciente, o borracho, o ladrón; con el tal ni aun comáis... Quitad, pues, a ese perverso de entre vosotros” (1 Cor. 5:11,13).",
+      "pdfPage": 180,
+      "citations": [
+        {
+          "start": 105,
+          "end": 116,
+          "referenceIds": [
+            "b45-3-23-3-23"
+          ]
+        },
+        {
+          "start": 858,
+          "end": 876,
+          "referenceIds": [
+            "b46-5-4-5-5",
+            "b46-5-7-5-7"
+          ]
+        },
+        {
+          "start": 1081,
+          "end": 1097,
+          "referenceIds": [
+            "b46-5-11-5-11",
+            "b46-5-13-5-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. El trato con los individuos que causan división. Un miembro que causa “divisiones y tropiezos” (Rom. 16:17), “que ande desordenadamente\" y que rehúse obedecer el consejo bíblico debiera ser evitado, “para que se avergüence” de su actitud. “Mas no lo tengáis por enemigo —dice el apóstol—, sino amonestadle como a hermano” (2 Tes. 3:6,14,15). Si el “hombre que cause divisiones” se niega a escuchar “una y otra amonestación” de la iglesia, debe ser desechado, “sabiendo que el tal se ha pervertido, y peca y está condenado por su propio juicio” (Tit. 3:10,11).",
+      "pdfPage": 180,
+      "citations": [
+        {
+          "start": 98,
+          "end": 110,
+          "referenceIds": [
+            "b45-16-17-16-17"
+          ]
+        },
+        {
+          "start": 325,
+          "end": 343,
+          "referenceIds": [
+            "b53-3-6-3-6",
+            "b53-3-14-3-15"
+          ]
+        },
+        {
+          "start": 547,
+          "end": 561,
+          "referenceIds": [
+            "b56-3-10-3-11"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "4. La restauración de los ofensores. Los miembros de la iglesia no deben despreciar, aislar ni descuidar al desfraternizado. Más bien, debieran procurar restaurar su relación con Cristo a través del arrepentimiento y el nuevo nacimiento. Los individuos que han sido desfraternizados pueden ser restaurados a la comunión de la iglesia cuando revelan suficientes evidencias de un arrepentimiento genuino (2 Cor. 2:6-10). Es precisamente y en forma especial por medio del acto de restaurar pecadores a la comunión de la iglesia, cómo se revelan el poder, la gloria y la gracia de Dios.",
+      "pdfPage": 180,
+      "citations": [
+        {
+          "start": 402,
+          "end": 417,
+          "referenceIds": [
+            "b47-2-6-2-10"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Nuestro Salvador anhela librar a los cautivos del pecado, transfiriéndolos del reino de las tinieblas al reino de la luz. La iglesia de Dios, el teatro del universo, despliega el poder del sacrificio redentor de Cristo en las vidas de hombres y mujeres. En nuestros días, Cristo, obrando por medio de su iglesia, invita a todos a que formen parte de su familia. “He aquí —dice el Señor—, yo estoy a la puerta y llamo; si alguno oye mi voz y abre la puerta, entraré a él, y cenare con él, y él conmigo” (Apoc. 3:20).",
+      "pdfPage": 181,
+      "citations": [
+        {
+          "start": 502,
+          "end": 514,
+          "referenceIds": [
+            "b66-3-20-3-20"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Núm. 20:10",
+      "label": "Números 20:10",
+      "id": "b4-20-10-20-10"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 7,
+      "verseEnd": 12,
+      "sourceGroup": "ver Núm. 20:7-12",
+      "label": "Números 20:7-12",
+      "id": "b4-20-7-20-12"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 32,
+      "chapterEnd": 32,
+      "verseStart": 3,
+      "verseEnd": 4,
+      "sourceGroup": "Deut. 32:3,4",
+      "label": "Deuteronomio 32:3-4",
+      "id": "b5-32-3-32-4"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 62,
+      "chapterEnd": 62,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Sal. 62:7",
+      "label": "Salmos 62:7",
+      "id": "b19-62-7-62-7"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Isa. 28:16",
+      "label": "Isaías 28:16",
+      "id": "b23-28-16-28-16"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "1 Ped. 2:4",
+      "label": "1 Pedro 2:4",
+      "id": "b60-2-4-2-4"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 3:11",
+      "label": "1 Corintios 3:11",
+      "id": "b46-3-11-3-11"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "1 Cor. 10:4",
+      "label": "1 Corintios 10:4",
+      "id": "b46-10-4-10-4"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Mat. 16:18",
+      "label": "Mateo 16:18",
+      "id": "b40-16-18-16-18"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 47,
+      "chapterEnd": 47,
+      "verseStart": 1,
+      "verseEnd": 12,
+      "sourceGroup": "ver Eze. 47:1-12",
+      "label": "Ezequiel 47:1-12",
+      "id": "b26-47-1-47-12"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 37,
+      "verseEnd": 38,
+      "sourceGroup": "Juan 7:37,38",
+      "label": "Juan 7:37-38",
+      "id": "b43-7-37-7-38"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "verseStart": 1,
+      "verseEnd": 5,
+      "sourceGroup": "Apoc. 22:1-5",
+      "label": "Apocalipsis 22:1-5",
+      "id": "b66-22-1-22-5"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 12,
+      "verseEnd": 13,
+      "sourceGroup": "ver Hech. 4:12,13, 20-33",
+      "label": "Hechos 4:12-13",
+      "id": "b44-4-12-4-13"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 20,
+      "verseEnd": 33,
+      "sourceGroup": "ver Hech. 4:12,13, 20-33",
+      "label": "Hechos 4:20-33",
+      "id": "b44-4-20-4-33"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Deut. 9:10",
+      "label": "Deuteronomio 9:10",
+      "id": "b5-9-10-9-10"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "18:16",
+      "label": "Deuteronomio 18:16",
+      "id": "b5-18-16-18-16"
+    },
+    {
+      "bookId": 9,
+      "book": "1 Samuel",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 47,
+      "verseEnd": 47,
+      "sourceGroup": "1 Sam. 17:47",
+      "label": "1 Samuel 17:47",
+      "id": "b9-17-47-17-47"
+    },
+    {
+      "bookId": 11,
+      "book": "1 Reyes",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "1 Rey. 8:14",
+      "label": "1 Reyes 8:14",
+      "id": "b11-8-14-8-14"
+    },
+    {
+      "bookId": 13,
+      "book": "1 Crónicas",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "1 Crón. 13:2",
+      "label": "1 Crónicas 13:2",
+      "id": "b13-13-2-13-2"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "1 Cor. 11:18",
+      "label": "1 Corintios 11:18",
+      "id": "b46-11-18-11-18"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "14:19, 28",
+      "label": "1 Corintios 14:19",
+      "id": "b46-14-19-14-19"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "14:19, 28",
+      "label": "1 Corintios 14:28",
+      "id": "b46-14-28-14-28"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "1 Cor. 16:1",
+      "label": "1 Corintios 16:1",
+      "id": "b46-16-1-16-1"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Gál. 1:2",
+      "label": "Gálatas 1:2",
+      "id": "b48-1-2-1-2"
+    },
+    {
+      "bookId": 52,
+      "book": "1 Tesalonicenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "1 Tes. 2:14",
+      "label": "1 Tesalonicenses 2:14",
+      "id": "b52-2-14-2-14"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "1 Cor. 16:19",
+      "label": "1 Corintios 16:19",
+      "id": "b46-16-19-16-19"
+    },
+    {
+      "bookId": 51,
+      "book": "Colosenses",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Col. 4:15",
+      "label": "Colosenses 4:15",
+      "id": "b51-4-15-4-15"
+    },
+    {
+      "bookId": 57,
+      "book": "Filemón",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Filemón 2",
+      "label": "Filemón 1:2",
+      "id": "b57-1-2-1-2"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 31,
+      "verseEnd": 31,
+      "sourceGroup": "Hech. 9:31",
+      "label": "Hechos 9:31",
+      "id": "b44-9-31-9-31"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 32,
+      "verseEnd": 32,
+      "sourceGroup": "1 Cor. 10:32",
+      "label": "1 Corintios 10:32",
+      "id": "b46-10-32-10-32"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "12:28",
+      "label": "1 Corintios 12:28",
+      "id": "b46-12-28-12-28"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 11,
+      "verseEnd": 16,
+      "sourceGroup": "ver Efe. 4:11-16",
+      "label": "Efesios 4:11-16",
+      "id": "b49-4-11-4-16"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 20,
+      "verseEnd": 22,
+      "sourceGroup": "Efe. 1:20-22",
+      "label": "Efesios 1:20-22",
+      "id": "b49-1-20-1-22"
+    },
+    {
+      "bookId": 50,
+      "book": "Filipenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 9,
+      "verseEnd": 11,
+      "sourceGroup": "compárese con Fil. 2:9-11",
+      "label": "Filipenses 2:9-11",
+      "id": "b50-2-9-2-11"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "Hech. 20:28",
+      "label": "Hechos 20:28",
+      "id": "b44-20-28-20-28"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "1 Cor. 1:2",
+      "label": "1 Corintios 1:2",
+      "id": "b46-1-2-1-2"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 17,
+      "verseEnd": 18,
+      "sourceGroup": "Mat. 18:17, 18",
+      "label": "Mateo 18:17-18",
+      "id": "b40-18-17-18-18"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 1,
+      "verseEnd": 3,
+      "sourceGroup": "Gén. 12:1-3",
+      "label": "Génesis 12:1-3",
+      "id": "b1-12-1-12-3"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 38,
+      "verseEnd": 38,
+      "sourceGroup": "Hech. 7:38",
+      "label": "Hechos 7:38",
+      "id": "b44-7-38-7-38"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Exo. 19:6",
+      "label": "Éxodo 19:6",
+      "id": "b2-19-6-19-6"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Deut. 28:9",
+      "label": "Deuteronomio 28:9",
+      "id": "b5-28-9-28-9"
+    },
+    {
+      "bookId": 3,
+      "book": "Levítico",
+      "chapterStart": 26,
+      "chapterEnd": 26,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "compárese con Lev. 26:12",
+      "label": "Levítico 26:12",
+      "id": "b3-26-12-26-12"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 56,
+      "chapterEnd": 56,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Isa. 56:7",
+      "label": "Isaías 56:7",
+      "id": "b23-56-7-56-7"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Juan 19:15",
+      "label": "Juan 19:15",
+      "id": "b43-19-15-19-15"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 21,
+      "chapterEnd": 21,
+      "verseStart": 41,
+      "verseEnd": 41,
+      "sourceGroup": "Mat. 21:41,43",
+      "label": "Mateo 21:41",
+      "id": "b40-21-41-21-41"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 21,
+      "chapterEnd": 21,
+      "verseStart": 43,
+      "verseEnd": 43,
+      "sourceGroup": "Mat. 21:41,43",
+      "label": "Mateo 21:43",
+      "id": "b40-21-43-21-43"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 26,
+      "verseEnd": 29,
+      "sourceGroup": "ver Gál. 3:26-29",
+      "label": "Gálatas 3:26-29",
+      "id": "b48-3-26-3-29"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 6,
+      "verseEnd": 8,
+      "sourceGroup": "Rom. 9:6-8",
+      "label": "Romanos 9:6-8",
+      "id": "b45-9-6-9-8"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 17,
+      "verseEnd": 25,
+      "sourceGroup": "Rom. 11:17-25",
+      "label": "Romanos 11:17-25",
+      "id": "b45-11-17-11-25"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 16,
+      "verseEnd": 18,
+      "sourceGroup": "Rom. 11:16-18",
+      "label": "Romanos 11:16-18",
+      "id": "b45-11-16-11-18"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Mat. 28:19",
+      "label": "Mateo 28:19",
+      "id": "b40-28-19-28-19"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Efe. 2:16",
+      "label": "Efesios 2:16",
+      "id": "b49-2-16-2-16"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "1 Cor. 12:13",
+      "label": "1 Corintios 12:13",
+      "id": "b46-12-13-12-13"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Efe. 1:23",
+      "label": "Efesios 1:23",
+      "id": "b49-1-23-1-23"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Efe. 5:30",
+      "label": "Efesios 5:30",
+      "id": "b49-5-30-5-30"
+    },
+    {
+      "bookId": 51,
+      "book": "Colosenses",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Col. 1:18",
+      "label": "Colosenses 1:18",
+      "id": "b51-1-18-1-18"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Efe. 5:23",
+      "label": "Efesios 5:23",
+      "id": "b49-5-23-5-23"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 9,
+      "verseEnd": 16,
+      "sourceGroup": "1 Cor. 3:9-16",
+      "label": "1 Corintios 3:9-16",
+      "id": "b46-3-9-3-16"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Efe. 2:20",
+      "label": "Efesios 2:20",
+      "id": "b49-2-20-2-20"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 4,
+      "verseEnd": 6,
+      "sourceGroup": "1 Ped. 2:4-6",
+      "label": "1 Pedro 2:4-6",
+      "id": "b60-2-4-2-6"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Efe. 2:22",
+      "label": "Efesios 2:22",
+      "id": "b49-2-22-2-22"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 12,
+      "verseEnd": 15,
+      "sourceGroup": "1 Cor. 3:12-15",
+      "label": "1 Corintios 3:12-15",
+      "id": "b46-3-12-3-15"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "1 Cor. 3:17",
+      "label": "1 Corintios 3:17",
+      "id": "b46-3-17-3-17"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "2 Cor. 6:14, 16",
+      "label": "2 Corintios 6:14",
+      "id": "b47-6-14-6-14"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "2 Cor. 6:14, 16",
+      "label": "2 Corintios 6:16",
+      "id": "b47-6-16-6-16"
+    },
+    {
+      "bookId": 28,
+      "book": "Oseas",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Ose. 2:19",
+      "label": "Oseas 2:19",
+      "id": "b28-2-19-2-19"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Jer. 3:14",
+      "label": "Jeremías 3:14",
+      "id": "b24-3-14-3-14"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "2 Cor. 11:2",
+      "label": "2 Corintios 11:2",
+      "id": "b47-11-2-11-2"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "Efe. 5:25",
+      "label": "Efesios 5:25",
+      "id": "b49-5-25-5-25"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Efe. 5:26",
+      "label": "Efesios 5:26",
+      "id": "b49-5-26-5-26"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Juan 17:17",
+      "label": "Juan 17:17",
+      "id": "b43-17-17-17-17"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 27,
+      "verseEnd": 27,
+      "sourceGroup": "Efe. 5:27",
+      "label": "Efesios 5:27",
+      "id": "b49-5-27-5-27"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Sal. 9:11",
+      "label": "Salmos 9:11",
+      "id": "b19-9-11-9-11"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Sal. 14:7",
+      "label": "Salmos 14:7",
+      "id": "b19-14-7-14-7"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 53,
+      "chapterEnd": 53,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "53:6",
+      "label": "Salmos 53:6",
+      "id": "b19-53-6-53-6"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 48,
+      "chapterEnd": 48,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Sal. 48:2",
+      "label": "Salmos 48:2",
+      "id": "b19-48-2-48-2"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Gál. 4:26",
+      "label": "Gálatas 4:26",
+      "id": "b48-4-26-4-26"
+    },
+    {
+      "bookId": 50,
+      "book": "Filipenses",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Fil. 3:20",
+      "label": "Filipenses 3:20",
+      "id": "b50-3-20-3-20"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 28,
+      "verseEnd": 29,
+      "sourceGroup": "Gál. 4:28, 29",
+      "label": "Gálatas 4:28-29",
+      "id": "b48-4-28-4-29"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "5:1",
+      "label": "Gálatas 5:1",
+      "id": "b48-5-1-5-1"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Gál. 4:22,26, 31",
+      "label": "Gálatas 4:22",
+      "id": "b48-4-22-4-22"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 31,
+      "verseEnd": 31,
+      "sourceGroup": "Gál. 4:22,26, 31",
+      "label": "Gálatas 4:31",
+      "id": "b48-4-31-4-31"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "5:4",
+      "label": "Gálatas 5:4",
+      "id": "b48-5-4-5-4"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 5,
+      "verseEnd": 6,
+      "sourceGroup": "Gál. 5:5, 6",
+      "label": "Gálatas 5:5-6",
+      "id": "b48-5-5-5-6"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 22,
+      "verseEnd": 23,
+      "sourceGroup": "Heb. 12:22, 23",
+      "label": "Hebreos 12:22-23",
+      "id": "b58-12-22-12-23"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Efe. 3:15",
+      "label": "Efesios 3:15",
+      "id": "b49-3-15-3-15"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 14,
+      "verseEnd": 16,
+      "sourceGroup": "Rom. 8:14-16",
+      "label": "Romanos 8:14-16",
+      "id": "b45-8-14-8-16"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 4,
+      "verseEnd": 6,
+      "sourceGroup": "Efe. 1:4-6",
+      "label": "Efesios 1:4-6",
+      "id": "b49-1-4-1-6"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Juan 3:8",
+      "label": "Juan 3:8",
+      "id": "b43-3-8-3-8"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 3,
+      "chapterEnd": 4,
+      "verseStart": 26,
+      "verseEnd": 7,
+      "sourceGroup": "Gál 3:26-4:7",
+      "label": "Gálatas 3:26-4:7",
+      "id": "b48-3-26-4-7"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Efe. 2:19",
+      "label": "Efesios 2:19",
+      "id": "b49-2-19-2-19"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Gál. 6:10",
+      "label": "Gálatas 6:10",
+      "id": "b48-6-10-6-10"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Gál. 4:6",
+      "label": "Gálatas 4:6",
+      "id": "b48-4-6-4-6"
+    },
+    {
+      "bookId": 59,
+      "book": "Santiago",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Sant. 2:15",
+      "label": "Santiago 2:15",
+      "id": "b59-2-15-2-15"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 8:11",
+      "label": "1 Corintios 8:11",
+      "id": "b46-8-11-8-11"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Rom. 16:1",
+      "label": "Romanos 16:1",
+      "id": "b45-16-1-16-1"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "1 Cor. 4:15",
+      "label": "1 Corintios 4:15",
+      "id": "b46-4-15-4-15"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "1 Cor. 4:14",
+      "label": "1 Corintios 4:14",
+      "id": "b46-4-14-4-14"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "compárese con Efe. 5:1",
+      "label": "Efesios 5:1",
+      "id": "b49-5-1-5-1"
+    },
+    {
+      "bookId": 50,
+      "book": "Filipenses",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Fil. 1:5",
+      "label": "Filipenses 1:5",
+      "id": "b50-1-5-1-5"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "1 Juan 1:3",
+      "label": "1 Juan 1:3",
+      "id": "b62-1-3-1-3"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "1 Cor. 1:9",
+      "label": "1 Corintios 1:9",
+      "id": "b46-1-9-1-9"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "2 Cor. 13:14",
+      "label": "2 Corintios 13:14",
+      "id": "b47-13-14-13-14"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "1 Juan 1:3, 7",
+      "label": "1 Juan 1:7",
+      "id": "b62-1-7-1-7"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Gál. 2:9",
+      "label": "Gálatas 2:9",
+      "id": "b48-2-9-2-9"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "1 Tim. 3:15",
+      "label": "1 Timoteo 3:15",
+      "id": "b54-3-15-3-15"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "ver Isa. 8:20",
+      "label": "Isaías 8:20",
+      "id": "b23-8-20-8-20"
+    },
+    {
+      "bookId": 20,
+      "book": "Proverbios",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Prov. 11:14",
+      "label": "Proverbios 11:14",
+      "id": "b20-11-14-11-14"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 13,
+      "verseEnd": 15,
+      "sourceGroup": "Mat. 5:13-15",
+      "label": "Mateo 5:13-15",
+      "id": "b40-5-13-5-15"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Efe. 6:12",
+      "label": "Efesios 6:12",
+      "id": "b49-6-12-6-12"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Efe. 6:13",
+      "label": "Efesios 6:13",
+      "id": "b49-6-13-6-13"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 29,
+      "verseEnd": 30,
+      "sourceGroup": "ver Hech. 20:29,30",
+      "label": "Hechos 20:29-30",
+      "id": "b44-20-29-20-30"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "1 Tim. 4:1",
+      "label": "1 Timoteo 4:1",
+      "id": "b54-4-1-4-1"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 24,
+      "verseEnd": 25,
+      "sourceGroup": "Mat. 13:24, 25",
+      "label": "Mateo 13:24-25",
+      "id": "b40-13-24-13-25"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 29,
+      "verseEnd": 30,
+      "sourceGroup": "Mat. 13:29,30",
+      "label": "Mateo 13:29-30",
+      "id": "b40-13-29-13-30"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 12:12,17",
+      "label": "Apocalipsis 12:12",
+      "id": "b66-12-12-12-12"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Apoc. 12:12,17",
+      "label": "Apocalipsis 12:17",
+      "id": "b66-12-17-12-17"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Dan. 12:1",
+      "label": "Daniel 12:1",
+      "id": "b27-12-1-12-1"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Mat. 24:13",
+      "label": "Mateo 24:13",
+      "id": "b40-24-13-24-13"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 18,
+      "verseEnd": 20,
+      "sourceGroup": "Mat. 28:18-20",
+      "label": "Mateo 28:18-20",
+      "id": "b40-28-18-28-20"
+    },
+    {
+      "bookId": 52,
+      "book": "1 Tesalonicenses",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "1 Tes. 5:23",
+      "label": "1 Tesalonicenses 5:23",
+      "id": "b52-5-23-5-23"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 18,
+      "verseEnd": 19,
+      "sourceGroup": "Luc. 4:18,19",
+      "label": "Lucas 4:18-19",
+      "id": "b42-4-18-4-19"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Juan 1:9",
+      "label": "Juan 1:9",
+      "id": "b43-1-9-1-9"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Rom. 2:14",
+      "label": "Romanos 2:14",
+      "id": "b45-2-14-2-14"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Juan 4:23",
+      "label": "Juan 4:23",
+      "id": "b43-4-23-4-23"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Juan 10:16",
+      "label": "Juan 10:16",
+      "id": "b43-10-16-10-16"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 4,
+      "verseEnd": 16,
+      "sourceGroup": "Efe. 4:4-16",
+      "label": "Efesios 4:4-16",
+      "id": "b49-4-4-4-16"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 10,
+      "verseEnd": 22,
+      "sourceGroup": "Hech. 9:10-22",
+      "label": "Hechos 9:10-22",
+      "id": "b44-9-10-9-22"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 14:12",
+      "label": "Apocalipsis 14:12",
+      "id": "b66-14-12-14-12"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "18:4",
+      "label": "Apocalipsis 18:4",
+      "id": "b66-18-4-18-4"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Mat. 24:14",
+      "label": "Mateo 24:14",
+      "id": "b40-24-14-24-14"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 22,
+      "verseEnd": 23,
+      "sourceGroup": "Efe. 1:22, 23",
+      "label": "Efesios 1:22-23",
+      "id": "b49-1-22-1-23"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Apoc. 12:6,14",
+      "label": "Apocalipsis 12:6",
+      "id": "b66-12-6-12-6"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Apoc. 12:6,14",
+      "label": "Apocalipsis 12:14",
+      "id": "b66-12-14-12-14"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 33,
+      "verseEnd": 33,
+      "sourceGroup": "1 Cor. 14:33, 40",
+      "label": "1 Corintios 14:33",
+      "id": "b46-14-33-14-33"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 40,
+      "verseEnd": 40,
+      "sourceGroup": "1 Cor. 14:33, 40",
+      "label": "1 Corintios 14:40",
+      "id": "b46-14-40-14-40"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 36,
+      "verseEnd": 41,
+      "sourceGroup": "Hech. 2:36-41",
+      "label": "Hechos 2:36-41",
+      "id": "b44-2-36-2-41"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 10,
+      "verseEnd": 12,
+      "sourceGroup": "compárese con 4:10-12",
+      "label": "Hechos 4:10-12",
+      "id": "b44-4-10-4-12"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "ver Mat. 28:20",
+      "label": "Mateo 28:20",
+      "id": "b40-28-20-28-20"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Mat. 23:8,11",
+      "label": "Mateo 23:8",
+      "id": "b40-23-8-23-8"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Mat. 23:8,11",
+      "label": "Mateo 23:11",
+      "id": "b40-23-11-23-11"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "1 Ped. 2:5",
+      "label": "1 Pedro 2:5",
+      "id": "b60-2-5-2-5"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "1 Ped. 2:9",
+      "label": "1 Pedro 2:9",
+      "id": "b60-2-9-2-9"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Rom. 13:4,7",
+      "label": "Romanos 13:4",
+      "id": "b45-13-4-13-4"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Rom. 13:4,7",
+      "label": "Romanos 13:7",
+      "id": "b45-13-7-13-7"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "Mat. 22:21",
+      "label": "Mateo 22:21",
+      "id": "b40-22-21-22-21"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 29,
+      "verseEnd": 29,
+      "sourceGroup": "Hech. 5:29",
+      "label": "Hechos 5:29",
+      "id": "b44-5-29-5-29"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "Heb. 10:25",
+      "label": "Hebreos 10:25",
+      "id": "b58-10-25-10-25"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "compárese con 3:13",
+      "label": "Hebreos 3:13",
+      "id": "b58-3-13-3-13"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 6,
+      "verseEnd": 7,
+      "sourceGroup": "1 Juan 1:3, 6,7",
+      "label": "1 Juan 1:6-7",
+      "id": "b62-1-6-1-7"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Mat. 16:19",
+      "label": "Mateo 16:19",
+      "id": "b40-16-19-16-19"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 52,
+      "verseEnd": 52,
+      "sourceGroup": "Luc. 11:52",
+      "label": "Lucas 11:52",
+      "id": "b42-11-52-11-52"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 63,
+      "verseEnd": 63,
+      "sourceGroup": "Juan 6:63",
+      "label": "Juan 6:63",
+      "id": "b43-6-63-6-63"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 68,
+      "verseEnd": 68,
+      "sourceGroup": "Juan 6:68",
+      "label": "Juan 6:68",
+      "id": "b43-6-68-6-68"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "2 Cor. 2:16",
+      "label": "2 Corintios 2:16",
+      "id": "b47-2-16-2-16"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Mat. 4:4",
+      "label": "Mateo 4:4",
+      "id": "b40-4-4-4-4"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 7,
+      "verseEnd": 8,
+      "sourceGroup": "1 Cor. 1:7, 8",
+      "label": "1 Corintios 1:7-8",
+      "id": "b46-1-7-1-8"
+    },
+    {
+      "bookId": 61,
+      "book": "2 Pedro",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "2 Ped. 3:14",
+      "label": "2 Pedro 3:14",
+      "id": "b61-3-14-3-14"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 14,
+      "verseEnd": 22,
+      "sourceGroup": "Apoc. 3:14-22",
+      "label": "Apocalipsis 3:14-22",
+      "id": "b66-3-14-3-22"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "14:5",
+      "label": "Apocalipsis 14:5",
+      "id": "b66-14-5-14-5"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 6,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 14:6-12",
+      "label": "Apocalipsis 14:6-12",
+      "id": "b66-14-6-14-12"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 15,
+      "verseEnd": 26,
+      "sourceGroup": "Hech. 1:15-26",
+      "label": "Hechos 1:15-26",
+      "id": "b44-1-15-1-26"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 1,
+      "verseEnd": 4,
+      "sourceGroup": "Hech. 6:1-4",
+      "label": "Hechos 6:1-4",
+      "id": "b44-6-1-6-4"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Hech. 7,8",
+      "label": "Hechos 7",
+      "id": "b44-7-all-7-all"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Hech. 7,8",
+      "label": "Hechos 8",
+      "id": "b44-8-all-8-all"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Hech. 14:23",
+      "label": "Hechos 14:23",
+      "id": "b44-14-23-14-23"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 1,
+      "verseEnd": 29,
+      "sourceGroup": "Hech. 15:1-29",
+      "label": "Hechos 15:1-29",
+      "id": "b44-15-1-15-29"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Hech. 15:22, 25",
+      "label": "Hechos 15:22",
+      "id": "b44-15-22-15-22"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "Hech. 15:22, 25",
+      "label": "Hechos 15:25",
+      "id": "b44-15-25-15-25"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Mat. 28:18",
+      "label": "Mateo 28:18",
+      "id": "b40-28-18-28-18"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Efe. 1:22",
+      "label": "Efesios 1:22",
+      "id": "b49-1-22-1-22"
+    },
+    {
+      "bookId": 50,
+      "book": "Filipenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 10,
+      "verseEnd": 11,
+      "sourceGroup": "compárese con Fil. 2:10, 11",
+      "label": "Filipenses 2:10-11",
+      "id": "b50-2-10-2-11"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Apoc. 17:14",
+      "label": "Apocalipsis 17:14",
+      "id": "b66-17-14-17-14"
+    },
+    {
+      "bookId": 51,
+      "book": "Colosenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Col. 2:19",
+      "label": "Colosenses 2:19",
+      "id": "b51-2-19-2-19"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 26,
+      "chapterEnd": 26,
+      "verseStart": 26,
+      "verseEnd": 30,
+      "sourceGroup": "Mat. 26:26-30",
+      "label": "Mateo 26:26-30",
+      "id": "b40-26-26-26-30"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 19,
+      "verseEnd": 20,
+      "sourceGroup": "28:19, 20",
+      "label": "Mateo 28:19-20",
+      "id": "b40-28-19-28-20"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 23,
+      "verseEnd": 29,
+      "sourceGroup": "1 Cor. 11:23-29",
+      "label": "1 Corintios 11:23-29",
+      "id": "b46-11-23-11-29"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 1,
+      "verseEnd": 17,
+      "sourceGroup": "Juan 13:1-17",
+      "label": "Juan 13:1-17",
+      "id": "b43-13-1-13-17"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 15,
+      "verseEnd": 18,
+      "sourceGroup": "18:15-18",
+      "label": "Mateo 18:15-18",
+      "id": "b40-18-15-18-18"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 21,
+      "verseEnd": 23,
+      "sourceGroup": "Juan 20:21-23",
+      "label": "Juan 20:21-23",
+      "id": "b43-20-21-20-23"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Juan 15:26",
+      "label": "Juan 15:26",
+      "id": "b43-15-26-15-26"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 13,
+      "verseEnd": 15,
+      "sourceGroup": "16:13-15",
+      "label": "Juan 16:13-15",
+      "id": "b43-16-13-16-15"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 7,
+      "verseEnd": 13,
+      "sourceGroup": "Efe. 4:7-13",
+      "label": "Efesios 4:7-13",
+      "id": "b49-4-7-4-13"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 17,
+      "sourceGroup": "2 Tim. 3:15-17",
+      "label": "2 Timoteo 3:15-17",
+      "id": "b55-3-15-3-17"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Hech. 6:6",
+      "label": "Hechos 6:6",
+      "id": "b44-6-6-6-6"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 2,
+      "verseEnd": 3,
+      "sourceGroup": "13:2,3",
+      "label": "Hechos 13:2-3",
+      "id": "b44-13-2-13-3"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "1 Tim. 4:14",
+      "label": "1 Timoteo 4:14",
+      "id": "b54-4-14-4-14"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "5:22",
+      "label": "1 Timoteo 5:22",
+      "id": "b54-5-22-5-22"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Hech. 20:17, 28",
+      "label": "Hechos 20:17",
+      "id": "b44-20-17-20-17"
+    },
+    {
+      "bookId": 56,
+      "book": "Tito",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Tito 1:5, 7",
+      "label": "Tito 1:5",
+      "id": "b56-1-5-1-5"
+    },
+    {
+      "bookId": 56,
+      "book": "Tito",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Tito 1:5, 7",
+      "label": "Tito 1:7",
+      "id": "b56-1-7-1-7"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "1 Ped. 5:1",
+      "label": "1 Pedro 5:1",
+      "id": "b60-5-1-5-1"
+    },
+    {
+      "bookId": 63,
+      "book": "2 Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "2 Juan 1",
+      "label": "2 Juan 1:1",
+      "id": "b63-1-1-1-1"
+    },
+    {
+      "bookId": 64,
+      "book": "3 Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "3 Juan 1",
+      "label": "3 Juan 1:1",
+      "id": "b64-1-1-1-1"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 1,
+      "verseEnd": 7,
+      "sourceGroup": "1 Tim. 3:1-7",
+      "label": "1 Timoteo 3:1-7",
+      "id": "b54-3-1-3-7"
+    },
+    {
+      "bookId": 56,
+      "book": "Tito",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 5,
+      "verseEnd": 9,
+      "sourceGroup": "compárese con Tito 1:5-9",
+      "label": "Tito 1:5-9",
+      "id": "b56-1-5-1-9"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 35,
+      "verseEnd": 35,
+      "sourceGroup": "Hech. 20:35",
+      "label": "Hechos 20:35",
+      "id": "b44-20-35-20-35"
+    },
+    {
+      "bookId": 52,
+      "book": "1 Tesalonicenses",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "1 Tes. 5:12",
+      "label": "1 Tesalonicenses 5:12",
+      "id": "b52-5-12-5-12"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 29,
+      "verseEnd": 31,
+      "sourceGroup": "Hech. 20:29-31",
+      "label": "Hechos 20:29-31",
+      "id": "b44-20-29-20-31"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Heb. 13:7",
+      "label": "Hebreos 13:7",
+      "id": "b58-13-7-13-7"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "1 Ped. 5:3",
+      "label": "1 Pedro 5:3",
+      "id": "b60-5-3-5-3"
+    },
+    {
+      "bookId": 52,
+      "book": "1 Tesalonicenses",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "1 Tes. 5:13",
+      "label": "1 Tesalonicenses 5:13",
+      "id": "b52-5-13-5-13"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "1 Tim. 5:17",
+      "label": "1 Timoteo 5:17",
+      "id": "b54-5-17-5-17"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Heb. 13:17",
+      "label": "Hebreos 13:17",
+      "id": "b58-13-17-13-17"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "compárese con 1 Ped. 5:5",
+      "label": "1 Pedro 5:5",
+      "id": "b60-5-5-5-5"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "1 Tim. 5:19",
+      "label": "1 Timoteo 5:19",
+      "id": "b54-5-19-5-19"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Hech. 6:4",
+      "label": "Hechos 6:4",
+      "id": "b44-6-4-6-4"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Hech. 6:8",
+      "label": "Hechos 6:8",
+      "id": "b44-6-8-6-8"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 5,
+      "verseEnd": 13,
+      "sourceGroup": "8:5-13, 26-40",
+      "label": "Hechos 8:5-13",
+      "id": "b44-8-5-8-13"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 26,
+      "verseEnd": 40,
+      "sourceGroup": "8:5-13, 26-40",
+      "label": "Hechos 8:26-40",
+      "id": "b44-8-26-8-40"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 8,
+      "verseEnd": 13,
+      "sourceGroup": "1 Tim. 3:8-13",
+      "label": "1 Timoteo 3:8-13",
+      "id": "b54-3-8-3-13"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Apoc. 2:2",
+      "label": "Apocalipsis 2:2",
+      "id": "b66-2-2-2-2"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 14,
+      "verseEnd": 15,
+      "sourceGroup": "Apoc. 2:14, 15, 20",
+      "label": "Apocalipsis 2:14-15",
+      "id": "b66-2-14-2-15"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Apoc. 2:14, 15, 20",
+      "label": "Apocalipsis 2:20",
+      "id": "b66-2-20-2-20"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 15,
+      "verseEnd": 17,
+      "sourceGroup": "Mat. 18:15-17",
+      "label": "Mateo 18:15-17",
+      "id": "b40-18-15-18-17"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Mat. 18:18",
+      "label": "Mateo 18:18",
+      "id": "b40-18-18-18-18"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Rom. 3:23",
+      "label": "Romanos 3:23",
+      "id": "b45-3-23-3-23"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "1 Cor. 5:4, 5, 7",
+      "label": "1 Corintios 5:4-5",
+      "id": "b46-5-4-5-5"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "1 Cor. 5:4, 5, 7",
+      "label": "1 Corintios 5:7",
+      "id": "b46-5-7-5-7"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 5:11,13",
+      "label": "1 Corintios 5:11",
+      "id": "b46-5-11-5-11"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "1 Cor. 5:11,13",
+      "label": "1 Corintios 5:13",
+      "id": "b46-5-13-5-13"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Rom. 16:17",
+      "label": "Romanos 16:17",
+      "id": "b45-16-17-16-17"
+    },
+    {
+      "bookId": 53,
+      "book": "2 Tesalonicenses",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "2 Tes. 3:6,14,15",
+      "label": "2 Tesalonicenses 3:6",
+      "id": "b53-3-6-3-6"
+    },
+    {
+      "bookId": 53,
+      "book": "2 Tesalonicenses",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 14,
+      "verseEnd": 15,
+      "sourceGroup": "2 Tes. 3:6,14,15",
+      "label": "2 Tesalonicenses 3:14-15",
+      "id": "b53-3-14-3-15"
+    },
+    {
+      "bookId": 56,
+      "book": "Tito",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 10,
+      "verseEnd": 11,
+      "sourceGroup": "Tit. 3:10,11",
+      "label": "Tito 3:10-11",
+      "id": "b56-3-10-3-11"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 6,
+      "verseEnd": 10,
+      "sourceGroup": "2 Cor. 2:6-10",
+      "label": "2 Corintios 2:6-10",
+      "id": "b47-2-6-2-10"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Apoc. 3:20",
+      "label": "Apocalipsis 3:20",
+      "id": "b66-3-20-3-20"
+    }
+  ]
+}

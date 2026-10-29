@@ -11,9 +11,15 @@ const FALLBACK_BIBLE_VERSIONS: BibleVersion[] = [
 type Props = {
   reference: BibleReference | null;
   onClose: () => void;
+  appearance?: "default" | "santa-biblia";
+  referenceNavigation?: {
+    label: string;
+    onPrevious?: () => void;
+    onNext?: () => void;
+  };
 };
 
-export function BibleStudyModal({ reference, onClose }: Props) {
+export function BibleStudyModal({ reference, onClose, appearance = "default", referenceNavigation }: Props) {
   const [activeTab, setActiveTab] = useState<"bible" | "commentary">("bible");
   const [passage, setPassage] = useState<BiblePassage | null>(null);
   const [selectedVersion, setSelectedVersion] = useState(DEFAULT_BIBLE_VERSION);
@@ -23,12 +29,17 @@ export function BibleStudyModal({ reference, onClose }: Props) {
   const [commentaryStatus, setCommentaryStatus] = useState("Cargando comentario bíblico...");
   const [bibleUrl, setBibleUrl] = useState("https://www.santabiblia.cloud");
   const closeRef = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     if (!reference) return;
     let mounted = true;
     document.body.classList.add("modal-open");
-    closeRef.current?.focus();
+    if (appearance !== "santa-biblia" || !dialogRef.current?.contains(document.activeElement)) closeRef.current?.focus();
+    if (appearance === "santa-biblia") {
+      const body = dialogRef.current?.querySelector<HTMLElement>(".modal-body");
+      if (body) body.scrollTop = 0;
+    }
     setActiveTab("bible");
     setPassage(null);
     setCommentary([]);
@@ -77,7 +88,7 @@ export function BibleStudyModal({ reference, onClose }: Props) {
       mounted = false;
       document.body.classList.remove("modal-open");
     };
-  }, [reference]);
+  }, [appearance, reference]);
 
   useEffect(() => {
     if (!reference) return;
@@ -108,6 +119,40 @@ export function BibleStudyModal({ reference, onClose }: Props) {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [onClose, reference]);
 
+  // The beliefs reader opts into a contained keyboard focus cycle. Existing
+  // lesson readers retain their current modal behaviour and markup.
+  useEffect(() => {
+    if (!reference || appearance !== "santa-biblia") return;
+    const dialog = dialogRef.current;
+    if (!dialog) return;
+    const focusable = () => Array.from(dialog.querySelectorAll<HTMLElement>(
+      'button:not([disabled]), a[href], select:not([disabled]), input:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+    )).filter((element) => element.getClientRects().length > 0 && element.getAttribute("aria-hidden") !== "true");
+    const keepFocus = (event: FocusEvent) => {
+      if (event.target instanceof Node && !dialog.contains(event.target)) closeRef.current?.focus();
+    };
+    const cycleFocus = (event: KeyboardEvent) => {
+      if (event.key !== "Tab") return;
+      const elements = focusable();
+      const first = elements[0];
+      const last = elements.at(-1);
+      if (!first || !last) return;
+      if (event.shiftKey && (document.activeElement === first || !dialog.contains(document.activeElement))) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && (document.activeElement === last || !dialog.contains(document.activeElement))) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("focusin", keepFocus);
+    window.addEventListener("keydown", cycleFocus);
+    return () => {
+      document.removeEventListener("focusin", keepFocus);
+      window.removeEventListener("keydown", cycleFocus);
+    };
+  }, [appearance, reference]);
+
   const passageText = useMemo(
     () => passage?.verses.map((verse) => `${verse.number} ${verse.text}`).join("\n") ?? "",
     [passage],
@@ -132,12 +177,14 @@ export function BibleStudyModal({ reference, onClose }: Props) {
   };
 
   return (
-    <div className="modal-backdrop" onMouseDown={onClose}>
+    <div className={appearance === "santa-biblia" ? "modal-backdrop modal-backdrop--santa-biblia" : "modal-backdrop"} onMouseDown={onClose}>
       <section
-        className="bible-modal"
+        className={appearance === "santa-biblia" ? "bible-modal bible-modal--santa-biblia" : "bible-modal"}
+        ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-labelledby="bible-modal-title"
+        aria-describedby={referenceNavigation ? "bible-reference-navigation-label" : undefined}
         onMouseDown={(event) => event.stopPropagation()}
       >
         <header className="modal-header">
@@ -146,6 +193,18 @@ export function BibleStudyModal({ reference, onClose }: Props) {
             ×
           </button>
         </header>
+
+        {referenceNavigation && (
+          <nav className="bible-reference-navigation" aria-label="Pasajes de esta referencia">
+            <button type="button" onClick={referenceNavigation.onPrevious} disabled={!referenceNavigation.onPrevious} aria-label="Pasaje anterior">
+              <span aria-hidden="true">←</span>
+            </button>
+            <p id="bible-reference-navigation-label" role="status" aria-live="polite" aria-atomic="true">{referenceNavigation.label}</p>
+            <button type="button" onClick={referenceNavigation.onNext} disabled={!referenceNavigation.onNext} aria-label="Pasaje siguiente">
+              <span aria-hidden="true">→</span>
+            </button>
+          </nav>
+        )}
 
         <div className="modal-tabs" role="tablist" aria-label="Contenido de referencia bíblica">
           <button

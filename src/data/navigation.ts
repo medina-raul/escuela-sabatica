@@ -1,4 +1,4 @@
-export type NavSection = "home" | "lessons" | "resources" | "bible" | "archive";
+export type NavSection = "home" | "lessons" | "resources" | "beliefs" | "bible" | "archive";
 
 export type NavItem = {
   section: NavSection;
@@ -12,6 +12,7 @@ export const navItems: NavItem[] = [
   { section: "home", label: "Inicio", href: "/", icon: "⌂" },
   { section: "lessons", label: "Lecciones", href: "/#lessons-heading", icon: "▣" },
   { section: "resources", label: "Recursos", href: "/recursos", icon: "▤" },
+  { section: "beliefs", label: "28 creencias", href: "/creencias", icon: "◈" },
   { section: "archive", label: "Trimestres", href: "/trimestres", icon: "▦" },
   { section: "bible", label: "Biblia", href: "https://www.santabiblia.cloud", icon: "□", external: true },
 ];

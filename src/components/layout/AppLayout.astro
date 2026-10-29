@@ -3,9 +3,10 @@ import Header from "./Header.astro";
 import Sidebar from "./Sidebar.astro";
 import MobileBottomNav from "./MobileBottomNav.astro";
 import Footer from "./Footer.astro";
+import type { NavSection } from "@data/navigation";
 
 type Props = {
-  activeSection?: "home" | "lessons" | "resources" | "bible" | "archive";
+  activeSection?: NavSection;
   quarterId?: string;
 };
 

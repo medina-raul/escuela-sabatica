@@ -1,11 +1,12 @@
 ---
 import Analytics from "@vercel/analytics/astro";
 import AppLayout from "./AppLayout.astro";
+import type { NavSection } from "@data/navigation";
 import "@styles/globals.css";
 
 type Props = {
   title?: string;
-  activeSection?: "home" | "lessons" | "resources" | "bible" | "archive";
+  activeSection?: NavSection;
   description?: string;
   image?: string;
   url?: string;
@@ -95,6 +96,7 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
             if (section === "home" && (h === "/" || /^\/trimestres\/[^/]+\/?$/.test(h))) match = true;
             if (section === "lessons" && (h.includes("lessons-heading") || h.includes("/lecciones/"))) match = true;
             if (section === "resources" && (h.endsWith("/recursos") || h.includes("resources-heading"))) match = true;
+            if (section === "beliefs" && /^\/creencias\/?$/.test(h)) match = true;
             if (match) {
               a.setAttribute("aria-current", "page");
             } else {
@@ -115,6 +117,8 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
           highlightSection("resources");
         } else if (path.startsWith("/lecciones/") || /^\/trimestres\/[^/]+\/lecciones\//.test(path)) {
           highlightSection("lessons");
+        } else if (/^\/creencias(?:\/|$)/.test(path)) {
+          highlightSection("beliefs");
         } else if (path === "/" || /^\/trimestres\/[^/]+\/?$/.test(path)) {
           updateFromHash();
           window.addEventListener("hashchange", updateFromHash);

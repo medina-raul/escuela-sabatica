@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Santa Biblia Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/santa-biblia/lora-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Santa Biblia Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/santa-biblia/playfair-display-latin-400-normal.woff2") format("woff2");
+}
+
+/* This appearance is exclusive to the 28 beliefs reader. */
+.modal-backdrop.modal-backdrop--santa-biblia {
+  z-index: 100;
+  align-items: center;
+  padding: clamp(14px, 3vw, 28px);
+  background: rgb(27 36 39 / 44%);
+  backdrop-filter: blur(4px);
+}
+
+.bible-modal.bible-modal--santa-biblia {
+  --belief-reader-paper: #f8f6f0;
+  --belief-reader-ink: #303f43;
+  --belief-reader-muted: #647174;
+  --belief-reader-accent: #2a5b6b;
+  --belief-reader-border: #d8ded8;
+  width: min(100%, 46rem);
+  min-height: 0;
+  max-height: min(88dvh, 52rem);
+  border: 1px solid var(--belief-reader-border);
+  border-radius: 18px;
+  background: var(--belief-reader-paper);
+  color: var(--belief-reader-ink);
+  box-shadow: 0 22px 65px rgb(25 34 36 / 20%);
+}
+
+.bible-modal.bible-modal--santa-biblia .modal-header {
+  padding: 22px 24px 14px;
+  gap: 14px;
+}
+
+.bible-modal.bible-modal--santa-biblia .modal-header h2 {
+  min-width: 0;
+  color: var(--belief-reader-ink);
+  font: 400 clamp(1.3rem, 3.5vw, 1.7rem)/1.25 "Santa Biblia Display", "Literata", Georgia, serif;
+  letter-spacing: -.025em;
+  overflow-wrap: anywhere;
+}
+
+.bible-modal.bible-modal--santa-biblia .modal-header .icon-button {
+  flex: none;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--belief-reader-border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--belief-reader-muted);
+}
+
+.bible-modal.bible-modal--santa-biblia .bible-reference-navigation {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 42px;
+  align-items: center;
+  gap: 12px;
+  padding: 0 24px 16px;
+}
+
+.bible-modal.bible-modal--santa-biblia .bible-reference-navigation p {
+  margin: 0;
+  color: var(--belief-reader-muted);
+  font-size: .75rem;
+  line-height: 1.6;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.bible-modal.bible-modal--santa-biblia .bible-reference-navigation button {
+  min-width: 42px;
+  min-height: 42px;
+  padding: 6px;
+  border: 1px solid var(--belief-reader-border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--belief-reader-accent);
+}
+
+.bible-modal.bible-modal--santa-biblia .bible-reference-navigation button:disabled { opacity: .3; cursor: default; }
+.bible-modal.bible-modal--santa-biblia .modal-tabs { border-color: var(--belief-reader-border); }
+.bible-modal.bible-modal--santa-biblia .modal-tabs button { padding: 12px; color: var(--belief-reader-muted); border-bottom-width: 1px; font-size: .8125rem; font-weight: 500; }
+.bible-modal.bible-modal--santa-biblia .modal-tabs button.active { border-color: var(--belief-reader-accent); background: #edf1ee; color: var(--belief-reader-accent); }
+.bible-modal.bible-modal--santa-biblia .modal-body { min-height: 0; padding: 22px 28px 26px; scrollbar-width: thin; }
+.bible-modal.bible-modal--santa-biblia .version-select { max-width: 100%; margin-bottom: 20px; border-color: var(--belief-reader-border); background: transparent; color: var(--belief-reader-muted); font-size: .8125rem; }
+.bible-modal.bible-modal--santa-biblia .passage { gap: 0; color: var(--belief-reader-ink); font: 400 clamp(1.0625rem, 1.4vw, 1.125rem)/1.85 "Santa Biblia Lora", "Literata", Georgia, serif; }
+.bible-modal.bible-modal--santa-biblia::before { display: none; }
+.bible-modal.bible-modal--santa-biblia .commentary-entry h3 { color: var(--belief-reader-ink); font-weight: 600; }
+.bible-modal.bible-modal--santa-biblia .commentary-range-header { color: var(--belief-reader-ink); }
+.bible-modal.bible-modal--santa-biblia .passage p { margin: 0 0 1em; text-align: start; }
+.bible-modal.bible-modal--santa-biblia .verse-number { color: var(--belief-reader-accent); font-size: .68em; font-weight: 600; }
+.bible-modal.bible-modal--santa-biblia .modal-actions { flex: none; padding: 14px 24px; gap: 8px; border-color: var(--belief-reader-border); background: transparent; }
+.bible-modal.bible-modal--santa-biblia .modal-actions button,
+.bible-modal.bible-modal--santa-biblia .modal-actions > a { min-height: 40px; padding: 7px 11px; border-color: var(--belief-reader-border); background: transparent; color: var(--belief-reader-accent); font-size: .75rem; font-weight: 500; }
+.bible-modal.bible-modal--santa-biblia .bible-source { margin: 5px 0 0; padding-top: 8px; border-color: var(--belief-reader-border); color: var(--belief-reader-muted); font-size: .6875rem; }
+.bible-modal.bible-modal--santa-biblia .bible-source a { color: var(--belief-reader-accent); }
+.bible-modal.bible-modal--santa-biblia :focus-visible { outline: 2px solid var(--belief-reader-accent); outline-offset: 3px; }
+
+@media (max-width: 520px) {
+  .bible-modal.bible-modal--santa-biblia { max-height: calc(100dvh - 28px); border-radius: 14px; }
+  .bible-modal.bible-modal--santa-biblia .modal-header { padding: 16px 16px 10px; }
+  .bible-modal.bible-modal--santa-biblia .bible-reference-navigation { gap: 8px; padding: 0 16px 12px; }
+  .bible-modal.bible-modal--santa-biblia .modal-body { padding: 18px 18px 20px; }
+  .bible-modal.bible-modal--santa-biblia .modal-actions { padding: 12px 16px; }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .modal-backdrop.modal-backdrop--santa-biblia { backdrop-filter: none; }
+}

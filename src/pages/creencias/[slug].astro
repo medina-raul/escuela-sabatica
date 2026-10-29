@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import BeliefsPage from "@components/beliefs/BeliefsPage";
+import catalog from "@data/beliefs/beliefs.es.json";
+
+export const getStaticPaths = (() => catalog.beliefs.map((belief) => {
+  const text = belief.paragraphs.join(" ");
+  const boundary = text.lastIndexOf(" ", 157);
+  const description = text.length > 160 ? `${text.slice(0, boundary > 100 ? boundary : 157)}…` : text;
+  return {
+    params: { slug: belief.slug },
+    props: { slug: belief.slug, title: belief.title, description },
+  };
+})) satisfies GetStaticPaths;
+
+type Props = {
+  slug: string;
+  title: string;
+  description: string;
+};
+
+const { slug, title, description } = Astro.props;
+---
+
+<BaseLayout
+  title={`${title} | 28 creencias | Escuela Sabática`}
+  activeSection="beliefs"
+  description={description}
+  url={`/creencias/${slug}`}
+>
+  <div class="content-wrap">
+    <BeliefsPage slug={slug} client:load />
+  </div>
+</BaseLayout>

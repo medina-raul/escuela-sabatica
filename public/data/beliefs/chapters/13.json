@@ -1,0 +1,2004 @@
+{
+  "beliefNumber": 13,
+  "bookChapterTitle": "El remanente y su misión",
+  "groupInBookIndex": "LA DOCTRINA DE LA IGLESIA",
+  "printedPages": [
+    180,
+    199
+  ],
+  "pdfPages": [
+    182,
+    201
+  ],
+  "transcriptionStatus": "automated-draft-needs-editorial-review",
+  "editorialNotes": [
+    "Sentence missing in the Spanish PDF on page 182 reconstructed from the parallel original passage."
+  ],
+  "referenceCorrections": [],
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "text": "EL GIGANTESCO DRAGÓN ROJO SE AGAZAPA, listo para saltar. Ya ha provocado la caída de un tercio de los ángeles del cielo (Apoc. 12:4, 7-9). Ahora, si puede lograr su propósito de devorar al niño que está por nacer, habrá ganado la guerra. La mujer que se halla delante de él está vestida del sol, tiene la luna bajo sus pies y lleva una corona de doce estrellas. El hijo varón que ella da a luz, está destinado a regir “ con vara de hierro a todas las naciones”. El dragón lanza su ataque, pero sus esfuerzos por matar al niño son vanos. En cambio, “fue arrebatado para Dios y para su trono”. Enfurecido, el dragón torna su ira contra la madre, a la cual se le conceden milagrosamente alas, que le permiten huir a un lugar remoto especialmente preparado por Dios, quien la sustenta allí por un tiempo, y tiempos, y la mitad de un tiempo, es decir, tres años y medio o 1.260 días proféticos (Apoc. 12:1-6,13,14). En la profecía bíblica, una mujer pura representa a la iglesia fiel de Dios.1 Una mujer representada como fornicaria o adúltera, representa al pueblo de Dios que ha apostatado (Eze. 16; Isa. 57:8; Jer. 31:4, 5; Ose. 1-3; Apoc. 17:1-5). El dragón, “la serpiente antigua, que se llama diablo y Satanás\", esperaba la oportunidad de devorar al Niño varón, el Mesías largamente esperado, Jesucristo. Satanás, en su guerra contra Jesús, usó como su instrumento al Imperio Romano. Nada, ni siquiera la muerte en la cruz, pudo desviar a Jesús de su misión como Salvador de la humanidad. En la cruz, Cristo derrotó a Satanás. Refiriéndose a la crucifixión, Cristo dijo: “ Ahora es el juicio de este mundo; ahora el príncipe de este mundo será echado fuera” (Juan 12:31). El Apocalipsis describe el himno de victoria que resuena en el cielo: “ Ahora ha venido la salvación, el poder, y el reino de nuestro Dios, y la autoridad de su Cristo; porque ha sido lanzado fuera el acusador de nuestros hermanos, el que los acusaba delante de nuestro Dios día y noche... por lo cual alegraos, cielos, y los que moráis en ellos” (Apoc. 12:10-12). La expulsión de Satanás del cielo restringió su actividad. Ya no podría el diablo acusar al pueblo de Dios ante los seres celestiales. Pero mientras que el cielo se goza, la tierra debe estar alerta: “¡Ay de los moradores de la tierra y del mar! Porque el diablo ha descendido a vosotros con gran ira, sabiendo que tiene poco tiempo” (Apoc. 12:12). Para desahogar su ira, Satanás comenzó a perseguir a la mujer —la iglesia— (Apoc. 12:13), la cual a pesar de su gran sufrimiento, de todos modos sobrevivió. Las zonas escasamente pobladas del mundo —“ el desierto”— proveyeron refugio para los fieles de Dios durante los 1.260 días proféticos o años literales (Apoc. 12:14-16; ver en el capítulo 4 lo referente al principio de día por año).2 Al fin de esta experiencia en el desierto, el pueblo de Dios emerge en respuesta a las señales del pronto retorno de Cristo. Juan identifica este grupo fiel como “el resto... los que guardan los mandamientos de Dios y tienen el testimonio de Jesucristo” (Apoc. 12:17). El diablo odia a este grupo con especial saña. ¿Cuándo y dónde sucedió esta persecución? ¿Qué le dio origen? ¿Cuándo comenzó a aparecer el remanente? ¿Cuál es su misión? La respuesta a estas preguntas requiere un repaso, tanto de la Escritura como de la historia.",
+      "pdfPage": 182,
+      "pdfPageEnd": 183,
+      "citations": [
+        {
+          "start": 120,
+          "end": 137,
+          "referenceIds": [
+            "b66-12-4-12-4",
+            "b66-12-7-12-9"
+          ]
+        },
+        {
+          "start": 889,
+          "end": 909,
+          "referenceIds": [
+            "b66-12-1-12-6",
+            "b66-12-13-12-14"
+          ]
+        },
+        {
+          "start": 1087,
+          "end": 1145,
+          "referenceIds": [
+            "b26-16-all-16-all",
+            "b23-57-8-57-8",
+            "b24-31-4-31-5",
+            "b28-1-all-3-all",
+            "b66-17-1-17-5"
+          ]
+        },
+        {
+          "start": 1659,
+          "end": 1671,
+          "referenceIds": [
+            "b43-12-31-12-31"
+          ]
+        },
+        {
+          "start": 2020,
+          "end": 2036,
+          "referenceIds": [
+            "b66-12-10-12-12"
+          ]
+        },
+        {
+          "start": 2372,
+          "end": 2385,
+          "referenceIds": [
+            "b66-12-12-12-12"
+          ]
+        },
+        {
+          "start": 2462,
+          "end": 2475,
+          "referenceIds": [
+            "b66-12-13-12-13"
+          ]
+        },
+        {
+          "start": 2696,
+          "end": 2775,
+          "referenceIds": [
+            "b66-12-14-12-16"
+          ]
+        },
+        {
+          "start": 3032,
+          "end": 3045,
+          "referenceIds": [
+            "b66-12-17-12-17"
+          ]
+        }
+      ],
+      "citationIssues": [
+        {
+          "start": 2696,
+          "end": 2775,
+          "text": "(Apoc. 12:14-16; ver en el capítulo 4 lo referente al principio de día por año)",
+          "fragments": [
+            {
+              "sourceGroup": "ver en el capítulo 4 lo referente al principio de día por año",
+              "fragment": "ver en el capítulo 4 lo referente al principio de día por año",
+              "reason": "Fragmento de prosa o cita no reconocida"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La gran apostasía",
+      "pdfPage": 183
+    },
+    {
+      "kind": "paragraph",
+      "text": "La persecución de la iglesia fue provocada en primer lugar por la Roma pagana, y luego por una gran apostasía dentro de sus propias filas. Esta apostasía no vino por sorpresa, puesto que Juan, Pablo y el mismo Señor Jesús lo predijeron. Durante su último discurso formal, Jesús amonestó a sus discípulos acerca del engaño venidero. “Mirad que nadie os engañe —les advirtió—... porque se levantarán falsos cristos, y falsos profetas, y harán grandes señales y prodigios, de tal manera que engañarán, si fuere posible, aun a los escogidos” (Mat. 24:4, 24). Sus seguidores experimentarían un período de “ gran tribulación\", pero sobrevivirían (Mat. 24:21, 22). Señales impresionantes de la naturaleza marcarían el fin de esta persecución y revelarían la cercanía del retorno de Cristo (Mat. 24:29,32,33). Por su parte, el apóstol Pablo advirtió lo siguiente: “Después de mi partida entrarán en medio de vosotros lobos rapaces, que no perdonarán al rebaño. Y de vosotros mismos se levantarán hombres que hablen cosas perversas para arrastrar tras sí a los discípulos” (Hech. 20:29, 30). Esos “lobos” llevarían a la iglesia a “la apostasía”. Esa apostasía debía ocurrir antes del retorno de Cristo, dijo Pablo. Era algo tan cierto, que el hecho de que todavía no había sucedido, era una señal segura de que la venida de Cristo no era todavía inminente. “Nadie os engañe en ninguna manera —dijo el apóstol—; porque no vendrá sin que antes venga la apostasía, y se manifieste el hombre de pecado, el hijo de perdición, el cual se opone y se levanta contra todo lo que se llama Dios o es objeto de culto; tanto que se sienta en el templo de Dios como Dios, haciéndose pasar por Dios” (2 Tes. 2:3,4). Durante la época de Pablo esta apostasía ya se hallaba obrando en forma limitada. Su método de operación era satánico, “con gran poder y señales y prodigios mentirosos, y con todo engaño de iniquidad” (2 Tes. 2:9, 10). Antes del fin del primer siglo, el apóstol Juan declaró que “muchos falsos profetas han salido por el mundo”. En verdad, dijo, “el espíritu del anticristo... ahora ya está en el mundo” (1 Juan 4:1, 3). ¿Cómo surgió este sistema de apostasía?",
+      "pdfPage": 183,
+      "pdfPageEnd": 184,
+      "citations": [
+        {
+          "start": 538,
+          "end": 553,
+          "referenceIds": [
+            "b40-24-4-24-4",
+            "b40-24-24-24-24"
+          ]
+        },
+        {
+          "start": 640,
+          "end": 656,
+          "referenceIds": [
+            "b40-24-21-24-22"
+          ]
+        },
+        {
+          "start": 782,
+          "end": 800,
+          "referenceIds": [
+            "b40-24-29-24-29",
+            "b40-24-32-24-33"
+          ]
+        },
+        {
+          "start": 1064,
+          "end": 1081,
+          "referenceIds": [
+            "b44-20-29-20-30"
+          ]
+        },
+        {
+          "start": 1676,
+          "end": 1690,
+          "referenceIds": [
+            "b53-2-3-2-4"
+          ]
+        },
+        {
+          "start": 1893,
+          "end": 1909,
+          "referenceIds": [
+            "b53-2-9-2-10"
+          ]
+        },
+        {
+          "start": 2096,
+          "end": 2111,
+          "referenceIds": [
+            "b62-4-1-4-1",
+            "b62-4-3-4-3"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El surgimiento del “hombre de pecado”. “ Al dejar la iglesia su ‘primer amor’ (Apoc. 2:4), abandonó su pureza doctrinal, sus elevadas normas de conducta personal y el invisible vínculo de unidad que proveía el Espíritu Santo. En el culto, el formalismo reemplazó a la sencillez. La popularidad y el poder personal pasaron a determinar con creciente influencia la elección de dirigentes, los cuales primero asumieron autoridad cada vez mayor dentro de la iglesia local, y luego procuraron extenderla sobre las iglesias vecinas. “La administración de la iglesia local bajo la dirección del Espíritu Santo finalmente dio paso al autoritarismo eclesiástico en poder de un solo magistrado, el obispo, a quien cada miembro de iglesia estaba personalmente sujeto, y únicamente por cuyo intermedio el creyente tenía acceso a la salvación. Desde entonces los dirigentes solo pensaron en gobernar la iglesia en vez de servirla, y el ‘mayor’ ya no era aquel que se consideraba ‘siervo de todos’. De ese modo, gradualmente se formó el concepto de una jerarquía sacerdotal que se interpuso entre el cristiano como individuo y su Señor”.3",
+      "pdfPage": 184,
+      "citations": [
+        {
+          "start": 78,
+          "end": 89,
+          "referenceIds": [
+            "b66-2-4-2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "A medida que se erosionaba la importancia del individuo y de la iglesia local, el obispo de Roma surgió como el poder supremo de la cristiandad. Con el apoyo del emperador, este obispo o papa4 fue reconocido como la cabeza visible de la iglesia universal, y pasó a estar investido de suprema autoridad sobre todos los dirigentes de su iglesia en el mundo. Bajo la conducción del papado,5 la iglesia cristiana se hundió cada vez más en la apostasía. La popularidad creciente de la iglesia aceleró su descenso. Las normas rebajadas hicieron que los inconversos se sintieran confortables en la iglesia. Multitud de individuos que comprendían muy poco del verdadero cristianismo se unieron a la iglesia solo de nombre, llevando consigo sus doctrinas paganas, sus imágenes, sus modalidades de culto, celebraciones y fiestas. Esas transigencias entre el paganismo y el cristianismo llevaron a la formación del “hombre de pecado”, un sistema gigantesco de religión falsa, una mezcla de verdad y error. La profecía del segundo capítulo de 2 Tesalonicenses no condena a los individuos, sino que expone el sistema religioso responsable de la gran apostasía. Dentro de este sistema, sin embargo, hay muchos creyentes que pertenecen a la iglesia universal de Dios, porque viven según toda la luz que tienen.",
+      "pdfPage": 185
+    },
+    {
+      "kind": "paragraph",
+      "text": "La iglesia sufriente. Junto con el descenso de la espiritualidad, la iglesia de Roma desarrolló un perfil más secular, con vínculos más estrechos al gobierno imperial. La iglesia y el Estado se unieron en una alianza profana. En su obra clásica, La ciudad de Dios, Agustín, uno de los padres más influyentes de la Iglesia, estableció el ideal católico de una Iglesia universal en control de un Estado universal. El pensamiento de Agustín estableció el fundamento de la teología medieval del papado. En el año 533 d. C., en una carta incorporada en el código de Justiniano, el emperador Justiniano declaró que el obispo de Roma era la cabeza de todas las iglesias.6 También reconoció la influencia del Papa en la eliminación de los herejes.7 Cuando Belisario, general de Justiniano, liberó a Roma en el año 538 d. C., el obispo de Roma se vio libre del control de los ostrogodos, cuyo arrianismo había resultado en la restricción de la Iglesia Católica en desarrollo. Ahora el obispo podría ejercer las prerrogativas que le había concedido el decreto de Justiniano, en el año 533 d. C.; ahora podría aumentar la autoridad de la “Santa Sede”. Así comenzaron los 1.260 años de persecución que había predicho la profecía bíblica (Dan. 7:25; Apoc. 12:6,14; 13:5-7). Trágicamente, la Iglesia, asistida por el Estado, procuró imponer sus decretos y enseñanzas sobre todos los cristianos. Muchos abandonaron sus creencias por temor a la persecución, mientras que los que decidieron permanecer fieles a las enseñanzas bíblicas experimentaron severa persecución. El mundo cristiano se convirtió en un campo de batalla. ¡Muchos fueron aprisionados o ejecutados en el nombre de Dios! Durante los 1.260 años de persecución, millones de fieles creyentes experimentaron grandes sufrimientos y muchos debieron sellar con la muerte su lealtad a Cristo.8 Cada gota de sangre derramada pasó a ser una mancha en el nombre de Dios y Jesucristo. Nada ha dañado más la causa del cristianismo que esta despiadada persecución. La visión terriblemente distorsionada del carácter de Dios que proveen estas actividades de la iglesia, y las doctrinas del purgatorio y tormento eterno, llevaron a muchos a rechazar por completo el cristianismo. Mucho antes de la Reforma, diversas voces dentro de la Iglesia Católica protestaron contra el despiadado asesinato de sus oponentes, sus pretensiones arrogantes y corrupción desmoralizadora. La negativa de la iglesia a reformarse provocó el nacimiento de la Reforma protestante del siglo XVI. El éxito de este movimiento le asestó un fuerte golpe a la autoridad y al prestigio de la iglesia de Roma. Por medio de la Contrarreforma, el papado se dedicó a una sangrienta lucha para aplastar la Reforma, pero gradualmente perdió la batalla contra las fuerzas que luchaban a favor de la libertad civil y religiosa. Finalmente, en 1798,1.260 años después del año 538 d. C., la Iglesia Católica Romana recibió una herida mortal (ver Apoc. 13:3).9 Las victorias espectaculares de los ejércitos de Napoleón en Italia, colocaron al Papa a la merced del gobierno revolucionario francés, el cual consideraba que la religión romana era el enemigo irreconocible de la República. El gobierno francés ordenó a Napoleón que tomara preso al Papa. Bajo sus órdenes, el general Berthier entró en Roma y proclamó el fin del poder político del papado. Tomando cautivo al Papa, Berthier lo llevó consigo a Francia, donde murió en el exilio.1 0 El derrocamiento del papado fue el acontecimiento culminante de una larga serie asociada con su declinación progresiva. Este suceso marca el fin del período profético de los 1.260 años. Muchos protestantes lo interpretaron como el cumplimiento de la profecía.1 1",
+      "pdfPage": 185,
+      "pdfPageEnd": 186,
+      "citations": [
+        {
+          "start": 1225,
+          "end": 1259,
+          "referenceIds": [
+            "b27-7-25-7-25",
+            "b66-12-6-12-6",
+            "b66-12-14-12-14",
+            "b66-13-5-13-7"
+          ]
+        },
+        {
+          "start": 2937,
+          "end": 2953,
+          "referenceIds": [
+            "b66-13-3-13-3"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La Reforma",
+      "pdfPage": 186
+    },
+    {
+      "kind": "paragraph",
+      "text": "Entre los principales factores que causaron el clamor del pueblo por reformas dentro de la iglesia establecida, se hallan las doctrinas sin base bíblica, cuyo fundamento es la tradición, la persecución enconada de los disidentes, la corrupción y la decadencia espiritual manifestada en gran número de los miembros del clero.",
+      "pdfPage": 186
+    },
+    {
+      "kind": "paragraph",
+      "text": "Puntos doctrinales. Se ofrecen a continuación algunos ejemplos de las doctrinas extrabíblicas que ayudaron a impulsar la Reforma protestante, y que todavía separan a los protestantes y los católicos.",
+      "pdfPage": 186
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. La cabeza de la iglesia en el mundo es el vicario de Cristo. Esta doctrina pretende que únicamente el obispo de Roma es el vicario o representante de Cristo en el mundo, y la cabeza visible de la iglesia. En contraste con la visión bíblica del liderazgo eclesiástico (ver el capítulo 12 de esta obra), esa doctrina se basaba en la suposición de que Cristo nombró a Pedro como la cabeza visible de la iglesia, y el Papa es el sucesor de Pedro.1 2",
+      "pdfPage": 187
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. La infalibilidad de la iglesia y su cabeza. La doctrina que realizó la mayor contribución al prestigio y a la influencia de la iglesia de Roma fue la de su infalibilidad. La iglesia pretendía que nunca había errado, y que jamás erraría. Basaba esta enseñanza en el razonamiento siguiente, que carece completamente de base bíblica: Por cuanto la iglesia es divina, uno de sus atributos inherentes es la infalibilidad. Además, por cuanto Dios, a través de esta iglesia divina se proponía guiar al cielo a todos los individuos de buena voluntad, la iglesia debe ser infalible en su enseñanza de la fe y la moral.1 3 Cristo, por lo tanto, la preservará de todo error a través del poder del Espíritu Santo. El corolario lógico, que niega la corrupción básica de los seres humanos (ver el capítulo 7 de esta obra), es que el dirigente de la iglesia también debe ser infalible.1 4 En concordancia con esto, la enseñanza católica afirma que su líder posee prerrogativas divinas.1 5",
+      "pdfPage": 187
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. El oscurecimiento del ministerio mediador de Cristo como Sumo Sacerdote. A medida que aumentaba la influencia de la iglesia de Roma, la atención de los creyentes fue desviándose de la obra mediadora continua de Cristo como Sumo Sacerdote en el cielo, el antitipo de los sacrificios diarios continuos de los servicios del santuario del Antiguo Testamento (véanse los capítulos 4 y 24 de esta obra), a un sacerdocio terrenal cuyo líder estaba en Roma. En vez de confiar en Cristo para obtener el perdón de los pecados y la salvación eterna (véanse los capítulos 9 y 10 de esta obra), los creyentes colocaron su fe en los papas, los sacerdotes y los prelados. Contradiciendo la enseñanza del Nuevo Testamento referente al sacerdocio de todos los creyentes, el ministerio de absolución del clero llegó a presentarse como algo vital para la salvación. El ministerio sacerdotal de Cristo en el cielo, donde constantemente aplica los beneficios de su sacrificio expiatorio a favor de los creyentes arrepentidos, se vio efectivamente negado cuando la iglesia sustituyó la misa por la Cena del Señor. A diferencia de la Santa Cena —un servicio que Jesús instituyó con el fin de conmemorar su muerte y anunciar su reino venidero (ver el capítulo 16 de esta obra)—, la Iglesia Católica pretende que la misa constituye el sacrificio incruento de Cristo, realizado por un sacerdote humano. Por cuanto Cristo es ofrecido nuevamente, como lo fue en el Calvario, se consideraba que la misa traía gracia especial a los creyentes y a los muertos.1 6 Ignorantes de las Escrituras y conociendo únicamente la misa conducida por un sacerdote humano, multitudes perdieron la bendición del acceso directo a nuestro mediador, Jesucristo. De este modo, se borró de la conciencia humana la promesa e invitación divinas: “ Acerquémonos, pues, confiadamente al trono de la gracia, para alcanzar misericordia y hallar gracia para el oportuno socorro” (Heb. 4:16).",
+      "pdfPage": 187,
+      "pdfPageEnd": 188,
+      "citations": [
+        {
+          "start": 1924,
+          "end": 1935,
+          "referenceIds": [
+            "b58-4-16-4-16"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "4. La naturaleza meritoria de las buenas obras. La idea que prevaleció, según la cual una persona podía obtener el mérito vital haciendo buenas obras, y que la fe no podía salvar, contradecía la enseñanza del Nuevo Testamento (véanse los capítulos 9 y 10 de esta obra). La Iglesia Católica pasó a enseñar que las buenas obras que constituyen el resultado de la gracia infusa en el corazón del pecador eran meritorias, lo que significaba que le daban a un individuo el justo derecho de exigir la salvación. De hecho, era posible acumular más obras buenas de las que eran necesarias para la salvación —como en el caso de los santos—, y de este modo, acumular méritos adicionales. Este extra mérito podía ser usado para el beneficio de otros. Por cuanto la iglesia sostenía que los pecadores eran justificados gracias a la justicia infusa en sus corazones, las buenas obras llegaron a ocupar una posición importante en la justificación del individuo. Las obras meritorias también pasaron a ocupar un papel importante en la doctrina del purgatorio, la cual asevera que los que no están perfectamente puros deben pasar por un castigo temporal purificador en el purgatorio, por sus pecados, antes que puedan entrar a gozar del cielo. Por sus oraciones y buenas obras, los creyentes vivos pueden acortar la duración y la intensidad de los sufrimientos de los que van a parar al purgatorio.",
+      "pdfPage": 188
+    },
+    {
+      "kind": "paragraph",
+      "text": "5. La doctrina de las penitencias e indulgencias. La penitencia es el sacramento por el cual los cristianos pueden obtener perdón por los pecados cometidos después del bautismo. Este perdón de pecados se logra por intermedio de la absolución de un sacerdote, pero antes que pueda ser obtenido, los cristianos deben examinar sus conciencias, arrepentirse de sus pecados, y resolver que nunca más ofenderán a Dios. Entonces deben confesar sus pecados ante el sacerdote y cumplir la penitencia asignada por él. Sin embargo, la penitencia no libraba completamente a los pecadores. Todavía necesitaban sufrir el castigo temporal, ya sea en esta vida o en el purgatorio. Para eliminar dicho castigo, la iglesia instituyó las indulgencias, las cuales proveían la remisión del castigo temporal que aun se debía a causa del pecado después de la absolución de la culpa. Las indulgencias, que podían beneficiar tanto a los vivos como a los que se hallaban en el purgatorio, se concedían con la condición de hacer penitencia y realizar las buenas obras prescritas, a menudo en forma de pagos de dinero a la iglesia. Lo que hacía posibles las indulgencias eran los méritos extra de los mártires, de los santos, de los apóstoles, y especialmente de Jesucristo y de María. Sus méritos eran depositados en un “tesoro de méritos”, y eran transferibles a los creyentes cuyas cuentas eran deficientes. El Papa, como el pretendido sucesor de Pedro, controlaba las llaves de este tesoro, y podía librar del castigo temporal a los creyentes, asignándoles crédito del tesoro.1 7",
+      "pdfPage": 188,
+      "pdfPageEnd": 189
+    },
+    {
+      "kind": "paragraph",
+      "text": "6. La autoridad máxima reside en la iglesia. A través de los siglos, la iglesia establecida adoptó muchas creencias, días de fiesta y símbolos paganos. Cuando diversas voces se levantaron clamando contra estas abominaciones, la iglesia de Roma asumió el único derecho de interpretar la Biblia. La iglesia, y no la Biblia, pasó a ser la autoridad final (ver el capítulo 1 de esta obra). La iglesia argüía que existen dos fuentes de autoridad divina: (1) Las Escrituras sagradas y (2) la tradición católica, la cual consiste en los escritos de los padres de la iglesia, los decretos de los concilios eclesiásticos, los credos aprobados y las ceremonias de la iglesia. Cuando las doctrinas de la iglesia se hallaban apoyadas por la tradición pero no por la Escritura, la tradición tomaba precedencia. Los creyentes comunes no tenían autoridad para interpretar las doctrinas que Dios había revelado en la Escritura. Dicha autoridad residía únicamente en la Iglesia Católica.1 8",
+      "pdfPage": 189
+    },
+    {
+      "kind": "paragraph",
+      "text": "El amanecer de un nuevo día. En el siglo XIV, Juan Wiclef llamó a una reforma de la iglesia, no solo en Inglaterra sino también en toda la cristiandad. Durante una época en la cual existían pocos ejemplares de la Biblia, proveyó la primera traducción del texto completo de las Escrituras al inglés. Sus enseñanzas de salvación únicamente por fe en Cristo, y de que solo las Escrituras eran infalibles, establecieron el fundamento de la Reforma protestante. En su papel de estrella matutina de la Reforma, procuró librar a la iglesia de Cristo de las cadenas del paganismo que la ataban a la ignorancia. Inauguró un movimiento que lograría libertar las mentes individuales y aun naciones enteras de las garras del error religioso. Los escritos de Wiclef tocaron el alma de Huss, Jerónimo, Lutero, y muchos otros. Martín Lutero —fogoso, impulsivo, inflexible— fue probablemente la personalidad más poderosa de la Reforma. Más que ningún otro hombre, guió al pueblo de vuelta a las Escrituras y a la gran verdad evangélica de la justificación por la fe, mientras predicaba contra la salvación por las obras.",
+      "pdfPage": 189
+    },
+    {
+      "kind": "paragraph",
+      "text": "Declarando que los creyentes no debían aceptar ninguna autoridad fuera de las Escrituras, Lutero dirigió las miradas de la gente hacia arriba, separándolas de obras humanas, sacerdotes y penitencias, y apuntando a Cristo como su único Mediador y Salvador. Era imposible, afirmaba, disminuir la culpabilidad del pecado por obras humanas, o evitar su castigo. Únicamente el arrepentimiento ante Dios y la fe en Cristo pueden salvar a los pecadores. Por cuanto su gracia constituye un regalo, libremente ofrecido, no se la puede comprar. Los seres humanos, por lo tanto, pueden tener esperanza, no a causa de las indulgencias, sino por la sangre derramada del Redentor crucificado. Como una expedición arqueológica que descubre tesoros enterrados bajo los desechos acumulados de los siglos, la Reforma desenterró verdades largamente olvidadas. Se redescubrió la justificación por la fe, el gran principio del evangelio, así como un nuevo aprecio por el sacrificio expiatorio de Jesucristo, realizado una vez para siempre, y su sacerdocio mediador perfectamente suficiente. Muchas enseñanzas que no eran bíblicas, como las oraciones por los muertos, la veneración de los santos y las reliquias, la celebración de la misa, la adoración de María, el purgatorio, las penitencias, el agua bendita, el celibato de los sacerdotes, el rosario, la Inquisición, la transubstanciación, la extrema unción y la dependencia de la tradición, fueron repudiadas y abandonadas. Los reformadores protestantes se hallaban casi unánimes en la identificación del sistema papal como el “hombre de pecado”, el “misterio de iniquidad”, y el “ cuerno pequeño” de Daniel, la entidad que había de perseguir al verdadero pueblo de Dios durante los 1.260 años de Apocalipsis 12:6,14 y 13:5, antes de la segunda venida de Cristo.1 9 La doctrina de la Biblia y la Biblia sola como la norma de fe y conducta moral, se convirtió en un punto básico del protestantismo. Los reformadores consideraban que todas las tradiciones humanas estaban sujetas a la autoridad final y mayor de las Escrituras. En asuntos de fe religiosa, ninguna autoridad —Papa, concilios, padres de la iglesia, reyes o sabios— podía gobernar la conciencia. De hecho, el mundo cristiano comenzaba a despertar de su sueño, y eventualmente la libertad religiosa fue proclamada en muchas tierras.",
+      "pdfPage": 190,
+      "citations": [
+        {
+          "start": 1730,
+          "end": 1756,
+          "referenceIds": [
+            "b66-12-6-12-6",
+            "b66-12-14-12-14",
+            "b66-13-5-13-5"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La Reforma se estanca",
+      "pdfPage": 190
+    },
+    {
+      "kind": "paragraph",
+      "text": "La reforma de la iglesia cristiana no debía haber terminado en el siglo XVI. Los reformadores habían logrado grandes avances, pero no habían vuelto a descubrir toda la luz que se había perdido durante la apostasía. Habían sacado a la cristiandad de las profundas tinieblas, pero todavía permanecían en las sombras. Mientras que, por una parte, lograron quebrantar la mano de hierro de la iglesia medieval, darle la Biblia al mundo y restaurar el evangelio básico, no descubrieron otras verdades importantes. El bautismo por inmersión, la inmortalidad como un don concedido por Cristo en la resurrección de los justos, el séptimo día como día de reposo bíblico, y otras verdades (ver los capítulos 7, 15, 20 y 26 de esta obra) todavía se hallaban ocultas en las sombras. Pero en vez de hacer avanzar la Reforma, sus sucesores se dedicaron a consolidar sus logros. En vez de enfocar su atención en las Escrituras, la dirigieron a las palabras y opiniones de los reformadores. Unos pocos descubrieron nuevas verdades, pero la mayoría se negaron a avanzar más allá de lo que habían creído los primeros reformadores. En consecuencia, la fe protestante degeneró hasta caer en el formalismo y el escolasticismo, y ciertos errores que debían haber sido abandonados fueron incorporados. La llama de la Reforma gradualmente se fue apagando, y las iglesias protestantes llegaron a ser frías, formalistas y necesitadas de reforma. La época posterior a la Reforma fue de gran actividad teológica, pero en ella se logró muy poco progreso espiritual. Frederic W. Farrar escribió que en este período la libertad se transformó en servidumbre; los principios universales en elementos desprovistos de solidez; la verdad en dogmatismo; la independencia en tradición; la religión en sistema. La reverenda viviente por las Escrituras fue reemplazada por una teoría muerta de inspiración. La ortodoxia genial le cedió el paso a la férrea uniformidad, y el pensamiento viviente a una dialéctica de controversia”.20 Y a pesar de que la “Reforma había quebrantado el cetro de plomo del antiguo escolastisicimo”, las iglesias protestantes introdujeron “un nuevo escolasticismo cuya vara era de hierro”.2 1 Robert M. Grant llamó a este nuevo escolasticismo algo “tan rígido como cualquier construcción teológica medieval”.2 2 Los protestantes “prácticamente se vieron atados por los límites de sus confesiones del momento”.2 3 Brotaron las controversias. “Nunca hubo una época en la cual los seres humanos estuviesen tan ocupados en descubrir los errores unos de otros, o en la cual se llamasen unos a otros usando tantos términos de oprobio”.2 4 De este modo, las buenas nuevas se convirtieron en una guerra de palabras. “La Escritura ya no hablaba al corazón sino al intelecto crítico”.2 5 Los dogmas eran ortodoxos, pero la espiritualidad se extinguió. La teología triunfó, pero el amor fue apagado”.2 6",
+      "pdfPage": 190,
+      "pdfPageEnd": 191
+    },
+    {
+      "kind": "heading",
+      "text": "El remanente",
+      "pdfPage": 191
+    },
+    {
+      "kind": "paragraph",
+      "text": "A pesar de la apostasía y tribulación de los 1.260 años, algunos creyentes continuaron reflejando la fuerza de la iglesia apostólica. Cuando se terminaron los 1.260 años de opresión en 1798, el dragón no había logrado la eliminación completa del pueblo fiel de Dios. Contra ese residuo, Satanás continuó dirigiendo sus esfuerzos destructivos. Dijo el vidente: “Entonces el dragón se llenó de ira contra la mujer; y se fue a hacer guerra contra el resto de la descendencia de ella, los que guardan los mandamientos de Dios y tienen el testimonio de Jesucristo\" (Apoc. 12:17).",
+      "pdfPage": 191,
+      "pdfPageEnd": 192,
+      "citations": [
+        {
+          "start": 560,
+          "end": 573,
+          "referenceIds": [
+            "b66-12-17-12-17"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "¿Qué es el remanente? En la descripción que hace Juan de la batalla entre el dragón y los descendientes de la mujer, usa la expresión “ el resto de la descendencia de ella” (Apoc. 12:17). Esta expresión significa “el residuo” o remanente (Apoc. 12:17, VM). La Biblia describe al remanente como un pequeño grupo del pueblo de Dios que, a través de calamidades, guerras y apostasía, permanecen leales a Dios. Este remanente fiel proveyó los vástagos que Dios usó para propagar su iglesia visible en el mundo (2 Crón. 30:6; Esd. 9:14, 15; Isa. 10:20-22; Jer. 42:2; Eze. 6:8; 14:22). Dios comisionó al remanente para que declarase su gloria y guiara a su pueblo esparcido por todo el mundo a su “ santo monte de Jerusalén”, el “monte de Sión” (Isa. 37:31,32; 66:20; compárese con Apoc. 14:1). De los que así lleguen a unirse, la Escritura declara: “Estos son los que siguen al Cordero por dondequiera que va” (Apoc. 14:4). Apoc. 12:17 contiene una descripción del último remanente en el linaje de creyentes leales que Dios ha escogido, sus fieles testigos en los últimos días anteriores a la segunda venida de Cristo. ¿Cuáles son las características del remanente?",
+      "pdfPage": 192,
+      "citations": [
+        {
+          "start": 173,
+          "end": 186,
+          "referenceIds": [
+            "b66-12-17-12-17"
+          ]
+        },
+        {
+          "start": 238,
+          "end": 255,
+          "referenceIds": [
+            "b66-12-17-12-17"
+          ]
+        },
+        {
+          "start": 506,
+          "end": 578,
+          "referenceIds": [
+            "b14-30-6-30-6",
+            "b15-9-14-9-15",
+            "b23-10-20-10-22",
+            "b24-42-2-42-2",
+            "b26-6-8-6-8",
+            "b26-14-22-14-22"
+          ]
+        },
+        {
+          "start": 739,
+          "end": 787,
+          "referenceIds": [
+            "b23-37-31-37-32",
+            "b23-66-20-66-20",
+            "b66-14-1-14-1"
+          ]
+        },
+        {
+          "start": 905,
+          "end": 917,
+          "referenceIds": [
+            "b66-14-4-14-4"
+          ]
+        },
+        {
+          "start": 919,
+          "end": 930,
+          "referenceIds": [
+            "b66-12-17-12-17"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Las características del remanente. Es difícil equivocarse con respecto al remanente que exista en el tiempo del fin. Juan describe a este grupo en términos específicos. Aparecen después de los 1.260 años de persecución, y se componen de “los que guardan los mandamientos de Dios y tienen el testimonio de Jesucristo” (Apoc. 12:17). Tienen la responsabilidad de proclamar, justo antes de la segunda venida de Cristo, la última amonestación que Dios envía al mundo, es decir, los mensajes de los tres ángeles de Apocalipsis 14 (Apoc. 14:6-12). Estos mensajes contienen en sí mismos una descripción del remanente. Son “los que guardan los mandamientos de Dios y la fe de Jesús” (Apoc. 14:12). Consideremos cada una de estas características.",
+      "pdfPage": 192,
+      "citations": [
+        {
+          "start": 317,
+          "end": 330,
+          "referenceIds": [
+            "b66-12-17-12-17"
+          ]
+        },
+        {
+          "start": 510,
+          "end": 524,
+          "referenceIds": [
+            "b66-14-all-14-all"
+          ]
+        },
+        {
+          "start": 525,
+          "end": 540,
+          "referenceIds": [
+            "b66-14-6-14-12"
+          ]
+        },
+        {
+          "start": 675,
+          "end": 688,
+          "referenceIds": [
+            "b66-14-12-14-12"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. La fe de Jesús. El pueblo remanente de Dios se caracteriza por una fe similar a la que poseía Jesús. Refleja la misma confianza inquebrantable que tenía el Salvador en Dios y la autoridad de la Escritura. Cree que Jesucristo es el Mesías de la profecía, el Hijo de Dios, que vino como el Salvador del mundo. Su fe abarca todas las verdades de la Biblia, las que Cristo creyó y enseñó.",
+      "pdfPage": 192
+    },
+    {
+      "kind": "paragraph",
+      "text": "El remanente de Dios, entonces, proclamará el evangelio eterno de salvación por fe en Cristo. Amonestará al mundo, diciendo que la hora del juicio de Dios ha llegado, y preparará a otros para que se encuentren con su Señor próximo a venir. Estará empeñado en una misión mundial destinada a completar el testimonio divino ante la humanidad (Apoc. 14:6, 7; 10:11; Mat. 24:14).",
+      "pdfPage": 193,
+      "citations": [
+        {
+          "start": 339,
+          "end": 373,
+          "referenceIds": [
+            "b66-14-6-14-7",
+            "b66-10-11-10-11",
+            "b40-24-14-24-14"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. Los mandamientos de Dios. La fe genuina en Jesús compromete al remanente a seguir su ejemplo. “El que dice que permanece en él —dice Juan—, debe andar como él anduvo” (1 Juan 2:6). Por cuanto Jesús guardó los mandamientos de su Padre, ellos también obedecen los mandamientos de Dios (Juan 15:10). Especialmente por cuanto son el remanente, sus acciones deben estar en armonía con su profesión; de otro modo, ésta carece de valor. Jesús dijo: “No todo el que me dice: Señor, Señor, entrará en el reino de los cielos, sino el que hace la voluntad de mi Padre que está en los cielos” (Mat. 7:21). Gracias al poder que Cristo les concede, obedecen los requerimientos divinos, incluyendo los Diez Mandamientos, la invariable ley moral de Dios (Éxo. 20:1-17; Mat. 5:17-19; 19:17; Fil. 4:13).",
+      "pdfPage": 193,
+      "citations": [
+        {
+          "start": 170,
+          "end": 182,
+          "referenceIds": [
+            "b62-2-6-2-6"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 298,
+          "referenceIds": [
+            "b43-15-10-15-10"
+          ]
+        },
+        {
+          "start": 584,
+          "end": 595,
+          "referenceIds": [
+            "b40-7-21-7-21"
+          ]
+        },
+        {
+          "start": 741,
+          "end": 787,
+          "referenceIds": [
+            "b2-20-1-20-17",
+            "b40-5-17-5-19",
+            "b40-19-17-19-17",
+            "b50-4-13-4-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. El testimonio de Jesús. Juan define “ el testimonio de Jesús” como “ el espíritu de profecía” (Apoc. 19:10). El remanente estará guiado por el testimonio de Jesús comunicado por medio del don de profecía. Este don del Espíritu había de funcionar continuamente a través de toda la historia de la iglesia, “hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varón perfecto, a la medida de la estatura de la plenitud de Cristo” (Efe. 4:13). Es, por lo tanto, una de las principales características del remanente. Esta conducción profética hace que el remanente sea un pueblo profético que proclama un mensaje profético. Comprenden la profecía y la enseñan. La revelación de la verdad que llega al conocimiento del remanente, les ayuda a cumplir su importante misión de preparar al mundo para el retorno de Cristo (ver el capítulo 18 de esta obra).",
+      "pdfPage": 193,
+      "citations": [
+        {
+          "start": 97,
+          "end": 110,
+          "referenceIds": [
+            "b66-19-10-19-10"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 477,
+          "referenceIds": [
+            "b49-4-13-4-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El surgimiento del remanente de los últimos días. La Biblia indica que el remanente aparece en la escena mundial después del tiempo de la gran persecución (Apoc. 12:14-17). Los acontecimientos de la revolución francesa, que conmovieron al mundo, y que llevaron a la cautividad del Papa al fin del período de 1.260 años (1798), y el cumplimiento de las tres grandes señales cósmicas —en las cuales la tierra, el sol, la luna y las estrellas testificaron acerca de la proximidad del retorno de Cristo (ver el capítulo 25 de esta obra)—, condujeron a un reavivamiento importante en el estudio de la profecía. Surgió una expectativa ampliamente difundida acerca del inminente regreso de Jesús. Por todo el mundo, muchos cristianos reconocieron que había llegado el tiempo del fin” (Dan. 12:4).2 7 El cumplimiento de las profecías bíblicas durante la segunda mitad del siglo XVIII y la primera mitad del XIX, produjo un poderoso movimiento interconfesional centrado en la esperanza del segundo advenimiento. En cada iglesia, se podían hallar creyentes en el inminente regreso de Cristo, orando, trabajando y anticipando la culminación de la historia. La esperanza adventista produjo un profundo espíritu de unidad entre sus adherentes, y muchos se unieron para amonestar al mundo acerca del pronto regreso de Cristo. El movimiento adventista constituyó un fenómeno verdaderamente bíblico e interconfesional, centrado en la Palabra de Dios y en la esperanza del advenimiento. Mientras más estudiaban la Biblia, los creyentes se sentían más convencidos de que Dios estaba llamando a un remanente para que continuara la reforma de la iglesia cristiana que se había detenido. Ellos mismos habían experimentado la ausencia del verdadero espíritu de la reforma en sus respectivas iglesias, y la falta de interés en el estudio del tema de la Segunda Venida y la preparación correspondiente. Su estudio de la Biblia revelaba que las pruebas y chascos a través de los cuales Dios los había dirigido, constituían una experiencia purificadora profundamente espiritual, que los unió para formar el remanente de Dios. Dios los había comisionado para continuar la reforma que había traído tanto gozo y poder a la iglesia. Con gratitud y humildad aceptaron su misión, comprendiendo que la comisión de Dios no les había sido dada a causa de alguna superioridad inherente, y que únicamente por medio del poder y la misericordia de Cristo podrían esperar tener éxito.",
+      "pdfPage": 193,
+      "pdfPageEnd": 194,
+      "citations": [
+        {
+          "start": 155,
+          "end": 171,
+          "referenceIds": [
+            "b66-12-14-12-17"
+          ]
+        },
+        {
+          "start": 777,
+          "end": 788,
+          "referenceIds": [
+            "b27-12-4-12-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La misión del remanente",
+      "pdfPage": 194
+    },
+    {
+      "kind": "paragraph",
+      "text": "Las profecías del libro del Apocalipsis bosquejan con claridad la misión del remanente. Los mensajes de los tres ángeles de Apocalipsis 14:6-12 revelan la proclamación del remanente que producirá la restauración completa y final de la verdad evangélica.2 8 Estos tres mensajes constituyen las respuestas de Dios ante el avasallador engaño satánico que arrastra al mundo poco antes del regreso de Cristo (Apoc. 13:3, 8,14-16). En seguida después del último llamado de Dios al mundo, Cristo vuelve para recoger la cosecha (Apoc. 14:14-20).",
+      "pdfPage": 194,
+      "citations": [
+        {
+          "start": 124,
+          "end": 143,
+          "referenceIds": [
+            "b66-14-6-14-12"
+          ]
+        },
+        {
+          "start": 403,
+          "end": 424,
+          "referenceIds": [
+            "b66-13-3-13-3",
+            "b66-13-8-13-8",
+            "b66-13-14-13-16"
+          ]
+        },
+        {
+          "start": 520,
+          "end": 536,
+          "referenceIds": [
+            "b66-14-14-14-20"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El mensaje del primer ángel. “Vi volar por en medio del cielo a otro ángel, que tenía el evangelio eterno para predicarlo a los moradores de la tierra, a toda nación, tribu, lengua y pueblo, diciendo a gran voz: Temed a Dios y dadle gloria, porque la hora de su juicio ha llegado; y adorad aquel que hizo el cielo y la tierra, el mar y las fuentes de las aguas” (Apoc. 14:6,7). El primer ángel simboliza el remanente de Dios que lleva el evangelio eterno a todo el mundo. Este evangelio es el mismo mensaje de buenas nuevas del infinito amor de Dios que los antiguos profetas y apóstoles proclamaron (Heb. 4:2). El remanente no presenta un evangelio diferente; por el contrario, en vista del juicio, reafirman ese evangelio eterno según el cual los pecadores pueden ser justificados por fe y recibir así la justicia de Cristo. Este mensaje llama al mundo al arrepentimiento. Requiere de todos que “teman” o reverencien a Dios, y que le den a él la “ gloria” u honor. Fuimos creados con este propósito y podemos honrar o glorificar a Dios en nuestras palabras y acciones: “En esto es glorificado mi Padre, en que llevéis mucho fruto” (Juan 15:8). Juan predice que el movimiento que ha de preparar el mundo para el regreso de Cristo pondrá renovado énfasis en la preocupación que la Biblia expresa de glorificar a Dios. Como nunca antes, presentará el llamado que hace el Nuevo Testamento a la sagrada mayordomía de nuestras vidas: “Vuestro cuerpo es templo del Espíritu Santo”. No tenemos derecho exclusivo a nuestros poderes físicos, morales y espirituales; Cristo los compró con su sangre en el Calvario. “Glorificad, pues, a Dios en vuestro cuerpo y en vuestro espíritu, los cuales son de Dios” (1 Cor. 6:19, 20). “Si, pues, coméis o bebéis, o hacéis otra cosa, haced lo todo para la gloria de Dios\" (1 Cor. 10:31). El hecho de que ha llegado “la hora de su juicio” le añade urgencia al llamado al arrepentimiento (ver el capítulo 24 de esta obra). En Apocalipsis 14:7, la palabra juicio es la traducción del término griego krísis, el acto de juzgar, no la sentencia del juicio (kríma). Se refiere a todo el proceso de juicio, incluyendo el emplazamiento de los acusados ante el divino tribunal, la investigación de los registros de la vida, el veredicto de culpabilidad o inocencia, y el otorgamiento de la vida eterna o la sentencia de muerte (ver Mat. 16:27; Rom. 6:23; Apoc. 22:12). El mensaje de la hora del juicio proclama también el juicio de Dios sobre toda apostasía (Dan. 7:9-11; Apoc. 17,18). El mensaje de la hora del juicio apunta en forma especial al momento cuando, en cumplimiento de la última fase de su ministerio como Sumo Sacerdote en el Santuario celestial, Cristo entró en su obra de juicio (ver el capítulo 24 de esta obra). Este mensaje también llama a todos a que adoren al Creador. El llamado de Dios a la adoración debe ser visto en contraste con el requerimiento de adorar a la bestia y a su imagen (Apoc. 13:3, 8,15). Pronto todos deberán escoger entre el verdadero y el falso culto, es decir entre la adoración a Dios según sus términos",
+      "pdfPage": 194,
+      "pdfPageEnd": 195,
+      "citations": [
+        {
+          "start": 362,
+          "end": 376,
+          "referenceIds": [
+            "b66-14-6-14-7"
+          ]
+        },
+        {
+          "start": 600,
+          "end": 610,
+          "referenceIds": [
+            "b58-4-2-4-2"
+          ]
+        },
+        {
+          "start": 1133,
+          "end": 1144,
+          "referenceIds": [
+            "b43-15-8-15-8"
+          ]
+        },
+        {
+          "start": 1697,
+          "end": 1714,
+          "referenceIds": [
+            "b46-6-19-6-20"
+          ]
+        },
+        {
+          "start": 1802,
+          "end": 1816,
+          "referenceIds": [
+            "b46-10-31-10-31"
+          ]
+        },
+        {
+          "start": 1954,
+          "end": 1970,
+          "referenceIds": [
+            "b66-14-7-14-7"
+          ]
+        },
+        {
+          "start": 2347,
+          "end": 2387,
+          "referenceIds": [
+            "b40-16-27-16-27",
+            "b45-6-23-6-23",
+            "b66-22-12-22-12"
+          ]
+        },
+        {
+          "start": 2478,
+          "end": 2504,
+          "referenceIds": [
+            "b27-7-9-7-11",
+            "b66-17-all-17-all",
+            "b66-18-all-18-all"
+          ]
+        },
+        {
+          "start": 2929,
+          "end": 2947,
+          "referenceIds": [
+            "b66-13-3-13-3",
+            "b66-13-8-13-8",
+            "b66-13-15-13-15"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "(justificación por la fe) o en nuestros términos (justificación por las obras). Al mandarnos adorar “a aquel que hizo el cielo y la tierra, el mar y las fuentes de las aguas” (Apoc. 14:7; compárese con Éxo. 20:11), este mensaje exige que se le preste atención al cuarto mandamiento del Decálogo. Lleva al pueblo a entrar en una experiencia de verdadero culto al Creador, una experiencia que incluye honrar su monumento a la creación, el séptimo día sábado del Señor, que instituyó al fin de la creación y que afirmó en los Diez Mandamientos (ver el capítulo 20 de esta obra). Por lo tanto, el mensaje del primer ángel requiere la restauración del verdadero culto, presentando ante el mundo a Cristo el Creador y Señor del sábado bíblico. Ésta es la señal de la creación de Dios, una señal que la vasta mayoría de sus seres creados han descuidado. En forma providencial, la proclamación de este mensaje que llama la atención del mundo al Dios creador, comenzó en el momento de la historia cuando la filosofía evolucionista recibió un fuerte apoyo a través de la publicación de la obra El origen de las especies de Carlos Darwin (1859). La predicación del mensaje del primer ángel construye el mayor baluarte contra el progreso de la teoría de la evolución. Finalmente, este llamado implica la restauración del honor de la santa Ley de Dios, la cual ha sido pisoteada por el “hombre de pecado” (2 Tes. 2:3). Únicamente si se restaura el verdadero culto y los creyentes viven de acuerdo con los principios del reino de Dios, puede el Creador ser glorificado.",
+      "pdfPage": 196,
+      "citations": [
+        {
+          "start": 175,
+          "end": 213,
+          "referenceIds": [
+            "b66-14-7-14-7",
+            "b2-20-11-20-11"
+          ]
+        },
+        {
+          "start": 1392,
+          "end": 1404,
+          "referenceIds": [
+            "b53-2-3-2-3"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El mensaje del segundo ángel. “Ha caído, ha caído Babilonia, la gran ciudad, porque ha hecho beber a todas las naciones del vino del furor de su fornicación” (Apoc. 14:8). Desde muy temprano en la historia, la ciudad de Babilonia ha simbolizado el desafío a Dios. Su torre fue un monumento a la apostasía y un centro de rebelión (Gén. 11:1-9). Lucifer (Satanás) era su rey invisible (Isa. 14:4, 12-14) y se hace evidente que deseaba hacer de Babilonia la agencia de su plan maestro para controlar a la raza humana. A través de la Biblia, el conflicto entre la ciudad de Dios, Jerusalén, y la ciudad de Satanás, Babilonia, ilustra el conflicto entre el bien y el mal. Durante los primeros siglos de la era cristiana, cuando los romanos oprimían tanto a judíos como a cristianos, la literatura judía y cristiana se refería a la ciudad de Roma como Babilonia.29 Muchos creen que Pedro usó Babilonia como un seudónimo de Roma (1 Ped. 5:13). Por causa de su apostasía y persecución, la mayoría de los protestantes de la época de la Reforma y los tiempos posteriores a ella, se referían a la iglesia de Roma como la Babilonia espiritual (Apoc. 17), la enemiga del pueblo de Dios.3 0",
+      "pdfPage": 196,
+      "citations": [
+        {
+          "start": 158,
+          "end": 170,
+          "referenceIds": [
+            "b66-14-8-14-8"
+          ]
+        },
+        {
+          "start": 329,
+          "end": 342,
+          "referenceIds": [
+            "b1-11-1-11-9"
+          ]
+        },
+        {
+          "start": 383,
+          "end": 401,
+          "referenceIds": [
+            "b23-14-4-14-4",
+            "b23-14-12-14-14"
+          ]
+        },
+        {
+          "start": 922,
+          "end": 935,
+          "referenceIds": [
+            "b60-5-13-5-13"
+          ]
+        },
+        {
+          "start": 1131,
+          "end": 1141,
+          "referenceIds": [
+            "b66-17-all-17-all"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "En el Apocalipsis, el término Babilonia se refiere a la mujer malvada, la madre de las prostitutas, y a sus hijas impuras (Apoc. 17:5). Simboliza todas las organizaciones religiosas apóstatas y sus dirigentes, si bien se refiere especialmente a la gran alianza religiosa apóstata entre la bestia y su imagen que producirá la crisis final que se describe en Apocalipsis 13:15-17. El mensaje del segundo ángel establece la naturaleza universal de la apostasía babilónica y su poder coercitivo, diciendo que “ha hecho beber a todas las naciones del vino del furor de su fornicación”. El “vino\" de Babilonia representa sus enseñanzas heréticas. Babilonia ejercerá presión sobre los poderes del Estado para que hagan cumplir universalmente sus falsas enseñanzas y decretos religiosos. La “fornicación” que se menciona representa la relación ilícita entre Babilonia y las naciones, entre la iglesia apóstata y los poderes civiles. Se supone que la iglesia está casada con su Señor; al buscar en vez de ello el apoyo del Estado, deja a su Esposo y comete fornicación espiritual (ver Eze. 16:15; Sant. 4:4). Esta relación ilícita desemboca en tragedia. Juan ve a los habitantes del mundo “ ebrios” de falsas enseñanzas, y la misma Babilonia “ebria de la sangre de los santos y de la sangre de los mártires de Jesús”, que han rehusado aceptar sus doctrinas sin fundamento bíblico y que se niegan a someterse a su autoridad (Apoc. 17:2, 6). Babilonia cae porque rechaza el mensaje del primer ángel, es decir, el evangelio de la justificación por fe en el Creador. Así como en los primeros siglos de la era cristiana la iglesia de Roma apostató, muchos protestantes de hoy se han apartado de las grandes verdades bíblicas de la Reforma. Esta profecía de la caída de Babilonia encuentra su cumplimiento especial en el apartamiento del protestantismo en general de la pureza y sencillez del evangelio eterno de la justificación por la fe, que en el pasado motivó tan poderosamente la Reforma. El mensaje del segundo ángel adquiere pertinencia creciente a medida que el fin se acerca. Se cumplirá con toda su plenitud cuando suceda la alianza de las diversas organizaciones religiosas que hayan rechazado el mensaje del primer ángel. El mensaje de la caída de Babilonia se repite en Apocalipsis 18:2-4, pasaje en el cual se anuncia la caída completa y definitiva de Babilonia, y en el que se extiende un llamado a los hijos de Dios que todavía integran los diversos cuerpos religiosos que comprenden a Babilonia, para que se separen de ella. Dice el ángel: “Salid de ella, pueblo mío, para que no seáis participes de sus pecados, ni recibáis parte de sus plagas” (Apoc. 18:4).3 1",
+      "pdfPage": 197,
+      "citations": [
+        {
+          "start": 122,
+          "end": 134,
+          "referenceIds": [
+            "b66-17-5-17-5"
+          ]
+        },
+        {
+          "start": 357,
+          "end": 377,
+          "referenceIds": [
+            "b66-13-15-13-17"
+          ]
+        },
+        {
+          "start": 1071,
+          "end": 1098,
+          "referenceIds": [
+            "b26-16-15-16-15",
+            "b59-4-4-4-4"
+          ]
+        },
+        {
+          "start": 1414,
+          "end": 1429,
+          "referenceIds": [
+            "b66-17-2-17-2",
+            "b66-17-6-17-6"
+          ]
+        },
+        {
+          "start": 2269,
+          "end": 2287,
+          "referenceIds": [
+            "b66-18-2-18-4"
+          ]
+        },
+        {
+          "start": 2649,
+          "end": 2661,
+          "referenceIds": [
+            "b66-18-4-18-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El mensaje del tercer ángel. “Si alguno adora a la bestia y a su imagen, y recibe la marca en su frente o en su mano, él también beberá del vino de la ira de",
+      "pdfPage": 197
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dios, que ha sido vaciado puro en el cáliz de su ira, y será atormentado con fuego y azufre delante de los santos ángeles y del Cordero; y el humo de su tormento sube por los siglos de los siglos. Y no tienen reposo ni de día ni de noche los que adoran a la bestia y a su imagen, ni nadie que reciba la marca de su nombre. Aquí está la paciencia de los santos, los que guardan los mandamientos de Dios y la fe de Jesús” (Apoc. 14:9-12). El mensaje del primer ángel proclama el evangelio eterno y demanda la restauración del verdadero culto a Dios como Creador, porque la hora del juicio ha llegado. El segundo ángel advierte contra todas las formas de adoración que se originan en los conceptos humanos. Finalmente, el tercer ángel proclama la amonestación más solemne de Dios contra el acto de adorar a la bestia y a su imagen, lo cual harán inevitablemente todos los que rechacen el evangelio de la justificación por la fe. La bestia que aparece en Apocalipsis 13:1-10 es la unión entre la Iglesia y el Estado que dominó al mundo cristiano durante muchos siglos, y fue descrita por Pablo como \"el hombre de pecado” (2 Tes. 2:2-4), y por Daniel como el “cuerno pequeño” (Dan 7:8,20-25; 8:9-12). La imagen de la bestia representa esa forma de religión apóstata que se desarrollará cuando las iglesias, habiendo perdido el verdadero espíritu de la Reforma, se unan con el Estado para imponer sus enseñanzas sobre los demás. Al unir la iglesia y el Estado habrán llegado a ser una perfecta imagen de la bestia, es decir de la iglesia apóstata que persiguió a los santos durante 1.260 años. De aquí el nombre imagen de la bestia. El mensaje del tercer ángel proclama la más solemne y terrible advertencia de la Biblia. Revela que los que se sometan a la autoridad humana en la crisis final de la tierra, adorarán a la bestia y a su imagen en lugar de a Dios. Durante este conflicto final se desarrollarán dos clases definidas. Una clase apoyará un evangelio de hechura humana y adorará a la bestia y a su imagen, atrayendo sobre sí mismos el juicio más grave. La otra clase, en marcado contraste, vivirá el evangelio verdadero y guardarán “los mandamientos de Dios y la fe de Jesús” (Apoc. 14:9, 12). El asunto final de discusión implica la adoración verdadera o falsa, el evangelio verdadero o falso. Cuando este punto se presente claramente delante del mundo, los que rechacen el memorial de la creación divina —el sábado bíblico—, eligiendo adorar y dar honor al domingo, conociendo claramente que no es el día de adoración dado por Dios, recibirán la “marca de la bestia”. Ésta es una marca que indica rebelión; la bestia pretende que su cambio del día de adoración muestra su autoridad incluso sobre la ley de Dios.3 2 El tercer mensaje dirige la atención del mundo a la consecuencia de rehusar aceptar el evangelio eterno y el mensaje divino de la restauración del verdadero culto. Describe con vividez el resultado final que tendrá la elección de la gente en lo que se refiere a la adoración. Esta elección no es fácil, por cuanto no importa lo que escojamos, igualmente sufriremos. Los que obedezcan a Dios experimentarán la ira del dragón (Apoc. 12:17) y eventualmente se los amenazará de muerte (Apoc. 13:15), mientras que los que elijan adorar a la bestia y a su imagen verán caer sobre ellos las siete últimas plagas, y finalmente serán echados en “el lago de fuego” (Apoc. 15,16; 20:14,15). Pero si bien ambas elecciones implican sufrimiento, sus resultados son diferentes. Los que adoran al Creador serán librados de la ira mortífera del dragón, y estarán junto al Cordero en el monte de Sión (Apoc. 14:1; 7:2,4). Los adoradores de la bestia y de su imagen, por su parte, reciben el pleno impacto de la ira de Dios, y perecen en presencia de los santos ángeles y del Cordero (Apoc. 14:9,10; 20:14). Todos tendremos que elegir a quién adoraremos. Nuestra elección de la justificación por la fe se revelará en nuestra participación de una forma de adoración que Dios ha aprobado, o nuestra elección de justicia por obras se revelará en nuestra participación en una forma de culto que Dios ha prohibido, pero que la bestia y su imagen mandan obedecer, un culto de origen humano. Dios no puede aceptar esta última forma de adoración, porque le da prioridad a los mandamientos de seres humanos y no a los de Dios. Procura la justificación por medio de las obras del hombre y no por la fe que es el resultado de una entrega total a Dios, reconociéndolo como Creador, Redentor y Recreador. En este sentido, entonces, el mensaje del tercer ángel es el mensaje de justificación por la fe. Dios tiene hijos en todas las iglesias, pero a través de la iglesia remanente proclama un mensaje destinado a restaurar su verdadero culto, al llamar a su pueblo a salir de la apostasía y prepararse para el regreso de Cristo. Reconociendo que hay muchos entre el pueblo de Dios que todavía no se han unido a ellos, los miembros del remanente perciben sus graves defectos y debilidades, mientras procuran cumplir su solemne misión. Se dan cuenta de que únicamente por la gracia de Dios podrán lograr cumplir su trascendental responsabilidad. A la luz de la pronta venida de Cristo y la necesidad de prepararse para encontrarse con él, el urgente y compasivo llamado de Dios resuena en el corazón de cada uno de nosotros: “Salid de ella pueblo mío, para que no seáis partícipes de sus pecados, ni recibáis parte de sus plagas. Porque sus pecados han llegado hasta el cielo, y Dios se ha acordado de sus maldades” (Apoc. 18:4, 5).",
+      "pdfPage": 198,
+      "pdfPageEnd": 199,
+      "citations": [
+        {
+          "start": 420,
+          "end": 435,
+          "referenceIds": [
+            "b66-14-9-14-12"
+          ]
+        },
+        {
+          "start": 951,
+          "end": 970,
+          "referenceIds": [
+            "b66-13-1-13-10"
+          ]
+        },
+        {
+          "start": 1117,
+          "end": 1131,
+          "referenceIds": [
+            "b53-2-2-2-4"
+          ]
+        },
+        {
+          "start": 1171,
+          "end": 1194,
+          "referenceIds": [
+            "b27-7-8-7-8",
+            "b27-7-20-7-25",
+            "b27-8-9-8-12"
+          ]
+        },
+        {
+          "start": 2180,
+          "end": 2196,
+          "referenceIds": [
+            "b66-14-9-14-9",
+            "b66-14-12-14-12"
+          ]
+        },
+        {
+          "start": 3145,
+          "end": 3158,
+          "referenceIds": [
+            "b66-12-17-12-17"
+          ]
+        },
+        {
+          "start": 3202,
+          "end": 3215,
+          "referenceIds": [
+            "b66-13-15-13-15"
+          ]
+        },
+        {
+          "start": 3376,
+          "end": 3399,
+          "referenceIds": [
+            "b66-15-all-15-all",
+            "b66-16-all-16-all",
+            "b66-20-14-20-15"
+          ]
+        },
+        {
+          "start": 3604,
+          "end": 3623,
+          "referenceIds": [
+            "b66-14-1-14-1",
+            "b66-7-2-7-2",
+            "b66-7-4-7-4"
+          ]
+        },
+        {
+          "start": 3786,
+          "end": 3808,
+          "referenceIds": [
+            "b66-14-9-14-10",
+            "b66-20-14-20-14"
+          ]
+        },
+        {
+          "start": 5502,
+          "end": 5517,
+          "referenceIds": [
+            "b66-18-4-18-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Apoc. 12:4, 7-9",
+      "label": "Apocalipsis 12:4",
+      "id": "b66-12-4-12-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 7,
+      "verseEnd": 9,
+      "sourceGroup": "Apoc. 12:4, 7-9",
+      "label": "Apocalipsis 12:7-9",
+      "id": "b66-12-7-12-9"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 1,
+      "verseEnd": 6,
+      "sourceGroup": "Apoc. 12:1-6,13,14",
+      "label": "Apocalipsis 12:1-6",
+      "id": "b66-12-1-12-6"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 13,
+      "verseEnd": 14,
+      "sourceGroup": "Apoc. 12:1-6,13,14",
+      "label": "Apocalipsis 12:13-14",
+      "id": "b66-12-13-12-14"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Eze. 16",
+      "label": "Ezequiel 16",
+      "id": "b26-16-all-16-all"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 57,
+      "chapterEnd": 57,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Isa. 57:8",
+      "label": "Isaías 57:8",
+      "id": "b23-57-8-57-8"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "Jer. 31:4, 5",
+      "label": "Jeremías 31:4-5",
+      "id": "b24-31-4-31-5"
+    },
+    {
+      "bookId": 28,
+      "book": "Oseas",
+      "chapterStart": 1,
+      "chapterEnd": 3,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Ose. 1-3",
+      "label": "Oseas 1-3",
+      "id": "b28-1-all-3-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 1,
+      "verseEnd": 5,
+      "sourceGroup": "Apoc. 17:1-5",
+      "label": "Apocalipsis 17:1-5",
+      "id": "b66-17-1-17-5"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 31,
+      "verseEnd": 31,
+      "sourceGroup": "Juan 12:31",
+      "label": "Juan 12:31",
+      "id": "b43-12-31-12-31"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 10,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 12:10-12",
+      "label": "Apocalipsis 12:10-12",
+      "id": "b66-12-10-12-12"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 12:12",
+      "label": "Apocalipsis 12:12",
+      "id": "b66-12-12-12-12"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Apoc. 12:13",
+      "label": "Apocalipsis 12:13",
+      "id": "b66-12-13-12-13"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 14,
+      "verseEnd": 16,
+      "sourceGroup": "Apoc. 12:14-16",
+      "label": "Apocalipsis 12:14-16",
+      "id": "b66-12-14-12-16"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Apoc. 12:17",
+      "label": "Apocalipsis 12:17",
+      "id": "b66-12-17-12-17"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Mat. 24:4, 24",
+      "label": "Mateo 24:4",
+      "id": "b40-24-4-24-4"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 24,
+      "verseEnd": 24,
+      "sourceGroup": "Mat. 24:4, 24",
+      "label": "Mateo 24:24",
+      "id": "b40-24-24-24-24"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 21,
+      "verseEnd": 22,
+      "sourceGroup": "Mat. 24:21, 22",
+      "label": "Mateo 24:21-22",
+      "id": "b40-24-21-24-22"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 29,
+      "verseEnd": 29,
+      "sourceGroup": "Mat. 24:29,32,33",
+      "label": "Mateo 24:29",
+      "id": "b40-24-29-24-29"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 32,
+      "verseEnd": 33,
+      "sourceGroup": "Mat. 24:29,32,33",
+      "label": "Mateo 24:32-33",
+      "id": "b40-24-32-24-33"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 29,
+      "verseEnd": 30,
+      "sourceGroup": "Hech. 20:29, 30",
+      "label": "Hechos 20:29-30",
+      "id": "b44-20-29-20-30"
+    },
+    {
+      "bookId": 53,
+      "book": "2 Tesalonicenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 3,
+      "verseEnd": 4,
+      "sourceGroup": "2 Tes. 2:3,4",
+      "label": "2 Tesalonicenses 2:3-4",
+      "id": "b53-2-3-2-4"
+    },
+    {
+      "bookId": 53,
+      "book": "2 Tesalonicenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 9,
+      "verseEnd": 10,
+      "sourceGroup": "2 Tes. 2:9, 10",
+      "label": "2 Tesalonicenses 2:9-10",
+      "id": "b53-2-9-2-10"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "1 Juan 4:1, 3",
+      "label": "1 Juan 4:1",
+      "id": "b62-4-1-4-1"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "1 Juan 4:1, 3",
+      "label": "1 Juan 4:3",
+      "id": "b62-4-3-4-3"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Apoc. 2:4",
+      "label": "Apocalipsis 2:4",
+      "id": "b66-2-4-2-4"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "Dan. 7:25",
+      "label": "Daniel 7:25",
+      "id": "b27-7-25-7-25"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Apoc. 12:6,14",
+      "label": "Apocalipsis 12:6",
+      "id": "b66-12-6-12-6"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Apoc. 12:6,14",
+      "label": "Apocalipsis 12:14",
+      "id": "b66-12-14-12-14"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 5,
+      "verseEnd": 7,
+      "sourceGroup": "13:5-7",
+      "label": "Apocalipsis 13:5-7",
+      "id": "b66-13-5-13-7"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "ver Apoc. 13:3",
+      "label": "Apocalipsis 13:3",
+      "id": "b66-13-3-13-3"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Heb. 4:16",
+      "label": "Hebreos 4:16",
+      "id": "b58-4-16-4-16"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Apocalipsis 12:6,14 y 13:5",
+      "label": "Apocalipsis 13:5",
+      "id": "b66-13-5-13-5"
+    },
+    {
+      "bookId": 14,
+      "book": "2 Crónicas",
+      "chapterStart": 30,
+      "chapterEnd": 30,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "2 Crón. 30:6",
+      "label": "2 Crónicas 30:6",
+      "id": "b14-30-6-30-6"
+    },
+    {
+      "bookId": 15,
+      "book": "Esdras",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 14,
+      "verseEnd": 15,
+      "sourceGroup": "Esd. 9:14, 15",
+      "label": "Esdras 9:14-15",
+      "id": "b15-9-14-9-15"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 20,
+      "verseEnd": 22,
+      "sourceGroup": "Isa. 10:20-22",
+      "label": "Isaías 10:20-22",
+      "id": "b23-10-20-10-22"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 42,
+      "chapterEnd": 42,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Jer. 42:2",
+      "label": "Jeremías 42:2",
+      "id": "b24-42-2-42-2"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Eze. 6:8",
+      "label": "Ezequiel 6:8",
+      "id": "b26-6-8-6-8"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "14:22",
+      "label": "Ezequiel 14:22",
+      "id": "b26-14-22-14-22"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 37,
+      "chapterEnd": 37,
+      "verseStart": 31,
+      "verseEnd": 32,
+      "sourceGroup": "Isa. 37:31,32",
+      "label": "Isaías 37:31-32",
+      "id": "b23-37-31-37-32"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 66,
+      "chapterEnd": 66,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "66:20",
+      "label": "Isaías 66:20",
+      "id": "b23-66-20-66-20"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "compárese con Apoc. 14:1",
+      "label": "Apocalipsis 14:1",
+      "id": "b66-14-1-14-1"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Apoc. 14:4",
+      "label": "Apocalipsis 14:4",
+      "id": "b66-14-4-14-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 6,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 14:6-12",
+      "label": "Apocalipsis 14:6-12",
+      "id": "b66-14-6-14-12"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 14:12",
+      "label": "Apocalipsis 14:12",
+      "id": "b66-14-12-14-12"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apocalipsis 14",
+      "label": "Apocalipsis 14",
+      "id": "b66-14-all-14-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 6,
+      "verseEnd": 7,
+      "sourceGroup": "Apoc. 14:6, 7",
+      "label": "Apocalipsis 14:6-7",
+      "id": "b66-14-6-14-7"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "10:11",
+      "label": "Apocalipsis 10:11",
+      "id": "b66-10-11-10-11"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Mat. 24:14",
+      "label": "Mateo 24:14",
+      "id": "b40-24-14-24-14"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "1 Juan 2:6",
+      "label": "1 Juan 2:6",
+      "id": "b62-2-6-2-6"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Juan 15:10",
+      "label": "Juan 15:10",
+      "id": "b43-15-10-15-10"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "Mat. 7:21",
+      "label": "Mateo 7:21",
+      "id": "b40-7-21-7-21"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 1,
+      "verseEnd": 17,
+      "sourceGroup": "Éxo. 20:1-17",
+      "label": "Éxodo 20:1-17",
+      "id": "b2-20-1-20-17"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 17,
+      "verseEnd": 19,
+      "sourceGroup": "Mat. 5:17-19",
+      "label": "Mateo 5:17-19",
+      "id": "b40-5-17-5-19"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "19:17",
+      "label": "Mateo 19:17",
+      "id": "b40-19-17-19-17"
+    },
+    {
+      "bookId": 50,
+      "book": "Filipenses",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Fil. 4:13",
+      "label": "Filipenses 4:13",
+      "id": "b50-4-13-4-13"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Apoc. 19:10",
+      "label": "Apocalipsis 19:10",
+      "id": "b66-19-10-19-10"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Efe. 4:13",
+      "label": "Efesios 4:13",
+      "id": "b49-4-13-4-13"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 14,
+      "verseEnd": 17,
+      "sourceGroup": "Apoc. 12:14-17",
+      "label": "Apocalipsis 12:14-17",
+      "id": "b66-12-14-12-17"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Dan. 12:4",
+      "label": "Daniel 12:4",
+      "id": "b27-12-4-12-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Apoc. 13:3, 8,14-16",
+      "label": "Apocalipsis 13:8",
+      "id": "b66-13-8-13-8"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 14,
+      "verseEnd": 16,
+      "sourceGroup": "Apoc. 13:3, 8,14-16",
+      "label": "Apocalipsis 13:14-16",
+      "id": "b66-13-14-13-16"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 14,
+      "verseEnd": 20,
+      "sourceGroup": "Apoc. 14:14-20",
+      "label": "Apocalipsis 14:14-20",
+      "id": "b66-14-14-14-20"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Heb. 4:2",
+      "label": "Hebreos 4:2",
+      "id": "b58-4-2-4-2"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Juan 15:8",
+      "label": "Juan 15:8",
+      "id": "b43-15-8-15-8"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 19,
+      "verseEnd": 20,
+      "sourceGroup": "1 Cor. 6:19, 20",
+      "label": "1 Corintios 6:19-20",
+      "id": "b46-6-19-6-20"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 31,
+      "verseEnd": 31,
+      "sourceGroup": "1 Cor. 10:31",
+      "label": "1 Corintios 10:31",
+      "id": "b46-10-31-10-31"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 27,
+      "verseEnd": 27,
+      "sourceGroup": "ver Mat. 16:27",
+      "label": "Mateo 16:27",
+      "id": "b40-16-27-16-27"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Rom. 6:23",
+      "label": "Romanos 6:23",
+      "id": "b45-6-23-6-23"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 22:12",
+      "label": "Apocalipsis 22:12",
+      "id": "b66-22-12-22-12"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 9,
+      "verseEnd": 11,
+      "sourceGroup": "Dan. 7:9-11",
+      "label": "Daniel 7:9-11",
+      "id": "b27-7-9-7-11"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apoc. 17,18",
+      "label": "Apocalipsis 17",
+      "id": "b66-17-all-17-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apoc. 17,18",
+      "label": "Apocalipsis 18",
+      "id": "b66-18-all-18-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Apoc. 13:3, 8,15",
+      "label": "Apocalipsis 13:15",
+      "id": "b66-13-15-13-15"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Apocalipsis 14:7",
+      "label": "Apocalipsis 14:7",
+      "id": "b66-14-7-14-7"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "compárese con Éxo. 20:11",
+      "label": "Éxodo 20:11",
+      "id": "b2-20-11-20-11"
+    },
+    {
+      "bookId": 53,
+      "book": "2 Tesalonicenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "2 Tes. 2:3",
+      "label": "2 Tesalonicenses 2:3",
+      "id": "b53-2-3-2-3"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Apoc. 14:8",
+      "label": "Apocalipsis 14:8",
+      "id": "b66-14-8-14-8"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 1,
+      "verseEnd": 9,
+      "sourceGroup": "Gén. 11:1-9",
+      "label": "Génesis 11:1-9",
+      "id": "b1-11-1-11-9"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Isa. 14:4, 12-14",
+      "label": "Isaías 14:4",
+      "id": "b23-14-4-14-4"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 12,
+      "verseEnd": 14,
+      "sourceGroup": "Isa. 14:4, 12-14",
+      "label": "Isaías 14:12-14",
+      "id": "b23-14-12-14-14"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "1 Ped. 5:13",
+      "label": "1 Pedro 5:13",
+      "id": "b60-5-13-5-13"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Apoc. 17:5",
+      "label": "Apocalipsis 17:5",
+      "id": "b66-17-5-17-5"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "ver Eze. 16:15",
+      "label": "Ezequiel 16:15",
+      "id": "b26-16-15-16-15"
+    },
+    {
+      "bookId": 59,
+      "book": "Santiago",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Sant. 4:4",
+      "label": "Santiago 4:4",
+      "id": "b59-4-4-4-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Apoc. 17:2, 6",
+      "label": "Apocalipsis 17:2",
+      "id": "b66-17-2-17-2"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Apoc. 17:2, 6",
+      "label": "Apocalipsis 17:6",
+      "id": "b66-17-6-17-6"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Apoc. 18:4",
+      "label": "Apocalipsis 18:4",
+      "id": "b66-18-4-18-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 15,
+      "verseEnd": 17,
+      "sourceGroup": "Apocalipsis 13:15-17",
+      "label": "Apocalipsis 13:15-17",
+      "id": "b66-13-15-13-17"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 2,
+      "verseEnd": 4,
+      "sourceGroup": "Apocalipsis 18:2-4",
+      "label": "Apocalipsis 18:2-4",
+      "id": "b66-18-2-18-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 9,
+      "verseEnd": 12,
+      "sourceGroup": "Apoc. 14:9-12",
+      "label": "Apocalipsis 14:9-12",
+      "id": "b66-14-9-14-12"
+    },
+    {
+      "bookId": 53,
+      "book": "2 Tesalonicenses",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 2,
+      "verseEnd": 4,
+      "sourceGroup": "2 Tes. 2:2-4",
+      "label": "2 Tesalonicenses 2:2-4",
+      "id": "b53-2-2-2-4"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Dan 7:8,20-25",
+      "label": "Daniel 7:8",
+      "id": "b27-7-8-7-8"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 20,
+      "verseEnd": 25,
+      "sourceGroup": "Dan 7:8,20-25",
+      "label": "Daniel 7:20-25",
+      "id": "b27-7-20-7-25"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 9,
+      "verseEnd": 12,
+      "sourceGroup": "8:9-12",
+      "label": "Daniel 8:9-12",
+      "id": "b27-8-9-8-12"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Apoc. 14:9, 12",
+      "label": "Apocalipsis 14:9",
+      "id": "b66-14-9-14-9"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apoc. 15,16",
+      "label": "Apocalipsis 15",
+      "id": "b66-15-all-15-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apoc. 15,16",
+      "label": "Apocalipsis 16",
+      "id": "b66-16-all-16-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 14,
+      "verseEnd": 15,
+      "sourceGroup": "20:14,15",
+      "label": "Apocalipsis 20:14-15",
+      "id": "b66-20-14-20-15"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "7:2,4",
+      "label": "Apocalipsis 7:2",
+      "id": "b66-7-2-7-2"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "7:2,4",
+      "label": "Apocalipsis 7:4",
+      "id": "b66-7-4-7-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 9,
+      "verseEnd": 10,
+      "sourceGroup": "Apoc. 14:9,10",
+      "label": "Apocalipsis 14:9-10",
+      "id": "b66-14-9-14-10"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "20:14",
+      "label": "Apocalipsis 20:14",
+      "id": "b66-20-14-20-14"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "Apoc. 18:4, 5",
+      "label": "Apocalipsis 18:4-5",
+      "id": "b66-18-4-18-5"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 1,
+      "verseEnd": 10,
+      "sourceGroup": "Apocalipsis 13:1-10",
+      "label": "Apocalipsis 13:1-10",
+      "id": "b66-13-1-13-10"
+    }
+  ]
+}

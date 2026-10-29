@@ -1,0 +1,5439 @@
+{
+  "schemaVersion": 1,
+  "locale": "es",
+  "contentVersion": "2026-10-27-dsa-source-and-book-expansion-draft",
+  "status": "development-review-draft",
+  "contentType": "official-short-statements",
+  "textSourceNote": "Las declaraciones breves en español se toman de las páginas oficiales actuales de la División Sudamericana. El libro de 2007 aporta una exposición ampliada separada; sus derechos de reproducción están pendientes de autorización.",
+  "categoryScheme": {
+    "schemeId": "adventist-org-web-2026",
+    "sourceUrl": "https://adventist.org/beliefs",
+    "note": "Clasificación editorial de navegación en seis grupos. No altera el título, número ni cuerpo de las creencias DSA."
+  },
+  "categories": [
+    {
+      "id": "dios",
+      "title": "Dios",
+      "beliefNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "humanidad",
+      "title": "La humanidad",
+      "beliefNumbers": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "salvacion",
+      "title": "La salvación",
+      "beliefNumbers": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "iglesia",
+      "title": "La iglesia",
+      "beliefNumbers": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "vida-cristiana",
+      "title": "La vida cristiana",
+      "beliefNumbers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "restauracion",
+      "title": "La restauración",
+      "beliefNumbers": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "dsa-current-web",
+      "url": "https://institucional.adventistas.org/es/nuestras-crencias/",
+      "retrievedDate": "2026-10-24",
+      "snapshotPath": "sources/dsa/"
+    },
+    {
+      "id": "manual-en-2025",
+      "path": "sources/church-manual-2025-en.pdf",
+      "url": "https://gc.adventist.org/wp-content/uploads/2025/10/Seventh-day_Adventist_Church_Manual-2025-10-13.pdf",
+      "language": "en",
+      "edition": "21st edition, revised 2025",
+      "firstPage": 174,
+      "lastPage": 184,
+      "sha256": "7490114ea96576bcd8b92781099f9bdfdcf7a899f68117b7c4d7cc6a60b18874"
+    },
+    {
+      "id": "manual-es-2022",
+      "path": "sources/manual-iglesia-2022-es.pdf",
+      "url": "https://f000.backblazeb2.com/file/deptos/secretaria/manual-iasd/2022/manual-de-la-iglesia-2022.pdf",
+      "language": "es",
+      "edition": "Revisión 2022",
+      "firstPage": 192,
+      "lastPage": 203,
+      "sha256": "8debcbc116ca1a7fab0780db666eb9814e30f4acf1313e4b12b53f2ec6809496"
+    },
+    {
+      "id": "book-es-2007",
+      "url": "https://assets.adventistconnect.org/angelesv/2026/01/26073640/28-Creencias-Fundamentales.pdf",
+      "path": "sources/28-Creencias-Fundamentales.pdf"
+    }
+  ],
+  "referenceCorrections": [
+    {
+      "id": "belief-26-reference-placement",
+      "beliefNumber": 26,
+      "sourceId": "dsa-current-web",
+      "sourceReferenceText": "Job 19:25-27; Sal. 146:3, 4; Ecl. 9:5, 6, 10; Dan. 12:2, 13; Isa. 25:8; Juan 5:28, 29; 11:11-14; Rom. 6:23; 16; 1 Cor. 15:51-54; Col. 3:4; 1 Tes. 4:13-17; 1 Tim. 6:15; Apoc. 20:1-10",
+      "adoptedReferenceText": "Job 19:25-27; Sal. 146:3, 4; Ecl. 9:5, 6, 10; Dan. 12:2, 13; Isa. 25:8; Juan 5:28, 29; 11:11-14; Rom. 6:23; 1 Cor. 15:51-54; Col. 3:4; 1 Tes. 4:13-17; 1 Tim. 6:15, 16; Apoc. 20:1-10",
+      "reason": "La fuente coloca un 16 aislado junto a Romanos 6:23 y omite el 16 de 1 Timoteo 6:15.",
+      "evidenceSourceId": "manual-en-2025",
+      "evidencePdfPage": 184
+    },
+    {
+      "id": "belief-28-missing-isaiah-prefix",
+      "beliefNumber": 28,
+      "sourceId": "dsa-current-web",
+      "sourceReferenceText": "35; 65:17-25; Mat. 5:5; 2 Ped. 3:13; Apoc. 11:15; 21:1-7; 22:1-5",
+      "adoptedReferenceText": "Isa. 35; 65:17-25; Mat. 5:5; 2 Ped. 3:13; Apoc. 11:15; 21:1-7; 22:1-5",
+      "reason": "La lista comienza con el capítulo 35 sin nombre de libro; se repone Isaías para que la referencia sea resoluble.",
+      "evidenceSourceId": "manual-en-2025",
+      "evidencePdfPage": 184
+    }
+  ],
+  "publicationRights": {
+    "status": "editorial-authorization-pending",
+    "note": "Este corpus y las transcripciones ampliadas son material de desarrollo. La publicación de las declaraciones y especialmente de los capítulos del libro queda sujeta a las condiciones de sus titulares y a la autorización editorial que gestiona el usuario."
+  },
+  "beliefs": [
+    {
+      "id": "belief-01",
+      "number": 1,
+      "slug": "las-sagradas-escrituras",
+      "title": "Las Sagradas Escrituras",
+      "categoryId": "dios",
+      "paragraphs": [
+        "Las Sagradas Escrituras, que abarcan el Antiguo Testamento y el Nuevo Testamento, constituyen la Palabra de Dios escrita, transmitida por inspiración divina. Los autores inspirados hablaron y escribieron impulsados por el Espíritu Santo. Por medio de esta Palabra, Dios comunica a los seres humanos el conocimiento necesario para alcanzar la salvación. Las Sagradas Escrituras son la revelación suprema, autoritativa e infalible de la voluntad divina. Son la norma del carácter, el criterio para evaluar la experiencia, la revelación definitiva de las doctrinas, un registro fidedigno de los actos de Dios realizados en el curso de la historia."
+      ],
+      "referenceText": "Sal. 119:105; Prov. 30:5, 6; Isa. 8:20; Juan 17:17; 1 Tes. 2:13; 2 Tim. 3:16, 17; Heb. 4:12; 2 Ped. 1:20, 21",
+      "references": [
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 119,
+          "chapterEnd": 119,
+          "verseStart": 105,
+          "verseEnd": 105,
+          "sourceGroup": "Sal. 119:105",
+          "label": "Salmos 119:105",
+          "id": "b19-119-105-119-105"
+        },
+        {
+          "bookId": 20,
+          "book": "Proverbios",
+          "chapterStart": 30,
+          "chapterEnd": 30,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "sourceGroup": "Prov. 30:5, 6",
+          "label": "Proverbios 30:5-6",
+          "id": "b20-30-5-30-6"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "sourceGroup": "Isa. 8:20",
+          "label": "Isaías 8:20",
+          "id": "b23-8-20-8-20"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 17,
+          "chapterEnd": 17,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "sourceGroup": "Juan 17:17",
+          "label": "Juan 17:17",
+          "id": "b43-17-17-17-17"
+        },
+        {
+          "bookId": 52,
+          "book": "1 Tesalonicenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "sourceGroup": "1 Tes. 2:13",
+          "label": "1 Tesalonicenses 2:13",
+          "id": "b52-2-13-2-13"
+        },
+        {
+          "bookId": 55,
+          "book": "2 Timoteo",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "sourceGroup": "2 Tim. 3:16, 17",
+          "label": "2 Timoteo 3:16-17",
+          "id": "b55-3-16-3-17"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "Heb. 4:12",
+          "label": "Hebreos 4:12",
+          "id": "b58-4-12-4-12"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 20,
+          "verseEnd": 21,
+          "sourceGroup": "2 Ped. 1:20, 21",
+          "label": "2 Pedro 1:20-21",
+          "id": "b61-1-20-1-21"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/1-las-escrituras-sagradas/",
+        "sourceReferenceText": "Sal. 119:105; Prov. 30:5, 6; Isa. 8:20; Juan 17:17; 1 Tes. 2:13; 2 Tim. 3:16, 17; Heb. 4:12; 2 Ped. 1:20, 21",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          192
+        ],
+        "manualEnglish2025PdfPages": [
+          174
+        ],
+        "book2007": {
+          "pdfStartPage": 13,
+          "pdfEndPage": 24,
+          "printedStartPage": 11,
+          "printedEndPage": 22
+        }
+      },
+      "illustration": {
+        "key": "belief-01",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-02",
+      "number": 2,
+      "slug": "la-trinidad",
+      "title": "La Trinidad",
+      "categoryId": "dios",
+      "paragraphs": [
+        "Hay un solo Dios: Padre, Hijo y Espíritu Santo, una unidad de tres personas coeternas. Dios es inmortal, todopoderoso, omnisapiente, superior a todos y omnipresente. Es infinito y escapa a la comprensión humana, aunque se lo puede conocer por medio de su autorrevelación. Dios, que es amor, es digno, para siempre, de reverencia, adoración y servicio por parte de toda la creación."
+      ],
+      "referenceText": "Gén. 1:26; Deut. 6:4; Isa. 6:8; Mat. 28:19; Juan 3:16; 2 Cor. 1:21, 22; 13:14; Efe. 4:4-6; 1 Ped. 1:2",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 26,
+          "verseEnd": 26,
+          "sourceGroup": "Gén. 1:26",
+          "label": "Génesis 1:26",
+          "id": "b1-1-26-1-26"
+        },
+        {
+          "bookId": 5,
+          "book": "Deuteronomio",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "Deut. 6:4",
+          "label": "Deuteronomio 6:4",
+          "id": "b5-6-4-6-4"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "Isa. 6:8",
+          "label": "Isaías 6:8",
+          "id": "b23-6-8-6-8"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 28,
+          "chapterEnd": 28,
+          "verseStart": 19,
+          "verseEnd": 19,
+          "sourceGroup": "Mat. 28:19",
+          "label": "Mateo 28:19",
+          "id": "b40-28-19-28-19"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "sourceGroup": "Juan 3:16",
+          "label": "Juan 3:16",
+          "id": "b43-3-16-3-16"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 21,
+          "verseEnd": 22,
+          "sourceGroup": "2 Cor. 1:21, 22",
+          "label": "2 Corintios 1:21-22",
+          "id": "b47-1-21-1-22"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 13,
+          "chapterEnd": 13,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "sourceGroup": "13:14",
+          "label": "2 Corintios 13:14",
+          "id": "b47-13-14-13-14"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 4,
+          "verseEnd": 6,
+          "sourceGroup": "Efe. 4:4-6",
+          "label": "Efesios 4:4-6",
+          "id": "b49-4-4-4-6"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "1 Ped. 1:2",
+          "label": "1 Pedro 1:2",
+          "id": "b60-1-2-1-2"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/2-la-trinidad/",
+        "sourceReferenceText": "Gén. 1:26; Deut. 6:4; Isa. 6:8; Mat. 28:19; Juan 3:16; 2 Cor. 1:21, 22; 13:14; Efe. 4:4-6; 1 Ped. 1:2",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          192
+        ],
+        "manualEnglish2025PdfPages": [
+          174
+        ],
+        "book2007": {
+          "pdfStartPage": 25,
+          "pdfEndPage": 35,
+          "printedStartPage": 23,
+          "printedEndPage": 33
+        }
+      },
+      "illustration": {
+        "key": "belief-02",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-03",
+      "number": 3,
+      "slug": "el-padre",
+      "title": "El Padre",
+      "categoryId": "dios",
+      "paragraphs": [
+        "Dios el Padre eterno es el Creador, Originador, Sustentador y Soberano de toda la creación. Es justo y santo, misericordioso y clemente, tardo en airarse, y abundante en amor y fidelidad. Las cualidades y las facultades del Padre se manifiestan también en el Hijo y en el Espíritu Santo."
+      ],
+      "referenceText": "Gén. 1:1; Deut. 4:35; Sal. 110:1, 4; Juan 3:16; 14:9; 1 Cor. 15:28; 1 Tim. 1:17; 1 Juan 4:8; Apoc. 4:11",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "sourceGroup": "Gén. 1:1",
+          "label": "Génesis 1:1",
+          "id": "b1-1-1-1-1"
+        },
+        {
+          "bookId": 5,
+          "book": "Deuteronomio",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 35,
+          "verseEnd": 35,
+          "sourceGroup": "Deut. 4:35",
+          "label": "Deuteronomio 4:35",
+          "id": "b5-4-35-4-35"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 110,
+          "chapterEnd": 110,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "sourceGroup": "Sal. 110:1, 4",
+          "label": "Salmos 110:1",
+          "id": "b19-110-1-110-1"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 110,
+          "chapterEnd": 110,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "Sal. 110:1, 4",
+          "label": "Salmos 110:4",
+          "id": "b19-110-4-110-4"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "sourceGroup": "Juan 3:16",
+          "label": "Juan 3:16",
+          "id": "b43-3-16-3-16"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "sourceGroup": "14:9",
+          "label": "Juan 14:9",
+          "id": "b43-14-9-14-9"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 28,
+          "verseEnd": 28,
+          "sourceGroup": "1 Cor. 15:28",
+          "label": "1 Corintios 15:28",
+          "id": "b46-15-28-15-28"
+        },
+        {
+          "bookId": 54,
+          "book": "1 Timoteo",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "sourceGroup": "1 Tim. 1:17",
+          "label": "1 Timoteo 1:17",
+          "id": "b54-1-17-1-17"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "1 Juan 4:8",
+          "label": "1 Juan 4:8",
+          "id": "b62-4-8-4-8"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "sourceGroup": "Apoc. 4:11",
+          "label": "Apocalipsis 4:11",
+          "id": "b66-4-11-4-11"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/3-el-padre/",
+        "sourceReferenceText": "Gén. 1:1; Deut. 4:35; Sal. 110:1, 4; Juan 3:16; 14:9; 1 Cor. 15:28; 1 Tim. 1:17; 1 Juan 4:8; Apoc. 4:11",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          192,
+          193
+        ],
+        "manualEnglish2025PdfPages": [
+          174
+        ],
+        "book2007": {
+          "pdfStartPage": 36,
+          "pdfEndPage": 42,
+          "printedStartPage": 34,
+          "printedEndPage": 40
+        }
+      },
+      "illustration": {
+        "key": "belief-03",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-04",
+      "number": 4,
+      "slug": "el-hijo",
+      "title": "El Hijo",
+      "categoryId": "dios",
+      "paragraphs": [
+        "Dios el hijo Eterno se encarnó como Jesucristo. Por medio de él se crearon todas las cosas, se reveló el carácter de Dios, se llevó a cabo la salvación de la humanidad y se juzga al mundo. Aunque es verdadero y eternamente Dios, llegó a ser también verdaderamente humano, Jesús el Cristo. Fue concebido por el Espíritu Santo y nació de la virgen María. Vivió y experimentó la tentación como ser humano, pero ejemplificó perfectamente la justicia y el amor de Dios. Mediante sus milagros, manifestó el poder de Dios, y aquellos dieron testimonio de que era el prometido Mesías de Dios. Sufrió y murió voluntariamente en la cruz por nuestros pecados y en nuestro lugar, resucitó de entre los muertos y ascendió al cielo para ministrar en el Santuario celestial en favor de nosotros. Volverá otra vez en gloria, para librar definitivamente a su pueblo y restaurar todas las cosas."
+      ],
+      "referenceText": "Isa. 53:4-6; Dan. 9:25-27; Luc. 1:35; Juan 1:1-3, 14; 5:22; 10:30; 14:1-3, 9, 13; Rom. 6:23; 1 Cor. 15:3, 4; 2 Cor. 3:18; 5:17-19; Fil. 2:5-11; Col. 1:15-19; Heb. 2:9-18; 8:1, 2",
+      "references": [
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 53,
+          "chapterEnd": 53,
+          "verseStart": 4,
+          "verseEnd": 6,
+          "sourceGroup": "Isa. 53:4-6",
+          "label": "Isaías 53:4-6",
+          "id": "b23-53-4-53-6"
+        },
+        {
+          "bookId": 27,
+          "book": "Daniel",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 25,
+          "verseEnd": 27,
+          "sourceGroup": "Dan. 9:25-27",
+          "label": "Daniel 9:25-27",
+          "id": "b27-9-25-9-27"
+        },
+        {
+          "bookId": 42,
+          "book": "Lucas",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 35,
+          "verseEnd": 35,
+          "sourceGroup": "Luc. 1:35",
+          "label": "Lucas 1:35",
+          "id": "b42-1-35-1-35"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "sourceGroup": "Juan 1:1-3, 14",
+          "label": "Juan 1:1-3",
+          "id": "b43-1-1-1-3"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "sourceGroup": "Juan 1:1-3, 14",
+          "label": "Juan 1:14",
+          "id": "b43-1-14-1-14"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 22,
+          "verseEnd": 22,
+          "sourceGroup": "5:22",
+          "label": "Juan 5:22",
+          "id": "b43-5-22-5-22"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 30,
+          "verseEnd": 30,
+          "sourceGroup": "10:30",
+          "label": "Juan 10:30",
+          "id": "b43-10-30-10-30"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "sourceGroup": "14:1-3, 9, 13",
+          "label": "Juan 14:1-3",
+          "id": "b43-14-1-14-3"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "sourceGroup": "14:1-3, 9, 13",
+          "label": "Juan 14:9",
+          "id": "b43-14-9-14-9"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "sourceGroup": "14:1-3, 9, 13",
+          "label": "Juan 14:13",
+          "id": "b43-14-13-14-13"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "sourceGroup": "Rom. 6:23",
+          "label": "Romanos 6:23",
+          "id": "b45-6-23-6-23"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "sourceGroup": "1 Cor. 15:3, 4",
+          "label": "1 Corintios 15:3-4",
+          "id": "b46-15-3-15-4"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "sourceGroup": "2 Cor. 3:18",
+          "label": "2 Corintios 3:18",
+          "id": "b47-3-18-3-18"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 17,
+          "verseEnd": 19,
+          "sourceGroup": "5:17-19",
+          "label": "2 Corintios 5:17-19",
+          "id": "b47-5-17-5-19"
+        },
+        {
+          "bookId": 50,
+          "book": "Filipenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 5,
+          "verseEnd": 11,
+          "sourceGroup": "Fil. 2:5-11",
+          "label": "Filipenses 2:5-11",
+          "id": "b50-2-5-2-11"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 15,
+          "verseEnd": 19,
+          "sourceGroup": "Col. 1:15-19",
+          "label": "Colosenses 1:15-19",
+          "id": "b51-1-15-1-19"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 9,
+          "verseEnd": 18,
+          "sourceGroup": "Heb. 2:9-18",
+          "label": "Hebreos 2:9-18",
+          "id": "b58-2-9-2-18"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "sourceGroup": "8:1, 2",
+          "label": "Hebreos 8:1-2",
+          "id": "b58-8-1-8-2"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/4-el-hijo/",
+        "sourceReferenceText": "Isa. 53:4-6; Dan. 9:25-27; Luc. 1:35; Juan 1:1-3, 14; 5:22; 10:30; 14:1-3, 9, 13; Rom. 6:23; 1 Cor. 15:3, 4; 2 Cor. 3:18; 5:17-19; Fil. 2:5-11; Col. 1:15-19; Heb. 2:9-18; 8:1, 2",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          193
+        ],
+        "manualEnglish2025PdfPages": [
+          175
+        ],
+        "book2007": {
+          "pdfStartPage": 43,
+          "pdfEndPage": 68,
+          "printedStartPage": 41,
+          "printedEndPage": 66
+        }
+      },
+      "illustration": {
+        "key": "belief-04",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-05",
+      "number": 5,
+      "slug": "el-espiritu-santo",
+      "title": "El Espíritu Santo",
+      "categoryId": "dios",
+      "paragraphs": [
+        "Dios el Espíritu eterno desempeñó una parte activa, con el Padre y el Hijo, en la creación, en la encarnación y en la redención. Es una persona, de la misma manera que lo son el Padre y el Hijo. Inspiró a los autores de las Escrituras. Infundió poder a la vida de Cristo. Atrae y convence a los seres humanos, y renueva a los que responden y los transforma a la imagen de Dios. Enviado por el Padre y por el Hijo para estar siempre con sus hijos, concede dones espirituales a la iglesia, la capacita para dar testimonio en favor de Cristo y, en armonía con las Escrituras, la guía a toda la verdad."
+      ],
+      "referenceText": "Gén. 1:1, 2; 2 Sam. 23:2; Sal. 51:11; Isa. 61:1; Luc. 1:35; 4:18; Juan 14:16-18, 26; 15:26; 16:7-13; Hech. 1:8; 5:3; 10:38; Rom. 5:5; 1 Cor. 12:7-11; 2 Cor. 3:18; 2 Ped. 1:21",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "sourceGroup": "Gén. 1:1, 2",
+          "label": "Génesis 1:1-2",
+          "id": "b1-1-1-1-2"
+        },
+        {
+          "bookId": 10,
+          "book": "2 Samuel",
+          "chapterStart": 23,
+          "chapterEnd": 23,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "2 Sam. 23:2",
+          "label": "2 Samuel 23:2",
+          "id": "b10-23-2-23-2"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 51,
+          "chapterEnd": 51,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "sourceGroup": "Sal. 51:11",
+          "label": "Salmos 51:11",
+          "id": "b19-51-11-51-11"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 61,
+          "chapterEnd": 61,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "sourceGroup": "Isa. 61:1",
+          "label": "Isaías 61:1",
+          "id": "b23-61-1-61-1"
+        },
+        {
+          "bookId": 42,
+          "book": "Lucas",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 35,
+          "verseEnd": 35,
+          "sourceGroup": "Luc. 1:35",
+          "label": "Lucas 1:35",
+          "id": "b42-1-35-1-35"
+        },
+        {
+          "bookId": 42,
+          "book": "Lucas",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "sourceGroup": "4:18",
+          "label": "Lucas 4:18",
+          "id": "b42-4-18-4-18"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 16,
+          "verseEnd": 18,
+          "sourceGroup": "Juan 14:16-18, 26",
+          "label": "Juan 14:16-18",
+          "id": "b43-14-16-14-18"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 26,
+          "verseEnd": 26,
+          "sourceGroup": "Juan 14:16-18, 26",
+          "label": "Juan 14:26",
+          "id": "b43-14-26-14-26"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 26,
+          "verseEnd": 26,
+          "sourceGroup": "15:26",
+          "label": "Juan 15:26",
+          "id": "b43-15-26-15-26"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 16,
+          "chapterEnd": 16,
+          "verseStart": 7,
+          "verseEnd": 13,
+          "sourceGroup": "16:7-13",
+          "label": "Juan 16:7-13",
+          "id": "b43-16-7-16-13"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "Hech. 1:8",
+          "label": "Hechos 1:8",
+          "id": "b44-1-8-1-8"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "5:3",
+          "label": "Hechos 5:3",
+          "id": "b44-5-3-5-3"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 38,
+          "verseEnd": 38,
+          "sourceGroup": "10:38",
+          "label": "Hechos 10:38",
+          "id": "b44-10-38-10-38"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "sourceGroup": "Rom. 5:5",
+          "label": "Romanos 5:5",
+          "id": "b45-5-5-5-5"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 7,
+          "verseEnd": 11,
+          "sourceGroup": "1 Cor. 12:7-11",
+          "label": "1 Corintios 12:7-11",
+          "id": "b46-12-7-12-11"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "sourceGroup": "2 Cor. 3:18",
+          "label": "2 Corintios 3:18",
+          "id": "b47-3-18-3-18"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 21,
+          "verseEnd": 21,
+          "sourceGroup": "2 Ped. 1:21",
+          "label": "2 Pedro 1:21",
+          "id": "b61-1-21-1-21"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/5-el-espiritu-santo/",
+        "sourceReferenceText": "Gén. 1:1, 2; 2 Sam. 23:2; Sal. 51:11; Isa. 61:1; Luc. 1:35; 4:18; Juan 14:16-18, 26; 15:26; 16:7-13; Hech. 1:8; 5:3; 10:38; Rom. 5:5; 1 Cor. 12:7-11; 2 Cor. 3:18; 2 Ped. 1:21",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          193
+        ],
+        "manualEnglish2025PdfPages": [
+          175
+        ],
+        "book2007": {
+          "pdfStartPage": 69,
+          "pdfEndPage": 77,
+          "printedStartPage": 67,
+          "printedEndPage": 75
+        }
+      },
+      "illustration": {
+        "key": "belief-05",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-06",
+      "number": 6,
+      "slug": "la-creacion",
+      "title": "La Creación",
+      "categoryId": "humanidad",
+      "paragraphs": [
+        "Dios reveló en las Escrituras el relato auténtico e histórico de su actividad creadora. El Señor creó el universo y, en una creación reciente de seis días, hizo “los cielos y la tierra, el mar, y todas las cosas que en ellos hay”, y reposó en el séptimo día. De ese modo, estableció el sábado como un monumento perpetuo conmemorativo de la obra que llevó a cabo y completó durante seis días literales que, junto con el sábado, constituyeron la misma unidad de tiempo que hoy llamamos semana. Dios hizo al primer hombre y a la primera mujer a su imagen, como corona de la creación, y les dio dominio sobre el mundo y la responsabilidad de cuidar de él. Cuando el mundo quedó terminado, era “bueno en gran manera”, proclamando la gloria de Dios."
+      ],
+      "referenceText": "Gén. 1, 2; 5; 11; Éxo. 20:8-11; Sal. 19:1-6; 33:6, 9; 104; Isa. 45:12, 18; Hech. 17:24; Col. 1:16; Heb. 1:2; 11:3; Apoc. 10:6; 14:7",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Gén. 1, 2",
+          "label": "Génesis 1",
+          "id": "b1-1-all-1-all"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Gén. 1, 2",
+          "label": "Génesis 2",
+          "id": "b1-2-all-2-all"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "5",
+          "label": "Génesis 5",
+          "id": "b1-5-all-5-all"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "11",
+          "label": "Génesis 11",
+          "id": "b1-11-all-11-all"
+        },
+        {
+          "bookId": 2,
+          "book": "Éxodo",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 8,
+          "verseEnd": 11,
+          "sourceGroup": "Éxo. 20:8-11",
+          "label": "Éxodo 20:8-11",
+          "id": "b2-20-8-20-11"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 19,
+          "chapterEnd": 19,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "sourceGroup": "Sal. 19:1-6",
+          "label": "Salmos 19:1-6",
+          "id": "b19-19-1-19-6"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 33,
+          "chapterEnd": 33,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "33:6, 9",
+          "label": "Salmos 33:6",
+          "id": "b19-33-6-33-6"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 33,
+          "chapterEnd": 33,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "sourceGroup": "33:6, 9",
+          "label": "Salmos 33:9",
+          "id": "b19-33-9-33-9"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 104,
+          "chapterEnd": 104,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "104",
+          "label": "Salmos 104",
+          "id": "b19-104-all-104-all"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 45,
+          "chapterEnd": 45,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "Isa. 45:12, 18",
+          "label": "Isaías 45:12",
+          "id": "b23-45-12-45-12"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 45,
+          "chapterEnd": 45,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "sourceGroup": "Isa. 45:12, 18",
+          "label": "Isaías 45:18",
+          "id": "b23-45-18-45-18"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 17,
+          "chapterEnd": 17,
+          "verseStart": 24,
+          "verseEnd": 24,
+          "sourceGroup": "Hech. 17:24",
+          "label": "Hechos 17:24",
+          "id": "b44-17-24-17-24"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "sourceGroup": "Col. 1:16",
+          "label": "Colosenses 1:16",
+          "id": "b51-1-16-1-16"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "Heb. 1:2",
+          "label": "Hebreos 1:2",
+          "id": "b58-1-2-1-2"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "11:3",
+          "label": "Hebreos 11:3",
+          "id": "b58-11-3-11-3"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "Apoc. 10:6",
+          "label": "Apocalipsis 10:6",
+          "id": "b66-10-6-10-6"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "sourceGroup": "14:7",
+          "label": "Apocalipsis 14:7",
+          "id": "b66-14-7-14-7"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/6-la-creacion/",
+        "sourceReferenceText": "Gén. 1, 2; 5; 11; Éxo. 20:8-11; Sal. 19:1-6; 33:6, 9; 104; Isa. 45:12, 18; Hech. 17:24; Col. 1:16; Heb. 1:2; 11:3; Apoc. 10:6; 14:7",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          193,
+          194
+        ],
+        "manualEnglish2025PdfPages": [
+          175,
+          176
+        ],
+        "book2007": {
+          "pdfStartPage": 78,
+          "pdfEndPage": 88,
+          "printedStartPage": 76,
+          "printedEndPage": 86
+        }
+      },
+      "illustration": {
+        "key": "belief-06",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-07",
+      "number": 7,
+      "slug": "la-naturaleza-de-la-humanidad",
+      "title": "La naturaleza de la humanidad",
+      "categoryId": "humanidad",
+      "paragraphs": [
+        "Dios hizo al hombre y a la mujer a su imagen, con individualidad propia, y con la facultad y la libertad de pensar y obrar. Aunque los creó como seres libres, cada uno es una unidad indivisible de cuerpo, mente y espíritu, que depende de Dios para la vida, el aliento y todo lo demás. Cuando nuestros primeros padres desobedecieron a Dios, negaron su dependencia de él y cayeron de su elevada posición. La imagen de Dios en ellos se desfiguró y quedaron sujetos a la muerte. Sus descendientes participan de esta naturaleza caída y de sus consecuencias. Nacen con debilidades y tendencias hacia el mal. Pero Dios, en Cristo, reconcilió al mundo consigo mismo y, por medio de su Espíritu Santo, restaura en los mortales penitentes la imagen de su Hacedor. Creados para la gloria de Dios, se los llama a amarlo a él y a amarse mutuamente, y a cuidar del ambiente que los rodea."
+      ],
+      "referenceText": "Gén. 1:26-28; 2:7, 15; 3; Sal. 8:4-8; 51:5, 10; 58:3; Jer. 17:9; Hech. 17:24-28; Rom. 5:12-17; 2 Cor. 5:19, 20; Efe. 2:3; 1 Tes. 5:23; 1 Juan 3:4; 4:7, 8, 11, 20",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 26,
+          "verseEnd": 28,
+          "sourceGroup": "Gén. 1:26-28",
+          "label": "Génesis 1:26-28",
+          "id": "b1-1-26-1-28"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "sourceGroup": "2:7, 15",
+          "label": "Génesis 2:7",
+          "id": "b1-2-7-2-7"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "2:7, 15",
+          "label": "Génesis 2:15",
+          "id": "b1-2-15-2-15"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "3",
+          "label": "Génesis 3",
+          "id": "b1-3-all-3-all"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 4,
+          "verseEnd": 8,
+          "sourceGroup": "Sal. 8:4-8",
+          "label": "Salmos 8:4-8",
+          "id": "b19-8-4-8-8"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 51,
+          "chapterEnd": 51,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "sourceGroup": "51:5, 10",
+          "label": "Salmos 51:5",
+          "id": "b19-51-5-51-5"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 51,
+          "chapterEnd": 51,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "sourceGroup": "51:5, 10",
+          "label": "Salmos 51:10",
+          "id": "b19-51-10-51-10"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 58,
+          "chapterEnd": 58,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "58:3",
+          "label": "Salmos 58:3",
+          "id": "b19-58-3-58-3"
+        },
+        {
+          "bookId": 24,
+          "book": "Jeremías",
+          "chapterStart": 17,
+          "chapterEnd": 17,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "sourceGroup": "Jer. 17:9",
+          "label": "Jeremías 17:9",
+          "id": "b24-17-9-17-9"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 17,
+          "chapterEnd": 17,
+          "verseStart": 24,
+          "verseEnd": 28,
+          "sourceGroup": "Hech. 17:24-28",
+          "label": "Hechos 17:24-28",
+          "id": "b44-17-24-17-28"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 12,
+          "verseEnd": 17,
+          "sourceGroup": "Rom. 5:12-17",
+          "label": "Romanos 5:12-17",
+          "id": "b45-5-12-5-17"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "sourceGroup": "2 Cor. 5:19, 20",
+          "label": "2 Corintios 5:19-20",
+          "id": "b47-5-19-5-20"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "Efe. 2:3",
+          "label": "Efesios 2:3",
+          "id": "b49-2-3-2-3"
+        },
+        {
+          "bookId": 52,
+          "book": "1 Tesalonicenses",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "sourceGroup": "1 Tes. 5:23",
+          "label": "1 Tesalonicenses 5:23",
+          "id": "b52-5-23-5-23"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "1 Juan 3:4",
+          "label": "1 Juan 3:4",
+          "id": "b62-3-4-3-4"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 7,
+          "verseEnd": 8,
+          "sourceGroup": "4:7, 8, 11, 20",
+          "label": "1 Juan 4:7-8",
+          "id": "b62-4-7-4-8"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "sourceGroup": "4:7, 8, 11, 20",
+          "label": "1 Juan 4:11",
+          "id": "b62-4-11-4-11"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "sourceGroup": "4:7, 8, 11, 20",
+          "label": "1 Juan 4:20",
+          "id": "b62-4-20-4-20"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/7-la-naturaleza-de-la-humanidad/",
+        "sourceReferenceText": "Gén. 1:26-28; 2:7, 15; 3; Sal. 8:4-8; 51:5, 10; 58:3; Jer. 17:9; Hech. 17:24-28; Rom. 5:12-17; 2 Cor. 5:19, 20; Efe. 2:3; 1 Tes. 5:23; 1 Juan 3:4; 4:7, 8, 11, 20",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          194
+        ],
+        "manualEnglish2025PdfPages": [
+          176
+        ],
+        "book2007": {
+          "pdfStartPage": 89,
+          "pdfEndPage": 110,
+          "printedStartPage": 87,
+          "printedEndPage": 108
+        }
+      },
+      "illustration": {
+        "key": "belief-07",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-08",
+      "number": 8,
+      "slug": "el-gran-conflicto",
+      "title": "El Gran Conflicto",
+      "categoryId": "salvacion",
+      "paragraphs": [
+        "Toda la humanidad está ahora envuelta en un gran conflicto entre Cristo y Satanás en cuanto al carácter de Dios, su ley y su soberanía sobre el universo. Este conflicto se originó en el cielo cuando un ser creado, dotado de libre albedrío, se exaltó a sí mismo y se convirtió en Satanás, el adversario de Dios, y condujo a la rebelión a una parte de los ángeles. Satanás introdujo el espíritu de rebelión en este mundo cuando indujo a Adán y a Eva a pecar. El pecado humano produjo como resultado la distorsión de la imagen de Dios en la humanidad, el trastorno del mundo creado y, posteriormente, su completa devastación en ocasión del diluvio global, tal como lo presenta el registro histórico de Génesis 1 al 11. Observado por toda la creación, este mundo se convirtió en el campo de batalla del conflicto universal, a cuyo término el Dios de amor quedará finalmente vindicado. Para ayudar a su pueblo en este conflicto, Cristo envía al Espíritu Santo y a los ángeles leales para guiarlo, protegerlo y sostenerlo en el camino de la salvación."
+      ],
+      "referenceText": "Gén. 3; 6-8; Job 1:6-12; Isa. 14:12-14; Eze. 28:12-18; Rom. 1:19-32; 3:4; 5:12-21; 8:19-22; 1 Cor. 4:9; Heb. 1:14; 1 Ped. 5:8; 2 Ped. 3:6; Apoc. 12:4-9",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Gén. 3",
+          "label": "Génesis 3",
+          "id": "b1-3-all-3-all"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 6,
+          "chapterEnd": 8,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "6-8",
+          "label": "Génesis 6-8",
+          "id": "b1-6-all-8-all"
+        },
+        {
+          "bookId": 18,
+          "book": "Job",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 6,
+          "verseEnd": 12,
+          "sourceGroup": "Job 1:6-12",
+          "label": "Job 1:6-12",
+          "id": "b18-1-6-1-12"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 12,
+          "verseEnd": 14,
+          "sourceGroup": "Isa. 14:12-14",
+          "label": "Isaías 14:12-14",
+          "id": "b23-14-12-14-14"
+        },
+        {
+          "bookId": 26,
+          "book": "Ezequiel",
+          "chapterStart": 28,
+          "chapterEnd": 28,
+          "verseStart": 12,
+          "verseEnd": 18,
+          "sourceGroup": "Eze. 28:12-18",
+          "label": "Ezequiel 28:12-18",
+          "id": "b26-28-12-28-18"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 19,
+          "verseEnd": 32,
+          "sourceGroup": "Rom. 1:19-32",
+          "label": "Romanos 1:19-32",
+          "id": "b45-1-19-1-32"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "3:4",
+          "label": "Romanos 3:4",
+          "id": "b45-3-4-3-4"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 12,
+          "verseEnd": 21,
+          "sourceGroup": "5:12-21",
+          "label": "Romanos 5:12-21",
+          "id": "b45-5-12-5-21"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 19,
+          "verseEnd": 22,
+          "sourceGroup": "8:19-22",
+          "label": "Romanos 8:19-22",
+          "id": "b45-8-19-8-22"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "sourceGroup": "1 Cor. 4:9",
+          "label": "1 Corintios 4:9",
+          "id": "b46-4-9-4-9"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "sourceGroup": "Heb. 1:14",
+          "label": "Hebreos 1:14",
+          "id": "b58-1-14-1-14"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "1 Ped. 5:8",
+          "label": "1 Pedro 5:8",
+          "id": "b60-5-8-5-8"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "2 Ped. 3:6",
+          "label": "2 Pedro 3:6",
+          "id": "b61-3-6-3-6"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 4,
+          "verseEnd": 9,
+          "sourceGroup": "Apoc. 12:4-9",
+          "label": "Apocalipsis 12:4-9",
+          "id": "b66-12-4-12-9"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/8-el-gran-conflicto/",
+        "sourceReferenceText": "Gén. 3; 6-8; Job 1:6-12; Isa. 14:12-14; Eze. 28:12-18; Rom. 1:19-32; 3:4; 5:12-21; 8:19-22; 1 Cor. 4:9; Heb. 1:14; 1 Ped. 5:8; 2 Ped. 3:6; Apoc. 12:4-9",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          194
+        ],
+        "manualEnglish2025PdfPages": [
+          176
+        ],
+        "book2007": {
+          "pdfStartPage": 111,
+          "pdfEndPage": 119,
+          "printedStartPage": 109,
+          "printedEndPage": 117
+        }
+      },
+      "illustration": {
+        "key": "belief-08",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-09",
+      "number": 9,
+      "slug": "vida-muerte-y-resurreccion-de-cristo",
+      "title": "Vida, muerte y resurrección de Cristo",
+      "categoryId": "salvacion",
+      "paragraphs": [
+        "Mediante la vida de Cristo, de perfecta obediencia a la voluntad de Dios, y por medio de sus sufrimientos, su muerte y su resurrección, Dios proveyó el único medio para expiar el pecado humano, de manera que los que por fe aceptan esta expiación puedan tener vida eterna, y toda la creación pueda comprender mejor el infinito y santo amor del Creador. Esta expiación perfecta vindica la justicia de la ley de Dios y la benignidad de su carácter; porque no solo condena nuestro pecado, sino también nos garantiza nuestro perdón. La muerte de Cristo es vicaria y expiatoria, reconciliadora y transformadora. La resurrección corpórea de Cristo proclama el triunfo de Dios sobre las fuerzas del mal, y asegura la victoria final sobre el pecado y la muerte a los que aceptan la expiación. Ella declara el señorío de Jesucristo, ante quien se doblará toda rodilla en el cielo y en la tierra."
+      ],
+      "referenceText": "Gén. 3:15; Sal. 22:1; Isa. 53; Juan 3:16; 14:30; Rom. 1:4; 3:25; 4:25; 8:3, 4; 1 Cor. 15:3, 4, 20-22; 2 Cor. 5:14, 15, 19-21; Fil. 2:6-11; Col. 2:15; 1 Ped. 2:21, 22; 1 Juan 2:2; 4:10",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "Gén. 3:15",
+          "label": "Génesis 3:15",
+          "id": "b1-3-15-3-15"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 22,
+          "chapterEnd": 22,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "sourceGroup": "Sal. 22:1",
+          "label": "Salmos 22:1",
+          "id": "b19-22-1-22-1"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 53,
+          "chapterEnd": 53,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Isa. 53",
+          "label": "Isaías 53",
+          "id": "b23-53-all-53-all"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "sourceGroup": "Juan 3:16",
+          "label": "Juan 3:16",
+          "id": "b43-3-16-3-16"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 30,
+          "verseEnd": 30,
+          "sourceGroup": "14:30",
+          "label": "Juan 14:30",
+          "id": "b43-14-30-14-30"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "Rom. 1:4",
+          "label": "Romanos 1:4",
+          "id": "b45-1-4-1-4"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 25,
+          "verseEnd": 25,
+          "sourceGroup": "3:25",
+          "label": "Romanos 3:25",
+          "id": "b45-3-25-3-25"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 25,
+          "verseEnd": 25,
+          "sourceGroup": "4:25",
+          "label": "Romanos 4:25",
+          "id": "b45-4-25-4-25"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "sourceGroup": "8:3, 4",
+          "label": "Romanos 8:3-4",
+          "id": "b45-8-3-8-4"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "sourceGroup": "1 Cor. 15:3, 4, 20-22",
+          "label": "1 Corintios 15:3-4",
+          "id": "b46-15-3-15-4"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 20,
+          "verseEnd": 22,
+          "sourceGroup": "1 Cor. 15:3, 4, 20-22",
+          "label": "1 Corintios 15:20-22",
+          "id": "b46-15-20-15-22"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "sourceGroup": "2 Cor. 5:14, 15, 19-21",
+          "label": "2 Corintios 5:14-15",
+          "id": "b47-5-14-5-15"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 19,
+          "verseEnd": 21,
+          "sourceGroup": "2 Cor. 5:14, 15, 19-21",
+          "label": "2 Corintios 5:19-21",
+          "id": "b47-5-19-5-21"
+        },
+        {
+          "bookId": 50,
+          "book": "Filipenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 6,
+          "verseEnd": 11,
+          "sourceGroup": "Fil. 2:6-11",
+          "label": "Filipenses 2:6-11",
+          "id": "b50-2-6-2-11"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "Col. 2:15",
+          "label": "Colosenses 2:15",
+          "id": "b51-2-15-2-15"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 21,
+          "verseEnd": 22,
+          "sourceGroup": "1 Ped. 2:21, 22",
+          "label": "1 Pedro 2:21-22",
+          "id": "b60-2-21-2-22"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "1 Juan 2:2",
+          "label": "1 Juan 2:2",
+          "id": "b62-2-2-2-2"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "sourceGroup": "4:10",
+          "label": "1 Juan 4:10",
+          "id": "b62-4-10-4-10"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/9-vida-muerte-y-resurreccion-de-cristo/",
+        "sourceReferenceText": "Gén. 3:15; Sal. 22:1; Isa. 53; Juan 3:16; 14:30; Rom. 1:4; 3:25; 4:25; 8:3, 4; 1 Cor. 15:3, 4, 20-22; 2 Cor. 5:14, 15, 19-21; Fil. 2:6-11; Col. 2:15; 1 Ped. 2:21, 22; 1 Juan 2:2; 4:10",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          195
+        ],
+        "manualEnglish2025PdfPages": [
+          176,
+          177
+        ],
+        "book2007": {
+          "pdfStartPage": 120,
+          "pdfEndPage": 132,
+          "printedStartPage": 118,
+          "printedEndPage": 130
+        }
+      },
+      "illustration": {
+        "key": "belief-09",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-10",
+      "number": 10,
+      "slug": "la-experiencia-de-la-salvacion",
+      "title": "La Experiencia de la Salvación",
+      "categoryId": "salvacion",
+      "paragraphs": [
+        "Con amor y misericordia infinitos, Dios hizo que Cristo, que no conoció pecado, fuera hecho pecado por nosotros, para que nosotros pudiésemos ser hechos justicia de Dios en él. Guiados por el Espíritu Santo, sentimos nuestra necesidad, reconocemos nuestra pecaminosidad, nos arrepentimos de nuestras transgresiones, y ejercemos fe en Jesús como Salvador y Señor, Sustituto y Ejemplo. Esta fe salvífica nos llega por medio del poder divino de la Palabra y es un don de la gracia de Dios. Mediante Cristo, somos justificados, adoptados como hijos e hijas de Dios y librados del dominio del pecado. Por medio del Espíritu nacemos de nuevo y somos santificados; el Espíritu renueva nuestras mentes, graba la ley de amor de Dios en nuestros corazones y nos da poder para vivir una vida santa. Al permanecer en él, somos participantes de la naturaleza divina, y tenemos la seguridad de la salvación ahora y en ocasión del Juicio."
+      ],
+      "referenceText": "Gén. 3:15; Isa. 45:22; 53; Jer. 31:31-34; Eze. 33:11; 36:25-27; Hab. 2:4; Mar. 9:23, 24; Juan 3:3-8, 16; 16:8; Rom. 3:21-26; 8:1-4, 14-17; 5:6-10; 10:17; 12:2; 2 Cor. 5:17-21; Gál. 1:4; 3:13, 14, 26; 4:4-7; Efe. 2:4-10; Col. 1:13, 14; Tito 3:3-7; Heb. 8:7-12; 1 Ped. 1:23; 2:21, 22; 2 Ped. 1:3, 4; Apoc. 13:8",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "Gén. 3:15",
+          "label": "Génesis 3:15",
+          "id": "b1-3-15-3-15"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 45,
+          "chapterEnd": 45,
+          "verseStart": 22,
+          "verseEnd": 22,
+          "sourceGroup": "Isa. 45:22",
+          "label": "Isaías 45:22",
+          "id": "b23-45-22-45-22"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 53,
+          "chapterEnd": 53,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "53",
+          "label": "Isaías 53",
+          "id": "b23-53-all-53-all"
+        },
+        {
+          "bookId": 24,
+          "book": "Jeremías",
+          "chapterStart": 31,
+          "chapterEnd": 31,
+          "verseStart": 31,
+          "verseEnd": 34,
+          "sourceGroup": "Jer. 31:31-34",
+          "label": "Jeremías 31:31-34",
+          "id": "b24-31-31-31-34"
+        },
+        {
+          "bookId": 26,
+          "book": "Ezequiel",
+          "chapterStart": 33,
+          "chapterEnd": 33,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "sourceGroup": "Eze. 33:11",
+          "label": "Ezequiel 33:11",
+          "id": "b26-33-11-33-11"
+        },
+        {
+          "bookId": 26,
+          "book": "Ezequiel",
+          "chapterStart": 36,
+          "chapterEnd": 36,
+          "verseStart": 25,
+          "verseEnd": 27,
+          "sourceGroup": "36:25-27",
+          "label": "Ezequiel 36:25-27",
+          "id": "b26-36-25-36-27"
+        },
+        {
+          "bookId": 35,
+          "book": "Habacuc",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "Hab. 2:4",
+          "label": "Habacuc 2:4",
+          "id": "b35-2-4-2-4"
+        },
+        {
+          "bookId": 41,
+          "book": "Marcos",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 23,
+          "verseEnd": 24,
+          "sourceGroup": "Mar. 9:23, 24",
+          "label": "Marcos 9:23-24",
+          "id": "b41-9-23-9-24"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 3,
+          "verseEnd": 8,
+          "sourceGroup": "Juan 3:3-8, 16",
+          "label": "Juan 3:3-8",
+          "id": "b43-3-3-3-8"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "sourceGroup": "Juan 3:3-8, 16",
+          "label": "Juan 3:16",
+          "id": "b43-3-16-3-16"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 16,
+          "chapterEnd": 16,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "16:8",
+          "label": "Juan 16:8",
+          "id": "b43-16-8-16-8"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 21,
+          "verseEnd": 26,
+          "sourceGroup": "Rom. 3:21-26",
+          "label": "Romanos 3:21-26",
+          "id": "b45-3-21-3-26"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "sourceGroup": "8:1-4, 14-17",
+          "label": "Romanos 8:1-4",
+          "id": "b45-8-1-8-4"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 14,
+          "verseEnd": 17,
+          "sourceGroup": "8:1-4, 14-17",
+          "label": "Romanos 8:14-17",
+          "id": "b45-8-14-8-17"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 6,
+          "verseEnd": 10,
+          "sourceGroup": "5:6-10",
+          "label": "Romanos 5:6-10",
+          "id": "b45-5-6-5-10"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "sourceGroup": "10:17",
+          "label": "Romanos 10:17",
+          "id": "b45-10-17-10-17"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "12:2",
+          "label": "Romanos 12:2",
+          "id": "b45-12-2-12-2"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 17,
+          "verseEnd": 21,
+          "sourceGroup": "2 Cor. 5:17-21",
+          "label": "2 Corintios 5:17-21",
+          "id": "b47-5-17-5-21"
+        },
+        {
+          "bookId": 48,
+          "book": "Gálatas",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "Gál. 1:4",
+          "label": "Gálatas 1:4",
+          "id": "b48-1-4-1-4"
+        },
+        {
+          "bookId": 48,
+          "book": "Gálatas",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 13,
+          "verseEnd": 14,
+          "sourceGroup": "3:13, 14, 26",
+          "label": "Gálatas 3:13-14",
+          "id": "b48-3-13-3-14"
+        },
+        {
+          "bookId": 48,
+          "book": "Gálatas",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 26,
+          "verseEnd": 26,
+          "sourceGroup": "3:13, 14, 26",
+          "label": "Gálatas 3:26",
+          "id": "b48-3-26-3-26"
+        },
+        {
+          "bookId": 48,
+          "book": "Gálatas",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 4,
+          "verseEnd": 7,
+          "sourceGroup": "4:4-7",
+          "label": "Gálatas 4:4-7",
+          "id": "b48-4-4-4-7"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 4,
+          "verseEnd": 10,
+          "sourceGroup": "Efe. 2:4-10",
+          "label": "Efesios 2:4-10",
+          "id": "b49-2-4-2-10"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 13,
+          "verseEnd": 14,
+          "sourceGroup": "Col. 1:13, 14",
+          "label": "Colosenses 1:13-14",
+          "id": "b51-1-13-1-14"
+        },
+        {
+          "bookId": 56,
+          "book": "Tito",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 3,
+          "verseEnd": 7,
+          "sourceGroup": "Tito 3:3-7",
+          "label": "Tito 3:3-7",
+          "id": "b56-3-3-3-7"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 7,
+          "verseEnd": 12,
+          "sourceGroup": "Heb. 8:7-12",
+          "label": "Hebreos 8:7-12",
+          "id": "b58-8-7-8-12"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "sourceGroup": "1 Ped. 1:23",
+          "label": "1 Pedro 1:23",
+          "id": "b60-1-23-1-23"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 21,
+          "verseEnd": 22,
+          "sourceGroup": "2:21, 22",
+          "label": "1 Pedro 2:21-22",
+          "id": "b60-2-21-2-22"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "sourceGroup": "2 Ped. 1:3, 4",
+          "label": "2 Pedro 1:3-4",
+          "id": "b61-1-3-1-4"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 13,
+          "chapterEnd": 13,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "Apoc. 13:8",
+          "label": "Apocalipsis 13:8",
+          "id": "b66-13-8-13-8"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/10-la-experiencia-de-la-salvacion/",
+        "sourceReferenceText": "Gén. 3:15; Isa. 45:22; 53; Jer. 31:31-34; Eze. 33:11; 36:25-27; Hab. 2:4; Mar. 9:23, 24; Juan 3:3-8, 16; 16:8; Rom. 3:21-26; 8:1-4, 14-17; 5:6-10; 10:17; 12:2; 2 Cor. 5:17-21; Gál. 1:4; 3:13, 14, 26; 4:4-7; Efe. 2:4-10; Col. 1:13, 14; Tito 3:3-7; Heb. 8:7-12; 1 Ped. 1:23; 2:21, 22; 2 Ped. 1:3, 4; Apoc. 13:8",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          195
+        ],
+        "manualEnglish2025PdfPages": [
+          177
+        ],
+        "book2007": {
+          "pdfStartPage": 133,
+          "pdfEndPage": 148,
+          "printedStartPage": 131,
+          "printedEndPage": 146
+        }
+      },
+      "illustration": {
+        "key": "belief-10",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-11",
+      "number": 11,
+      "slug": "el-crecimiento-en-cristo",
+      "title": "El crecimiento en Cristo",
+      "categoryId": "salvacion",
+      "paragraphs": [
+        "Por su muerte en la cruz, Jesús triunfó sobre las fuerzas del mal. Él, que durante su ministerio terrenal subyugó a los espíritus demoníacos, ha quebrantado su poder y asegurado su condenación final. La victoria de Jesús nos da la victoria sobre las fuerzas del mal que aún tratan de dominarnos, mientras caminamos con él en paz, gozo y en la seguridad de su amor. Ahora, el Espíritu Santo mora en nosotros y nos capacita con poder. Entregados continuamente a Jesús como nuestro Salvador y Señor, somos libres de la carga de nuestras acciones pasadas. Ya no vivimos en las tinieblas, ni en el temor de los poderes malignos, ni en la ignorancia y falta de sentido de nuestro antiguo estilo de vida. En esta nueva libertad en Jesús, somos llamados a crecer a la semejanza de su carácter, manteniendo diariamente comunión con él en oración, alimentándonos de su Palabra, meditando en ella y en su providencia, cantando sus alabanzas, reuniéndonos juntos para adorar y participando en la misión de la iglesia. También somos llamados a seguir el ejemplo de Cristo al ministrar compasivamente las necesidades físicas, mentales, sociales, emocionales y espirituales de la humanidad. Al darnos en amoroso servicio a aquellos que nos rodean y al dar testimonio de su salvación, Cristo, en virtud de su presencia constante con nosotros por medio del Espíritu, transforma cada uno de nuestros momentos y cada una de nuestras tareas en una experiencia espiritual."
+      ],
+      "referenceText": "1Crón. 29:11; Sal. 1:1, 2; 23:4; 77:11, 12; Mat. 20:25-28; 25:31-46; Luc. 10:17-20; Juan 20:21; Rom. 8:38, 39; 2 Cor. 3:17, 18; Gál. 5:22-25; Efe. 5:19, 20; 6:12-18; Fil. 3:7-14; Col. 1:13, 14; 2:6, 14, 15; 1 Tes. 5:16-18, 23; Heb. 10:25; Sant. 1:27; 2 Ped. 2:9; 3:18; 1 Juan 4:4",
+      "references": [
+        {
+          "bookId": 13,
+          "book": "1 Crónicas",
+          "chapterStart": 29,
+          "chapterEnd": 29,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "sourceGroup": "1Crón. 29:11",
+          "label": "1 Crónicas 29:11",
+          "id": "b13-29-11-29-11"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "sourceGroup": "Sal. 1:1, 2",
+          "label": "Salmos 1:1-2",
+          "id": "b19-1-1-1-2"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 23,
+          "chapterEnd": 23,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "23:4",
+          "label": "Salmos 23:4",
+          "id": "b19-23-4-23-4"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 77,
+          "chapterEnd": 77,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "sourceGroup": "77:11, 12",
+          "label": "Salmos 77:11-12",
+          "id": "b19-77-11-77-12"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 25,
+          "verseEnd": 28,
+          "sourceGroup": "Mat. 20:25-28",
+          "label": "Mateo 20:25-28",
+          "id": "b40-20-25-20-28"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 25,
+          "chapterEnd": 25,
+          "verseStart": 31,
+          "verseEnd": 46,
+          "sourceGroup": "25:31-46",
+          "label": "Mateo 25:31-46",
+          "id": "b40-25-31-25-46"
+        },
+        {
+          "bookId": 42,
+          "book": "Lucas",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 17,
+          "verseEnd": 20,
+          "sourceGroup": "Luc. 10:17-20",
+          "label": "Lucas 10:17-20",
+          "id": "b42-10-17-10-20"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 21,
+          "verseEnd": 21,
+          "sourceGroup": "Juan 20:21",
+          "label": "Juan 20:21",
+          "id": "b43-20-21-20-21"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 38,
+          "verseEnd": 39,
+          "sourceGroup": "Rom. 8:38, 39",
+          "label": "Romanos 8:38-39",
+          "id": "b45-8-38-8-39"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 17,
+          "verseEnd": 18,
+          "sourceGroup": "2 Cor. 3:17, 18",
+          "label": "2 Corintios 3:17-18",
+          "id": "b47-3-17-3-18"
+        },
+        {
+          "bookId": 48,
+          "book": "Gálatas",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 22,
+          "verseEnd": 25,
+          "sourceGroup": "Gál. 5:22-25",
+          "label": "Gálatas 5:22-25",
+          "id": "b48-5-22-5-25"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "sourceGroup": "Efe. 5:19, 20",
+          "label": "Efesios 5:19-20",
+          "id": "b49-5-19-5-20"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 12,
+          "verseEnd": 18,
+          "sourceGroup": "6:12-18",
+          "label": "Efesios 6:12-18",
+          "id": "b49-6-12-6-18"
+        },
+        {
+          "bookId": 50,
+          "book": "Filipenses",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 7,
+          "verseEnd": 14,
+          "sourceGroup": "Fil. 3:7-14",
+          "label": "Filipenses 3:7-14",
+          "id": "b50-3-7-3-14"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 13,
+          "verseEnd": 14,
+          "sourceGroup": "Col. 1:13, 14",
+          "label": "Colosenses 1:13-14",
+          "id": "b51-1-13-1-14"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "2:6, 14, 15",
+          "label": "Colosenses 2:6",
+          "id": "b51-2-6-2-6"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "sourceGroup": "2:6, 14, 15",
+          "label": "Colosenses 2:14-15",
+          "id": "b51-2-14-2-15"
+        },
+        {
+          "bookId": 52,
+          "book": "1 Tesalonicenses",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 16,
+          "verseEnd": 18,
+          "sourceGroup": "1 Tes. 5:16-18, 23",
+          "label": "1 Tesalonicenses 5:16-18",
+          "id": "b52-5-16-5-18"
+        },
+        {
+          "bookId": 52,
+          "book": "1 Tesalonicenses",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "sourceGroup": "1 Tes. 5:16-18, 23",
+          "label": "1 Tesalonicenses 5:23",
+          "id": "b52-5-23-5-23"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 25,
+          "verseEnd": 25,
+          "sourceGroup": "Heb. 10:25",
+          "label": "Hebreos 10:25",
+          "id": "b58-10-25-10-25"
+        },
+        {
+          "bookId": 59,
+          "book": "Santiago",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 27,
+          "verseEnd": 27,
+          "sourceGroup": "Sant. 1:27",
+          "label": "Santiago 1:27",
+          "id": "b59-1-27-1-27"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "sourceGroup": "2 Ped. 2:9",
+          "label": "2 Pedro 2:9",
+          "id": "b61-2-9-2-9"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "sourceGroup": "3:18",
+          "label": "2 Pedro 3:18",
+          "id": "b61-3-18-3-18"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "1 Juan 4:4",
+          "label": "1 Juan 4:4",
+          "id": "b62-4-4-4-4"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/11-el-crecimiento-en-cristo/",
+        "sourceReferenceText": "1Crón. 29:11; Sal. 1:1, 2; 23:4; 77:11, 12; Mat. 20:25-28; 25:31-46; Luc. 10:17-20; Juan 20:21; Rom. 8:38, 39; 2 Cor. 3:17, 18; Gál. 5:22-25; Efe. 5:19, 20; 6:12-18; Fil. 3:7-14; Col. 1:13, 14; 2:6, 14, 15; 1 Tes. 5:16-18, 23; Heb. 10:25; Sant. 1:27; 2 Ped. 2:9; 3:18; 1 Juan 4:4",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          195,
+          196
+        ],
+        "manualEnglish2025PdfPages": [
+          177,
+          178
+        ],
+        "book2007": {
+          "pdfStartPage": 149,
+          "pdfEndPage": 162,
+          "printedStartPage": 147,
+          "printedEndPage": 160
+        }
+      },
+      "illustration": {
+        "key": "belief-11",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-12",
+      "number": 12,
+      "slug": "la-iglesia",
+      "title": "La Iglesia",
+      "categoryId": "iglesia",
+      "paragraphs": [
+        "La iglesia es la comunidad de creyentes que confiesan que Jesucristo es Señor y Salvador. Nos reunimos para adorar, para estar en comunión, para recibir instrucción en la Palabra, para la celebración de la Cena del Señor, para servir a toda la humanidad y para proclamar el evangelio en todo el mundo. La iglesia es la familia de Dios. La iglesia es el cuerpo de Cristo."
+      ],
+      "referenceText": "Gén. 12:3; Hech. 7:38; Efe. 4:11-15; 3:8-11; Mat. 28:19, 20; 16:13-20; 18:18; Efe. 2:19-22; 1:22, 23; 5:23-27; Col. 1:17, 18",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "Gén. 12:3",
+          "label": "Génesis 12:3",
+          "id": "b1-12-3-12-3"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 7,
+          "chapterEnd": 7,
+          "verseStart": 38,
+          "verseEnd": 38,
+          "sourceGroup": "Hech. 7:38",
+          "label": "Hechos 7:38",
+          "id": "b44-7-38-7-38"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 11,
+          "verseEnd": 15,
+          "sourceGroup": "Efe. 4:11-15",
+          "label": "Efesios 4:11-15",
+          "id": "b49-4-11-4-15"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 8,
+          "verseEnd": 11,
+          "sourceGroup": "3:8-11",
+          "label": "Efesios 3:8-11",
+          "id": "b49-3-8-3-11"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 28,
+          "chapterEnd": 28,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "sourceGroup": "Mat. 28:19, 20",
+          "label": "Mateo 28:19-20",
+          "id": "b40-28-19-28-20"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 16,
+          "chapterEnd": 16,
+          "verseStart": 13,
+          "verseEnd": 20,
+          "sourceGroup": "16:13-20",
+          "label": "Mateo 16:13-20",
+          "id": "b40-16-13-16-20"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 18,
+          "chapterEnd": 18,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "sourceGroup": "18:18",
+          "label": "Mateo 18:18",
+          "id": "b40-18-18-18-18"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 19,
+          "verseEnd": 22,
+          "sourceGroup": "Efe. 2:19-22",
+          "label": "Efesios 2:19-22",
+          "id": "b49-2-19-2-22"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 22,
+          "verseEnd": 23,
+          "sourceGroup": "1:22, 23",
+          "label": "Efesios 1:22-23",
+          "id": "b49-1-22-1-23"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 23,
+          "verseEnd": 27,
+          "sourceGroup": "5:23-27",
+          "label": "Efesios 5:23-27",
+          "id": "b49-5-23-5-27"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 17,
+          "verseEnd": 18,
+          "sourceGroup": "Col. 1:17, 18",
+          "label": "Colosenses 1:17-18",
+          "id": "b51-1-17-1-18"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/12-la-iglesia/",
+        "sourceReferenceText": "Gén. 12:3; Hech. 7:38; Efe. 4:11-15; 3:8-11; Mat. 28:19, 20; 16:13-20; 18:18; Efe. 2:19-22; 1:22, 23; 5:23-27; Col. 1:17, 18",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          196
+        ],
+        "manualEnglish2025PdfPages": [
+          178
+        ],
+        "book2007": {
+          "pdfStartPage": 163,
+          "pdfEndPage": 181,
+          "printedStartPage": 161,
+          "printedEndPage": 179
+        }
+      },
+      "illustration": {
+        "key": "belief-12",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-13",
+      "number": 13,
+      "slug": "el-remanente-y-su-mision",
+      "title": "El Remanente y su Misión",
+      "categoryId": "iglesia",
+      "paragraphs": [
+        "La iglesia universal está compuesta por todos los que creen verdaderamente en Cristo; pero, en los últimos días, una época de apostasía generalizada, se llamó a un remanente para que guarde los mandamientos de Dios y la fe de Jesús. Este remanente anuncia la llegada de la hora del Juicio, proclama la salvación por medio de Cristo y pregona la proximidad de su segunda venida. Esta proclamación está simbolizada por los tres ángeles de Apocalipsis 14; coincide con la obra del Juicio en los cielos y, como resultado, se produce una obra de arrepentimiento y reforma en la Tierra. Se invita a todos los creyentes a participar personalmente en este testimonio mundial."
+      ],
+      "referenceText": "Dan. 7:9-14; Isa. 1:9; 11:11; Jer. 23:3; Miq. 2:12; 2 Cor. 5:10; 1 Ped. 1:16-19; 4:17; 2 Ped. 3:10-14; Jud. 3, 14; Apoc. 12:17; 14:6-12; 18:1-4",
+      "references": [
+        {
+          "bookId": 27,
+          "book": "Daniel",
+          "chapterStart": 7,
+          "chapterEnd": 7,
+          "verseStart": 9,
+          "verseEnd": 14,
+          "sourceGroup": "Dan. 7:9-14",
+          "label": "Daniel 7:9-14",
+          "id": "b27-7-9-7-14"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "sourceGroup": "Isa. 1:9",
+          "label": "Isaías 1:9",
+          "id": "b23-1-9-1-9"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "sourceGroup": "11:11",
+          "label": "Isaías 11:11",
+          "id": "b23-11-11-11-11"
+        },
+        {
+          "bookId": 24,
+          "book": "Jeremías",
+          "chapterStart": 23,
+          "chapterEnd": 23,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "Jer. 23:3",
+          "label": "Jeremías 23:3",
+          "id": "b24-23-3-23-3"
+        },
+        {
+          "bookId": 33,
+          "book": "Miqueas",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "Miq. 2:12",
+          "label": "Miqueas 2:12",
+          "id": "b33-2-12-2-12"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "sourceGroup": "2 Cor. 5:10",
+          "label": "2 Corintios 5:10",
+          "id": "b47-5-10-5-10"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 16,
+          "verseEnd": 19,
+          "sourceGroup": "1 Ped. 1:16-19",
+          "label": "1 Pedro 1:16-19",
+          "id": "b60-1-16-1-19"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "sourceGroup": "4:17",
+          "label": "1 Pedro 4:17",
+          "id": "b60-4-17-4-17"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 10,
+          "verseEnd": 14,
+          "sourceGroup": "2 Ped. 3:10-14",
+          "label": "2 Pedro 3:10-14",
+          "id": "b61-3-10-3-14"
+        },
+        {
+          "bookId": 65,
+          "book": "Judas",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "Jud. 3, 14",
+          "label": "Judas 1:3",
+          "id": "b65-1-3-1-3"
+        },
+        {
+          "bookId": 65,
+          "book": "Judas",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "sourceGroup": "Jud. 3, 14",
+          "label": "Judas 1:14",
+          "id": "b65-1-14-1-14"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "sourceGroup": "Apoc. 12:17",
+          "label": "Apocalipsis 12:17",
+          "id": "b66-12-17-12-17"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 6,
+          "verseEnd": 12,
+          "sourceGroup": "14:6-12",
+          "label": "Apocalipsis 14:6-12",
+          "id": "b66-14-6-14-12"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 18,
+          "chapterEnd": 18,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "sourceGroup": "18:1-4",
+          "label": "Apocalipsis 18:1-4",
+          "id": "b66-18-1-18-4"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/13-el-remanente-y-su-mision/",
+        "sourceReferenceText": "Dan. 7:9-14; Isa. 1:9; 11:11; Jer. 23:3; Miq. 2:12; 2 Cor. 5:10; 1 Ped. 1:16-19; 4:17; 2 Ped. 3:10-14; Jud. 3, 14; Apoc. 12:17; 14:6-12; 18:1-4",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          196,
+          197
+        ],
+        "manualEnglish2025PdfPages": [
+          178
+        ],
+        "book2007": {
+          "pdfStartPage": 182,
+          "pdfEndPage": 201,
+          "printedStartPage": 180,
+          "printedEndPage": 199
+        }
+      },
+      "illustration": {
+        "key": "belief-13",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-14",
+      "number": 14,
+      "slug": "la-unidad-en-el-cuerpo-de-cristo",
+      "title": "La Unidad en el Cuerpo de Cristo",
+      "categoryId": "iglesia",
+      "paragraphs": [
+        "La iglesia es un cuerpo constituido por muchos miembros, llamados de entre todas las naciones, razas, lenguas y pueblos. En Cristo, somos una nueva creación; las diferencias de raza, cultura, educación y nacionalidad, y las diferencias entre encumbrados y humildes, ricos y pobres, hombres y mujeres, no deben causar divisiones entre nosotros. Todos somos iguales en Cristo, quien por un mismo Espíritu nos unió en comunión con él y los unos con los otros; debemos servir y ser servidos sin parcialidad ni reservas. Por medio de la revelación de Jesucristo en las Escrituras, participamos de la misma fe y la misma esperanza, y damos a todos un mismo testimonio. Esta unidad tiene sus orígenes en la unicidad del Dios triuno, que nos adoptó como hijos suyos."
+      ],
+      "referenceText": "Sal. 133:1; Mat. 28:19, 20; Juan 17:20-23; Hech. 17:26, 27; Rom. 12:4, 5; 1 Cor. 12:12-14; 2 Cor. 5:16, 17; Gál. 3:27-29; Efe. 2:13-16; 4:3-6, 11-16; Col. 3:10-15",
+      "references": [
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 133,
+          "chapterEnd": 133,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "sourceGroup": "Sal. 133:1",
+          "label": "Salmos 133:1",
+          "id": "b19-133-1-133-1"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 28,
+          "chapterEnd": 28,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "sourceGroup": "Mat. 28:19, 20",
+          "label": "Mateo 28:19-20",
+          "id": "b40-28-19-28-20"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 17,
+          "chapterEnd": 17,
+          "verseStart": 20,
+          "verseEnd": 23,
+          "sourceGroup": "Juan 17:20-23",
+          "label": "Juan 17:20-23",
+          "id": "b43-17-20-17-23"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 17,
+          "chapterEnd": 17,
+          "verseStart": 26,
+          "verseEnd": 27,
+          "sourceGroup": "Hech. 17:26, 27",
+          "label": "Hechos 17:26-27",
+          "id": "b44-17-26-17-27"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 4,
+          "verseEnd": 5,
+          "sourceGroup": "Rom. 12:4, 5",
+          "label": "Romanos 12:4-5",
+          "id": "b45-12-4-12-5"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 12,
+          "verseEnd": 14,
+          "sourceGroup": "1 Cor. 12:12-14",
+          "label": "1 Corintios 12:12-14",
+          "id": "b46-12-12-12-14"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "sourceGroup": "2 Cor. 5:16, 17",
+          "label": "2 Corintios 5:16-17",
+          "id": "b47-5-16-5-17"
+        },
+        {
+          "bookId": 48,
+          "book": "Gálatas",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 27,
+          "verseEnd": 29,
+          "sourceGroup": "Gál. 3:27-29",
+          "label": "Gálatas 3:27-29",
+          "id": "b48-3-27-3-29"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 13,
+          "verseEnd": 16,
+          "sourceGroup": "Efe. 2:13-16",
+          "label": "Efesios 2:13-16",
+          "id": "b49-2-13-2-16"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 3,
+          "verseEnd": 6,
+          "sourceGroup": "4:3-6, 11-16",
+          "label": "Efesios 4:3-6",
+          "id": "b49-4-3-4-6"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 11,
+          "verseEnd": 16,
+          "sourceGroup": "4:3-6, 11-16",
+          "label": "Efesios 4:11-16",
+          "id": "b49-4-11-4-16"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 10,
+          "verseEnd": 15,
+          "sourceGroup": "Col. 3:10-15",
+          "label": "Colosenses 3:10-15",
+          "id": "b51-3-10-3-15"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/14-la-unidad-en-el-cuerpo-de-cristo/",
+        "sourceReferenceText": "Sal. 133:1; Mat. 28:19, 20; Juan 17:20-23; Hech. 17:26, 27; Rom. 12:4, 5; 1 Cor. 12:12-14; 2 Cor. 5:16, 17; Gál. 3:27-29; Efe. 2:13-16; 4:3-6, 11-16; Col. 3:10-15",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          197
+        ],
+        "manualEnglish2025PdfPages": [
+          179
+        ],
+        "book2007": {
+          "pdfStartPage": 202,
+          "pdfEndPage": 212,
+          "printedStartPage": 200,
+          "printedEndPage": 210
+        }
+      },
+      "illustration": {
+        "key": "belief-14",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-15",
+      "number": 15,
+      "slug": "el-bautismo",
+      "title": "El Bautismo",
+      "categoryId": "iglesia",
+      "paragraphs": [
+        "Por medio del bautismo, confesamos nuestra fe en la muerte y la resurrección de Jesucristo, y damos testimonio de nuestra muerte al pecado y de nuestro propósito de andar en novedad de vida. De este modo, reconocemos a Cristo como nuestro Señor y Salvador, llegamos a ser su pueblo y somos recibidos como miembros de su iglesia. El bautismo es un símbolo de nuestra unión con Cristo, del perdón de nuestros pecados y de nuestro recibimiento del Espíritu Santo. Se realiza por inmersión en agua, y depende de una afirmación de fe en Jesús y de la evidencia de arrepentimiento del pecado. Sigue a la instrucción en las Sagradas Escrituras y a la aceptación de sus enseñanzas."
+      ],
+      "referenceText": "Mat. 28:19, 20; Hech. 2:38; 16:30-33; 22:16; Rom. 6:1-6; Gál. 3:27; Col. 2:12, 13",
+      "references": [
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 28,
+          "chapterEnd": 28,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "sourceGroup": "Mat. 28:19, 20",
+          "label": "Mateo 28:19-20",
+          "id": "b40-28-19-28-20"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 38,
+          "verseEnd": 38,
+          "sourceGroup": "Hech. 2:38",
+          "label": "Hechos 2:38",
+          "id": "b44-2-38-2-38"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 16,
+          "chapterEnd": 16,
+          "verseStart": 30,
+          "verseEnd": 33,
+          "sourceGroup": "16:30-33",
+          "label": "Hechos 16:30-33",
+          "id": "b44-16-30-16-33"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 22,
+          "chapterEnd": 22,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "sourceGroup": "22:16",
+          "label": "Hechos 22:16",
+          "id": "b44-22-16-22-16"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "sourceGroup": "Rom. 6:1-6",
+          "label": "Romanos 6:1-6",
+          "id": "b45-6-1-6-6"
+        },
+        {
+          "bookId": 48,
+          "book": "Gálatas",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 27,
+          "verseEnd": 27,
+          "sourceGroup": "Gál. 3:27",
+          "label": "Gálatas 3:27",
+          "id": "b48-3-27-3-27"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 12,
+          "verseEnd": 13,
+          "sourceGroup": "Col. 2:12, 13",
+          "label": "Colosenses 2:12-13",
+          "id": "b51-2-12-2-13"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/15-el-bautismo/",
+        "sourceReferenceText": "Mat. 28:19, 20; Hech. 2:38; 16:30-33; 22:16; Rom. 6:1-6; Gál. 3:27; Col. 2:12, 13",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          197
+        ],
+        "manualEnglish2025PdfPages": [
+          179
+        ],
+        "book2007": {
+          "pdfStartPage": 213,
+          "pdfEndPage": 226,
+          "printedStartPage": 211,
+          "printedEndPage": 224
+        }
+      },
+      "illustration": {
+        "key": "belief-15",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-16",
+      "number": 16,
+      "slug": "la-cena-del-senor",
+      "title": "La Cena del Señor",
+      "categoryId": "iglesia",
+      "paragraphs": [
+        "La Cena del Señor es una participación en los emblemas del cuerpo y la sangre de Jesús como expresión de fe en él, nuestro Señor y Salvador. Cristo está presente en esta experiencia de comunión, para encontrarse con su pueblo y fortalecerlo. Al participar de la Cena, proclamamos gozosamente la muerte del Señor hasta que venga. La preparación para la Cena incluye un examen de conciencia, el arrepentimiento y la confesión. El Maestro ordenó el servicio del lavamiento de los pies para denotar una renovada purificación, para expresar la disposición a servirnos mutuamente en humildad cristiana y para unir nuestros corazones en amor. El servicio de Comunión está abierto a todos los creyentes cristianos."
+      ],
+      "referenceText": "Mat. 26:17-30; Juan 6:48-63; 13:1-17; 1 Cor. 10:16, 17; 11:23-30; Apoc. 3:20",
+      "references": [
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 26,
+          "chapterEnd": 26,
+          "verseStart": 17,
+          "verseEnd": 30,
+          "sourceGroup": "Mat. 26:17-30",
+          "label": "Mateo 26:17-30",
+          "id": "b40-26-17-26-30"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 48,
+          "verseEnd": 63,
+          "sourceGroup": "Juan 6:48-63",
+          "label": "Juan 6:48-63",
+          "id": "b43-6-48-6-63"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 13,
+          "chapterEnd": 13,
+          "verseStart": 1,
+          "verseEnd": 17,
+          "sourceGroup": "13:1-17",
+          "label": "Juan 13:1-17",
+          "id": "b43-13-1-13-17"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "sourceGroup": "1 Cor. 10:16, 17",
+          "label": "1 Corintios 10:16-17",
+          "id": "b46-10-16-10-17"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": 23,
+          "verseEnd": 30,
+          "sourceGroup": "11:23-30",
+          "label": "1 Corintios 11:23-30",
+          "id": "b46-11-23-11-30"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "sourceGroup": "Apoc. 3:20",
+          "label": "Apocalipsis 3:20",
+          "id": "b66-3-20-3-20"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/16-la-cena-del-senor/",
+        "sourceReferenceText": "Mat. 26:17-30; Juan 6:48-63; 13:1-17; 1 Cor. 10:16, 17; 11:23-30; Apoc. 3:20",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          197,
+          198
+        ],
+        "manualEnglish2025PdfPages": [
+          179
+        ],
+        "book2007": {
+          "pdfStartPage": 227,
+          "pdfEndPage": 238,
+          "printedStartPage": 225,
+          "printedEndPage": 236
+        }
+      },
+      "illustration": {
+        "key": "belief-16",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-17",
+      "number": 17,
+      "slug": "los-dones-y-los-ministerios-espirituales",
+      "title": "Los dones y los ministerios espirituales",
+      "categoryId": "vida-cristiana",
+      "paragraphs": [
+        "Dios concede a todos los miembros de su iglesia, en todas las épocas, dones espirituales para que cada miembro los emplee en amante ministerio por el bien común de la iglesia y de la humanidad. Concedidos mediante la operación del Espíritu Santo, quien los distribuye entre cada miembro según su voluntad, los dones proveen todos los ministerios y las habilidades que la iglesia necesita para cumplir sus funciones divinamente ordenadas. De acuerdo con las Escrituras, estos dones incluyen ministerios –tales como fe, sanidad, profecía, predicación, enseñanza, administración, reconciliación, compasión, servicio abnegado y caridad–, para ayudar y animar a nuestros semejantes. Algunos miembros son llamados por Dios y dotados por el Espíritu para ejercer funciones reconocidas por la iglesia en los ministerios pastorales, de evangelización y de enseñanza, particularmente necesarios con el fin de equipar a los miembros para el servicio, edificar a la iglesia con el objeto de que alcance la madurez espiritual, y promover la unidad de la fe y el conocimiento de Dios. Cuando los miembros emplean estos dones espirituales como fieles mayordomos de la multiforme gracia de Dios, la iglesia queda protegida de la influencia destructora de las falsas doctrinas, crece gracias a un desarrollo que procede de Dios, y se edifica en la fe y el amor."
+      ],
+      "referenceText": "Hech. 6:1-7; Rom. 12:4-8; 1 Cor. 12:7-11, 27, 28; Efe. 4:8, 11-16; 1 Tim. 3:1-13; 1 Ped. 4:10, 11",
+      "references": [
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "sourceGroup": "Hech. 6:1-7",
+          "label": "Hechos 6:1-7",
+          "id": "b44-6-1-6-7"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 4,
+          "verseEnd": 8,
+          "sourceGroup": "Rom. 12:4-8",
+          "label": "Romanos 12:4-8",
+          "id": "b45-12-4-12-8"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 7,
+          "verseEnd": 11,
+          "sourceGroup": "1 Cor. 12:7-11, 27, 28",
+          "label": "1 Corintios 12:7-11",
+          "id": "b46-12-7-12-11"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 27,
+          "verseEnd": 28,
+          "sourceGroup": "1 Cor. 12:7-11, 27, 28",
+          "label": "1 Corintios 12:27-28",
+          "id": "b46-12-27-12-28"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "Efe. 4:8, 11-16",
+          "label": "Efesios 4:8",
+          "id": "b49-4-8-4-8"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 11,
+          "verseEnd": 16,
+          "sourceGroup": "Efe. 4:8, 11-16",
+          "label": "Efesios 4:11-16",
+          "id": "b49-4-11-4-16"
+        },
+        {
+          "bookId": 54,
+          "book": "1 Timoteo",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "sourceGroup": "1 Tim. 3:1-13",
+          "label": "1 Timoteo 3:1-13",
+          "id": "b54-3-1-3-13"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 10,
+          "verseEnd": 11,
+          "sourceGroup": "1 Ped. 4:10, 11",
+          "label": "1 Pedro 4:10-11",
+          "id": "b60-4-10-4-11"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/17-los-dones-y-los-ministerios-espirituales/",
+        "sourceReferenceText": "Hech. 6:1-7; Rom. 12:4-8; 1 Cor. 12:7-11, 27, 28; Efe. 4:8, 11-16; 1 Tim. 3:1-13; 1 Ped. 4:10, 11",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          198
+        ],
+        "manualEnglish2025PdfPages": [
+          179,
+          180
+        ],
+        "book2007": {
+          "pdfStartPage": 239,
+          "pdfEndPage": 247,
+          "printedStartPage": 237,
+          "printedEndPage": 245
+        }
+      },
+      "illustration": {
+        "key": "belief-17",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-18",
+      "number": 18,
+      "slug": "el-don-de-profecia",
+      "title": "El Don de Profecía",
+      "categoryId": "vida-cristiana",
+      "paragraphs": [
+        "Las Escrituras dan testimonio de que uno de los dones del Espíritu Santo es el de profecía. Este don es una señal identificadora de la iglesia remanente y creemos que se manifestó en el ministerio de Elena de White. Sus escritos hablan con autoridad profética y proporcionan consuelo, dirección, instrucción y corrección a la iglesia. También establecen con claridad que la Biblia es la norma por la cual debe ser probada toda enseñanza y toda experiencia."
+      ],
+      "referenceText": "Núm. 12:6; 2 Crón. 20:20; Amós 3:7; Joel 2:28, 29; Hech. 2:14-21; 2 Tim. 3:16, 17; Heb. 1:1-3; Apoc. 12:17; 19:10; 22:8, 9",
+      "references": [
+        {
+          "bookId": 4,
+          "book": "Números",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "Núm. 12:6",
+          "label": "Números 12:6",
+          "id": "b4-12-6-12-6"
+        },
+        {
+          "bookId": 14,
+          "book": "2 Crónicas",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "sourceGroup": "2 Crón. 20:20",
+          "label": "2 Crónicas 20:20",
+          "id": "b14-20-20-20-20"
+        },
+        {
+          "bookId": 30,
+          "book": "Amós",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "sourceGroup": "Amós 3:7",
+          "label": "Amós 3:7",
+          "id": "b30-3-7-3-7"
+        },
+        {
+          "bookId": 29,
+          "book": "Joel",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 28,
+          "verseEnd": 29,
+          "sourceGroup": "Joel 2:28, 29",
+          "label": "Joel 2:28-29",
+          "id": "b29-2-28-2-29"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 14,
+          "verseEnd": 21,
+          "sourceGroup": "Hech. 2:14-21",
+          "label": "Hechos 2:14-21",
+          "id": "b44-2-14-2-21"
+        },
+        {
+          "bookId": 55,
+          "book": "2 Timoteo",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "sourceGroup": "2 Tim. 3:16, 17",
+          "label": "2 Timoteo 3:16-17",
+          "id": "b55-3-16-3-17"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "sourceGroup": "Heb. 1:1-3",
+          "label": "Hebreos 1:1-3",
+          "id": "b58-1-1-1-3"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "sourceGroup": "Apoc. 12:17",
+          "label": "Apocalipsis 12:17",
+          "id": "b66-12-17-12-17"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 19,
+          "chapterEnd": 19,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "sourceGroup": "19:10",
+          "label": "Apocalipsis 19:10",
+          "id": "b66-19-10-19-10"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 22,
+          "chapterEnd": 22,
+          "verseStart": 8,
+          "verseEnd": 9,
+          "sourceGroup": "22:8, 9",
+          "label": "Apocalipsis 22:8-9",
+          "id": "b66-22-8-22-9"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/18-el-don-de-profecia/",
+        "sourceReferenceText": "Núm. 12:6; 2 Crón. 20:20; Amós 3:7; Joel 2:28, 29; Hech. 2:14-21; 2 Tim. 3:16, 17; Heb. 1:1-3; Apoc. 12:17; 19:10; 22:8, 9",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          198,
+          199
+        ],
+        "manualEnglish2025PdfPages": [
+          180
+        ],
+        "book2007": {
+          "pdfStartPage": 248,
+          "pdfEndPage": 263,
+          "printedStartPage": 246,
+          "printedEndPage": 261
+        }
+      },
+      "illustration": {
+        "key": "belief-18",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-19",
+      "number": 19,
+      "slug": "la-ley-de-dios",
+      "title": "La Ley de Dios",
+      "categoryId": "vida-cristiana",
+      "paragraphs": [
+        "Los grandes principios de la Ley de Dios están incorporados en los Diez Mandamientos y ejemplificados en la vida de Cristo. Expresan el amor, la voluntad y el propósito de Dios con respecto a la conducta y a las relaciones humanas, y son obligatorios para todas las personas en todas las épocas. Estos preceptos constituyen la base del pacto de Dios con su pueblo y son la norma del Juicio divino. Por medio de la obra del Espíritu Santo, señalan el pecado y despiertan el sentido de la necesidad de un Salvador. La salvación es totalmente por la gracia y no por las obras, y su fruto es la obediencia a los mandamientos. Esta obediencia desarrolla el carácter cristiano y da como resultado una sensación de bienestar. Es evidencia de nuestro amor al Señor y de nuestra preocupación por nuestros semejantes. La obediencia por fe demuestra el poder de Cristo para transformar vidas y, por lo tanto, fortalece el testimonio cristiano."
+      ],
+      "referenceText": "Éxo. 20:1-17; Deut. 28:1-14; Sal. 19:7-14; 40:7, 8; Mat. 5:17-20; 22:36-40; Juan 14:15; 15:7-10; Rom. 8:3, 4; Efe. 2:8-10; Heb. 8:8-10; 1 Juan 2:3; 5:3; Apoc. 12:17; 14:12",
+      "references": [
+        {
+          "bookId": 2,
+          "book": "Éxodo",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 1,
+          "verseEnd": 17,
+          "sourceGroup": "Éxo. 20:1-17",
+          "label": "Éxodo 20:1-17",
+          "id": "b2-20-1-20-17"
+        },
+        {
+          "bookId": 5,
+          "book": "Deuteronomio",
+          "chapterStart": 28,
+          "chapterEnd": 28,
+          "verseStart": 1,
+          "verseEnd": 14,
+          "sourceGroup": "Deut. 28:1-14",
+          "label": "Deuteronomio 28:1-14",
+          "id": "b5-28-1-28-14"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 19,
+          "chapterEnd": 19,
+          "verseStart": 7,
+          "verseEnd": 14,
+          "sourceGroup": "Sal. 19:7-14",
+          "label": "Salmos 19:7-14",
+          "id": "b19-19-7-19-14"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 40,
+          "chapterEnd": 40,
+          "verseStart": 7,
+          "verseEnd": 8,
+          "sourceGroup": "40:7, 8",
+          "label": "Salmos 40:7-8",
+          "id": "b19-40-7-40-8"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 17,
+          "verseEnd": 20,
+          "sourceGroup": "Mat. 5:17-20",
+          "label": "Mateo 5:17-20",
+          "id": "b40-5-17-5-20"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 22,
+          "chapterEnd": 22,
+          "verseStart": 36,
+          "verseEnd": 40,
+          "sourceGroup": "22:36-40",
+          "label": "Mateo 22:36-40",
+          "id": "b40-22-36-22-40"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "Juan 14:15",
+          "label": "Juan 14:15",
+          "id": "b43-14-15-14-15"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 7,
+          "verseEnd": 10,
+          "sourceGroup": "15:7-10",
+          "label": "Juan 15:7-10",
+          "id": "b43-15-7-15-10"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "sourceGroup": "Rom. 8:3, 4",
+          "label": "Romanos 8:3-4",
+          "id": "b45-8-3-8-4"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 8,
+          "verseEnd": 10,
+          "sourceGroup": "Efe. 2:8-10",
+          "label": "Efesios 2:8-10",
+          "id": "b49-2-8-2-10"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 8,
+          "verseEnd": 10,
+          "sourceGroup": "Heb. 8:8-10",
+          "label": "Hebreos 8:8-10",
+          "id": "b58-8-8-8-10"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "1 Juan 2:3",
+          "label": "1 Juan 2:3",
+          "id": "b62-2-3-2-3"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "5:3",
+          "label": "1 Juan 5:3",
+          "id": "b62-5-3-5-3"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "sourceGroup": "Apoc. 12:17",
+          "label": "Apocalipsis 12:17",
+          "id": "b66-12-17-12-17"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "14:12",
+          "label": "Apocalipsis 14:12",
+          "id": "b66-14-12-14-12"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/19-la-ley-de-dios/",
+        "sourceReferenceText": "Éxo. 20:1-17; Deut. 28:1-14; Sal. 19:7-14; 40:7, 8; Mat. 5:17-20; 22:36-40; Juan 14:15; 15:7-10; Rom. 8:3, 4; Efe. 2:8-10; Heb. 8:8-10; 1 Juan 2:3; 5:3; Apoc. 12:17; 14:12",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          199
+        ],
+        "manualEnglish2025PdfPages": [
+          180,
+          181
+        ],
+        "book2007": {
+          "pdfStartPage": 264,
+          "pdfEndPage": 281,
+          "printedStartPage": 262,
+          "printedEndPage": 279
+        }
+      },
+      "illustration": {
+        "key": "belief-19",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-20",
+      "number": 20,
+      "slug": "el-sabado",
+      "title": "El Sábado",
+      "categoryId": "vida-cristiana",
+      "paragraphs": [
+        "El bondadoso Creador, después de los seis días de la creación, descansó el séptimo día, e instituyó el sábado para todos los hombres, como un monumento conmemorativo de la creación. El cuarto mandamiento de la inmutable Ley de Dios requiere la observancia del séptimo día, sábado, como día de reposo, adoración y ministerio, en armonía con las enseñanzas y la práctica de Jesús, el Señor del sábado. El sábado es un día de agradable comunión con Dios y con nuestros hermanos. Es un símbolo de nuestra redención en Cristo, una señal de nuestra santificación, una demostración de nuestra lealtad y una anticipación de nuestro futuro eterno en el Reino de Dios. El sábado es la señal perpetua del pacto eterno entre él y su pueblo. La gozosa observancia de este tiempo sagrado de una tarde a la otra tarde, de la puesta del sol a la puesta del sol, es una celebración de la obra creadora y redentora de Dios."
+      ],
+      "referenceText": "Gén. 2:1-3; Éxo. 20:8-11; 31:13-17; Lev. 23:32; Deut. 5:12-15; Isa. 56:5, 6; 58:13, 14; Eze. 20:12, 20; Mat. 12:1-12; Mar. 1:32; Luc. 4:16; Heb. 4:1-11",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "sourceGroup": "Gén. 2:1-3",
+          "label": "Génesis 2:1-3",
+          "id": "b1-2-1-2-3"
+        },
+        {
+          "bookId": 2,
+          "book": "Éxodo",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 8,
+          "verseEnd": 11,
+          "sourceGroup": "Éxo. 20:8-11",
+          "label": "Éxodo 20:8-11",
+          "id": "b2-20-8-20-11"
+        },
+        {
+          "bookId": 2,
+          "book": "Éxodo",
+          "chapterStart": 31,
+          "chapterEnd": 31,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "sourceGroup": "31:13-17",
+          "label": "Éxodo 31:13-17",
+          "id": "b2-31-13-31-17"
+        },
+        {
+          "bookId": 3,
+          "book": "Levítico",
+          "chapterStart": 23,
+          "chapterEnd": 23,
+          "verseStart": 32,
+          "verseEnd": 32,
+          "sourceGroup": "Lev. 23:32",
+          "label": "Levítico 23:32",
+          "id": "b3-23-32-23-32"
+        },
+        {
+          "bookId": 5,
+          "book": "Deuteronomio",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 12,
+          "verseEnd": 15,
+          "sourceGroup": "Deut. 5:12-15",
+          "label": "Deuteronomio 5:12-15",
+          "id": "b5-5-12-5-15"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 56,
+          "chapterEnd": 56,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "sourceGroup": "Isa. 56:5, 6",
+          "label": "Isaías 56:5-6",
+          "id": "b23-56-5-56-6"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 58,
+          "chapterEnd": 58,
+          "verseStart": 13,
+          "verseEnd": 14,
+          "sourceGroup": "58:13, 14",
+          "label": "Isaías 58:13-14",
+          "id": "b23-58-13-58-14"
+        },
+        {
+          "bookId": 26,
+          "book": "Ezequiel",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "Eze. 20:12, 20",
+          "label": "Ezequiel 20:12",
+          "id": "b26-20-12-20-12"
+        },
+        {
+          "bookId": 26,
+          "book": "Ezequiel",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "sourceGroup": "Eze. 20:12, 20",
+          "label": "Ezequiel 20:20",
+          "id": "b26-20-20-20-20"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "sourceGroup": "Mat. 12:1-12",
+          "label": "Mateo 12:1-12",
+          "id": "b40-12-1-12-12"
+        },
+        {
+          "bookId": 41,
+          "book": "Marcos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 32,
+          "verseEnd": 32,
+          "sourceGroup": "Mar. 1:32",
+          "label": "Marcos 1:32",
+          "id": "b41-1-32-1-32"
+        },
+        {
+          "bookId": 42,
+          "book": "Lucas",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "sourceGroup": "Luc. 4:16",
+          "label": "Lucas 4:16",
+          "id": "b42-4-16-4-16"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "sourceGroup": "Heb. 4:1-11",
+          "label": "Hebreos 4:1-11",
+          "id": "b58-4-1-4-11"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/20-el-sabado/",
+        "sourceReferenceText": "Gén. 2:1-3; Éxo. 20:8-11; 31:13-17; Lev. 23:32; Deut. 5:12-15; Isa. 56:5, 6; 58:13, 14; Eze. 20:12, 20; Mat. 12:1-12; Mar. 1:32; Luc. 4:16; Heb. 4:1-11",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          199
+        ],
+        "manualEnglish2025PdfPages": [
+          181
+        ],
+        "book2007": {
+          "pdfStartPage": 282,
+          "pdfEndPage": 302,
+          "printedStartPage": 280,
+          "printedEndPage": 300
+        }
+      },
+      "illustration": {
+        "key": "belief-20",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-21",
+      "number": 21,
+      "slug": "la-mayordomia",
+      "title": "La Mayordomía",
+      "categoryId": "vida-cristiana",
+      "paragraphs": [
+        "Somos mayordomos de Dios, a quienes se nos ha confiado tiempo y oportunidades, capacidades y posesiones, y las bendiciones de la tierra y sus recursos. Y somos responsables ante él por el empleo adecuado de todas esas dádivas. Reconocemos el derecho de propiedad por parte de Dios mediante nuestro servicio fiel a él y a nuestros semejantes, y mediante la devolución del diezmo y las ofrendas que damos para la proclamación de su evangelio, y para el sostén y el desarrollo de su iglesia. La mayordomía es un privilegio que Dios nos ha concedido para que crezcamos en amor, y para que logremos la victoria sobre el egoísmo y la codicia. Los mayordomos se regocijan por las bendiciones que reciben los demás como fruto de su fidelidad."
+      ],
+      "referenceText": "Gén. 1:26-28; 2:15; 1 Crón. 29:14; Hag. 1:3-11; Mal. 3:8-12; Mat. 23:23; Rom. 15:26, 27; 1 Cor. 9:9-14; 2Cor. 8:1-15; 9:7",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 26,
+          "verseEnd": 28,
+          "sourceGroup": "Gén. 1:26-28",
+          "label": "Génesis 1:26-28",
+          "id": "b1-1-26-1-28"
+        },
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "2:15",
+          "label": "Génesis 2:15",
+          "id": "b1-2-15-2-15"
+        },
+        {
+          "bookId": 13,
+          "book": "1 Crónicas",
+          "chapterStart": 29,
+          "chapterEnd": 29,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "sourceGroup": "1 Crón. 29:14",
+          "label": "1 Crónicas 29:14",
+          "id": "b13-29-14-29-14"
+        },
+        {
+          "bookId": 37,
+          "book": "Hageo",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 3,
+          "verseEnd": 11,
+          "sourceGroup": "Hag. 1:3-11",
+          "label": "Hageo 1:3-11",
+          "id": "b37-1-3-1-11"
+        },
+        {
+          "bookId": 39,
+          "book": "Malaquías",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 8,
+          "verseEnd": 12,
+          "sourceGroup": "Mal. 3:8-12",
+          "label": "Malaquías 3:8-12",
+          "id": "b39-3-8-3-12"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 23,
+          "chapterEnd": 23,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "sourceGroup": "Mat. 23:23",
+          "label": "Mateo 23:23",
+          "id": "b40-23-23-23-23"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 26,
+          "verseEnd": 27,
+          "sourceGroup": "Rom. 15:26, 27",
+          "label": "Romanos 15:26-27",
+          "id": "b45-15-26-15-27"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 9,
+          "verseEnd": 14,
+          "sourceGroup": "1 Cor. 9:9-14",
+          "label": "1 Corintios 9:9-14",
+          "id": "b46-9-9-9-14"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 1,
+          "verseEnd": 15,
+          "sourceGroup": "2Cor. 8:1-15",
+          "label": "2 Corintios 8:1-15",
+          "id": "b47-8-1-8-15"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "sourceGroup": "9:7",
+          "label": "2 Corintios 9:7",
+          "id": "b47-9-7-9-7"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/21-la-mayordomia/",
+        "sourceReferenceText": "Gén. 1:26-28; 2:15; 1 Crón. 29:14; Hag. 1:3-11; Mal. 3:8-12; Mat. 23:23; Rom. 15:26, 27; 1 Cor. 9:9-14; 2Cor. 8:1-15; 9:7",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          199,
+          200
+        ],
+        "manualEnglish2025PdfPages": [
+          181
+        ],
+        "book2007": {
+          "pdfStartPage": 303,
+          "pdfEndPage": 313,
+          "printedStartPage": 301,
+          "printedEndPage": 311
+        }
+      },
+      "illustration": {
+        "key": "belief-21",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-22",
+      "number": 22,
+      "slug": "la-conducta-cristiana",
+      "title": "La Conducta Cristiana",
+      "categoryId": "vida-cristiana",
+      "paragraphs": [
+        "Somos llamados a ser un pueblo piadoso, que piense, sienta y actúe en armonía con los principios bíblicos en todos los aspectos de la vida personal y social. Para que el Espíritu recree en nosotros el carácter de nuestro Señor, nos involucramos solo en aquellas cosas que producirán en nuestra vida pureza, salud y gozo cristiano. Esto significa que nuestras recreaciones y nuestros entretenimientos estarán en armonía con las más elevadas normas de gusto y belleza cristianos. Si bien reconocemos las diferencias culturales, nuestra vestimenta debe ser sencilla, modesta y de buen gusto, como corresponde a aquellos cuya verdadera belleza no consiste en el adorno exterior, sino en el inmarcesible ornamento de un espíritu apacible y tranquilo. Significa también que, siendo que nuestros cuerpos son el templo del Espíritu Santo, debemos cuidarlos inteligentemente. Junto con la práctica adecuada del ejercicio y el descanso, debemos adoptar un régimen alimentario lo más saludable posible, y abstenernos de los alimentos inmundos, identificados como tales en las Escrituras. Como las bebidas alcohólicas, el tabaco, y el uso irresponsable de drogas y narcóticos son dañinos para nuestros cuerpos, debemos también abstenernos de ellos. En cambio, debemos empeñarnos en todo lo que ponga nuestros pensamientos y nuestros cuerpos en armonía con la disciplina de Cristo, quien quiere que gocemos de salud, de alegría y de todo lo bueno."
+      ],
+      "referenceText": "Gén. 7:2; Éxo. 20:15; Lev. 11:1-47; Sal. 106:3; Rom. 12:1, 2; 1 Cor. 6:19, 20; 10:31; 2 Cor. 6:14-7:1; 10:5; Efe. 5:1-21; Fil. 2:4; 4:8; 1 Tim. 2:9, 10; Tito 2:11, 12; 1 Ped. 3:1-4; 1 Juan 2:6; 3Juan 2",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 7,
+          "chapterEnd": 7,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "Gén. 7:2",
+          "label": "Génesis 7:2",
+          "id": "b1-7-2-7-2"
+        },
+        {
+          "bookId": 2,
+          "book": "Éxodo",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "Éxo. 20:15",
+          "label": "Éxodo 20:15",
+          "id": "b2-20-15-20-15"
+        },
+        {
+          "bookId": 3,
+          "book": "Levítico",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": 1,
+          "verseEnd": 47,
+          "sourceGroup": "Lev. 11:1-47",
+          "label": "Levítico 11:1-47",
+          "id": "b3-11-1-11-47"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 106,
+          "chapterEnd": 106,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "Sal. 106:3",
+          "label": "Salmos 106:3",
+          "id": "b19-106-3-106-3"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "sourceGroup": "Rom. 12:1, 2",
+          "label": "Romanos 12:1-2",
+          "id": "b45-12-1-12-2"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "sourceGroup": "1 Cor. 6:19, 20",
+          "label": "1 Corintios 6:19-20",
+          "id": "b46-6-19-6-20"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 31,
+          "verseEnd": 31,
+          "sourceGroup": "10:31",
+          "label": "1 Corintios 10:31",
+          "id": "b46-10-31-10-31"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 6,
+          "chapterEnd": 7,
+          "verseStart": 14,
+          "verseEnd": 1,
+          "sourceGroup": "2 Cor. 6:14-7:1",
+          "label": "2 Corintios 6:14-7:1",
+          "id": "b47-6-14-7-1"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "sourceGroup": "10:5",
+          "label": "2 Corintios 10:5",
+          "id": "b47-10-5-10-5"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 1,
+          "verseEnd": 21,
+          "sourceGroup": "Efe. 5:1-21",
+          "label": "Efesios 5:1-21",
+          "id": "b49-5-1-5-21"
+        },
+        {
+          "bookId": 50,
+          "book": "Filipenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "Fil. 2:4",
+          "label": "Filipenses 2:4",
+          "id": "b50-2-4-2-4"
+        },
+        {
+          "bookId": 50,
+          "book": "Filipenses",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "4:8",
+          "label": "Filipenses 4:8",
+          "id": "b50-4-8-4-8"
+        },
+        {
+          "bookId": 54,
+          "book": "1 Timoteo",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 9,
+          "verseEnd": 10,
+          "sourceGroup": "1 Tim. 2:9, 10",
+          "label": "1 Timoteo 2:9-10",
+          "id": "b54-2-9-2-10"
+        },
+        {
+          "bookId": 56,
+          "book": "Tito",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "sourceGroup": "Tito 2:11, 12",
+          "label": "Tito 2:11-12",
+          "id": "b56-2-11-2-12"
+        },
+        {
+          "bookId": 60,
+          "book": "1 Pedro",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "sourceGroup": "1 Ped. 3:1-4",
+          "label": "1 Pedro 3:1-4",
+          "id": "b60-3-1-3-4"
+        },
+        {
+          "bookId": 62,
+          "book": "1 Juan",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "1 Juan 2:6",
+          "label": "1 Juan 2:6",
+          "id": "b62-2-6-2-6"
+        },
+        {
+          "bookId": 64,
+          "book": "3 Juan",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "3Juan 2",
+          "label": "3 Juan 1:2",
+          "id": "b64-1-2-1-2"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/22-la-conducta-cristiana/",
+        "sourceReferenceText": "Gén. 7:2; Éxo. 20:15; Lev. 11:1-47; Sal. 106:3; Rom. 12:1, 2; 1 Cor. 6:19, 20; 10:31; 2 Cor. 6:14-7:1; 10:5; Efe. 5:1-21; Fil. 2:4; 4:8; 1 Tim. 2:9, 10; Tito 2:11, 12; 1 Ped. 3:1-4; 1 Juan 2:6; 3Juan 2",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          200
+        ],
+        "manualEnglish2025PdfPages": [
+          181,
+          182
+        ],
+        "book2007": {
+          "pdfStartPage": 314,
+          "pdfEndPage": 331,
+          "printedStartPage": 312,
+          "printedEndPage": 329
+        }
+      },
+      "illustration": {
+        "key": "belief-22",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-23",
+      "number": 23,
+      "slug": "el-matrimonio-y-la-familia",
+      "title": "El Matrimonio y la Familia",
+      "categoryId": "vida-cristiana",
+      "paragraphs": [
+        "El matrimonio fue establecido por Dios en el Edén, y confirmado por Jesús para que fuera una unión para toda la vida entre un hombre y una mujer, en amante compañerismo. Para el cristiano, el matrimonio es un compromiso con Dios y con el cónyuge, y debería celebrarse solamente entre un hombre y una mujer que participan de la misma fe. El amor mutuo, el honor, el respeto y la responsabilidad constituyen la estructura de esa relación, que debe reflejar el amor, la santidad, la intimidad y la perdurabilidad de la relación que existe entre Cristo y su iglesia. Con respecto al divorcio, Jesús enseñó que la persona que se divorcia, a menos que sea por causa de relaciones sexuales ilícitas, y se casa con otra persona, comete adulterio. Aunque algunas relaciones familiares estén lejos de ser ideales, el hombre y la mujer que se dedican plenamente el uno al otro en matrimonio pueden, en Cristo, lograr una amorosa unidad gracias a la dirección del Espíritu y a la instrucción de la iglesia. Dios bendice a la familia y quiere que sus miembros se ayuden mutuamente hasta alcanzar la plena madurez. Una creciente intimidad familiar es uno de los rasgos característicos del último mensaje evangélico. Los padres deben criar a sus hijos para que amen y obedezcan al Señor. Deben enseñarles, mediante el precepto y el ejemplo, que Cristo es un guía amante, tierno y que se preocupa por sus criaturas, y que quiere que lleguen a ser miembros de su cuerpo, la familia de Dios, que engloba tanto a personas solteras como casadas."
+      ],
+      "referenceText": "Gén. 2:18-25; Éxo. 20:12; Deut. 6:5-9; Prov. 22:6; Mal. 4:5, 6; Mat. 5:31, 32; 19:3-9, 12; Mar. 10:11, 12; Juan 2:1-11; 1 Cor. 7:7, 10, 11; 2 Cor. 6:14; Efe. 5:21-33; 6:1-4",
+      "references": [
+        {
+          "bookId": 1,
+          "book": "Génesis",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 18,
+          "verseEnd": 25,
+          "sourceGroup": "Gén. 2:18-25",
+          "label": "Génesis 2:18-25",
+          "id": "b1-2-18-2-25"
+        },
+        {
+          "bookId": 2,
+          "book": "Éxodo",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "Éxo. 20:12",
+          "label": "Éxodo 20:12",
+          "id": "b2-20-12-20-12"
+        },
+        {
+          "bookId": 5,
+          "book": "Deuteronomio",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 5,
+          "verseEnd": 9,
+          "sourceGroup": "Deut. 6:5-9",
+          "label": "Deuteronomio 6:5-9",
+          "id": "b5-6-5-6-9"
+        },
+        {
+          "bookId": 20,
+          "book": "Proverbios",
+          "chapterStart": 22,
+          "chapterEnd": 22,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "Prov. 22:6",
+          "label": "Proverbios 22:6",
+          "id": "b20-22-6-22-6"
+        },
+        {
+          "bookId": 39,
+          "book": "Malaquías",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "sourceGroup": "Mal. 4:5, 6",
+          "label": "Malaquías 4:5-6",
+          "id": "b39-4-5-4-6"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 31,
+          "verseEnd": 32,
+          "sourceGroup": "Mat. 5:31, 32",
+          "label": "Mateo 5:31-32",
+          "id": "b40-5-31-5-32"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 19,
+          "chapterEnd": 19,
+          "verseStart": 3,
+          "verseEnd": 9,
+          "sourceGroup": "19:3-9, 12",
+          "label": "Mateo 19:3-9",
+          "id": "b40-19-3-19-9"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 19,
+          "chapterEnd": 19,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "19:3-9, 12",
+          "label": "Mateo 19:12",
+          "id": "b40-19-12-19-12"
+        },
+        {
+          "bookId": 41,
+          "book": "Marcos",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "sourceGroup": "Mar. 10:11, 12",
+          "label": "Marcos 10:11-12",
+          "id": "b41-10-11-10-12"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "sourceGroup": "Juan 2:1-11",
+          "label": "Juan 2:1-11",
+          "id": "b43-2-1-2-11"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 7,
+          "chapterEnd": 7,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "sourceGroup": "1 Cor. 7:7, 10, 11",
+          "label": "1 Corintios 7:7",
+          "id": "b46-7-7-7-7"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 7,
+          "chapterEnd": 7,
+          "verseStart": 10,
+          "verseEnd": 11,
+          "sourceGroup": "1 Cor. 7:7, 10, 11",
+          "label": "1 Corintios 7:10-11",
+          "id": "b46-7-10-7-11"
+        },
+        {
+          "bookId": 47,
+          "book": "2 Corintios",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "sourceGroup": "2 Cor. 6:14",
+          "label": "2 Corintios 6:14",
+          "id": "b47-6-14-6-14"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 21,
+          "verseEnd": 33,
+          "sourceGroup": "Efe. 5:21-33",
+          "label": "Efesios 5:21-33",
+          "id": "b49-5-21-5-33"
+        },
+        {
+          "bookId": 49,
+          "book": "Efesios",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "sourceGroup": "6:1-4",
+          "label": "Efesios 6:1-4",
+          "id": "b49-6-1-6-4"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/23-el-matrimonio-y-la-familia/",
+        "sourceReferenceText": "Gén. 2:18-25; Éxo. 20:12; Deut. 6:5-9; Prov. 22:6; Mal. 4:5, 6; Mat. 5:31, 32; 19:3-9, 12; Mar. 10:11, 12; Juan 2:1-11; 1 Cor. 7:7, 10, 11; 2 Cor. 6:14; Efe. 5:21-33; 6:1-4",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          200,
+          201
+        ],
+        "manualEnglish2025PdfPages": [
+          182
+        ],
+        "book2007": {
+          "pdfStartPage": 332,
+          "pdfEndPage": 349,
+          "printedStartPage": 330,
+          "printedEndPage": 347
+        }
+      },
+      "illustration": {
+        "key": "belief-23",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-24",
+      "number": 24,
+      "slug": "el-ministerio-de-cristo-en-el-santuario-celestial",
+      "title": "El Ministerio de Cristo en el Santuario Celestial",
+      "categoryId": "restauracion",
+      "paragraphs": [
+        "Hay un Santuario en el cielo, el verdadero Tabernáculo que el Señor erigió y no el ser humano. En él ministra Cristo en favor de nosotros, para poner a disposición de los creyentes los beneficios de su sacrificio expiatorio ofrecido una vez y para siempre en la cruz. Cristo, en su ascensión, llegó a ser nuestro gran Sumo Sacerdote y comenzó su ministerio intercesor, que fue tipificado por la obra del sumo sacerdote en el lugar santo del Santuario terrenal. En 1844, al concluir el período profético de los 2.300 días, inició la segunda y última fase. de su ministerio expiatorio, que fue tipificado por la obra del sumo sacerdote en el lugar santísimo del Santuario terrenal. Esta obra es un Juicio Investigador, que forma parte de la eliminación definitiva del pecado, prefigurada por la purificación del antiguo Santuario hebreo en el Día de la Expiación. En el servicio simbólico, el Santuario se purificaba mediante la sangre de los sacrificios de animales, pero las cosas celestiales se purifican mediante el perfecto sacrificio de la sangre de Jesús. El Juicio Investigador revela, a las inteligencias celestiales, quiénes de entre los muertos duermen en Cristo, siendo, por lo tanto, considerados dignos, en él, de participar en la primera resurrección. También pone de manifiesto quién, de entre los vivos, permanece en Cristo, guardando los mandamientos de Dios y la fe de Jesús, estando, por lo tanto, en él, preparado para ser trasladado a su Reino eterno. Este Juicio vindica la justicia de Dios al salvar a los que creen en Jesús. Declara que los que permanecieron leales a Dios recibirán el Reino. La conclusión de este ministerio de Cristo señalará el fin del tiempo de prueba otorgado a los seres humanos antes de su segunda venida."
+      ],
+      "referenceText": "Lev. 16; Núm. 14:34; Eze. 4:6; Dan. 7:9-27; 8:13, 14; 9:24-27; Heb. 1:3; 2:16, 17; 4:14-16; 8:1-5; 9:11-28; 10:19-22; Apoc. 8:3-5; 11:19; 14:6, 7, 12; 20:12; 22:11, 12",
+      "references": [
+        {
+          "bookId": 3,
+          "book": "Levítico",
+          "chapterStart": 16,
+          "chapterEnd": 16,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Lev. 16",
+          "label": "Levítico 16",
+          "id": "b3-16-all-16-all"
+        },
+        {
+          "bookId": 4,
+          "book": "Números",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 34,
+          "verseEnd": 34,
+          "sourceGroup": "Núm. 14:34",
+          "label": "Números 14:34",
+          "id": "b4-14-34-14-34"
+        },
+        {
+          "bookId": 26,
+          "book": "Ezequiel",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "sourceGroup": "Eze. 4:6",
+          "label": "Ezequiel 4:6",
+          "id": "b26-4-6-4-6"
+        },
+        {
+          "bookId": 27,
+          "book": "Daniel",
+          "chapterStart": 7,
+          "chapterEnd": 7,
+          "verseStart": 9,
+          "verseEnd": 27,
+          "sourceGroup": "Dan. 7:9-27",
+          "label": "Daniel 7:9-27",
+          "id": "b27-7-9-7-27"
+        },
+        {
+          "bookId": 27,
+          "book": "Daniel",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 13,
+          "verseEnd": 14,
+          "sourceGroup": "8:13, 14",
+          "label": "Daniel 8:13-14",
+          "id": "b27-8-13-8-14"
+        },
+        {
+          "bookId": 27,
+          "book": "Daniel",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 24,
+          "verseEnd": 27,
+          "sourceGroup": "9:24-27",
+          "label": "Daniel 9:24-27",
+          "id": "b27-9-24-9-27"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "sourceGroup": "Heb. 1:3",
+          "label": "Hebreos 1:3",
+          "id": "b58-1-3-1-3"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "sourceGroup": "2:16, 17",
+          "label": "Hebreos 2:16-17",
+          "id": "b58-2-16-2-17"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 14,
+          "verseEnd": 16,
+          "sourceGroup": "4:14-16",
+          "label": "Hebreos 4:14-16",
+          "id": "b58-4-14-4-16"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "sourceGroup": "8:1-5",
+          "label": "Hebreos 8:1-5",
+          "id": "b58-8-1-8-5"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 11,
+          "verseEnd": 28,
+          "sourceGroup": "9:11-28",
+          "label": "Hebreos 9:11-28",
+          "id": "b58-9-11-9-28"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 10,
+          "chapterEnd": 10,
+          "verseStart": 19,
+          "verseEnd": 22,
+          "sourceGroup": "10:19-22",
+          "label": "Hebreos 10:19-22",
+          "id": "b58-10-19-10-22"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 8,
+          "chapterEnd": 8,
+          "verseStart": 3,
+          "verseEnd": 5,
+          "sourceGroup": "Apoc. 8:3-5",
+          "label": "Apocalipsis 8:3-5",
+          "id": "b66-8-3-8-5"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": 19,
+          "verseEnd": 19,
+          "sourceGroup": "11:19",
+          "label": "Apocalipsis 11:19",
+          "id": "b66-11-19-11-19"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 6,
+          "verseEnd": 7,
+          "sourceGroup": "14:6, 7, 12",
+          "label": "Apocalipsis 14:6-7",
+          "id": "b66-14-6-14-7"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "14:6, 7, 12",
+          "label": "Apocalipsis 14:12",
+          "id": "b66-14-12-14-12"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "sourceGroup": "20:12",
+          "label": "Apocalipsis 20:12",
+          "id": "b66-20-12-20-12"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 22,
+          "chapterEnd": 22,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "sourceGroup": "22:11, 12",
+          "label": "Apocalipsis 22:11-12",
+          "id": "b66-22-11-22-12"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/24-el-ministerio-de-cristo-en-el-santuario-celestial/",
+        "sourceReferenceText": "Lev. 16; Núm. 14:34; Eze. 4:6; Dan. 7:9-27; 8:13, 14; 9:24-27; Heb. 1:3; 2:16, 17; 4:14-16; 8:1-5; 9:11-28; 10:19-22; Apoc. 8:3-5; 11:19; 14:6, 7, 12; 20:12; 22:11, 12",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          201,
+          202
+        ],
+        "manualEnglish2025PdfPages": [
+          182,
+          183
+        ],
+        "book2007": {
+          "pdfStartPage": 350,
+          "pdfEndPage": 373,
+          "printedStartPage": 348,
+          "printedEndPage": 371
+        }
+      },
+      "illustration": {
+        "key": "belief-24",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-25",
+      "number": 25,
+      "slug": "la-segunda-venida-de-cristo",
+      "title": "La Segunda Venida de Cristo",
+      "categoryId": "restauracion",
+      "paragraphs": [
+        "La segunda venida de Cristo es la bienaventurada esperanza de la iglesia, la gran culminación del evangelio. La venida del Salvador será literal, personal, visible y de alcance mundial. Cuando el Señor regrese, los justos muertos resucitarán y, junto con los justos que estén vivos, serán glorificados y llevados al cielo, pero los impíos morirán. El hecho de que la mayor parte de las profecías esté alcanzando su pleno cumplimiento, unido a las actuales condiciones del mundo, nos indica que la venida de Cristo está cerca. El momento cuando ocurrirá este acontecimiento no ha sido revelado y, por lo tanto, se nos exhorta a estar preparados en todo tiempo."
+      ],
+      "referenceText": "Mat. 24; Mar. 13; Luc. 21; Juan 14:1-3; Hech. 1:9-11; 1 Cor. 15:51-54; 1 Tes. 4:13-18; 5:1-6; 2 Tes. 1:7-10; 2:8; 2 Tim. 3:1-5; Tito 2:13; Heb. 9:28; Apoc. 1:7; 14:14-20; 19:11-21",
+      "references": [
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 24,
+          "chapterEnd": 24,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Mat. 24",
+          "label": "Mateo 24",
+          "id": "b40-24-all-24-all"
+        },
+        {
+          "bookId": 41,
+          "book": "Marcos",
+          "chapterStart": 13,
+          "chapterEnd": 13,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Mar. 13",
+          "label": "Marcos 13",
+          "id": "b41-13-all-13-all"
+        },
+        {
+          "bookId": 42,
+          "book": "Lucas",
+          "chapterStart": 21,
+          "chapterEnd": 21,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Luc. 21",
+          "label": "Lucas 21",
+          "id": "b42-21-all-21-all"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "sourceGroup": "Juan 14:1-3",
+          "label": "Juan 14:1-3",
+          "id": "b43-14-1-14-3"
+        },
+        {
+          "bookId": 44,
+          "book": "Hechos",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 9,
+          "verseEnd": 11,
+          "sourceGroup": "Hech. 1:9-11",
+          "label": "Hechos 1:9-11",
+          "id": "b44-1-9-1-11"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 51,
+          "verseEnd": 54,
+          "sourceGroup": "1 Cor. 15:51-54",
+          "label": "1 Corintios 15:51-54",
+          "id": "b46-15-51-15-54"
+        },
+        {
+          "bookId": 52,
+          "book": "1 Tesalonicenses",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 13,
+          "verseEnd": 18,
+          "sourceGroup": "1 Tes. 4:13-18",
+          "label": "1 Tesalonicenses 4:13-18",
+          "id": "b52-4-13-4-18"
+        },
+        {
+          "bookId": 52,
+          "book": "1 Tesalonicenses",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "sourceGroup": "5:1-6",
+          "label": "1 Tesalonicenses 5:1-6",
+          "id": "b52-5-1-5-6"
+        },
+        {
+          "bookId": 53,
+          "book": "2 Tesalonicenses",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 7,
+          "verseEnd": 10,
+          "sourceGroup": "2 Tes. 1:7-10",
+          "label": "2 Tesalonicenses 1:7-10",
+          "id": "b53-1-7-1-10"
+        },
+        {
+          "bookId": 53,
+          "book": "2 Tesalonicenses",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "2:8",
+          "label": "2 Tesalonicenses 2:8",
+          "id": "b53-2-8-2-8"
+        },
+        {
+          "bookId": 55,
+          "book": "2 Timoteo",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "sourceGroup": "2 Tim. 3:1-5",
+          "label": "2 Timoteo 3:1-5",
+          "id": "b55-3-1-3-5"
+        },
+        {
+          "bookId": 56,
+          "book": "Tito",
+          "chapterStart": 2,
+          "chapterEnd": 2,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "sourceGroup": "Tito 2:13",
+          "label": "Tito 2:13",
+          "id": "b56-2-13-2-13"
+        },
+        {
+          "bookId": 58,
+          "book": "Hebreos",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 28,
+          "verseEnd": 28,
+          "sourceGroup": "Heb. 9:28",
+          "label": "Hebreos 9:28",
+          "id": "b58-9-28-9-28"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 1,
+          "chapterEnd": 1,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "sourceGroup": "Apoc. 1:7",
+          "label": "Apocalipsis 1:7",
+          "id": "b66-1-7-1-7"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 14,
+          "chapterEnd": 14,
+          "verseStart": 14,
+          "verseEnd": 20,
+          "sourceGroup": "14:14-20",
+          "label": "Apocalipsis 14:14-20",
+          "id": "b66-14-14-14-20"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 19,
+          "chapterEnd": 19,
+          "verseStart": 11,
+          "verseEnd": 21,
+          "sourceGroup": "19:11-21",
+          "label": "Apocalipsis 19:11-21",
+          "id": "b66-19-11-19-21"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/25-la-segunda-venida-de-cristo/",
+        "sourceReferenceText": "Mat. 24; Mar. 13; Luc. 21; Juan 14:1-3; Hech. 1:9-11; 1 Cor. 15:51-54; 1 Tes. 4:13-18; 5:1-6; 2 Tes. 1:7-10; 2:8; 2 Tim. 3:1-5; Tito 2:13; Heb. 9:28; Apoc. 1:7; 14:14-20; 19:11-21",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          202
+        ],
+        "manualEnglish2025PdfPages": [
+          183
+        ],
+        "book2007": {
+          "pdfStartPage": 374,
+          "pdfEndPage": 390,
+          "printedStartPage": 372,
+          "printedEndPage": 388
+        }
+      },
+      "illustration": {
+        "key": "belief-25",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-26",
+      "number": 26,
+      "slug": "la-muerte-y-la-resurreccion",
+      "title": "La Muerte y la Resurrección",
+      "categoryId": "restauracion",
+      "paragraphs": [
+        "La paga del pecado es la muerte. Pero Dios, el único que es inmortal, otorgará vida eterna a sus redimidos. Hasta ese día, la muerte constituye un estado de inconsciencia para todos los que han fallecido. Cuando Cristo, que es nuestra vida, aparezca, los justos resucitados y los justos vivos serán glorificados, y todos juntos serán arrebatados para salir al encuentro de su Señor. La segunda resurrección, la resurrección de los impíos, ocurrirá mil años después."
+      ],
+      "referenceText": "Job 19:25-27; Sal. 146:3, 4; Ecl. 9:5, 6, 10; Dan. 12:2, 13; Isa. 25:8; Juan 5:28, 29; 11:11-14; Rom. 6:23; 1 Cor. 15:51-54; Col. 3:4; 1 Tes. 4:13-17; 1 Tim. 6:15, 16; Apoc. 20:1-10",
+      "references": [
+        {
+          "bookId": 18,
+          "book": "Job",
+          "chapterStart": 19,
+          "chapterEnd": 19,
+          "verseStart": 25,
+          "verseEnd": 27,
+          "sourceGroup": "Job 19:25-27",
+          "label": "Job 19:25-27",
+          "id": "b18-19-25-19-27"
+        },
+        {
+          "bookId": 19,
+          "book": "Salmos",
+          "chapterStart": 146,
+          "chapterEnd": 146,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "sourceGroup": "Sal. 146:3, 4",
+          "label": "Salmos 146:3-4",
+          "id": "b19-146-3-146-4"
+        },
+        {
+          "bookId": 21,
+          "book": "Eclesiastés",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "sourceGroup": "Ecl. 9:5, 6, 10",
+          "label": "Eclesiastés 9:5-6",
+          "id": "b21-9-5-9-6"
+        },
+        {
+          "bookId": 21,
+          "book": "Eclesiastés",
+          "chapterStart": 9,
+          "chapterEnd": 9,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "sourceGroup": "Ecl. 9:5, 6, 10",
+          "label": "Eclesiastés 9:10",
+          "id": "b21-9-10-9-10"
+        },
+        {
+          "bookId": 27,
+          "book": "Daniel",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "sourceGroup": "Dan. 12:2, 13",
+          "label": "Daniel 12:2",
+          "id": "b27-12-2-12-2"
+        },
+        {
+          "bookId": 27,
+          "book": "Daniel",
+          "chapterStart": 12,
+          "chapterEnd": 12,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "sourceGroup": "Dan. 12:2, 13",
+          "label": "Daniel 12:13",
+          "id": "b27-12-13-12-13"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 25,
+          "chapterEnd": 25,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "sourceGroup": "Isa. 25:8",
+          "label": "Isaías 25:8",
+          "id": "b23-25-8-25-8"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 28,
+          "verseEnd": 29,
+          "sourceGroup": "Juan 5:28, 29",
+          "label": "Juan 5:28-29",
+          "id": "b43-5-28-5-29"
+        },
+        {
+          "bookId": 43,
+          "book": "Juan",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": 11,
+          "verseEnd": 14,
+          "sourceGroup": "11:11-14",
+          "label": "Juan 11:11-14",
+          "id": "b43-11-11-11-14"
+        },
+        {
+          "bookId": 45,
+          "book": "Romanos",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "sourceGroup": "Rom. 6:23",
+          "label": "Romanos 6:23",
+          "id": "b45-6-23-6-23"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 15,
+          "chapterEnd": 15,
+          "verseStart": 51,
+          "verseEnd": 54,
+          "sourceGroup": "1 Cor. 15:51-54",
+          "label": "1 Corintios 15:51-54",
+          "id": "b46-15-51-15-54"
+        },
+        {
+          "bookId": 51,
+          "book": "Colosenses",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "sourceGroup": "Col. 3:4",
+          "label": "Colosenses 3:4",
+          "id": "b51-3-4-3-4"
+        },
+        {
+          "bookId": 52,
+          "book": "1 Tesalonicenses",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "sourceGroup": "1 Tes. 4:13-17",
+          "label": "1 Tesalonicenses 4:13-17",
+          "id": "b52-4-13-4-17"
+        },
+        {
+          "bookId": 54,
+          "book": "1 Timoteo",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 15,
+          "verseEnd": 16,
+          "sourceGroup": "1 Tim. 6:15, 16",
+          "label": "1 Timoteo 6:15-16",
+          "id": "b54-6-15-6-16"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": 1,
+          "verseEnd": 10,
+          "sourceGroup": "Apoc. 20:1-10",
+          "label": "Apocalipsis 20:1-10",
+          "id": "b66-20-1-20-10"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/26-la-muerte-y-la-resurreccion/",
+        "sourceReferenceText": "Job 19:25-27; Sal. 146:3, 4; Ecl. 9:5, 6, 10; Dan. 12:2, 13; Isa. 25:8; Juan 5:28, 29; 11:11-14; Rom. 6:23; 16; 1 Cor. 15:51-54; Col. 3:4; 1 Tes. 4:13-17; 1 Tim. 6:15; Apoc. 20:1-10",
+        "referenceCorrectionIds": [
+          "belief-26-reference-placement"
+        ],
+        "manualSpanish2022PdfPages": [
+          202
+        ],
+        "manualEnglish2025PdfPages": [
+          183,
+          184
+        ],
+        "book2007": {
+          "pdfStartPage": 391,
+          "pdfEndPage": 404,
+          "printedStartPage": 389,
+          "printedEndPage": 402
+        }
+      },
+      "illustration": {
+        "key": "belief-26",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-27",
+      "number": 27,
+      "slug": "el-milenio-y-el-fin-del-pecado",
+      "title": "El Milenio y el Fin del Pecado",
+      "categoryId": "restauracion",
+      "paragraphs": [
+        "El milenio es el reino de mil años de Cristo con sus santos en el cielo, que se extiende entre la primera y la segunda resurrección. Durante ese tiempo, serán juzgados los impíos; la Tierra estará completamente desolada, sin habitantes humanos con vida, pero sí ocupada por Satanás y sus ángeles. Al terminar ese período, Cristo y sus santos, y la Santa Ciudad, descenderán del cielo a la Tierra. Los impíos muertos resucitarán entonces y, junto con Satanás y sus ángeles, rodearán la ciudad; pero el fuego de Dios los consumirá y purificará la Tierra. De ese modo, el universo será librado del pecado y de los pecadores para siempre."
+      ],
+      "referenceText": "Jer. 4:23-26; Eze. 28:18, 19; Mal. 4:1; 1 Cor. 6:2, 3; Apoc. 20; 21:1-5",
+      "references": [
+        {
+          "bookId": 24,
+          "book": "Jeremías",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 23,
+          "verseEnd": 26,
+          "sourceGroup": "Jer. 4:23-26",
+          "label": "Jeremías 4:23-26",
+          "id": "b24-4-23-4-26"
+        },
+        {
+          "bookId": 26,
+          "book": "Ezequiel",
+          "chapterStart": 28,
+          "chapterEnd": 28,
+          "verseStart": 18,
+          "verseEnd": 19,
+          "sourceGroup": "Eze. 28:18, 19",
+          "label": "Ezequiel 28:18-19",
+          "id": "b26-28-18-28-19"
+        },
+        {
+          "bookId": 39,
+          "book": "Malaquías",
+          "chapterStart": 4,
+          "chapterEnd": 4,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "sourceGroup": "Mal. 4:1",
+          "label": "Malaquías 4:1",
+          "id": "b39-4-1-4-1"
+        },
+        {
+          "bookId": 46,
+          "book": "1 Corintios",
+          "chapterStart": 6,
+          "chapterEnd": 6,
+          "verseStart": 2,
+          "verseEnd": 3,
+          "sourceGroup": "1 Cor. 6:2, 3",
+          "label": "1 Corintios 6:2-3",
+          "id": "b46-6-2-6-3"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 20,
+          "chapterEnd": 20,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Apoc. 20",
+          "label": "Apocalipsis 20",
+          "id": "b66-20-all-20-all"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 21,
+          "chapterEnd": 21,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "sourceGroup": "21:1-5",
+          "label": "Apocalipsis 21:1-5",
+          "id": "b66-21-1-21-5"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/27-el-milenio-y-el-fin-del-pecado/",
+        "sourceReferenceText": "Jer. 4:23-26; Eze. 28:18, 19; Mal. 4:1; 1 Cor. 6:2, 3; Apoc. 20; 21:1-5",
+        "referenceCorrectionIds": [],
+        "manualSpanish2022PdfPages": [
+          202,
+          203
+        ],
+        "manualEnglish2025PdfPages": [
+          184
+        ],
+        "book2007": {
+          "pdfStartPage": 405,
+          "pdfEndPage": 416,
+          "printedStartPage": 403,
+          "printedEndPage": 414
+        }
+      },
+      "illustration": {
+        "key": "belief-27",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    },
+    {
+      "id": "belief-28",
+      "number": 28,
+      "slug": "la-tierra-nueva",
+      "title": "La Tierra Nueva",
+      "categoryId": "restauracion",
+      "paragraphs": [
+        "En la Tierra Nueva, en que habita la justicia, Dios proporcionará un hogar eterno para los redimidos, y un ambiente perfecto para la vida, el amor, el gozo y el aprendizaje eternos en su presencia. Porque allí Dios mismo morará con su pueblo, y el sufrimiento y la muerte terminarán para siempre. El gran conflicto habrá terminado y el pecado no existirá más. Todas las cosas, animadas e inanimadas, declararán que Dios es amor; y él reinará para siempre jamás. Amén."
+      ],
+      "referenceText": "Isa. 35; 65:17-25; Mat. 5:5; 2 Ped. 3:13; Apoc. 11:15; 21:1-7; 22:1-5",
+      "references": [
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 35,
+          "chapterEnd": 35,
+          "verseStart": null,
+          "verseEnd": null,
+          "sourceGroup": "Isa. 35",
+          "label": "Isaías 35",
+          "id": "b23-35-all-35-all"
+        },
+        {
+          "bookId": 23,
+          "book": "Isaías",
+          "chapterStart": 65,
+          "chapterEnd": 65,
+          "verseStart": 17,
+          "verseEnd": 25,
+          "sourceGroup": "65:17-25",
+          "label": "Isaías 65:17-25",
+          "id": "b23-65-17-65-25"
+        },
+        {
+          "bookId": 40,
+          "book": "Mateo",
+          "chapterStart": 5,
+          "chapterEnd": 5,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "sourceGroup": "Mat. 5:5",
+          "label": "Mateo 5:5",
+          "id": "b40-5-5-5-5"
+        },
+        {
+          "bookId": 61,
+          "book": "2 Pedro",
+          "chapterStart": 3,
+          "chapterEnd": 3,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "sourceGroup": "2 Ped. 3:13",
+          "label": "2 Pedro 3:13",
+          "id": "b61-3-13-3-13"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 11,
+          "chapterEnd": 11,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "sourceGroup": "Apoc. 11:15",
+          "label": "Apocalipsis 11:15",
+          "id": "b66-11-15-11-15"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 21,
+          "chapterEnd": 21,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "sourceGroup": "21:1-7",
+          "label": "Apocalipsis 21:1-7",
+          "id": "b66-21-1-21-7"
+        },
+        {
+          "bookId": 66,
+          "book": "Apocalipsis",
+          "chapterStart": 22,
+          "chapterEnd": 22,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "sourceGroup": "22:1-5",
+          "label": "Apocalipsis 22:1-5",
+          "id": "b66-22-1-22-5"
+        }
+      ],
+      "source": {
+        "bodySourceId": "dsa-current-web",
+        "bodyRetrievedDate": "2026-10-24",
+        "officialSpanishWebUrl": "https://institucional.adventistas.org/es/nuestras-crencias/28-la-tierra-nueva/",
+        "sourceReferenceText": "35; 65:17-25; Mat. 5:5; 2 Ped. 3:13; Apoc. 11:15; 21:1-7; 22:1-5",
+        "referenceCorrectionIds": [
+          "belief-28-missing-isaiah-prefix"
+        ],
+        "manualSpanish2022PdfPages": [
+          203
+        ],
+        "manualEnglish2025PdfPages": [
+          184
+        ],
+        "book2007": {
+          "pdfStartPage": 417,
+          "pdfEndPage": 427,
+          "printedStartPage": 415,
+          "printedEndPage": 425
+        }
+      },
+      "illustration": {
+        "key": "belief-28",
+        "status": "pending-original-art",
+        "src": null,
+        "alt": null
+      }
+    }
+  ]
+}

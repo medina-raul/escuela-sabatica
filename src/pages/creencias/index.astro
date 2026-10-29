@@ -1,0 +1,15 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import BeliefsPage from "@components/beliefs/BeliefsPage";
+---
+
+<BaseLayout
+  title="28 creencias fundamentales | Escuela Sabática"
+  activeSection="beliefs"
+  description="Explora las 28 creencias fundamentales de los adventistas del séptimo día, con declaraciones oficiales, exposición ampliada y referencias bíblicas."
+  url="/creencias"
+>
+  <div class="content-wrap">
+    <BeliefsPage client:load />
+  </div>
+</BaseLayout>

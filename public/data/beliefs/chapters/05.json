@@ -1,0 +1,2072 @@
+{
+  "beliefNumber": 5,
+  "bookChapterTitle": "Dios el Espíritu Santo",
+  "groupInBookIndex": "LA DOCTRINA DE DIOS",
+  "printedPages": [
+    67,
+    75
+  ],
+  "pdfPages": [
+    69,
+    77
+  ],
+  "transcriptionStatus": "automated-draft-needs-editorial-review",
+  "editorialNotes": [],
+  "referenceCorrections": [
+    {
+      "pdfPage": 72,
+      "original": "Juan 34:14, 15; ver 33:4",
+      "corrected": "Job 34:14, 15; ver 33:4",
+      "reason": "La cita sobre recoger el Espíritu y el aliento y volver al polvo corresponde a Job 34:14-15; Job 33:4 contiene la referencia complementaria al Espíritu creador. Juan solo tiene 21 capítulos."
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "text": "SI BIEN ES CIERTO QUE LA CRUCIFIXIÓN HABÍA confundido, angustiado y aterrado a los seguidores de Jesús, la resurrección, en cambio, llevó el amanecer a sus días. Cuando Cristo quebrantó las ataduras de la muerte, el reino de Dios amaneció en sus corazones. Ahora, sus almas ardían con un fuego que no se podía apagar. Desaparecieron las diferencias que tan solo pocas semanas antes habían levantado perversas barreras entre los discípulos. Confesaron sus faltas los unos a los otros y abrieron más completamente sus corazones para recibir a Jesús, su Rey que había ascendido. La unidad de este rebaño una vez esparcido, creció a medida que pasaban los días en oración. En un día inolvidable, se hallaban alabando a Dios cuando en medio de ellos se oyó un ruido como el rugido de un tornado. Como si el fuego que ardía en sus corazones se estuviese haciendo visible, lenguas de fuego descendieron sobre cada cabeza. Como un fuego consumidor, el Espíritu Santo descendió sobre ellos. Llenos del Espíritu, los discípulos no pudieron contener su nuevo amor y gozo ardiente en Jesús. En forma pública, y llenos de entusiasmo, comenzaron a proclamar las buenas nuevas de salvación. Atraída por el sonido, una multitud de ciudadanos locales mezclados con peregrinos de muchas naciones se reunió junto al edificio. Llenos de asombro y confusión, escucharon —en su propio lenguaje— poderosos testimonios relativos a las poderosas obras de Dios, expresados por galileos sin educación. “No comprendo —decían algunos—; ¿qué significa esto?” Otros procuraban quitarle importancia, diciendo: “Están ebrios”. \"¡No es así!”, exclamó Pedro, haciéndose oír por encima de las voces de la multitud. “Son solo las nueve de la mañana. Lo que ustedes han oído y visto está sucediendo porque el Cristo resucitado ha sido exaltado a la mano derecha de Dios y ahora nos ha concedido el Espíritu Santo” (ver Hech. 2).",
+      "pdfPage": 69,
+      "pdfPageEnd": 70,
+      "citations": [
+        {
+          "start": 1876,
+          "end": 1889,
+          "referenceIds": [
+            "b44-2-all-2-all"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "¿Quién es el Espíritu Santo?",
+      "pdfPage": 70
+    },
+    {
+      "kind": "paragraph",
+      "text": "La Biblia revela que el Espíritu Santo es una persona, no una fuerza impersonal. Declaraciones como ésta: “Ha parecido bien al Espíritu Santo, y a nosotros” (Hech. 15:28), revelan que los primeros creyentes lo consideraban una persona. Cristo también se refirió a él como a una persona distinta. “Él me glorificará —declaró el Salvador—; porque tomará de lo mío, y os lo hará saber” (Juan 16:14). Las Escrituras, al referirse al Dios triuno, describen al Espíritu como una persona (Mat. 28:19; 2 Cor. 13:14). El Espíritu Santo tiene personalidad. Contiende (Gén. 6:3), enseña (Luc. 12:12), convence (Juan 16:8), dirige los asuntos de la iglesia (Hech. 13:2), ayuda e intercede (Rom. 8:26), inspira (2 Ped. 1:21), y santifica (1 Ped. 1:2). Esas actividades no pueden ser realizadas por un mero poder, una influencia o un atributo de Dios. Solamente una persona puede llevarlas a cabo.",
+      "pdfPage": 70,
+      "citations": [
+        {
+          "start": 157,
+          "end": 170,
+          "referenceIds": [
+            "b44-15-28-15-28"
+          ]
+        },
+        {
+          "start": 383,
+          "end": 395,
+          "referenceIds": [
+            "b43-16-14-16-14"
+          ]
+        },
+        {
+          "start": 481,
+          "end": 507,
+          "referenceIds": [
+            "b40-28-19-28-19",
+            "b47-13-14-13-14"
+          ]
+        },
+        {
+          "start": 557,
+          "end": 567,
+          "referenceIds": [
+            "b1-6-3-6-3"
+          ]
+        },
+        {
+          "start": 576,
+          "end": 588,
+          "referenceIds": [
+            "b42-12-12-12-12"
+          ]
+        },
+        {
+          "start": 599,
+          "end": 610,
+          "referenceIds": [
+            "b43-16-8-16-8"
+          ]
+        },
+        {
+          "start": 645,
+          "end": 657,
+          "referenceIds": [
+            "b44-13-2-13-2"
+          ]
+        },
+        {
+          "start": 677,
+          "end": 688,
+          "referenceIds": [
+            "b45-8-26-8-26"
+          ]
+        },
+        {
+          "start": 698,
+          "end": 711,
+          "referenceIds": [
+            "b61-1-21-1-21"
+          ]
+        },
+        {
+          "start": 725,
+          "end": 737,
+          "referenceIds": [
+            "b60-1-2-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El Espíritu Santo es verdaderamente Dios",
+      "pdfPage": 70
+    },
+    {
+      "kind": "paragraph",
+      "text": "La Escritura presenta al Espíritu Santo como Dios. Pedro le dijo a Ananías que, al mentirle al Espíritu Santo, “no has mentido a los hombres, sino a Dios” (Hech. 5:3,4). Jesús definió el pecado imperdonable como “la blasfemia contra el Espíritu”, diciendo: “A cualquiera que dijere alguna palabra contra el Hijo del Hombre, le será perdonado; pero al que hable contra el Espíritu Santo no le será perdonado, ni en este siglo ni en el venidero” (Mat. 12:31, 32). Esto puede ser verdadero si el Espíritu Santo es Dios. La Escritura asocia los atributos divinos con el Espíritu Santo. El Espíritu es vida. Pablo se refirió a él llamándolo “Espíritu de vida” (Rom. 8:2). Es la verdad. Cristo lo llamó “el Espíritu de verdad” (Juan 16:13). Las expresiones “el amor del Espíritu” (Rom. 15:30) y “Espíritu Santo de Dios” (Efe. 4:30) revelan que el amor y la santidad son parte de su naturaleza.",
+      "pdfPage": 70,
+      "citations": [
+        {
+          "start": 155,
+          "end": 168,
+          "referenceIds": [
+            "b44-5-3-5-4"
+          ]
+        },
+        {
+          "start": 444,
+          "end": 460,
+          "referenceIds": [
+            "b40-12-31-12-32"
+          ]
+        },
+        {
+          "start": 655,
+          "end": 665,
+          "referenceIds": [
+            "b45-8-2-8-2"
+          ]
+        },
+        {
+          "start": 721,
+          "end": 733,
+          "referenceIds": [
+            "b43-16-13-16-13"
+          ]
+        },
+        {
+          "start": 774,
+          "end": 786,
+          "referenceIds": [
+            "b45-15-30-15-30"
+          ]
+        },
+        {
+          "start": 814,
+          "end": 825,
+          "referenceIds": [
+            "b49-4-30-4-30"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El Espíritu Santo es omnipotente. Distribuye dones espirituales “repartiendo a cada uno en particular como él quiere” (1 Cor. 12:11). Es omnipresente. Estará con su pueblo “para siempre” (Juan 14:16). Nadie puede escapar de su influencia (Sal. 139:7-10). También es omnisapiente, porque “el Espíritu todo lo escudriña, aun lo profundo de Dios” y “nadie conoció las cosas de Dios, sino el Espíritu de Dios” (1 Cor. 2:10,11). Las obras de Dios también están asociadas con el Espíritu Santo. Tanto la creación como la resurrección requirieron su actividad. Eliú declaró: “El espíritu de Dios me hizo, y el soplo del Omnipotente me dio vida” (Job 33:4). Y el salmista afirmó: “Envías tu Espíritu, son creados, y renuevas la faz de la tierra” (Sal. 104:30). Pablo proclamó: “El que levantó de los muertos a Cristo Jesús vivificará también vuestros cuerpos mortales por su Espíritu que mora en vosotros” (Rom. 8:11). Únicamente un Dios personal y omnipresente —no una influencia impersonal ni un ser creado— podría realizar el milagro de traer al Cristo divino a un individuo, por ejemplo María. En el Pentecostés, el Espíritu hizo que Jesús, el único Dios-hombre, estuviese universalmente presente en la vida de todos los que estuvieran dispuestos a recibirlo. En la fórmula bautismal, se considera que el Espíritu Santo es igual al Padre y al Hijo (Mat. 28:19); también en la bendición apostólica (2 Cor. 13:14), y en la enumeración de los dones espirituales (1 Cor. 12:4-6).",
+      "pdfPage": 71,
+      "citations": [
+        {
+          "start": 118,
+          "end": 132,
+          "referenceIds": [
+            "b46-12-11-12-11"
+          ]
+        },
+        {
+          "start": 187,
+          "end": 199,
+          "referenceIds": [
+            "b43-14-16-14-16"
+          ]
+        },
+        {
+          "start": 238,
+          "end": 253,
+          "referenceIds": [
+            "b19-139-7-139-10"
+          ]
+        },
+        {
+          "start": 406,
+          "end": 422,
+          "referenceIds": [
+            "b46-2-10-2-11"
+          ]
+        },
+        {
+          "start": 638,
+          "end": 648,
+          "referenceIds": [
+            "b18-33-4-33-4"
+          ]
+        },
+        {
+          "start": 738,
+          "end": 751,
+          "referenceIds": [
+            "b19-104-30-104-30"
+          ]
+        },
+        {
+          "start": 898,
+          "end": 909,
+          "referenceIds": [
+            "b45-8-11-8-11"
+          ]
+        },
+        {
+          "start": 1344,
+          "end": 1356,
+          "referenceIds": [
+            "b40-28-19-28-19"
+          ]
+        },
+        {
+          "start": 1393,
+          "end": 1407,
+          "referenceIds": [
+            "b47-13-14-13-14"
+          ]
+        },
+        {
+          "start": 1455,
+          "end": 1470,
+          "referenceIds": [
+            "b46-12-4-12-6"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El Espíritu Santo y la Deidad",
+      "pdfPage": 71
+    },
+    {
+      "kind": "paragraph",
+      "text": "Desde la eternidad, Dios el Espíritu Santo vivía en la Deidad como su tercer miembro. El Padre, el Hijo y el Espíritu son igualmente eternos. Aun cuando los tres están en posición de absoluta igualdad, dentro de la Trinidad opera una economía de función (ver el capítulo 2). La mejor forma de comprender la verdad acerca de Dios el Espíritu Santo, es verla a través de Jesús. Cuando el Espíritu desciende sobre los creyentes, viene como el “Espíritu de Cristo”; no viene por su propia cuenta, trayendo sus propias credenciales. Su actividad en la historia está centrada en la misión salvadora de Cristo. El Espíritu Santo estuvo activamente involucrado en el nacimiento de Cristo (Luc. 1:35), confirmó su ministerio público en ocasión de su bautismo (Mat. 3:16,17) y puso los beneficios del sacrificio expiatorio de Cristo y su resurrección, al alcance de la humanidad (Rom. 8:11). En la Deidad, el Espíritu parece ocupar el papel de ejecutor. Cuando el Padre dio a su Hijo al mundo (Juan 3:16), Jesús fue concebido del Espíritu Santo (Mat. 1:18-20). El Espíritu Santo vino para completar el plan, para hacerlo una realidad.",
+      "pdfPage": 71,
+      "citations": [
+        {
+          "start": 680,
+          "end": 691,
+          "referenceIds": [
+            "b42-1-35-1-35"
+          ]
+        },
+        {
+          "start": 750,
+          "end": 764,
+          "referenceIds": [
+            "b40-3-16-3-17"
+          ]
+        },
+        {
+          "start": 869,
+          "end": 880,
+          "referenceIds": [
+            "b45-8-11-8-11"
+          ]
+        },
+        {
+          "start": 983,
+          "end": 994,
+          "referenceIds": [
+            "b43-3-16-3-16"
+          ]
+        },
+        {
+          "start": 1035,
+          "end": 1049,
+          "referenceIds": [
+            "b40-1-18-1-20"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La íntima participación del Espíritu Santo en la obra de la creación se pone en evidencia al notar cómo estuvo presente durante el proceso (Gén. 1:2). El origen y el mantenimiento de la vida dependen de su operación; su partida significa muerte. Dice la Escritura que si Dios “pusiese sobre el hombre su corazón, y recogiese así su Espíritu y su aliento, toda carne perecería juntamente, y el hombre volvería al polvo” (Job 34:14, 15; ver 33:4). Podemos vislumbrar reflejos de la obra creativa del Espíritu en la obra de regeneración que realiza en todo individuo que abre su vida a Dios. Dios realiza su obra en los individuos por medio del Espíritu creador. De este modo, tanto en la encarnación como en la creación y la renovación, el Espíritu viene para cumplir las intenciones de Dios.",
+      "pdfPage": 72,
+      "citations": [
+        {
+          "start": 139,
+          "end": 149,
+          "referenceIds": [
+            "b1-1-2-1-2"
+          ]
+        },
+        {
+          "start": 419,
+          "end": 444,
+          "referenceIds": [
+            "b18-34-14-34-15",
+            "b18-33-4-33-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El Espíritu prometido",
+      "pdfPage": 72
+    },
+    {
+      "kind": "paragraph",
+      "text": "Hemos sido destinados para ser morada del Espíritu Santo (ver 1 Cor. 3:16). El pecado de Adán y Eva los separó tanto del Jardín del Edén como del Espíritu que moraba en ellos. Esa separación continúa; la enormidad de la maldad manifestada antes del Diluvio llevó a Dios al punto de declarar: “No contenderá mi espíritu con el hombre para siempre” (Gén. 6:3). En los tiempos del Antiguo Testamento, el Espíritu equipó a ciertos individuos para que realizaran tareas especiales (Núm. 24:2; Jue. 6:34; 1 Sam. 10:6). En ciertas ocasiones se lo presenta “en” ciertas personas (Éxo. 31:3; Isa. 63:11). Sin duda, los creyentes genuinos siempre han tenido un sentido de su presencia, pero la profecía predijo un derramamiento del Espíritu “sobre toda carne” (Joel 2:28), es decir, una época en la cual una manifestación mayor del Espíritu inauguraría una nueva era. Mientras el mundo permanecía en las manos del usurpador, el derramamiento de la plenitud del Espíritu debió esperar. Antes que el Espíritu pudiera ser derramado sobre toda carne, Cristo tendría que llevar a cabo su ministerio terrenal y ofrecer el sacrificio de la expiación. Refiriéndose al ministerio de Cristo como un ministerio del Espíritu, Juan el Bautista dijo: “Yo a la verdad os bautizo en agua”, pero “el que viene tras mí... os bautizará en Espíritu Santo y fuego” (Mat. 3:11). Pero los Evangelios no muestran que Jesús haya bautizado con el Espíritu Santo. Cuando faltaban solo unas horas para su muerte, Jesús prometió a sus discípulos: “Yo rogaré al Padre, y os dará otro Consolador, para que esté con vosotros para siempre: el Espíritu de verdad” (Juan 14:16,17). ¿Fue recibido en la cruz el bautismo prometido del Espíritu? Ninguna paloma apareció en ese viernes de la crucifixión; tan solo oscuridad y relámpagos. No fue sino hasta después de su resurrección que Jesús sopló el Espíritu sobre sus discípulos (Juan 20:22). El Salvador declaró: “He aquí, yo enviaré la promesa de mi Padre sobre vosotros; pero quedad vosotros en la ciudad de Jerusalén, hasta que seáis investidos de poder desde lo alto” (Luc. 24:49). Este poder se recibiría “cuando haya venido sobre vosotros el Espíritu Santo”, transformando a los creyentes en sus testigos hasta lo último de la tierra” (Hech. 1:8). Juan escribió: “Aún no había venido el Espíritu Santo, porque Jesús no había sido aún glorificado” (Juan 7:39). La aceptación del sacrificio de Cristo por parte del Padre era el requisito básico para el derramamiento del Espíritu Santo. La nueva era amaneció recién cuando nuestro Señor victorioso fue sentado en el trono del cielo. Solo entonces podría enviar el Espíritu Santo en su plenitud. Pedro dice que después de haber sido “exaltado por la diestra de Dios... ha derramado esto que vosotros véis y oís” (Hech. 2:33) sobre sus discípulos, los cuales anticipando ansiosos este acontecimiento, se habían reunido “unánimes en oración y ruego” (Hech. 1:5,14). En el Pentecostés, cincuenta días después del Calvario, la nueva era irrumpió en escena con todo el poder de la presencia del Espíritu. “Y de repente vino del cielo un estruendo como de un viento recio que soplaba, el cual llenó toda la casa donde estaban sentados [los discípulos];... y fueron todos llenos del Espíritu Santo” (Hech. 2:2-4). Ambas misiones, la de Jesús y la del Espíritu Santo, eran totalmente interdependientes. La plenitud del Espíritu Santo no podría ser concedida hasta que Jesús hubiese completado su misión. Y Jesús, por su parte, fue concebido del Espíritu (Mat. 1:8-21), bautizado con el Espíritu (Mar. 1:9, 10), guiado por el Espíritu (Luc. 4:1), realizando sus milagros por medio del Espíritu (Mat. 12:24- 32), ofreciéndose a sí mismo en el Calvario por medio del Espíritu (Heb. 9:14,15), y en un sentido, siendo también resucitado por el Espíritu (Rom. 8:11). Jesús fue la primera persona que experimentó la plenitud del Espíritu Santo. Es una verdad asombrosa que nuestro Dios está dispuesto a derramar su Espíritu sobre todos los que lo desean anhelantes.",
+      "pdfPage": 72,
+      "pdfPageEnd": 73,
+      "citations": [
+        {
+          "start": 57,
+          "end": 74,
+          "referenceIds": [
+            "b46-3-16-3-16"
+          ]
+        },
+        {
+          "start": 347,
+          "end": 357,
+          "referenceIds": [
+            "b1-6-3-6-3"
+          ]
+        },
+        {
+          "start": 476,
+          "end": 511,
+          "referenceIds": [
+            "b4-24-2-24-2",
+            "b7-6-34-6-34",
+            "b9-10-6-10-6"
+          ]
+        },
+        {
+          "start": 571,
+          "end": 594,
+          "referenceIds": [
+            "b2-31-3-31-3",
+            "b23-63-11-63-11"
+          ]
+        },
+        {
+          "start": 750,
+          "end": 761,
+          "referenceIds": [
+            "b29-2-28-2-28"
+          ]
+        },
+        {
+          "start": 1334,
+          "end": 1345,
+          "referenceIds": [
+            "b40-3-11-3-11"
+          ]
+        },
+        {
+          "start": 1620,
+          "end": 1635,
+          "referenceIds": [
+            "b43-14-16-14-17"
+          ]
+        },
+        {
+          "start": 1883,
+          "end": 1895,
+          "referenceIds": [
+            "b43-20-22-20-22"
+          ]
+        },
+        {
+          "start": 2077,
+          "end": 2089,
+          "referenceIds": [
+            "b42-24-49-24-49"
+          ]
+        },
+        {
+          "start": 2246,
+          "end": 2257,
+          "referenceIds": [
+            "b44-1-8-1-8"
+          ]
+        },
+        {
+          "start": 2358,
+          "end": 2369,
+          "referenceIds": [
+            "b43-7-39-7-39"
+          ]
+        },
+        {
+          "start": 2770,
+          "end": 2782,
+          "referenceIds": [
+            "b44-2-33-2-33"
+          ]
+        },
+        {
+          "start": 2906,
+          "end": 2920,
+          "referenceIds": [
+            "b44-1-5-1-5",
+            "b44-1-14-1-14"
+          ]
+        },
+        {
+          "start": 3250,
+          "end": 3263,
+          "referenceIds": [
+            "b44-2-2-2-4"
+          ]
+        },
+        {
+          "start": 3504,
+          "end": 3517,
+          "referenceIds": [
+            "b40-1-8-1-21"
+          ]
+        },
+        {
+          "start": 3545,
+          "end": 3559,
+          "referenceIds": [
+            "b41-1-9-1-10"
+          ]
+        },
+        {
+          "start": 3584,
+          "end": 3594,
+          "referenceIds": [
+            "b42-4-1-4-1"
+          ]
+        },
+        {
+          "start": 3643,
+          "end": 3659,
+          "referenceIds": [
+            "b40-12-24-12-32"
+          ]
+        },
+        {
+          "start": 3723,
+          "end": 3737,
+          "referenceIds": [
+            "b58-9-14-9-15"
+          ]
+        },
+        {
+          "start": 3798,
+          "end": 3809,
+          "referenceIds": [
+            "b45-8-11-8-11"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La misión del Espíritu Santo",
+      "pdfPage": 73
+    },
+    {
+      "kind": "paragraph",
+      "text": "La noche antes de la muerte de Cristo, las palabras que pronunció acerca de su inminente partida turbaron en gran manera a sus discípulos. Inmediatamente les aseguró que recibirían el Espíritu Santo como su representante personal. No serían dejados huérfanos (Juan 14:18).",
+      "pdfPage": 73,
+      "citations": [
+        {
+          "start": 259,
+          "end": 271,
+          "referenceIds": [
+            "b43-14-18-14-18"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El origen de la misión. El Nuevo Testamento revela al Espíritu Santo de una manera especialísima. Lo llama “el Espíritu de su Hijo” (Gál. 4:6), “el Espíritu de Dios” (Rom. 8:9), el “Espíritu de Cristo” (Rom. 8:9; 1 Ped. 1:11), y “Espíritu de Jesucristo” (Fil. 1:19). ¿Quién originó la misión del Espíritu Santo, Jesucristo o Dios el Padre?",
+      "pdfPage": 73,
+      "citations": [
+        {
+          "start": 132,
+          "end": 142,
+          "referenceIds": [
+            "b48-4-6-4-6"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 176,
+          "referenceIds": [
+            "b45-8-9-8-9"
+          ]
+        },
+        {
+          "start": 202,
+          "end": 225,
+          "referenceIds": [
+            "b45-8-9-8-9",
+            "b60-1-11-1-11"
+          ]
+        },
+        {
+          "start": 254,
+          "end": 265,
+          "referenceIds": [
+            "b50-1-19-1-19"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Cuando Cristo reveló el origen de la misión del Espíritu Santo a un mundo perdido, mencionó dos fuentes. Primero, se refirió al Padre: “Y yo rogaré al Padre, y os dará otro Consolador” (Juan 14:16, ver también 15:26, “del Padre”). Identificó el bautismo del Espíritu Santo llamándolo “la promesa del Padre” (Hech. 1:4). En segundo lugar, Cristo se refirió a sí mismo: “Si no me fuere, el Consolador no vendría a vosotros; mas si me fuere, os lo enviaré” (Juan 16:7). De este modo, el Espíritu Santo procede tanto del Padre como del Hijo.",
+      "pdfPage": 74,
+      "citations": [
+        {
+          "start": 185,
+          "end": 229,
+          "referenceIds": [
+            "b43-14-16-14-16",
+            "b43-15-26-15-26"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 318,
+          "referenceIds": [
+            "b44-1-4-1-4"
+          ]
+        },
+        {
+          "start": 454,
+          "end": 465,
+          "referenceIds": [
+            "b43-16-7-16-7"
+          ]
+        }
+      ],
+      "citationIssues": [
+        {
+          "start": 185,
+          "end": 229,
+          "text": "(Juan 14:16, ver también 15:26, “del Padre”)",
+          "fragments": [
+            {
+              "sourceGroup": "Juan 14:16, ver también 15:26, “del Padre”",
+              "fragment": "“del Padre”",
+              "reason": "Fragmento de prosa o cita no reconocida"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Su misión en el mundo. Podemos reconocer el señorío de Cristo únicamente por medio de la influencia del Espíritu Santo. Dice Pablo: \"Nadie puede llamar a Jesús Señor, sino por el Espíritu Santo” (1 Cor. 12:3). Se nos da la seguridad de que, por medio del Espíritu Santo, Cristo “aquella luz verdadera”, “alumbra a todo hombre” (Juan 1:9). Su misión consiste en convencer “al mundo de pecado, de justicia y de juicio” (Juan 16:8). En primer lugar, el Espíritu Santo nos lleva a una profunda convicción de pecado, especialmente el pecado de no aceptar a Cristo (Juan 16:9). Segundo, el Espíritu insta a todos a que acepten la justicia de Cristo. Tercero, el Espíritu nos amonesta acerca del juicio, una poderosa herramienta, útil para despertar las mentes oscurecidas por el pecado a la necesidad de arrepentirse y convertirse. Una vez que nos hemos arrepentido, podemos nacer de nuevo por medio del bautismo del agua y del Espíritu Santo (Juan 3:5). Entonces nuestra vida se renueva, por cuanto hemos llegado a ser la morada del Espíritu de Cristo.",
+      "pdfPage": 74,
+      "citations": [
+        {
+          "start": 195,
+          "end": 208,
+          "referenceIds": [
+            "b46-12-3-12-3"
+          ]
+        },
+        {
+          "start": 327,
+          "end": 337,
+          "referenceIds": [
+            "b43-1-9-1-9"
+          ]
+        },
+        {
+          "start": 417,
+          "end": 428,
+          "referenceIds": [
+            "b43-16-8-16-8"
+          ]
+        },
+        {
+          "start": 559,
+          "end": 570,
+          "referenceIds": [
+            "b43-16-9-16-9"
+          ]
+        },
+        {
+          "start": 937,
+          "end": 947,
+          "referenceIds": [
+            "b43-3-5-3-5"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Su misión en favor de los creyentes. La mayoría de los textos relativos al Espíritu Santo se refieren a su relación con el pueblo de Dios. Su influencia santificadora lleva a la obediencia (1 Ped. 1:2), pero nadie continúa experimentando su presencia sin cumplir ciertas condiciones. Pedro dijo que Dios ha concedido el Espíritu a los que obedecen continuamente (Hech. 5:32).‘ De este modo, se amonesta a los creyentes a no resistir, entristecer y apagar el Espíritu (Hech. 7:51; Efe. 4:30; 1 Tes 5:19). ¿Qué hace el Espíritu en favor de los creyentes?",
+      "pdfPage": 74,
+      "citations": [
+        {
+          "start": 189,
+          "end": 201,
+          "referenceIds": [
+            "b60-1-2-1-2"
+          ]
+        },
+        {
+          "start": 362,
+          "end": 374,
+          "referenceIds": [
+            "b44-5-32-5-32"
+          ]
+        },
+        {
+          "start": 467,
+          "end": 502,
+          "referenceIds": [
+            "b44-7-51-7-51",
+            "b49-4-30-4-30",
+            "b52-5-19-5-19"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. Ayuda a los creyentes. Al presentar el Espíritu Santo, Cristo lo llamó “otro Consolador [paráklétos]” (Juan 14:16). Esta palabra griega ha sido traducida de diversas formas, por ejemplo: “ayudador”, “consolador”, \"consejero”, y también puede significar “intercesor”, “mediador”, o “abogado”. Aparte del Espíritu Santo, el único paráklétos que menciona la Escritura es Cristo mismo. Él es nuestro Abogado o Intercesor ante el Padre. “Hijitos míos, estas cosas os escribo para que no pequéis; y si alguno hubiese pecado, abogado tenemos para con el Padre, a Jesucristo el justo” (1 Juan 2:1). Como Intercesor, Mediador y Ayudador, Cristo nos presenta ante Dios y revela a Dios ante nosotros. En forma similar, el Espíritu nos guía a Cristo y manifiesta la gracia de Cristo ante nosotros. Esto explica por qué se llama al Espíritu “Espíritu de gracia” (Heb.l0:29). Una de sus mayores contribuciones es la aplicación de la gracia redentora de Cristo a los seres humanos (ver 1 Cor. 15:10; 2 Cor. 9:14; Juan 4:5, 6).",
+      "pdfPage": 74,
+      "pdfPageEnd": 75,
+      "citations": [
+        {
+          "start": 105,
+          "end": 117,
+          "referenceIds": [
+            "b43-14-16-14-16"
+          ]
+        },
+        {
+          "start": 580,
+          "end": 592,
+          "referenceIds": [
+            "b62-2-1-2-1"
+          ]
+        },
+        {
+          "start": 969,
+          "end": 1013,
+          "referenceIds": [
+            "b46-15-10-15-10",
+            "b47-9-14-9-14",
+            "b43-4-5-4-6"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. Nos trae la verdad de Cristo. Cristo se refirió al Espíritu Santo llamándolo “el Espíritu de verdad” (Juan 14:17; 15:26; 16:13). Sus funciones incluyen hacernos recordar “todo lo que yo os he dicho” (Juan 14:26) y guiarnos “a toda la verdad\" (Juan 16:13). Su mensaje testifica de Jesucristo (Juan 15:26). “No hablará por su propia cuenta —declaró Jesús—, sino que hablará todo lo que viere, y os hará saber las cosas que habrán de venir. Él me glorificará; porque tomará de lo mío, y os lo hará saber” (Juan 16:13,14).",
+      "pdfPage": 75,
+      "citations": [
+        {
+          "start": 104,
+          "end": 130,
+          "referenceIds": [
+            "b43-14-17-14-17",
+            "b43-15-26-15-26",
+            "b43-16-13-16-13"
+          ]
+        },
+        {
+          "start": 202,
+          "end": 214,
+          "referenceIds": [
+            "b43-14-26-14-26"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 257,
+          "referenceIds": [
+            "b43-16-13-16-13"
+          ]
+        },
+        {
+          "start": 294,
+          "end": 306,
+          "referenceIds": [
+            "b43-15-26-15-26"
+          ]
+        },
+        {
+          "start": 505,
+          "end": 520,
+          "referenceIds": [
+            "b43-16-13-16-14"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. Trae la presencia de Cristo. No solo trae el mensaje acerca de Cristo, sino que nos hace llegar a la presencia misma de Cristo. Jesús dijo: “Os conviene que yo me vaya; porque si no me fuere, el Consolador no vendría a vosotros; mas si me fuere os lo enviaré” (Juan 16:7). Estorbado por su humanidad, el Hombre Jesucristo no era omnipresente, y por esta razón convenía que se fuera. Por medio del Espíritu podría estar en todo lugar, constantemente. Jesús dijo: “Yo rogaré al Padre, y os dará otro Consolador, para que esté con vosotros para siempre: el Espíritu de verdad”. Dio la seguridad de que el Espíritu “mora con vosotros y estará en vosotros. No os dejaré huérfanos; vendré a vosotros” (Juan 14:17,18). “El Espíritu Santo es el representante de Cristo, pero está despojado de la personalidad de la humanidad, y es independiente de ella”.2 En la encarnación, el Espíritu Santo trajo la presencia de Cristo a una persona: María. En el Pentecostés, el Espíritu trajo el Cristo victorioso al mundo. Las promesas de Cristo: “No te desampararé, ni te dejaré” (Heb. 13:5) y “he aquí yo estoy con vosotros todos los días, hasta el fin del mundo” (Mat. 28:20), se cumplen por medio del Espíritu. Por esta razón el Nuevo Testamento le adjudica al Espíritu un título que en el Antiguo Testamento nunca aparece: “Espíritu de Jesucristo” (Fil. 1:19). De la misma manera como por el Espíritu tanto el Padre como el Hijo hacen su hogar en el corazón de los creyentes (Juan 14:23), así también, la única forma en que los creyentes pueden permanecer en Cristo es por medio del Espíritu Santo.",
+      "pdfPage": 75,
+      "citations": [
+        {
+          "start": 263,
+          "end": 274,
+          "referenceIds": [
+            "b43-16-7-16-7"
+          ]
+        },
+        {
+          "start": 698,
+          "end": 713,
+          "referenceIds": [
+            "b43-14-17-14-18"
+          ]
+        },
+        {
+          "start": 1065,
+          "end": 1076,
+          "referenceIds": [
+            "b58-13-5-13-5"
+          ]
+        },
+        {
+          "start": 1150,
+          "end": 1162,
+          "referenceIds": [
+            "b40-28-20-28-20"
+          ]
+        },
+        {
+          "start": 1337,
+          "end": 1348,
+          "referenceIds": [
+            "b50-1-19-1-19"
+          ]
+        },
+        {
+          "start": 1464,
+          "end": 1476,
+          "referenceIds": [
+            "b43-14-23-14-23"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "4. Guía la obra de la iglesia. Por cuanto el Espíritu Santo provee la presencia misma de Cristo, es el verdadero Vicario de Cristo en el mundo. En su calidad de centro permanente de autoridad en todo lo que se refiere a la fe y a la doctrina, los caminos por los cuales guía a la iglesia están enteramente de acuerdo con la Biblia. “La nota distintiva del protestantismo, sin la cual este tampoco existiría, es el hecho de que el Espíritu Santo es el verdadero Vicario y Sucesor de Cristo aquí en la tierra. La dependencia de organizaciones y dirigentes, o de sabiduría terrenal, significa poner lo humano en lugar de lo divino”.3 El Espíritu Santo estaba íntimamente involucrado en la administración de la iglesia apostólica. Al seleccionar misioneros, la iglesia obtenía su conducción por medio de la oración y el ayuno (Hech. 13:1-4). Los individuos seleccionados eran conocidos por su disposición a ser guiados por el Espíritu. El libro de los Hechos los describe diciendo que “estaban llenos... del Espíritu Santo” (Hech. 13:52; ver también vers. 9). Sus actividades estaban bajo el control del Espíritu (Hech. 16:6, 7). Pablo recordó a los ancianos de la iglesia que habían sido colocados en su posición por el Espíritu Santo (Hech. 20:28). El Espíritu Santo jugó un papel importante en la resolución de serias dificultades que amenazaban la unidad de la iglesia. De hecho, la Escritura introduce las decisiones del primer concilio de la iglesia con las palabras: “Ha parecido bien al Espíritu Santo, y a nosotros...” (Hech. 15:28).",
+      "pdfPage": 76,
+      "citations": [
+        {
+          "start": 822,
+          "end": 836,
+          "referenceIds": [
+            "b44-13-1-13-4"
+          ]
+        },
+        {
+          "start": 1020,
+          "end": 1054,
+          "referenceIds": [
+            "b44-13-52-13-52",
+            "b44-13-9-13-9"
+          ]
+        },
+        {
+          "start": 1109,
+          "end": 1124,
+          "referenceIds": [
+            "b44-16-6-16-7"
+          ]
+        },
+        {
+          "start": 1232,
+          "end": 1245,
+          "referenceIds": [
+            "b44-20-28-20-28"
+          ]
+        },
+        {
+          "start": 1524,
+          "end": 1537,
+          "referenceIds": [
+            "b44-15-28-15-28"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "5. Equipa a la iglesia con dones especiales. El Espíritu Santo ha concedido dones especiales al pueblo de Dios. En los tiempos del Antiguo Testamento, “el Espíritu de Jehová” descansó “sobre” ciertos individuos, concediéndoles poderes extraordinarios para conducir y librar a Israel (Jue. 3:10; 6:34; 11:29; etc.), así como la capacidad de profetizar (Núm. 11:17, 25, 26; 2 Sam. 23:2). El Espíritu vino sobre Saúl y David cuando fueron ungidos como gobernantes del pueblo de Dios (1 Sam. 10:6, 10; 16:13). En el caso de ciertos individuos, la recepción del Espíritu les concedió capacidades artísticas especiales (Éxo. 28:3; 31:3; 35:30- 35). También en el caso de la iglesia primitiva, fue por medio del Espíritu como Cristo le concedió sus dones. El Espíritu distribuyó esos dones espirituales a los creyentes conforme a su voluntad, beneficiando así a toda la iglesia (Hech. 2:38; 1 Cor. 12:7-11). El Espíritu proveyó el poder especial necesario para proclamar el evangelio hasta los fines de la tierra (Hech. 1:8; ver el cap. 17).",
+      "pdfPage": 76,
+      "citations": [
+        {
+          "start": 283,
+          "end": 313,
+          "referenceIds": [
+            "b7-3-10-3-10",
+            "b7-6-34-6-34",
+            "b7-11-29-11-29"
+          ]
+        },
+        {
+          "start": 351,
+          "end": 384,
+          "referenceIds": [
+            "b4-11-17-11-17",
+            "b4-11-25-11-26",
+            "b10-23-2-23-2"
+          ]
+        },
+        {
+          "start": 480,
+          "end": 504,
+          "referenceIds": [
+            "b9-10-6-10-6",
+            "b9-10-10-10-10",
+            "b9-16-13-16-13"
+          ]
+        },
+        {
+          "start": 613,
+          "end": 641,
+          "referenceIds": [
+            "b2-28-3-28-3",
+            "b2-31-3-31-3",
+            "b2-35-30-35-35"
+          ]
+        },
+        {
+          "start": 871,
+          "end": 899,
+          "referenceIds": [
+            "b44-2-38-2-38",
+            "b46-12-7-12-11"
+          ]
+        },
+        {
+          "start": 1006,
+          "end": 1033,
+          "referenceIds": [
+            "b44-1-8-1-8"
+          ]
+        }
+      ],
+      "citationIssues": [
+        {
+          "start": 1006,
+          "end": 1033,
+          "text": "(Hech. 1:8; ver el cap. 17)",
+          "fragments": [
+            {
+              "sourceGroup": "ver el cap. 17",
+              "fragment": "ver el cap. 17",
+              "reason": "Remisión a capítulo sin versículo: requiere revisión de contexto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "6. Llena el corazón de los creyentes. La pregunta que les hizo Pablo a los creyentes de Éfeso: “¿Recibisteis el Espíritu Santo cuando creisteis? (Hech. 19:2), es crucial para todo creyente.",
+      "pdfPage": 76,
+      "citations": [
+        {
+          "start": 145,
+          "end": 157,
+          "referenceIds": [
+            "b44-19-2-19-2"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Al recibir Pablo la respuesta negativa, les impuso sus manos a los discípulos, y recibieron el bautismo del Espíritu Santo (Hech. 19:6). Este incidente indica que la convicción de pecado que produce el Espíritu Santo, y la obra del Espíritu al llenar la vida, son dos experiencias diferentes. Jesús reveló la necesidad de ser nacido de agua y del Espíritu (Juan 3:5). Justo antes de su ascensión, mandó que los nuevos creyentes fuesen bautizados “en el nombre del Padre, y del Hijo, y del Espíritu Santo” (Mat. 28:19). En armonía con este mandato, Pedro predicó que “el don del Espíritu Santo” debe ser recibido en el bautismo (Hech. 2:38). Y Pablo confirma la importancia del bautismo del Espíritu Santo (ver el cap. 15) al extender el urgente llamado a que los creyentes sean “llenos del Espíritu” (Efe. 5:18). La recepción del Espíritu Santo, que nos transforma a la imagen de Dios, comienza con el nuevo nacimiento y continúa la obra de santificación. Dios nos ha salvado según su misericordia “por el lavamiento de la regeneración y por la renovación en el Espíritu Santo, el cual derramó en nosotros abundantemente por Jesucristo nuestro Salvador” (Tito 3:5,6). “La ausencia del Espíritu es lo que hace tan impotente el ministerio evangélico. Puede poseerse saber, talento, elocuencia, y todo don natural o adquirido, pero, sin la presencia del Espíritu de Dios, ningún corazón se conmoverá, ningún pecador será ganado para Cristo. Por otro lado, si sus discípulos más pobres y más ignorantes están vinculados con Cristo, y tienen los dones del Espíritu, tendrán un poder que se hará sentir sobre los corazones. Dios hará de ellos conductos para el derramamiento de la influencia más sublime del universo”.4 El Espíritu es vital. Todos los cambios que Jesucristo efectúa en nosotros vienen por medio del ministerio del Espíritu. Como creyentes, debiéramos estar constantemente conscientes de que sin el Espíritu no podemos lograr nada (Juan 15:5). Hoy el Espíritu Santo dirige nuestra atención al mayor don de amor que Dios nos ofrece en su Hijo. Ruega que no resistamos sus llamados, sino que aceptemos el único medio por el cual podemos ser reconciliados con nuestro amoroso y misericordioso Padre celestial.",
+      "pdfPage": 77,
+      "citations": [
+        {
+          "start": 123,
+          "end": 135,
+          "referenceIds": [
+            "b44-19-6-19-6"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 366,
+          "referenceIds": [
+            "b43-3-5-3-5"
+          ]
+        },
+        {
+          "start": 505,
+          "end": 517,
+          "referenceIds": [
+            "b40-28-19-28-19"
+          ]
+        },
+        {
+          "start": 627,
+          "end": 639,
+          "referenceIds": [
+            "b44-2-38-2-38"
+          ]
+        },
+        {
+          "start": 800,
+          "end": 811,
+          "referenceIds": [
+            "b49-5-18-5-18"
+          ]
+        },
+        {
+          "start": 1154,
+          "end": 1166,
+          "referenceIds": [
+            "b56-3-5-3-6"
+          ]
+        },
+        {
+          "start": 1941,
+          "end": 1952,
+          "referenceIds": [
+            "b43-15-5-15-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "ver Hech. 2",
+      "label": "Hechos 2",
+      "id": "b44-2-all-2-all"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "Hech. 15:28",
+      "label": "Hechos 15:28",
+      "id": "b44-15-28-15-28"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Juan 16:14",
+      "label": "Juan 16:14",
+      "id": "b43-16-14-16-14"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Mat. 28:19",
+      "label": "Mateo 28:19",
+      "id": "b40-28-19-28-19"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "2 Cor. 13:14",
+      "label": "2 Corintios 13:14",
+      "id": "b47-13-14-13-14"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Gén. 6:3",
+      "label": "Génesis 6:3",
+      "id": "b1-6-3-6-3"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Luc. 12:12",
+      "label": "Lucas 12:12",
+      "id": "b42-12-12-12-12"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Juan 16:8",
+      "label": "Juan 16:8",
+      "id": "b43-16-8-16-8"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Hech. 13:2",
+      "label": "Hechos 13:2",
+      "id": "b44-13-2-13-2"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Rom. 8:26",
+      "label": "Romanos 8:26",
+      "id": "b45-8-26-8-26"
+    },
+    {
+      "bookId": 61,
+      "book": "2 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "2 Ped. 1:21",
+      "label": "2 Pedro 1:21",
+      "id": "b61-1-21-1-21"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "1 Ped. 1:2",
+      "label": "1 Pedro 1:2",
+      "id": "b60-1-2-1-2"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 3,
+      "verseEnd": 4,
+      "sourceGroup": "Hech. 5:3,4",
+      "label": "Hechos 5:3-4",
+      "id": "b44-5-3-5-4"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 31,
+      "verseEnd": 32,
+      "sourceGroup": "Mat. 12:31, 32",
+      "label": "Mateo 12:31-32",
+      "id": "b40-12-31-12-32"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Rom. 8:2",
+      "label": "Romanos 8:2",
+      "id": "b45-8-2-8-2"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Juan 16:13",
+      "label": "Juan 16:13",
+      "id": "b43-16-13-16-13"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Rom. 15:30",
+      "label": "Romanos 15:30",
+      "id": "b45-15-30-15-30"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Efe. 4:30",
+      "label": "Efesios 4:30",
+      "id": "b49-4-30-4-30"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 12:11",
+      "label": "1 Corintios 12:11",
+      "id": "b46-12-11-12-11"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Juan 14:16",
+      "label": "Juan 14:16",
+      "id": "b43-14-16-14-16"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 139,
+      "chapterEnd": 139,
+      "verseStart": 7,
+      "verseEnd": 10,
+      "sourceGroup": "Sal. 139:7-10",
+      "label": "Salmos 139:7-10",
+      "id": "b19-139-7-139-10"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 10,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 2:10,11",
+      "label": "1 Corintios 2:10-11",
+      "id": "b46-2-10-2-11"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 33,
+      "chapterEnd": 33,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Job 33:4",
+      "label": "Job 33:4",
+      "id": "b18-33-4-33-4"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 104,
+      "chapterEnd": 104,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Sal. 104:30",
+      "label": "Salmos 104:30",
+      "id": "b19-104-30-104-30"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Rom. 8:11",
+      "label": "Romanos 8:11",
+      "id": "b45-8-11-8-11"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 4,
+      "verseEnd": 6,
+      "sourceGroup": "1 Cor. 12:4-6",
+      "label": "1 Corintios 12:4-6",
+      "id": "b46-12-4-12-6"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 35,
+      "verseEnd": 35,
+      "sourceGroup": "Luc. 1:35",
+      "label": "Lucas 1:35",
+      "id": "b42-1-35-1-35"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 16,
+      "verseEnd": 17,
+      "sourceGroup": "Mat. 3:16,17",
+      "label": "Mateo 3:16-17",
+      "id": "b40-3-16-3-17"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Juan 3:16",
+      "label": "Juan 3:16",
+      "id": "b43-3-16-3-16"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 18,
+      "verseEnd": 20,
+      "sourceGroup": "Mat. 1:18-20",
+      "label": "Mateo 1:18-20",
+      "id": "b40-1-18-1-20"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Gén. 1:2",
+      "label": "Génesis 1:2",
+      "id": "b1-1-2-1-2"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "verseStart": 14,
+      "verseEnd": 15,
+      "sourceGroup": "Job 34:14, 15",
+      "label": "Job 34:14-15",
+      "id": "b18-34-14-34-15"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "ver 1 Cor. 3:16",
+      "label": "1 Corintios 3:16",
+      "id": "b46-3-16-3-16"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Núm. 24:2",
+      "label": "Números 24:2",
+      "id": "b4-24-2-24-2"
+    },
+    {
+      "bookId": 7,
+      "book": "Jueces",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 34,
+      "verseEnd": 34,
+      "sourceGroup": "Jue. 6:34",
+      "label": "Jueces 6:34",
+      "id": "b7-6-34-6-34"
+    },
+    {
+      "bookId": 9,
+      "book": "1 Samuel",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "1 Sam. 10:6",
+      "label": "1 Samuel 10:6",
+      "id": "b9-10-6-10-6"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Éxo. 31:3",
+      "label": "Éxodo 31:3",
+      "id": "b2-31-3-31-3"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 63,
+      "chapterEnd": 63,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Isa. 63:11",
+      "label": "Isaías 63:11",
+      "id": "b23-63-11-63-11"
+    },
+    {
+      "bookId": 29,
+      "book": "Joel",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "Joel 2:28",
+      "label": "Joel 2:28",
+      "id": "b29-2-28-2-28"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Mat. 3:11",
+      "label": "Mateo 3:11",
+      "id": "b40-3-11-3-11"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 16,
+      "verseEnd": 17,
+      "sourceGroup": "Juan 14:16,17",
+      "label": "Juan 14:16-17",
+      "id": "b43-14-16-14-17"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Juan 20:22",
+      "label": "Juan 20:22",
+      "id": "b43-20-22-20-22"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 49,
+      "verseEnd": 49,
+      "sourceGroup": "Luc. 24:49",
+      "label": "Lucas 24:49",
+      "id": "b42-24-49-24-49"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Hech. 1:8",
+      "label": "Hechos 1:8",
+      "id": "b44-1-8-1-8"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 39,
+      "verseEnd": 39,
+      "sourceGroup": "Juan 7:39",
+      "label": "Juan 7:39",
+      "id": "b43-7-39-7-39"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 33,
+      "verseEnd": 33,
+      "sourceGroup": "Hech. 2:33",
+      "label": "Hechos 2:33",
+      "id": "b44-2-33-2-33"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Hech. 1:5,14",
+      "label": "Hechos 1:5",
+      "id": "b44-1-5-1-5"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Hech. 1:5,14",
+      "label": "Hechos 1:14",
+      "id": "b44-1-14-1-14"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 2,
+      "verseEnd": 4,
+      "sourceGroup": "Hech. 2:2-4",
+      "label": "Hechos 2:2-4",
+      "id": "b44-2-2-2-4"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 8,
+      "verseEnd": 21,
+      "sourceGroup": "Mat. 1:8-21",
+      "label": "Mateo 1:8-21",
+      "id": "b40-1-8-1-21"
+    },
+    {
+      "bookId": 41,
+      "book": "Marcos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 9,
+      "verseEnd": 10,
+      "sourceGroup": "Mar. 1:9, 10",
+      "label": "Marcos 1:9-10",
+      "id": "b41-1-9-1-10"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Luc. 4:1",
+      "label": "Lucas 4:1",
+      "id": "b42-4-1-4-1"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 24,
+      "verseEnd": 32,
+      "sourceGroup": "Mat. 12:24- 32",
+      "label": "Mateo 12:24-32",
+      "id": "b40-12-24-12-32"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 14,
+      "verseEnd": 15,
+      "sourceGroup": "Heb. 9:14,15",
+      "label": "Hebreos 9:14-15",
+      "id": "b58-9-14-9-15"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Juan 14:18",
+      "label": "Juan 14:18",
+      "id": "b43-14-18-14-18"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Gál. 4:6",
+      "label": "Gálatas 4:6",
+      "id": "b48-4-6-4-6"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Rom. 8:9",
+      "label": "Romanos 8:9",
+      "id": "b45-8-9-8-9"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Ped. 1:11",
+      "label": "1 Pedro 1:11",
+      "id": "b60-1-11-1-11"
+    },
+    {
+      "bookId": 50,
+      "book": "Filipenses",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Fil. 1:19",
+      "label": "Filipenses 1:19",
+      "id": "b50-1-19-1-19"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Juan 14:16, ver también 15:26, “del Padre”",
+      "label": "Juan 15:26",
+      "id": "b43-15-26-15-26"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Hech. 1:4",
+      "label": "Hechos 1:4",
+      "id": "b44-1-4-1-4"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Juan 16:7",
+      "label": "Juan 16:7",
+      "id": "b43-16-7-16-7"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "1 Cor. 12:3",
+      "label": "1 Corintios 12:3",
+      "id": "b46-12-3-12-3"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Juan 1:9",
+      "label": "Juan 1:9",
+      "id": "b43-1-9-1-9"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Juan 16:9",
+      "label": "Juan 16:9",
+      "id": "b43-16-9-16-9"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Juan 3:5",
+      "label": "Juan 3:5",
+      "id": "b43-3-5-3-5"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 32,
+      "verseEnd": 32,
+      "sourceGroup": "Hech. 5:32",
+      "label": "Hechos 5:32",
+      "id": "b44-5-32-5-32"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 51,
+      "verseEnd": 51,
+      "sourceGroup": "Hech. 7:51",
+      "label": "Hechos 7:51",
+      "id": "b44-7-51-7-51"
+    },
+    {
+      "bookId": 52,
+      "book": "1 Tesalonicenses",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "1 Tes 5:19",
+      "label": "1 Tesalonicenses 5:19",
+      "id": "b52-5-19-5-19"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "1 Juan 2:1",
+      "label": "1 Juan 2:1",
+      "id": "b62-2-1-2-1"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "ver 1 Cor. 15:10",
+      "label": "1 Corintios 15:10",
+      "id": "b46-15-10-15-10"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "2 Cor. 9:14",
+      "label": "2 Corintios 9:14",
+      "id": "b47-9-14-9-14"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 5,
+      "verseEnd": 6,
+      "sourceGroup": "Juan 4:5, 6",
+      "label": "Juan 4:5-6",
+      "id": "b43-4-5-4-6"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Juan 14:17",
+      "label": "Juan 14:17",
+      "id": "b43-14-17-14-17"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Juan 14:26",
+      "label": "Juan 14:26",
+      "id": "b43-14-26-14-26"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 13,
+      "verseEnd": 14,
+      "sourceGroup": "Juan 16:13,14",
+      "label": "Juan 16:13-14",
+      "id": "b43-16-13-16-14"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 17,
+      "verseEnd": 18,
+      "sourceGroup": "Juan 14:17,18",
+      "label": "Juan 14:17-18",
+      "id": "b43-14-17-14-18"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Heb. 13:5",
+      "label": "Hebreos 13:5",
+      "id": "b58-13-5-13-5"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Mat. 28:20",
+      "label": "Mateo 28:20",
+      "id": "b40-28-20-28-20"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Juan 14:23",
+      "label": "Juan 14:23",
+      "id": "b43-14-23-14-23"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 1,
+      "verseEnd": 4,
+      "sourceGroup": "Hech. 13:1-4",
+      "label": "Hechos 13:1-4",
+      "id": "b44-13-1-13-4"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 52,
+      "verseEnd": 52,
+      "sourceGroup": "Hech. 13:52",
+      "label": "Hechos 13:52",
+      "id": "b44-13-52-13-52"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "ver también vers. 9",
+      "label": "Hechos 13:9",
+      "id": "b44-13-9-13-9"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 6,
+      "verseEnd": 7,
+      "sourceGroup": "Hech. 16:6, 7",
+      "label": "Hechos 16:6-7",
+      "id": "b44-16-6-16-7"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "Hech. 20:28",
+      "label": "Hechos 20:28",
+      "id": "b44-20-28-20-28"
+    },
+    {
+      "bookId": 7,
+      "book": "Jueces",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Jue. 3:10",
+      "label": "Jueces 3:10",
+      "id": "b7-3-10-3-10"
+    },
+    {
+      "bookId": 7,
+      "book": "Jueces",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 29,
+      "verseEnd": 29,
+      "sourceGroup": "11:29",
+      "label": "Jueces 11:29",
+      "id": "b7-11-29-11-29"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Núm. 11:17, 25, 26",
+      "label": "Números 11:17",
+      "id": "b4-11-17-11-17"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 25,
+      "verseEnd": 26,
+      "sourceGroup": "Núm. 11:17, 25, 26",
+      "label": "Números 11:25-26",
+      "id": "b4-11-25-11-26"
+    },
+    {
+      "bookId": 10,
+      "book": "2 Samuel",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "2 Sam. 23:2",
+      "label": "2 Samuel 23:2",
+      "id": "b10-23-2-23-2"
+    },
+    {
+      "bookId": 9,
+      "book": "1 Samuel",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "1 Sam. 10:6, 10",
+      "label": "1 Samuel 10:10",
+      "id": "b9-10-10-10-10"
+    },
+    {
+      "bookId": 9,
+      "book": "1 Samuel",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "16:13",
+      "label": "1 Samuel 16:13",
+      "id": "b9-16-13-16-13"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Éxo. 28:3",
+      "label": "Éxodo 28:3",
+      "id": "b2-28-3-28-3"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 35,
+      "chapterEnd": 35,
+      "verseStart": 30,
+      "verseEnd": 35,
+      "sourceGroup": "35:30- 35",
+      "label": "Éxodo 35:30-35",
+      "id": "b2-35-30-35-35"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 38,
+      "verseEnd": 38,
+      "sourceGroup": "Hech. 2:38",
+      "label": "Hechos 2:38",
+      "id": "b44-2-38-2-38"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 7,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 12:7-11",
+      "label": "1 Corintios 12:7-11",
+      "id": "b46-12-7-12-11"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Hech. 19:2",
+      "label": "Hechos 19:2",
+      "id": "b44-19-2-19-2"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Hech. 19:6",
+      "label": "Hechos 19:6",
+      "id": "b44-19-6-19-6"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Efe. 5:18",
+      "label": "Efesios 5:18",
+      "id": "b49-5-18-5-18"
+    },
+    {
+      "bookId": 56,
+      "book": "Tito",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 5,
+      "verseEnd": 6,
+      "sourceGroup": "Tito 3:5,6",
+      "label": "Tito 3:5-6",
+      "id": "b56-3-5-3-6"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Juan 15:5",
+      "label": "Juan 15:5",
+      "id": "b43-15-5-15-5"
+    }
+  ]
+}

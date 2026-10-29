@@ -1,0 +1,1195 @@
+{
+  "beliefNumber": 8,
+  "bookChapterTitle": "El gran conflicto",
+  "groupInBookIndex": "LA DOCTRINA DE LA SALVACIÓN",
+  "printedPages": [
+    109,
+    117
+  ],
+  "pdfPages": [
+    111,
+    119
+  ],
+  "transcriptionStatus": "automated-draft-needs-editorial-review",
+  "editorialNotes": [],
+  "referenceCorrections": [
+    {
+      "pdfPage": 115,
+      "original": "Juan 12:45-54",
+      "corrected": "Juan 11:45-54",
+      "reason": "La decisión de las autoridades de matar a Jesús y su retirada del ministerio público se narran en Juan 11:45-54. Juan 12 solo tiene 50 versículos."
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "text": "LA ESCRITURA DESCRIBE UNA BATALLA CÓSMICA entre el bien y el mal, Dios y Satanás. Comprender esta controversia, que ha involucrado el universo entero, nos ayuda a responder la pregunta: ¿Por qué vino Jesús a este mundo?",
+      "pdfPage": 111
+    },
+    {
+      "kind": "heading",
+      "text": "Una visión cósmica del conflicto",
+      "pdfPage": 111
+    },
+    {
+      "kind": "paragraph",
+      "text": "Misterio de misterios, el conflicto entre el bien y el mal comenzó en el cielo. ¿Cómo pudo el pecado originarse en un ambiente perfecto? Los ángeles, que son seres de un orden más elevado que los humanos (Sal. 8:5), fueron creados para gozar de íntima comunión con Dios (Apoc. 1:1; 3:5; 5:11). Poseen poder superior, y son obedientes a la Palabra de Dios (Sal. 103:20); funcionan como siervos o “espíritus ministradores” (Heb. 1:14). Se mantienen por lo general invisibles, pero ocasionalmente aparecen en forma humana (Gén. 18,19; Heb. 13:2). Fue uno de estos seres angélicos el que introdujo el pecado en el universo.",
+      "pdfPage": 111,
+      "pdfPageEnd": 112,
+      "citations": [
+        {
+          "start": 204,
+          "end": 214,
+          "referenceIds": [
+            "b19-8-5-8-5"
+          ]
+        },
+        {
+          "start": 270,
+          "end": 292,
+          "referenceIds": [
+            "b66-1-1-1-1",
+            "b66-3-5-3-5",
+            "b66-5-11-5-11"
+          ]
+        },
+        {
+          "start": 355,
+          "end": 368,
+          "referenceIds": [
+            "b19-103-20-103-20"
+          ]
+        },
+        {
+          "start": 421,
+          "end": 432,
+          "referenceIds": [
+            "b58-1-14-1-14"
+          ]
+        },
+        {
+          "start": 519,
+          "end": 542,
+          "referenceIds": [
+            "b1-18-all-18-all",
+            "b1-19-all-19-all",
+            "b58-13-2-13-2"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El origen de la controversia. Usando a los reyes de Tiro y Babilonia como descripciones figuradas de Lucifer, la Escritura ilumina cómo empezó esta controversia cósmica: Lucifer, el “hijo de la mañana”, el querubín cubridor, residía en la presencia de Dios (Isa. 14:12; Eze. 28:14).' La Escritura dice: “Tú eras el sello de la perfección, lleno de sabiduría, y acabado de hermosura... perfecto eras en todos tus caminos desde el día que fuiste creado, hasta que se halló en ti maldad” (Eze. 28:12,15). Si bien la aparición del pecado es inexplicable e injustificable, se puede trazar su origen hasta el orgullo de Lucifer: “Se enalteció tu corazón a causa de tu hermosura, corrompiste tu sabiduría a causa de tu esplendor” (Eze. 28:17). Lucifer rehusó conformarse con la exaltada posición que su Creador le había concedido. En su egoísmo, codició la igualdad con Dios mismo: “Tu... decías en tu corazón: subiré al cielo; en lo alto, junto a las estrellas de Dios, levantaré mi trono... y seré semejante al Altísimo” (Isa. 14:12-14). Pero aunque Lucifer codiciaba la posición de Dios, no deseaba poseer su carácter. Procuró alcanzar la autoridad de Dios, pero no su amor. La rebelión de Lucifer contra el gobierno de Dios fue el primer paso en su proceso de transformarse en Satanás, “el adversario”. Las acciones solapadas de Lucifer cegaron a muchos ángeles, impidiéndoles discernir el amor de Dios. El resultante descontento y deslealtad al gobierno de Dios, continuaron creciendo hasta que la tercera parte de la hueste angélica se le unió en la rebelión (Apoc. 12:4). La paz del reino de Dios fue quebrantada, y “hubo una gran batalla en el cielo” (Apoc. 12:7). Como resultado del conflicto celestial, Satanás, al cual se lo caracteriza como el gran dragón, la serpiente antigua y el diablo, “fue arrojado a la tierra, y sus ángeles fueron arrojados con él” (Apoc. 12:9).",
+      "pdfPage": 112,
+      "citations": [
+        {
+          "start": 257,
+          "end": 281,
+          "referenceIds": [
+            "b23-14-12-14-12",
+            "b26-28-14-28-14"
+          ]
+        },
+        {
+          "start": 485,
+          "end": 500,
+          "referenceIds": [
+            "b26-28-12-28-12",
+            "b26-28-15-28-15"
+          ]
+        },
+        {
+          "start": 723,
+          "end": 735,
+          "referenceIds": [
+            "b26-28-17-28-17"
+          ]
+        },
+        {
+          "start": 1016,
+          "end": 1031,
+          "referenceIds": [
+            "b23-14-12-14-14"
+          ]
+        },
+        {
+          "start": 1558,
+          "end": 1570,
+          "referenceIds": [
+            "b66-12-4-12-4"
+          ]
+        },
+        {
+          "start": 1652,
+          "end": 1664,
+          "referenceIds": [
+            "b66-12-7-12-7"
+          ]
+        },
+        {
+          "start": 1862,
+          "end": 1874,
+          "referenceIds": [
+            "b66-12-9-12-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "¿Cómo se vieron implicados los seres humanos? Después que Satanás fue expulsado del cielo, se dedicó a extender su rebelión a nuestro mundo. Disfrazado a manera de serpiente que hablaba, y usando los mismos argumentos que lo habían llevado a su propia caída, logró socavar la confianza que Adán y Eva tenían en su Creador (Gén. 3:5). Satanás despertó en Eva el descontento en relación con la posición que se le había asignado. Infatuada por la posibilidad de ser igual a Dios, creyó en la palabra del tentador, y dudó de la Palabra divina.",
+      "pdfPage": 112,
+      "citations": [
+        {
+          "start": 322,
+          "end": 332,
+          "referenceIds": [
+            "b1-3-5-3-5"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Comió del fruto prohibido, desobedeciendo así el mandato de Dios, y luego influyó en su esposo para que este hiciera lo mismo. Al creer en la palabra de la serpiente por encima de la de su Creador, traicionaron la confianza y la lealtad que los unían a Dios. Trágicamente, las semillas de la controversia que había comenzado en el cielo germinaron en el planeta Tierra (ver Gén. 3). Al seducir a nuestros primeros padres y hacerlos pecar, Satanás ingeniosamente les arrebató su dominio sobre el mundo. Afirmando ahora ser el “príncipe de este mundo”, Satanás desafió a Dios, desconociendo su autoridad, y amenazó así la paz de todo el universo, desde su nuevo centro de operaciones, el planeta Tierra.",
+      "pdfPage": 113,
+      "citations": [
+        {
+          "start": 369,
+          "end": 381,
+          "referenceIds": [
+            "b1-3-all-3-all"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El impacto sóbrela raza humana. Los efectos de la controversia entre Cristo y Satanás pronto se hicieron evidentes, cuando el pecado comenzó a distorsionar la imagen de Dios en la humanidad. A pesar de que Dios ofreció su pacto de gracia a la raza humana a través de Adán y Eva (Gén. 3:15, ver el capítulo 7), su primer hijo, Caín, asesinó a su hermano (Gén. 4:8). La maldad continuó multiplicándose hasta que, lleno de tristeza, Dios vio que “todo designio de los pensamientos del corazón de ellos era de continuo solamente el mal” (Gén. 6:5). Dios usó un gran diluvio para limpiar el mundo de sus habitantes impíos y proveer un nuevo comienzo para la raza humana (Gén. 7:17-20). Pero antes de mucho, los descendientes del fiel Noé se apartaron del pacto de Dios. Si bien el Creador había prometido que nunca volvería a destruir todo el mundo por medio del agua, la generación posterior al diluvio erigió la torre de Babel como un monumento concreto de su desconfianza en Dios, procurando así llegar al cielo y tener de este modo una forma de escapar a las consecuencias de algún diluvio futuro. Esta vez Dios puso fin a los rebeldes propósitos de los hombres al confundir su lenguaje universal (Gén. 9:1,11; 11). Un tiempo después, cuando el mundo se hallaba sumido en la apostasía casi completa, Dios extendió su pacto a Abraham. Por medio de él, Dios se proponía bendecir a todas las naciones del mundo (Gén. 12:1-3; 22:15-18). Sin embargo, las generaciones sucesivas de los descendientes de Abraham fueron infieles al misericordioso pacto divino. Esclavizados por el pecado, colaboraron con Satanás ayudándole a lograr su objetivo en la gran controversia al crucificar a Jesucristo, el Autor y Fiador del pacto.",
+      "pdfPage": 113,
+      "citations": [
+        {
+          "start": 278,
+          "end": 308,
+          "referenceIds": [
+            "b1-3-15-3-15"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 363,
+          "referenceIds": [
+            "b1-4-8-4-8"
+          ]
+        },
+        {
+          "start": 533,
+          "end": 543,
+          "referenceIds": [
+            "b1-6-5-6-5"
+          ]
+        },
+        {
+          "start": 665,
+          "end": 679,
+          "referenceIds": [
+            "b1-7-17-7-20"
+          ]
+        },
+        {
+          "start": 1196,
+          "end": 1213,
+          "referenceIds": [
+            "b1-9-1-9-1",
+            "b1-9-11-9-11",
+            "b1-11-all-11-all"
+          ]
+        },
+        {
+          "start": 1407,
+          "end": 1430,
+          "referenceIds": [
+            "b1-12-1-12-3",
+            "b1-22-15-22-18"
+          ]
+        }
+      ],
+      "citationIssues": [
+        {
+          "start": 278,
+          "end": 308,
+          "text": "(Gén. 3:15, ver el capítulo 7)",
+          "fragments": [
+            {
+              "sourceGroup": "Gén. 3:15, ver el capítulo 7",
+              "fragment": "ver el capítulo 7",
+              "reason": "Remisión a capítulo sin versículo: requiere revisión de contexto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El mundo, teatro del universo. El relato que aparece en el libro de Job referente a una convocación cósmica de representantes de diversas partes del universo, nos permite comprender mejor la gran controversia. El relato comienza diciendo: “Un día vinieron a presentarse delante de Jehová los hijos de Dios, entre los cuales vino también Satanás. Y dijo Jehová a Satanás: ¿De dónde vienes? Respondiendo Satanás a Jehová, dijo: de rodear la tierra y de andar por ella” (Job 1:6, 7; ver también 2:1-7). Entonces el Señor dijo algo así como: “Satanás, mira a Job. Él obedece fielmente mi ley. ¡Es perfecto!” (ver Job 1:8). Cuando Satanás argumentó: “Sí, pero es perfecto solo porque le conviene servirte. ¿Acaso no lo proteges?”, Cristo respondió permitiendo que Satanás probara a Job de cualquier forma, excepto quitándole la vida (ver Job l:9-2:7). La perspectiva cósmica que ofrece el libro de Job provee una poderosa confirmación de la gran controversia entre Cristo y Satanás. Este planeta es el escenario en el cual se desarrolla este dramático conflicto entre el bien y el mal. Según declara la Escritura, “hemos llegado a ser espectáculo al mundo, a los ángeles y a los hombres” (1 Cor. 4:9). El pecado cortó la relación que existía entre Dios y el hombre, y “todo lo que no proviene de fe, es pecado” (Rom. 14:23). El quebrantamiento de los mandamientos o leyes de Dios, es el resultado inmediato de una falta de fe, la evidencia de una relación interrumpida. A su vez, y por medio del plan de salvación, Dios procura restaurar en los seres humanos la confianza en el Creador, que lleva a una relación de amor manifestada por la obediencia. Tal como lo señaló Cristo, el amor lleva a la obediencia (Juan 14:15). En nuestra era de iniquidad, los conceptos absolutos han sido neutralizados, la deshonestidad recibe alabanzas, la prevaricación es un estilo de vida, se exalta el adulterio, y los acuerdos, tanto internacionales como personales, se ven pisoteados. Es nuestro privilegio mirar más allá de nuestro mundo sin esperanza, y ver al Dios amante y omnipotente. Esta visión abarcarte nos revela la importancia de la expiación que obró nuestro Salvador, la cual está llevando a su fin esta controversia universal.",
+      "pdfPage": 113,
+      "pdfPageEnd": 114,
+      "citations": [
+        {
+          "start": 467,
+          "end": 498,
+          "referenceIds": [
+            "b18-1-6-1-7",
+            "b18-2-1-2-7"
+          ]
+        },
+        {
+          "start": 604,
+          "end": 617,
+          "referenceIds": [
+            "b18-1-8-1-8"
+          ]
+        },
+        {
+          "start": 1183,
+          "end": 1195,
+          "referenceIds": [
+            "b46-4-9-4-9"
+          ]
+        },
+        {
+          "start": 1306,
+          "end": 1318,
+          "referenceIds": [
+            "b45-14-23-14-23"
+          ]
+        },
+        {
+          "start": 1703,
+          "end": 1715,
+          "referenceIds": [
+            "b43-14-15-14-15"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El tema central",
+      "pdfPage": 114
+    },
+    {
+      "kind": "paragraph",
+      "text": "¿Cuál es el tema central en esta lucha a vida o muerte?",
+      "pdfPage": 114
+    },
+    {
+      "kind": "paragraph",
+      "text": "El gobierno y la ley de Dios. La ley moral de Dios es tan esencial para la existencia de su universo como lo son las leyes físicas que le dieron origen y lo mantienen funcionando. El pecado es “la transgresión de la ley\" (1 Juan 3:4), o “ilegalidad”, como lo indica la palabra gr iega anomia. La ilegalidad brota del rechazo de Dios y su gobierno. En vez de aceptar la responsabilidad por la ilegalidad que reina en el mundo, Satanás le echa la culpa a Dios. Afirma que la ley de Dios, que según él es arbitraria, estorba la libertad individual. Además —afirma Satanás—, por cuanto es imposible obedecerla, sus efectos son contrarios a los mejores intereses de los seres creados. Por medio de sus constantes e insidiosos intentos de socavar la ley, Satanás procura echar por tierra el gobierno de Dios y aun derrocar a Dios mismo.",
+      "pdfPage": 114,
+      "pdfPageEnd": 115,
+      "citations": [
+        {
+          "start": 221,
+          "end": 233,
+          "referenceIds": [
+            "b62-3-4-3-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Cristo y la obediencia. Las tentaciones que Cristo debió afrontar durante su ministerio terrenal revelaron cuán seria es la controversia acerca de la obediencia y la entrega a la voluntad de Dios. Al enfrentar esas tentaciones, lo cual lo preparó “para venir a ser misericordioso y fiel sumo sacerdote” (Heb. 2:17), entró en combate singular con un enemigo mortal. En el desierto, después que Cristo había ayunado 40 días, Satanás lo tentó a transformar las piedras en pan para probar así que en verdad era el Hijo de Dios (Mat. 4:3). Así como Satanás había tentado a Eva haciéndola dudar de la Palabra de Dios en el Edén, también procuró ahora hacer que Cristo dudara de la validez de lo que Dios había dicho en ocasión de su bautismo: “Este es mi Hijo amado, en quien tengo complacencia” (Mat. 3:17). Si Cristo hubiera tomado el asunto en sus propias manos, creando pan a partir de las piedras, para probar así su naturaleza divina, habría revelado, a imitación de Eva, falta de confianza en Dios. Su misión habría terminado en el fracaso. Pero la mayor prioridad de Cristo consistía en vivir por la Palabra de su Padre. A pesar de su gran necesidad de alimento, respondió a la tentación de Satanás, diciendo: “No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios (Mat. 4:4). En otro intento de causar la derrota de Cristo, Satanás le dio una vista panorámica del mundo, prometiendo: “Todo esto te daré, si postrado me adorares” (Mat. 4:9). Implicó que al hacer eso, Cristo podría rescatar el mundo y completar su misión sin tener que pasar por la agonía del Calvario. Sin un momento de duda, y en absoluta lealtad a Dios, Jesús ordenó: “Vete, Satanás”. Luego, usando la Escritura, el arma más efectiva en la gran controversia, declaró: “Al Señor tu Dios adorarás, y a él solo servirás” (Mat. 4:10). Sus palabras terminaron la confrontación. Al mantener su dependencia absoluta del Padre, Cristo derrotó a Satanás.",
+      "pdfPage": 115,
+      "citations": [
+        {
+          "start": 303,
+          "end": 314,
+          "referenceIds": [
+            "b58-2-17-2-17"
+          ]
+        },
+        {
+          "start": 523,
+          "end": 533,
+          "referenceIds": [
+            "b40-4-3-4-3"
+          ]
+        },
+        {
+          "start": 790,
+          "end": 801,
+          "referenceIds": [
+            "b40-3-17-3-17"
+          ]
+        },
+        {
+          "start": 1295,
+          "end": 1305,
+          "referenceIds": [
+            "b40-4-4-4-4"
+          ]
+        },
+        {
+          "start": 1460,
+          "end": 1470,
+          "referenceIds": [
+            "b40-4-9-4-9"
+          ]
+        },
+        {
+          "start": 1818,
+          "end": 1829,
+          "referenceIds": [
+            "b40-4-10-4-10"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Confrontación en el Calvario. Esta controversia cósmica adquiere su enfoque más claro en el Calvario. Satanás intensificó sus esfuerzos por hacer abortar la misión de Jesús a medida que se acercaba el tiempo de su culminación. Satanás tuvo especial éxito en usar a los dirigentes religiosos de ese tiempo, cuyos celos de la popularidad de Cristo causaron tanta dificultad que el Salvador se vio obligado a terminar su ministerio público (Juan 11:45-54). Por la traición de uno de sus discípulos y por testimonio de perjuros, Jesús fue arrestado, enjuiciado y condenado a muerte (Mat. 26:63,64; Juan 19:7). Guardando absoluta obediencia a la voluntad de su Padre, Jesús se mantuvo fiel hasta la muerte. Los beneficios que se derivan tanto de la vida como de la muerte de Cristo van mas allá del mundo limitado de la raza humana. Al referirse a la cruz, Cristo declaró: “Ahora el príncipe de este mundo será echado fuera” (Juan 12:31). La controversia cósmica llegó a su punto culminante en la cruz. El amor y la fidelidad obediente de Cristo que se demostraron allí, a pesar de la crueldad de Satanás, destruyeron la base de la posición de Satanás, asegurando así su eventual caída definitiva.",
+      "pdfPage": 115,
+      "pdfPageEnd": 116,
+      "citations": [
+        {
+          "start": 437,
+          "end": 452,
+          "referenceIds": [
+            "b43-11-45-11-54"
+          ]
+        },
+        {
+          "start": 578,
+          "end": 604,
+          "referenceIds": [
+            "b40-26-63-26-64",
+            "b43-19-7-19-7"
+          ]
+        },
+        {
+          "start": 920,
+          "end": 932,
+          "referenceIds": [
+            "b43-12-31-12-31"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Controversia acerca de la verdad como es en Jesús",
+      "pdfPage": 116
+    },
+    {
+      "kind": "paragraph",
+      "text": "En nuestros días, la gran controversia se libra con furia en torno a Cristo y las Escrituras. Se han desarrollado formas de interpretación bíblica que dejan poco o ningún lugar para la revelación divina.2 Se trata a la Escritura como si fuera igual a cualquier otro documento antiguo, y se la analiza con la misma metodología crítica. Un número creciente de cristianos, incluso teólogos, ya no consideran que las Escrituras son la Palabra de Dios, la revelación infalible de su voluntad. En consecuencia, han llegado a dudar de la validez de la posición bíblica con respecto a la persona de Jesucristo; su naturaleza, su nacimiento virginal, sus milagros y su resurrección son ampliamente debatidos.3",
+      "pdfPage": 116
+    },
+    {
+      "kind": "paragraph",
+      "text": "La pregunta más crucial. Cuando Cristo preguntó: “¿Quién dicen los hombres que es el Hijo del hombre?’’, los discípulos replicaron: “Unos, Juan el Bautista; otros, Elias; y otros, Jeremías o alguno de los profetas” (Mat. 16:13,14). En otras palabras, la mayoría de sus contemporáneos lo consideraban un simple hombre. La Escritura continúa el relato: Jesús les preguntó a sus doce discípulos: “Y vosotros, ¿quién decís que soy yo?” Respondiendo Simón Pedro, dijo: “Tú eres el Cristo, el Hijo del Dios viviente.” Entonces le respondió Jesús: “Bienaventurado eres, Simón, hijo de Jonás, porque no te lo reveló carne ni sangre, sino mi Padre que está en los cielos” (Mat. 16:15-17). En nuestros días, cada uno de nosotros debemos responder la misma pregunta que Cristo les hizo a sus discípulos. Nuestra respuesta a este interrogante fundamental depende de la fe que tengamos en el testimonio de la Palabra de Dios.",
+      "pdfPage": 116,
+      "citations": [
+        {
+          "start": 215,
+          "end": 230,
+          "referenceIds": [
+            "b40-16-13-16-14"
+          ]
+        },
+        {
+          "start": 663,
+          "end": 678,
+          "referenceIds": [
+            "b40-16-15-16-17"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El centro de las doctrinas bíblicas. Cristo es el foco de las Escrituras. Dios nos invita a comprender la verdad como es en Jesús (Efe. 4:21), porque él es la verdad (Juan 14:5). Una de las estrategias que Satanás usa en el conflicto cósmico, consiste en convencer a los seres humanos de que pueden comprender la verdad aparte de Jesús. Con este fin, se han propuesto diversos centros de verdad, ya sea individualmente o en combinación: (1) El hombre, (2) la naturaleza o el universo observable, (3) las Escrituras, y (4) la iglesia. Si bien es cierto que todos ellos tienen una parte en la revelación de la verdad, la Escritura presenta a Cristo como el Creador de cada uno de los elementos mencionados, trascendiéndolos a todos. Su único verdadero significado se descubre en el Ser que los originó. El divorciar de Cristo las doctrinas lleva a comprender erróneamente “el camino, y la verdad, y la vida” (Juan 14:6). El acto de sugerir elementos de verdad separados de Cristo, está de acuerdo tanto con la naturaleza como con el propósito del anticristo. (En el griego original, anticristo puede significar no solo “contra” Cristo, sino también “en el lugar de” Cristo.) Al colocar un centro diferente de Cristo en las doctrinas de la iglesia, Satanás logra su objetivo de desviar nuestra atención de Aquel que es la única esperanza de la humanidad.",
+      "pdfPage": 116,
+      "pdfPageEnd": 117,
+      "citations": [
+        {
+          "start": 130,
+          "end": 141,
+          "referenceIds": [
+            "b49-4-21-4-21"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 177,
+          "referenceIds": [
+            "b43-14-5-14-5"
+          ]
+        },
+        {
+          "start": 906,
+          "end": 917,
+          "referenceIds": [
+            "b43-14-6-14-6"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La función de la teología cristiana. La visión cósmica revela el intento que hace Satanás de quitar a Cristo de su legítimo lugar, tanto en el universo como en la verdad. La teología, que por definición es un estudio de Dios y de su relación con sus criaturas, debe desarrollar todas sus doctrinas a la luz de Cristo. El mandato de la teología cristiana es inspirar confianza en la autoridad de la Palabra de Dios y quitar de la verdad cualquier otro centro que sugiera, reemplazándolo por Cristo. Cuando hace esto, la verdadera teología cristiana le hace un gran servicio a la iglesia, porque señala la raíz de la controversia cósmica, exponiéndola, y resolviéndola con el único argumento incontrovertible: Cristo como se halla revelado en las Escrituras. Desde esta perspectiva, Dios puede usar la teología como un instrumento efectivo para ayudar a la humanidad a oponerse a los esfuerzos de Satanás en el mundo.",
+      "pdfPage": 117
+    },
+    {
+      "kind": "heading",
+      "text": "El significado de la doctrina",
+      "pdfPage": 117
+    },
+    {
+      "kind": "paragraph",
+      "text": "La doctrina de la gran controversia revela la batalla formidable que afecta a cada persona que nace en el mundo; de hecho, el conflicto abarca hasta los últimos rincones del universo. La Escritura dice: “Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes” (Efe. 6:12).",
+      "pdfPage": 117,
+      "citations": [
+        {
+          "start": 415,
+          "end": 426,
+          "referenceIds": [
+            "b49-6-12-6-12"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La doctrina produce un estado de constante vigilancia. La comprensión de esta doctrina nos convence de que es necesario combatir el mal. El éxito es posible únicamente por la dependencia de Jesucristo, el Capitán de las huestes, el que es “fuerte y valiente, Jehová el poderoso en batalla” (Sal. 24:8). Como expresara Pablo, el hecho de aceptar la estrategia de Cristo requiere aceptar “toda la armadura de Dios, para que podáis resistir en el día malo, y habiendo acabado todo, estar firmes. Estad, pues, firmes, ceñidos vuestros lomos con la verdad, y vestidos con la coraza de justicia, y calzados los pies con el apresto del evangelio de la paz. Sobre todo, tomad el escudo de la fe, con que podáis apagar todos los dardos de fuego del maligno. Y tomad el yelmo de la salvación, y la espada del Espíritu, que es la palabra de Dios; orando en todo tiempo con toda oración y súplica en el Espíritu, y velando en ello con toda perseverancia y súplica por todos los santos” (Efe. 6:13-18). Para los verdaderos cristianos significa un exaltado privilegio vivir una vida que se caracterice por la paciencia y la fidelidad, y por estar en todo tiempo aparejados para el conflicto (Apoc. 14:2), manifestando nuestra constante dependencia de Aquel que nos ha hecho “más que vencedores” (Rom. 8:37).",
+      "pdfPage": 117,
+      "pdfPageEnd": 118,
+      "citations": [
+        {
+          "start": 290,
+          "end": 301,
+          "referenceIds": [
+            "b19-24-8-24-8"
+          ]
+        },
+        {
+          "start": 974,
+          "end": 988,
+          "referenceIds": [
+            "b49-6-13-6-18"
+          ]
+        },
+        {
+          "start": 1177,
+          "end": 1189,
+          "referenceIds": [
+            "b66-14-2-14-2"
+          ]
+        },
+        {
+          "start": 1281,
+          "end": 1292,
+          "referenceIds": [
+            "b45-8-37-8-37"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Explica el misterio del sufrimiento. El mal no se originó con Dios. Aquel del cual se dijo: “Has amado la justicia, y aborrecido la maldad” (Heb. 1:9), no puede ser culpado por la miseria del mundo. Satanás, el ángel caído, es responsable de la crueldad y el sufrimiento. Podemos comprender mejor los asaltos, los asesinatos y los funerales —por crímenes o accidentes—, por angustiosos que sean, si los analizamos a la luz de la gran controversia. La cruz testifica tanto de lo destructivo que es el pecado como de las profundidades que alcanza el amor de Dios por los pecadores. De este modo, el tema de la gran controversia nos enseña a odiar el pecado y amar al pecador.",
+      "pdfPage": 118,
+      "citations": [
+        {
+          "start": 140,
+          "end": 150,
+          "referenceIds": [
+            "b58-1-9-1-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Despliega la amorosa preocupación actual de Cristo por el mundo. Cuando Cristo volvió al cielo, no dejó a su pueblo huérfano. Con gran compasión, nos proveyó todas las ayudas posibles en la batalla contra el mal. Comisionó al Espíritu Santo para que reemplazara a Cristo y fuese nuestro constante compañero hasta que el Salvador volviera (Juan 14:16; compárese con Mat. 28:20). También fueron comisionados los ángeles para que estuviesen involucrados en su obra salvadora (Heb. 1:14). Nuestra victoria está asegurada. Podemos tener esperanza y valor al enfrentar el futuro, porque nuestro Señor lo controla todo. Nuestros labios pueden expresar alabanzas por su obra salvadora.",
+      "pdfPage": 118,
+      "citations": [
+        {
+          "start": 338,
+          "end": 376,
+          "referenceIds": [
+            "b43-14-16-14-16",
+            "b40-28-20-28-20"
+          ]
+        },
+        {
+          "start": 472,
+          "end": 483,
+          "referenceIds": [
+            "b58-1-14-1-14"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Revela el significado cósmico de la cruz. En el ministerio y la muerte de Cristo había mucho más involucrado que la mera salvación de la humanidad. Vino no solo para entregar su vida por la remisión de nuestros pecados, sino también para vindicar el carácter, la ley y el gobierno de su Padre, contra lo cual Satanás había dirigido sus falsas acusaciones. La vida de Cristo vindicó la justicia de Dios y su bondad, demostrando además que la ley y el gobierno divinos eran justos. Cristo reveló que los ataques satánicos contra Dios no tenían base alguna, y demostró que por medio de una dependencia completa del poder y la gracia de Dios, los creyentes arrepentidos pueden elevarse por encima de las dificultades y frustraciones de las tentaciones cotidianas, y vivir una vida victoriosa sobre el pecado.",
+      "pdfPage": 118,
+      "pdfPageEnd": 119
+    }
+  ],
+  "references": [
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Sal. 8:5",
+      "label": "Salmos 8:5",
+      "id": "b19-8-5-8-5"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Apoc. 1:1",
+      "label": "Apocalipsis 1:1",
+      "id": "b66-1-1-1-1"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "3:5",
+      "label": "Apocalipsis 3:5",
+      "id": "b66-3-5-3-5"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "5:11",
+      "label": "Apocalipsis 5:11",
+      "id": "b66-5-11-5-11"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 103,
+      "chapterEnd": 103,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Sal. 103:20",
+      "label": "Salmos 103:20",
+      "id": "b19-103-20-103-20"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Heb. 1:14",
+      "label": "Hebreos 1:14",
+      "id": "b58-1-14-1-14"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Gén. 18,19",
+      "label": "Génesis 18",
+      "id": "b1-18-all-18-all"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Gén. 18,19",
+      "label": "Génesis 19",
+      "id": "b1-19-all-19-all"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Heb. 13:2",
+      "label": "Hebreos 13:2",
+      "id": "b58-13-2-13-2"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Isa. 14:12",
+      "label": "Isaías 14:12",
+      "id": "b23-14-12-14-12"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Eze. 28:14",
+      "label": "Ezequiel 28:14",
+      "id": "b26-28-14-28-14"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Eze. 28:12,15",
+      "label": "Ezequiel 28:12",
+      "id": "b26-28-12-28-12"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Eze. 28:12,15",
+      "label": "Ezequiel 28:15",
+      "id": "b26-28-15-28-15"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Eze. 28:17",
+      "label": "Ezequiel 28:17",
+      "id": "b26-28-17-28-17"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 12,
+      "verseEnd": 14,
+      "sourceGroup": "Isa. 14:12-14",
+      "label": "Isaías 14:12-14",
+      "id": "b23-14-12-14-14"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Apoc. 12:4",
+      "label": "Apocalipsis 12:4",
+      "id": "b66-12-4-12-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Apoc. 12:7",
+      "label": "Apocalipsis 12:7",
+      "id": "b66-12-7-12-7"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Apoc. 12:9",
+      "label": "Apocalipsis 12:9",
+      "id": "b66-12-9-12-9"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Gén. 3:5",
+      "label": "Génesis 3:5",
+      "id": "b1-3-5-3-5"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "ver Gén. 3",
+      "label": "Génesis 3",
+      "id": "b1-3-all-3-all"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Gén. 3:15, ver el capítulo 7",
+      "label": "Génesis 3:15",
+      "id": "b1-3-15-3-15"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Gén. 4:8",
+      "label": "Génesis 4:8",
+      "id": "b1-4-8-4-8"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Gén. 6:5",
+      "label": "Génesis 6:5",
+      "id": "b1-6-5-6-5"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 17,
+      "verseEnd": 20,
+      "sourceGroup": "Gén. 7:17-20",
+      "label": "Génesis 7:17-20",
+      "id": "b1-7-17-7-20"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Gén. 9:1,11",
+      "label": "Génesis 9:1",
+      "id": "b1-9-1-9-1"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Gén. 9:1,11",
+      "label": "Génesis 9:11",
+      "id": "b1-9-11-9-11"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "11",
+      "label": "Génesis 11",
+      "id": "b1-11-all-11-all"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 1,
+      "verseEnd": 3,
+      "sourceGroup": "Gén. 12:1-3",
+      "label": "Génesis 12:1-3",
+      "id": "b1-12-1-12-3"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "verseStart": 15,
+      "verseEnd": 18,
+      "sourceGroup": "22:15-18",
+      "label": "Génesis 22:15-18",
+      "id": "b1-22-15-22-18"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 6,
+      "verseEnd": 7,
+      "sourceGroup": "Job 1:6, 7",
+      "label": "Job 1:6-7",
+      "id": "b18-1-6-1-7"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 1,
+      "verseEnd": 7,
+      "sourceGroup": "ver también 2:1-7",
+      "label": "Job 2:1-7",
+      "id": "b18-2-1-2-7"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "ver Job 1:8",
+      "label": "Job 1:8",
+      "id": "b18-1-8-1-8"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "1 Cor. 4:9",
+      "label": "1 Corintios 4:9",
+      "id": "b46-4-9-4-9"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Rom. 14:23",
+      "label": "Romanos 14:23",
+      "id": "b45-14-23-14-23"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Juan 14:15",
+      "label": "Juan 14:15",
+      "id": "b43-14-15-14-15"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "1 Juan 3:4",
+      "label": "1 Juan 3:4",
+      "id": "b62-3-4-3-4"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Heb. 2:17",
+      "label": "Hebreos 2:17",
+      "id": "b58-2-17-2-17"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Mat. 4:3",
+      "label": "Mateo 4:3",
+      "id": "b40-4-3-4-3"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Mat. 3:17",
+      "label": "Mateo 3:17",
+      "id": "b40-3-17-3-17"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Mat. 4:4",
+      "label": "Mateo 4:4",
+      "id": "b40-4-4-4-4"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Mat. 4:9",
+      "label": "Mateo 4:9",
+      "id": "b40-4-9-4-9"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Mat. 4:10",
+      "label": "Mateo 4:10",
+      "id": "b40-4-10-4-10"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 45,
+      "verseEnd": 54,
+      "sourceGroup": "Juan 11:45-54",
+      "label": "Juan 11:45-54",
+      "id": "b43-11-45-11-54"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 26,
+      "chapterEnd": 26,
+      "verseStart": 63,
+      "verseEnd": 64,
+      "sourceGroup": "Mat. 26:63,64",
+      "label": "Mateo 26:63-64",
+      "id": "b40-26-63-26-64"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Juan 19:7",
+      "label": "Juan 19:7",
+      "id": "b43-19-7-19-7"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 31,
+      "verseEnd": 31,
+      "sourceGroup": "Juan 12:31",
+      "label": "Juan 12:31",
+      "id": "b43-12-31-12-31"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 13,
+      "verseEnd": 14,
+      "sourceGroup": "Mat. 16:13,14",
+      "label": "Mateo 16:13-14",
+      "id": "b40-16-13-16-14"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 15,
+      "verseEnd": 17,
+      "sourceGroup": "Mat. 16:15-17",
+      "label": "Mateo 16:15-17",
+      "id": "b40-16-15-16-17"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "Efe. 4:21",
+      "label": "Efesios 4:21",
+      "id": "b49-4-21-4-21"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Juan 14:5",
+      "label": "Juan 14:5",
+      "id": "b43-14-5-14-5"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Juan 14:6",
+      "label": "Juan 14:6",
+      "id": "b43-14-6-14-6"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Efe. 6:12",
+      "label": "Efesios 6:12",
+      "id": "b49-6-12-6-12"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Sal. 24:8",
+      "label": "Salmos 24:8",
+      "id": "b19-24-8-24-8"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 13,
+      "verseEnd": 18,
+      "sourceGroup": "Efe. 6:13-18",
+      "label": "Efesios 6:13-18",
+      "id": "b49-6-13-6-18"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Apoc. 14:2",
+      "label": "Apocalipsis 14:2",
+      "id": "b66-14-2-14-2"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 37,
+      "verseEnd": 37,
+      "sourceGroup": "Rom. 8:37",
+      "label": "Romanos 8:37",
+      "id": "b45-8-37-8-37"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Heb. 1:9",
+      "label": "Hebreos 1:9",
+      "id": "b58-1-9-1-9"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Juan 14:16",
+      "label": "Juan 14:16",
+      "id": "b43-14-16-14-16"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "compárese con Mat. 28:20",
+      "label": "Mateo 28:20",
+      "id": "b40-28-20-28-20"
+    }
+  ]
+}

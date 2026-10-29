@@ -1,0 +1,4316 @@
+{
+  "beliefNumber": 7,
+  "bookChapterTitle": "La naturaleza humana",
+  "groupInBookIndex": "LA DOCTRINA DEL HOMBRE",
+  "printedPages": [
+    87,
+    108
+  ],
+  "pdfPages": [
+    89,
+    110
+  ],
+  "transcriptionStatus": "automated-draft-needs-editorial-review",
+  "editorialNotes": [],
+  "referenceCorrections": [
+    {
+      "pdfPage": 96,
+      "original": "Éxo. 33:20-33",
+      "corrected": "Éxo. 33:20-23",
+      "reason": "El episodio de Moisés viendo las espaldas de Dios ocupa Éxodo 33:20-23. Éxodo 33 termina en el versículo 23."
+    },
+    {
+      "pdfPage": 102,
+      "original": "Gén. 4:8, 23; 6:1-5; 11-13",
+      "corrected": "Gén. 4:8, 23; 6:1-5; 6:11-13",
+      "reason": "El párrafo describe la corrupción y la violencia antes del diluvio; Génesis 6:11-13 contiene esos hechos. La lectura mecánica como capítulos 11-13 enlazaba Babel y Abraham, ajenos al argumento."
+    }
+  ],
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "text": "“ENTONCES DIJO DIOS: HAGAMOS AL HOMBRE a nuestra imagen, conforme a nuestra semejanza”. Al realizar la obra culminante de su creación, Dios no recurrió al poder de su palabra. En vez de ello, se inclinó en un gesto de amor para formar a esa nueva criatura a partir del polvo de la tierra. El escultor más creativo del mundo nunca podría producir un ser tan noble como el que Dios formó. Quizás un Miguel Ángel podría darle forma a un exterior exaltado, pero ¿qué de la anatomía y la fisiología cuidadosamente diseñadas para función y para belleza? La perfecta escultura yacía completa, con cada cabello, pestaña y uña en su lugar, pero Dios aún no había terminado. Este hombre no estaba destinado a permanecer inmóvil, llenándose de polvo, sino a vivir, a pensar, a crear y a crecer en gloria. Inclinándose sobre esa magnífica forma, el Creador “sopló en su nariz aliento de vida, y fue el hombre un ser viviente” (Gén. 2:7; ver 1:26). Dios, que conocía la necesidad que el hombre tendría de compañía, le preparó “ayuda idónea”. Dios hizo caer sobre Adán un “sueño profundo”, y mientras este dormía, extrajo una de sus costillas y la transformó en una mujer (Gén. 2:18,21, 22). “Y creó Dios al hombre a su imagen, a imagen de Dios lo creó; varón y hembra los creó”. Luego Dios los bendijo, y les dijo: “Fructificad y multiplicaos; llenad la tierra y sojuzgadla, y señoread en los peces del mar, en las aves de los cielos, y en todas las bestias que se mueven sobre la tierra”. Adán y Eva recibieron un hogar-jardín más espléndido que la más fina mansión del mundo. Había árboles, viñas, flores, colinas y valles, todo adornado por el mismo Señor. También había en el jardín dos árboles especiales, el árbol de la vida y el árbol del conocimiento del bien y del mal. Dios le concedió a la primera pareja permiso para comer libremente de todo árbol, excepto del árbol del conocimiento del bien y del mal (Gén. 2:8,9,17). Así se cumplió el acontecimiento culminante de la semana de la creación. “Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera” (Gén. 1:31).",
+      "pdfPage": 89,
+      "pdfPageEnd": 90,
+      "citations": [
+        {
+          "start": 914,
+          "end": 934,
+          "referenceIds": [
+            "b1-2-7-2-7",
+            "b1-1-26-1-26"
+          ]
+        },
+        {
+          "start": 1158,
+          "end": 1176,
+          "referenceIds": [
+            "b1-2-18-2-18",
+            "b1-2-21-2-22"
+          ]
+        },
+        {
+          "start": 1902,
+          "end": 1917,
+          "referenceIds": [
+            "b1-2-8-2-9",
+            "b1-2-17-2-17"
+          ]
+        },
+        {
+          "start": 2069,
+          "end": 2080,
+          "referenceIds": [
+            "b1-1-31-1-31"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El origen del hombre",
+      "pdfPage": 90
+    },
+    {
+      "kind": "paragraph",
+      "text": "Si bien en nuestros días muchos creen que los seres humanos se originaron a partir de las formas inferiores de vida animal, y que son el resultado de procesos naturales que requirieron miles de millones de años, tal idea no puede armonizar con el registro bíblico. La aceptación del hecho de que los seres humanos han estado sometidos a un proceso de generación es un componente crucial de la posición bíblica acerca de la naturaleza del hombre.1",
+      "pdfPage": 90
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dios creó al hombre. El origen de la raza humana se encuentra en un concilio divino. Dios dijo: “Hagamos al hombre” (Gén. 1:26). La forma plural del verbo hacer, se refiere a la Deidad trinitaria; Dios el Padre, Dios el Hijo, y Dios el Espíritu Santo (ver el cap. 2 de esta obra). De común acuerdo, entonces, Dios comenzó a crear el primer ser humano (Gén. 1:27).",
+      "pdfPage": 90,
+      "citations": [
+        {
+          "start": 116,
+          "end": 127,
+          "referenceIds": [
+            "b1-1-26-1-26"
+          ]
+        },
+        {
+          "start": 351,
+          "end": 362,
+          "referenceIds": [
+            "b1-1-27-1-27"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Creado del polvo de la tierra. Dios formó al hombre del “polvo de la tierra” (Gén. 2:7), usando materia preexistente, pero no otras formas de vida, como animales marinos o terrestres. Hasta que no hubo formado cada órgano y lo hubo colocado en su lugar, no introdujo el “aliento de vida” que hizo del hombre una persona viviente.",
+      "pdfPage": 90,
+      "citations": [
+        {
+          "start": 77,
+          "end": 87,
+          "referenceIds": [
+            "b1-2-7-2-7"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Creado según el modelo divino. Dios creó a cada uno de los otros animales: peces, aves, reptiles, insectos, mamíferos, etc., “según su especie” (Gén. 1:21, 24, 25). Cada especie tenía una forma típica, y la capacidad de reproducir su especie específica. El hombre, sin embargo, fue creado según el modelo divino, y no según modelos del reino animal. Dios dijo: “Hagamos al hombre a nuestra imanen, conforme a nuestra semejanza” (Gén. 1:26). Existe una separación muy definida entre los seres humanos y el reino animal. El registro genealógico de Lucas, al describir el origen de la raza humana, expresa esta diferencia con sencillez, pero en forma profunda: “Adán, hijo de Dios” (Luc. 3:38).",
+      "pdfPage": 90,
+      "pdfPageEnd": 91,
+      "citations": [
+        {
+          "start": 144,
+          "end": 163,
+          "referenceIds": [
+            "b1-1-21-1-21",
+            "b1-1-24-1-25"
+          ]
+        },
+        {
+          "start": 428,
+          "end": 439,
+          "referenceIds": [
+            "b1-1-26-1-26"
+          ]
+        },
+        {
+          "start": 679,
+          "end": 690,
+          "referenceIds": [
+            "b42-3-38-3-38"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La exaltada posición del hombre. La creación del hombre constituyó el cénit de toda la creación. Dios puso al hombre, creado a imagen del Dios soberano, a cargo del planeta Tierra y de toda la vida animal. L. Berkhof declara, refiriéndose a Adán: “Era su deber y privilegio hacer que toda la naturaleza y todos los seres creados que fueron colocados bajo su dominio, estuvieran sometidos a su voluntad y propósito, con el fin de que tanto él como todo su glorioso dominio magnificasen al Todopoderoso Creador y Señor del universo. Gén. 1:28; Sal. 8:4-9”.2",
+      "pdfPage": 91,
+      "citations": [
+        {
+          "start": 531,
+          "end": 540,
+          "referenceIds": [
+            "b1-1-28-1-28"
+          ]
+        },
+        {
+          "start": 542,
+          "end": 552,
+          "referenceIds": [
+            "b19-8-4-8-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La unidad de la raza humana. Las genealogías del Génesis demuestran que las generaciones sucesivas después de Adán y Eva descendían sin excepciones de esta primera pareja. En nuestra calidad de seres humanos todos compartimos la misma naturaleza, la cual constituye una unidad genética o genealógica. Pablo declaró: “Y de una sangre ha hecho todo el linaje de los hombres, para que habiten sobre toda la faz de la tierra” (Hech. 17:26). Además, vemos otras indicaciones de la unidad orgánica de nuestra raza en los asertos bíblicos de que la transgresión de Adán trajo pecado y muerte sobre todos, y en la provisión de salvación para todos por medio de Cristo (Rom. 5:12, 19; 1 Cor. 15:21, 22).",
+      "pdfPage": 91,
+      "citations": [
+        {
+          "start": 422,
+          "end": 435,
+          "referenceIds": [
+            "b44-17-26-17-26"
+          ]
+        },
+        {
+          "start": 660,
+          "end": 693,
+          "referenceIds": [
+            "b45-5-12-5-12",
+            "b45-5-19-5-19",
+            "b46-15-21-15-22"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La unidad de la naturaleza humana",
+      "pdfPage": 91
+    },
+    {
+      "kind": "paragraph",
+      "text": "¿Cuáles son las partes características de los seres humanos? ¿Están formados de varios componentes independientes, como un cuerpo, un alma y un espíritu?",
+      "pdfPage": 91
+    },
+    {
+      "kind": "paragraph",
+      "text": "El aliento de vida. Dios “formó al hombre del polvo de la tierra, y sopló en su nariz aliento de vida, y fue el hombre un ser viviente” (Gén. 2:7). Cuando Dios transformó los elementos de la tierra en un ser viviente, \"sopló” el “aliento de vida” en los pulmones del cuerpo inerte de Adán. Este aliento de vida es “el soplo del Omnipotente”, que da vida (Job 33:4), la chispa vital. Podríamos compararlo con las corrientes eléctricas que, cuando corren a través de diversos componentes eléctricos, transforman un panel gris e inerte de vidrio en una caja, convirtiéndolo en un cambiante cortinado de colores y acción, al encender un televisor a colores. La electricidad produce sonido y movimiento donde antes no había nada.",
+      "pdfPage": 91,
+      "pdfPageEnd": 92,
+      "citations": [
+        {
+          "start": 136,
+          "end": 146,
+          "referenceIds": [
+            "b1-2-7-2-7"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 364,
+          "referenceIds": [
+            "b18-33-4-33-4"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El hombre es un alma viviente. ¿Qué hizo el aliento de vida? Cuando Dios formó al ser humano a partir de los elementos de la tierra, todos los órganos estaban presentes: el corazón, los pulmones, los riñones, el hígado, el páncreas, el cerebro, etc.; todos perfectos, pero sin vida. Entonces Dios sopló sobre esta materia inerte el aliento de vida, “y fue el hombre un ser viviente”. La ecuación bíblica es bien clara: El polvo de la tierra (los elementos de la tierra) + el aliento de vida = un ser viviente o alma viviente. La unión de los elementos de la tierra con el espíritu de vida produjo un ser viviente o un alma. Este “aliento de vida” no se limita a la gente. Toda criatura viviente lo posee. La Biblia, por ejemplo, atribuye el aliento de vida tanto a los animales que entraron al arca de Noé como a los que no lo hicieron (Gén. 7:15, 22). El término hebreo de Génesis 2:7 que se ha traducido como “ser viviente” o “alma viviente”, es nefesh chayyah. Esta expresión no designa exclusivamente al hombre, ya que también se refiere a los animales marinos, los insectos, los reptiles y las bestias (Gén. 1:20, 24; 2:19). Nefesh, que se traduce como “ser” o “alma”, proviene de náfash, que significa “respirar”. Su equivalente griego en el Nuevo Testamento es psujé. “Por cuanto la respiración es la más conspicua evidencia de vida, el término nefesh básicamente designa al hombre como un ser viviente, una persona”.3 Cuando se lo usa en referencia a los animales, como en el relato de la creación, los describe como criaturas vivientes que Dios creó. Es importante notar que la Biblia dice que el hombre “fue” —es decir, llegó a ser— un ser viviente. No hay nada en el relato de la creación que indique que el hombre recibió un alma, es decir, alguna clase de entidad separada que en la creación se unió con el cuerpo humano.",
+      "pdfPage": 92,
+      "citations": [
+        {
+          "start": 836,
+          "end": 851,
+          "referenceIds": [
+            "b1-7-15-7-15",
+            "b1-7-22-7-22"
+          ]
+        },
+        {
+          "start": 874,
+          "end": 885,
+          "referenceIds": [
+            "b1-2-7-2-7"
+          ]
+        },
+        {
+          "start": 1107,
+          "end": 1128,
+          "referenceIds": [
+            "b1-1-20-1-20",
+            "b1-1-24-1-24",
+            "b1-2-19-2-19"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Una unidad indivisible. La importancia que tiene el relato de la creación para comprender correctamente la naturaleza del hombre no puede sobreestimarse. Al hacer énfasis en la unidad orgánica del hombre, la Escritura lo describe como un todo. ¿Cómo se relacionan entonces con la naturaleza humana el alma y el espíritu?",
+      "pdfPage": 92
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. El significado bíblico de alma. Como ya hemos mencionado, en el Antiguo Testamento el término “alma” es una traducción del hebreo nefesh. En Génesis 2:7 denota al hombre como un ser viviente después que el aliento de vida entró en un cuerpo físico formado de los elementos de la tierra. “Similarmente, una nueva alma viene a la existencia siempre que nace un niño; cada alma es una nueva unidad de vida con características especialísimas, diferente y separada de todas las otras unidades similares. Esta cualidad de individualidad en cada ser viviente, que lo hace constituir una entidad única, parece ser la idea que se destaca en el término hebreo nefesh. Cuando se lo usa en este sentido, nefesh no es una parte de la persona, es la persona; y en muchos casos, se lo traduce como ‘persona’ (ver Gén. 14:21; Núm. 5:6, 7; Deut. 10:22; Lev. 11:43). “Por otra parte, las expresiones tales como ‘mi alma’, 'tu alma’, ‘su alma’, etc., son por lo general modismos que reemplazan los pronombres personales yo, tú, él, etc. (ver Gén. 12:13; Lev. 11:43, 44; 19:8; Jos. 23:11; Sal. 3:2; Jer. 37:9, etc.). En más de 100 de 755 instancias en el Antiguo Testamento, la versión inglesa llamada “Versión del Rey Jacobo” traduce nefesh como vida (Gén. 9:4,5; 1 Sam. 19:5; Job 2:4,6; Sal. 31:13; etc.). “A menudo, nefesh se refiere a los deseos, los apetitos, o las pasiones (ver Deut. 23:24; Prov. 23:2; Ecl. 6:6, 7), y a veces se traduce como ‘apetito’ (Prov. 23:2). Puede referirse al asiento de los afectos (Gén. 34:3; Cant. 1:7; etc.), y ocasionalmente representa la parte volitiva del hombre como cuando se lo hace formar parte de expresiones como “saciarte” o “saciar tu deseo”, “como él quisiese”, “a su voluntad” (Deut. 23:24; Sal. 105:22; Jer. 34:16). En Números 31:19, el nefesh (traducido como persona), está muerto, y en Jueces 16:30 (traducido ‘yo’), muere. En Números 5:2 y 9:6 (‘muerto’) se refiere a un cadáver (compárese con Lev. 19:28; Núm. 9:7, 10 ). “El uso de la palabra griega psujé en el Nuevo Testamento, es similar al de nefesh en el Antiguo Testamento. Se la usa con referencia a la vida animal así como la humana (Apoc. 16:3). En diversos pasajes aparece traducida simplemente como ‘vida’ (ver Mat. 6:25; 16:25, etc.). En ciertas instancias se la usa simplemente para designar ‘gente’ (ver Hech. 7:14; 27:37; Rom. 13:1; 1 Ped. 3:20; etc.), y en otras es equivalente al pronombre personal (ver Mat. 12:18; 2 Cor. 12:15, etc). A veces se refiere a las emociones (Mar. 14:34; Luc. 2:35), a la mente (Hech. 14:2; Fil. 1:27) o al corazón (Efe. 6:6)”.4 La psujé no es inmortal, sino que se halla sujeta a la muerte (Apoc. 16:3); puede ser destruida (Mat. 10:28). La evidencia bíblica indica que a veces nefesh y psujé se refieren a la persona completa, y en otras ocasiones a un aspecto particular del ser humano, como los afectos, las emociones, los apetitos y los sentimientos. Sin embargo, este uso de ninguna manera muestra que el hombre sea un ser hecho de dos partes separadas y distintas. El cuerpo y el alma existen unidos; unidos forman un todo indivisible. El alma no tiene existencia consciente fuera del cuerpo. No hay texto alguno que indique que el alma sobrevive al cuerpo como una entidad consciente. 2. El significado bíblico de espíritu. La palabra hebrea nefesh, traducida como alma’ denota individualidad o personalidad; por su parte, la palabra hebrea del Antiguo Testamento, rüaj, traducida como ‘espíritu’, se refiere a la chispa de vida esencial para la existencia humana. Describe la energía divina o principio vital que anima a los seres humanos. “ Rüaj ocurre 377 veces en el Antiguo Testamento, y su traducción más frecuente es espíritu, viento, o aliento (Gén. 8:1, etc.). Se lo usa también para denotar vitalidad (Jue. 15:19), valor (Jos. 2:11), genio o ira (Jue. 8:3), disposición (Isa. 54:6), carácter moral (Eze. 11:19), y el asiento de las emociones (1 Sam. 1:15). \"En el sentido de soplo o aliento, el rüaj de los hombre es idéntico al rüaj de los animales (Ecl. 3:19). El rüaj del hombre abandona el cuerpo al morir (Sal. 146:4) y vuelve a Dios (Ecl. 12:7; compárese con Job 34:14). Rüaj se usa frecuentemente con referencia al Espíritu de Dios, como en Isa. 63:10. En el Antiguo Testamento, y con respecto al hombre, la palabra rüaj nunca denota una entidad inteligente capaz de existir separada de un cuerpo físico. \"El equivalente de rüaj en el Nuevo Testamento es pnéuma, 'espíritu’, derivado de pneo, ‘soplar’, o ‘respirar’. Tal como sucede con rüaj, no hay nada inherente en la palabra pnéuma que denote una entidad existente consciente fuera del cuerpo; tampoco implican de manera alguna un concepto tal los usos de este término con respecto al hombre que presenta el Nuevo Testamento. En pasajes tales como Romanos 8:15, 1 Corintios 4:21, 2 Timoteo 1:7 y 1 Juan 4:6, pnéuma denota ‘temperamento’, ‘actitud’, o ‘estado emocional’. Se lo usa también para designar diversos aspectos de la personalidad, como en Gál. 6:1; Rom. 12:11, etc. Como sucede con rüaj, el pnéuma se entrega al Señor al morir (Luc. 23:46; Hech. 7:59). Como rüaj, pnéuma se usa también para designar al Espíritu de Dios (1 Cor. 2:11,14; Efe. 4:30; Heb. 2:4; 1 Ped. 1:12; 2 Ped. 1:21; y otros)”.5",
+      "pdfPage": 92,
+      "pdfPageEnd": 94,
+      "citations": [
+        {
+          "start": 144,
+          "end": 155,
+          "referenceIds": [
+            "b1-2-7-2-7"
+          ]
+        },
+        {
+          "start": 796,
+          "end": 850,
+          "referenceIds": [
+            "b1-14-21-14-21",
+            "b4-5-6-5-7",
+            "b5-10-22-10-22",
+            "b3-11-43-11-43"
+          ]
+        },
+        {
+          "start": 1021,
+          "end": 1098,
+          "referenceIds": [
+            "b1-12-13-12-13",
+            "b3-11-43-11-44",
+            "b3-19-8-19-8",
+            "b6-23-11-23-11",
+            "b19-3-2-3-2",
+            "b24-37-9-37-9"
+          ]
+        },
+        {
+          "start": 1235,
+          "end": 1289,
+          "referenceIds": [
+            "b1-9-4-9-5",
+            "b9-19-5-19-5",
+            "b18-2-4-2-4",
+            "b18-2-6-2-6",
+            "b19-31-13-31-13"
+          ]
+        },
+        {
+          "start": 1363,
+          "end": 1405,
+          "referenceIds": [
+            "b5-23-24-23-24",
+            "b20-23-2-23-2",
+            "b21-6-6-6-7"
+          ]
+        },
+        {
+          "start": 1443,
+          "end": 1455,
+          "referenceIds": [
+            "b20-23-2-23-2"
+          ]
+        },
+        {
+          "start": 1499,
+          "end": 1527,
+          "referenceIds": [
+            "b1-34-3-34-3",
+            "b22-1-7-1-7"
+          ]
+        },
+        {
+          "start": 1710,
+          "end": 1748,
+          "referenceIds": [
+            "b5-23-24-23-24",
+            "b19-105-22-105-22",
+            "b24-34-16-34-16"
+          ]
+        },
+        {
+          "start": 1753,
+          "end": 1766,
+          "referenceIds": [
+            "b4-31-19-31-19"
+          ]
+        },
+        {
+          "start": 1822,
+          "end": 1834,
+          "referenceIds": [
+            "b7-16-30-16-30"
+          ]
+        },
+        {
+          "start": 1863,
+          "end": 1880,
+          "referenceIds": [
+            "b4-5-2-5-2",
+            "b4-9-6-9-6"
+          ]
+        },
+        {
+          "start": 1916,
+          "end": 1957,
+          "referenceIds": [
+            "b3-19-28-19-28",
+            "b4-9-7-9-7",
+            "b4-9-10-9-10"
+          ]
+        },
+        {
+          "start": 2129,
+          "end": 2141,
+          "referenceIds": [
+            "b66-16-3-16-3"
+          ]
+        },
+        {
+          "start": 2205,
+          "end": 2233,
+          "referenceIds": [
+            "b40-6-25-6-25",
+            "b40-16-25-16-25"
+          ]
+        },
+        {
+          "start": 2301,
+          "end": 2354,
+          "referenceIds": [
+            "b44-7-14-7-14",
+            "b44-27-37-27-37",
+            "b45-13-1-13-1",
+            "b60-3-20-3-20"
+          ]
+        },
+        {
+          "start": 2404,
+          "end": 2439,
+          "referenceIds": [
+            "b40-12-18-12-18",
+            "b47-12-15-12-15"
+          ]
+        },
+        {
+          "start": 2476,
+          "end": 2499,
+          "referenceIds": [
+            "b41-14-34-14-34",
+            "b42-2-35-2-35"
+          ]
+        },
+        {
+          "start": 2512,
+          "end": 2535,
+          "referenceIds": [
+            "b44-14-2-14-2",
+            "b50-1-27-1-27"
+          ]
+        },
+        {
+          "start": 2549,
+          "end": 2559,
+          "referenceIds": [
+            "b49-6-6-6-6"
+          ]
+        },
+        {
+          "start": 2625,
+          "end": 2637,
+          "referenceIds": [
+            "b66-16-3-16-3"
+          ]
+        },
+        {
+          "start": 2659,
+          "end": 2671,
+          "referenceIds": [
+            "b40-10-28-10-28"
+          ]
+        },
+        {
+          "start": 3694,
+          "end": 3710,
+          "referenceIds": [
+            "b1-8-1-8-1"
+          ]
+        },
+        {
+          "start": 3753,
+          "end": 3765,
+          "referenceIds": [
+            "b7-15-19-15-19"
+          ]
+        },
+        {
+          "start": 3773,
+          "end": 3784,
+          "referenceIds": [
+            "b6-2-11-2-11"
+          ]
+        },
+        {
+          "start": 3798,
+          "end": 3808,
+          "referenceIds": [
+            "b7-8-3-8-3"
+          ]
+        },
+        {
+          "start": 3822,
+          "end": 3833,
+          "referenceIds": [
+            "b23-54-6-54-6"
+          ]
+        },
+        {
+          "start": 3850,
+          "end": 3862,
+          "referenceIds": [
+            "b26-11-19-11-19"
+          ]
+        },
+        {
+          "start": 3894,
+          "end": 3907,
+          "referenceIds": [
+            "b9-1-15-1-15"
+          ]
+        },
+        {
+          "start": 4002,
+          "end": 4013,
+          "referenceIds": [
+            "b21-3-19-3-19"
+          ]
+        },
+        {
+          "start": 4062,
+          "end": 4074,
+          "referenceIds": [
+            "b19-146-4-146-4"
+          ]
+        },
+        {
+          "start": 4091,
+          "end": 4127,
+          "referenceIds": [
+            "b21-12-7-12-7",
+            "b18-34-14-34-14"
+          ]
+        },
+        {
+          "start": 4200,
+          "end": 4210,
+          "referenceIds": [
+            "b23-63-10-63-10"
+          ]
+        },
+        {
+          "start": 4761,
+          "end": 4776,
+          "referenceIds": [
+            "b45-8-15-8-15",
+            "b45-8-1-8-1"
+          ]
+        },
+        {
+          "start": 4793,
+          "end": 4810,
+          "referenceIds": [
+            "b55-1-7-1-7",
+            "b55-1-1-1-1"
+          ]
+        },
+        {
+          "start": 4811,
+          "end": 4819,
+          "referenceIds": [
+            "b43-4-6-4-6"
+          ]
+        },
+        {
+          "start": 4962,
+          "end": 4970,
+          "referenceIds": [
+            "b48-6-1-6-1"
+          ]
+        },
+        {
+          "start": 4972,
+          "end": 4982,
+          "referenceIds": [
+            "b45-12-11-12-11"
+          ]
+        },
+        {
+          "start": 5050,
+          "end": 5074,
+          "referenceIds": [
+            "b42-23-46-23-46",
+            "b44-7-59-7-59"
+          ]
+        },
+        {
+          "start": 5143,
+          "end": 5215,
+          "referenceIds": [
+            "b46-2-11-2-11",
+            "b46-2-14-2-14",
+            "b49-4-30-4-30",
+            "b58-2-4-2-4",
+            "b60-1-12-1-12",
+            "b61-1-21-1-21"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. Unidad de cuerpo, alma y espíritu. ¿Cuál es la relación entre el cuerpo, el alma y el espíritu? ¿Qué influencia tiene esta relación sobre la unidad del hombre?",
+      "pdfPage": 94
+    },
+    {
+      "kind": "paragraph",
+      "text": "a. Una doble unión. Por cuanto la Biblia considera que la naturaleza del hombre es una unidad, no define en forma precisa la relación que existe entre el cuerpo, el alma y el espíritu. En ocasiones, el alma y el espíritu se usan en forma intercambiable. Notemos su paralelismo en la expresión de gozo de María después de la anunciación. “Engrandece mi alma al Señor; y mi espíritu se regocija en Dios mi Salvador” (Luc. 1:46,47). En una instancia, Jesús caracteriza al hombre como una combinación de cuerpo y alma (Mat. 10:28), y en otra ocasión Pablo se refiere al cuerpo y al espíritu (1 Cor. 7:34). En la primera cita, alma se refiere a las facultades superiores del hombre, presumiblemente la mente, a través de la cual se comunica con Dios. En la siguiente, espíritu se refiere a esta facultad más elevada. En ambas instancias, el cuerpo incluye el aspecto físico además de emocional, en la persona.",
+      "pdfPage": 94,
+      "pdfPageEnd": 95,
+      "citations": [
+        {
+          "start": 414,
+          "end": 428,
+          "referenceIds": [
+            "b42-1-46-1-47"
+          ]
+        },
+        {
+          "start": 514,
+          "end": 526,
+          "referenceIds": [
+            "b40-10-28-10-28"
+          ]
+        },
+        {
+          "start": 587,
+          "end": 600,
+          "referenceIds": [
+            "b46-7-34-7-34"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "b. Una triple unión. Hay una excepción a la caracterización general del hombre como una entidad que comprende una unión doble. Pablo, que se refiere a la unión doble de cuerpo y espíritu, también habla en términos de una unión triple. Declara: “Y el mismo Dios de paz os santifique por completo; y todo vuestro ser, espíritu, alma y cuerpo, sea guardado irreprensible para la venida de nuestro Señor Jesucristo” (1 Tes. 5:23). Este pasaje expresa el deseo de Pablo, de que ninguno de estos aspectos de la persona sea excluido del proceso de la santificación. En esta instancia, el término espíritu puede comprenderse como “el principio superior de inteligencia y pensamiento de que ha sido dotado el hombre, y con el cual Dios puede comunicarse por su Espíritu (ver Rom. 8:16). Es por la renovación de la mente por medio de las actividades del Espíritu Santo cómo el individuo puede transformarse a la semejanza de Cristo (ver Rom. 12:1, 2). “Por ‘alma’... cuando se la distingue del espíritu, podemos comprender esa parte de la naturaleza del hombre que encuentra expresión a través de los instintos, las emociones y los deseos. Esta parte de nuestra naturaleza también puede ser santificada. Cuando gracias a la obra del Espíritu Santo, la mente es puesta en conformidad con la mente de Dios, y la razón santificada se impone sobre la naturaleza inferior, los impulsos —que de otro modo serían contrarios a Dios— se sujetan a su voluntad”.6 El cuerpo, que está bajo el control ya sea de la naturaleza superior o de la inferior, es la constitución física: la carne, la sangre y los huesos. El orden en que Pablo coloca los elementos, primero el espíritu, luego el alma y finalmente el cuerpo, no es una mera coincidencia. Cuando el espíritu está santificado, la mente se halla bajo el control divino. A su vez, la mente santificada tendrá una influencia santificadora sobre el alma, es decir, sobre los deseos, los sentimientos y las emociones. La persona en la cual se lleva a cabo esta santificación no abusará de su cuerpo, y por lo tanto su salud física será excelente. De este modo, el cuerpo se convierte en el instrumento santificado a través del cual el cristiano puede servir a su Señor y Salvador. El llamado que hace Pablo a la santificación se halla claramente fundado en el concepto de la unidad de la naturaleza humana, y revela que la preparación efectiva para la Segunda Venida de Cristo hace necesaria la preparación de toda la persona: espíritu, alma y cuerpo. c. Una unión estrecha e indivisible. Es claro que cada ser humano es una unidad indivisible. El cuerpo, alma y espíritu funcionan en estrecha cooperación, revelando una relación intensamente interdependiente entre las facultades espirituales, mentales y físicas de una persona. Las deficiencias es un aspecto estorbarán a los otros dos. Una mente o espíritu confuso, impuro y enfermo, tendrá un efecto destructivo sobre la salud física y emocional del individuo. Lo contrario es también la verdad. Una constitución física débil, enferma o sufriente, generalmente afectará en forma negativa nuestra salud emocional y espiritual. El impacto que las facultades tienen unas sobre otras, significa que cada individuo tiene una responsabilidad que Dios mismo le ha asignado, en el sentido de mantener sus facultades en la mejor condición posible. Hacer eso constituye una parte vital del proceso de ser restaurados a la imagen del Creador.",
+      "pdfPage": 95,
+      "pdfPageEnd": 96,
+      "citations": [
+        {
+          "start": 412,
+          "end": 425,
+          "referenceIds": [
+            "b52-5-23-5-23"
+          ]
+        },
+        {
+          "start": 761,
+          "end": 776,
+          "referenceIds": [
+            "b45-8-16-8-16"
+          ]
+        },
+        {
+          "start": 922,
+          "end": 940,
+          "referenceIds": [
+            "b45-12-1-12-2"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El hombre a imagen de Dios",
+      "pdfPage": 96
+    },
+    {
+      "kind": "paragraph",
+      "text": "La pareja de seres vivientes que Dios creó en el sexto día de la creación fue hecha “a imagen de Dios” (Gén. 1:27). ¿Qué implica ser creados a imagen de Dios?",
+      "pdfPage": 96,
+      "citations": [
+        {
+          "start": 103,
+          "end": 114,
+          "referenceIds": [
+            "b1-1-27-1-27"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Creados a imagen y semejanza de Dios. Con frecuencia se sugiere que las dimensiones humanas morales y espirituales revelan algo acerca de la naturaleza moral y espiritual de Dios. Pero por cuanto la Biblia enseña que el hombre comprende una unidad indivisible de cuerpo, mente y alma, las características físicas del hombre también deben de algún modo reflejar la imagen de Dios. Pero, ¿no es Dios un espíritu? ¿Cómo puede un ser espiritual estar asociado con una forma corporal? Un breve estudio de los ángeles revela que, a semejanza de Dios, ellos también son seres espirituales (Heb. 1:7, 14). Sin embargo, siempre aparecen en forma humana (Gén. 18:1-19:22; Dan. 9:21; Luc. 1:11-38; Hech. 12:5-10). ¿Es posible que un ser espiritual pueda tener un “cuerpo espiritual” con forma y rasgos definidos (ver 1 Cor. 15:44)? La Biblia indica que algunas personas han visto a Dios, o partes de su persona. Moisés, Aarón, Nadab, Abiú y los 70 ancianos “vieron al Dios de Israel” (Éxo. 24:10). En su encuentro con Moisés en el Sinaí, Dios —si bien rehusó mostrar su rostro—, después de cubrir a Moisés con sus manos, le permitió contemplar sus espaldas (Éxo. 33:20-23). Dios se le apareció a Daniel en una visión de la escena del juicio, mostrándose como el Anciano de Días, sentado en un trono (Dan. 7:9, 10). Pablo describe a Cristo como “la imagen del Dios invisible” (Col. 1:15) y “la imagen misma de su sustancia” (Heb. 1:3). Estos pasajes parecen indicar que",
+      "pdfPage": 96,
+      "citations": [
+        {
+          "start": 582,
+          "end": 596,
+          "referenceIds": [
+            "b58-1-7-1-7",
+            "b58-1-14-1-14"
+          ]
+        },
+        {
+          "start": 644,
+          "end": 701,
+          "referenceIds": [
+            "b1-18-1-19-22",
+            "b27-9-21-9-21",
+            "b42-1-11-1-38",
+            "b44-12-5-12-10"
+          ]
+        },
+        {
+          "start": 801,
+          "end": 819,
+          "referenceIds": [
+            "b46-15-44-15-44"
+          ]
+        },
+        {
+          "start": 973,
+          "end": 985,
+          "referenceIds": [
+            "b2-24-10-24-10"
+          ]
+        },
+        {
+          "start": 1146,
+          "end": 1161,
+          "referenceIds": [
+            "b2-33-20-33-23"
+          ]
+        },
+        {
+          "start": 1288,
+          "end": 1302,
+          "referenceIds": [
+            "b27-7-9-7-10"
+          ]
+        },
+        {
+          "start": 1364,
+          "end": 1375,
+          "referenceIds": [
+            "b51-1-15-1-15"
+          ]
+        },
+        {
+          "start": 1412,
+          "end": 1422,
+          "referenceIds": [
+            "b58-1-3-1-3"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Dios es un ser personal y que posee una forma personal. Esto no debe sorprendernos, puesto que el hombre fue creado a imagen de Dios. El hombre fue creado “un poco menor que los ángeles\" (Heb. 2:7), una indicación de que fue dotado de dones mentales y espirituales. Si bien Adán, al ser creado, no poseía experiencia, ni desarrollo del carácter, fue hecho “recto” (Ecl. 7:29), lo cual constituye una referencia a su rectitud moral.7 Como poseía la imagen moral de Dios, era justo además de santo (ver Efe. 4:24), y era parte de la creación que Dios consideró buena “en gran manera\" (Gén. 1:31). Por cuanto el hombre fue creado a la imagen moral de Dios, se le dio la oportunidad de demostrar su amor y lealtad a su Creador. A semejanza de Dios, tenía la capacidad de escoger, es decir, la libertad de pensar y actuar con referencia a imperativos morales. De este modo, era libre de amar y obedecer o de desconfiar y desobedecer. Dios corrió el riesgo de que el hombre escogiera en forma equivocada, porque únicamente poseyendo la libertad de escoger podría el hombre desarrollar un carácter que exhibiera plenamente el principio del amor que es la esencia de Dios mismo (1 Juan 4:8). Su destino era alcanzar la mayor expresión de la imagen de Dios: Amar a Dios con todo su corazón, alma y mente, y amar a otros como a sí mismo (Mat. 22:36-40).",
+      "pdfPage": 97,
+      "citations": [
+        {
+          "start": 187,
+          "end": 197,
+          "referenceIds": [
+            "b58-2-7-2-7"
+          ]
+        },
+        {
+          "start": 364,
+          "end": 375,
+          "referenceIds": [
+            "b21-7-29-7-29"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 511,
+          "referenceIds": [
+            "b49-4-24-4-24"
+          ]
+        },
+        {
+          "start": 582,
+          "end": 593,
+          "referenceIds": [
+            "b1-1-31-1-31"
+          ]
+        },
+        {
+          "start": 1170,
+          "end": 1182,
+          "referenceIds": [
+            "b62-4-8-4-8"
+          ]
+        },
+        {
+          "start": 1327,
+          "end": 1342,
+          "referenceIds": [
+            "b40-22-36-22-40"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Creado para establecer relaciones con sus semejantes. Dios dijo: “No es bueno que el hombre esté solo” (Gén. 2:18), y creó a Eva. Así como los tres miembros de la Deidad se hallan unidos en una relación de amor, también nosotros fuimos creados para gozar de la comunión que es posible en la amistad o el matrimonio (Gén. 2:18). Al entrar en esta clase de relaciones, tenemos la oportunidad de vivir por los demás. Ser genuinamente humano significa estar orientado hacia una relación. El desarrollo de este aspecto de la imagen de Dios constituye una parte integral de la armonía y la prosperidad del reino de Dios.",
+      "pdfPage": 97,
+      "citations": [
+        {
+          "start": 103,
+          "end": 114,
+          "referenceIds": [
+            "b1-2-18-2-18"
+          ]
+        },
+        {
+          "start": 315,
+          "end": 326,
+          "referenceIds": [
+            "b1-2-18-2-18"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Creados para ser mayordomos del ambiente. Dios dijo: “Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza; y señoree en los peces del mar, en las aves de los cielos, en las bestias, en toda la tierra, y en todo animal que se arrastra sobre la tierra” (Gén. 1:26). En este pasaje, Dios menciona en la misma frase la imagen divina del hombre y su dominio sobre la creación inferior. El hombre fue colocado sobre los órdenes inferiores de la creación en calidad de representante de Dios. El reino animal no puede comprender la soberanía de Dios, pero muchos animales son capaces de amar y servir al hombre. David se refiere al dominio del hombre en los siguientes términos: “Le hiciste señorear sobre las obras de tus manos; todo lo pusiste debajo de sus pies” (Sal. 8:6-8). La exaltada posición del hombre indicaba la gloria y el honor con los cuales fue coronado (Sal. 8:5). Suya era la responsabilidad de gobernar con bondad el mundo, reflejando el benéfico gobierno de Dios sobre el universo. De este modo, vemos que no somos víctimas de las circunstancias, dominados por fuerzas ambientales. Más bien, Dios nos ha comisionado para hacer una contribución positiva al formar el ambiente, usando cada situación en la cual nos vemos colocados como una oportunidad para cumplir la voluntad de Dios. La aceptación de estos postulados provee la clave para mejorar las relaciones humanas en un mundo en el cual abunda el quebrantamiento. Provee además la solución al problema que representa el consumo egoísta de los recursos naturales del mundo, y la desconsiderada contaminación del aire y el agua que lleva a un deterioro progresivo de la calidad de la vida. La adopción de la perspectiva bíblica acerca de la naturaleza humana provee la única seguridad de un futuro próspero.",
+      "pdfPage": 97,
+      "pdfPageEnd": 98,
+      "citations": [
+        {
+          "start": 264,
+          "end": 275,
+          "referenceIds": [
+            "b1-1-26-1-26"
+          ]
+        },
+        {
+          "start": 771,
+          "end": 783,
+          "referenceIds": [
+            "b19-8-6-8-8"
+          ]
+        },
+        {
+          "start": 875,
+          "end": 885,
+          "referenceIds": [
+            "b19-8-5-8-5"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Creados para imitar a Dios. Como seres humanos, debemos actuar como Dios porque fuimos hechos para ser como Dios. Si bien es cierto que somos humanos, y no divinos, dentro de nuestro dominio debemos reflejar a nuestro Hacedor en todas las maneras posibles. El cuarto mandamiento destaca esta obligación: Debemos seguir el ejemplo de nuestro Creador, trabajando los primeros seis días de la semana y reposando en el séptimo (Éxo. 20:8-11).",
+      "pdfPage": 98,
+      "citations": [
+        {
+          "start": 423,
+          "end": 437,
+          "referenceIds": [
+            "b2-20-8-20-11"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Creados con inmortalidad condicional. En la creación, nuestros primeros padres recibieron la inmortalidad, si bien su disfrute de ella estaba condicionado a su obediencia. Como tenían acceso al árbol de la vida, habían sido destinados a vivir para siempre. La única forma en que podían poner en peligro su estado de inmortalidad era por la transgresión del mandamiento que les prohibía comer del árbol del conocimiento del bien y del mal. La desobediencia los conduciría a la muerte (Gén. 2:17; ver 3:22).",
+      "pdfPage": 98,
+      "citations": [
+        {
+          "start": 483,
+          "end": 504,
+          "referenceIds": [
+            "b1-2-17-2-17",
+            "b1-3-22-3-22"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La caída",
+      "pdfPage": 98
+    },
+    {
+      "kind": "paragraph",
+      "text": "A pesar de haber sido creados perfectos y a imagen de Dios, y de estar colocados en un ambiente perfecto, Adán y Eva se convirtieron en transgresores. ¿Cómo sucedió una transformación tan radical y terrible?",
+      "pdfPage": 98
+    },
+    {
+      "kind": "paragraph",
+      "text": "El origen del pecado. Si Dios creó un mundo perfecto, ¿cómo pudo desarrollarse el pecado?",
+      "pdfPage": 98
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. Dios y el origen del pecado. Dios el Creador, ¿es también el autor del pecado? La Escritura nos dice que por naturaleza Dios es santo (Isa. 6:3) y que no hay ninguna injusticia en él. “Él es la Roca, cuya obra es perfecta, porque todos sus caminos son rectitud; Dios de verdad, y sin ninguna iniquidad en él” (Deut. 32:4). La Escritura declara: “Lejos esté de Dios la impiedad, y del Omnipotente la iniquidad” (Job 34:10). “Dios no puede ser tentado por el mal, ni él tienta a nadie” (Sant. 1:13); Dios odia el pecado (Sal. 5:4; 11:5). La creación original de Dios era \"en gran manera buena” (Gén. 1:31). Lejos de ser el autor del pecado, Dios es “autor de eterna salvación para todos los que le obedecen” (Heb. 5:9).",
+      "pdfPage": 98,
+      "pdfPageEnd": 99,
+      "citations": [
+        {
+          "start": 137,
+          "end": 147,
+          "referenceIds": [
+            "b23-6-3-6-3"
+          ]
+        },
+        {
+          "start": 312,
+          "end": 324,
+          "referenceIds": [
+            "b5-32-4-32-4"
+          ]
+        },
+        {
+          "start": 413,
+          "end": 424,
+          "referenceIds": [
+            "b18-34-10-34-10"
+          ]
+        },
+        {
+          "start": 487,
+          "end": 499,
+          "referenceIds": [
+            "b59-1-13-1-13"
+          ]
+        },
+        {
+          "start": 521,
+          "end": 537,
+          "referenceIds": [
+            "b19-5-4-5-4",
+            "b19-11-5-11-5"
+          ]
+        },
+        {
+          "start": 595,
+          "end": 606,
+          "referenceIds": [
+            "b1-1-31-1-31"
+          ]
+        },
+        {
+          "start": 709,
+          "end": 719,
+          "referenceIds": [
+            "b58-5-9-5-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "2. El autor del pecado. Dios hubiera podido evitar el pecado si hubiese creado un universo lleno de autómatas que solo hicieran aquello para lo cual fueron programados. Pero el amor de Dios requería que creara seres que pudiesen responder libremente a su amor; y una respuesta así es posible solo de parte de seres que tienen libertad de elección. La decisión de proveer su creación con esta clase de libertad, significaba sin embargo que Dios debía arriesgarse a que algunos seres creados se apartaran de él. Desgraciadamente, Lucifer, un ser de elevada posición en el mundo angélico, se volvió orgulloso (Eze. 28:17; ver 1 Tim. 3:6). Descontento con su posición en el gobierno de Dios (compárese con Judas 6), comenzó a codiciar el lugar que le correspondía a Dios (Isa. 14:12-14). En un intento por obtener el control del universo, este ángel caído sembró la semilla del descontento entre sus compañeros, y obtuvo la lealtad de muchos. El conflicto celestial que resultó se terminó cuando Lucifer, conocido ahora como Satanás, el adversario, y sus ángeles fueron expulsados del cielo (Apoc. 12:4, 7-9; ver también el capítulo 8 de esta obra).",
+      "pdfPage": 99,
+      "citations": [
+        {
+          "start": 606,
+          "end": 634,
+          "referenceIds": [
+            "b26-28-17-28-17",
+            "b54-3-6-3-6"
+          ]
+        },
+        {
+          "start": 687,
+          "end": 710,
+          "referenceIds": [
+            "b65-1-6-1-6"
+          ]
+        },
+        {
+          "start": 767,
+          "end": 782,
+          "referenceIds": [
+            "b23-14-12-14-14"
+          ]
+        },
+        {
+          "start": 1087,
+          "end": 1144,
+          "referenceIds": [
+            "b66-12-4-12-4",
+            "b66-12-7-12-9"
+          ]
+        }
+      ],
+      "citationIssues": [
+        {
+          "start": 1087,
+          "end": 1144,
+          "text": "(Apoc. 12:4, 7-9; ver también el capítulo 8 de esta obra)",
+          "fragments": [
+            {
+              "sourceGroup": "ver también el capítulo 8 de esta obra",
+              "fragment": "ver también el capítulo 8 de esta obra",
+              "reason": "Remisión a capítulo sin versículo: requiere revisión de contexto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. El origen del pecado en la raza humana. Sin dejarse conmover por su expulsión del cielo, Satanás decidió engañar a otros para que se unieran en su rebelión contra el gobierno de Dios. Su atención se dirigió a la recientemente creada raza humana. ¿Qué podía hacer para que Adán y Eva se rebelaran? Vivían en un mundo perfecto, en el cual su Creador había provisto para todas sus necesidades. ¿Cómo podrían ser inducidos a sentirse descontentos y desconfiar del Ser que era la fuente de su felicidad? El relato del primer pecado provee la respuesta. En su asalto a los primeros seres humanos, Satanás decidió tomarlos desprevenidos. Acercándose a Eva cuando estaba próxima al árbol del conocimiento del bien y del mal, Satanás, disfrazado de serpiente, le hizo preguntas acerca de la prohibición divina de comer del árbol. Cuando Eva afirmó que Dios había dicho que si comían del árbol morirían, Satanás contradijo la prohibición divina, diciendo: “No moriréis”. Despertó la curiosidad de la mujer, sugiriendo que Dios estaba procurando impedirle gozar de una maravillosa y nueva experiencia: La de ser como Dios (Gén. 3:4, 5). Inmediatamente se arraigó la duda acerca de la Palabra de Dios. Eva se dejó cegar por las grandes posibilidades que parecía ofrecer la fruta. La tentación comenzó a atacar su mente santificada. La creencia en la Palabra de Dios ahora se transformó en creencia en la palabra de Satanás. De pronto se le ocurrió que “el árbol era bueno para comer, y que era agradable a los ojos, y árbol codiciable para alcanzar la sabiduría”. Descontenta con su posición, Eva cedió a la tentación de llegar a ser como Dios. “Y tomó de su fruto, y comió; y dio también a su marido, el cual comió así como ella\". (Gén. 3:6). Por confiar en sus sentidos antes que en la Palabra de Dios, Eva dejó de depender del Creador, cayó de su elevada posición, y se hundió en el pecado. Por lo tanto, la caída de la raza humana se caracterizó, por encima de todo, por la falta de fe en Dios y su Palabra. Esta incredulidad llevó a la desobediencia, la cual, a su vez, resultó en una relación quebrantada, y finalmente en la separación entre Dios y el hombre.",
+      "pdfPage": 99,
+      "pdfPageEnd": 100,
+      "citations": [
+        {
+          "start": 1114,
+          "end": 1127,
+          "referenceIds": [
+            "b1-3-4-3-5"
+          ]
+        },
+        {
+          "start": 1723,
+          "end": 1733,
+          "referenceIds": [
+            "b1-3-6-3-6"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El impacto del pecado. ¿Cuáles fueron las consecuencias inmediatas y de largo alcance que tuvo el pecado? ¿Cómo afectó a la naturaleza humana? ¿Y cuál es la posibilidad de eliminar el pecado y mejorar la naturaleza humana?",
+      "pdfPage": 100
+    },
+    {
+      "kind": "paragraph",
+      "text": "1. Las consecuencias inmediatas. La primera consecuencia del pecado fue un cambio en la naturaleza humana que afectó las relaciones interpersonales, así como la relación con Dios. La nueva experiencia reveladora y estimulante solo produjo en Adán y Eva sentimientos de vergüenza (Gén. 3:7). En vez de convertirse en seres iguales a Dios, como Satanás había prometido, se sintieron atemorizados y procuraron esconderse (Gén. 3:8-10). Cuando Dios interrogó a Adán y a Eva acerca de su pecado, en vez de admitir su falta, procuraron transferir su propia culpabilidad. Adán dijo: “La mujer que me diste por compañera me dio del árbol, y yo comí” (Gén. 3:12). Sus palabras implican que Eva y, en forma indirecta, Dios eran responsables de su pecado, mostrando claramente cómo su trasgresión quebrantó su relación con su esposa y su Creador. Eva, a su vez, culpó a la serpiente (Gén. 3:13). Las nefastas consecuencias que tuvo la trasgresión revelan la seriedad de la falta cometida. Dios maldijo a la serpiente, el instrumento de Satanás, condenándola a arrastrarse sobre su pecho, como un recuerdo perpetuo de la caída (Gén. 3:14). A la mujer, Dios le dijo: “Multiplicaré en gran manera los dolores en tus preñeces; con dolor darás a luz los hijos; y tu deseo será para tu marido, y él se enseñoreará de ti” (Gén. 3:16). Y por cuanto Adán escuchó a su mujer en vez de a Dios, la tierra fue maldita para aumentar la ansiedad y el esfuerzo de sus trabajos: “Maldita será la tierra por tu causa; con dolor comerás de ella todos los días de tu vida. Espinos y cardos te producirá, y comerás plantas del campo. Con el sudor de tu rostro comerás el pan hasta que vuelvas a la tierra, porque de ella fuiste tomado” (Gén. 3:17-19). Al reafirmar la naturaleza incambiable de su ley, y el hecho de que cualquier transgresión lleva a una muerte inevitable, Dios declaró: “Polvo eres, y al polvo volverás” (Gén. 3:19). Dios ejecutó este veredicto cuando expulsó de su hogar edénico a los transgresores, interrumpiendo así su comunión directa con él (Gén. 3:8), y al impedirles participar del árbol de la vida, fuente de vida eterna. Así, Adán y Eva pasaron a estar sujetos a la muerte (Gén. 3:22). 2. El carácter del pecado. Muchos pasajes de la Escritura, incluyendo en forma particular el relato de la caída, dejan en claro que el pecado es un mal moral, lo que sucede cuando un agente moral libre elige violar la voluntad revelada de Dios (Gén. 3:1-6; Rom. 1:18-22).",
+      "pdfPage": 100,
+      "pdfPageEnd": 101,
+      "citations": [
+        {
+          "start": 279,
+          "end": 289,
+          "referenceIds": [
+            "b1-3-7-3-7"
+          ]
+        },
+        {
+          "start": 418,
+          "end": 431,
+          "referenceIds": [
+            "b1-3-8-3-10"
+          ]
+        },
+        {
+          "start": 642,
+          "end": 653,
+          "referenceIds": [
+            "b1-3-12-3-12"
+          ]
+        },
+        {
+          "start": 872,
+          "end": 883,
+          "referenceIds": [
+            "b1-3-13-3-13"
+          ]
+        },
+        {
+          "start": 1115,
+          "end": 1126,
+          "referenceIds": [
+            "b1-3-14-3-14"
+          ]
+        },
+        {
+          "start": 1304,
+          "end": 1315,
+          "referenceIds": [
+            "b1-3-16-3-16"
+          ]
+        },
+        {
+          "start": 1704,
+          "end": 1718,
+          "referenceIds": [
+            "b1-3-17-3-19"
+          ]
+        },
+        {
+          "start": 1890,
+          "end": 1901,
+          "referenceIds": [
+            "b1-3-19-3-19"
+          ]
+        },
+        {
+          "start": 2033,
+          "end": 2043,
+          "referenceIds": [
+            "b1-3-8-3-8"
+          ]
+        },
+        {
+          "start": 2169,
+          "end": 2180,
+          "referenceIds": [
+            "b1-3-22-3-22"
+          ]
+        },
+        {
+          "start": 2426,
+          "end": 2452,
+          "referenceIds": [
+            "b1-3-1-3-6",
+            "b45-1-18-1-22"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "a. La definición del pecado. Las definiciones bíblicas del pecado incluyen: “El pecado es infracción de la ley” (1 Juan 3:4), una falta en la actuación de cualquiera “que sabe hacer lo bueno y no lo hace” (Sant. 4:17), y “todo lo que no proviene de fe” (Rom. 14:23). Una definición amplia del pecado es: “Cualquier desviación de la voluntad conocida de Dios, ya sea al descuidar lo que ha mandado específicamente, o al hacer lo que ha prohibido específicamente”.8 El pecado no conoce la neutralidad. Cristo declara: “El que no es conmigo, contra mí es” (Mat. 12:30). El no creer en Jesús es pecado (Juan 16:9). El pecado tiene carácter absoluto porque constituye rebelión contra Dios y su voluntad. Cualquier pecado, pequeño o grande, resulta en el veredicto de “culpable”. De este modo, “cualquiera que guardare toda la ley, pero ofendiere en un punto, se hace culpable de todos” (Sant. 2:10).",
+      "pdfPage": 101,
+      "citations": [
+        {
+          "start": 112,
+          "end": 124,
+          "referenceIds": [
+            "b62-3-4-3-4"
+          ]
+        },
+        {
+          "start": 205,
+          "end": 217,
+          "referenceIds": [
+            "b59-4-17-4-17"
+          ]
+        },
+        {
+          "start": 253,
+          "end": 265,
+          "referenceIds": [
+            "b45-14-23-14-23"
+          ]
+        },
+        {
+          "start": 553,
+          "end": 565,
+          "referenceIds": [
+            "b40-12-30-12-30"
+          ]
+        },
+        {
+          "start": 598,
+          "end": 609,
+          "referenceIds": [
+            "b43-16-9-16-9"
+          ]
+        },
+        {
+          "start": 881,
+          "end": 893,
+          "referenceIds": [
+            "b59-2-10-2-10"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "b. El pecado abarca los pensamientos así como las acciones. Con frecuencia se habla del pecado solo en términos de actos de transgresión concretos y visibles. Pero Cristo dijo que el sentir ira contra alguien viola el sexto mandamiento del decálogo: \"No matarás” (Éxo. 20:13), y que los deseos impuros quebrantan el mandamiento que dice: “No cometerás adulterio” (Éxo. 20:14). El pecado, por lo tanto, abarca no solo la desobediencia abierta que se traduce en actos, sino también los pensamientos y los deseos.",
+      "pdfPage": 101,
+      "citations": [
+        {
+          "start": 263,
+          "end": 275,
+          "referenceIds": [
+            "b2-20-13-20-13"
+          ]
+        },
+        {
+          "start": 363,
+          "end": 375,
+          "referenceIds": [
+            "b2-20-14-20-14"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "c. El pecado y la culpabilidad. El pecado produce culpabilidad. Desde la perspectiva bíblica, la culpabilidad implica que el que ha cometido pecado es digno de castigo. Y por cuanto todos somos pecadores, todo el mundo está “bajo el juicio de Dios” (Rom. 3:19). La culpabilidad, si no se deshace de ella en forma adecuada, destruye las facultades físicas, mentales y espirituales. Y en última instancia, si no se la resuelve, produce muerte, porque “la paga del pecado es muerte” (Rom. 6:23). El antídoto contra la culpa es el perdón (Mat. 6:12), el cual produce una conciencia limpia y paz mental. Dios está ansioso de conceder su perdón a los pecadores arrepentidos. Lleno de misericordia, Cristo llama a la raza aplastada por el pecado y la culpa, diciéndole: “Venid a mí todos los que estáis trabajados y cargados, y yo os haré descansar” (Mat. 11:28).",
+      "pdfPage": 101,
+      "pdfPageEnd": 102,
+      "citations": [
+        {
+          "start": 249,
+          "end": 260,
+          "referenceIds": [
+            "b45-3-19-3-19"
+          ]
+        },
+        {
+          "start": 480,
+          "end": 491,
+          "referenceIds": [
+            "b45-6-23-6-23"
+          ]
+        },
+        {
+          "start": 534,
+          "end": 545,
+          "referenceIds": [
+            "b40-6-12-6-12"
+          ]
+        },
+        {
+          "start": 843,
+          "end": 855,
+          "referenceIds": [
+            "b40-11-28-11-28"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "d. El centro de control del pecado. El asiento del pecado se halla en lo que la Biblia llama el corazón, y que nosotros conocemos como la mente. Del corazón “mana la vida” (Prov. 4:23). Cristo revela que son los pensamientos de la persona los que contaminan, “porque del corazón salen los malos pensamientos, los homicidios, los adulterios, las fornicaciones, los hurtos, los falsos testimonios, las blasfemias” (Mat. 15:19). El corazón influye sobre la totalidad de la persona: el intelecto, la voluntad, los afectos, las emociones y el cuerpo. Por cuanto “engañoso es el corazón más que todas las cosas, y perverso” (Jer. 17:9), la naturaleza humana puede ser descrita como corrompida, depravada y completamente pecaminosa.",
+      "pdfPage": 102,
+      "citations": [
+        {
+          "start": 172,
+          "end": 184,
+          "referenceIds": [
+            "b20-4-23-4-23"
+          ]
+        },
+        {
+          "start": 412,
+          "end": 424,
+          "referenceIds": [
+            "b40-15-19-15-19"
+          ]
+        },
+        {
+          "start": 618,
+          "end": 629,
+          "referenceIds": [
+            "b24-17-9-17-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "3. El efecto del pecado sobre la humanidad. Algunos pueden creer que la sentencia de muerte constituía un castigo demasiado severo por comer la fruta prohibida. Pero solo podemos medir la seriedad de la transgresión a la luz del efecto que causó el pecado de Adán sobre la raza humana. El primer hijo de Adán y Eva se convirtió en un asesino. Sus descendientes pronto violaron la sagrada unión del matrimonio cometiendo poligamia, y no pasó mucho tiempo sin que la maldad y la violencia llenaran el mundo (Gén. 4:8, 23; 6:1-5; 6:11-13). Los llamamientos divinos al arrepentimiento y a la reforma no causaron efecto, y solo ocho personas fueron salvadas de las aguas del diluvio que destruyó a los impenitentes. La historia de la raza después del Diluvio, con pocas excepciones, constituye un triste relato de los frutos de la pecaminosidad de la naturaleza humana.",
+      "pdfPage": 102,
+      "citations": [
+        {
+          "start": 505,
+          "end": 535,
+          "referenceIds": [
+            "b1-4-8-4-8",
+            "b1-4-23-4-23",
+            "b1-6-1-6-5",
+            "b1-6-11-6-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "a. La pecaminosidad universal de la humanidad. La historia revela que los descendientes de Adán comparten la pecaminosidad de su naturaleza. En oración, David dijo: “No se justificará delante de ti ningún ser humano” (Sal. 143:2; ver 14:3). “No hay hombre que no peque (1 Rey. 8:46). Salomón declaró: “¿Quién podrá decir: yo he limpiado mi corazón, limpio estoy de mi pecado?\" (Prov. 20:9); \"ciertamente no hay hombre justo en la tierra, que haga el bien y nunca peque” (Ecl. 7:20). El Nuevo Testamento es igualmente claro, al decir que “todos pecaron, y están destituidos de la gloria de Dios” (Rom. 3:23), y que “si decimos que no tenemos pecado, nos engañamos a nosotros mismos, y la verdad no está en nosotros” (1 Juan 1:8).",
+      "pdfPage": 102,
+      "pdfPageEnd": 103,
+      "citations": [
+        {
+          "start": 217,
+          "end": 239,
+          "referenceIds": [
+            "b19-143-2-143-2",
+            "b19-14-3-14-3"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 282,
+          "referenceIds": [
+            "b11-8-46-8-46"
+          ]
+        },
+        {
+          "start": 377,
+          "end": 389,
+          "referenceIds": [
+            "b20-20-9-20-9"
+          ]
+        },
+        {
+          "start": 470,
+          "end": 481,
+          "referenceIds": [
+            "b21-7-20-7-20"
+          ]
+        },
+        {
+          "start": 595,
+          "end": 606,
+          "referenceIds": [
+            "b45-3-23-3-23"
+          ]
+        },
+        {
+          "start": 715,
+          "end": 727,
+          "referenceIds": [
+            "b62-1-8-1-8"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "b. La pecaminosidad, ¿es heredada o adquirida? Pablo dijo: “En Adán todos mueren” (1 Cor. 15:22). En otro lugar señala: “Como el pecado entró en el mundo por un hombre, y por el pecado la muerte, así la muerte pasó a todos los hombres, por cuanto todos pecaron” (Rom. 5:12). La corrupción del corazón humano afecta a toda la persona. Por eso Job exclama: “¿Quién hará limpio a lo inmundo? Nadie” (Job 14:4). David dice: “He aquí, en maldad he sido formado, y en pecado me concibió mi madre” (Sal. 51:5). Pablo, por su parte, declara que “los designios de la carne son enemistad contra Dios; porque no se sujetan a la ley de Dios ni tampoco pueden; y los que viven según la carne no pueden agradar a Dios” (Rom. 8:7, 8). Antes de la conversión, señala el apóstol, los creyentes eran \"por naturaleza hijos de ira”, tal como el resto de la humanidad (Efe. 2:3). Si bien cuando niños aprendemos la conducta pecaminosa por imitación, los textos que hemos visto afirman que heredamos nuestra pecaminosidad básica. La pecaminosidad universal de la humanidad es evidencia de que por naturaleza nos inclinamos hacia el mal, y no hacia el bien.",
+      "pdfPage": 103,
+      "citations": [
+        {
+          "start": 82,
+          "end": 96,
+          "referenceIds": [
+            "b46-15-22-15-22"
+          ]
+        },
+        {
+          "start": 262,
+          "end": 273,
+          "referenceIds": [
+            "b45-5-12-5-12"
+          ]
+        },
+        {
+          "start": 396,
+          "end": 406,
+          "referenceIds": [
+            "b18-14-4-14-4"
+          ]
+        },
+        {
+          "start": 491,
+          "end": 502,
+          "referenceIds": [
+            "b19-51-5-51-5"
+          ]
+        },
+        {
+          "start": 705,
+          "end": 718,
+          "referenceIds": [
+            "b45-8-7-8-8"
+          ]
+        },
+        {
+          "start": 847,
+          "end": 857,
+          "referenceIds": [
+            "b49-2-3-2-3"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "c. La erradicación de la conducta pecaminosa. ¿Cuánto éxito tienen los individuos en sus esfuerzos por quitar el pecado de sus vidas y de la sociedad? Todo esfuerzo por lograr una vida recta apoyándonos en nuestra propia fortaleza, está condenado al fracaso. Jesús aseguró que todo aquel que lia pecado, \"esclavo es del pecado”. Tan solo el poder divino puede emanciparnos de esta esclavitud. Cristo nos ha asegurado: “Si el Hijo os libertare, seréis verdaderamente libres\" (Juan 8:36). Sólo podréis producir justicia, declaró, “si permanecéis en mí”, porque “separados de mí nada podéis hacer” (Juan 15:4, 5). Aun el mismo apóstol Pablo fracasó en sus intentos de vivir una vida recta por sus propias fuerzas. Al recordar sus esfuerzos, dijo: “Lo que hago, no lo entiendo; pues no hago lo que quiero, sino lo que aborrezco, eso hago”. Luego señala el impacto que el pecado tuvo en su vida: “De manera que ya no soy yo quien hace aquello, sino el pecado que mora en mí”. A pesar de sus fracasos, admiraba la perfecta norma de Dios, diciendo: “Según el hombre interior, me deleito en la ley de Dios; pero veo otra ley en mis miembros, que se rebela contra la ley de mi mente, y que me lleva cautivo a la ley del pecado que está en mis miembros. ¡Miserable de mí! ¿Quién me librará de este cuerpo de muerte?” (Rom. 7:15,19, 20,22-24). Pablo finalmente reconoce que necesita poder divino para vencer. Por medio de Cristo, abandonó la vida según la carne y comenzó una nueva vida según el Espíritu (Rom. 7:25; 8:1). Esta nueva vida en el Espíritu constituye el don transformador de Dios. Por medio de la gracia divina, nosotros que estábamos “muertos\" en nuestros “delitos y pecados”, llegamos a ser victoriosos (Efe. 2:1, 3, 8-10). El renacimiento espiritual trasforma de tal modo la vida (Juan 1:13; 3:5), que podemos hablar de una nueva creación: “Las cosas viejas pasaron; he aquí todas son hechas nuevas” (2 Cor. 5:17). Sin embargo, la nueva vida no excluye la posibilidad de pecar (1 Juan 2:1).",
+      "pdfPage": 103,
+      "pdfPageEnd": 104,
+      "citations": [
+        {
+          "start": 474,
+          "end": 485,
+          "referenceIds": [
+            "b43-8-36-8-36"
+          ]
+        },
+        {
+          "start": 595,
+          "end": 609,
+          "referenceIds": [
+            "b43-15-4-15-5"
+          ]
+        },
+        {
+          "start": 1307,
+          "end": 1331,
+          "referenceIds": [
+            "b45-7-15-7-15",
+            "b45-7-19-7-20",
+            "b45-7-22-7-24"
+          ]
+        },
+        {
+          "start": 1494,
+          "end": 1510,
+          "referenceIds": [
+            "b45-7-25-7-25",
+            "b45-8-1-8-1"
+          ]
+        },
+        {
+          "start": 1708,
+          "end": 1727,
+          "referenceIds": [
+            "b49-2-1-2-1",
+            "b49-2-3-2-3",
+            "b49-2-8-2-10"
+          ]
+        },
+        {
+          "start": 1786,
+          "end": 1802,
+          "referenceIds": [
+            "b43-1-13-1-13",
+            "b43-3-5-3-5"
+          ]
+        },
+        {
+          "start": 1906,
+          "end": 1919,
+          "referenceIds": [
+            "b47-5-17-5-17"
+          ]
+        },
+        {
+          "start": 1983,
+          "end": 1995,
+          "referenceIds": [
+            "b62-2-1-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "4. La evolución y la caída del hombre. Desde la creación, Satanás ha confundido a muchos al debilitar su confianza en los relatos bíblicos de los orígenes de la raza humana y la caída de Adán y Eva. Podríamos llamar a la evolución el concepto \"natural” de la humanidad, el cual se basa en la suposición de que la caída comenzó por casualidad, y que los seres humanos, a través de un largo proceso evolutivo, emergieron a partir de las formas inferiores de vida. Por un proceso de supervivencia del más apto, habrían evolucionado hasta alcanzar su nivel actual. Como aún no han alcanzado su potencial, continúan evolucionando. Un numero creciente de cristianos han adoptado la evolución teísta, la cual afirma que Dios usó la evolución para realizar la creación descrita en el Génesis. Los que aceptan la evolución teísta no consideran que los primeros capítulos de Génesis sean literales, sino meras alegorías o mitos.",
+      "pdfPage": 104
+    },
+    {
+      "kind": "paragraph",
+      "text": "a. El concepto bíblico del hombre y la evolución. Los cristianos creacionistas están preocupados por el impacto que tiene la teoría de la evolución sobre la fe cristiana. Jaime Orr escribió: “En nuestros días, el cristianismo se ve amenazado, no por ataques aislados a sus doctrinas... sino por una contravisión del mundo, concebida positivamente, la cual pretende estar fundada sobre hechos científicos, hábilmente construida y defendida, pero que en sus ideas fundamentales, ataca la raíz misma del sistema cristiano”.9 La Biblia rechaza la interpretación mítica o alegórica de Génesis. Los mismos escritores bíblicos interpretan los primeros once capítulos del Génesis como historia literal. Adán, Eva, la serpiente y Satanás son considerados personajes históricos en el drama de la gran controversia (ver Job 31:33; Ecl. 7:29; Mat. 19:4, 5; Juan 8:44; Rom. 5:12,18,19; 2 Cor. 11:3; 1 Tim. 2:14; Apoc. 12:9).",
+      "pdfPage": 104,
+      "pdfPageEnd": 105,
+      "citations": [
+        {
+          "start": 804,
+          "end": 910,
+          "referenceIds": [
+            "b18-31-33-31-33",
+            "b21-7-29-7-29",
+            "b40-19-4-19-5",
+            "b43-8-44-8-44",
+            "b45-5-12-5-12",
+            "b45-5-18-5-19",
+            "b47-11-3-11-3",
+            "b54-2-14-2-14",
+            "b66-12-9-12-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "b. El Calvario y la evolución. La evolución, en cualquier forma que se la presente, contradice los fundamentos básicos del cristianismo. Bien lo expresó Leonardo Verduin cuando declaró: “En lugar de la historia de una ‘caída’, aparece la historia de un ascenso\".10El cristianismo y la evolución se hallan diametralmente opuestos. La historia según la cual nuestros primero padres fueron creados a imagen de Dios y experimentaron la caída en el pecado, o es cierta o no lo es. Y si no lo es, entonces, ¿para qué ser cristianos? La contradicción más radical de la evolución la provee el Calvario. Si no hubo caída, ¿por qué necesitaríamos que Dios muriera por nosotros? No solo la muerte en general, sino específicamente la muerte de Cristo por nosotros proclama que la humanidad está lejos de la perfección. Si fuésemos abandonados a nuestros propios medios, continuaríamos deteriorándonos hasta que la raza humana fuese aniquilada. Nuestra esperanza se afirma en el Hombre que colgó de la cruz. Su muerte es lo único que abre la posibilidad de una vida mejor y más plena que nunca tenga fin. El Calvario declara que necesitamos un sustituto que nos libere.",
+      "pdfPage": 105
+    },
+    {
+      "kind": "paragraph",
+      "text": "c. La encamación y la evolución. Probablemente, la mejor respuesta al conflicto entre la creación y la evolución se obtiene al mirar la creación de la humanidad desde la perspectiva de la encarnación. Al introducir en la historia a Cristo, el segundo Adán, Dios obró en forma creativa. Si Dios pudo realizar ese milagro supremo, no cabe duda alguna acerca de su capacidad de formar al primer Adán.",
+      "pdfPage": 105
+    },
+    {
+      "kind": "paragraph",
+      "text": "d. ¿Ha llegado el hombre a su madurez? Con frecuencia los evolucionistas han señalado los considerables avances científicos que han sucedido en los últimos siglos, como evidencia de que el hombre parece ser el árbitro de su propio destino. Si la ciencia suple sus necesidades, con el tiempo resolverá todos los problemas del mundo. Sin embargo, el papel mesiánico de la tecnología es recibido con creciente escepticismo, porque la tecnología ha llevado a nuestro planeta al borde de la aniquilación. La humanidad ha fracasado miserablemente en su empeño de subyugar y controlar el corazón pecaminoso. En consecuencia, lo único que ha logrado hacer el progreso científico ha sido transformar el mundo en un lugar cada vez más peligroso. A medida que avanza el tiempo, las filosofías del nihilismo y la desesperanza parecen cada vez más válidas. La frase de Alejandro Pope: “La esperanza surge, eterna, en el pecho humano”, suena hueco en nuestros días. Job comprende mejor la realidad, al decir: “Mis días... se me cierran sin esperanza” (Job 7:6).. El mundo del hombre está rápidamente perdiendo sus fuerzas. Alguien tenía que venir desde más allá de la historia humana, invadirla, y colocar en ella una nueva realidad.",
+      "pdfPage": 105,
+      "pdfPageEnd": 106,
+      "citations": [
+        {
+          "start": 1037,
+          "end": 1046,
+          "referenceIds": [
+            "b18-7-6-7-6"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Rayos de esperanza. ¿Cuán grande es la depravación de la humanidad? En la cruz, los seres humanos asesinaron a su Creador, cometiendo así el parricidio culminante. Pero Dios no ha dejado a la humanidad sin esperanza. David contempló la posición de la humanidad en la creación. Primeramente, impresionado con la vastedad del universo, pensó que el hombre era insignificante. Posteriormente se fue dando cuenta de la verdadera posición de la humanidad. Refiriéndose a la relación actual del hombre con Dios, dijo: “Le has hecho poco menor que los ángeles, y lo coronaste de gloria y de honra. Le hiciste señorear sobre las obras de tus manos” (Sal. 8:5, 6; compárese con Heb. 2:7). A pesar de la caída, aún subsiste un sentido de la dignidad humana. Aunque la semejanza divina se dañó, no fue completamente borrada. A pesar de que el hombre es un ser caído, corrompido y pecaminoso, todavía representa a Dios en el mundo. Su naturaleza es menos que divina, y sin embargo ocupa una posición dignificada en su calidad de cuidador de la creación terrenal de Dios. Cuando David se dio cuenta de esto, respondió con alabanzas y agradecimientos: “¡Oh Jehová, Señor nuestro, cuán grande es tu nombre en toda la tierra!” (Sal. 8:9).",
+      "pdfPage": 106,
+      "citations": [
+        {
+          "start": 641,
+          "end": 678,
+          "referenceIds": [
+            "b19-8-5-8-6",
+            "b58-2-7-2-7"
+          ]
+        },
+        {
+          "start": 1211,
+          "end": 1221,
+          "referenceIds": [
+            "b19-8-9-8-9"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El pacto de la gracia",
+      "pdfPage": 106
+    },
+    {
+      "kind": "paragraph",
+      "text": "Por la transgresión, la primera pareja se volvió pecaminosa. Ahora que no tenían poder para resistir a Satanás, ¿podrían alguna vez volver a ser libres, o serían dejados para que perecieran? ¿Habría alguna esperanza?",
+      "pdfPage": 106
+    },
+    {
+      "kind": "paragraph",
+      "text": "El pacto después de la caída. Antes de que Dios pronunciara el castigo sobre los pecados de la pareja caída, impartió esperanza introduciendo el pacto de la gracia. Declaró: “Y pondré enemistad entre ti [Satanás] y la mujer, y entre tu simiente y la simiente suya; ésta te herirá en la cabeza, y tú le herirás en el calcañar” (Gén. 3:15). El mensaje de Dios produjo ánimo, porque anunciaba que, si bien Satanás había hecho caer bajo sus encantamientos a la humanidad, por último sería derrotado. El pacto fue hecho entre Dios y la humanidad. Primero, Dios prometió concedernos por medio de su gracia, una defensa contra el pecado. Haría nacer el odio entre la serpiente y la mujer; entre los seguidores de Satanás y el pueblo de Dios. Esto interrumpiría la relación entre el hombre y Satanás, y abriría el camino para renovar la relación con Dios. A través de los siglos, continuaría la guerra entre la iglesia de Dios y Satanás. El conflicto alcanzaría su culminación en la muerte de Jesucristo, la personificación predicha de la Simiente de la mujer. En el Calvario, Satanás fue derrotado. A pesar de que la Simiente de la mujer fue herida, logró derrotar al autor del mal. Todos los que acepten el ofrecimiento de la gracia de Dios experimentarán enemistad contra el pecado, lo cual les permitirá ganar la victoria en la batalla contra Satanás. Por fe compartirán el triunfo del Salvador en el Calvario.",
+      "pdfPage": 106,
+      "pdfPageEnd": 107,
+      "citations": [
+        {
+          "start": 326,
+          "end": 337,
+          "referenceIds": [
+            "b1-3-15-3-15"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El pacto establecido antes de la creación. El pacto de la gracia no se desarrolló después de la caída. Las Escrituras señalan que aun antes de la creación, los miembros de la Deidad habían pactado entre ellos rescatar la raza si caía en el pecado. Pablo dice que Dios “nos escogió en él [Cristo] antes de la fundación del mundo, para que fuésemos santos y sin mancha delante de él, en amor, habiéndonos predestinado para ser adoptados hijos suyos por medio de Jesucristo, según el puro afecto de su voluntad, para alabanza de la gloria de su gracia” (Efe. 1:4-6; compárese con 2 Tim. 1:9). Pedro se refirió al sacrificio expiatorio de Cristo, diciendo “Cristo... ya destinado desde antes de la fundación del mundo” (1 Ped. 1:19, 20). El pacto se basaba en un fundamento inconmovible: la promesa y el juramento de Dios mismo (Heb. 6:18). Jesucristo sería el fiador del pacto (Heb. 7:22). Un fiador es alguien que se compromete a asumir alguna deuda y obligación en el caso de que el deudor deje de pagar. El hecho de que Cristo fuese el fiador, significaba que si la raza humana caía en pecado, él llevaría su castigo. Pagaría el precio de su redención; haría la expiación por sus pecados y cumpliría las demandas de la ley de Dios, pisoteada por los seres humanos. Ningún hombre o ángel podía asumir esa responsabilidad. Solo Cristo el Creador, la Cabeza representativa de la raza, podría cargar con esa responsabilidad (Rom. 5:12-21; 1 Cor. 15:22). El Hijo de Dios es no solo el fiador del pacto, también es su mediador o ejecutor. La descripción que hizo de su misión como Hijo del Hombre encarnado, revela este aspecto de su papel. Dijo: “He descendido del cielo, no para hacer mi voluntad, sino la voluntad del que me envió” (Juan 6:38, compárese con 5:30,43). La voluntad del Padre es “que todo aquel que ve al Hijo, y cree en él, tenga vida eterna” (Juan 6:40). “Y ésta es la vida eterna —proclamó el Señor—: que te conozcan a ti, el único Dios verdadero, y a Jesucristo, a quien has enviado” (Juan 17:3). Al final de su misión, testificó acerca de su obediencia a la comisión del Padre, diciendo: “Yo te he glorificado en la tierra; he acabado la obra que me diste que hiciese” (Juan 17:4). En la cruz, Jesús cumplió su promesa de ser el fiador de la humanidad en el pacto. Su exclamación: “Consumado es” (Juan 19:30), marcó el cumplimiento de su misión. Con su propia vida había pagado la pena que requería la ley de Dios quebrantada, garantizando la salvación de los seres humanos arrepentidos. En ese momento, la sangre de Cristo ratificó el pacto de la gracia. Por fe en su sangre expiatoria, los pecadores arrepentidos serían adoptados como hijos e hijas de Dios, convirtiéndose así en herederos de la vida eterna. Este pacto de gracia demuestra el infinito amor que Dios siente por la humanidad. Establecido antes de la creación, el pacto fue revelado después de la caída. En ese momento, en un sentido especial, Dios y la humanidad se convirtieron en socios.",
+      "pdfPage": 107,
+      "pdfPageEnd": 108,
+      "citations": [
+        {
+          "start": 550,
+          "end": 588,
+          "referenceIds": [
+            "b49-1-4-1-6",
+            "b55-1-9-1-9"
+          ]
+        },
+        {
+          "start": 715,
+          "end": 732,
+          "referenceIds": [
+            "b60-1-19-1-20"
+          ]
+        },
+        {
+          "start": 824,
+          "end": 835,
+          "referenceIds": [
+            "b58-6-18-6-18"
+          ]
+        },
+        {
+          "start": 874,
+          "end": 885,
+          "referenceIds": [
+            "b58-7-22-7-22"
+          ]
+        },
+        {
+          "start": 1420,
+          "end": 1448,
+          "referenceIds": [
+            "b45-5-12-5-21",
+            "b46-15-22-15-22"
+          ]
+        },
+        {
+          "start": 1729,
+          "end": 1763,
+          "referenceIds": [
+            "b43-6-38-6-38",
+            "b43-5-30-5-30",
+            "b43-5-43-5-43"
+          ]
+        },
+        {
+          "start": 1855,
+          "end": 1866,
+          "referenceIds": [
+            "b43-6-40-6-40"
+          ]
+        },
+        {
+          "start": 1999,
+          "end": 2010,
+          "referenceIds": [
+            "b43-17-3-17-3"
+          ]
+        },
+        {
+          "start": 2185,
+          "end": 2196,
+          "referenceIds": [
+            "b43-17-4-17-4"
+          ]
+        },
+        {
+          "start": 2312,
+          "end": 2324,
+          "referenceIds": [
+            "b43-19-30-19-30"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La renovación del pacto. Desgraciadamente, la humanidad rechazó este magnífico pacto de gracia tanto antes del Diluvio como después (Gén. 6:1-8; 11:1-9). Cuando Dios ofreció nuevamente el pacto, lo hizo por medio de Abraham. Nuevamente afirmó la promesa de la redención: “En tu simiente serán benditas todas las naciones de la tierra, por cuanto obedeciste a mi voz” (Gén. 22:18; 12:3; 18:18). Las Escrituras destacan en forma especial la fidelidad de Abraham a las condiciones del pacto. Abraham creyó a Dios, y le fue contado por justicia” (Gén. 15:6). El hecho de que la participación de Abraham en las bendiciones del pacto, si bien estaba fundada en la gracia de Dios, también dependía de su obediencia, revela que el pacto afirma la autoridad de la ley de Dios (Gén. 17:1; 26:5). La fe de Abraham era de tal calidad que se le concedió el titulo de “padre de todos los creyentes” (Rom. 4:11). Él es el modelo que Dios nos ha dejado para que comprendamos la justicia por la fe que se revela en obediencia (Rom. 4:2,3; Sant. 2:23,24). El pacto de la gracia no dispensa automáticamente sus bendiciones sobre los descendientes naturales de Abraham, sino únicamente sobre los que siguen el ejemplo de fe del patriarca: “Los que son de fe, estos son hijos de Abraham” (Gál. 3:7). Cualquier persona en el mundo puede experimentar las promesas del pacto de salvación si cumple la condición: “Si vosotros sois de Cristo, ciertamente linaje de Abraham sois y herederos según la promesa” (Gál. 3:29). Respecto de Dios, el pacto sinaítico (conocido como el primer pacto) fue una renovación del pacto abrahámico de la gracia (Heb. 9:1). Pero Israel lo pervirtió y lo tornó un pacto de obras (Gál. 4:22-31).",
+      "pdfPage": 108,
+      "citations": [
+        {
+          "start": 132,
+          "end": 152,
+          "referenceIds": [
+            "b1-6-1-6-8",
+            "b1-11-1-11-9"
+          ]
+        },
+        {
+          "start": 367,
+          "end": 392,
+          "referenceIds": [
+            "b1-22-18-22-18",
+            "b1-12-3-12-3",
+            "b1-18-18-18-18"
+          ]
+        },
+        {
+          "start": 542,
+          "end": 553,
+          "referenceIds": [
+            "b1-15-6-15-6"
+          ]
+        },
+        {
+          "start": 767,
+          "end": 784,
+          "referenceIds": [
+            "b1-17-1-17-1",
+            "b1-26-5-26-5"
+          ]
+        },
+        {
+          "start": 885,
+          "end": 896,
+          "referenceIds": [
+            "b45-4-11-4-11"
+          ]
+        },
+        {
+          "start": 1009,
+          "end": 1036,
+          "referenceIds": [
+            "b45-4-2-4-3",
+            "b59-2-23-2-24"
+          ]
+        },
+        {
+          "start": 1267,
+          "end": 1277,
+          "referenceIds": [
+            "b48-3-7-3-7"
+          ]
+        },
+        {
+          "start": 1482,
+          "end": 1493,
+          "referenceIds": [
+            "b48-3-29-3-29"
+          ]
+        },
+        {
+          "start": 1617,
+          "end": 1627,
+          "referenceIds": [
+            "b58-9-1-9-1"
+          ]
+        },
+        {
+          "start": 1683,
+          "end": 1697,
+          "referenceIds": [
+            "b48-4-22-4-31"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El nuevo pacto. Otros pasajes bíblicos posteriores hablan de un pacto nuevo o mejor.1 1 Pero lo hacen no porque el pacto eterno hubiese sido cambiado, sino porque (1) por causa de la infidelidad de Israel, el pacto eterno de Dios se había pervertido en un sistema de obras; (2) estaba asociado con una nueva revelación del amor de Dios en la encarnación, vida, muerte, resurrección y mediación de Jesucristo (ver Heb. 8:6-13); y (3) no fue sino hasta la cruz cuando fue ratificado por la sangre de Cristo (Dan. 9:27; Luc. 22:20; Rom. 15:8; Heb. 9:11-22).1 2 Es inconmensurable lo que ofrece este pacto a los que lo aceptan. Por medio de la gracia de Dios, les ofrece el perdón de sus pecados. Ofrece la obra del Espíritu Santo, quien se compromete a escribir los Diez Mandamientos en el corazón y restaurar en los pecadores arrepentidos la imagen de su Hacedor (Jer. 31:33). La experiencia del nuevo pacto y el nuevo nacimiento trae a nuestra vida la justicia de Cristo y la experiencia de la justificación por la fe. La renovación del corazón que produce, transforma a los individuos de modo que en ellos se manifiestan los frutos del Espíritu: “Amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza” (Gál. 5:22,23). Por medio del poder de la gracia salvadora de Cristo pueden caminar como Cristo caminó, gozando cada día de las cosas que le agradan a Dios (Juan 8:29). La única esperanza de la humanidad caída consiste en aceptar la invitación que Dios hace a entrar en su pacto de gracia. Por fe en Jesucristo, podemos experimentar esta relación que asegura nuestra adopción como hijos de Dios y herederos con Cristo de su reino celestial.",
+      "pdfPage": 109,
+      "citations": [
+        {
+          "start": 408,
+          "end": 425,
+          "referenceIds": [
+            "b58-8-6-8-13"
+          ]
+        },
+        {
+          "start": 505,
+          "end": 553,
+          "referenceIds": [
+            "b27-9-27-9-27",
+            "b42-22-20-22-20",
+            "b45-15-8-15-8",
+            "b58-9-11-9-22"
+          ]
+        },
+        {
+          "start": 861,
+          "end": 873,
+          "referenceIds": [
+            "b24-31-33-31-33"
+          ]
+        },
+        {
+          "start": 1223,
+          "end": 1237,
+          "referenceIds": [
+            "b48-5-22-5-23"
+          ]
+        },
+        {
+          "start": 1379,
+          "end": 1390,
+          "referenceIds": [
+            "b43-8-29-8-29"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Gén. 2:7",
+      "label": "Génesis 2:7",
+      "id": "b1-2-7-2-7"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "ver 1:26",
+      "label": "Génesis 1:26",
+      "id": "b1-1-26-1-26"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Gén. 2:18,21, 22",
+      "label": "Génesis 2:18",
+      "id": "b1-2-18-2-18"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 21,
+      "verseEnd": 22,
+      "sourceGroup": "Gén. 2:18,21, 22",
+      "label": "Génesis 2:21-22",
+      "id": "b1-2-21-2-22"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 8,
+      "verseEnd": 9,
+      "sourceGroup": "Gén. 2:8,9,17",
+      "label": "Génesis 2:8-9",
+      "id": "b1-2-8-2-9"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Gén. 2:8,9,17",
+      "label": "Génesis 2:17",
+      "id": "b1-2-17-2-17"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 31,
+      "verseEnd": 31,
+      "sourceGroup": "Gén. 1:31",
+      "label": "Génesis 1:31",
+      "id": "b1-1-31-1-31"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 27,
+      "verseEnd": 27,
+      "sourceGroup": "Gén. 1:27",
+      "label": "Génesis 1:27",
+      "id": "b1-1-27-1-27"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "Gén. 1:21, 24, 25",
+      "label": "Génesis 1:21",
+      "id": "b1-1-21-1-21"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 24,
+      "verseEnd": 25,
+      "sourceGroup": "Gén. 1:21, 24, 25",
+      "label": "Génesis 1:24-25",
+      "id": "b1-1-24-1-25"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 38,
+      "verseEnd": 38,
+      "sourceGroup": "Luc. 3:38",
+      "label": "Lucas 3:38",
+      "id": "b42-3-38-3-38"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "Gén. 1:28",
+      "label": "Génesis 1:28",
+      "id": "b1-1-28-1-28"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 4,
+      "verseEnd": 9,
+      "sourceGroup": "Sal. 8:4-9",
+      "label": "Salmos 8:4-9",
+      "id": "b19-8-4-8-9"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Hech. 17:26",
+      "label": "Hechos 17:26",
+      "id": "b44-17-26-17-26"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Rom. 5:12, 19",
+      "label": "Romanos 5:12",
+      "id": "b45-5-12-5-12"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Rom. 5:12, 19",
+      "label": "Romanos 5:19",
+      "id": "b45-5-19-5-19"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 21,
+      "verseEnd": 22,
+      "sourceGroup": "1 Cor. 15:21, 22",
+      "label": "1 Corintios 15:21-22",
+      "id": "b46-15-21-15-22"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 33,
+      "chapterEnd": 33,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Job 33:4",
+      "label": "Job 33:4",
+      "id": "b18-33-4-33-4"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Gén. 7:15, 22",
+      "label": "Génesis 7:15",
+      "id": "b1-7-15-7-15"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Gén. 7:15, 22",
+      "label": "Génesis 7:22",
+      "id": "b1-7-22-7-22"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Gén. 1:20, 24",
+      "label": "Génesis 1:20",
+      "id": "b1-1-20-1-20"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 24,
+      "verseEnd": 24,
+      "sourceGroup": "Gén. 1:20, 24",
+      "label": "Génesis 1:24",
+      "id": "b1-1-24-1-24"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "2:19",
+      "label": "Génesis 2:19",
+      "id": "b1-2-19-2-19"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "ver Gén. 14:21",
+      "label": "Génesis 14:21",
+      "id": "b1-14-21-14-21"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 6,
+      "verseEnd": 7,
+      "sourceGroup": "Núm. 5:6, 7",
+      "label": "Números 5:6-7",
+      "id": "b4-5-6-5-7"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Deut. 10:22",
+      "label": "Deuteronomio 10:22",
+      "id": "b5-10-22-10-22"
+    },
+    {
+      "bookId": 3,
+      "book": "Levítico",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 43,
+      "verseEnd": 43,
+      "sourceGroup": "Lev. 11:43",
+      "label": "Levítico 11:43",
+      "id": "b3-11-43-11-43"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "ver Gén. 12:13",
+      "label": "Génesis 12:13",
+      "id": "b1-12-13-12-13"
+    },
+    {
+      "bookId": 3,
+      "book": "Levítico",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 43,
+      "verseEnd": 44,
+      "sourceGroup": "Lev. 11:43, 44",
+      "label": "Levítico 11:43-44",
+      "id": "b3-11-43-11-44"
+    },
+    {
+      "bookId": 3,
+      "book": "Levítico",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "19:8",
+      "label": "Levítico 19:8",
+      "id": "b3-19-8-19-8"
+    },
+    {
+      "bookId": 6,
+      "book": "Josué",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Jos. 23:11",
+      "label": "Josué 23:11",
+      "id": "b6-23-11-23-11"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Sal. 3:2",
+      "label": "Salmos 3:2",
+      "id": "b19-3-2-3-2"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 37,
+      "chapterEnd": 37,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Jer. 37:9, etc",
+      "label": "Jeremías 37:9",
+      "id": "b24-37-9-37-9"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "Gén. 9:4,5",
+      "label": "Génesis 9:4-5",
+      "id": "b1-9-4-9-5"
+    },
+    {
+      "bookId": 9,
+      "book": "1 Samuel",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "1 Sam. 19:5",
+      "label": "1 Samuel 19:5",
+      "id": "b9-19-5-19-5"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Job 2:4,6",
+      "label": "Job 2:4",
+      "id": "b18-2-4-2-4"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Job 2:4,6",
+      "label": "Job 2:6",
+      "id": "b18-2-6-2-6"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Sal. 31:13",
+      "label": "Salmos 31:13",
+      "id": "b19-31-13-31-13"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 24,
+      "verseEnd": 24,
+      "sourceGroup": "ver Deut. 23:24",
+      "label": "Deuteronomio 23:24",
+      "id": "b5-23-24-23-24"
+    },
+    {
+      "bookId": 20,
+      "book": "Proverbios",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Prov. 23:2",
+      "label": "Proverbios 23:2",
+      "id": "b20-23-2-23-2"
+    },
+    {
+      "bookId": 21,
+      "book": "Eclesiastés",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 6,
+      "verseEnd": 7,
+      "sourceGroup": "Ecl. 6:6, 7",
+      "label": "Eclesiastés 6:6-7",
+      "id": "b21-6-6-6-7"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Gén. 34:3",
+      "label": "Génesis 34:3",
+      "id": "b1-34-3-34-3"
+    },
+    {
+      "bookId": 22,
+      "book": "Cantares",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Cant. 1:7",
+      "label": "Cantares 1:7",
+      "id": "b22-1-7-1-7"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 105,
+      "chapterEnd": 105,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Sal. 105:22",
+      "label": "Salmos 105:22",
+      "id": "b19-105-22-105-22"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Jer. 34:16",
+      "label": "Jeremías 34:16",
+      "id": "b24-34-16-34-16"
+    },
+    {
+      "bookId": 3,
+      "book": "Levítico",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "compárese con Lev. 19:28",
+      "label": "Levítico 19:28",
+      "id": "b3-19-28-19-28"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Núm. 9:7, 10",
+      "label": "Números 9:7",
+      "id": "b4-9-7-9-7"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Núm. 9:7, 10",
+      "label": "Números 9:10",
+      "id": "b4-9-10-9-10"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Apoc. 16:3",
+      "label": "Apocalipsis 16:3",
+      "id": "b66-16-3-16-3"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "ver Mat. 6:25",
+      "label": "Mateo 6:25",
+      "id": "b40-6-25-6-25"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "16:25, etc",
+      "label": "Mateo 16:25",
+      "id": "b40-16-25-16-25"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "ver Hech. 7:14",
+      "label": "Hechos 7:14",
+      "id": "b44-7-14-7-14"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 27,
+      "chapterEnd": 27,
+      "verseStart": 37,
+      "verseEnd": 37,
+      "sourceGroup": "27:37",
+      "label": "Hechos 27:37",
+      "id": "b44-27-37-27-37"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Rom. 13:1",
+      "label": "Romanos 13:1",
+      "id": "b45-13-1-13-1"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "1 Ped. 3:20",
+      "label": "1 Pedro 3:20",
+      "id": "b60-3-20-3-20"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "ver Mat. 12:18",
+      "label": "Mateo 12:18",
+      "id": "b40-12-18-12-18"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "2 Cor. 12:15, etc",
+      "label": "2 Corintios 12:15",
+      "id": "b47-12-15-12-15"
+    },
+    {
+      "bookId": 41,
+      "book": "Marcos",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 34,
+      "verseEnd": 34,
+      "sourceGroup": "Mar. 14:34",
+      "label": "Marcos 14:34",
+      "id": "b41-14-34-14-34"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 35,
+      "verseEnd": 35,
+      "sourceGroup": "Luc. 2:35",
+      "label": "Lucas 2:35",
+      "id": "b42-2-35-2-35"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Hech. 14:2",
+      "label": "Hechos 14:2",
+      "id": "b44-14-2-14-2"
+    },
+    {
+      "bookId": 50,
+      "book": "Filipenses",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 27,
+      "verseEnd": 27,
+      "sourceGroup": "Fil. 1:27",
+      "label": "Filipenses 1:27",
+      "id": "b50-1-27-1-27"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Efe. 6:6",
+      "label": "Efesios 6:6",
+      "id": "b49-6-6-6-6"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "Mat. 10:28",
+      "label": "Mateo 10:28",
+      "id": "b40-10-28-10-28"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Gén. 8:1, etc",
+      "label": "Génesis 8:1",
+      "id": "b1-8-1-8-1"
+    },
+    {
+      "bookId": 7,
+      "book": "Jueces",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Jue. 15:19",
+      "label": "Jueces 15:19",
+      "id": "b7-15-19-15-19"
+    },
+    {
+      "bookId": 6,
+      "book": "Josué",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Jos. 2:11",
+      "label": "Josué 2:11",
+      "id": "b6-2-11-2-11"
+    },
+    {
+      "bookId": 7,
+      "book": "Jueces",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Jue. 8:3",
+      "label": "Jueces 8:3",
+      "id": "b7-8-3-8-3"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 54,
+      "chapterEnd": 54,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Isa. 54:6",
+      "label": "Isaías 54:6",
+      "id": "b23-54-6-54-6"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Eze. 11:19",
+      "label": "Ezequiel 11:19",
+      "id": "b26-11-19-11-19"
+    },
+    {
+      "bookId": 9,
+      "book": "1 Samuel",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "1 Sam. 1:15",
+      "label": "1 Samuel 1:15",
+      "id": "b9-1-15-1-15"
+    },
+    {
+      "bookId": 21,
+      "book": "Eclesiastés",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Ecl. 3:19",
+      "label": "Eclesiastés 3:19",
+      "id": "b21-3-19-3-19"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 146,
+      "chapterEnd": 146,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Sal. 146:4",
+      "label": "Salmos 146:4",
+      "id": "b19-146-4-146-4"
+    },
+    {
+      "bookId": 21,
+      "book": "Eclesiastés",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Ecl. 12:7",
+      "label": "Eclesiastés 12:7",
+      "id": "b21-12-7-12-7"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "compárese con Job 34:14",
+      "label": "Job 34:14",
+      "id": "b18-34-14-34-14"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 46,
+      "verseEnd": 46,
+      "sourceGroup": "Luc. 23:46",
+      "label": "Lucas 23:46",
+      "id": "b42-23-46-23-46"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 59,
+      "verseEnd": 59,
+      "sourceGroup": "Hech. 7:59",
+      "label": "Hechos 7:59",
+      "id": "b44-7-59-7-59"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 2:11,14",
+      "label": "1 Corintios 2:11",
+      "id": "b46-2-11-2-11"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "1 Cor. 2:11,14",
+      "label": "1 Corintios 2:14",
+      "id": "b46-2-14-2-14"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Efe. 4:30",
+      "label": "Efesios 4:30",
+      "id": "b49-4-30-4-30"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Heb. 2:4",
+      "label": "Hebreos 2:4",
+      "id": "b58-2-4-2-4"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "1 Ped. 1:12",
+      "label": "1 Pedro 1:12",
+      "id": "b60-1-12-1-12"
+    },
+    {
+      "bookId": 61,
+      "book": "2 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "2 Ped. 1:21",
+      "label": "2 Pedro 1:21",
+      "id": "b61-1-21-1-21"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Números 31:19",
+      "label": "Números 31:19",
+      "id": "b4-31-19-31-19"
+    },
+    {
+      "bookId": 7,
+      "book": "Jueces",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Jueces 16:30",
+      "label": "Jueces 16:30",
+      "id": "b7-16-30-16-30"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Números 5:2 y 9:6",
+      "label": "Números 5:2",
+      "id": "b4-5-2-5-2"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Números 5:2 y 9:6",
+      "label": "Números 9:6",
+      "id": "b4-9-6-9-6"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 63,
+      "chapterEnd": 63,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Isa. 63:10",
+      "label": "Isaías 63:10",
+      "id": "b23-63-10-63-10"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Romanos 8:15, 1",
+      "label": "Romanos 8:15",
+      "id": "b45-8-15-8-15"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Romanos 8:15, 1",
+      "label": "Romanos 8:1",
+      "id": "b45-8-1-8-1"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "2 Timoteo 1:7 y 1",
+      "label": "2 Timoteo 1:7",
+      "id": "b55-1-7-1-7"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "2 Timoteo 1:7 y 1",
+      "label": "2 Timoteo 1:1",
+      "id": "b55-1-1-1-1"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Juan 4:6",
+      "label": "Juan 4:6",
+      "id": "b43-4-6-4-6"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Gál. 6:1",
+      "label": "Gálatas 6:1",
+      "id": "b48-6-1-6-1"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Rom. 12:11",
+      "label": "Romanos 12:11",
+      "id": "b45-12-11-12-11"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 46,
+      "verseEnd": 47,
+      "sourceGroup": "Luc. 1:46,47",
+      "label": "Lucas 1:46-47",
+      "id": "b42-1-46-1-47"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 34,
+      "verseEnd": 34,
+      "sourceGroup": "1 Cor. 7:34",
+      "label": "1 Corintios 7:34",
+      "id": "b46-7-34-7-34"
+    },
+    {
+      "bookId": 52,
+      "book": "1 Tesalonicenses",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "1 Tes. 5:23",
+      "label": "1 Tesalonicenses 5:23",
+      "id": "b52-5-23-5-23"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "ver Rom. 8:16",
+      "label": "Romanos 8:16",
+      "id": "b45-8-16-8-16"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 1,
+      "verseEnd": 2,
+      "sourceGroup": "ver Rom. 12:1, 2",
+      "label": "Romanos 12:1-2",
+      "id": "b45-12-1-12-2"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Heb. 1:7, 14",
+      "label": "Hebreos 1:7",
+      "id": "b58-1-7-1-7"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Heb. 1:7, 14",
+      "label": "Hebreos 1:14",
+      "id": "b58-1-14-1-14"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 18,
+      "chapterEnd": 19,
+      "verseStart": 1,
+      "verseEnd": 22,
+      "sourceGroup": "Gén. 18:1-19:22",
+      "label": "Génesis 18:1-19:22",
+      "id": "b1-18-1-19-22"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "Dan. 9:21",
+      "label": "Daniel 9:21",
+      "id": "b27-9-21-9-21"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 11,
+      "verseEnd": 38,
+      "sourceGroup": "Luc. 1:11-38",
+      "label": "Lucas 1:11-38",
+      "id": "b42-1-11-1-38"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 5,
+      "verseEnd": 10,
+      "sourceGroup": "Hech. 12:5-10",
+      "label": "Hechos 12:5-10",
+      "id": "b44-12-5-12-10"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 44,
+      "verseEnd": 44,
+      "sourceGroup": "ver 1 Cor. 15:44",
+      "label": "1 Corintios 15:44",
+      "id": "b46-15-44-15-44"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Éxo. 24:10",
+      "label": "Éxodo 24:10",
+      "id": "b2-24-10-24-10"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 33,
+      "chapterEnd": 33,
+      "verseStart": 20,
+      "verseEnd": 23,
+      "sourceGroup": "Éxo. 33:20-23",
+      "label": "Éxodo 33:20-23",
+      "id": "b2-33-20-33-23"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 9,
+      "verseEnd": 10,
+      "sourceGroup": "Dan. 7:9, 10",
+      "label": "Daniel 7:9-10",
+      "id": "b27-7-9-7-10"
+    },
+    {
+      "bookId": 51,
+      "book": "Colosenses",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Col. 1:15",
+      "label": "Colosenses 1:15",
+      "id": "b51-1-15-1-15"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Heb. 1:3",
+      "label": "Hebreos 1:3",
+      "id": "b58-1-3-1-3"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Heb. 2:7",
+      "label": "Hebreos 2:7",
+      "id": "b58-2-7-2-7"
+    },
+    {
+      "bookId": 21,
+      "book": "Eclesiastés",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 29,
+      "verseEnd": 29,
+      "sourceGroup": "Ecl. 7:29",
+      "label": "Eclesiastés 7:29",
+      "id": "b21-7-29-7-29"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 24,
+      "verseEnd": 24,
+      "sourceGroup": "ver Efe. 4:24",
+      "label": "Efesios 4:24",
+      "id": "b49-4-24-4-24"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "1 Juan 4:8",
+      "label": "1 Juan 4:8",
+      "id": "b62-4-8-4-8"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "verseStart": 36,
+      "verseEnd": 40,
+      "sourceGroup": "Mat. 22:36-40",
+      "label": "Mateo 22:36-40",
+      "id": "b40-22-36-22-40"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 6,
+      "verseEnd": 8,
+      "sourceGroup": "Sal. 8:6-8",
+      "label": "Salmos 8:6-8",
+      "id": "b19-8-6-8-8"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Sal. 8:5",
+      "label": "Salmos 8:5",
+      "id": "b19-8-5-8-5"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 8,
+      "verseEnd": 11,
+      "sourceGroup": "Éxo. 20:8-11",
+      "label": "Éxodo 20:8-11",
+      "id": "b2-20-8-20-11"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "ver 3:22",
+      "label": "Génesis 3:22",
+      "id": "b1-3-22-3-22"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Isa. 6:3",
+      "label": "Isaías 6:3",
+      "id": "b23-6-3-6-3"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 32,
+      "chapterEnd": 32,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Deut. 32:4",
+      "label": "Deuteronomio 32:4",
+      "id": "b5-32-4-32-4"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Job 34:10",
+      "label": "Job 34:10",
+      "id": "b18-34-10-34-10"
+    },
+    {
+      "bookId": 59,
+      "book": "Santiago",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Sant. 1:13",
+      "label": "Santiago 1:13",
+      "id": "b59-1-13-1-13"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Sal. 5:4",
+      "label": "Salmos 5:4",
+      "id": "b19-5-4-5-4"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "11:5",
+      "label": "Salmos 11:5",
+      "id": "b19-11-5-11-5"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Heb. 5:9",
+      "label": "Hebreos 5:9",
+      "id": "b58-5-9-5-9"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Eze. 28:17",
+      "label": "Ezequiel 28:17",
+      "id": "b26-28-17-28-17"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "ver 1 Tim. 3:6",
+      "label": "1 Timoteo 3:6",
+      "id": "b54-3-6-3-6"
+    },
+    {
+      "bookId": 65,
+      "book": "Judas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "compárese con Judas 6",
+      "label": "Judas 1:6",
+      "id": "b65-1-6-1-6"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 12,
+      "verseEnd": 14,
+      "sourceGroup": "Isa. 14:12-14",
+      "label": "Isaías 14:12-14",
+      "id": "b23-14-12-14-14"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Apoc. 12:4, 7-9",
+      "label": "Apocalipsis 12:4",
+      "id": "b66-12-4-12-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 7,
+      "verseEnd": 9,
+      "sourceGroup": "Apoc. 12:4, 7-9",
+      "label": "Apocalipsis 12:7-9",
+      "id": "b66-12-7-12-9"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "Gén. 3:4, 5",
+      "label": "Génesis 3:4-5",
+      "id": "b1-3-4-3-5"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Gén. 3:6",
+      "label": "Génesis 3:6",
+      "id": "b1-3-6-3-6"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Gén. 3:7",
+      "label": "Génesis 3:7",
+      "id": "b1-3-7-3-7"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 8,
+      "verseEnd": 10,
+      "sourceGroup": "Gén. 3:8-10",
+      "label": "Génesis 3:8-10",
+      "id": "b1-3-8-3-10"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Gén. 3:12",
+      "label": "Génesis 3:12",
+      "id": "b1-3-12-3-12"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Gén. 3:13",
+      "label": "Génesis 3:13",
+      "id": "b1-3-13-3-13"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Gén. 3:14",
+      "label": "Génesis 3:14",
+      "id": "b1-3-14-3-14"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "Gén. 3:16",
+      "label": "Génesis 3:16",
+      "id": "b1-3-16-3-16"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 17,
+      "verseEnd": 19,
+      "sourceGroup": "Gén. 3:17-19",
+      "label": "Génesis 3:17-19",
+      "id": "b1-3-17-3-19"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Gén. 3:19",
+      "label": "Génesis 3:19",
+      "id": "b1-3-19-3-19"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Gén. 3:8",
+      "label": "Génesis 3:8",
+      "id": "b1-3-8-3-8"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 1,
+      "verseEnd": 6,
+      "sourceGroup": "Gén. 3:1-6",
+      "label": "Génesis 3:1-6",
+      "id": "b1-3-1-3-6"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 18,
+      "verseEnd": 22,
+      "sourceGroup": "Rom. 1:18-22",
+      "label": "Romanos 1:18-22",
+      "id": "b45-1-18-1-22"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "1 Juan 3:4",
+      "label": "1 Juan 3:4",
+      "id": "b62-3-4-3-4"
+    },
+    {
+      "bookId": 59,
+      "book": "Santiago",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Sant. 4:17",
+      "label": "Santiago 4:17",
+      "id": "b59-4-17-4-17"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Rom. 14:23",
+      "label": "Romanos 14:23",
+      "id": "b45-14-23-14-23"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Mat. 12:30",
+      "label": "Mateo 12:30",
+      "id": "b40-12-30-12-30"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Juan 16:9",
+      "label": "Juan 16:9",
+      "id": "b43-16-9-16-9"
+    },
+    {
+      "bookId": 59,
+      "book": "Santiago",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Sant. 2:10",
+      "label": "Santiago 2:10",
+      "id": "b59-2-10-2-10"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Éxo. 20:13",
+      "label": "Éxodo 20:13",
+      "id": "b2-20-13-20-13"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Éxo. 20:14",
+      "label": "Éxodo 20:14",
+      "id": "b2-20-14-20-14"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Rom. 3:19",
+      "label": "Romanos 3:19",
+      "id": "b45-3-19-3-19"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Rom. 6:23",
+      "label": "Romanos 6:23",
+      "id": "b45-6-23-6-23"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Mat. 6:12",
+      "label": "Mateo 6:12",
+      "id": "b40-6-12-6-12"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 28,
+      "verseEnd": 28,
+      "sourceGroup": "Mat. 11:28",
+      "label": "Mateo 11:28",
+      "id": "b40-11-28-11-28"
+    },
+    {
+      "bookId": 20,
+      "book": "Proverbios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Prov. 4:23",
+      "label": "Proverbios 4:23",
+      "id": "b20-4-23-4-23"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 19,
+      "verseEnd": 19,
+      "sourceGroup": "Mat. 15:19",
+      "label": "Mateo 15:19",
+      "id": "b40-15-19-15-19"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Jer. 17:9",
+      "label": "Jeremías 17:9",
+      "id": "b24-17-9-17-9"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Gén. 4:8, 23",
+      "label": "Génesis 4:8",
+      "id": "b1-4-8-4-8"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Gén. 4:8, 23",
+      "label": "Génesis 4:23",
+      "id": "b1-4-23-4-23"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 1,
+      "verseEnd": 5,
+      "sourceGroup": "6:1-5",
+      "label": "Génesis 6:1-5",
+      "id": "b1-6-1-6-5"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 11,
+      "verseEnd": 13,
+      "sourceGroup": "6:11-13",
+      "label": "Génesis 6:11-13",
+      "id": "b1-6-11-6-13"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 143,
+      "chapterEnd": 143,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Sal. 143:2",
+      "label": "Salmos 143:2",
+      "id": "b19-143-2-143-2"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "ver 14:3",
+      "label": "Salmos 14:3",
+      "id": "b19-14-3-14-3"
+    },
+    {
+      "bookId": 11,
+      "book": "1 Reyes",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 46,
+      "verseEnd": 46,
+      "sourceGroup": "1 Rey. 8:46",
+      "label": "1 Reyes 8:46",
+      "id": "b11-8-46-8-46"
+    },
+    {
+      "bookId": 20,
+      "book": "Proverbios",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Prov. 20:9",
+      "label": "Proverbios 20:9",
+      "id": "b20-20-9-20-9"
+    },
+    {
+      "bookId": 21,
+      "book": "Eclesiastés",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Ecl. 7:20",
+      "label": "Eclesiastés 7:20",
+      "id": "b21-7-20-7-20"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 23,
+      "verseEnd": 23,
+      "sourceGroup": "Rom. 3:23",
+      "label": "Romanos 3:23",
+      "id": "b45-3-23-3-23"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "1 Juan 1:8",
+      "label": "1 Juan 1:8",
+      "id": "b62-1-8-1-8"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "1 Cor. 15:22",
+      "label": "1 Corintios 15:22",
+      "id": "b46-15-22-15-22"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Job 14:4",
+      "label": "Job 14:4",
+      "id": "b18-14-4-14-4"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 51,
+      "chapterEnd": 51,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "Sal. 51:5",
+      "label": "Salmos 51:5",
+      "id": "b19-51-5-51-5"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 7,
+      "verseEnd": 8,
+      "sourceGroup": "Rom. 8:7, 8",
+      "label": "Romanos 8:7-8",
+      "id": "b45-8-7-8-8"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Efe. 2:3",
+      "label": "Efesios 2:3",
+      "id": "b49-2-3-2-3"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 36,
+      "verseEnd": 36,
+      "sourceGroup": "Juan 8:36",
+      "label": "Juan 8:36",
+      "id": "b43-8-36-8-36"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "Juan 15:4, 5",
+      "label": "Juan 15:4-5",
+      "id": "b43-15-4-15-5"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Rom. 7:15,19, 20,22-24",
+      "label": "Romanos 7:15",
+      "id": "b45-7-15-7-15"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 19,
+      "verseEnd": 20,
+      "sourceGroup": "Rom. 7:15,19, 20,22-24",
+      "label": "Romanos 7:19-20",
+      "id": "b45-7-19-7-20"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 22,
+      "verseEnd": 24,
+      "sourceGroup": "Rom. 7:15,19, 20,22-24",
+      "label": "Romanos 7:22-24",
+      "id": "b45-7-22-7-24"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "Rom. 7:25",
+      "label": "Romanos 7:25",
+      "id": "b45-7-25-7-25"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Efe. 2:1, 3, 8-10",
+      "label": "Efesios 2:1",
+      "id": "b49-2-1-2-1"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 8,
+      "verseEnd": 10,
+      "sourceGroup": "Efe. 2:1, 3, 8-10",
+      "label": "Efesios 2:8-10",
+      "id": "b49-2-8-2-10"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Juan 1:13",
+      "label": "Juan 1:13",
+      "id": "b43-1-13-1-13"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "3:5",
+      "label": "Juan 3:5",
+      "id": "b43-3-5-3-5"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "2 Cor. 5:17",
+      "label": "2 Corintios 5:17",
+      "id": "b47-5-17-5-17"
+    },
+    {
+      "bookId": 62,
+      "book": "1 Juan",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "1 Juan 2:1",
+      "label": "1 Juan 2:1",
+      "id": "b62-2-1-2-1"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "verseStart": 33,
+      "verseEnd": 33,
+      "sourceGroup": "ver Job 31:33",
+      "label": "Job 31:33",
+      "id": "b18-31-33-31-33"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "Mat. 19:4, 5",
+      "label": "Mateo 19:4-5",
+      "id": "b40-19-4-19-5"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 44,
+      "verseEnd": 44,
+      "sourceGroup": "Juan 8:44",
+      "label": "Juan 8:44",
+      "id": "b43-8-44-8-44"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 18,
+      "verseEnd": 19,
+      "sourceGroup": "Rom. 5:12,18,19",
+      "label": "Romanos 5:18-19",
+      "id": "b45-5-18-5-19"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "2 Cor. 11:3",
+      "label": "2 Corintios 11:3",
+      "id": "b47-11-3-11-3"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "1 Tim. 2:14",
+      "label": "1 Timoteo 2:14",
+      "id": "b54-2-14-2-14"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Apoc. 12:9",
+      "label": "Apocalipsis 12:9",
+      "id": "b66-12-9-12-9"
+    },
+    {
+      "bookId": 18,
+      "book": "Job",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Job 7:6",
+      "label": "Job 7:6",
+      "id": "b18-7-6-7-6"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 5,
+      "verseEnd": 6,
+      "sourceGroup": "Sal. 8:5, 6",
+      "label": "Salmos 8:5-6",
+      "id": "b19-8-5-8-6"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Sal. 8:9",
+      "label": "Salmos 8:9",
+      "id": "b19-8-9-8-9"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "Gén. 3:15",
+      "label": "Génesis 3:15",
+      "id": "b1-3-15-3-15"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 4,
+      "verseEnd": 6,
+      "sourceGroup": "Efe. 1:4-6",
+      "label": "Efesios 1:4-6",
+      "id": "b49-1-4-1-6"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "compárese con 2 Tim. 1:9",
+      "label": "2 Timoteo 1:9",
+      "id": "b55-1-9-1-9"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 19,
+      "verseEnd": 20,
+      "sourceGroup": "1 Ped. 1:19, 20",
+      "label": "1 Pedro 1:19-20",
+      "id": "b60-1-19-1-20"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Heb. 6:18",
+      "label": "Hebreos 6:18",
+      "id": "b58-6-18-6-18"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Heb. 7:22",
+      "label": "Hebreos 7:22",
+      "id": "b58-7-22-7-22"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 12,
+      "verseEnd": 21,
+      "sourceGroup": "Rom. 5:12-21",
+      "label": "Romanos 5:12-21",
+      "id": "b45-5-12-5-21"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 38,
+      "verseEnd": 38,
+      "sourceGroup": "Juan 6:38, compárese con 5:30,43",
+      "label": "Juan 6:38",
+      "id": "b43-6-38-6-38"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Juan 6:38, compárese con 5:30,43",
+      "label": "Juan 5:30",
+      "id": "b43-5-30-5-30"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 43,
+      "verseEnd": 43,
+      "sourceGroup": "Juan 6:38, compárese con 5:30,43",
+      "label": "Juan 5:43",
+      "id": "b43-5-43-5-43"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 40,
+      "verseEnd": 40,
+      "sourceGroup": "Juan 6:40",
+      "label": "Juan 6:40",
+      "id": "b43-6-40-6-40"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Juan 17:3",
+      "label": "Juan 17:3",
+      "id": "b43-17-3-17-3"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Juan 17:4",
+      "label": "Juan 17:4",
+      "id": "b43-17-4-17-4"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Juan 19:30",
+      "label": "Juan 19:30",
+      "id": "b43-19-30-19-30"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "verseStart": 1,
+      "verseEnd": 8,
+      "sourceGroup": "Gén. 6:1-8",
+      "label": "Génesis 6:1-8",
+      "id": "b1-6-1-6-8"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 1,
+      "verseEnd": 9,
+      "sourceGroup": "11:1-9",
+      "label": "Génesis 11:1-9",
+      "id": "b1-11-1-11-9"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "Gén. 22:18",
+      "label": "Génesis 22:18",
+      "id": "b1-22-18-22-18"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "12:3",
+      "label": "Génesis 12:3",
+      "id": "b1-12-3-12-3"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "18:18",
+      "label": "Génesis 18:18",
+      "id": "b1-18-18-18-18"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Gén. 15:6",
+      "label": "Génesis 15:6",
+      "id": "b1-15-6-15-6"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Gén. 17:1",
+      "label": "Génesis 17:1",
+      "id": "b1-17-1-17-1"
+    },
+    {
+      "bookId": 1,
+      "book": "Génesis",
+      "chapterStart": 26,
+      "chapterEnd": 26,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "26:5",
+      "label": "Génesis 26:5",
+      "id": "b1-26-5-26-5"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "Rom. 4:11",
+      "label": "Romanos 4:11",
+      "id": "b45-4-11-4-11"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 2,
+      "verseEnd": 3,
+      "sourceGroup": "Rom. 4:2,3",
+      "label": "Romanos 4:2-3",
+      "id": "b45-4-2-4-3"
+    },
+    {
+      "bookId": 59,
+      "book": "Santiago",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 23,
+      "verseEnd": 24,
+      "sourceGroup": "Sant. 2:23,24",
+      "label": "Santiago 2:23-24",
+      "id": "b59-2-23-2-24"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Gál. 3:7",
+      "label": "Gálatas 3:7",
+      "id": "b48-3-7-3-7"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 29,
+      "verseEnd": 29,
+      "sourceGroup": "Gál. 3:29",
+      "label": "Gálatas 3:29",
+      "id": "b48-3-29-3-29"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Heb. 9:1",
+      "label": "Hebreos 9:1",
+      "id": "b58-9-1-9-1"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 22,
+      "verseEnd": 31,
+      "sourceGroup": "Gál. 4:22-31",
+      "label": "Gálatas 4:22-31",
+      "id": "b48-4-22-4-31"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 6,
+      "verseEnd": 13,
+      "sourceGroup": "ver Heb. 8:6-13",
+      "label": "Hebreos 8:6-13",
+      "id": "b58-8-6-8-13"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 27,
+      "verseEnd": 27,
+      "sourceGroup": "Dan. 9:27",
+      "label": "Daniel 9:27",
+      "id": "b27-9-27-9-27"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Luc. 22:20",
+      "label": "Lucas 22:20",
+      "id": "b42-22-20-22-20"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Rom. 15:8",
+      "label": "Romanos 15:8",
+      "id": "b45-15-8-15-8"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 11,
+      "verseEnd": 22,
+      "sourceGroup": "Heb. 9:11-22",
+      "label": "Hebreos 9:11-22",
+      "id": "b58-9-11-9-22"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "verseStart": 33,
+      "verseEnd": 33,
+      "sourceGroup": "Jer. 31:33",
+      "label": "Jeremías 31:33",
+      "id": "b24-31-33-31-33"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 22,
+      "verseEnd": 23,
+      "sourceGroup": "Gál. 5:22,23",
+      "label": "Gálatas 5:22-23",
+      "id": "b48-5-22-5-23"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 29,
+      "verseEnd": 29,
+      "sourceGroup": "Juan 8:29",
+      "label": "Juan 8:29",
+      "id": "b43-8-29-8-29"
+    }
+  ]
+}
