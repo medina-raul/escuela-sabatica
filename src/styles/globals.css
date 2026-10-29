@@ -356,39 +356,51 @@ img {
 
 .sidebar-covers {
   margin-top: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: var(--space-4);
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  flex-shrink: 0;
+  gap: 10px;
   padding-top: var(--space-4);
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .sidebar-cover-card {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
   align-items: center;
-  gap: 6px;
+  min-width: 0;
+  min-height: 80px;
+  gap: 10px;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.sidebar-cover-card:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.sidebar-cover-card:focus-visible {
+  outline: 2px solid var(--color-gold-500);
+  outline-offset: 3px;
 }
 
 .sidebar-cover-wrap {
   position: relative;
   display: block;
-  border-radius: 6px;
+  width: 44px;
+  height: 62px;
+  border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.15s ease;
-}
-
-.sidebar-cover-wrap:hover {
-  transform: translateY(-2px);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.24);
 }
 
 .sidebar-cover-wrap img {
-  width: 110px;
-  height: 154px;
+  width: 100%;
+  height: 100%;
   display: block;
   object-fit: cover;
 }
@@ -406,27 +418,33 @@ img {
   font-size: 0.68rem;
   font-weight: 600;
   color: var(--color-gold-500);
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.4px;
   line-height: 1.4;
   text-transform: uppercase;
-  margin-bottom: var(--space-1);
+  margin: 0 0 2px;
   width: 100%;
 }
 
-.cover-label {
-  font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.64);
-  font-weight: 600;
-  text-align: center;
+.sidebar-cover-copy {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+  overflow-wrap: anywhere;
 }
 
-.cover-sublabel {
-  font-size: 0.6rem;
-  color: rgba(255, 255, 255, 0.35);
+.sidebar-cover-card .cover-label {
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.94);
+  font-weight: 650;
+}
+
+.sidebar-cover-card .cover-sublabel {
+  font-size: 0.6875rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.65);
   font-weight: 400;
-  text-align: center;
-  margin-top: -3px;
 }
 
 .sidebar-bible-card {
@@ -2432,20 +2450,23 @@ button.sidebar-ppt-card {
     transform: translateX(-100%);
     transition: transform 0.25s ease;
     overflow-y: auto;
+    gap: var(--space-4);
   }
 
   .sidebar-covers {
-    padding: var(--space-3) var(--space-2) var(--space-5);
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    margin-top: var(--space-4);
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: var(--space-3) 0 0;
+    margin-top: 0;
   }
 
-  .sidebar-cover-wrap img {
-    width: 90px;
-    height: 126px;
+  .sidebar-cover-card {
+    grid-template-columns: 40px minmax(0, 1fr);
+    min-height: 72px;
+    padding: 7px;
+  }
+
+  .sidebar-cover-wrap {
+    width: 40px;
+    height: 56px;
   }
 
   .sidebar.mobile-open {
@@ -2456,6 +2477,7 @@ button.sidebar-ppt-card {
   .sidebar-brand {
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 0;
   }
 
   .sidebar-close {
