@@ -35,7 +35,7 @@ function nextBatch(current: number, total: number) {
 function BeliefSelector({ currentSlug = "" }: { currentSlug?: string }) {
   return <label className="beliefs-selector">
     <span className="beliefs-control-label">Ir a una creencia</span>
-    <select value={currentSlug} onChange={event => {
+    <span className="beliefs-select-control"><select value={currentSlug} onChange={event => {
       const selected = beliefs.find(belief => belief.slug === event.target.value);
       if (selected && selected.slug !== currentSlug) window.location.assign(beliefHref(selected));
     }}>
@@ -43,7 +43,7 @@ function BeliefSelector({ currentSlug = "" }: { currentSlug?: string }) {
       {categories.map(category => <optgroup label={categoryNames[category.id]} key={category.id}>
         {beliefs.filter(belief => belief.categoryId === category.id).map(belief => <option value={belief.slug} key={belief.id}>{String(belief.number).padStart(2, "0")}. {belief.title}</option>)}
       </optgroup>)}
-    </select>
+    </select><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6" /></svg></span>
   </label>;
 }
 
@@ -238,7 +238,7 @@ export default function BeliefsPage({ slug }: { slug?: string }) {
       <section className="beliefs-explorer beliefs-inner" aria-labelledby="belief-list-heading">
         <div className="beliefs-explorer-heading"><div><p className="beliefs-eyebrow">Un recorrido por nuestra fe</p><h2 id="belief-list-heading">Encuentra un tema para explorar.</h2></div></div>
         <div className="beliefs-tools">
-          <label className="beliefs-search-field"><span className="beliefs-control-label">Buscar creencias</span><span className="beliefs-search"><span aria-hidden="true">⌕</span><input type="search" placeholder="Buscar por título, tema o pasaje bíblico" value={explorer.query} onChange={event => setExplorer(current => ({ ...current, query: event.target.value, visibleCount: current.initialBatch }))} /></span></label>
+          <label className="beliefs-search-field"><span className="beliefs-control-label">Buscar creencias</span><span className="beliefs-search"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 4 4" /></svg><input type="search" placeholder="Título, tema o cita bíblica" value={explorer.query} onChange={event => setExplorer(current => ({ ...current, query: event.target.value, visibleCount: current.initialBatch }))} /></span></label>
           <BeliefSelector />
         </div>
         <div className="beliefs-categories" role="group" aria-label="Filtrar por tema"><button type="button" aria-pressed={explorer.category === "all"} onClick={() => setExplorer(current => ({ ...current, category: "all", visibleCount: current.initialBatch }))}>Todas <span>28</span></button>{categories.map(category => <button type="button" key={category.id} aria-pressed={explorer.category === category.id} onClick={() => setExplorer(current => ({ ...current, category: category.id, visibleCount: current.initialBatch }))}>{categoryNames[category.id]} <span>{category.beliefNumbers.length}</span></button>)}</div>

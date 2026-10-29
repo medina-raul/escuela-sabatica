@@ -13,6 +13,7 @@
 }
 
 .beliefs-resource {
+  --beliefs-control-height: 48px;
   container: beliefs-resource / inline-size;
   display: grid;
   width: 100%;
@@ -58,7 +59,9 @@
 .beliefs-selector,
 .beliefs-search-field { display: grid; min-width: 0; gap: 8px; }
 .beliefs-control-label { color: var(--beliefs-muted); font-size: .75rem; line-height: 1.5; }
-.beliefs-selector select { width: 100%; min-width: 0; min-height: 48px; padding: 10px 12px; border: 1px solid #cdd1cf; border-radius: 12px; background: var(--beliefs-surface); color: var(--beliefs-ink); font: inherit; font-size: .875rem; line-height: 1.5; cursor: pointer; }
+.beliefs-select-control { position: relative; display: block; min-width: 0; }
+.beliefs-selector select { display: block; width: 100%; min-width: 0; height: var(--beliefs-control-height); padding: 0 42px 0 14px; border: 1px solid #cdd1cf; border-radius: 12px; appearance: none; background: var(--beliefs-surface); color: var(--beliefs-ink); font: inherit; font-size: .875rem; line-height: 1.5; cursor: pointer; }
+.beliefs-select-control > svg { position: absolute; inset: 0 14px 0 auto; width: 18px; height: 18px; margin-block: auto; color: var(--beliefs-muted); pointer-events: none; }
 .beliefs-selector select:focus-visible { border-color: var(--beliefs-link); box-shadow: 0 0 0 2px rgb(42 91 107 / 12%); }
 
 .beliefs-notice { padding: 14px 18px; border: 1px solid var(--beliefs-line); border-inline-start: 3px solid #c9af7c; border-radius: 12px; background: rgb(255 253 248 / 68%); color: var(--beliefs-muted); font-size: .875rem; line-height: 1.75; }
@@ -71,9 +74,10 @@
 .beliefs-explorer-heading { min-width: 0; }
 .beliefs-explorer-heading h2 { margin: 0; color: var(--beliefs-ink); font: 400 clamp(1.4rem, 2.7vw, 1.8rem)/1.3 var(--beliefs-display); letter-spacing: -.025em; text-wrap: balance; }
 .beliefs-explorer-heading .beliefs-eyebrow { margin-bottom: 7px; }
-.beliefs-search { display: flex; align-items: center; min-width: 0; min-height: 48px; gap: 10px; padding: 0 14px; border: 1px solid #cdd1cf; border-radius: 12px; background: var(--beliefs-surface); color: var(--beliefs-muted); }
+.beliefs-search { display: flex; align-items: center; min-width: 0; height: var(--beliefs-control-height); gap: 10px; padding: 0 14px; border: 1px solid #cdd1cf; border-radius: 12px; background: var(--beliefs-surface); color: var(--beliefs-muted); }
+.beliefs-search > svg { display: block; flex: 0 0 18px; width: 18px; height: 18px; }
 .beliefs-search:focus-within { border-color: var(--beliefs-link); box-shadow: 0 0 0 2px rgb(42 91 107 / 12%); }
-.beliefs-search input { width: 100%; min-width: 0; min-height: 46px; padding: 0; border: 0; outline: 0; background: transparent; color: var(--beliefs-ink); font: inherit; font-size: .875rem; }
+.beliefs-search input { flex: 1; width: 100%; min-width: 0; height: 100%; padding: 0; border: 0; outline: 0; background: transparent; color: var(--beliefs-ink); font: inherit; font-size: .875rem; line-height: 1.5; }
 .beliefs-search input::placeholder { color: var(--beliefs-muted); opacity: .9; }
 .beliefs-categories { display: flex; flex-wrap: wrap; gap: 8px; }
 .beliefs-categories button { display: inline-flex; align-items: center; min-height: 40px; gap: 7px; padding: 7px 12px; border: 1px solid var(--beliefs-line); border-radius: 999px; background: var(--beliefs-surface); color: var(--beliefs-muted); font: inherit; font-size: .75rem; line-height: 1.4; cursor: pointer; transition: border-color 160ms ease, background 160ms ease, color 160ms ease; }
@@ -162,8 +166,17 @@
 .beliefs-notes-body h3 { margin: 0 0 8px; color: var(--beliefs-ink); font: 400 1.125rem/1.4 var(--beliefs-display); }
 .beliefs-notes-body a { color: var(--beliefs-link); text-decoration: underline; text-decoration-color: rgb(42 91 107 / 38%); text-underline-offset: 3px; }
 .beliefs-rights { margin-top: 22px; padding-top: 17px; border-top: 1px solid var(--beliefs-line); font-size: .75rem; }
-.beliefs-resource :is(a, button, input, select):focus-visible,
+.beliefs-resource :is(a, button):focus-visible,
 .beliefs-notes-dialog :is(a, button):focus-visible { outline: 2px solid var(--beliefs-link); outline-offset: 3px; }
+
+/* These controls show focus on their rounded outer border. */
+.beliefs-resource .beliefs-search input:focus-visible,
+.beliefs-resource .beliefs-selector select:focus-visible { outline: none; }
+
+@media (forced-colors: active) {
+  .beliefs-resource .beliefs-search:focus-within,
+  .beliefs-resource .beliefs-selector select:focus-visible { outline: 2px solid Highlight; outline-offset: 2px; }
+}
 
 @container beliefs-resource (max-width: 48rem) {
   .beliefs-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
@@ -174,6 +187,8 @@
 @container beliefs-resource (max-width: 34rem) {
   .beliefs-toolbar,
   .beliefs-tools { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .beliefs-selector select,
+  .beliefs-search input { font-size: 1rem; }
   .beliefs-back { min-height: 44px; }
   .beliefs-hero { padding: 24px; }
   .beliefs-hero-art img { opacity: .5; }
