@@ -1,0 +1,2096 @@
+{
+  "beliefNumber": 1,
+  "bookChapterTitle": "La Palabra de Dios",
+  "groupInBookIndex": "LA DOCTRINA DE DIOS",
+  "printedPages": [
+    11,
+    22
+  ],
+  "pdfPages": [
+    13,
+    24
+  ],
+  "transcriptionStatus": "automated-draft-needs-editorial-review",
+  "editorialNotes": [],
+  "referenceCorrections": [],
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "text": "NINGÚN LIBRO HA SIDO TAN AMADO, tan odiado, tan reverenciado, tan condenado como la Biblia. Hay quienes han sufrido la muerte por su causa. Otros se han convertido en asesinos creyendo así honrarla. Ha inspirado los hechos más nobles y más grandes del hombre, y ha sido culpada por sus hechos más condenables y degradantes. Se han levantado guerras sobre la Biblia, revoluciones han sido alimentadas en sus páginas, y reinos han caído por sus ideas. Personas de diversos puntos de vista: desde teólogos de la liberación hasta capitalistas; de fascistas a marxistas, de dictadores a libertadores, de pacificadores a militaristas, buscan en sus páginas las palabras con las cuales justificar sus acciones. La exclusividad de la Biblia no viene de su influencia política, cultural y social inigualable, sino de su origen y de los temas que trata. Es la revelación del único Dios-hombre: el Hijo de Dios, Jesucristo, el Salvador del mundo.",
+      "pdfPage": 13
+    },
+    {
+      "kind": "heading",
+      "text": "La revelación divina",
+      "pdfPage": 14
+    },
+    {
+      "kind": "paragraph",
+      "text": "Mientras a través de toda la historia algunos han dudado de la existencia de Dios, muchos otros han testificado confiadamente que Dios existe y que se ha revelado a sí mismo. ¿En qué formas se ha revelado Dios mismo y qué función cumple la Biblia en su revelación?",
+      "pdfPage": 14
+    },
+    {
+      "kind": "paragraph",
+      "text": "Revelación general. La vislumbre del carácter de Dios que proveen la historia, la conducta humana, la conciencia y la naturaleza con frecuencia se llama “revelación general”, porque está disponible a todos y apela a la razón. Para millares, “los cielos cuentan la gloria de Dios, y el firmamento anuncia la obra de sus manos” (Sal. 19:1). El sol, la lluvia, las colinas, los arroyos, todos declaran el amor del Creador. “Porque las cosas invisibles de él, su eterno poder y deidad, se hacen claramente visibles desde la creación del mundo, siendo entendidas por medio de las cosas hechas, de modo que no tienen excusa” (Rom. 1:20 ). Otros ven la evidencia del cuidado de Dios en las relaciones de amor felices y extraordinarias entre amigos, familiares, esposo y esposa, padres e hijos. “Como aquel a quien consuela su madre, así os consolaré yo a vosotros” (Isa. 66:13). “Como el padre se compadece de los hijos, se compadece Jehová de los que le temen” (Sal. 103:13). Sin embargo, el mismo sol que testifica del amante Creador puede volver la tierra en un desierto que cause hambre. La misma lluvia puede crear torrentes que ahoguen a familias enteras; la misma montaña puede desmoronarse y luego aplastar. Y las relaciones humanas a menudo envuelven celos, envidia, ira y hasta odio que conduce al asesinato. El mundo que nos rodea da señales mixtas, generando más preguntas que respuestas. Revela un conflicto entre el bien y el mal, pero no explica cómo el conflicto comenzó, quién está luchando y por qué, o quién finalmente triunfará.",
+      "pdfPage": 14,
+      "citations": [
+        {
+          "start": 326,
+          "end": 337,
+          "referenceIds": [
+            "b19-19-1-19-1"
+          ]
+        },
+        {
+          "start": 619,
+          "end": 631,
+          "referenceIds": [
+            "b45-1-20-1-20"
+          ]
+        },
+        {
+          "start": 858,
+          "end": 870,
+          "referenceIds": [
+            "b23-66-13-66-13"
+          ]
+        },
+        {
+          "start": 955,
+          "end": 968,
+          "referenceIds": [
+            "b19-103-13-103-13"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Revelación especial. El pecado limita la revelación que Dios hace de sí mismo mediante la creación al oscurecer nuestra capacidad de interpretar su testimonio. En su amor nos dio una revelación especial de sí mismo para ayudarnos a obtener respuestas a estas preguntas. Mediante el Antiguo y el Nuevo Testamento Dios se reveló a sí mismo ante nosotros en una forma específica, no dejando lugar a dudas en cuanto a su carácter de amor. Su revelación vino primeramente mediante los profetas; luego la revelación máxima, mediante la persona de Jesucristo (Heb. 1:1,2). La Biblia contiene tanto proposiciones que declaran la verdad acerca de Dios como la revelación misma de él como persona. Ambos aspectos son necesarios.",
+      "pdfPage": 14,
+      "citations": [
+        {
+          "start": 552,
+          "end": 564,
+          "referenceIds": [
+            "b58-1-1-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Necesitamos conocer a Dios mediante Jesucristo (Juan 17:3), “conforme a la verdad que está en Jesús” (Efe. 4:21). Y mediante las Escrituras Dios penetra en nuestras limitaciones mentales, morales y espirituales, comunicándonos su anhelo de salvarnos.",
+      "pdfPage": 15,
+      "citations": [
+        {
+          "start": 47,
+          "end": 58,
+          "referenceIds": [
+            "b43-17-3-17-3"
+          ]
+        },
+        {
+          "start": 101,
+          "end": 112,
+          "referenceIds": [
+            "b49-4-21-4-21"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "El enfoque de las Escrituras",
+      "pdfPage": 15
+    },
+    {
+      "kind": "paragraph",
+      "text": "La Biblia revela a Dios y expone la humanidad. Expone nuestra dificultad y revela su solución. Nos presenta como perdidos, alejados de Dios, y revela a Jesús como el que nos encuentra y nos trae de vuelta a Dios. Jesucristo es el foco de la Escritura. El Antiguo Testamento presenta al Hijo de Dios como el Mesías, el Redentor del mundo; el Nuevo Testamento lo revela como Jesucristo, el Salvador. Cada página, ya sea mediante símbolo o realidad, revela alguna fase de su obra y carácter. La muerte de Jesús en la cruz es la revelación máxima del carácter de Dios. La cruz hace esta última revelación porque une dos extremos: la maldad incomprensible de los seres humanos y el amor inagotable de Dios. ¿Qué podría dar mayor prueba de la pecaminosidad humana? ¿Qué podría revelar mejor el pecado? La cruz revela al Dios que permitió que mataran a su único Hijo. ¡Qué sacrificio! ¿Qué otra revelación de amor mayor que ésta podría haberlo hecho? Sí, el foco de la Biblia es Jesucristo. Él está colocado en el centro del escenario del drama cósmico. Pronto su triunfo en el Calvario culminará en la eliminación del mal. La humanidad y Dios serán reunidos. El tema del amor de Dios, particularmente como se ha visto en el sacrificio de Cristo en el Calvario, es la mayor verdad del universo, el foco de la Biblia. De modo que todas las verdades bíblicas deben estudiarse en torno a esta perspectiva.",
+      "pdfPage": 15
+    },
+    {
+      "kind": "heading",
+      "text": "El origen de las Escrituras",
+      "pdfPage": 15
+    },
+    {
+      "kind": "paragraph",
+      "text": "La autoridad de la Biblia tanto en asuntos de fe como de conducta, surge de su origen. Los mismos escritores sagrados la consideraban distinta de toda otra literatura. Se refirieron a ella como las “Santas Escrituras” (Rom. 1:2), “Sagradas Escrituras” (2 Tim. 3:15), y “palabras de Dios” (Rom. 3:2; Heb. 5:12). La individualidad de las Escrituras está basada en su mismo origen. Los escritores de la Biblia declararon que ellos no fueron los originadores de sus mensajes, sino que los recibieron de Dios. Fue mediante la revelación divina que ellos pudieron “ver\" las verdades que comunicaron (ver Isa. 1:1; Amos 1:1; Miq. 1:1; Hab. 1:1; Jer. 38:21). Estos escritores señalaron al Espíritu Santo como el Ser que inspiraba a los profetas a comunicar los mensajes al pueblo (Neh. 9:30; Zac. 7:12). David dijo: “El",
+      "pdfPage": 15,
+      "citations": [
+        {
+          "start": 218,
+          "end": 228,
+          "referenceIds": [
+            "b45-1-2-1-2"
+          ]
+        },
+        {
+          "start": 252,
+          "end": 265,
+          "referenceIds": [
+            "b55-3-15-3-15"
+          ]
+        },
+        {
+          "start": 288,
+          "end": 309,
+          "referenceIds": [
+            "b45-3-2-3-2",
+            "b58-5-12-5-12"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 649,
+          "referenceIds": [
+            "b23-1-1-1-1",
+            "b30-1-1-1-1",
+            "b33-1-1-1-1",
+            "b35-1-1-1-1",
+            "b24-38-21-38-21"
+          ]
+        },
+        {
+          "start": 772,
+          "end": 794,
+          "referenceIds": [
+            "b16-9-30-9-30",
+            "b38-7-12-7-12"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El Espíritu de Jehová ha hablado por mí, y su palabra ha estado en mi lengua” (2 Sam. 23:2). Ezequiel escribió: “Entró el Espíritu en mí”, “vino sobre mí el Espíritu de Jehová”, “me levantó el Espíritu\" (Eze. 2:2; 11:5, 24). Y Miqueas testificó: “Mas yo estoy lleno del poder del Espíritu de Jehová’’ (Miq. 3:8). El Nuevo Testamento reconoció el papel del Espíritu Santo en la producción del Antiguo Testamento. Jesús dijo que David fue inspirado por el Espíritu Santo (Mar. 12:36). Pablo creyó que el Espíritu Santo habló “por medio del profeta Isaías” (Hech. 28:25). Pedro reveló que el Espíritu Santo guió a todos los profetas, no solo a unos pocos (1 Ped. 1:10; 2 Ped. 1:21). En algunas ocasiones el escritor se desvanecía completamente y solo el verdadero Autor, el Espíritu Santo, era reconocido: “Como dice el Espíritu Santo...” “Dando el Espíritu Santo a entender...” (Heb. 3:7; 9:8). Los escritores del Nuevo Testamento reconocieron también al Espíritu Santo como la fuente de sus propios mensajes. Pablo explicó: “Pero el Espíritu dice claramente que en los postreros tiempos algunos apostatarán de la fe” (1 Tim. 4:1). Juan habló diciendo haber estado “en el Espíritu en el día del Señor” (Apoc. 1:10). Y Jesús comisionó a sus discípulos mediante el Espíritu Santo (Hechos 1:2; Efe. 3:3-5). De modo que Dios, en la persona del Espíritu Santo, se ha revelado a sí mismo mediante las Sagradas Escrituras. Él las escribió, no con sus manos, sino con otras manos —más o menos cuarenta pares—, en un período de más de 1.500 años. Y por cuanto Dios el Espíritu Santo inspiró a los escritores, Dios entonces es el autor.",
+      "pdfPage": 16,
+      "citations": [
+        {
+          "start": 78,
+          "end": 91,
+          "referenceIds": [
+            "b10-23-2-23-2"
+          ]
+        },
+        {
+          "start": 203,
+          "end": 223,
+          "referenceIds": [
+            "b26-2-2-2-2",
+            "b26-11-5-11-5",
+            "b26-11-24-11-24"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 311,
+          "referenceIds": [
+            "b33-3-8-3-8"
+          ]
+        },
+        {
+          "start": 469,
+          "end": 481,
+          "referenceIds": [
+            "b41-12-36-12-36"
+          ]
+        },
+        {
+          "start": 554,
+          "end": 567,
+          "referenceIds": [
+            "b44-28-25-28-25"
+          ]
+        },
+        {
+          "start": 652,
+          "end": 678,
+          "referenceIds": [
+            "b60-1-10-1-10",
+            "b61-1-21-1-21"
+          ]
+        },
+        {
+          "start": 876,
+          "end": 891,
+          "referenceIds": [
+            "b58-3-7-3-7",
+            "b58-9-8-9-8"
+          ]
+        },
+        {
+          "start": 1116,
+          "end": 1128,
+          "referenceIds": [
+            "b54-4-1-4-1"
+          ]
+        },
+        {
+          "start": 1200,
+          "end": 1212,
+          "referenceIds": [
+            "b66-1-10-1-10"
+          ]
+        },
+        {
+          "start": 1276,
+          "end": 1300,
+          "referenceIds": [
+            "b44-1-2-1-2",
+            "b49-3-3-3-5"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La inspiración de las Escrituras",
+      "pdfPage": 16
+    },
+    {
+      "kind": "paragraph",
+      "text": "Pablo dice: “Toda la Escritura es inspirada por Dios” (2 Tim. 3:16). La palabra griega theopneustos, traducida como “inspiración”, literalmente significa “alentada de Dios”. “Dios respiró” la palabra en las mentes de los hombres. Ellos a su vez, la expresaron en las palabras que se hallan en las Escrituras. Por lo tanto, la inspiración es el proceso mediante el cual Dios comunica sus verdades eternas.",
+      "pdfPage": 16,
+      "citations": [
+        {
+          "start": 54,
+          "end": 67,
+          "referenceIds": [
+            "b55-3-16-3-16"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El proceso de inspiración. La revelación divina fue dada por inspiración de Dios a “santos hombres de Dios” que eran “inspirados por el Espíritu Santo” (2 Pedro 1:21). Estas revelaciones fueron incorporadas en el lenguaje humano con todas sus limitaciones e imperfecciones; sin embargo, permanecieron como el testimonio de Dios. Dios inspiró a los hombres, no las palabras. ¿Eran los profetas tan pasivos como las grabadoras que repiten lo que se ha grabado? En algunas ocasiones se mandó a los escritores a que expresaran las palabras exactas de Dios, pero en la mayoría de los casos Dios los instruyó a que describieran lo mejor que pudieran lo que habían visto y oído. En estos últimos casos, los escritores usaron sus propios estilos y palabras. Pablo observó que “los espíritus de los profetas están sujetos a los profetas” (1 Cor. 14:32). La inspiración genuina no anula la individualidad ni la razón, integridad o personalidad del profeta. En cierto modo, la relación entre Moisés y Aarón ilustra la que existe entre el Espíritu Santo y el escritor. Dios dijo a Moisés: “Yo te he constituido dios para Faraón, y tu hermano Aarón será tu profeta” (Éxo. 7:1; 4:15,16). Moisés informó a Aarón los mensajes de Dios, y Aarón, a su vez, los comunicó a Faraón en su propio estilo y vocabulario. De la misma forma los escritores de la Biblia comunicaron los divinos mandatos, pensamientos e ideas, en su propio estilo de expresión. Es porque Dios se comunica en esta forma que el vocabulario de los diversos libros de la Biblia es variado y refleja la educación y cultura de sus escritores. La Biblia “no es la forma del pensamiento de la expresión de Dios... Con frecuencia los hombres dicen que cierta expresión no parece de Dios. Pero Dios no se ha puesto a sí mismo a prueba en la Biblia por medio de palabra, de lógica, de retórica. Los escritores de la Biblia eran los escribientes de Dios, no su pluma”.1 “La inspiración no obra en las palabras del hombre ni en sus expresiones, sino en el hombre mismo, que está imbuido con pensamientos bajo la influencia del Espíritu Santo. Pero las palabras reciben la impresión de la mente individual. La mente divina es difundida. La mente y voluntad divinas se combinan con la mente y voluntad humanas. De ese modo, las declaraciones del hombre son la palabra de Dios”.2 En una ocasión Dios mismo habló y escribió las palabras exactas: los Diez Mandamientos. Son composición divina, no humana (Éxo. 20:1-17; 31:18; Deut. 10:4,5); sin embargo, aún éstos tuvieron que ser expresados dentro de los límites del lenguaje humano. La Biblia, entonces, es la verdad divina expresada en el idioma humano. Imaginémonos tratando de enseñar física cuántica a un bebé. Ésta es la clase de dificultad que Dios enfrenta en sus intentos de comunicar las verdades divinas a la humanidad pecaminosa y limitada. Son nuestras limitaciones lo que restringe lo que él puede comunicarnos. Existe un paralelo entre el Jesús encarnado y la Biblia: Jesús era Dios y hombre combinado, lo divino y lo humano hecho uno. De modo que la Biblia es lo divino y lo humano combinado. Como se dijo de Cristo, también se puede afirmar de la Biblia que “aquel Verbo fue hecho carne, y habitó entre nosotros” (Juan 1:14). Esta combinación divino-humana hace que la Biblia sea única entre toda la literatura.",
+      "pdfPage": 16,
+      "pdfPageEnd": 17,
+      "citations": [
+        {
+          "start": 152,
+          "end": 166,
+          "referenceIds": [
+            "b61-1-21-1-21"
+          ]
+        },
+        {
+          "start": 829,
+          "end": 843,
+          "referenceIds": [
+            "b46-14-32-14-32"
+          ]
+        },
+        {
+          "start": 1153,
+          "end": 1172,
+          "referenceIds": [
+            "b2-7-1-7-1",
+            "b2-4-15-4-16"
+          ]
+        },
+        {
+          "start": 2439,
+          "end": 2474,
+          "referenceIds": [
+            "b2-20-1-20-17",
+            "b2-31-18-31-18",
+            "b5-10-4-10-5"
+          ]
+        },
+        {
+          "start": 3216,
+          "end": 3227,
+          "referenceIds": [
+            "b43-1-14-1-14"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "¡.a inspiración y los escritores. El Espíritu Santo preparó a ciertas personas para que comunicasen la verdad divina. La Biblia no explica detalladamente cómo calificó a estos individuos, pero de alguna manera formó una unión entre el agente divino y el humano. Quienes tuvieron una parte en la escritura de la Biblia no fueron escogidos porque poseyesen talentos naturales. Tampoco la revelación divina convierte necesariamente a una persona o le asegura una vida eterna. Balaam proclamó un mensaje divino estando bajo la inspiración a la vez que actuaba en contra de los propósitos de Dios (Núm. 22-24). David, que fue usado por el Espíritu Santo, cometió grandes crímenes (ver Sal. 51). Todos los escritores de la Biblia fueron hombres de naturaleza pecaminosa, que necesitaban diariamente de la gracia de Dios (ver Rom. 3:12). La inspiración que experimentaron los escritores bíblicos fue más que la iluminación o la dirección divina, puesto que todos los que buscan la verdad la reciben. En realidad, los escritores bíblicos a veces escribieron sin entender plenamente el mensaje divino que estaban comunicando (1 Ped. 1:10-12). Las respuestas de los escritores a los mensajes que portaban no eran todas iguales. Daniel y Juan dijeron sentirse grandemente perplejos en cuanto a sus escritos (Dan. 8:27; Apoc. 5:4), y Pedro indica que otros escritores escudriñaron en busca del significado de sus mensajes o de los de otros (1 Ped. 1:10). A veces estos individuos temían proclamar un mensaje inspirado, y otras veces hasta altercaban con Dios (Hab. 1; Jon. 1:1-3; 4:1-11).",
+      "pdfPage": 18,
+      "citations": [
+        {
+          "start": 592,
+          "end": 604,
+          "referenceIds": [
+            "b4-22-all-24-all"
+          ]
+        },
+        {
+          "start": 675,
+          "end": 688,
+          "referenceIds": [
+            "b19-51-all-51-all"
+          ]
+        },
+        {
+          "start": 814,
+          "end": 829,
+          "referenceIds": [
+            "b45-3-12-3-12"
+          ]
+        },
+        {
+          "start": 1116,
+          "end": 1132,
+          "referenceIds": [
+            "b60-1-10-1-12"
+          ]
+        },
+        {
+          "start": 1296,
+          "end": 1318,
+          "referenceIds": [
+            "b27-8-27-8-27",
+            "b66-5-4-5-4"
+          ]
+        },
+        {
+          "start": 1428,
+          "end": 1441,
+          "referenceIds": [
+            "b60-1-10-1-10"
+          ]
+        },
+        {
+          "start": 1547,
+          "end": 1575,
+          "referenceIds": [
+            "b35-1-all-1-all",
+            "b32-1-1-1-3",
+            "b32-4-1-4-11"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El método y el contenido de la revelación. Frecuentemente el Espíritu Santo comunicaba conocimiento divino mediante visiones y sueños (Núm. 12:6). A veces hablaba audiblemente o al sentido interior de la persona. Dios le habló a Samuel “al oído” (1 Sam. 9:15). Zacarías recibió representaciones simbólicas con explicaciones (Zac. 4). Las visiones del cielo que recibieron Pablo y Juan fueron acompañadas de instrucciones orales (2 Cor. 12:1-4; Apoc. 4, 5). Ezequiel observó hechos que ocurrieron en otro lugar (Eze. 8). Algunos escritores participaron en sus visiones, realizando ciertas funciones como parte de la visión misma (Apoc. 10). En cuanto al contenido de las revelaciones, a algunos escritores el Espíritu les reveló acontecimientos que aún tendrían que ocurrir (Dan. 2, 7, 8, 12). Otros registraron hechos históricos, ya sea sobre la base de una experiencia personal o seleccionando materiales de registros históricos existentes (Jueces, 1 Samuel, 2 Crónicas, los Evangelios, Hechos).",
+      "pdfPage": 18,
+      "citations": [
+        {
+          "start": 134,
+          "end": 145,
+          "referenceIds": [
+            "b4-12-6-12-6"
+          ]
+        },
+        {
+          "start": 246,
+          "end": 259,
+          "referenceIds": [
+            "b9-9-15-9-15"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 332,
+          "referenceIds": [
+            "b38-4-all-4-all"
+          ]
+        },
+        {
+          "start": 428,
+          "end": 455,
+          "referenceIds": [
+            "b47-12-1-12-4",
+            "b66-4-all-4-all",
+            "b66-5-all-5-all"
+          ]
+        },
+        {
+          "start": 510,
+          "end": 518,
+          "referenceIds": [
+            "b26-8-all-8-all"
+          ]
+        },
+        {
+          "start": 628,
+          "end": 638,
+          "referenceIds": [
+            "b66-10-all-10-all"
+          ]
+        },
+        {
+          "start": 773,
+          "end": 791,
+          "referenceIds": [
+            "b27-2-all-2-all",
+            "b27-7-all-7-all",
+            "b27-8-all-8-all",
+            "b27-12-all-12-all"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La inspiración y la historia. La aseveración bíblica de que “toda la Escritura es inspirada por Dios”, provechosa y una guía autorizada para regir la vida en lo moral y en lo espiritual (2 Tim. 3:15-16), no deja dudas en cuanto a la dirección divina en el proceso de selección. Ya sea que la información fuera el resultado de la observación personal, del uso de fuentes orales o escritas, o de la revelación directa, le llegó al escritor a través de la dirección del Espíritu Santo. Esto garantiza el hecho de que la Biblia es digna de confianza. La Biblia revela el plan de Dios en su interacción dinámica con la raza humana, no en una colección de doctrinas abstractas. Su revelación propia se origina en hechos reales que ocurrieron en lugares y épocas definidas. Los sucesos de confianza de la historia son de extremada importancia porque forman un marco para que podamos comprender el carácter de Dios y su propósito para nosotros. Una comprensión exacta nos conduce a la vida eterna, pero una interpretación incorrecta conduce a la confusión y a la muerte. Dios ordenó a ciertos hombres que escribieran la historia de sus tratos con el pueblo de Israel. Estos relatos históricos, escritos desde un punto de vista diferente de la historia secular, comprenden una parte importante de la Biblia (Núm. 33:1, 2; Jos. 24:25, 26; Eze. 24:2). Nos proporcionan una visión exacta y objetiva de la historia, desde una perspectiva divina. El Espíritu Santo otorgó a los escritores información especial para que ellos pudieran registrar los sucesos en la controversia entre el bien y el mal que demuestran el carácter de Dios y guían a la gente en la búsqueda de su salvación. Los incidentes históricos son tipos o ejemplos, y están escritos “para amonestarnos a nosotros, a quienes han alcanzado los fines de los siglos” (1 Cor. 10:11). Pablo dice: “Porque las cosas que se escribieron antes, para nuestra enseñanza se escribieron, a fin de que por la paciencia y la consolación de las Escrituras, tengamos esperanza\" (Rom. 15:4). La destrucción de Sodoma y Gomorra sirve como ejemplo o advertencia (2 Ped. 2:6; Judas 7). La experiencia de justificación de Abraham es un ejemplo para cada creyente (Rom. 4:1-25; Sant. 2:14-22). Aun las leyes civiles del Antiguo Testamento, llenas de profundo significado espiritual, fueron escritas para nuestro beneficio actual (1 Cor. 9:8, 9). Lucas menciona que escribió su Evangelio porque deseaba relatar la vida de Jesús “para que conozcas bien la verdad de las cosas en las cuales has sido instruido” (Luc. 1:4). El criterio que usó Juan al seleccionar cuales incidentes de la vida de Jesús incluir en su evangelio fue “para que creáis que Jesús es el Cristo, el Hijo de Dios, y para que creyendo, tengáis vida en su nombre” (Juan 20:31). Dios condujo a los escritores de la Biblia a presentar la historia en una forma que nos guiara hacia la salvación. Las biografías de los personajes bíblicos proveen otra evidencia de la inspiración divina. Esos registros trazan cuidadosamente tanto las debilidades como la fortaleza de sus caracteres. Cuidadosamente despliegan sus pecados, así como sus victorias. En ninguna forma se encubre la falta de control propio de Noé o el engaño de Abraham. Se registran fielmente las ocasiones cuando Moisés, Pablo, Santiago y Juan perdieron la paciencia. La Biblia expone los fracasos del rey más sabio de Israel, y las debilidades de los doce patriarcas y de los doce apóstoles. La Escritura no los justifica, ni trata de disminuir su culpabilidad. Los describe a todos tales como fueron y expresa lo que llegaron a ser por la gracia de Dios, o lo que podrían haber logrado por su intermedio. Sin la inspiración divina ningún biógrafo podría escribir un análisis tan perceptivo. Los escritores de la Biblia consideraban todos los incidentes que contiene como registros históricos verídicos y no como mitos o símbolos. Muchos escépticos contemporáneos rechazan los relatos de Adán y Eva, de Jonás y del Diluvio. Sin embargo, Jesús aceptaba su exactitud histórica y su importancia espiritual (Mat. 12:39-41; 19:4-6; 24:37-39). La Biblia no enseña inspiración parcial o grados de inspiración. Estas teorías son especulaciones que le quitan su autoridad divina.",
+      "pdfPage": 18,
+      "pdfPageEnd": 20,
+      "citations": [
+        {
+          "start": 186,
+          "end": 202,
+          "referenceIds": [
+            "b55-3-15-3-16"
+          ]
+        },
+        {
+          "start": 1298,
+          "end": 1339,
+          "referenceIds": [
+            "b4-33-1-33-2",
+            "b6-24-25-24-26",
+            "b26-24-2-24-2"
+          ]
+        },
+        {
+          "start": 1815,
+          "end": 1829,
+          "referenceIds": [
+            "b46-10-11-10-11"
+          ]
+        },
+        {
+          "start": 2012,
+          "end": 2023,
+          "referenceIds": [
+            "b45-15-4-15-4"
+          ]
+        },
+        {
+          "start": 2093,
+          "end": 2114,
+          "referenceIds": [
+            "b61-2-6-2-6",
+            "b65-1-7-1-7"
+          ]
+        },
+        {
+          "start": 2192,
+          "end": 2220,
+          "referenceIds": [
+            "b45-4-1-4-25",
+            "b59-2-14-2-22"
+          ]
+        },
+        {
+          "start": 2357,
+          "end": 2372,
+          "referenceIds": [
+            "b46-9-8-9-9"
+          ]
+        },
+        {
+          "start": 2536,
+          "end": 2546,
+          "referenceIds": [
+            "b42-1-4-1-4"
+          ]
+        },
+        {
+          "start": 2760,
+          "end": 2772,
+          "referenceIds": [
+            "b43-20-31-20-31"
+          ]
+        },
+        {
+          "start": 4060,
+          "end": 4093,
+          "referenceIds": [
+            "b40-12-39-12-41",
+            "b40-19-4-19-6",
+            "b40-24-37-24-39"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "La exactitud de las Escrituras. Tal como Jesús “fue hecho carne y habitó entre nosotros” (Juan 1:14), para que pudiéramos comprender la verdad, la Biblia nos fue proporcionada en el lenguaje humano. La inspiración de las Escrituras garantiza su veracidad. ¿Hasta qué punto salvaguardó Dios la transmisión del texto para asegurarse que su mensaje es válido y verdadero? Es claro que, si bien es cierto que los manuscritos antiguos varían, las verdades esenciales han sido preservadas.3 Es muy posible que los escribas y los traductores de la Biblia hayan cometido pequeños errores. Sin embargo, la evidencia de la arqueología bíblica revela que muchos así llamados errores fueron solamente malentendidos de parte de los estudiosos. Algunas de estas dificultades se levantaron porque la gente estaba leyendo la historia y las costumbres bíblicas desde un punto de vista occidental. Debemos admitir que la capacidad humana de penetrar en las operaciones divinas es limitada. De modo que las discrepancias que se perciban, no debieran despertar dudas acerca de las Escrituras; a menudo son producto de nuestras percepciones inexactas más bien que errores. ¿Está Dios a prueba cuando hay algún texto o frase que no podemos entender completamente? Quizá nunca podremos explicar cada texto de la Escritura, pero no es necesario. Las profecías que se han cumplido verifican su veracidad. A pesar de los intentos de destruirla, la exactitud de la Biblia ha sido preservada en forma increíble y hasta milagrosa. La comparación de los rollos del Mar",
+      "pdfPage": 20,
+      "citations": [
+        {
+          "start": 89,
+          "end": 100,
+          "referenceIds": [
+            "b43-1-14-1-14"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Muerto con los manuscritos posteriores del Antiguo Testamento demuestra el cuidado con que se ha trasmitido.4 Confirman la veracidad y confianza de las Escrituras como una revelación infalible de la voluntad de Dios.",
+      "pdfPage": 21
+    },
+    {
+      "kind": "heading",
+      "text": "La autoridad de las Escrituras",
+      "pdfPage": 21
+    },
+    {
+      "kind": "paragraph",
+      "text": "Las Escrituras tienen autoridad divina porque en ellas Dios habla mediante el Espíritu Santo. Por lo tanto, la Biblia es la Palabra de Dios escrita. ¿Dónde está la evidencia de ello y cuáles son las implicaciones para nuestras vidas y el conocimiento que perseguimos?",
+      "pdfPage": 21
+    },
+    {
+      "kind": "paragraph",
+      "text": "Las afirmaciones de las Escrituras. Los escritores de la Biblia testifican que sus mensajes vienen directamente de Dios. Fue la palabra del Señor la que vino a Jeremías, Ezequiel, Oseas y otros (Jer. 1:1,2,9; Eze. 1:3; Ose. 1:1; Joel 1:1; Jon. 1:1). Como mensajeros del Señor (Hag. 1:13; 2 Crón. 36:16), los profetas de Dios fueron instruidos para que hablaran en su nombre, diciendo: “Así dice Jehová” (Eze. 2:4; Isa. 7:7). Sus palabras constituyen sus credenciales y autoridad divinas. A veces el agente humano que Dios usa queda en el trasfondo. Mateo menciona la autoridad que respaldaba al profeta del Antiguo Testamento que él cita con las palabras: “Todo esto aconteció para que se cumpliese lo dicho por el Señor por medio del profeta” (Mat. 1:22). Se presenta al Señor como el agente directo, la autoridad; el profeta es el agente indirecto. Pedro clasifica los escritos de Pablo como la Escritura (2 Pedro 3:15, 16). Y Pablo testifica con relación a lo que escribe: “Yo ni lo recibí ni lo aprendí de hombre alguno, sino por revelación de Jesucristo” (Gál. 1:12). Los escritores del Nuevo Testamento aceptaron las palabras de Cristo como la Escritura y dijeron tener la misma autoridad de los escritores del Antiguo Testamento (1 Tim. 5:18; Luc. 10:7).",
+      "pdfPage": 21,
+      "citations": [
+        {
+          "start": 194,
+          "end": 248,
+          "referenceIds": [
+            "b24-1-1-1-2",
+            "b24-1-9-1-9",
+            "b26-1-3-1-3",
+            "b28-1-1-1-1",
+            "b29-1-1-1-1",
+            "b32-1-1-1-1"
+          ]
+        },
+        {
+          "start": 276,
+          "end": 302,
+          "referenceIds": [
+            "b37-1-13-1-13",
+            "b14-36-16-36-16"
+          ]
+        },
+        {
+          "start": 403,
+          "end": 423,
+          "referenceIds": [
+            "b26-2-4-2-4",
+            "b23-7-7-7-7"
+          ]
+        },
+        {
+          "start": 744,
+          "end": 755,
+          "referenceIds": [
+            "b40-1-22-1-22"
+          ]
+        },
+        {
+          "start": 907,
+          "end": 925,
+          "referenceIds": [
+            "b61-3-15-3-16"
+          ]
+        },
+        {
+          "start": 1060,
+          "end": 1071,
+          "referenceIds": [
+            "b48-1-12-1-12"
+          ]
+        },
+        {
+          "start": 1236,
+          "end": 1260,
+          "referenceIds": [
+            "b54-5-18-5-18",
+            "b42-10-7-10-7"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Jesús y la autoridad de las Escrituras. A través de todo su ministerio, Jesús destacó la autoridad de las Escrituras. Cuando Satanás lo tentaba o luchaba contra sus oponentes, las palabras “escrito está” eran su arma de defensa y de ataque (Mat. 4:4, 7, 10; Luc. 20:17). “No solo de pan vivirá el hombre —dijo—, sino de toda palabra que sale de la boca de Dios” (Mat. 4:4). Cuando le preguntaron cómo obtener la vida eterna, Jesús contestó: “¿Qué está escrito en la ley? ¿Cómo lees?” (Luc. 10:26). Jesús colocó la Biblia por sobre todas las tradiciones y opiniones humanas. Amonestó a los judíos por despreciar la autoridad de las Escrituras (Mar. 7:7-9), y los exhortó a que las estudiaran más cuidadosamente, diciendo: “¿Nunca leísteis en las Escrituras?” (Mat. 21:42; Mar. 12:10,26).",
+      "pdfPage": 21,
+      "citations": [
+        {
+          "start": 240,
+          "end": 269,
+          "referenceIds": [
+            "b40-4-4-4-4",
+            "b40-4-7-4-7",
+            "b40-4-10-4-10",
+            "b42-20-17-20-17"
+          ]
+        },
+        {
+          "start": 362,
+          "end": 372,
+          "referenceIds": [
+            "b40-4-4-4-4"
+          ]
+        },
+        {
+          "start": 484,
+          "end": 496,
+          "referenceIds": [
+            "b42-10-26-10-26"
+          ]
+        },
+        {
+          "start": 642,
+          "end": 654,
+          "referenceIds": [
+            "b41-7-7-7-9"
+          ]
+        },
+        {
+          "start": 758,
+          "end": 785,
+          "referenceIds": [
+            "b40-21-42-21-42",
+            "b41-12-10-12-10",
+            "b41-12-26-12-26"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Jesús creía firmemente en la autoridad de la palabra profética y revelaba lo que señalaba hacia él. Refiriéndose a las Escrituras, Jesús dijo: “Dan testimonio de mí”. “Porque si creyeseis a Moisés, me creeríais a mí, porque de mí escribió él” (Juan 5:39, 46). La afirmación más convincente de Jesús en cuanto a que tenía una misión divina surgió de su cumplimiento de las profecías del Antiguo Testamento (Luc. 24:25-27). De modo que sin reservas Cristo aceptó las Sagradas Escrituras como la revelación autoritativa de la voluntad de Dios para la raza humana. Consideraba las Escrituras como un cuerpo de verdad, una revelación objetiva, otorgada para sacar a la humanidad de las tinieblas de las tradiciones y mitos a la luz verdadera del conocimiento de la salvación.",
+      "pdfPage": 22,
+      "citations": [
+        {
+          "start": 243,
+          "end": 258,
+          "referenceIds": [
+            "b43-5-39-5-39",
+            "b43-5-46-5-46"
+          ]
+        },
+        {
+          "start": 405,
+          "end": 420,
+          "referenceIds": [
+            "b42-24-25-24-27"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "El Espíritu Santo y la autoridad de las Escrituras. Durante la vida de Jesús los dirigentes religiosos y la multitud descuidada no descubrieron su verdadera identidad. Algunos pensaban que era un profeta como Juan el Bautista, Elias, o Jeremías, simplemente un hombre. Cuando Pedro confesó que Jesús era “el Hijo del Dios viviente”, el Maestro señaló que fue la iluminación divina lo que hizo posible esta confesión (Mat. 16:13-17). Pablo enfatiza esta verdad diciendo: “Nadie puede llamar a Jesús Señor, sino por el Espíritu Santo” (1 Cor. 12:3). Así también sucede en el caso de la Palabra escrita de Dios. Sin la iluminación del Espíritu Santo nuestras mentes nunca podrían comprender correctamente la Biblia, ni tan solo reconocerla como la autoridad divina.5 Porque “nadie conoció las cosas de Dios, sino el Espíritu de Dios” (1 Cor. 2:11). “El hombre natural no percibe las cosas que son del Espíritu de Dios, porque para él son locura, y no las puede entender, porque se han de discernir espiritualmente” (1 Cor. 2:14). Por consiguiente “la palabra de la cruz es locura a los que se pierden; pero a los que se salvan, eso es, a nosotros, es poder de Dios” (1 Cor. 1:18). Unicamente con la ayuda del Espíritu Santo, que discierne “lo profundo de Dios” (1 Cor. 2:10), podemos convencernos de la autoridad que le corresponde a la Biblia en su calidad de revelación de Dios y de su voluntad. Es solo así como la cruz se convierte en “poder de Dios” (1 Cor. 1:18), y podemos unirnos al testimonio de Pablo: “Y nosotros no hemos recibido el espíritu del mundo, sino el Espíritu que proviene de Dios, para que sepamos lo que Dios nos ha concedido” (1 Cor. 2:12). Las Sagradas Escrituras y el Espíritu Santo nunca pueden estar separados. El Espíritu Santo es tanto el autor como el revelador de las verdades bíblicas. La autoridad de las Escrituras en nuestras vidas aumenta o disminuye según sea nuestro concepto de inspiración. Si percibimos la Biblia como una simple colección de testimonios humanos o si la autoridad que le damos en alguna forma depende de cómo conduce nuestros sentimientos y emociones, socavamos su autoridad en nuestras vidas. Pero cuando discernimos la voz de Dios que nos habla mediante los escritores, no importa cuán débiles y humanos hayan sido, la Escritura viene a ser la autoridad absoluta en lo que a doctrina, impugnación, corrección e instrucción en justicia se refiere (2 Tim. 3:16).",
+      "pdfPage": 22,
+      "pdfPageEnd": 23,
+      "citations": [
+        {
+          "start": 416,
+          "end": 431,
+          "referenceIds": [
+            "b40-16-13-16-17"
+          ]
+        },
+        {
+          "start": 533,
+          "end": 546,
+          "referenceIds": [
+            "b46-12-3-12-3"
+          ]
+        },
+        {
+          "start": 831,
+          "end": 844,
+          "referenceIds": [
+            "b46-2-11-2-11"
+          ]
+        },
+        {
+          "start": 1012,
+          "end": 1025,
+          "referenceIds": [
+            "b46-2-14-2-14"
+          ]
+        },
+        {
+          "start": 1163,
+          "end": 1176,
+          "referenceIds": [
+            "b46-1-18-1-18"
+          ]
+        },
+        {
+          "start": 1258,
+          "end": 1271,
+          "referenceIds": [
+            "b46-2-10-2-10"
+          ]
+        },
+        {
+          "start": 1452,
+          "end": 1465,
+          "referenceIds": [
+            "b46-1-18-1-18"
+          ]
+        },
+        {
+          "start": 1648,
+          "end": 1661,
+          "referenceIds": [
+            "b46-2-12-2-12"
+          ]
+        },
+        {
+          "start": 2404,
+          "end": 2417,
+          "referenceIds": [
+            "b55-3-16-3-16"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Cuánto abarca la autoridad de la Escritura. Con frecuencia las contradicciones entre la Escritura y la ciencia son el resultado de la especulación. Cuando no podemos armonizar la ciencia con la Escritura, es porque tenemos una “comprensión imperfecta de ya sea la ciencia o la revelación... pero cuando se comprenden en forma correcta, están en armonía perfecta”.6 Toda la sabiduría humana debe estar sujeta a la autoridad de la Escritura. Las verdades bíblicas son la norma por la cual todas las demás ideas deben ser probadas. AI juzgar la Palabra de Dios con normas humanas perecederas es como si tratáramos de medir las estrellas con una vara de medir. La Biblia no debe estar sujeta a las normas humanas. Es superior a toda la sabiduría y literatura humana. Más bien, en vez de juzgar la Biblia, todos seremos juzgados por ella, porque es la norma de carácter y la prueba de toda experiencia y pensamiento. Finalmente, las Escrituras ejercen autoridad aun sobre los dones que vienen del Espíritu Santo, incluyendo la conducción que provee el don de profecía o la glosolalia (1 Cor. 12; 14:1; Efe. 4:7-16). Los dones del Espíritu no son superiores a la Biblia; lo cierto es que deben probarse por la Biblia, y si no están de acuerdo con ella, deben descartarse: “¡A la ley y al testimonio! Si no dijeren conforme a esto, es porque no les ha amanecido” (Isa. 8:20; compárese con el cap. 18).",
+      "pdfPage": 23,
+      "citations": [
+        {
+          "start": 1079,
+          "end": 1109,
+          "referenceIds": [
+            "b46-12-all-12-all",
+            "b46-14-1-14-1",
+            "b49-4-7-4-16"
+          ]
+        },
+        {
+          "start": 1356,
+          "end": 1393,
+          "referenceIds": [
+            "b23-8-20-8-20"
+          ]
+        }
+      ],
+      "citationIssues": [
+        {
+          "start": 1356,
+          "end": 1393,
+          "text": "(Isa. 8:20; compárese con el cap. 18)",
+          "fragments": [
+            {
+              "sourceGroup": "compárese con el cap. 18",
+              "fragment": "compárese con el cap. 18",
+              "reason": "Remisión a capítulo sin versículo: requiere revisión de contexto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "La unidad de las Escrituras",
+      "pdfPage": 23
+    },
+    {
+      "kind": "paragraph",
+      "text": "La lectura superficial de la Escritura producirá una comprensión superficial. Cuando así se lee, la Biblia resulta ser un conjunto desorganizado de relatos, sermones e historia. Sin embargo, los que la abren para obtener iluminación del Espíritu de Dios, los que están dispuestos a buscar con paciencia y oración las verdades ocultas, descubren que la Biblia expone una unidad fundamental en lo que enseña acerca de los principios de salvación. La Biblia no es monótona. Más bien, reúne una rica y colorida variedad de testimonios armoniosos de rara y distinguida belleza. Y debido a su variedad de perspectivas, está perfectamente capacitada en forma mejor para enfrentar las necesidades humanas de todas las épocas. Dios no se ha revelado a sí mismo a la humanidad en una cadena continua de declaraciones, sino poco a poco, a través de generaciones sucesivas. Ya sea mediante Moisés que escribiera desde los campos madianitas, o mediante Pablo desde una prisión romana, sus libros revelan la misma comunicación inspirada por el Espíritu. La comprensión de sus “revelaciones progresivas” contribuye a la comprensión de la Biblia y su unidad. Las verdades del Antiguo y Nuevo Testamento, a pesar de haber sido escritas a través de muchas generaciones, permanecen inseparables; no se contradicen unas a otras. Los dos Testamentos son uno, tal como Dios es uno. El Antiguo Testamento, mediante profecías y símbolos, revela el evangelio del Salvador que vendría; el Nuevo Testamento, mediante la vida de Jesús, revela al Salvador que vino: la realidad del evangelio. Ambos revelan al mismo Dios. El Antiguo Testamento sirve como fundamento del Nuevo. Provee la clave para abrir el Nuevo mientras que el Nuevo explica los misterios del Antiguo. Dios bondadosamente nos llama para que le conozcamos mediante su Palabra. En ella podemos encontrar la rica bendición de la seguridad de nuestra salvación. Podemos descubrir por nosotros mismos que “toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia, a fin de que el hombre de Dios sea perfecto, enteramente preparado para toda buena obra” (2 Tim. 3:16,17).",
+      "pdfPage": 23,
+      "pdfPageEnd": 24,
+      "citations": [
+        {
+          "start": 2149,
+          "end": 2165,
+          "referenceIds": [
+            "b55-3-16-3-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Sal. 19:1",
+      "label": "Salmos 19:1",
+      "id": "b19-19-1-19-1"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Rom. 1:20",
+      "label": "Romanos 1:20",
+      "id": "b45-1-20-1-20"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 66,
+      "chapterEnd": 66,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Isa. 66:13",
+      "label": "Isaías 66:13",
+      "id": "b23-66-13-66-13"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 103,
+      "chapterEnd": 103,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Sal. 103:13",
+      "label": "Salmos 103:13",
+      "id": "b19-103-13-103-13"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 2,
+      "sourceGroup": "Heb. 1:1,2",
+      "label": "Hebreos 1:1-2",
+      "id": "b58-1-1-1-2"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Juan 17:3",
+      "label": "Juan 17:3",
+      "id": "b43-17-3-17-3"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "Efe. 4:21",
+      "label": "Efesios 4:21",
+      "id": "b49-4-21-4-21"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Rom. 1:2",
+      "label": "Romanos 1:2",
+      "id": "b45-1-2-1-2"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "2 Tim. 3:15",
+      "label": "2 Timoteo 3:15",
+      "id": "b55-3-15-3-15"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Rom. 3:2",
+      "label": "Romanos 3:2",
+      "id": "b45-3-2-3-2"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Heb. 5:12",
+      "label": "Hebreos 5:12",
+      "id": "b58-5-12-5-12"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "ver Isa. 1:1",
+      "label": "Isaías 1:1",
+      "id": "b23-1-1-1-1"
+    },
+    {
+      "bookId": 30,
+      "book": "Amós",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Amos 1:1",
+      "label": "Amós 1:1",
+      "id": "b30-1-1-1-1"
+    },
+    {
+      "bookId": 33,
+      "book": "Miqueas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Miq. 1:1",
+      "label": "Miqueas 1:1",
+      "id": "b33-1-1-1-1"
+    },
+    {
+      "bookId": 35,
+      "book": "Habacuc",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Hab. 1:1",
+      "label": "Habacuc 1:1",
+      "id": "b35-1-1-1-1"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 38,
+      "chapterEnd": 38,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "Jer. 38:21",
+      "label": "Jeremías 38:21",
+      "id": "b24-38-21-38-21"
+    },
+    {
+      "bookId": 16,
+      "book": "Nehemías",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 30,
+      "verseEnd": 30,
+      "sourceGroup": "Neh. 9:30",
+      "label": "Nehemías 9:30",
+      "id": "b16-9-30-9-30"
+    },
+    {
+      "bookId": 38,
+      "book": "Zacarías",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Zac. 7:12",
+      "label": "Zacarías 7:12",
+      "id": "b38-7-12-7-12"
+    },
+    {
+      "bookId": 10,
+      "book": "2 Samuel",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "2 Sam. 23:2",
+      "label": "2 Samuel 23:2",
+      "id": "b10-23-2-23-2"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Eze. 2:2",
+      "label": "Ezequiel 2:2",
+      "id": "b26-2-2-2-2"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 5,
+      "verseEnd": 5,
+      "sourceGroup": "11:5, 24",
+      "label": "Ezequiel 11:5",
+      "id": "b26-11-5-11-5"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "verseStart": 24,
+      "verseEnd": 24,
+      "sourceGroup": "11:5, 24",
+      "label": "Ezequiel 11:24",
+      "id": "b26-11-24-11-24"
+    },
+    {
+      "bookId": 33,
+      "book": "Miqueas",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "Miq. 3:8",
+      "label": "Miqueas 3:8",
+      "id": "b33-3-8-3-8"
+    },
+    {
+      "bookId": 41,
+      "book": "Marcos",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 36,
+      "verseEnd": 36,
+      "sourceGroup": "Mar. 12:36",
+      "label": "Marcos 12:36",
+      "id": "b41-12-36-12-36"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "verseStart": 25,
+      "verseEnd": 25,
+      "sourceGroup": "Hech. 28:25",
+      "label": "Hechos 28:25",
+      "id": "b44-28-25-28-25"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "1 Ped. 1:10",
+      "label": "1 Pedro 1:10",
+      "id": "b60-1-10-1-10"
+    },
+    {
+      "bookId": 61,
+      "book": "2 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 21,
+      "verseEnd": 21,
+      "sourceGroup": "2 Ped. 1:21",
+      "label": "2 Pedro 1:21",
+      "id": "b61-1-21-1-21"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Heb. 3:7",
+      "label": "Hebreos 3:7",
+      "id": "b58-3-7-3-7"
+    },
+    {
+      "bookId": 58,
+      "book": "Hebreos",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 8,
+      "verseEnd": 8,
+      "sourceGroup": "9:8",
+      "label": "Hebreos 9:8",
+      "id": "b58-9-8-9-8"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "1 Tim. 4:1",
+      "label": "1 Timoteo 4:1",
+      "id": "b54-4-1-4-1"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Apoc. 1:10",
+      "label": "Apocalipsis 1:10",
+      "id": "b66-1-10-1-10"
+    },
+    {
+      "bookId": 44,
+      "book": "Hechos",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Hechos 1:2",
+      "label": "Hechos 1:2",
+      "id": "b44-1-2-1-2"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 3,
+      "verseEnd": 5,
+      "sourceGroup": "Efe. 3:3-5",
+      "label": "Efesios 3:3-5",
+      "id": "b49-3-3-3-5"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "2 Tim. 3:16",
+      "label": "2 Timoteo 3:16",
+      "id": "b55-3-16-3-16"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 32,
+      "verseEnd": 32,
+      "sourceGroup": "1 Cor. 14:32",
+      "label": "1 Corintios 14:32",
+      "id": "b46-14-32-14-32"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Éxo. 7:1",
+      "label": "Éxodo 7:1",
+      "id": "b2-7-1-7-1"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 15,
+      "verseEnd": 16,
+      "sourceGroup": "4:15,16",
+      "label": "Éxodo 4:15-16",
+      "id": "b2-4-15-4-16"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 1,
+      "verseEnd": 17,
+      "sourceGroup": "Éxo. 20:1-17",
+      "label": "Éxodo 20:1-17",
+      "id": "b2-20-1-20-17"
+    },
+    {
+      "bookId": 2,
+      "book": "Éxodo",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "31:18",
+      "label": "Éxodo 31:18",
+      "id": "b2-31-18-31-18"
+    },
+    {
+      "bookId": 5,
+      "book": "Deuteronomio",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 4,
+      "verseEnd": 5,
+      "sourceGroup": "Deut. 10:4,5",
+      "label": "Deuteronomio 10:4-5",
+      "id": "b5-10-4-10-5"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "Juan 1:14",
+      "label": "Juan 1:14",
+      "id": "b43-1-14-1-14"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 22,
+      "chapterEnd": 24,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Núm. 22-24",
+      "label": "Números 22-24",
+      "id": "b4-22-all-24-all"
+    },
+    {
+      "bookId": 19,
+      "book": "Salmos",
+      "chapterStart": 51,
+      "chapterEnd": 51,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "ver Sal. 51",
+      "label": "Salmos 51",
+      "id": "b19-51-all-51-all"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "ver Rom. 3:12",
+      "label": "Romanos 3:12",
+      "id": "b45-3-12-3-12"
+    },
+    {
+      "bookId": 60,
+      "book": "1 Pedro",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 10,
+      "verseEnd": 12,
+      "sourceGroup": "1 Ped. 1:10-12",
+      "label": "1 Pedro 1:10-12",
+      "id": "b60-1-10-1-12"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 27,
+      "verseEnd": 27,
+      "sourceGroup": "Dan. 8:27",
+      "label": "Daniel 8:27",
+      "id": "b27-8-27-8-27"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Apoc. 5:4",
+      "label": "Apocalipsis 5:4",
+      "id": "b66-5-4-5-4"
+    },
+    {
+      "bookId": 35,
+      "book": "Habacuc",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Hab. 1",
+      "label": "Habacuc 1",
+      "id": "b35-1-all-1-all"
+    },
+    {
+      "bookId": 32,
+      "book": "Jonás",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 3,
+      "sourceGroup": "Jon. 1:1-3",
+      "label": "Jonás 1:1-3",
+      "id": "b32-1-1-1-3"
+    },
+    {
+      "bookId": 32,
+      "book": "Jonás",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 1,
+      "verseEnd": 11,
+      "sourceGroup": "4:1-11",
+      "label": "Jonás 4:1-11",
+      "id": "b32-4-1-4-11"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "Núm. 12:6",
+      "label": "Números 12:6",
+      "id": "b4-12-6-12-6"
+    },
+    {
+      "bookId": 9,
+      "book": "1 Samuel",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 15,
+      "verseEnd": 15,
+      "sourceGroup": "1 Sam. 9:15",
+      "label": "1 Samuel 9:15",
+      "id": "b9-9-15-9-15"
+    },
+    {
+      "bookId": 38,
+      "book": "Zacarías",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Zac. 4",
+      "label": "Zacarías 4",
+      "id": "b38-4-all-4-all"
+    },
+    {
+      "bookId": 47,
+      "book": "2 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 1,
+      "verseEnd": 4,
+      "sourceGroup": "2 Cor. 12:1-4",
+      "label": "2 Corintios 12:1-4",
+      "id": "b47-12-1-12-4"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apoc. 4, 5",
+      "label": "Apocalipsis 4",
+      "id": "b66-4-all-4-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apoc. 4, 5",
+      "label": "Apocalipsis 5",
+      "id": "b66-5-all-5-all"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Eze. 8",
+      "label": "Ezequiel 8",
+      "id": "b26-8-all-8-all"
+    },
+    {
+      "bookId": 66,
+      "book": "Apocalipsis",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Apoc. 10",
+      "label": "Apocalipsis 10",
+      "id": "b66-10-all-10-all"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Dan. 2, 7, 8, 12",
+      "label": "Daniel 2",
+      "id": "b27-2-all-2-all"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Dan. 2, 7, 8, 12",
+      "label": "Daniel 7",
+      "id": "b27-7-all-7-all"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Dan. 2, 7, 8, 12",
+      "label": "Daniel 8",
+      "id": "b27-8-all-8-all"
+    },
+    {
+      "bookId": 27,
+      "book": "Daniel",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "Dan. 2, 7, 8, 12",
+      "label": "Daniel 12",
+      "id": "b27-12-all-12-all"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 16,
+      "sourceGroup": "2 Tim. 3:15-16",
+      "label": "2 Timoteo 3:15-16",
+      "id": "b55-3-15-3-16"
+    },
+    {
+      "bookId": 4,
+      "book": "Números",
+      "chapterStart": 33,
+      "chapterEnd": 33,
+      "verseStart": 1,
+      "verseEnd": 2,
+      "sourceGroup": "Núm. 33:1, 2",
+      "label": "Números 33:1-2",
+      "id": "b4-33-1-33-2"
+    },
+    {
+      "bookId": 6,
+      "book": "Josué",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 25,
+      "verseEnd": 26,
+      "sourceGroup": "Jos. 24:25, 26",
+      "label": "Josué 24:25-26",
+      "id": "b6-24-25-24-26"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 2,
+      "verseEnd": 2,
+      "sourceGroup": "Eze. 24:2",
+      "label": "Ezequiel 24:2",
+      "id": "b26-24-2-24-2"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 10:11",
+      "label": "1 Corintios 10:11",
+      "id": "b46-10-11-10-11"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Rom. 15:4",
+      "label": "Romanos 15:4",
+      "id": "b45-15-4-15-4"
+    },
+    {
+      "bookId": 61,
+      "book": "2 Pedro",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 6,
+      "verseEnd": 6,
+      "sourceGroup": "2 Ped. 2:6",
+      "label": "2 Pedro 2:6",
+      "id": "b61-2-6-2-6"
+    },
+    {
+      "bookId": 65,
+      "book": "Judas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Judas 7",
+      "label": "Judas 1:7",
+      "id": "b65-1-7-1-7"
+    },
+    {
+      "bookId": 45,
+      "book": "Romanos",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 1,
+      "verseEnd": 25,
+      "sourceGroup": "Rom. 4:1-25",
+      "label": "Romanos 4:1-25",
+      "id": "b45-4-1-4-25"
+    },
+    {
+      "bookId": 59,
+      "book": "Santiago",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 14,
+      "verseEnd": 22,
+      "sourceGroup": "Sant. 2:14-22",
+      "label": "Santiago 2:14-22",
+      "id": "b59-2-14-2-22"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "verseStart": 8,
+      "verseEnd": 9,
+      "sourceGroup": "1 Cor. 9:8, 9",
+      "label": "1 Corintios 9:8-9",
+      "id": "b46-9-8-9-9"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Luc. 1:4",
+      "label": "Lucas 1:4",
+      "id": "b42-1-4-1-4"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 31,
+      "verseEnd": 31,
+      "sourceGroup": "Juan 20:31",
+      "label": "Juan 20:31",
+      "id": "b43-20-31-20-31"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 39,
+      "verseEnd": 41,
+      "sourceGroup": "Mat. 12:39-41",
+      "label": "Mateo 12:39-41",
+      "id": "b40-12-39-12-41"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "verseStart": 4,
+      "verseEnd": 6,
+      "sourceGroup": "19:4-6",
+      "label": "Mateo 19:4-6",
+      "id": "b40-19-4-19-6"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 37,
+      "verseEnd": 39,
+      "sourceGroup": "24:37-39",
+      "label": "Mateo 24:37-39",
+      "id": "b40-24-37-24-39"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 2,
+      "sourceGroup": "Jer. 1:1,2,9",
+      "label": "Jeremías 1:1-2",
+      "id": "b24-1-1-1-2"
+    },
+    {
+      "bookId": 24,
+      "book": "Jeremías",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 9,
+      "verseEnd": 9,
+      "sourceGroup": "Jer. 1:1,2,9",
+      "label": "Jeremías 1:9",
+      "id": "b24-1-9-1-9"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "Eze. 1:3",
+      "label": "Ezequiel 1:3",
+      "id": "b26-1-3-1-3"
+    },
+    {
+      "bookId": 28,
+      "book": "Oseas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Ose. 1:1",
+      "label": "Oseas 1:1",
+      "id": "b28-1-1-1-1"
+    },
+    {
+      "bookId": 29,
+      "book": "Joel",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Joel 1:1",
+      "label": "Joel 1:1",
+      "id": "b29-1-1-1-1"
+    },
+    {
+      "bookId": 32,
+      "book": "Jonás",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "Jon. 1:1",
+      "label": "Jonás 1:1",
+      "id": "b32-1-1-1-1"
+    },
+    {
+      "bookId": 37,
+      "book": "Hageo",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 13,
+      "verseEnd": 13,
+      "sourceGroup": "Hag. 1:13",
+      "label": "Hageo 1:13",
+      "id": "b37-1-13-1-13"
+    },
+    {
+      "bookId": 14,
+      "book": "2 Crónicas",
+      "chapterStart": 36,
+      "chapterEnd": 36,
+      "verseStart": 16,
+      "verseEnd": 16,
+      "sourceGroup": "2 Crón. 36:16",
+      "label": "2 Crónicas 36:16",
+      "id": "b14-36-16-36-16"
+    },
+    {
+      "bookId": 26,
+      "book": "Ezequiel",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Eze. 2:4",
+      "label": "Ezequiel 2:4",
+      "id": "b26-2-4-2-4"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Isa. 7:7",
+      "label": "Isaías 7:7",
+      "id": "b23-7-7-7-7"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 22,
+      "verseEnd": 22,
+      "sourceGroup": "Mat. 1:22",
+      "label": "Mateo 1:22",
+      "id": "b40-1-22-1-22"
+    },
+    {
+      "bookId": 61,
+      "book": "2 Pedro",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 15,
+      "verseEnd": 16,
+      "sourceGroup": "2 Pedro 3:15, 16",
+      "label": "2 Pedro 3:15-16",
+      "id": "b61-3-15-3-16"
+    },
+    {
+      "bookId": 48,
+      "book": "Gálatas",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "Gál. 1:12",
+      "label": "Gálatas 1:12",
+      "id": "b48-1-12-1-12"
+    },
+    {
+      "bookId": 54,
+      "book": "1 Timoteo",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "1 Tim. 5:18",
+      "label": "1 Timoteo 5:18",
+      "id": "b54-5-18-5-18"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Luc. 10:7",
+      "label": "Lucas 10:7",
+      "id": "b42-10-7-10-7"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 4,
+      "verseEnd": 4,
+      "sourceGroup": "Mat. 4:4, 7, 10",
+      "label": "Mateo 4:4",
+      "id": "b40-4-4-4-4"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 7,
+      "verseEnd": 7,
+      "sourceGroup": "Mat. 4:4, 7, 10",
+      "label": "Mateo 4:7",
+      "id": "b40-4-7-4-7"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Mat. 4:4, 7, 10",
+      "label": "Mateo 4:10",
+      "id": "b40-4-10-4-10"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "verseStart": 17,
+      "verseEnd": 17,
+      "sourceGroup": "Luc. 20:17",
+      "label": "Lucas 20:17",
+      "id": "b42-20-17-20-17"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Luc. 10:26",
+      "label": "Lucas 10:26",
+      "id": "b42-10-26-10-26"
+    },
+    {
+      "bookId": 41,
+      "book": "Marcos",
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "verseStart": 7,
+      "verseEnd": 9,
+      "sourceGroup": "Mar. 7:7-9",
+      "label": "Marcos 7:7-9",
+      "id": "b41-7-7-7-9"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 21,
+      "chapterEnd": 21,
+      "verseStart": 42,
+      "verseEnd": 42,
+      "sourceGroup": "Mat. 21:42",
+      "label": "Mateo 21:42",
+      "id": "b40-21-42-21-42"
+    },
+    {
+      "bookId": 41,
+      "book": "Marcos",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "Mar. 12:10,26",
+      "label": "Marcos 12:10",
+      "id": "b41-12-10-12-10"
+    },
+    {
+      "bookId": 41,
+      "book": "Marcos",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 26,
+      "verseEnd": 26,
+      "sourceGroup": "Mar. 12:10,26",
+      "label": "Marcos 12:26",
+      "id": "b41-12-26-12-26"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 39,
+      "verseEnd": 39,
+      "sourceGroup": "Juan 5:39, 46",
+      "label": "Juan 5:39",
+      "id": "b43-5-39-5-39"
+    },
+    {
+      "bookId": 43,
+      "book": "Juan",
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "verseStart": 46,
+      "verseEnd": 46,
+      "sourceGroup": "Juan 5:39, 46",
+      "label": "Juan 5:46",
+      "id": "b43-5-46-5-46"
+    },
+    {
+      "bookId": 42,
+      "book": "Lucas",
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "verseStart": 25,
+      "verseEnd": 27,
+      "sourceGroup": "Luc. 24:25-27",
+      "label": "Lucas 24:25-27",
+      "id": "b42-24-25-24-27"
+    },
+    {
+      "bookId": 40,
+      "book": "Mateo",
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "verseStart": 13,
+      "verseEnd": 17,
+      "sourceGroup": "Mat. 16:13-17",
+      "label": "Mateo 16:13-17",
+      "id": "b40-16-13-16-17"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": 3,
+      "verseEnd": 3,
+      "sourceGroup": "1 Cor. 12:3",
+      "label": "1 Corintios 12:3",
+      "id": "b46-12-3-12-3"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 11,
+      "verseEnd": 11,
+      "sourceGroup": "1 Cor. 2:11",
+      "label": "1 Corintios 2:11",
+      "id": "b46-2-11-2-11"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 14,
+      "verseEnd": 14,
+      "sourceGroup": "1 Cor. 2:14",
+      "label": "1 Corintios 2:14",
+      "id": "b46-2-14-2-14"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "verseStart": 18,
+      "verseEnd": 18,
+      "sourceGroup": "1 Cor. 1:18",
+      "label": "1 Corintios 1:18",
+      "id": "b46-1-18-1-18"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 10,
+      "verseEnd": 10,
+      "sourceGroup": "1 Cor. 2:10",
+      "label": "1 Corintios 2:10",
+      "id": "b46-2-10-2-10"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "verseStart": 12,
+      "verseEnd": 12,
+      "sourceGroup": "1 Cor. 2:12",
+      "label": "1 Corintios 2:12",
+      "id": "b46-2-12-2-12"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "verseStart": null,
+      "verseEnd": null,
+      "sourceGroup": "1 Cor. 12",
+      "label": "1 Corintios 12",
+      "id": "b46-12-all-12-all"
+    },
+    {
+      "bookId": 46,
+      "book": "1 Corintios",
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "verseStart": 1,
+      "verseEnd": 1,
+      "sourceGroup": "14:1",
+      "label": "1 Corintios 14:1",
+      "id": "b46-14-1-14-1"
+    },
+    {
+      "bookId": 49,
+      "book": "Efesios",
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "verseStart": 7,
+      "verseEnd": 16,
+      "sourceGroup": "Efe. 4:7-16",
+      "label": "Efesios 4:7-16",
+      "id": "b49-4-7-4-16"
+    },
+    {
+      "bookId": 23,
+      "book": "Isaías",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "verseStart": 20,
+      "verseEnd": 20,
+      "sourceGroup": "Isa. 8:20",
+      "label": "Isaías 8:20",
+      "id": "b23-8-20-8-20"
+    },
+    {
+      "bookId": 55,
+      "book": "2 Timoteo",
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "verseStart": 16,
+      "verseEnd": 17,
+      "sourceGroup": "2 Tim. 3:16,17",
+      "label": "2 Timoteo 3:16-17",
+      "id": "b55-3-16-3-17"
+    }
+  ]
+}
