@@ -27,26 +27,30 @@ const current = (section: string) => (activeSection === section ? "page" : undef
   </nav>
 
   <div class="sidebar-covers">
-    <h3 class="sidebar-complementos-heading">Complementos para<br/>tu estudio diario</h3>
+    <h3 class="sidebar-complementos-heading">Complementos para tu estudio diario</h3>
     <a class="sidebar-cover-card" href="https://www.youtube.com/playlist?list=PLn19CCwh0uJwsZM3-89oEGdorLikq9hFS" target="_blank" rel="noopener noreferrer" title="Diálogo Bíblico en YouTube">
       <span class="sidebar-cover-wrap">
-        <img src="/images/covers/cover-dialogo-biblico.png" alt="Diálogo Bíblico" width="130" height="182" loading="lazy" />
-        <span class="cover-play-icon">
-          <svg viewBox="0 0 24 24" fill="none" width="28" height="28">
+        <img src="/images/covers/cover-dialogo-biblico.png" alt="" width="130" height="182" loading="lazy" />
+        <span class="cover-play-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" width="20" height="20" focusable="false">
             <circle cx="12" cy="12" r="11" fill="#ff0033" opacity="0.9"/>
             <polygon points="10,7 10,17 17,12" fill="white"/>
           </svg>
         </span>
       </span>
-      <span class="cover-label">Diálogo Bíblico</span>
-      <span class="cover-sublabel">Resúmenes en video</span>
+      <span class="sidebar-cover-copy">
+        <span class="cover-label">Diálogo Bíblico</span>
+        <span class="cover-sublabel">Resúmenes en video</span>
+      </span>
     </a>
     <a class="sidebar-cover-card" href="https://www.santabiblia.cloud" target="_blank" rel="noopener noreferrer" title="Ir a Santa Biblia">
       <span class="sidebar-cover-wrap">
-        <img src="/images/covers/cover-biblia.png" alt="Santa Biblia" width="130" height="182" loading="lazy" />
+        <img src="/images/covers/cover-biblia.png" alt="" width="130" height="182" loading="lazy" />
       </span>
-      <span class="cover-label">Santa Biblia</span>
-      <span class="cover-sublabel">Biblia online</span>
+      <span class="sidebar-cover-copy">
+        <span class="cover-label">Santa Biblia</span>
+        <span class="cover-sublabel">Biblia online</span>
+      </span>
     </a>
   </div>
 </aside>
