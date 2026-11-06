@@ -2,7 +2,7 @@
 import type { Lesson, LessonDay } from "@app-types/lesson";
 import { getReavivados } from "@lib/reavivados";
 import { resourcesUrl } from "@lib/quarterRoutes";
-import { getFridayResource, getPresentationResource, getTeacherResource } from "@lib/lessonAdapter";
+import { getFridayResource, getLessonResource, getPresentationResource, getQuarter, getTeacherResource } from "@lib/lessonAdapter";
 
 type Props = {
   lesson: Lesson;
@@ -13,6 +13,8 @@ type Props = {
 const { lesson, quarterId, activeDay } = Astro.props;
 const pptResource = getPresentationResource(lesson.number, quarterId);
 const teacherResource = getTeacherResource(lesson.number, quarterId);
+const book = getQuarter(quarterId).resourceAutomation?.complementaryBookDiscovery;
+const bookChapter = book ? getLessonResource(lesson.number, "complementary-book-reading", quarterId) : undefined;
 
 const isFriday = activeDay?.id === "viernes";
 const fridayResource = isFriday ? getFridayResource(lesson.number, quarterId) : undefined;
@@ -75,6 +77,29 @@ const reavivadosUrl = reavivadosBookId && reavivadosChapter
       </div>
     )}
   </section>
+
+  {book && (
+    <section class="study-widget">
+      <h3>Libro complementario</h3>
+      {bookChapter ? (
+        <a class="sidebar-ppt-card" href={bookChapter.url} target="_blank" rel="noopener noreferrer" data-article-url={bookChapter.url} data-article-title={bookChapter.title} data-article-format={bookChapter.type === "pdf" ? "pdf" : undefined} data-article-credit={bookChapter.source.credit}>
+          <span class="sidebar-ppt-cover">
+            <img src="/images/covers/pdf-cover.svg" alt="" width="72" height="88" loading="lazy" />
+          </span>
+          <strong class="sidebar-ppt-title">{bookChapter.title}</strong>
+          <span class="sidebar-ppt-action">Leer →</span>
+        </a>
+      ) : (
+        <div class="sidebar-ppt-card ppt-unavailable">
+          <span class="sidebar-ppt-cover">
+            <img src="/images/covers/pdf-cover.svg" alt="" width="72" height="88" loading="lazy" />
+          </span>
+          <strong class="sidebar-ppt-title">Capítulo {lesson.number}</strong>
+          <span class="sidebar-ppt-action">Próximamente</span>
+        </div>
+      )}
+    </section>
+  )}
 
   <!-- Reavivados por su Palabra -->
   <section class="study-widget">

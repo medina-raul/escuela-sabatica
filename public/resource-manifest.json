@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q4",
-  "catalogChecksum": "sha256:b1a4dbbe092aadf46641de697f36e097babf92d9653a854a5a4d5f53b9a94c14",
-  "resourceCount": 70,
+  "catalogChecksum": "sha256:1da3abba0671701827d1e6285eac034cbe573ade4f31496456f07156c09042d6",
+  "resourceCount": 75,
   "localResourceCount": 21,
   "resources": [
     {
@@ -494,6 +494,50 @@
       "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-7-VIERNES.mp3",
       "storage": "external",
       "sizeBytes": 3602354
+    },
+    {
+      "id": "complementary-book-00",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "url": "https://drive.google.com/file/d/1SYO7OP5jVlbveD4_2EUnnzo1MsuQG0Gb/view",
+      "storage": "external",
+      "sizeBytes": 222353
+    },
+    {
+      "id": "complementary-book-01",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "lessonNumber": 1,
+      "url": "https://drive.google.com/file/d/1_JyxZk4i8tTToZxpN1I734A6oB03QDdx/view",
+      "storage": "external",
+      "sizeBytes": 776687
+    },
+    {
+      "id": "complementary-book-02",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "lessonNumber": 2,
+      "url": "https://drive.google.com/file/d/10AuAdx1h4qoTpaPnGA4OpLL2e9vfD5LB/view",
+      "storage": "external",
+      "sizeBytes": 754214
+    },
+    {
+      "id": "complementary-book-03",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "lessonNumber": 3,
+      "url": "https://drive.google.com/file/d/15onrcpt0NOTsBXHvdtqZkd4jegyuEQF5/view",
+      "storage": "external",
+      "sizeBytes": 834095
+    },
+    {
+      "id": "complementary-book-04",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "lessonNumber": 4,
+      "url": "https://drive.google.com/file/d/12aKmBOWn2j8UNbGqKAfUVWe5DorjWs8C/view",
+      "storage": "external",
+      "sizeBytes": 556476
     },
     {
       "id": "ppt-01",

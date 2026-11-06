@@ -11,6 +11,7 @@ export type ResourceRole =
   | "general-reading"
   | "friday-reading"
   | "teacher-reading"
+  | "complementary-book-reading"
   | "weekly-presentation"
   | "daily-audio";
 
@@ -125,6 +126,11 @@ export type ResourceAutomationConfig = {
   audioDiscovery?: AudioDiscoveryConfig;
   presentationDiscovery?: PresentationDiscoveryConfig;
   teacherReadingDiscovery?: TeacherReadingDiscoveryConfig;
+  complementaryBookDiscovery?: {
+    indexUrl: string;
+    title: string;
+    credit: string;
+  };
 };
 
 export type AudioResource = {

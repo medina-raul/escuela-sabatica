@@ -74,11 +74,12 @@ const pageUrl = lessonUrl(quarter.id, lesson.id, day.id);
 <script is:inline>
   // Open article modal on click (viernes complement + sidebar)
   document.addEventListener("click", function (e) {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     var btn = e.target.closest("[data-article-url]");
     if (!btn) return;
     e.preventDefault();
     window.dispatchEvent(new CustomEvent("open-article", {
-      detail: { url: btn.dataset.articleUrl, title: btn.dataset.articleTitle }
+      detail: { url: btn.dataset.articleUrl, title: btn.dataset.articleTitle, format: btn.dataset.articleFormat, credit: btn.dataset.articleCredit }
     }));
   });
 </script>

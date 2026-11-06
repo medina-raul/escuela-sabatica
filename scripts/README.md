@@ -25,6 +25,7 @@ npm run resources:manual                            # sólo procesa resource-inb
 npm run resources:status                            # inventario completo de estado y origen
 npm run resources:site-audit                        # revisa rutas locales del build estático
 npm run resources:update                            # valida y aplica cambios deterministas
+npm run resources:update -- --book-only             # incorpora solo los PDF nuevos del libro complementario
 npm run resources:audit                             # valida y genera el manifiesto
 npm run resources:verify                            # compara el manifiesto con producción
 npm run resources:test                              # pruebas de la automatización
@@ -37,6 +38,8 @@ El editor no necesita usar estos comandos: abre `ACTUALIZAR_SITIO_WINDOWS.cmd` o
 Los recursos locales con `source.kind: "url"` se descargan primero a un directorio temporal, se validan por tipo real, tamaño y SHA-256, y solo entonces reemplazan los archivos actuales. Si cualquier validación falla, no se actualiza el catálogo y se restauran los archivos afectados.
 
 Los recursos con `source.kind: "manual"` se reciben en `resource-inbox/<quarterId>/`. La bandeja replica la estructura canónica, valida los archivos y actualiza catálogo y manifiesto de forma atómica. Un recurso nuevo necesita el descriptor `<archivo>.resource.json`.
+
+Si el trimestre configura `complementaryBookDiscovery`, el actualizador consulta el índice del libro. Comprueba el número, nombre y firma de cada PDF nuevo antes de registrarlo. La biblioteca y la lectura semanal lo abren en el modal mediante la vista pública de Drive. El informe indica si una entrada requiere revisión.
 
 Antes de importar o descargar, `restructure_resources.py` compara cada recurso local con `resourceAutomation.canonicalLayout`. Puede corregir una URL antigua, mover un archivo legado inequívoco y eliminar un duplicado idéntico. Si encuentra dos candidatos o contenidos distintos, se detiene y no decide por aproximación.
 

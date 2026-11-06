@@ -59,6 +59,7 @@ class RemoteMetadata:
     content_length: int | None
     etag: str | None
     last_modified: str | None
+    filename: str | None = None
 
 
 class ResourceError(RuntimeError):
@@ -424,6 +425,7 @@ def download_to(
             content_length=total,
             etag=response.headers.get("ETag"),
             last_modified=response.headers.get("Last-Modified"),
+            filename=response.headers.get_filename(),
         )
     validate_file(destination, resource_type, max_bytes)
     return f"sha256:{digest.hexdigest()}", total, metadata
@@ -520,6 +522,7 @@ def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
 
     seen_ids: set[str] = set()
     seen_urls: set[str] = set()
+    book_slots: set[int | None] = set()
     catalog_local_paths: set[Path] = set()
     lessons = {lesson.get("number"): lesson for lesson in catalog.get("lessons", [])}
 
@@ -547,6 +550,19 @@ def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
                 issues.append(Issue("error", "invalid-lesson", f"Lección inválida en {resource_id}"))
         if role == "daily-audio" and not resource.get("dayId"):
             issues.append(Issue("error", "missing-day", f"Audio sin dayId: {resource_id}"))
+        if role == "complementary-book-reading":
+            lesson_number = resource.get("lessonNumber")
+            if lesson_number is not None and (type(lesson_number) is not int or lesson_number not in lessons):
+                issues.append(Issue("error", "invalid-lesson", f"Lección inválida en {resource_id}"))
+            elif lesson_number in book_slots:
+                issues.append(Issue("error", "duplicate-book-entry", f"Entrada repetida en {resource_id}"))
+            else:
+                book_slots.add(lesson_number)
+            if resource.get("type") == "pdf" and (
+                resource.get("storage") != "external"
+                or not re.fullmatch(r"https://drive\.google\.com/file/d/[A-Za-z0-9_-]+/view", url)
+            ):
+                issues.append(Issue("error", "invalid-book-pdf", f"PDF del libro inválido en {resource_id}"))
 
         storage = resource.get("storage")
         source = resource.get("source", {})

@@ -5163,6 +5163,105 @@
         "sourceChecksum": "sha256:69fe12b45ed169a9bc6673051053cfd6de902e12cd2b950d35b46eeb6d4d5c48",
         "reviewStatus": "reviewed-existing"
       }
+    },
+    {
+      "id": "complementary-book-00",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Introducción",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/1SYO7OP5jVlbveD4_2EUnnzo1MsuQG0Gb/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 222353,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/1SYO7OP5jVlbveD4_2EUnnzo1MsuQG0Gb/view",
+        "currentChecksum": "sha256:a49aaa1cc5ca16e577ae611f25ad1ad74d246eb1261a14a3322276122360ebee",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      }
+    },
+    {
+      "id": "complementary-book-01",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 1. «Uno de estos mis hermanos más pequeños»",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/1_JyxZk4i8tTToZxpN1I734A6oB03QDdx/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 776687,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/1_JyxZk4i8tTToZxpN1I734A6oB03QDdx/view",
+        "currentChecksum": "sha256:a292091de4c894303883626c044958d23ff293834f721fef2b361b2e7772fef4",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 1
+    },
+    {
+      "id": "complementary-book-02",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 2. La respuesta al llamado de Dios",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/10AuAdx1h4qoTpaPnGA4OpLL2e9vfD5LB/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 754214,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/10AuAdx1h4qoTpaPnGA4OpLL2e9vfD5LB/view",
+        "currentChecksum": "sha256:3246ef3cf0fa25122dc18c24248811ebe2498f5046d72c27ea82c4c16ad997b2",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 2
+    },
+    {
+      "id": "complementary-book-03",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 3. Una mensajera en apuros",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/15onrcpt0NOTsBXHvdtqZkd4jegyuEQF5/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 834095,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/15onrcpt0NOTsBXHvdtqZkd4jegyuEQF5/view",
+        "currentChecksum": "sha256:caca8d9746dbfaade1c0e13300d42ede647500db8cf06da152f53e86564fda84",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 3
+    },
+    {
+      "id": "complementary-book-04",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 4. El mensaje",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/12aKmBOWn2j8UNbGqKAfUVWe5DorjWs8C/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 556476,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/12aKmBOWn2j8UNbGqKAfUVWe5DorjWs8C/view",
+        "currentChecksum": "sha256:8f15bf7ee66f373df42cf82bd31f615e0bbfda877872ac9cf0ecc3f89525ac71",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 4
     }
   ],
   "resourceAutomation": {
@@ -5190,8 +5289,15 @@
       "fustero.es",
       "www.audioescuelasabatica.com",
       "audioescuelasabatica.com",
-      "raw.githubusercontent.com"
+      "raw.githubusercontent.com",
+      "recursosdesperanza.blogspot.com",
+      "drive.google.com"
     ],
+    "complementaryBookDiscovery": {
+      "indexUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+      "title": "Un puente hacia Dios. El don de profecía",
+      "credit": "Anna M. Galeniece · ACES"
+    },
     "maxDownloadBytes": 80000000,
     "audioDiscovery": {
       "urlTemplates": [

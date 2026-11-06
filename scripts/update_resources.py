@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from complementary_book import discover_book
 from resource_lib import (
     DEFAULT_CATALOG,
     DEFAULT_MANIFEST,
@@ -58,6 +59,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
     parser.add_argument("--apply", action="store_true", help="Apply changes; otherwise run as dry-run")
     parser.add_argument("--offline", action="store_true", help="Skip all network checks")
+    parser.add_argument("--book-only", action="store_true", help="Discover only complementary book PDFs")
     parser.add_argument("--defer-assisted", action="store_true", help="Report assisted tasks while preserving their published resource entries")
     parser.add_argument("--timeout", type=float, default=20.0)
     parser.add_argument("--report", type=Path)
@@ -660,6 +662,13 @@ def main() -> int:
         planned: list[dict[str, Any]] = []
         try:
             if not args.offline:
+                try:
+                    discover_book(catalog, transaction_root, allowed_hosts=allowed_hosts, timeout=args.timeout, changes=changes, warnings=warnings)
+                except ResourceError as exc:
+                    if args.book_only:
+                        raise
+                    warnings.append(f"Libro complementario: {exc}")
+            if not args.offline and not args.book_only:
                 _discover_audio(
                     catalog,
                     allowed_hosts=allowed_hosts,

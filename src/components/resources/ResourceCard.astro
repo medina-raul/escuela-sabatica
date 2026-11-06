@@ -8,6 +8,7 @@ type Props = {
 
 const { resource, compact = false } = Astro.props;
 const source = resource.source.kind === "url" ? resource.source : undefined;
+const opensBookPdf = resource.type === "pdf" && resource.role === "complementary-book-reading";
 
 const labels: Record<string, string> = {
   pdf: "PDF",
@@ -44,6 +45,8 @@ const typeColors: Record<string, string> = {
     )}
     {resource.type === "article" ? (
       <button class="resource-link" type="button" data-article-url={resource.url} data-article-title={resource.title}>Leer artículo →</button>
+    ) : opensBookPdf ? (
+      <a class="resource-link" href={resource.url} target="_blank" rel="noopener noreferrer" data-article-url={resource.url} data-article-title={resource.title} data-article-format="pdf" data-article-credit={source?.credit}>Leer PDF →</a>
     ) : resource.external ? (
       <a class="resource-link" href={resource.url} target="_blank" rel="noopener noreferrer">Abrir recurso →</a>
     ) : (

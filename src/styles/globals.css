@@ -2185,6 +2185,32 @@ button.sidebar-ppt-card {
   padding: var(--space-5) var(--space-6);
 }
 
+.article-pdf-modal {
+  width: min(100%, 900px);
+  height: min(88dvh, 820px);
+}
+
+.article-pdf-modal .modal-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  padding-top: 0;
+}
+
+.article-pdf-credit {
+  margin: 0 0 var(--space-2);
+  font-size: 0.85rem;
+}
+
+.article-pdf-frame {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  border: 0;
+  background: var(--color-ivory-50);
+}
+
 .version-select {
   width: fit-content;
   max-width: 100%;
@@ -2745,6 +2771,11 @@ button.sidebar-ppt-card {
     width: 100%;
     max-height: 72vh;
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  }
+
+  .article-pdf-modal {
+    height: 90dvh;
+    max-height: 90dvh;
   }
 
   .bible-modal::before {
