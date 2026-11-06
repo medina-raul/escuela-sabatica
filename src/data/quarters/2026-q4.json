@@ -5166,14 +5166,13 @@
     },
     {
       "id": "complementary-book-00",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "title": "Introducción",
       "description": "Un puente hacia Dios. El don de profecía",
-      "url": "https://drive.google.com/file/d/1SYO7OP5jVlbveD4_2EUnnzo1MsuQG0Gb/view",
-      "storage": "external",
-      "external": true,
-      "sizeBytes": 222353,
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/introduccion.html",
+      "storage": "local",
+      "sizeBytes": 2590,
       "source": {
         "kind": "url",
         "url": "https://drive.google.com/file/d/1SYO7OP5jVlbveD4_2EUnnzo1MsuQG0Gb/view",
@@ -5181,7 +5180,8 @@
         "provider": "Recursos de Esperanza",
         "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
         "credit": "Anna M. Galeniece · ACES"
-      }
+      },
+      "checksum": "sha256:ee4a7cf55c401822ac2155a2af7920f123bc337d61b20b37afdb0d49b176c525"
     },
     {
       "id": "complementary-book-01",
@@ -5205,14 +5205,13 @@
     },
     {
       "id": "complementary-book-02",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "title": "Capítulo 2. La respuesta al llamado de Dios",
       "description": "Un puente hacia Dios. El don de profecía",
-      "url": "https://drive.google.com/file/d/10AuAdx1h4qoTpaPnGA4OpLL2e9vfD5LB/view",
-      "storage": "external",
-      "external": true,
-      "sizeBytes": 754214,
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-02.html",
+      "storage": "local",
+      "sizeBytes": 20170,
       "source": {
         "kind": "url",
         "url": "https://drive.google.com/file/d/10AuAdx1h4qoTpaPnGA4OpLL2e9vfD5LB/view",
@@ -5221,18 +5220,18 @@
         "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
         "credit": "Anna M. Galeniece · ACES"
       },
-      "lessonNumber": 2
+      "lessonNumber": 2,
+      "checksum": "sha256:5c2dce09a238dbb2c11ee8890ec61ff7c5e9387479dc72e84691afafe9b53689"
     },
     {
       "id": "complementary-book-03",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "title": "Capítulo 3. Una mensajera en apuros",
       "description": "Un puente hacia Dios. El don de profecía",
-      "url": "https://drive.google.com/file/d/15onrcpt0NOTsBXHvdtqZkd4jegyuEQF5/view",
-      "storage": "external",
-      "external": true,
-      "sizeBytes": 834095,
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-03.html",
+      "storage": "local",
+      "sizeBytes": 23018,
       "source": {
         "kind": "url",
         "url": "https://drive.google.com/file/d/15onrcpt0NOTsBXHvdtqZkd4jegyuEQF5/view",
@@ -5241,18 +5240,18 @@
         "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
         "credit": "Anna M. Galeniece · ACES"
       },
-      "lessonNumber": 3
+      "lessonNumber": 3,
+      "checksum": "sha256:5e2a1476f6ec0c059fc4e9bfde3e52811f836bd21be8e1743f0f858fdf6aad02"
     },
     {
       "id": "complementary-book-04",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "title": "Capítulo 4. El mensaje",
       "description": "Un puente hacia Dios. El don de profecía",
-      "url": "https://drive.google.com/file/d/12aKmBOWn2j8UNbGqKAfUVWe5DorjWs8C/view",
-      "storage": "external",
-      "external": true,
-      "sizeBytes": 556476,
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-04.html",
+      "storage": "local",
+      "sizeBytes": 15764,
       "source": {
         "kind": "url",
         "url": "https://drive.google.com/file/d/12aKmBOWn2j8UNbGqKAfUVWe5DorjWs8C/view",
@@ -5261,7 +5260,8 @@
         "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
         "credit": "Anna M. Galeniece · ACES"
       },
-      "lessonNumber": 4
+      "lessonNumber": 4,
+      "checksum": "sha256:cf8ae97b549944aae6a0c3223eebacd27650726656c74c09fa86ef2a0d3bdd5f"
     }
   ],
   "resourceAutomation": {

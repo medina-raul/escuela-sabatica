@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q4",
-  "catalogChecksum": "sha256:6fc445d5b9ff6cdf2c2022c3cde2b801dd9d7db7705e9215a8d76cbc79760b23",
+  "catalogChecksum": "sha256:65e3062b87af8d1c775d396db0b7e2dfa7e148bc42e8e8a8c771b9545791bbea",
   "resourceCount": 75,
-  "localResourceCount": 22,
+  "localResourceCount": 26,
   "resources": [
     {
       "id": "audio-01-domingo",
@@ -497,11 +497,12 @@
     },
     {
       "id": "complementary-book-00",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
-      "url": "https://drive.google.com/file/d/1SYO7OP5jVlbveD4_2EUnnzo1MsuQG0Gb/view",
-      "storage": "external",
-      "sizeBytes": 222353
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/introduccion.html",
+      "storage": "local",
+      "checksum": "sha256:ee4a7cf55c401822ac2155a2af7920f123bc337d61b20b37afdb0d49b176c525",
+      "sizeBytes": 2590
     },
     {
       "id": "complementary-book-01",
@@ -515,30 +516,33 @@
     },
     {
       "id": "complementary-book-02",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "lessonNumber": 2,
-      "url": "https://drive.google.com/file/d/10AuAdx1h4qoTpaPnGA4OpLL2e9vfD5LB/view",
-      "storage": "external",
-      "sizeBytes": 754214
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-02.html",
+      "storage": "local",
+      "checksum": "sha256:5c2dce09a238dbb2c11ee8890ec61ff7c5e9387479dc72e84691afafe9b53689",
+      "sizeBytes": 20170
     },
     {
       "id": "complementary-book-03",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "lessonNumber": 3,
-      "url": "https://drive.google.com/file/d/15onrcpt0NOTsBXHvdtqZkd4jegyuEQF5/view",
-      "storage": "external",
-      "sizeBytes": 834095
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-03.html",
+      "storage": "local",
+      "checksum": "sha256:5e2a1476f6ec0c059fc4e9bfde3e52811f836bd21be8e1743f0f858fdf6aad02",
+      "sizeBytes": 23018
     },
     {
       "id": "complementary-book-04",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "lessonNumber": 4,
-      "url": "https://drive.google.com/file/d/12aKmBOWn2j8UNbGqKAfUVWe5DorjWs8C/view",
-      "storage": "external",
-      "sizeBytes": 556476
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-04.html",
+      "storage": "local",
+      "checksum": "sha256:cf8ae97b549944aae6a0c3223eebacd27650726656c74c09fa86ef2a0d3bdd5f",
+      "sizeBytes": 15764
     },
     {
       "id": "ppt-01",
