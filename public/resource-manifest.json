@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q4",
-  "catalogChecksum": "sha256:1da3abba0671701827d1e6285eac034cbe573ade4f31496456f07156c09042d6",
+  "catalogChecksum": "sha256:6fc445d5b9ff6cdf2c2022c3cde2b801dd9d7db7705e9215a8d76cbc79760b23",
   "resourceCount": 75,
-  "localResourceCount": 21,
+  "localResourceCount": 22,
   "resources": [
     {
       "id": "audio-01-domingo",
@@ -505,12 +505,13 @@
     },
     {
       "id": "complementary-book-01",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "lessonNumber": 1,
-      "url": "https://drive.google.com/file/d/1_JyxZk4i8tTToZxpN1I734A6oB03QDdx/view",
-      "storage": "external",
-      "sizeBytes": 776687
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-01.html",
+      "storage": "local",
+      "checksum": "sha256:cb234daee674ce02a5f62921a8f5530fb5b1cff073881ef9fadd89d3a0b14d01",
+      "sizeBytes": 21109
     },
     {
       "id": "complementary-book-02",

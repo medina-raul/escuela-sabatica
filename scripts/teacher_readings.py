@@ -109,7 +109,7 @@ def _render_inline(value: str) -> str:
     return escaped
 
 
-def _render_markdown_body(markdown: str) -> str:
+def render_markdown_body(markdown: str) -> str:
     lines = markdown.splitlines()
     output: list[str] = []
     paragraph: list[str] = []
@@ -182,7 +182,7 @@ def render_teacher_html(
     provider_url: str,
 ) -> str:
     metadata, body = _frontmatter(markdown)
-    body_html = _render_markdown_body(body)
+    body_html = render_markdown_body(body)
     title = f"Material para Maestros — Lección {lesson_number}"
     date = metadata.get("date", "")
     safe_source = html.escape(source_url, quote=True)

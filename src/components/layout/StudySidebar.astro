@@ -81,18 +81,18 @@ const reavivadosUrl = reavivadosBookId && reavivadosChapter
   {book && (
     <section class="study-widget">
       <h3>Libro complementario</h3>
-      {bookChapter ? (
-        <a class="sidebar-ppt-card" href={bookChapter.url} target="_blank" rel="noopener noreferrer" data-article-url={bookChapter.url} data-article-title={bookChapter.title} data-article-format={bookChapter.type === "pdf" ? "pdf" : undefined} data-article-credit={bookChapter.source.credit}>
+      {bookChapter?.type === "article" ? (
+        <button type="button" class="sidebar-ppt-card" data-article-url={bookChapter.url} data-article-title={bookChapter.title}>
           <span class="sidebar-ppt-cover">
-            <img src="/images/covers/pdf-cover.svg" alt="" width="72" height="88" loading="lazy" />
+            <img src="/images/covers/article-cover.svg" alt="" width="72" height="88" loading="lazy" />
           </span>
           <strong class="sidebar-ppt-title">{bookChapter.title}</strong>
           <span class="sidebar-ppt-action">Leer →</span>
-        </a>
+        </button>
       ) : (
         <div class="sidebar-ppt-card ppt-unavailable">
           <span class="sidebar-ppt-cover">
-            <img src="/images/covers/pdf-cover.svg" alt="" width="72" height="88" loading="lazy" />
+            <img src="/images/covers/article-cover.svg" alt="" width="72" height="88" loading="lazy" />
           </span>
           <strong class="sidebar-ppt-title">Capítulo {lesson.number}</strong>
           <span class="sidebar-ppt-action">Próximamente</span>

@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from complementary_book import discover_book
+from complementary_book import BOOK_ROLE, discover_book, stage_book_articles
 from resource_lib import (
     DEFAULT_CATALOG,
     DEFAULT_MANIFEST,
@@ -59,7 +59,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
     parser.add_argument("--apply", action="store_true", help="Apply changes; otherwise run as dry-run")
     parser.add_argument("--offline", action="store_true", help="Skip all network checks")
-    parser.add_argument("--book-only", action="store_true", help="Discover only complementary book PDFs")
+    parser.add_argument("--book-only", action="store_true", help="Update only complementary book resources")
     parser.add_argument("--defer-assisted", action="store_true", help="Report assisted tasks while preserving their published resource entries")
     parser.add_argument("--timeout", type=float, default=20.0)
     parser.add_argument("--report", type=Path)
@@ -547,7 +547,7 @@ def _stage_local_url_sources(
         source = resource.get("source", {})
         if resource.get("storage") != "local" or source.get("kind") != "url":
             continue
-        if resource["id"] in skip_resource_ids:
+        if resource["id"] in skip_resource_ids or resource.get("role") == BOOK_ROLE:
             continue
         target = local_path_for_url(resource["url"])
         staged = staging_root / "downloads" / resource["id"] / target.name
@@ -622,7 +622,8 @@ def _apply_transaction(
             resource = item["resource"]
             resource["checksum"] = item["checksum"]
             resource["sizeBytes"] = item["size"]
-            metadata_to_source(resource["source"], item["metadata"])
+            if item.get("metadata") is not None:
+                metadata_to_source(resource["source"], item["metadata"])
 
         atomic_write_json(catalog_path, catalog)
         write_manifest(catalog, manifest_path)
@@ -701,6 +702,7 @@ def main() -> int:
                     changes=changes,
                     skip_resource_ids=unchanged_presentations | teacher_ids,
                 )
+            planned.extend(stage_book_articles(catalog, transaction_root, changes))
             changes.extend(refresh_local_metadata(catalog))
             pre_apply_issues = audit_catalog(catalog)
             errors.extend(issue.message for issue in pre_apply_issues if issue.level == "error")

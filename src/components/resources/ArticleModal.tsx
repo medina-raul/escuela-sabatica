@@ -1,16 +1,9 @@
-import { useEffect, useState, useCallback, useId, useRef } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { BibleStudyModal } from "@components/bible/BibleStudyModal";
 import type { BibleReference } from "@app-types/bible";
 import { findBibleReferenceMatches } from "@lib/bibleReferenceParser";
 
 type Props = {};
-type Article = { url: string; title: string; credit?: string; previewUrl?: string };
-type OpenArticle = Pick<Article, "url" | "title" | "credit"> & { format?: string };
-
-function drivePreviewUrl(source: string): string | undefined {
-  const match = source.match(/^https:\/\/drive\.google\.com\/file\/d\/([\w-]+)\/view$/);
-  return match ? "https://drive.google.com/file/d/" + match[1] + "/preview" : undefined;
-}
 
 const ARTICLE_TAGS = new Set([
   "ARTICLE", "SECTION", "DIV", "P", "H1", "H2", "H3", "H4", "H5", "H6",
@@ -95,57 +88,39 @@ function enhanceBibleReferences(root: HTMLElement, onOpen: (reference: BibleRefe
 }
 
 export function ArticleModal(_props: Props) {
-  const [article, setArticle] = useState<Article | null>(null);
+  const [article, setArticle] = useState<{ url: string; title: string } | null>(null);
   const [activeReference, setActiveReference] = useState<BibleReference | null>(null);
   const [content, setContent] = useState("");
   const [loading, setLoading] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
-  const requestRef = useRef<AbortController | null>(null);
-  const closeButtonRef = useRef<HTMLButtonElement>(null);
-  const titleId = useId();
 
-  const openArticle = useCallback((e: CustomEvent<OpenArticle>) => {
-    const { url, title, format, credit } = e.detail;
-    const previewUrl = format === "pdf" ? drivePreviewUrl(url) : undefined;
-    if (format === "pdf" && !previewUrl) return;
-    requestRef.current?.abort();
-    setArticle({ url, title, credit, previewUrl });
+  const openArticle = useCallback((e: CustomEvent<{ url: string; title: string }>) => {
+    const { url, title } = e.detail;
+    setArticle({ url, title });
     setActiveReference(null);
-    setContent("");
-    if (previewUrl) {
-      setLoading(false);
-      return;
-    }
-    const request = new AbortController();
-    requestRef.current = request;
     setLoading(true);
     const fullUrl = url.startsWith("http") ? url : `${location.origin}${url}`;
-    fetch(fullUrl, { signal: request.signal })
+    fetch(fullUrl)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.text();
       })
       .then((html) => {
-        if (request.signal.aborted) return;
         const body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? html;
         const visibleBody = body.replace(/(?:Trimestre en preparación\.\s*)?Extracción pendiente de revisión editorial\.\s*/gi, "");
         setContent(sanitizeArticleHtml(visibleBody));
         setLoading(false);
       })
       .catch(() => {
-        if (request.signal.aborted) return;
         setContent("<p>Error al cargar el contenido.</p>");
         setLoading(false);
       });
   }, []);
 
   useEffect(() => {
-    const handler = (e: Event) => openArticle(e as CustomEvent<OpenArticle>);
+    const handler = (e: Event) => openArticle(e as CustomEvent);
     window.addEventListener("open-article", handler);
-    return () => {
-      requestRef.current?.abort();
-      window.removeEventListener("open-article", handler);
-    };
+    return () => window.removeEventListener("open-article", handler);
   }, [openArticle]);
 
   useEffect(() => {
@@ -157,26 +132,10 @@ export function ArticleModal(_props: Props) {
     enhanceBibleReferences(root, setActiveReference);
   }, [content, loading]);
 
-  const onClose = useCallback(() => {
-    requestRef.current?.abort();
+  const onClose = () => {
     setArticle(null);
     setActiveReference(null);
-  }, []);
-
-  const previewUrl = article?.previewUrl;
-  useEffect(() => {
-    if (!previewUrl) return;
-    const previousFocus = document.activeElement;
-    closeButtonRef.current?.focus();
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") onClose();
-    };
-    document.addEventListener("keydown", onKeyDown);
-    return () => {
-      document.removeEventListener("keydown", onKeyDown);
-      if (previousFocus instanceof HTMLElement) previousFocus.focus();
-    };
-  }, [previewUrl, onClose]);
+  };
 
   const downloadPDF = async () => {
     if (!contentRef.current || !article) return;
@@ -195,32 +154,25 @@ export function ArticleModal(_props: Props) {
 
   return (
     <div className="modal-backdrop" onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
-      <div className={previewUrl ? "bible-modal article-pdf-modal" : "bible-modal"} role="dialog" aria-modal="true" aria-labelledby={titleId} style={previewUrl ? undefined : { maxWidth: "min(94vw, 900px)" }}>
+      <div className="bible-modal" style={{ maxWidth: "min(94vw, 900px)" }}>
         <div className="modal-header">
-          <h2 id={titleId}>{article.title}</h2>
-          <button className="modal-close-btn" ref={closeButtonRef} type="button" onClick={onClose} aria-label="Cerrar">✕</button>
+          <h2>{article.title}</h2>
+          <button className="modal-close-btn" type="button" onClick={onClose} aria-label="Cerrar">✕</button>
         </div>
         <div className="modal-body">
-          {previewUrl ? (
-            <>
-              {article.credit && <p className="article-pdf-credit muted">{article.credit}</p>}
-              <iframe className="article-pdf-frame" src={previewUrl} title={article.title} referrerPolicy="no-referrer" />
-            </>
-          ) : loading ? (
+          {loading ? (
             <p className="muted">Cargando...</p>
           ) : (
             <div className="article-content" ref={contentRef} />
           )}
         </div>
         <div className="modal-actions">
-          {previewUrl ? (
-            <a className="ghost-button" href={article.url} target="_blank" rel="noopener noreferrer">Abrir PDF original ↗</a>
-          ) : (
-            <>
-              <button type="button" className="ghost-button" onClick={downloadPDF}>Descargar PDF</button>
-              <button type="button" className="ghost-button" onClick={() => window.print()}>Imprimir</button>
-            </>
-          )}
+          <button type="button" className="ghost-button" onClick={downloadPDF}>
+            Descargar PDF
+          </button>
+          <button type="button" className="ghost-button" onClick={() => window.print()}>
+            Imprimir
+          </button>
           <button type="button" className="ghost-button" onClick={onClose}>
             Cerrar
           </button>

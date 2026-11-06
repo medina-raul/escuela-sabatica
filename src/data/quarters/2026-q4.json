@@ -5185,14 +5185,13 @@
     },
     {
       "id": "complementary-book-01",
-      "type": "pdf",
+      "type": "article",
       "role": "complementary-book-reading",
       "title": "Capítulo 1. «Uno de estos mis hermanos más pequeños»",
       "description": "Un puente hacia Dios. El don de profecía",
-      "url": "https://drive.google.com/file/d/1_JyxZk4i8tTToZxpN1I734A6oB03QDdx/view",
-      "storage": "external",
-      "external": true,
-      "sizeBytes": 776687,
+      "url": "/recursos/2026-q4/lecturas/libro-complementario/capitulo-01.html",
+      "storage": "local",
+      "sizeBytes": 21109,
       "source": {
         "kind": "url",
         "url": "https://drive.google.com/file/d/1_JyxZk4i8tTToZxpN1I734A6oB03QDdx/view",
@@ -5201,7 +5200,8 @@
         "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
         "credit": "Anna M. Galeniece · ACES"
       },
-      "lessonNumber": 1
+      "lessonNumber": 1,
+      "checksum": "sha256:cb234daee674ce02a5f62921a8f5530fb5b1cff073881ef9fadd89d3a0b14d01"
     },
     {
       "id": "complementary-book-02",
@@ -5273,7 +5273,8 @@
         "daily-audio": "/recursos/{quarterId}/audio/leccion-{lesson:02d}/{day}.mp3",
         "friday-reading": "/recursos/{quarterId}/lecturas/viernes/leccion-{lesson:02d}.html",
         "teacher-reading": "/recursos/{quarterId}/lecturas/maestros/leccion-{lesson:02d}.html",
-        "general-reading": "/recursos/{quarterId}/lecturas/generales/{filename}"
+        "general-reading": "/recursos/{quarterId}/lecturas/generales/{filename}",
+        "complementary-book-reading": "/recursos/{quarterId}/lecturas/libro-complementario/{filename}"
       },
       "legacySearchRoots": [
         "public/recursos/2026-q4"

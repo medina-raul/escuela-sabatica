@@ -25,7 +25,7 @@ npm run resources:manual                            # sólo procesa resource-inb
 npm run resources:status                            # inventario completo de estado y origen
 npm run resources:site-audit                        # revisa rutas locales del build estático
 npm run resources:update                            # valida y aplica cambios deterministas
-npm run resources:update -- --book-only             # incorpora solo los PDF nuevos del libro complementario
+npm run resources:update -- --book-only             # descubre PDF y genera las lecturas preparadas del libro
 npm run resources:audit                             # valida y genera el manifiesto
 npm run resources:verify                            # compara el manifiesto con producción
 npm run resources:test                              # pruebas de la automatización
@@ -39,7 +39,9 @@ Los recursos locales con `source.kind: "url"` se descargan primero a un director
 
 Los recursos con `source.kind: "manual"` se reciben en `resource-inbox/<quarterId>/`. La bandeja replica la estructura canónica, valida los archivos y actualiza catálogo y manifiesto de forma atómica. Un recurso nuevo necesita el descriptor `<archivo>.resource.json`.
 
-Si el trimestre configura `complementaryBookDiscovery`, el actualizador consulta el índice del libro. Comprueba el número, nombre y firma de cada PDF nuevo antes de registrarlo. La biblioteca y la lectura semanal lo abren en el modal mediante la vista pública de Drive. El informe indica si una entrada requiere revisión.
+Si el trimestre configura `complementaryBookDiscovery`, el actualizador consulta el índice del libro. Comprueba el número, nombre y firma de cada PDF nuevo antes de registrarlo como fuente.
+
+El texto cotejado se guarda en `content/books/<quarterId>/capitulo-01.md`, usando el número de capítulo correspondiente. Para la introducción se usa `introduccion.md`. El encabezado del archivo incluye `sourceChecksum` con el SHA-256 del PDF registrado. El actualizador comprueba ese valor y genera el HTML que la biblioteca y la lección abren en el modal. La generación se puede ejecutar con `npm run resources:update -- --book-only --offline`.
 
 Antes de importar o descargar, `restructure_resources.py` compara cada recurso local con `resourceAutomation.canonicalLayout`. Puede corregir una URL antigua, mover un archivo legado inequívoco y eliminar un duplicado idéntico. Si encuentra dos candidatos o contenidos distintos, se detiene y no decide por aproximación.
 

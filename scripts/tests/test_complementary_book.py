@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from complementary_book import BOOK_ROLE, discover_book, parse_index
+from complementary_book import BOOK_ROLE, discover_book, parse_index, render_book_article
 from resource_lib import RemoteMetadata, ResourceError
 
 
@@ -77,3 +77,22 @@ class ComplementaryBookTests(unittest.TestCase):
             discover()
             self.assertEqual(3, download.call_count)
             self.assertEqual(2, len(changes))
+
+    def test_article_requires_matching_pdf_and_preserves_text_structure(self):
+        checksum = "sha256:" + "a" * 64
+        resource = {
+            "id": "complementary-book-01",
+            "title": "Capítulo 1",
+            "source": {
+                "url": "https://drive.google.com/file/d/chapter-id/view",
+                "currentChecksum": checksum,
+            },
+        }
+        markdown = f"---\nsourceChecksum: {checksum}\n---\n\n## Estudio\n\n" + "Lectura con cita (Juan 1:1). " * 10
+        index = "https://recursosdesperanza.blogspot.com/libro.html"
+        rendered = render_book_article(markdown, resource, index)
+        self.assertIn("<h3>Estudio</h3>", rendered)
+        self.assertIn("(Juan 1:1)", rendered)
+        self.assertIn(resource["source"]["url"], rendered)
+        with self.assertRaises(ResourceError):
+            render_book_article(markdown.replace(checksum, "sha256:" + "b" * 64), resource, index)

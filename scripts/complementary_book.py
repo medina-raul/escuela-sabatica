@@ -2,12 +2,17 @@
 
 from __future__ import annotations
 
+import html
 import re
 from http.client import HTTPException
 from html.parser import HTMLParser
 from pathlib import Path
 
-from resource_lib import ResourceError, all_resources, download_to, fetch_text
+from resource_lib import (
+    PROJECT_ROOT, ResourceError, all_resources, canonical_url_for_resource, download_to,
+    fetch_text, local_path_for_url, sha256_bytes, sha256_path, validate_file, validate_source_url,
+)
+from teacher_readings import render_markdown_body
 
 
 BOOK_ROLE = "complementary-book-reading"
@@ -97,7 +102,7 @@ def discover_book(catalog, staging: Path, *, allowed_hosts: set[str], timeout: f
             continue
         url = f"https://drive.google.com/file/d/{file_id}/view"
         if number in registered:
-            if registered[number]["url"] != url:
+            if registered[number].get("source", {}).get("url") != url:
                 warnings.append(f"Libro complementario: cambió el enlace de la entrada {number}. Revisar la fuente.")
             continue
         resource_id = f"complementary-book-{number:02d}"
@@ -141,3 +146,67 @@ def discover_book(catalog, staging: Path, *, allowed_hosts: set[str], timeout: f
             resource["lessonNumber"] = number
         catalog.setdefault("resources", []).append(resource)
         changes.append(f"complementary-book-added:{resource_id}")
+
+
+def render_book_article(markdown: str, resource: dict, index_url: str) -> str:
+    document = re.fullmatch(r"---\nsourceChecksum: (sha256:[0-9a-f]{64})\n---\n\s*(.+)", markdown, re.S)
+    source = resource["source"]
+    if document is None or document[1] != source.get("currentChecksum"):
+        raise ResourceError(f"El Markdown no corresponde al PDF registrado: {resource['id']}")
+    body = document[2].strip()
+    if len(body) < 200 or "\x00" in body:
+        raise ResourceError(f"Texto incompleto o inválido: {resource['id']}")
+    source_url = source["url"]
+    if not DRIVE_LINK.fullmatch(source_url):
+        raise ResourceError(f"Enlace de origen inválido: {resource['id']}")
+    validate_source_url(index_url, {"recursosdesperanza.blogspot.com"})
+    title = html.escape(resource["title"])
+    credit = html.escape(source.get("credit", ""))
+    return f"""<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+</head>
+<body>
+  <article class="complementary-book-reading">
+    <p class="source-credit">{credit} · <a href="{html.escape(source_url, quote=True)}">PDF original</a> · <a href="{html.escape(index_url, quote=True)}">Recursos de Esperanza</a></p>
+    {render_markdown_body(body)}
+  </article>
+</body>
+</html>
+"""
+
+
+def stage_book_articles(catalog: dict, staging: Path, changes: list[str]) -> list[dict]:
+    config = catalog.get("resourceAutomation", {}).get("complementaryBookDiscovery")
+    if not config:
+        return []
+    content_dir = PROJECT_ROOT / "content" / "books" / catalog["id"]
+    planned = []
+    for resource in all_resources(catalog):
+        if resource.get("role") != BOOK_ROLE:
+            continue
+        number = resource.get("lessonNumber")
+        stem = f"capitulo-{number:02d}" if number is not None else "introduccion"
+        markdown = content_dir / f"{stem}.md"
+        if not markdown.is_file():
+            continue
+        rendered = render_book_article(markdown.read_text(encoding="utf-8"), resource, config["indexUrl"]).encode("utf-8")
+        url = canonical_url_for_resource(catalog, {**resource, "url": f"/{stem}.html"})
+        target = local_path_for_url(url)
+        checksum = sha256_bytes(rendered)
+        if resource["url"] == url and target.is_file() and sha256_path(target) == checksum:
+            continue
+        staged = staging / f"{stem}.html"
+        staged.write_bytes(rendered)
+        validate_file(staged, "article")
+        resource.update(type="article", storage="local", url=url)
+        resource.pop("external", None)
+        planned.append({
+            "resource": resource, "target": target, "staged": staged,
+            "checksum": checksum, "size": len(rendered),
+        })
+        changes.append(f"complementary-book-article:{resource['id']}")
+    return planned
