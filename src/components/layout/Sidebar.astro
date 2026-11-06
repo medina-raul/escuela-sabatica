@@ -1,5 +1,6 @@
 ---
 import { quarterNavItems } from "@data/navigation";
+import NavIcon from "./NavIcon.astro";
 
 type Props = {
   activeSection?: string;
@@ -19,7 +20,7 @@ const current = (section: string) => (activeSection === section ? "page" : undef
     {
       navItems.map((item) => (
         <a class="nav-item" href={item.href} target={item.external ? "_blank" : undefined} rel={item.external ? "noopener noreferrer" : undefined} aria-current={!item.external ? current(item.section) : undefined}>
-          <span class="nav-icon" aria-hidden="true">{item.icon}</span>
+          <NavIcon section={item.section} />
           <span>{item.label}</span>
         </a>
       ))

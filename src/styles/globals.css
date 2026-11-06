@@ -348,10 +348,12 @@ img {
 }
 
 .nav-icon {
-  display: grid;
-  place-items: center;
-  width: 22px;
-  height: 22px;
+  display: block;
+  flex: none;
+}
+
+.nav-item[aria-current="page"] .nav-icon {
+  color: var(--color-gold-500);
 }
 
 .sidebar-covers {

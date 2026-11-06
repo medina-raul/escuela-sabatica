@@ -4,17 +4,16 @@ export type NavItem = {
   section: NavSection;
   label: string;
   href: string;
-  icon: string;
   external?: boolean;
 };
 
 export const navItems: NavItem[] = [
-  { section: "home", label: "Inicio", href: "/", icon: "⌂" },
-  { section: "lessons", label: "Lecciones", href: "/#lessons-heading", icon: "▣" },
-  { section: "resources", label: "Recursos", href: "/recursos", icon: "▤" },
-  { section: "beliefs", label: "28 creencias", href: "/creencias", icon: "◈" },
-  { section: "archive", label: "Trimestres", href: "/trimestres", icon: "▦" },
-  { section: "bible", label: "Biblia", href: "https://www.santabiblia.cloud", icon: "□", external: true },
+  { section: "home", label: "Inicio", href: "/" },
+  { section: "lessons", label: "Lecciones", href: "/#lessons-heading" },
+  { section: "resources", label: "Recursos", href: "/recursos" },
+  { section: "beliefs", label: "28 creencias", href: "/creencias" },
+  { section: "archive", label: "Trimestres", href: "/trimestres" },
+  { section: "bible", label: "Biblia", href: "https://www.santabiblia.cloud", external: true },
 ];
 
 export function quarterNavItems(quarterId?: string): NavItem[] {
