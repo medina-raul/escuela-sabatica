@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q4",
-  "catalogChecksum": "sha256:65e3062b87af8d1c775d396db0b7e2dfa7e148bc42e8e8a8c771b9545791bbea",
-  "resourceCount": 75,
-  "localResourceCount": 26,
+  "catalogChecksum": "sha256:4df05d0a87b227793a924cfdd1f82cafde0fd6c78548edbdbba298ffd75860af",
+  "resourceCount": 86,
+  "localResourceCount": 27,
   "resources": [
     {
       "id": "audio-01-domingo",
@@ -496,6 +496,76 @@
       "sizeBytes": 3602354
     },
     {
+      "id": "audio-08-domingo",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 8,
+      "dayId": "domingo",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-DOMINGO.mp3",
+      "storage": "external",
+      "sizeBytes": 6639890
+    },
+    {
+      "id": "audio-08-jueves",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 8,
+      "dayId": "jueves",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-JUEVES.mp3",
+      "storage": "external",
+      "sizeBytes": 5753426
+    },
+    {
+      "id": "audio-08-lunes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 8,
+      "dayId": "lunes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-LUNES.mp3",
+      "storage": "external",
+      "sizeBytes": 3781778
+    },
+    {
+      "id": "audio-08-martes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 8,
+      "dayId": "martes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MARTES.mp3",
+      "storage": "external",
+      "sizeBytes": 4502930
+    },
+    {
+      "id": "audio-08-miercoles",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 8,
+      "dayId": "miercoles",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MIERCOLES.mp3",
+      "storage": "external",
+      "sizeBytes": 4777682
+    },
+    {
+      "id": "audio-08-sabado",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 8,
+      "dayId": "sabado",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-SABADO.mp3",
+      "storage": "external",
+      "sizeBytes": 1975730
+    },
+    {
+      "id": "audio-08-viernes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 8,
+      "dayId": "viernes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-VIERNES.mp3",
+      "storage": "external",
+      "sizeBytes": 3486002
+    },
+    {
       "id": "complementary-book-00",
       "type": "article",
       "role": "complementary-book-reading",
@@ -543,6 +613,33 @@
       "storage": "local",
       "checksum": "sha256:cf8ae97b549944aae6a0c3223eebacd27650726656c74c09fa86ef2a0d3bdd5f",
       "sizeBytes": 15764
+    },
+    {
+      "id": "complementary-book-05",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "lessonNumber": 5,
+      "url": "https://drive.google.com/file/d/1o7do7ltC5bYE85Ma_3kP3m1D_hQmI7rN/view",
+      "storage": "external",
+      "sizeBytes": 821766
+    },
+    {
+      "id": "complementary-book-06",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "lessonNumber": 6,
+      "url": "https://drive.google.com/file/d/15Ifo5HPgK5IX6cZjxxjjI3u4DW52S0PP/view",
+      "storage": "external",
+      "sizeBytes": 825120
+    },
+    {
+      "id": "complementary-book-07",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "lessonNumber": 7,
+      "url": "https://drive.google.com/file/d/1iKpNBNQo19sH9AP1fpgM_KnunQi4ldlu/view",
+      "storage": "external",
+      "sizeBytes": 906290
     },
     {
       "id": "ppt-01",
@@ -623,6 +720,16 @@
       "storage": "local",
       "checksum": "sha256:a1c2f7be6c4ea96510ae6e8d312a36f71defc73e0d7af1799a5df7306ab28ab3",
       "sizeBytes": 23898419
+    },
+    {
+      "id": "ppt-09",
+      "type": "ppt",
+      "role": "weekly-presentation",
+      "lessonNumber": 9,
+      "url": "/recursos/2026-q4/ppt/leccion-09.pptx",
+      "storage": "local",
+      "checksum": "sha256:6243c59c90e0fd7e1cb95137b6de674255786091143346a28c3ea58256fb9f53",
+      "sizeBytes": 24330354
     },
     {
       "id": "reading-teacher-01",

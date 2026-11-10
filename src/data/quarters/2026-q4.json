@@ -3283,6 +3283,12 @@
             "title": "sha256:b471477419ad418b0c9321f558afc840edfc1750e52727b65ec574e0aacb6733",
             "contentMarkdown": "sha256:ad740590d433660d2e5ecbcaeae5cada5387d47f8266deae939942c7d8a51310",
             "keyVerse": "sha256:1990bb8e98f1fdbe8c240affb9cc4f1bdbca781b3a5a17cd30fa022e4e8bf047"
+          },
+          "audio": {
+            "title": "Lección 8 — Sábado",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-SABADO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -3307,6 +3313,12 @@
             "date": "sha256:68bbad58a1969b561d452f9d0d1029480bf2a576e56e3caa30766a8e150d1357",
             "title": "sha256:ed15d0ba1adf6560738d0de101c577ba083ae8c9d409f664dbe8e20a1afd745b",
             "contentMarkdown": "sha256:14fce097cebdd6f362d107770c642c9581bb7cebd94f6a09e8954145532e33d5"
+          },
+          "audio": {
+            "title": "Lección 8 — Domingo",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-DOMINGO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -3331,6 +3343,12 @@
             "date": "sha256:faffe734ef290597a139fa056e87a8ad295127cb0e390e1ea35540b79e420978",
             "title": "sha256:82b3391f671fa12bfceab3cbb2023de11d64dfb8b5a98f99cbfdf4575d062a57",
             "contentMarkdown": "sha256:7427917b197b5a8bff590cc7376e91450f7ff9597a424113ebc7a6fe09e149a4"
+          },
+          "audio": {
+            "title": "Lección 8 — Lunes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-LUNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -3355,6 +3373,12 @@
             "date": "sha256:3af512824d0e341bce2cd7739940bb37ce7ca505725ec00377769cb83bdf1fc3",
             "title": "sha256:3feed6bd82bd6d0dabb630c3e1eca9fb8c8417b8816572c37b97e656974a11f4",
             "contentMarkdown": "sha256:495a63d79ad7a6f47185de6eed09e14c83e1a547ca935321a857c961fb5e5d4d"
+          },
+          "audio": {
+            "title": "Lección 8 — Martes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MARTES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -3379,6 +3403,12 @@
             "date": "sha256:0f45d26b9bca5bab9215ee29cc079e2776099e08de9df505123e52128fe91375",
             "title": "sha256:36566873fc8dc4573ddd733c9d57dc2bedf03562ba1e16db3824321ceea3991a",
             "contentMarkdown": "sha256:677cd4abd5f79f49ecbbd537786aedb085f602a6204b434eb2dd15119701bb98"
+          },
+          "audio": {
+            "title": "Lección 8 — Miércoles",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MIERCOLES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -3403,6 +3433,12 @@
             "date": "sha256:010cc5180132fb0adc25f5f348f229084383e04439f2c21bb9b55505c19a04f8",
             "title": "sha256:dbef7938780916f777f745ddcc44e9ffc1a3d48da08fad070185823a18f87452",
             "contentMarkdown": "sha256:d0f38a76fd2c2cca5af2835f8b7994389f3f39e5966676d8fbe878cf99dddba5"
+          },
+          "audio": {
+            "title": "Lección 8 — Jueves",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-JUEVES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -3429,6 +3465,12 @@
             "title": "sha256:53002b5d936597c6009994825ca6745640eea6c89a17cb3de12f0e9235419a9c",
             "contentMarkdown": "sha256:32d9fa24fd45bcc8d4dfd0da4a2e6ecc39103bb6b56a242c4c21b301d29ecfb5",
             "fridayReadingAnchor": "sha256:733409dbd4e506851c752346540376cfb63da467e39d034c82261d8e4c248939"
+          },
+          "audio": {
+            "title": "Lección 8 — Viernes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-VIERNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         }
       ],
@@ -3457,6 +3499,181 @@
           },
           "checksum": "sha256:a1c2f7be6c4ea96510ae6e8d312a36f71defc73e0d7af1799a5df7306ab28ab3",
           "sizeBytes": 23898419
+        },
+        {
+          "id": "audio-08-domingo",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 8,
+          "dayId": "domingo",
+          "title": "Lección 8 — Domingo",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-DOMINGO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"655112-65fb47a0577e8\"",
+            "lastModified": "Sat, 07 Nov 2026 19:10:06 GMT"
+          },
+          "sizeBytes": 6639890
+        },
+        {
+          "id": "audio-08-jueves",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 8,
+          "dayId": "jueves",
+          "title": "Lección 8 — Jueves",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-JUEVES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"57ca52-65fb47a445556\"",
+            "lastModified": "Sat, 07 Nov 2026 19:10:10 GMT"
+          },
+          "sizeBytes": 5753426
+        },
+        {
+          "id": "audio-08-lunes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 8,
+          "dayId": "lunes",
+          "title": "Lección 8 — Lunes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-LUNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"39b492-65fb48deefa56\"",
+            "lastModified": "Sat, 07 Nov 2026 19:15:40 GMT"
+          },
+          "sizeBytes": 3781778
+        },
+        {
+          "id": "audio-08-martes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 8,
+          "dayId": "martes",
+          "title": "Lección 8 — Martes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MARTES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"44b592-65fb479ad3a82\"",
+            "lastModified": "Sat, 07 Nov 2026 19:10:00 GMT"
+          },
+          "sizeBytes": 4502930
+        },
+        {
+          "id": "audio-08-miercoles",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 8,
+          "dayId": "miercoles",
+          "title": "Lección 8 — Miércoles",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MIERCOLES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"48e6d2-65fb479fc5fd3\"",
+            "lastModified": "Sat, 07 Nov 2026 19:10:05 GMT"
+          },
+          "sizeBytes": 4777682
+        },
+        {
+          "id": "audio-08-sabado",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 8,
+          "dayId": "sabado",
+          "title": "Lección 8 — Sábado",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-SABADO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1e25b2-65fb4793d8953\"",
+            "lastModified": "Sat, 07 Nov 2026 19:09:53 GMT"
+          },
+          "sizeBytes": 1975730
+        },
+        {
+          "id": "audio-08-viernes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 8,
+          "dayId": "viernes",
+          "title": "Lección 8 — Viernes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-VIERNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-8-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"353132-65fb47a2f5671\"",
+            "lastModified": "Sat, 07 Nov 2026 19:10:08 GMT"
+          },
+          "sizeBytes": 3486002
         }
       ],
       "title": "Interpretación de los escritos proféticos",
@@ -3677,7 +3894,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-09",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 9,
+          "title": "Presentación PPT — Lección 9",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-09.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t409.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"1734072-65fc09799efd3\"",
+            "lastModified": "Sun, 08 Nov 2026 09:37:22 GMT"
+          },
+          "checksum": "sha256:6243c59c90e0fd7e1cb95137b6de674255786091143346a28c3ea58256fb9f53",
+          "sizeBytes": 24330354
+        }
+      ],
       "title": "Poniendo a prueba a los profetas",
       "dateRange": "Para el 28/11/2026",
       "startDate": "2026-11-21",
@@ -5262,6 +5505,66 @@
       },
       "lessonNumber": 4,
       "checksum": "sha256:cf8ae97b549944aae6a0c3223eebacd27650726656c74c09fa86ef2a0d3bdd5f"
+    },
+    {
+      "id": "complementary-book-05",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 5. La revelación y la inspiración en el ministerio profético",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/1o7do7ltC5bYE85Ma_3kP3m1D_hQmI7rN/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 821766,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/1o7do7ltC5bYE85Ma_3kP3m1D_hQmI7rN/view",
+        "currentChecksum": "sha256:94420fcd724d38506b7bd300ae697e42533e4f34dce5d34898c0574282653231",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 5
+    },
+    {
+      "id": "complementary-book-06",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 6. La redacción de los mensajes divinos",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/15Ifo5HPgK5IX6cZjxxjjI3u4DW52S0PP/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 825120,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/15Ifo5HPgK5IX6cZjxxjjI3u4DW52S0PP/view",
+        "currentChecksum": "sha256:17d56fbb6c4a66900ab8b3473582fdd49e84ed15268ab2cfaca55e534f4186cf",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 6
+    },
+    {
+      "id": "complementary-book-07",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 7. Recibir y compartir los mensajes de Dios",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/1iKpNBNQo19sH9AP1fpgM_KnunQi4ldlu/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 906290,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/1iKpNBNQo19sH9AP1fpgM_KnunQi4ldlu/view",
+        "currentChecksum": "sha256:6e8fb403b59f4124645b460312d073681d4a857831bf08b39526ced89e666694",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 7
     }
   ],
   "resourceAutomation": {
