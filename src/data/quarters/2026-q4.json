@@ -4356,7 +4356,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-10",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 10,
+          "title": "Presentación PPT — Lección 10",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-10.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t410.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"16629ac-66054f96d782c\"",
+            "lastModified": "Sun, 15 Nov 2026 18:38:58 GMT"
+          },
+          "checksum": "sha256:391712eba8b1a1a19c7d88d6f5f511c8b06fa247b17220c5b9e7ebbedaa57b4b",
+          "sizeBytes": 23472556
+        }
+      ],
       "title": "Autoridad y relevancia proféticas",
       "dateRange": "Para el 05/12/2026",
       "startDate": "2026-11-28",
