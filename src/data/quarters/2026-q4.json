@@ -5808,6 +5808,26 @@
         "credit": "Anna M. Galeniece · ACES"
       },
       "lessonNumber": 7
+    },
+    {
+      "id": "complementary-book-08",
+      "type": "pdf",
+      "role": "complementary-book-reading",
+      "title": "Capítulo 8. Cómo leer y entender a Elena de White actualmente",
+      "description": "Un puente hacia Dios. El don de profecía",
+      "url": "https://drive.google.com/file/d/1bfSE1ukEuWyGsCY4tcviOVYI11pnAbVE/view",
+      "storage": "external",
+      "external": true,
+      "sizeBytes": 842870,
+      "source": {
+        "kind": "url",
+        "url": "https://drive.google.com/file/d/1bfSE1ukEuWyGsCY4tcviOVYI11pnAbVE/view",
+        "currentChecksum": "sha256:1c436606bdf5192c47152872ec3ce792357c607061ad9c41bcfe4faea4d8c83c",
+        "provider": "Recursos de Esperanza",
+        "providerUrl": "https://recursosdesperanza.blogspot.com/2026/10/libro-complementario-2026-4t.html",
+        "credit": "Anna M. Galeniece · ACES"
+      },
+      "lessonNumber": 8
     }
   ],
   "resourceAutomation": {
