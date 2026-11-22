@@ -1,8 +1,9 @@
 ---
+import { siteConfig } from "@data/siteConfig";
 import type { Lesson, LessonDay } from "@app-types/lesson";
 import { getReavivados } from "@lib/reavivados";
 import { resourcesUrl } from "@lib/quarterRoutes";
-import { getFridayResource, getLessonResource, getPresentationResource, getQuarter, getTeacherResource } from "@lib/lessonAdapter";
+import { getAllResources, getFridayResource, getLessonResource, getPresentationResource, getQuarter, getTeacherResource } from "@lib/lessonAdapter";
 
 type Props = {
   lesson: Lesson;
@@ -11,142 +12,113 @@ type Props = {
 };
 
 const { lesson, quarterId, activeDay } = Astro.props;
-const pptResource = getPresentationResource(lesson.number, quarterId);
-const teacherResource = getTeacherResource(lesson.number, quarterId);
-const book = getQuarter(quarterId).resourceAutomation?.complementaryBookDiscovery;
-const bookChapter = book ? getLessonResource(lesson.number, "complementary-book-reading", quarterId) : undefined;
+const quarter = getQuarter(quarterId);
+const ppt = getPresentationResource(lesson.number, quarterId);
+const attachments = getAllResources(quarterId).filter(resource => resource.role === "weekly-attachment" && resource.lessonNumber === lesson.number);
+const teacher = getTeacherResource(lesson.number, quarterId);
+const book = getLessonResource(lesson.number, "complementary-book-reading", quarterId);
+const friday = getFridayResource(lesson.number, quarterId);
+const reading = activeDay?.date ? getReavivados(activeDay.date, quarter.reavivados) : undefined;
+const readingUrl = reading?.bookId && reading.chapter ? `https://www.santabiblia.cloud/read/${reading.bookId}/${reading.chapter}` : null;
+const widgets = siteConfig.widgets.filter(widget =>
+  widget.enabled
+  && (!widget.quarterId || widget.quarterId === quarterId)
+  && (!widget.dayId || widget.dayId === activeDay?.id)
+  && (widget.type !== "friday-reading" || activeDay?.id === "viernes")
+  && (widget.type !== "complementary-book" || book || quarter.resourceAutomation?.complementaryBookDiscovery),
+);
 
-const isFriday = activeDay?.id === "viernes";
-const fridayResource = isFriday ? getFridayResource(lesson.number, quarterId) : undefined;
-
-const todayReading = activeDay?.date
-  ? getReavivados(activeDay.date)
-  : null;
-
-const reavivadosReading = todayReading?.reading ?? null;
-const reavivadosBookId = todayReading && "bookId" in todayReading ? (todayReading as any).bookId : null;
-const reavivadosChapter = todayReading && "chapter" in todayReading ? (todayReading as any).chapter : null;
-const reavivadosUrl = reavivadosBookId && reavivadosChapter
-  ? `https://www.santabiblia.cloud/read/${reavivadosBookId}/${reavivadosChapter}`
-  : null;
-
+const articleFor = {
+  "teacher-reading": { resource: teacher, title: "Guía de estudio" },
+  "complementary-book": { resource: book?.type === "article" ? book : undefined, title: `Capítulo ${lesson.number}` },
+  "friday-reading": { resource: friday, title: "Lectura complementaria" },
+};
 ---
 
-<aside class="right-rail" aria-label="Material complementario">
-  <!-- Material de la semana (PPT) -->
-  <section class="study-widget">
-    <h3>Material de la semana</h3>
-    {pptResource ? (
-      <div class="resource-sidebar-list">
-        <a class="sidebar-ppt-card" href={pptResource.url} download>
-          <span class="sidebar-ppt-cover">
-            <img src="/images/covers/ppt-cover.svg" alt="PPT" width="72" height="88" loading="lazy" />
-          </span>
-          <strong class="sidebar-ppt-title">{pptResource.title}</strong>
-          <span class="sidebar-ppt-action">Descargar ↓</span>
-        </a>
-      </div>
-    ) : (
-      <div class="sidebar-ppt-card ppt-unavailable">
-        <span class="sidebar-ppt-cover">
-          <img src="/images/covers/ppt-cover.svg" alt="PPT" width="72" height="88" loading="lazy" style="opacity: 0.35" />
-        </span>
-        <strong class="sidebar-ppt-title">Presentación PPT</strong>
-        <span class="sidebar-ppt-action">Próximamente</span>
-      </div>
-    )}
-  </section>
-
-  <section class="study-widget">
-    <h3>Material para Maestros</h3>
-    {teacherResource ? (
-       <button type="button" class="sidebar-ppt-card" data-article-url={teacherResource.url} data-article-title={teacherResource.title}>
-        <span class="sidebar-ppt-cover">
-          <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
-        </span>
-        <strong class="sidebar-ppt-title">Guía de estudio</strong>
-        <span class="sidebar-ppt-action">Leer →</span>
-      </button>
-    ) : (
-      <div class="sidebar-ppt-card ppt-unavailable">
-        <span class="sidebar-ppt-cover">
-          <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" style="opacity: 0.35" />
-        </span>
-        <strong class="sidebar-ppt-title">Guía de estudio</strong>
-        <span class="sidebar-ppt-action">Próximamente</span>
-      </div>
-    )}
-  </section>
-
-  {book && (
-    <section class="study-widget">
-      <h3>Libro complementario</h3>
-      {bookChapter?.type === "article" ? (
-        <button type="button" class="sidebar-ppt-card" data-article-url={bookChapter.url} data-article-title={bookChapter.title}>
-          <span class="sidebar-ppt-cover">
-            <img src="/images/covers/article-cover.svg" alt="" width="72" height="88" loading="lazy" />
-          </span>
-          <strong class="sidebar-ppt-title">{bookChapter.title}</strong>
-          <span class="sidebar-ppt-action">Leer →</span>
-        </button>
-      ) : (
-        <div class="sidebar-ppt-card ppt-unavailable">
-          <span class="sidebar-ppt-cover">
-            <img src="/images/covers/article-cover.svg" alt="" width="72" height="88" loading="lazy" />
-          </span>
-          <strong class="sidebar-ppt-title">Capítulo {lesson.number}</strong>
-          <span class="sidebar-ppt-action">Próximamente</span>
-        </div>
-      )}
-    </section>
-  )}
-
-  <!-- Reavivados por su Palabra -->
-  <section class="study-widget">
-    <h3>Reavivados por su Palabra</h3>
-    {reavivadosUrl ? (
-      <a class="reavivados-button" href={reavivadosUrl} target="_blank" rel="noopener noreferrer">
-        <span class="reavivados-label">Lectura de hoy</span>
-        <span class="reavivados-reading">{reavivadosReading}</span>
-        <span class="reavivados-cta">Leer en Santa Biblia →</span>
-      </a>
-    ) : (
-      <div class="reavivados-card">
-        <span class="reavivados-icon" aria-hidden="true">📖</span>
-        <div>
-          <strong>Lectura de hoy</strong>
-          <p>{reavivadosReading ?? "Consulta el plan de lectura"}</p>
-        </div>
-      </div>
-    )}
-  </section>
-
-  {isFriday && (
-    <section class="study-widget">
-      <h3>Complemento del Viernes</h3>
-      {fridayResource ? (
-         <button type="button" class="sidebar-ppt-card" data-article-url={fridayResource.url} data-article-title={fridayResource.title}>
-          <span class="sidebar-ppt-cover">
-            <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" />
-          </span>
-          <strong class="sidebar-ppt-title">Lectura complementaria</strong>
-          <span class="sidebar-ppt-action">Leer →</span>
-        </button>
-      ) : (
-        <div class="sidebar-ppt-card ppt-unavailable">
-          <span class="sidebar-ppt-cover">
-            <img src="/images/covers/article-cover.svg" alt="Artículo" width="72" height="88" loading="lazy" style="opacity: 0.35" />
-          </span>
-          <strong class="sidebar-ppt-title">Lectura complementaria</strong>
-          <span class="sidebar-ppt-action">Próximamente</span>
-        </div>
-      )}
-    </section>
-  )}
-
-  <section class="study-widget">
-    <a class="resource-all-link" href={resourcesUrl(quarterId)}>
-      Biblioteca de Recursos →
-    </a>
-  </section>
-</aside>
+{widgets.length > 0 && (
+  <aside class="right-rail" aria-label="Material complementario">
+    {widgets.map(widget => {
+      if (widget.type === "resource-library") {
+        return <section class="study-widget"><a class="resource-all-link" href={resourcesUrl(quarterId)}>{widget.title} →</a></section>;
+      }
+      if (widget.type === "weekly-presentation") {
+        return (
+          <section class="study-widget">
+            <h3>{widget.title}</h3>
+            {ppt ? (
+              <div class="resource-sidebar-list">
+                <a class="sidebar-ppt-card" href={ppt.url} download={ppt.external ? undefined : true}
+                  target={ppt.external ? "_blank" : undefined} rel={ppt.external ? "noopener noreferrer" : undefined}>
+                  <span class="sidebar-ppt-cover"><img src="/images/covers/ppt-cover.svg" alt="PPT" width="72" height="88" loading="lazy" /></span>
+                  <strong class="sidebar-ppt-title">{ppt.title}</strong>
+                  <span class="sidebar-ppt-action">{ppt.external ? "Abrir →" : "Descargar ↓"}</span>
+                </a>
+              </div>
+            ) : (
+              <div class="sidebar-ppt-card ppt-unavailable">
+                <span class="sidebar-ppt-cover"><img src="/images/covers/ppt-cover.svg" alt="PPT" width="72" height="88" loading="lazy" style="opacity: 0.35" /></span>
+                <strong class="sidebar-ppt-title">Presentación PPT</strong>
+                <span class="sidebar-ppt-action">Próximamente</span>
+              </div>
+            )}
+            {attachments.map(resource => (
+              <a class="sidebar-ppt-card" href={resource.url} download={resource.originalName ?? true}>
+                <span class="sidebar-ppt-cover"><img src="/images/covers/pdf-cover.svg" alt="" width="72" height="88" loading="lazy" /></span>
+                <strong class="sidebar-ppt-title">{resource.title}</strong>
+                <span class="sidebar-ppt-action">Descargar ↓</span>
+              </a>
+            ))}
+          </section>
+        );
+      }
+      if (widget.type === "reavivados") {
+        return (
+          <section class="study-widget">
+            <h3>{widget.title}</h3>
+            {readingUrl ? (
+              <a class="reavivados-button" href={readingUrl} target="_blank" rel="noopener noreferrer">
+                <span class="reavivados-label">Lectura de hoy</span>
+                <span class="reavivados-reading">{reading?.reading}</span>
+                <span class="reavivados-cta">Leer en Santa Biblia →</span>
+              </a>
+            ) : (
+              <div class="reavivados-card">
+                <span class="reavivados-icon" aria-hidden="true">📖</span>
+                <div><strong>Lectura de hoy</strong><p>{reading?.reading ?? "Consulta el plan de lectura"}</p></div>
+              </div>
+            )}
+          </section>
+        );
+      }
+      if (widget.type === "notice" || widget.type === "link") {
+        const external = widget.href?.startsWith("https://");
+        return (
+          <section class="study-widget">
+            <h3>{widget.title}</h3>
+            {widget.text && <p class="muted">{widget.text}</p>}
+            {widget.href && <a class="resource-all-link" href={widget.href} target={external ? "_blank" : undefined} rel={external ? "noopener noreferrer" : undefined}>Abrir enlace →</a>}
+          </section>
+        );
+      }
+      const { resource, title } = articleFor[widget.type];
+      return (
+        <section class="study-widget">
+          <h3>{widget.title}</h3>
+          {resource ? (
+            <button type="button" class="sidebar-ppt-card" data-article-url={resource.url} data-article-title={resource.title}>
+              <span class="sidebar-ppt-cover"><img src="/images/covers/article-cover.svg" alt="" width="72" height="88" loading="lazy" /></span>
+              <strong class="sidebar-ppt-title">{title}</strong>
+              <span class="sidebar-ppt-action">Leer →</span>
+            </button>
+          ) : (
+            <div class="sidebar-ppt-card ppt-unavailable">
+              <span class="sidebar-ppt-cover"><img src="/images/covers/article-cover.svg" alt="" width="72" height="88" loading="lazy" style="opacity: 0.35" /></span>
+              <strong class="sidebar-ppt-title">{title}</strong>
+              <span class="sidebar-ppt-action">Próximamente</span>
+            </div>
+          )}
+        </section>
+      );
+    })}
+  </aside>
+)}

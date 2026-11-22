@@ -14,7 +14,7 @@ const current = (section: string) => (activeSection === section ? "page" : undef
 
 <nav class="mobile-bottom-nav" aria-label="Navegación móvil">
   {
-    navItems.filter(item => item.section !== "archive").map((item) => (
+    navItems.filter(item => item.mobile ?? item.section !== "archive").map((item) => (
       <a href={item.href} target={item.external ? "_blank" : undefined} rel={item.external ? "noopener noreferrer" : undefined} aria-current={!item.external ? current(item.section) : undefined}>
         <NavIcon section={item.section} />
         <span>{item.label}</span>

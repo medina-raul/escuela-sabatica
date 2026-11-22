@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "navigation": [
+    { "section": "home", "label": "Inicio", "href": "/" },
+    { "section": "lessons", "label": "Lecciones", "href": "/#lessons-heading" },
+    { "section": "resources", "label": "Recursos", "href": "/recursos" },
+    { "section": "beliefs", "label": "28 creencias", "href": "/creencias" },
+    { "section": "archive", "label": "Trimestres", "href": "/trimestres", "mobile": false },
+    { "section": "bible", "label": "Biblia", "href": "https://www.santabiblia.cloud", "external": true }
+  ],
+  "theme": {
+    "palette": "clasica",
+    "readingFont": "literata"
+  },
+  "widgets": [
+    { "id": "weekly-presentation", "type": "weekly-presentation", "title": "Material de la semana", "enabled": true },
+    { "id": "teacher-reading", "type": "teacher-reading", "title": "Material para Maestros", "enabled": true },
+    { "id": "complementary-book", "type": "complementary-book", "title": "Libro complementario", "enabled": true },
+    { "id": "reavivados", "type": "reavivados", "title": "Reavivados por su Palabra", "enabled": true },
+    { "id": "friday-reading", "type": "friday-reading", "title": "Complemento del Viernes", "enabled": true },
+    { "id": "resource-library", "type": "resource-library", "title": "Biblioteca de Recursos", "enabled": true }
+  ],
+  "seo": {
+    "title": "Escuela Sabática",
+    "description": "",
+    "image": ""
+  },
+  "footer": {
+    "brand": "Escuela Sabática™ 2026 v2.0",
+    "credits": "Desarrollado por Raúl Medina & Julio Silva",
+    "links": [
+      {
+        "label": "Santa Biblia",
+        "description": "Lee y estudia online",
+        "href": "https://www.santabiblia.cloud",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=santabiblia.cloud&sz=64"
+      },
+      {
+        "label": "Radio Unach",
+        "description": "Radio adventista en línea",
+        "href": "https://www.radiounach.cl",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=radiounach.cl&sz=64"
+      },
+      {
+        "label": "Nuevo Tiempo Chile",
+        "description": "Noticias y multimedia",
+        "href": "https://nuevotiempo.cl",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nuevotiempo.cl&sz=64"
+      },
+      {
+        "label": "ADRA Chile",
+        "description": "Desarrollo y asistencia",
+        "href": "https://adra.cl",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=adra.cl&sz=64"
+      },
+      {
+        "label": "UnACh",
+        "description": "Universidad Adventista",
+        "href": "https://www.unach.cl",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=unach.cl&sz=64"
+      },
+      {
+        "label": "Diálogo Bíblico",
+        "description": "Resúmenes en video",
+        "href": "https://www.youtube.com/playlist?list=PLn19CCwh0uJwsZM3-89oEGdorLikq9hFS",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
+      }
+    ]
+  }
+}

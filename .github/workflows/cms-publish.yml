@@ -1,0 +1,71 @@
+name: Publicación editorial
+
+on:
+  push:
+    branches: ['cms/publicar/**']
+
+concurrency:
+  group: weekly-resources
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.event.created == false && github.event.deleted == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Descargar la base oficial
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.AUTOMATION_GITHUB_TOKEN || github.token }}
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Verificar el alcance y preparar manifiestos
+        shell: bash
+        env:
+          CMS_CANDIDATE: ${{ github.sha }}
+        run: |
+          CMS_BASE_SHA=$(git rev-parse HEAD)
+          echo "CMS_BASE_SHA=$CMS_BASE_SHA" >> "$GITHUB_ENV"
+          git fetch origin "$CMS_CANDIDATE"
+          node cms/verify-publication.mjs "$CMS_BASE_SHA" "$CMS_CANDIDATE"
+          git merge --ff-only "$CMS_CANDIDATE"
+          node cms/verify-publication.mjs "$CMS_BASE_SHA" "$CMS_CANDIDATE" --manifests
+
+      - name: Construir y comprobar las páginas
+        run: |
+          npm run build
+          npm run resources:site-audit
+
+      - name: Publicar en producción
+        shell: bash
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$CMS_BASE_SHA" ]; then
+            echo "El sitio cambió durante la validación. Vuelve a publicar desde el panel." >&2
+            exit 1
+          fi
+          git add public/resource-manifest.json public/manifests/
+          if ! git diff --cached --quiet; then
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "content(cms): manifiestos auditados"
+          fi
+          git push origin HEAD:refs/heads/main
+          echo "Contenido validado y publicado en main. Vercel actualizará el sitio." >> "$GITHUB_STEP_SUMMARY"

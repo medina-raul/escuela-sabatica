@@ -10,6 +10,8 @@
     "check": "astro check",
     "clean": "rm -rf dist/ .astro/",
     "test": "astro check",
+    "cms:dev": "node cms/server.mjs --demo",
+    "cms:test": "node --test cms/tests/*.test.mjs",
     "site:update": "node scripts/run_python.mjs scripts/site_maintenance.py",
     "site:update:local": "node scripts/run_python.mjs scripts/site_maintenance.py --local-only",
     "site:update:plan": "node scripts/run_python.mjs scripts/site_maintenance.py --local-only --plan",
@@ -30,11 +32,19 @@
   "dependencies": {
     "@astrojs/check": "^0.9.9",
     "@astrojs/react": "^5.0.7",
+    "@tesseract.js-data/spa": "^1.0.0",
     "@vercel/analytics": "^2.0.1",
     "astro": "^6.4.6",
+    "fflate": "^0.8.3",
     "html2pdf.js": "^0.14.0",
+    "parse5": "^7.3.0",
+    "pdfjs-dist": "^6.5.438",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "tesseract.js": "^7.0.0",
     "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5"
   }
 }

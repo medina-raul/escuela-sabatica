@@ -83,7 +83,7 @@ def _discover_audio(
     warnings: list[str],
 ) -> None:
     config = catalog.get("resourceAutomation", {}).get("audioDiscovery")
-    if not config:
+    if not config or catalog.get("resourceAutomation", {}).get("sourceIndexes", {}).get("audio"):
         return
     lessons = {lesson["number"]: lesson for lesson in catalog.get("lessons", [])}
     by_slot = _resource_index(catalog)
@@ -111,6 +111,8 @@ def _discover_audio(
                 for template in templates
             ]
             existing = by_slot.get((lesson_number, day_id))
+            if existing and existing.get("source", {}).get("kind") == "manual":
+                continue
             existing_url = (
                 (existing.get("source") or {}).get("url") or existing.get("url")
                 if existing
@@ -131,15 +133,18 @@ def _discover_audio(
 
     def probe(candidate: dict[str, Any]) -> tuple[dict[str, Any], str, Any]:
         for url in candidate["urls"]:
-            metadata = probe_url(
-                url,
-                allowed_hosts=allowed_hosts,
-                allowed_content_types=config.get("allowedContentTypes"),
-                max_bytes=config["maxBytes"],
-                timeout=timeout,
-                missing_ok=True,
-                insecure_tls_hosts={"audioescuelasabatica.com", "www.audioescuelasabatica.com"},
-            )
+            try:
+                metadata = probe_url(
+                    url,
+                    allowed_hosts=allowed_hosts,
+                    allowed_content_types=config.get("allowedContentTypes"),
+                    max_bytes=config["maxBytes"],
+                    timeout=timeout,
+                    missing_ok=True,
+                    insecure_tls_hosts={"audioescuelasabatica.com", "www.audioescuelasabatica.com"},
+                )
+            except ResourceError:
+                continue
             if metadata is not None:
                 return candidate, url, metadata
         return candidate, candidate["urls"][0], None
@@ -255,7 +260,7 @@ def _discover_presentations(
     warnings: list[str],
 ) -> set[str]:
     config = catalog.get("resourceAutomation", {}).get("presentationDiscovery")
-    if not config:
+    if not config or catalog.get("resourceAutomation", {}).get("sourceIndexes", {}).get("ppt"):
         return set()
 
     try:
@@ -263,12 +268,16 @@ def _discover_presentations(
     except re.error as exc:
         raise ResourceError(f"fileNamePattern inválido para presentaciones: {exc}") from exc
 
-    links = fetch_html_links(
-        config["indexUrl"],
-        allowed_hosts=allowed_hosts,
-        max_bytes=config["indexMaxBytes"],
-        timeout=timeout,
-    )
+    try:
+        links = fetch_html_links(
+            config["indexUrl"],
+            allowed_hosts=allowed_hosts,
+            max_bytes=config["indexMaxBytes"],
+            timeout=timeout,
+        )
+    except ResourceError as exc:
+        warnings.append(f"Índice de presentaciones pendiente: {exc}")
+        return set()
     published: dict[int, str] = {}
     for url in links:
         parsed = urllib.parse.urlparse(url)
@@ -322,22 +331,31 @@ def _discover_presentations(
 
     def probe(item: tuple[int, str]) -> tuple[int, str, Any]:
         lesson_number, url = item
+        existing = presentations.get(lesson_number)
+        if existing and existing.get("source", {}).get("kind") == "manual":
+            return lesson_number, url, None
         return lesson_number, url, probe_url(
             url,
             allowed_hosts=allowed_hosts,
             allowed_content_types=config.get("allowedContentTypes"),
             max_bytes=config["maxBytes"],
             timeout=timeout,
+            missing_ok=True,
         )
 
     probed: list[tuple[int, str, Any]] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         futures = [executor.submit(probe, item) for item in published.items()]
         for future in concurrent.futures.as_completed(futures):
-            probed.append(future.result())
+            try:
+                probed.append(future.result())
+            except ResourceError as exc:
+                warnings.append(f"Presentación pendiente: {exc}")
 
     verified_unchanged: set[str] = set()
     for lesson_number, source_url, metadata in sorted(probed):
+        if metadata is None:
+            continue
         lesson = lessons.get(lesson_number)
         if lesson is None:
             warnings.append(f"Fustero publicó la lección {lesson_number}, pero no existe en el catálogo")
@@ -539,6 +557,7 @@ def _stage_local_url_sources(
     default_max_bytes: int,
     timeout: float,
     changes: list[str],
+    warnings: list[str],
     skip_resource_ids: set[str] | None = None,
 ) -> list[dict[str, Any]]:
     planned: list[dict[str, Any]] = []
@@ -549,17 +568,25 @@ def _stage_local_url_sources(
             continue
         if resource["id"] in skip_resource_ids or resource.get("role") == BOOK_ROLE:
             continue
+        if resource.get("role") == "weekly-presentation" and catalog.get("resourceAutomation", {}).get("sourceIndexes", {}).get("ppt"):
+            continue
         target = local_path_for_url(resource["url"])
         staged = staging_root / "downloads" / resource["id"] / target.name
-        checksum, size, metadata = download_to(
-            source["url"],
-            staged,
-            resource_type=resource["type"],
-            allowed_hosts=allowed_hosts,
-            allowed_content_types=source.get("allowedContentTypes"),
-            max_bytes=source.get("maxBytes") or default_max_bytes,
-            timeout=timeout,
-        )
+        try:
+            checksum, size, metadata = download_to(
+                source["url"],
+                staged,
+                resource_type=resource["type"],
+                allowed_hosts=allowed_hosts,
+                allowed_content_types=source.get("allowedContentTypes"),
+                max_bytes=source.get("maxBytes") or default_max_bytes,
+                timeout=timeout,
+            )
+        except ResourceError as exc:
+            if resource.get("role") != "weekly-presentation" or not target.is_file():
+                raise
+            warnings.append(f"Se conserva la presentación {resource['id']}: {exc}")
+            continue
         if target.exists() and checksum == sha256_path(target):
             if metadata_to_source(source, metadata):
                 changes.append(f"source-metadata:{resource['id']}")
@@ -700,6 +727,7 @@ def main() -> int:
                     default_max_bytes=default_max_bytes,
                     timeout=args.timeout,
                     changes=changes,
+                    warnings=warnings,
                     skip_resource_ids=unchanged_presentations | teacher_ids,
                 )
             planned.extend(stage_book_articles(catalog, transaction_root, changes))

@@ -15,12 +15,15 @@ const books: [string, number][] = [
   ["1 Timoteo",6],["2 Timoteo",4],["Tito",3],["Filemón",1],["Hebreos",13],["Santiago",5],
   ["1 Pedro",5],["2 Pedro",3],["1 Juan",5],["2 Juan",1],["3 Juan",1],["Judas",1],["Apocalipsis",22],
 ];
-export type Reading = { date: string; reading: string; bookId: number; chapter: number };
+export type Reading = { date: string; reading: string; bookId?: number; chapter?: number };
 
-export function getReavivados(date: string): Reading | undefined {
-  const existing = baseline.reavivados.find(reading => reading.date === date);
+// Fix the original cycle's anchor so a correction to a single day stays local.
+const anchor = { date: "2026-09-26", bookId: 19, chapter: 50 };
+
+export function getReavivados(date: string, overrides?: Reading[]): Reading | undefined {
+  const existing = overrides?.find(reading => reading.date === date)
+    ?? baseline.reavivados.find(reading => reading.date === date);
   if (existing) return existing;
-  const anchor = baseline.reavivados.at(-1)!;
   const timestamp = Date.parse(`${date}T00:00:00Z`);
   if (!Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== date) return;
   const offset = (timestamp - Date.parse(`${anchor.date}T00:00:00Z`)) / 86400000;

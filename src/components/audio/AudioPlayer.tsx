@@ -17,6 +17,8 @@ export function AudioPlayer({ audio }: Props) {
   const [playing, setPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [failedUrl, setFailedUrl] = useState<string>();
+  const available = Boolean(audio?.url && failedUrl !== audio.url);
 
   useEffect(() => {
     const el = audioRef.current;
@@ -24,15 +26,22 @@ export function AudioPlayer({ audio }: Props) {
     const onTime = () => setCurrentTime(el.currentTime);
     const onDuration = () => setDuration(el.duration);
     const onEnd = () => setPlaying(false);
+    const onError = () => {
+      setPlaying(false);
+      setFailedUrl(audio?.url);
+    };
     el.addEventListener("timeupdate", onTime);
     el.addEventListener("loadedmetadata", onDuration);
     el.addEventListener("ended", onEnd);
+    el.addEventListener("error", onError);
+    if (el.error) onError();
     return () => {
       el.removeEventListener("timeupdate", onTime);
       el.removeEventListener("loadedmetadata", onDuration);
       el.removeEventListener("ended", onEnd);
+      el.removeEventListener("error", onError);
     };
-  }, []);
+  }, [audio?.url]);
 
   const toggle = async () => {
     const el = audioRef.current;
@@ -44,8 +53,9 @@ export function AudioPlayer({ audio }: Props) {
       try {
         await el.play();
         setPlaying(true);
-      } catch {
+      } catch (error) {
         setPlaying(false);
+        if (el.error || (error instanceof Error && error.name === "NotSupportedError")) setFailedUrl(audio?.url);
       }
     }
   };
@@ -71,19 +81,19 @@ export function AudioPlayer({ audio }: Props) {
     <div className="audio-player" id="audio">
       <div className="audio-row">
         <div className="audio-controls">
-          <button className="audio-btn skip-btn" type="button" onClick={() => skip(-10)} aria-label="Retroceder 10s" title="−10s" disabled={!audio?.url}>
+          <button className="audio-btn skip-btn" type="button" onClick={() => skip(-10)} aria-label="Retroceder 10s" title="−10s" disabled={!available}>
             ⏪
           </button>
-          <button className="audio-btn play-btn" type="button" onClick={toggle} aria-label={playing ? "Pausar" : audio?.url ? "Reproducir" : "No disponible"} disabled={!audio?.url}>
+          <button className="audio-btn play-btn" type="button" onClick={toggle} aria-label={playing ? "Pausar" : available ? "Reproducir" : "No disponible"} disabled={!available}>
             {playing ? "⏸" : "▶"}
           </button>
-          <button className="audio-btn skip-btn" type="button" onClick={() => skip(10)} aria-label="Adelantar 10s" title="+10s" disabled={!audio?.url}>
+          <button className="audio-btn skip-btn" type="button" onClick={() => skip(10)} aria-label="Adelantar 10s" title="+10s" disabled={!available}>
             ⏩
           </button>
         </div>
         <div className="audio-body">
-          <span className="audio-label">
-            {audio?.url && audio.title ? audio.title : "Próximamente"}
+          <span className="audio-label" role="status">
+            {available ? audio?.title || "Audio de la lección" : failedUrl ? "Audio temporalmente no disponible" : "Próximamente"}
           </span>
           <div className="audio-bar">
             <span className="audio-time-current">{audio?.url ? formatTime(currentTime) : "0:00"}</span>
@@ -97,7 +107,7 @@ export function AudioPlayer({ audio }: Props) {
                 value={currentTime}
                 onChange={seek}
                 aria-label="Progreso del audio"
-                disabled={!audio?.url}
+                disabled={!available}
               />
             </div>
             <span className="audio-time-remaining">−{audio?.url ? formatTime(remaining) : "0:00"}</span>
@@ -105,7 +115,7 @@ export function AudioPlayer({ audio }: Props) {
         </div>
       </div>
       {audio?.url && <audio ref={audioRef} src={audio.url} preload="none" />}
-      <span className="audio-credit">Audio gentileza de audioescuelasabatica.com</span>
+      {audio?.narrator && <span className="audio-credit">Audio gentileza de {audio.narrator}</span>}
     </div>
   );
 }

@@ -233,7 +233,10 @@ def validate_file(path: Path, resource_type: str, max_bytes: int | None = None) 
         raise ResourceError(f"Archivo excede el máximo de {max_bytes} bytes: {path}")
 
     suffix = path.suffix.lower()
-    if resource_type == "article":
+    if resource_type == "attachment":
+        if suffix != ".download":
+            raise ResourceError(f"Un adjunto debe usar la extensión neutra .download: {path}")
+    elif resource_type == "article":
         if suffix != ".html":
             raise ResourceError(f"Un artículo debe terminar en .html: {path}")
         if size < 128:
@@ -544,7 +547,7 @@ def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
         role = resource.get("role")
         if not role:
             issues.append(Issue("error", "missing-role", f"Recurso sin role: {resource_id}"))
-        if role in {"friday-reading", "teacher-reading", "weekly-presentation", "daily-audio"}:
+        if role in {"friday-reading", "teacher-reading", "weekly-presentation", "weekly-attachment", "daily-audio"}:
             lesson_number = resource.get("lessonNumber")
             if lesson_number not in lessons:
                 issues.append(Issue("error", "invalid-lesson", f"Lección inválida en {resource_id}"))
@@ -565,6 +568,8 @@ def audit_catalog(catalog: dict[str, Any]) -> list[Issue]:
                 issues.append(Issue("error", "invalid-book-pdf", f"PDF del libro inválido en {resource_id}"))
 
         storage = resource.get("storage")
+        if resource.get("type") == "attachment" and (storage != "local" or role not in {"general-attachment", "weekly-attachment"}):
+            issues.append(Issue("error", "invalid-attachment", f"El adjunto debe ser una descarga local: {resource_id}"))
         source = resource.get("source", {})
         source_kind = source.get("kind")
         if source_kind not in {"manual", "url"}:

@@ -15,7 +15,7 @@ const allResources = getAllResources(quarter.id);
 const resources = allResources.filter(r => {
   if (!r.url || r.url === "#") return false;
   if (r.role === "complementary-book-reading") return r.type === "article";
-  return r.type !== "audio" && (r.type === "pdf" || r.type === "ppt" || r.type === "article");
+  return r.type !== "audio";
 });
 
 type ResourceCategory = "complementary-book" | "lesson-complement" | "chapter-summary" | "teacher-reading" | "ppt" | "other";

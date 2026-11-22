@@ -5,14 +5,17 @@ export type ResourceType =
   | "video"
   | "article"
   | "commentary"
-  | "guide";
+  | "guide"
+  | "attachment";
 
 export type ResourceRole =
   | "general-reading"
+  | "general-attachment"
   | "friday-reading"
   | "teacher-reading"
   | "complementary-book-reading"
   | "weekly-presentation"
+  | "weekly-attachment"
   | "daily-audio";
 
 export type ResourceSource =
@@ -54,6 +57,7 @@ export type Resource = {
   storage: "local" | "external";
   checksum?: string;
   sizeBytes?: number;
+  originalName?: string;
   source: ResourceSource;
   translation?: {
     sourceLanguage: "en";

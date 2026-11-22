@@ -2,6 +2,7 @@
 import Analytics from "@vercel/analytics/astro";
 import AppLayout from "./AppLayout.astro";
 import type { NavSection } from "@data/navigation";
+import { siteConfig, siteThemeStyle } from "@data/siteConfig";
 import "@styles/globals.css";
 
 type Props = {
@@ -14,13 +15,16 @@ type Props = {
   quarterId?: string;
 };
 
-const { title = "Escuela Sabática", activeSection = "home", description, image, url, noindex = false, quarterId } = Astro.props;
+const { title, activeSection = "home", description, image, url, noindex = false, quarterId } = Astro.props;
 const SITE_URL = "https://escuelasabatica.cl";
+const { seo } = siteConfig;
+const pageTitle = title ? title.replace(/ \| Escuela Sabática$/, ` | ${seo.title}`) : seo.title;
 const defaultDesc = "Plataforma de lectura y estudio bíblico de la Escuela Sabática Adventista.";
 const defaultImage = "/images/og-cover.svg";
-const pageDesc = description || defaultDesc;
-const pageImage = image || defaultImage;
+const pageDesc = (url === "/" && seo.description) || description || seo.description || defaultDesc;
+const pageImage = (url === "/" && seo.image) || image || seo.image || defaultImage;
 const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
+const themeStyle = siteThemeStyle();
 ---
 
 <!doctype html>
@@ -29,26 +33,26 @@ const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
     <meta charset="UTF-8" />
     <meta name="description" content={pageDesc} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
+    <title>{pageTitle}</title>
     <link rel="canonical" href={pageUrl} />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!-- Open Graph -->
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDesc} />
     <meta property="og:image" content={pageImage.startsWith("http") ? pageImage : `${SITE_URL}${pageImage}`} />
-    <meta property="og:image:alt" content={title} />
+    <meta property="og:image:alt" content={pageTitle} />
     <meta property="og:url" content={pageUrl} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Escuela Sabática" />
+    <meta property="og:site_name" content={seo.title} />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
+    <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={pageDesc} />
     <meta name="twitter:image" content={pageImage.startsWith("http") ? pageImage : `${SITE_URL}${pageImage}`} />
-    <Analytics />
+    {import.meta.env.CMS_PRIVATE_PREVIEW !== "1" && <Analytics />}
   </head>
-  <body>
+  <body style={Object.keys(themeStyle).length ? themeStyle : undefined}>
     <AppLayout activeSection={activeSection} quarterId={quarterId}>
       <slot />
     </AppLayout>

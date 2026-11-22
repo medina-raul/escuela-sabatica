@@ -14,8 +14,7 @@ type BookDefinition = {
 type NumericReferenceGroups = {
   chapter?: string;
   verseStart?: string;
-  verseEnd?: string;
-  crossChapter?: string;
+  rangeEnd?: string;
   crossVerseEnd?: string;
 };
 
@@ -142,8 +141,7 @@ function makeReference(
   if (!book || !Number.isInteger(chapter)) return null;
 
   const verseStart = groups.verseStart ? Number(groups.verseStart) : 0;
-  const verseEnd = groups.verseEnd ? Number(groups.verseEnd) : undefined;
-  const crossChapter = groups.crossChapter ? Number(groups.crossChapter) : undefined;
+  const rangeEnd = groups.rangeEnd ? Number(groups.rangeEnd) : undefined;
   const crossVerseEnd = groups.crossVerseEnd ? Number(groups.crossVerseEnd) : undefined;
   const reference: BibleReference = {
     book,
@@ -152,11 +150,11 @@ function makeReference(
     display: display.trim(),
   };
 
-  if (verseEnd !== undefined && crossChapter !== undefined && crossVerseEnd !== undefined) {
+  if (rangeEnd !== undefined && crossVerseEnd !== undefined) {
     reference.toEnd = true;
-    reference.crossChapter = { chapter: crossChapter, verseEnd: crossVerseEnd };
-  } else if (verseEnd !== undefined) {
-    reference.verseEnd = verseEnd;
+    reference.crossChapter = { chapter: rangeEnd, verseEnd: crossVerseEnd };
+  } else if (rangeEnd !== undefined) {
+    reference.verseEnd = rangeEnd;
   }
 
   return reference;
@@ -166,9 +164,8 @@ function referenceFromFullMatch(match: RegExpExecArray): BibleReference | null {
   return makeReference(match[1], {
     chapter: match[2],
     verseStart: match[3],
-    verseEnd: match[4],
-    crossChapter: match[5],
-    crossVerseEnd: match[6],
+    rangeEnd: match[4],
+    crossVerseEnd: match[5],
   }, match[0]);
 }
 
@@ -177,9 +174,8 @@ function referenceFromNumericMatch(book: string, match: RegExpMatchArray): Bible
   return makeReference(book, {
     chapter: match[1],
     verseStart: match[2],
-    verseEnd: match[3],
-    crossChapter: match[4],
-    crossVerseEnd: match[5],
+    rangeEnd: match[3],
+    crossVerseEnd: match[4],
   }, `${book} ${numericText}`);
 }
 

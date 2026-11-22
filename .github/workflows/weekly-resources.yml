@@ -47,6 +47,9 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
+      - name: Buscar recursos en las fuentes del editor
+        run: node cms/sync-indexes.mjs
+
       - name: Reestructurar, importar, actualizar, auditar y compilar
         run: npm run resources:sync -- --report "$RESOURCE_REPORT" --no-install --defer-assisted
 
