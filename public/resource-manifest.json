@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "quarterId": "2026-q4",
-  "catalogChecksum": "sha256:0e901edb2efadc0c86b4524bc6762cfcc1dd7ade3e7830967abbf894cd96a4d5",
-  "resourceCount": 95,
-  "localResourceCount": 28,
+  "catalogChecksum": "sha256:d5750788b30d9e65d46b7bdefa6bff89a3a85911ea70bbc28e1b394b51ed66fa",
+  "resourceCount": 103,
+  "localResourceCount": 29,
   "resources": [
     {
       "id": "audio-01-domingo",
@@ -636,6 +636,76 @@
       "sizeBytes": 3653042
     },
     {
+      "id": "audio-10-domingo",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 10,
+      "dayId": "domingo",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-DOMINGO.mp3",
+      "storage": "external",
+      "sizeBytes": 5095058
+    },
+    {
+      "id": "audio-10-jueves",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 10,
+      "dayId": "jueves",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-JUEVES.mp3",
+      "storage": "external",
+      "sizeBytes": 5189522
+    },
+    {
+      "id": "audio-10-lunes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 10,
+      "dayId": "lunes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-LUNES.mp3",
+      "storage": "external",
+      "sizeBytes": 5985266
+    },
+    {
+      "id": "audio-10-martes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 10,
+      "dayId": "martes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MARTES.mp3",
+      "storage": "external",
+      "sizeBytes": 5745362
+    },
+    {
+      "id": "audio-10-miercoles",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 10,
+      "dayId": "miercoles",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MIERCOLES.mp3",
+      "storage": "external",
+      "sizeBytes": 5611442
+    },
+    {
+      "id": "audio-10-sabado",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 10,
+      "dayId": "sabado",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-SABADO.mp3",
+      "storage": "external",
+      "sizeBytes": 1907474
+    },
+    {
+      "id": "audio-10-viernes",
+      "type": "audio",
+      "role": "daily-audio",
+      "lessonNumber": 10,
+      "dayId": "viernes",
+      "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-VIERNES.mp3",
+      "storage": "external",
+      "sizeBytes": 3314354
+    },
+    {
       "id": "complementary-book-00",
       "type": "article",
       "role": "complementary-book-reading",
@@ -819,6 +889,16 @@
       "storage": "local",
       "checksum": "sha256:391712eba8b1a1a19c7d88d6f5f511c8b06fa247b17220c5b9e7ebbedaa57b4b",
       "sizeBytes": 23472556
+    },
+    {
+      "id": "ppt-11",
+      "type": "ppt",
+      "role": "weekly-presentation",
+      "lessonNumber": 11,
+      "url": "/recursos/2026-q4/ppt/leccion-11.pptx",
+      "storage": "local",
+      "checksum": "sha256:2e396e3fe90e5c5ce199c2ea9b8cd45cf983306a83f42dcdec83b4e4f5afb805",
+      "sizeBytes": 21840209
     },
     {
       "id": "reading-teacher-01",

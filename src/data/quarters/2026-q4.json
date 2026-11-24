@@ -4207,6 +4207,12 @@
             "title": "sha256:8925173a0b2c804fffbdb88f224e9080d7e1825794888f28703b6ff7a7bed6f7",
             "contentMarkdown": "sha256:0b7b4380304c9565520bb6a34f4bae40cb131ee54e466fccb77d772d5fc00539",
             "keyVerse": "sha256:1154c16fda700f4903ca2543e2827e1c5948f77a04023b9afa6d1a48e1cf6480"
+          },
+          "audio": {
+            "title": "Lección 10 — Sábado",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-SABADO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -4231,6 +4237,12 @@
             "date": "sha256:b6bc126c7974c6cb5938dce094a4c44cecfadf0acc706f303467eb6aa297526b",
             "title": "sha256:b364ee61dd232c65b61dae499d47a1627eca8ffb27185939e2dca4818f35e89b",
             "contentMarkdown": "sha256:36dd3ae9cc945fb3511363b030080154af0982d0a0c089eaf25dfc85391f4ff7"
+          },
+          "audio": {
+            "title": "Lección 10 — Domingo",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-DOMINGO.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -4255,6 +4267,12 @@
             "date": "sha256:93ccb6595ee6df3e3429c854583fe1664be54a05a114761c1b74844faff4548c",
             "title": "sha256:e6e899c47e623d663139f8696ee41685924b1fb4bbc1a3ea591d29a799261087",
             "contentMarkdown": "sha256:b421def9b36cab566c8416b7b5250f1720bb5e5f059f3489e16f971cd05d6572"
+          },
+          "audio": {
+            "title": "Lección 10 — Lunes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-LUNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -4279,6 +4297,12 @@
             "date": "sha256:6acf9310c02192cab48cdfeae19ab82af37f5c20d585b2916003e16d89ec701d",
             "title": "sha256:b515671511e49f0dfb729859191a9f70061c75ae6fb341352aacfffd7dd50840",
             "contentMarkdown": "sha256:ee1cf78500213b128fb2e4309e6bae7e92cadfa9fab6f1fc76f09479724a0071"
+          },
+          "audio": {
+            "title": "Lección 10 — Martes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MARTES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -4303,6 +4327,12 @@
             "date": "sha256:c4dde6d36c4240062de46ed1b1870778ff50ba81a0b916aad38928645f3534ea",
             "title": "sha256:838b37ab5b6d1c0c1735acdb839dccb7759ed72d07304bb3d14fe9f29d023e55",
             "contentMarkdown": "sha256:29192b5b46ff6615f36481de626da14e8c3b7ab83037acdedd0a9a249b66a770"
+          },
+          "audio": {
+            "title": "Lección 10 — Miércoles",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MIERCOLES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -4327,6 +4357,12 @@
             "date": "sha256:fe638d272c74cc3a79be719565204225fd35bcb5810836e07909c11116a0991c",
             "title": "sha256:37c0472db12fb7a9dd8fc9802942325cd94545d45e38e21dd30977280ae1bb33",
             "contentMarkdown": "sha256:ae83a617f86b256b7486565c629cd8557f5c7be11725f70b2913420c2e88ba96"
+          },
+          "audio": {
+            "title": "Lección 10 — Jueves",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-JUEVES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         },
         {
@@ -4353,6 +4389,12 @@
             "title": "sha256:0e0e22c49ac50f76809dfececfc474a87d3f9e318180729a8ca0f1c9fe9662b9",
             "contentMarkdown": "sha256:9929fd44e0f4a4ade8264220417e4865e9b78626558ac73deb6d12df615d3119",
             "fridayReadingAnchor": "sha256:df155a60bd24ee23cef32a524c76b33d2f1712e15b9fb5ca2181cce9abaa631a"
+          },
+          "audio": {
+            "title": "Lección 10 — Viernes",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-VIERNES.mp3",
+            "duration": "",
+            "narrator": "Audio Escuela Sabática"
           }
         }
       ],
@@ -4381,6 +4423,181 @@
           },
           "checksum": "sha256:391712eba8b1a1a19c7d88d6f5f511c8b06fa247b17220c5b9e7ebbedaa57b4b",
           "sizeBytes": 23472556
+        },
+        {
+          "id": "audio-10-domingo",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 10,
+          "dayId": "domingo",
+          "title": "Lección 10 — Domingo",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-DOMINGO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-DOMINGO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"4dbe92-660d1646fc7ee\"",
+            "lastModified": "Sat, 21 Nov 2026 23:05:09 GMT"
+          },
+          "sizeBytes": 5095058
+        },
+        {
+          "id": "audio-10-jueves",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 10,
+          "dayId": "jueves",
+          "title": "Lección 10 — Jueves",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-JUEVES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-JUEVES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"4f2f92-660d164ee461a\"",
+            "lastModified": "Sat, 21 Nov 2026 23:05:18 GMT"
+          },
+          "sizeBytes": 5189522
+        },
+        {
+          "id": "audio-10-lunes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 10,
+          "dayId": "lunes",
+          "title": "Lección 10 — Lunes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-LUNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-LUNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"5b53f2-660d164b684f2\"",
+            "lastModified": "Sat, 21 Nov 2026 23:05:14 GMT"
+          },
+          "sizeBytes": 5985266
+        },
+        {
+          "id": "audio-10-martes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 10,
+          "dayId": "martes",
+          "title": "Lección 10 — Martes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MARTES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MARTES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"57aad2-660d1647d8b4c\"",
+            "lastModified": "Sat, 21 Nov 2026 23:05:10 GMT"
+          },
+          "sizeBytes": 5745362
+        },
+        {
+          "id": "audio-10-miercoles",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 10,
+          "dayId": "miercoles",
+          "title": "Lección 10 — Miércoles",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MIERCOLES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-MIERCOLES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"559fb2-660d164a834f5\"",
+            "lastModified": "Sat, 21 Nov 2026 23:05:13 GMT"
+          },
+          "sizeBytes": 5611442
+        },
+        {
+          "id": "audio-10-sabado",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 10,
+          "dayId": "sabado",
+          "title": "Lección 10 — Sábado",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-SABADO.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-SABADO.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"1d1b12-660d164037602\"",
+            "lastModified": "Sat, 21 Nov 2026 23:05:02 GMT"
+          },
+          "sizeBytes": 1907474
+        },
+        {
+          "id": "audio-10-viernes",
+          "type": "audio",
+          "role": "daily-audio",
+          "lessonNumber": 10,
+          "dayId": "viernes",
+          "title": "Lección 10 — Viernes",
+          "description": "Audio resumen · Audio Escuela Sabática",
+          "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-VIERNES.mp3",
+          "external": true,
+          "storage": "external",
+          "source": {
+            "kind": "url",
+            "url": "https://www.audioescuelasabatica.com/wp-content/uploads/2026/10/LECCION-10-VIERNES.mp3",
+            "allowedContentTypes": [
+              "audio/mpeg",
+              "audio/mp3",
+              "application/octet-stream"
+            ],
+            "maxBytes": 50000000,
+            "etag": "\"3292b2-660d164df138d\"",
+            "lastModified": "Sat, 21 Nov 2026 23:05:17 GMT"
+          },
+          "sizeBytes": 3314354
         }
       ],
       "title": "Autoridad y relevancia proféticas",
@@ -4601,7 +4818,33 @@
           }
         }
       ],
-      "resources": [],
+      "resources": [
+        {
+          "id": "ppt-11",
+          "type": "ppt",
+          "role": "weekly-presentation",
+          "lessonNumber": 11,
+          "title": "Presentación PPT — Lección 11",
+          "description": "Presentación preparada por Sergio Fustero y Eunice Laveda",
+          "url": "/recursos/2026-q4/ppt/leccion-11.pptx",
+          "storage": "local",
+          "source": {
+            "kind": "url",
+            "url": "https://www.fustero.es/2026t411.pptx",
+            "allowedContentTypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "application/octet-stream"
+            ],
+            "maxBytes": 80000000,
+            "provider": "Fustero",
+            "providerUrl": "https://www.fustero.es/",
+            "etag": "\"14d4151-660ce81d4d8b5\"",
+            "lastModified": "Sat, 21 Nov 2026 19:38:38 GMT"
+          },
+          "checksum": "sha256:2e396e3fe90e5c5ce199c2ea9b8cd45cf983306a83f42dcdec83b4e4f5afb805",
+          "sizeBytes": 21840209
+        }
+      ],
       "title": "Manifestación profética en momentos cruciales",
       "dateRange": "Para el 12/12/2026",
       "startDate": "2026-12-05",
